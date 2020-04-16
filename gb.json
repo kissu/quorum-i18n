@@ -4,7 +4,8 @@
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
                 "CANCEL_TEXT": "this is really nice",
-                "CONFIRM_TEXT": "this is sending to my private repo right now"
+                "CONFIRM_TEXT": "this is sending to my private repo right now",
+		"HIHI": "this string will pretty much fuck all up but I need to see if it's working"
             }
         }
     }
