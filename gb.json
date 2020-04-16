@@ -1,3 +1,10 @@
 {
-  "NICE_MEME": "this is some pure shit :3"
+    "NICE_MEME": "this is some pure shit :3",
+    "ACTION": {
+        "CALL_TO_ACTION": {
+            "CONFIRM_CLOSE": {
+                "CANCEL_TEXT": "this is really nice"
+            }
+        }
+    }
 }
