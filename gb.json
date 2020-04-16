@@ -4,7 +4,7 @@
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
                 "CANCEL_TEXT": "this is really nice",
-                "CONFIRM_TEXT": "this is sending to my private repo right now",
+                "CONFIRM_TEXT": "this is confirmed from nano",
 		"HIHI": "the update seems to be pretty quick !"
             }
         }
