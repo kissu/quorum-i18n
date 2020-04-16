@@ -3,7 +3,8 @@
     "ACTION": {
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
-                "CANCEL_TEXT": "this is really nice"
+                "CANCEL_TEXT": "this is really nice",
+                "CONFIRM_TEXT": "this is sending to my private repo right now"
             }
         }
     }
