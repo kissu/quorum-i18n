@@ -5,7 +5,8 @@
             "CONFIRM_CLOSE": {
                 "CANCEL_TEXT": "this is really nice",
                 "CONFIRM_TEXT": "this is confirmed back from weblate :D",
-                "HIHI": "the update seems to be pretty quick !"
+                "HIHI": "the update seems to be pretty quick !",
+                "MESSAGE": "salut ma bite"
             }
         }
     }
