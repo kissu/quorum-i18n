@@ -9,5 +9,7 @@ else
   NEW_VERSION_NUMBER=$(($OLD_VERSION_NUMBER + 1))
   git tag "v$NEW_VERSION_NUMBER"
 fi
-git push --tags
+# git push --tags
+git tag v1
+git push origin v1
 echo "New tag version created and pushed"
