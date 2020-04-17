@@ -1,5 +1,6 @@
 #!/bin/bash
 VERSION=`git tag | sort -V | tail -1 | cut -f2 -d 'v'`
+echo "nice: $VERSION"
 if [ -z "$VERSION" ]; then
   git tag "v1"
 else
