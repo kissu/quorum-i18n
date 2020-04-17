@@ -4,8 +4,9 @@
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
                 "CANCEL_TEXT": "this is really nice",
-                "CONFIRM_TEXT": "this is confirmed from nano",
-		"HIHI": "the update seems to be pretty quick !"
+                "CONFIRM_TEXT": "this is confirmed back from weblate :D",
+                "HIHI": "the update seems to be pretty quick !",
+                "MESSAGE": "salut ma bite"
             }
         }
     }
