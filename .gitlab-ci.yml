@@ -1,5 +1,6 @@
+before_script:
+  - /bin/bash ./setup_ssh.sh
+
 bump_me_ooooooon:
-  before_script:
-    - /bin/bash ./setup_ssh.sh
   script:
     - /bin/bash ./custom_bump.sh
