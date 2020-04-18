@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "nice meme"
+
 VERSION=`git tag | sort -V | tail -1 | cut -f2 -d 'v'`
 echo "nice: $VERSION"
 if [ -z "$VERSION" ]; then
