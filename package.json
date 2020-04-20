@@ -1,0 +1,16 @@
+{
+  "name": "weblate",
+  "version": "1.0.0",
+  "description": "Repo for all the i18n resources for the Quorum's Sales Team",
+  "private": true,
+  "author": "quorumsco <https://www.quorum.co>",
+  "scripts": {
+    "fix:prettier": "prettier --write \"**/*.json\"",
+    "test": "echo 'nice'"
+  },
+  "dependencies": {
+    "deep-extend": "^0.6.0",
+    "fs-extra": "^9.0.0",
+    "prettier": "^2.0.4"
+  }
+}

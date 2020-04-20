@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "nice meme"
+echo "Bump version"
 
 VERSION=`git tag | sort -V | tail -1 | cut -f2 -d 'v'`
 echo "nice: $VERSION"
