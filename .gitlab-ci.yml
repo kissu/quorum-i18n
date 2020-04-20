@@ -3,5 +3,7 @@
 
 bump_me_ooooooon:
   script:
+    - npm i
+    - node ./testMerge.js
     - /bin/bash ./format_i18n.sh
     - /bin/bash ./bump_version.sh
