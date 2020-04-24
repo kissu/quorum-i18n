@@ -1,9 +1,13 @@
+image: node:latest
+
 # before_script:
 #   - /bin/bash ./setup_ssh.sh
 
 bump_me_ooooooon:
   script:
-    - npm i
+    - npm install
     - node ./testMerge.js
+    - npm run test
+    - npm run fix:prettier
     - /bin/bash ./format_i18n.sh
     - /bin/bash ./bump_version.sh
