@@ -6,10 +6,10 @@ image: node:latest
 bump_me_ooooooon:
   script:
     - npm install
-    - node ./testMerge.js
+    - node ./createLanguageFallbacks.js
     - npm run test
     - npm run fix:prettier
     - /bin/bash ./format_i18n.sh
     - /bin/bash ./bump_version.sh
-    - git remote set-url origin  https://kissu:8E65UiMjehAcWQEY9faT@git@gitlab.com:kissu/test_weblate.git HEAD:master
+    - git remote set-url origin https://kissu:8E65UiMjehAcWQEY9faT@git@gitlab.com:kissu/test_weblate.git HEAD:master
     - git push origin-master
