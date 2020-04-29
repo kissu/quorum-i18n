@@ -22,5 +22,5 @@ bump_me_ooooooon:
     # - echo 'everything is setup properly'
     # - git remote add origin git@gitlab.com:kissu/test_weblate.git
     # - git push --tags origin master
-    # - touch git-push.md
+    - touch git-push.md
     # - git-push kissu@git@gitlab.com:kissu/test_weblate.git
