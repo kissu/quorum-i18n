@@ -13,4 +13,4 @@ bump_me_ooooooon:
     - git config --global user.name TastyCI
     - git config --global user.email hello@kissu.io
     - git remote set-url origin https://kissu:8E65UiMjehAcWQEY9faT@gitlab.com/kissu/test_weblate.git
-    - git push origin-master
+    - git push origin master
