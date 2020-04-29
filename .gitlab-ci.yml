@@ -11,4 +11,5 @@ bump_me_ooooooon:
     - npm run fix:prettier
     - /bin/bash ./format_i18n.sh
     - /bin/bash ./bump_version.sh
-    - git push http://kissu:${PERSONAL_ACCESS_TOKEN}@${REPO_URL} HEAD:master
+    - git remote set-url origin  https://kissu:8E65UiMjehAcWQEY9faT@git@gitlab.com:kissu/test_weblate.git HEAD:master
+    - git push origin-master
