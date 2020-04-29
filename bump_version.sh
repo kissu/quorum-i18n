@@ -13,5 +13,5 @@ else
 fi
 # git push --tags
 git tag v1
-git push origin v1
+# git push origin v1
 echo "New tag version created and pushed"
