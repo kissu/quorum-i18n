@@ -10,5 +10,5 @@ bump_me_ooooooon:
     - npm run test
     - npm run fix:prettier
     - /bin/bash ./bump_version.sh
-    - git remote set-url origin https://kissu:8E65UiMjehAcWQEY9faT@git@gitlab.com:kissu/test_weblate.git HEAD:master
+    - git remote set-url origin https://kissu:8E65UiMjehAcWQEY9faT@git@gitlab.com:kissu/test_weblate.git
     - git push origin-master

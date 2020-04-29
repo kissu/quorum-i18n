@@ -5,8 +5,10 @@ const deepExtend = require('deep-extend') // merge various JSONs
 const allLanguagesVariants = [
   ['fr'],
   ['fr', 'canadian'],
-  ['canadian', 'chelou'],
   ['fr', 'canadian', 'chelou'],
+  ['canadian', 'chelou'],
+  ['canadian', 'chelou', 'meme'],
+  ['canadian', 'meme', 'chelou'],
   ['en'],
   ['en', 'gb']
 ]
