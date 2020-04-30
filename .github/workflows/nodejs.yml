@@ -19,6 +19,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Create JSON merge
       run: |
+        rm merged-locales/*
         npm i
         npm run create:language-fallbacks
         npm run fix:prettier
@@ -28,7 +29,7 @@ jobs:
         git config --local user.name "kissu"
         touch git-push.md
         git add .
-        git commit -m "Pushed from Actions" -a
+        git commit -m "Pushed from Actions" --allow-empty
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
