@@ -1,7 +1,4 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-
-name: Node.js CI
+name: Quorum's i18n
 
 on:
   push:
@@ -10,7 +7,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [12.x]
@@ -21,16 +17,15 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: "run tasty stuff"
+    - name: Create JSON merge
       run: |
-        npm install
         npm run create:language-fallbacks
-        touch git-push.md
         npm run fix:prettier
     - name: Commit files
       run: |
         git config --local user.email "hello@kissu.io"
         git config --local user.name "kissu"
+        touch git-push.md
         git add .
         git commit -m "Pushed from Actions" -a
     - name: Push changes
