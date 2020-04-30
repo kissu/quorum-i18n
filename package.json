@@ -7,7 +7,7 @@
   "scripts": {
     "fix:prettier": "prettier --write \"**/*.json\"",
     "test": "echo 'nice'",
-    "create:language-fallbacks": "node createLanguageFallbacks.js"
+    "create:language-fallbacks": "node ./createLanguageFallbacks.js"
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
