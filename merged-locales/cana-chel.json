@@ -1,0 +1,13 @@
+{
+  "ACTION": {
+    "CALL_TO_ACTION": {
+      "CONFIRM_CLOSE": {
+        "CANCEL_TEXT": "Chelou",
+        "CONFIRM_TEXT": "Quitter la création",
+        "MESSAGE": "Vous n'avez pas terminé la création de votre action. Voulez-vous quitter la page et perdre les informations renseignées ?",
+        "TITLE": "I'm damn canadien dude !!",
+        "ADDITIONAL_ONE": "Hey dude, I'm new :3"
+      }
+    }
+  }
+}
