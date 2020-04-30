@@ -21,7 +21,18 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm run create:language-fallbacks
-    - run: touch git-push.md
-    - run: npm run fix:prettier
+    - name: "run tasty stuff"
+      run: |
+        npm install
+        npm run create:language-fallbacks
+        touch git-push.md
+        npm run fix:prettier
+    - name: Commit files
+      run: |
+        git config --local user.email "hello@kissu.io"
+        git config --local user.name "kissu"
+        git commit -m "Pushed from Actions" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
