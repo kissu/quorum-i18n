@@ -34,3 +34,5 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Bump package.json
+      uses: phips28/gh-action-bump-version@v7.1.0
