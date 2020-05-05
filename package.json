@@ -1,6 +1,6 @@
 {
   "name": "weblate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Repo for all the i18n resources for the Quorum's Sales Team",
   "private": true,
   "author": "quorumsco <https://www.quorum.co>",
