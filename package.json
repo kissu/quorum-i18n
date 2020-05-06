@@ -5,7 +5,6 @@
   "author": "quorumsco <https://www.quorum.co>",
   "scripts": {
     "fix:prettier": "prettier --write \"**/*.json\"",
-    "test": "echo 'nice'",
     "create:language-fallbacks": "node ./createLanguageFallbacks.js"
   },
   "dependencies": {
