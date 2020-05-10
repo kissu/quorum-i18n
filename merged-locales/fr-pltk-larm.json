@@ -2,7 +2,7 @@
   "ACTION": {
     "CALL_TO_ACTION": {
       "CONFIRM_CLOSE": {
-        "CANCEL_TEXT": "Votez pour moi !",
+        "CANCEL_TEXT": "THIS IS DAMN WORKING !!! :3",
         "CONFIRM_TEXT": "Quitter la création",
         "MESSAGE": "Vous n'avez pas terminé la création de votre action. Voulez-vous quitter la page et perdre les informations renseignées ?",
         "TITLE": "Quitter la création de l'action"
@@ -4239,6 +4239,5 @@
       "YEAR": "an | ans"
     },
     "YES": "Oui"
-  },
-  "ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT": "EN FORCE LAREEEEM ! :3"
+  }
 }
