@@ -1,9 +1,3 @@
 {
-  "ACTION": {
-    "CALL_TO_ACTION": {
-      "CONFIRM_CLOSE": {
-        "CANCEL_TEXT": "Je pleure bcp ! :3"
-      }
-    }
-  }
+    "ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT": "EN FORCE LAREEEEM ! :3"
 }
