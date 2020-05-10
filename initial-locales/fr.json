@@ -436,14 +436,14 @@
         },
         "LEVELS": {
           "BOROUGH": "Borough",
-          "DEPARTMENT": "Départements",
-          "DISTRICT": "Circonscriptions",
+          "DEPARTMENT": "Département",
+          "DISTRICT": "Circonscription",
           "IRIS": "IRIS",
-          "MUNICIPALITY": "Communes",
-          "POLLING_STATION": "Bureaux de vote",
+          "MUNICIPALITY": "Commune",
+          "POLLING_STATION": "Bureau de vote",
           "PROVINCE": "Province",
-          "REGION": "Régions",
-          "SECTOR": "Secteurs Statistiques",
+          "REGION": "Région",
+          "SECTOR": "Secteur Statistique",
           "WARD": "Ward"
         },
         "MAIL": "Email : ",
@@ -451,6 +451,7 @@
         "MORE_INFO_LINK": "https://help.quorum.co/fr/articles/3272235-donnees-repertoire-des-donnees-presentes-dans-l-onglet-carte",
         "NO_DATA": "Aucune donnée accessible",
         "NO_SUB_DATA": "Pas de données au niveau inférieur !",
+        "PERSONS": " | 1 personne | {count} personnes",
         "PHONE": "Téléphone : ",
         "PRIO": {
           "$1": "Priorité 1 - Territoire à visiter",
@@ -462,7 +463,7 @@
         "RETRY": "Réessayer ?",
         "ROLE": "Rôle : ",
         "SEE_PROFILE": "Voir le profil",
-        "TODO": "À faire",
+        "TODO": "À faire ",
         "ZOOM_IN": "Zoomer",
         "ZOOM_OUT": "Dézoomer"
       },
@@ -5094,9 +5095,8 @@
     },
     "MAILCHIMP": {
       "MODAL": {
-        "ADDING": "Ajout dans Mailchimp en cours...",
-        "IN_PROGRESS": "Votre demande est en cours de traitement, retrouvez vos listes dans Mailchimp d’ici quelques instants",
-        "PROGRESS": "Progression : {n}%",
+        "ERROR_OCCURED": "Une erreur est survenue avec vo(s) audience(s)",
+        "IN_PROGRESS": "Votre demande est en cours de traitement, retrouvez votre audience Mailchimp à jour d'ici quelques minutes.",
         "TITLE": "Ajouter ce membre à une audience Mailchimp : | Ajouter {n} membres à une audience Mailchimp :"
       },
       "OPEN_POPUP": "Ajouter à une audience Mailchimp",

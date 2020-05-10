@@ -2,7 +2,7 @@
   "ACTION": {
     "CALL_TO_ACTION": {
       "CONFIRM_CLOSE": {
-        "CANCEL_TEXT": "Stay",
+        "CANCEL_TEXT": "Les ONG c'est cool !",
         "CONFIRM_TEXT": "Leave",
         "MESSAGE": "You haven't finished creating your action. The information will not be saved. Are you sure to leave ?",
         "TITLE": "Leave the page"

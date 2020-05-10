@@ -3,14 +3,13 @@ const deepExtend = require('deep-extend') // merge various JSONs
 
 /* eslint-disable */
 const allLanguagesVariants = [
-  ['fr'],
-  ['fr', 'canadian'],
-  ['fr', 'canadian', 'chelou'],
-  ['canadian', 'chelou'],
-  ['canadian', 'chelou', 'meme'],
-  ['canadian', 'meme', 'chelou'],
   ['en'],
-  ['en', 'gb']
+  ['en', 'ong'],
+  ['en', 'ong', 'vert'],
+  ['fr'],
+  ['fr', 'pltk'],
+  ['fr', 'pltk', 'larm'],
+  ['test', 'pltk', 'larm']
 ]
 /* eslint-enable */
 
