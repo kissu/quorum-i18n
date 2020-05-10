@@ -1,11 +1,13 @@
 {
   "name": "quorum-i18n",
   "version": "1.0.12",
+  "type": "module",
   "description": "Repo for all the i18n resources for the Quorum's Sales Team",
   "author": "quorumsco <https://www.quorum.co>",
   "scripts": {
     "fix:prettier": "prettier --write \"**/*.json\"",
-    "create:language-fallbacks": "node ./createLanguageFallbacks.js"
+    "create:language-fallbacks": "node ./createLanguageFallbacks.js",
+    "routine": "rm -f merged-locales/*"
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
