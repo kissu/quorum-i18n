@@ -1,9 +1,6 @@
 {
   "ACTION": {
-    "CALL_TO_ACTION": {
-      "CONFIRM_CLOSE": {
-        "CANCEL_TEXT": "Eheh, derped."
-      }
-    }
-  }
+    "CALL_TO_ACTION": { "CONFIRM_CLOSE": { "CANCEL_TEXT": "Votez pour moi !" } }
+  },
+  "ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT": "EN FORCE LAREEEEM ! :3"
 }
