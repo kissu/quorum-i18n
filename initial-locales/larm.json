@@ -1,9 +1,9 @@
 {
-    "ACTION": {
-        "CALL_TO_ACTION": {
-            "CONFIRM_CLOSE": {
-                "CANCEL_TEXT": "JB n'est jamais content :D"
-            }
-        }
+  "ACTION": {
+    "CALL_TO_ACTION": {
+      "CONFIRM_CLOSE": {
+        "CANCEL_TEXT": "JB n'est jamais content :D"
+      }
     }
+  }
 }
