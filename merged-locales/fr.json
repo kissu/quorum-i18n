@@ -139,7 +139,7 @@
       "DATES": "Dates",
       "END": "Se termine le",
       "LINK": "Lien",
-      "MEMBERS": "Participants",
+      "MEMBERS": "Membres invités",
       "NO_MEMBER": "Aucun membre dans cette action",
       "NO_PITCH": "Pas de note dans cette action",
       "NO_TEAM": "Aucune équipe dans cette action",
@@ -223,7 +223,13 @@
         "STATIC": "Rencontre"
       },
       "UPDATE_ERROR": "Erreur : l'action \"{name}\" n'a pas été mise à jour",
-      "UPDATE_SUCCESS": "L'action \"{name}\" a bien été mise à jour"
+      "UPDATE_SUCCESS": "L'action \"{name}\" a bien été mise à jour",
+      "DELETION": {
+        "CONFIRMATION": "Vous êtes sur le point de supprimer cette action",
+        "TITLE": "Suppression d'une action"
+      },
+      "CONFIRMATION_OPEN_CLOSE": "Êtes-vous sûr de vouloir {action} l'action ?",
+      "CLOSE": "Terminer"
     },
     "SIDEBAR": {
       "KPI": {
@@ -378,7 +384,9 @@
         "CONTACTS": "Contacts",
         "CONTACTS_HERE": "Aucun contact dans la zone | 1 contact dans la zone | {count} contacts dans la zone",
         "DIAGRAMS": {
-          "DATE": { "TITLE": "Nb de rencontres par {span}" },
+          "DATE": {
+            "TITLE": "Nb de rencontres par {span}"
+          },
           "RESET": "Réinitialiser"
         },
         "DONE_ACTIONS": "Action terminée | Actions terminées",
@@ -403,8 +411,13 @@
         "SUPPORTERS": "Soutiens",
         "SUPPORTS_HERE": "Aucun {support} dans la zone | 1 {support} dans la zone | {count} {support}s dans la zone",
         "SUPPORT_DEFAULT": "soutien",
-        "TABS": { "DATA": "Données", "MOBILISATION": "Mobilisation" },
-        "TITLES": { "DATA": "Résumé de la zone" },
+        "TABS": {
+          "DATA": "Données",
+          "MOBILISATION": "Mobilisation"
+        },
+        "TITLES": {
+          "DATA": "Résumé de la zone"
+        },
         "TYPE": "Type :"
       },
       "CAPTION": "Légende",
@@ -533,7 +546,12 @@
       "REMOVE_ALL": "Supprimer le polygone"
     }
   },
-  "COMMUNCATIONS": { "HEADER": { "GENERAL": "Général", "SMS": "SMS" } },
+  "COMMUNCATIONS": {
+    "HEADER": {
+      "GENERAL": "Général",
+      "SMS": "SMS"
+    }
+  },
   "CONTACT": {
     "EDIT": {
       "ACTIONS": "Actions",
@@ -671,7 +689,9 @@
         "formdatas": {
           "data": "Réponses",
           "date": "Date de réponse",
-          "form": { "label": "Questions" }
+          "form": {
+            "label": "Questions"
+          }
         },
         "gender": "Genre",
         "last_updated_by": {
@@ -1027,7 +1047,9 @@
       },
       "WHERE_TO_GET_INFO": "Où trouver cette clé ?"
     },
-    "CONSTANTS": { "WARNING": "Attention" },
+    "CONSTANTS": {
+      "WARNING": "Attention"
+    },
     "CONTACT": {
       "ADDRESS": "Adresse",
       "ADDRESS_INFO": "<span>Le champ adresse contient en réalité les champs :<ul><li>Porte,</li><li>Étage,</li><li>Bâtiment,</li><li>Numéro de voie,</li><li>Voie,</li><li>Code postal</li></ul></span>",
@@ -1091,7 +1113,10 @@
         "SHOW_QUESTION": "Je n'affiche la question"
       },
       "MUST_BE_NUMBER": "Ce n'est pas un numéro !",
-      "NAMES": { "ACTION": "Tunnel d'opportunités", "STATUS": "Statuts" },
+      "NAMES": {
+        "ACTION": "Tunnel d'opportunités",
+        "STATUS": "Statuts"
+      },
       "NEXT_QUESTION": "Question suivante",
       "ONLY_IF": "Seulement si a répondu \"{answer}\"",
       "PRINT": "Imprimer le formulaire",
@@ -1158,7 +1183,10 @@
       "STATUS": "Statuts",
       "TAGS": "Gestion des tags"
     },
-    "MODE": { "ALPHA": "ALPHA", "BETA": "BETA" },
+    "MODE": {
+      "ALPHA": "ALPHA",
+      "BETA": "BETA"
+    },
     "MY_CAMPAIGNS": {
       "CAMPAIGN_CODE": "Code d'invitation",
       "CAMPAIGN_ENDING": "Fin de l'abonnement",
@@ -1200,7 +1228,9 @@
       "UPDATE_PASSWORD": "Mettre à jour votre mot de passe",
       "UPDATE_PROFILE": "Mettre à jour votre profil"
     },
-    "TAGS": { "CONTACTS": "0 contact | un contact | {count} contacts" }
+    "TAGS": {
+      "CONTACTS": "0 contact | un contact | {count} contacts"
+    }
   },
   "SMS": {
     "ANALYTICS": {
@@ -1260,7 +1290,10 @@
       "PLEASE_WRITE_INITIAL": "Merci de d'éditer ce champ",
       "TITLE": "Nom de l'expéditeur, apparaît lors de la réception d'un SMS"
     },
-    "PLACEHOLDERS": { "BODY": "Votre message ...", "TITLE": "Nom de l'espace" },
+    "PLACEHOLDERS": {
+      "BODY": "Votre message ...",
+      "TITLE": "Nom de l'espace"
+    },
     "REMAINING_CHARACTERS": "0 caractére restant | 1 caractére restant | {count} caractères restants",
     "SEND": "Envoyer",
     "SEND_SMS": "Envoyer un SMS",
@@ -1284,7 +1317,11 @@
       "TITLE": "Attention"
     }
   },
-  "STRUCTURE": { "NAVBAR": { "MEMBERS": "Membres" } },
+  "STRUCTURE": {
+    "NAVBAR": {
+      "MEMBERS": "Membres"
+    }
+  },
   "USER_MANAGEMENT": {
     "DETAIL": {
       "ROLES": {
@@ -1424,19 +1461,37 @@
   },
   "VENDORS": {
     "ARCHITECTURE": {
-      "0-14": { "label": "0 - 14 ans" },
-      "0-4": { "label": "0 - 4 ans" },
-      "10-14": { "label": "10 - 14 ans" },
-      "11-14": { "label": "11 - 14 ans" },
-      "15-17": { "label": "15 - 17 ans" },
-      "15-19": { "label": "15 - 19 ans" },
-      "15-24": { "label": "15 - 24 ans" },
+      "0-14": {
+        "label": "0 - 14 ans"
+      },
+      "0-4": {
+        "label": "0 - 4 ans"
+      },
+      "10-14": {
+        "label": "10 - 14 ans"
+      },
+      "11-14": {
+        "label": "11 - 14 ans"
+      },
+      "15-17": {
+        "label": "15 - 17 ans"
+      },
+      "15-19": {
+        "label": "15 - 19 ans"
+      },
+      "15-24": {
+        "label": "15 - 24 ans"
+      },
       "15-24_agency_seasonal_temporary_workers_per_employees_15-24_perc": {
         "gender": "m",
         "label": "Part des intérimaires, saisonniers ou occasionnels chez les travailleurs salariés de 15-24 ans"
       },
-      "15-29": { "label": "15 - 29 ans" },
-      "18-24": { "label": "18 - 24 ans" },
+      "15-29": {
+        "label": "15 - 29 ans"
+      },
+      "18-24": {
+        "label": "18 - 24 ans"
+      },
       "18-24_ERIS_per_population_18-24_perc": {
         "gender": "m",
         "label": "%(e)ris 18-24 ans"
@@ -1445,9 +1500,15 @@
         "gender": "m",
         "label": "%(e)ris 18-64 ans"
       },
-      "2-5": { "label": "2 - 5 ans" },
-      "20-29": { "label": "20 - 29 ans" },
-      "25-29": { "label": "25 - 29 ans" },
+      "2-5": {
+        "label": "2 - 5 ans"
+      },
+      "20-29": {
+        "label": "20 - 29 ans"
+      },
+      "25-29": {
+        "label": "25 - 29 ans"
+      },
       "25-44_ERIS_per_population_25-44_perc": {
         "gender": "m",
         "label": "%(e)ris 25-44 ans"
@@ -1456,34 +1517,62 @@
         "gender": "m",
         "label": "Part des intérimaires, saisonniers ou occasionnels chez les travailleurs salariés de 25-49 ans"
       },
-      "25-54": { "label": "25 - 54 ans" },
-      "30-": { "label": "30 ans et plus" },
-      "30-39": { "label": "30 - 39 ans" },
-      "30-44": { "label": "30 - 44 ans" },
-      "40-49": { "label": "40 - 49 ans" },
-      "45-59": { "label": "45 - 59 ans" },
+      "25-54": {
+        "label": "25 - 54 ans"
+      },
+      "30-": {
+        "label": "30 ans et plus"
+      },
+      "30-39": {
+        "label": "30 - 39 ans"
+      },
+      "30-44": {
+        "label": "30 - 44 ans"
+      },
+      "40-49": {
+        "label": "40 - 49 ans"
+      },
+      "45-59": {
+        "label": "45 - 59 ans"
+      },
       "45-64_ERIS_per_population_45-64_perc": {
         "gender": "m",
         "label": "%(e)ris 45-64 ans"
       },
-      "5-9": { "label": "5 - 9 ans" },
-      "50-59": { "label": "50 - 59 ans" },
+      "5-9": {
+        "label": "5 - 9 ans"
+      },
+      "50-59": {
+        "label": "50 - 59 ans"
+      },
       "50-64_agency_seasonal_temporary_workers_per_employees_50-64_perc": {
         "gender": "m",
         "label": "Part des intérimaires, saisonniers ou occasionnels chez les travailleurs salariés de 50-64 ans"
       },
-      "55-64": { "label": "55 - 64 ans" },
-      "6-10": { "label": "6 - 10 ans" },
-      "60-": { "label": "60 ans et plus" },
-      "60-74": { "label": "60 - 74 ans" },
-      "75-": { "label": "75 ans et plus" },
+      "55-64": {
+        "label": "55 - 64 ans"
+      },
+      "6-10": {
+        "label": "6 - 10 ans"
+      },
+      "60-": {
+        "label": "60 ans et plus"
+      },
+      "60-74": {
+        "label": "60 - 74 ans"
+      },
+      "75-": {
+        "label": "75 ans et plus"
+      },
       "A-level_score_per_entry": {
         "label": "Moyenne des étudiants aux a-levels - 2013 - 2014"
       },
       "A-level_score_per_student": {
         "label": "Moyenne des étudiants aux a-levels - 2013 - 2014"
       },
-      "ACTOCC15P_DROU": { "label": "Allant au travail en deux-roues" },
+      "ACTOCC15P_DROU": {
+        "label": "Allant au travail en deux-roues"
+      },
       "ACTOCC15P_DROU_EVOL_RAW": {
         "label": "Allant au travail en deux-roues - évolution"
       },
@@ -1493,7 +1582,9 @@
       "ACTOCC15P_DROU_PER_ACTOCC15P_EVOL_RAW": {
         "label": "Allant au travail en deux-roues - évolution"
       },
-      "ACTOCC15P_MAR": { "label": "Allant au travail en marchant" },
+      "ACTOCC15P_MAR": {
+        "label": "Allant au travail en marchant"
+      },
       "ACTOCC15P_MAR_EVOL_RAW": {
         "label": "Allant au travail en marchant - évolution"
       },
@@ -1515,7 +1606,9 @@
       "ACTOCC15P_PAS_PER_ACTOCC15P_EVOL_RAW": {
         "label": "Allant au travail sans utiliser de transports - évolution"
       },
-      "ACTOCC15P_TCOM": { "label": "Allant au travail en transport en commun" },
+      "ACTOCC15P_TCOM": {
+        "label": "Allant au travail en transport en commun"
+      },
       "ACTOCC15P_TCOM_EVOL_RAW": {
         "label": "Allant au travail en transport en commun - évolution"
       },
@@ -1525,7 +1618,9 @@
       "ACTOCC15P_TCOM_PER_ACTOCC15P_EVOL_RAW": {
         "label": "Allant au travail en transport en commun - évolution"
       },
-      "ACTOCC15P_VOIT": { "label": "Allant au travail en voiture" },
+      "ACTOCC15P_VOIT": {
+        "label": "Allant au travail en voiture"
+      },
       "ACTOCC15P_VOIT_EVOL_RAW": {
         "label": "Allant au travail en voiture - évolution"
       },
@@ -1535,49 +1630,93 @@
       "ACTOCC15P_VOIT_PER_ACTOCC15P_EVOL_RAW": {
         "label": "Allant au travail en voiture - évolution"
       },
-      "AVERAGE_AGE": { "label": "Âge moyen" },
-      "AVERAGE_AGE_EVOL_RAW": { "label": "Âge moyen - évolution" },
-      "CHOM1524": { "label": "Au chômage 15-24 ans" },
-      "CHOM1524_EVOL_RAW": { "label": "Au chômage 15-24 ans - évolution" },
-      "CHOM1524_PER_ACT1524": { "label": "Au chômage 15-24 ans" },
+      "AVERAGE_AGE": {
+        "label": "Âge moyen"
+      },
+      "AVERAGE_AGE_EVOL_RAW": {
+        "label": "Âge moyen - évolution"
+      },
+      "CHOM1524": {
+        "label": "Au chômage 15-24 ans"
+      },
+      "CHOM1524_EVOL_RAW": {
+        "label": "Au chômage 15-24 ans - évolution"
+      },
+      "CHOM1524_PER_ACT1524": {
+        "label": "Au chômage 15-24 ans"
+      },
       "CHOM1524_PER_ACT1524_EVOL_RAW": {
         "label": "Au chômage 15-24 ans - évolution"
       },
-      "CHOM1564": { "label": "Au chômage 15-64 ans" },
-      "CHOM1564_EVOL_RAW": { "label": "Au chômage 15-64 ans - évolution" },
-      "CHOM1564_PER_ACT1564": { "label": "Au chômage 15-64 ans" },
+      "CHOM1564": {
+        "label": "Au chômage 15-64 ans"
+      },
+      "CHOM1564_EVOL_RAW": {
+        "label": "Au chômage 15-64 ans - évolution"
+      },
+      "CHOM1564_PER_ACT1564": {
+        "label": "Au chômage 15-64 ans"
+      },
       "CHOM1564_PER_ACT1564_EVOL_RAW": {
         "label": "Au chômage 15-64 ans - évolution"
       },
-      "CHOM2554": { "label": "Au chômage 25-54 ans" },
-      "CHOM2554_EVOL_RAW": { "label": "Au chômage 25-54 ans - évolution" },
-      "CHOM2554_PER_ACT2554": { "label": "Au chômage 25-54 ans" },
+      "CHOM2554": {
+        "label": "Au chômage 25-54 ans"
+      },
+      "CHOM2554_EVOL_RAW": {
+        "label": "Au chômage 25-54 ans - évolution"
+      },
+      "CHOM2554_PER_ACT2554": {
+        "label": "Au chômage 25-54 ans"
+      },
       "CHOM2554_PER_ACT2554_EVOL_RAW": {
         "label": "Au chômage 25-54 ans - évolution"
       },
-      "CHOM5564": { "label": "Au chômage 55-64 ans" },
-      "CHOM5564_EVOL_RAW": { "label": "Au chômage 55-64 ans - évolution" },
-      "CHOM5564_PER_ACT5564": { "label": "Au chômage 55-64 ans" },
+      "CHOM5564": {
+        "label": "Au chômage 55-64 ans"
+      },
+      "CHOM5564_EVOL_RAW": {
+        "label": "Au chômage 55-64 ans - évolution"
+      },
+      "CHOM5564_PER_ACT5564": {
+        "label": "Au chômage 55-64 ans"
+      },
       "CHOM5564_PER_ACT5564_EVOL_RAW": {
         "label": "Au chômage 55-64 ans - évolution"
       },
-      "F0014": { "label": "Population féminine 0-14 ans" },
-      "F0014_EVOL_RAW": { "label": "Population féminine 0-14 ans - évolution" },
-      "F0014_PER_POPF": { "label": "Population féminine 0-14 ans" },
+      "F0014": {
+        "label": "Population féminine 0-14 ans"
+      },
+      "F0014_EVOL_RAW": {
+        "label": "Population féminine 0-14 ans - évolution"
+      },
+      "F0014_PER_POPF": {
+        "label": "Population féminine 0-14 ans"
+      },
       "F0014_PER_POPF_EVOL_RAW": {
         "label": "Population féminine 0-14 ans - évolution"
       },
-      "F1529": { "label": "Population féminine 15-29 ans" },
+      "F1529": {
+        "label": "Population féminine 15-29 ans"
+      },
       "F1529_EVOL_RAW": {
         "label": "Population féminine 15-29 ans - évolution"
       },
-      "F1529_PER_POPF": { "label": "Population féminine 15-29 ans" },
+      "F1529_PER_POPF": {
+        "label": "Population féminine 15-29 ans"
+      },
       "F1529_PER_POPF_EVOL_RAW": {
         "label": "Population féminine 15-29 ans - évolution"
       },
-      "F15P_CS1": { "label": "Femmes agricultrices" },
-      "F15P_CS1_EVOL_RAW": { "label": "Femmes agricultrices - évolution" },
-      "F15P_CS1_PER_F15P": { "label": "Femmes agricultrices" },
+      "F15P_CS1": {
+        "label": "Femmes agricultrices"
+      },
+      "F15P_CS1_EVOL_RAW": {
+        "label": "Femmes agricultrices - évolution"
+      },
+      "F15P_CS1_PER_F15P": {
+        "label": "Femmes agricultrices"
+      },
       "F15P_CS1_PER_F15P_EVOL_RAW": {
         "label": "Femmes agricultrices - évolution"
       },
@@ -1605,91 +1744,159 @@
       "F15P_CS3_PER_F15P_EVOL_RAW": {
         "label": "Femmes cadres, professions intel. supérieures (csp3) - évolution"
       },
-      "F15P_CS4": { "label": "Femmes professions intermédiares" },
+      "F15P_CS4": {
+        "label": "Femmes professions intermédiares"
+      },
       "F15P_CS4_EVOL_RAW": {
         "label": "Femmes professions intermédiares - évolution"
       },
-      "F15P_CS4_PER_F15P": { "label": "Femmes professions intermédiares" },
+      "F15P_CS4_PER_F15P": {
+        "label": "Femmes professions intermédiares"
+      },
       "F15P_CS4_PER_F15P_EVOL_RAW": {
         "label": "Femmes professions intermédiares - évolution"
       },
-      "F15P_CS5": { "label": "Femmes employées" },
-      "F15P_CS5_EVOL_RAW": { "label": "Femmes employées - évolution" },
-      "F15P_CS5_PER_F15P": { "label": "Femmes employées" },
-      "F15P_CS5_PER_F15P_EVOL_RAW": { "label": "Femmes employées - évolution" },
-      "F15P_CS6": { "label": "Femmes ouvrières" },
-      "F15P_CS6_EVOL_RAW": { "label": "Femmes ouvrières - évolution" },
-      "F15P_CS6_PER_F15P": { "label": "Femmes ouvrières" },
-      "F15P_CS6_PER_F15P_EVOL_RAW": { "label": "Femmes ouvrières - évolution" },
-      "F15P_CS7": { "label": "Femmes retraitées" },
-      "F15P_CS7_EVOL_RAW": { "label": "Femmes retraitées - évolution" },
-      "F15P_CS7_PER_F15P": { "label": "Femmes retraitées" },
+      "F15P_CS5": {
+        "label": "Femmes employées"
+      },
+      "F15P_CS5_EVOL_RAW": {
+        "label": "Femmes employées - évolution"
+      },
+      "F15P_CS5_PER_F15P": {
+        "label": "Femmes employées"
+      },
+      "F15P_CS5_PER_F15P_EVOL_RAW": {
+        "label": "Femmes employées - évolution"
+      },
+      "F15P_CS6": {
+        "label": "Femmes ouvrières"
+      },
+      "F15P_CS6_EVOL_RAW": {
+        "label": "Femmes ouvrières - évolution"
+      },
+      "F15P_CS6_PER_F15P": {
+        "label": "Femmes ouvrières"
+      },
+      "F15P_CS6_PER_F15P_EVOL_RAW": {
+        "label": "Femmes ouvrières - évolution"
+      },
+      "F15P_CS7": {
+        "label": "Femmes retraitées"
+      },
+      "F15P_CS7_EVOL_RAW": {
+        "label": "Femmes retraitées - évolution"
+      },
+      "F15P_CS7_PER_F15P": {
+        "label": "Femmes retraitées"
+      },
       "F15P_CS7_PER_F15P_EVOL_RAW": {
         "label": "Femmes retraitées - évolution"
       },
-      "F15P_CS8": { "label": "Femmes autres" },
-      "F15P_CS8_EVOL_RAW": { "label": "Femmes autres - évolution" },
-      "F15P_CS8_PER_F15P": { "label": "Femmes autres" },
-      "F15P_CS8_PER_F15P_EVOL_RAW": { "label": "Femmes autres - évolution" },
-      "F3044": { "label": "Population féminine 30-44 ans" },
+      "F15P_CS8": {
+        "label": "Femmes autres"
+      },
+      "F15P_CS8_EVOL_RAW": {
+        "label": "Femmes autres - évolution"
+      },
+      "F15P_CS8_PER_F15P": {
+        "label": "Femmes autres"
+      },
+      "F15P_CS8_PER_F15P_EVOL_RAW": {
+        "label": "Femmes autres - évolution"
+      },
+      "F3044": {
+        "label": "Population féminine 30-44 ans"
+      },
       "F3044_EVOL_RAW": {
         "label": "Population féminine 30-44 ans - évolution"
       },
-      "F3044_PER_POPF": { "label": "Population féminine 30-44 ans" },
+      "F3044_PER_POPF": {
+        "label": "Population féminine 30-44 ans"
+      },
       "F3044_PER_POPF_EVOL_RAW": {
         "label": "Population féminine 30-44 ans - évolution"
       },
-      "F4559": { "label": "Population féminine 45-59 ans" },
+      "F4559": {
+        "label": "Population féminine 45-59 ans"
+      },
       "F4559_EVOL_RAW": {
         "label": "Population féminine 45-59 ans - évolution"
       },
-      "F4559_PER_POPF": { "label": "Population féminine 45-59 ans" },
+      "F4559_PER_POPF": {
+        "label": "Population féminine 45-59 ans"
+      },
       "F4559_PER_POPF_EVOL_RAW": {
         "label": "Population féminine 45-59 ans - évolution"
       },
-      "F6074": { "label": "Population féminine 60-74 ans" },
+      "F6074": {
+        "label": "Population féminine 60-74 ans"
+      },
       "F6074_EVOL_RAW": {
         "label": "Population féminine 60-74 ans - évolution"
       },
-      "F6074_PER_POPF": { "label": "Population féminine 60-74 ans" },
+      "F6074_PER_POPF": {
+        "label": "Population féminine 60-74 ans"
+      },
       "F6074_PER_POPF_EVOL_RAW": {
         "label": "Population féminine 60-74 ans - évolution"
       },
-      "F75P": { "label": "Population féminine 75+ ans" },
-      "F75P_EVOL_RAW": { "label": "Population féminine 75+ ans - évolution" },
-      "F75P_PER_POPF": { "label": "Population féminine 75+ ans" },
+      "F75P": {
+        "label": "Population féminine 75+ ans"
+      },
+      "F75P_EVOL_RAW": {
+        "label": "Population féminine 75+ ans - évolution"
+      },
+      "F75P_PER_POPF": {
+        "label": "Population féminine 75+ ans"
+      },
       "F75P_PER_POPF_EVOL_RAW": {
         "label": "Population féminine 75+ ans - évolution"
       },
-      "FCHOM1564": { "label": "Femmes au chômage 15-64 ans" },
+      "FCHOM1564": {
+        "label": "Femmes au chômage 15-64 ans"
+      },
       "FCHOM1564_EVOL_RAW": {
         "label": "Femmes au chômage 15-64 ans - évolution"
       },
-      "FCHOM1564_PER_FACT1564": { "label": "Femmes au chômage 15-64 ans" },
+      "FCHOM1564_PER_FACT1564": {
+        "label": "Femmes au chômage 15-64 ans"
+      },
       "FCHOM1564_PER_FACT1564_EVOL_RAW": {
         "label": "Femmes au chômage 15-64 ans - évolution"
       },
-      "FNSCOL15P_BAC": { "label": "Femmes avec le baccalauréat" },
+      "FNSCOL15P_BAC": {
+        "label": "Femmes avec le baccalauréat"
+      },
       "FNSCOL15P_BAC_EVOL_RAW": {
         "label": "Femmes avec le baccalauréat - évolution"
       },
-      "FNSCOL15P_BAC_PER_FNSCOL15P": { "label": "Femmes avec le baccalauréat" },
+      "FNSCOL15P_BAC_PER_FNSCOL15P": {
+        "label": "Femmes avec le baccalauréat"
+      },
       "FNSCOL15P_BAC_PER_FNSCOL15P_EVOL_RAW": {
         "label": "Femmes avec le baccalauréat - évolution"
       },
-      "FNSCOL15P_CAPBEP": { "label": "Femmes avec un bep/cap" },
+      "FNSCOL15P_CAPBEP": {
+        "label": "Femmes avec un bep/cap"
+      },
       "FNSCOL15P_CAPBEP_EVOL_RAW": {
         "label": "Femmes avec un bep/cap - évolution"
       },
-      "FNSCOL15P_CAPBEP_PER_FNSCOL15P": { "label": "Femmes avec un bep/cap" },
+      "FNSCOL15P_CAPBEP_PER_FNSCOL15P": {
+        "label": "Femmes avec un bep/cap"
+      },
       "FNSCOL15P_CAPBEP_PER_FNSCOL15P_EVOL_RAW": {
         "label": "Femmes avec un bep/cap - évolution"
       },
-      "FNSCOL15P_DIPLMIN": { "label": "Femmes sans diplôme" },
+      "FNSCOL15P_DIPLMIN": {
+        "label": "Femmes sans diplôme"
+      },
       "FNSCOL15P_DIPLMIN_EVOL_RAW": {
         "label": "Femmes sans diplôme - évolution"
       },
-      "FNSCOL15P_DIPLMIN_PER_FNSCOL15P": { "label": "Femmes sans diplôme" },
+      "FNSCOL15P_DIPLMIN_PER_FNSCOL15P": {
+        "label": "Femmes sans diplôme"
+      },
       "FNSCOL15P_DIPLMIN_PER_FNSCOL15P_EVOL_RAW": {
         "label": "Femmes sans diplôme - évolution"
       },
@@ -1705,30 +1912,46 @@
       "FNSCOL15P_SUP_PER_FNSCOL15P_EVOL_RAW": {
         "label": "Femmes avec un dpliôme de l'enseignement supérieur - évolution"
       },
-      "GCSE_average": { "label": "Taux de gcse - 2014" },
+      "GCSE_average": {
+        "label": "Taux de gcse - 2014"
+      },
       "GRAPA/RG_per_population_65-_perc": {
         "gender": "m",
         "label": "% de bénéficiaires grapa/rg parmi les 65 ans+"
       },
-      "H0014": { "label": "Population masculine 0-14 ans" },
+      "H0014": {
+        "label": "Population masculine 0-14 ans"
+      },
       "H0014_EVOL_RAW": {
         "label": "Population masculine 0-14 ans - évolution"
       },
-      "H0014_PER_POPH": { "label": "Population masculine 0-14 ans" },
+      "H0014_PER_POPH": {
+        "label": "Population masculine 0-14 ans"
+      },
       "H0014_PER_POPH_EVOL_RAW": {
         "label": "Population masculine 0-14 ans - évolution"
       },
-      "H1529": { "label": "Population masculine 15-29 ans" },
+      "H1529": {
+        "label": "Population masculine 15-29 ans"
+      },
       "H1529_EVOL_RAW": {
         "label": "Population masculine 15-29 ans - évolution"
       },
-      "H1529_PER_POPH": { "label": "Population masculine 15-29 ans" },
+      "H1529_PER_POPH": {
+        "label": "Population masculine 15-29 ans"
+      },
       "H1529_PER_POPH_EVOL_RAW": {
         "label": "Population masculine 15-29 ans - évolution"
       },
-      "H15P_CS1": { "label": "Hommes agriculteurs" },
-      "H15P_CS1_EVOL_RAW": { "label": "Hommes agriculteurs - évolution" },
-      "H15P_CS1_PER_H15P": { "label": "Hommes agriculteurs" },
+      "H15P_CS1": {
+        "label": "Hommes agriculteurs"
+      },
+      "H15P_CS1_EVOL_RAW": {
+        "label": "Hommes agriculteurs - évolution"
+      },
+      "H15P_CS1_PER_H15P": {
+        "label": "Hommes agriculteurs"
+      },
       "H15P_CS1_PER_H15P_EVOL_RAW": {
         "label": "Hommes agriculteurs - évolution"
       },
@@ -1756,89 +1979,159 @@
       "H15P_CS3_PER_H15P_EVOL_RAW": {
         "label": "Hommes cadres, professions intel. supérieures (csp3) - évolution"
       },
-      "H15P_CS4": { "label": "Hommes professions intermédiares" },
+      "H15P_CS4": {
+        "label": "Hommes professions intermédiares"
+      },
       "H15P_CS4_EVOL_RAW": {
         "label": "Hommes professions intermédiares - évolution"
       },
-      "H15P_CS4_PER_H15P": { "label": "Hommes professions intermédiares" },
+      "H15P_CS4_PER_H15P": {
+        "label": "Hommes professions intermédiares"
+      },
       "H15P_CS4_PER_H15P_EVOL_RAW": {
         "label": "Hommes professions intermédiares - évolution"
       },
-      "H15P_CS5": { "label": "Hommes employés" },
-      "H15P_CS5_EVOL_RAW": { "label": "Hommes employés - évolution" },
-      "H15P_CS5_PER_H15P": { "label": "Hommes employés" },
-      "H15P_CS5_PER_H15P_EVOL_RAW": { "label": "Hommes employés - évolution" },
-      "H15P_CS6": { "label": "Hommes ouvriers" },
-      "H15P_CS6_EVOL_RAW": { "label": "Hommes ouvriers - évolution" },
-      "H15P_CS6_PER_H15P": { "label": "Hommes ouvriers" },
-      "H15P_CS6_PER_H15P_EVOL_RAW": { "label": "Hommes ouvriers - évolution" },
-      "H15P_CS7": { "label": "Hommes retraités" },
-      "H15P_CS7_EVOL_RAW": { "label": "Hommes retraités - évolution" },
-      "H15P_CS7_PER_H15P": { "label": "Hommes retraités" },
-      "H15P_CS7_PER_H15P_EVOL_RAW": { "label": "Hommes retraités - évolution" },
-      "H15P_CS8": { "label": "Hommes autres" },
-      "H15P_CS8_EVOL_RAW": { "label": "Hommes autres - évolution" },
-      "H15P_CS8_PER_H15P": { "label": "Hommes autres" },
-      "H15P_CS8_PER_H15P_EVOL_RAW": { "label": "Hommes autres - évolution" },
-      "H3044": { "label": "Population masculine 30-44 ans" },
+      "H15P_CS5": {
+        "label": "Hommes employés"
+      },
+      "H15P_CS5_EVOL_RAW": {
+        "label": "Hommes employés - évolution"
+      },
+      "H15P_CS5_PER_H15P": {
+        "label": "Hommes employés"
+      },
+      "H15P_CS5_PER_H15P_EVOL_RAW": {
+        "label": "Hommes employés - évolution"
+      },
+      "H15P_CS6": {
+        "label": "Hommes ouvriers"
+      },
+      "H15P_CS6_EVOL_RAW": {
+        "label": "Hommes ouvriers - évolution"
+      },
+      "H15P_CS6_PER_H15P": {
+        "label": "Hommes ouvriers"
+      },
+      "H15P_CS6_PER_H15P_EVOL_RAW": {
+        "label": "Hommes ouvriers - évolution"
+      },
+      "H15P_CS7": {
+        "label": "Hommes retraités"
+      },
+      "H15P_CS7_EVOL_RAW": {
+        "label": "Hommes retraités - évolution"
+      },
+      "H15P_CS7_PER_H15P": {
+        "label": "Hommes retraités"
+      },
+      "H15P_CS7_PER_H15P_EVOL_RAW": {
+        "label": "Hommes retraités - évolution"
+      },
+      "H15P_CS8": {
+        "label": "Hommes autres"
+      },
+      "H15P_CS8_EVOL_RAW": {
+        "label": "Hommes autres - évolution"
+      },
+      "H15P_CS8_PER_H15P": {
+        "label": "Hommes autres"
+      },
+      "H15P_CS8_PER_H15P_EVOL_RAW": {
+        "label": "Hommes autres - évolution"
+      },
+      "H3044": {
+        "label": "Population masculine 30-44 ans"
+      },
       "H3044_EVOL_RAW": {
         "label": "Population masculine 30-44 ans - évolution"
       },
-      "H3044_PER_POPH": { "label": "Population masculine 30-44 ans" },
+      "H3044_PER_POPH": {
+        "label": "Population masculine 30-44 ans"
+      },
       "H3044_PER_POPH_EVOL_RAW": {
         "label": "Population masculine 30-44 ans - évolution"
       },
-      "H4559": { "label": "Population masculine 45-59 ans" },
+      "H4559": {
+        "label": "Population masculine 45-59 ans"
+      },
       "H4559_EVOL_RAW": {
         "label": "Population masculine 45-59 ans - évolution"
       },
-      "H4559_PER_POPH": { "label": "Population masculine 45-59 ans" },
+      "H4559_PER_POPH": {
+        "label": "Population masculine 45-59 ans"
+      },
       "H4559_PER_POPH_EVOL_RAW": {
         "label": "Population masculine 45-59 ans - évolution"
       },
-      "H6074": { "label": "Population masculine 60-74 ans" },
+      "H6074": {
+        "label": "Population masculine 60-74 ans"
+      },
       "H6074_EVOL_RAW": {
         "label": "Population masculine 60-74 ans - évolution"
       },
-      "H6074_PER_POPH": { "label": "Population masculine 60-74 ans" },
+      "H6074_PER_POPH": {
+        "label": "Population masculine 60-74 ans"
+      },
       "H6074_PER_POPH_EVOL_RAW": {
         "label": "Population masculine 60-74 ans - évolution"
       },
-      "H75P": { "label": "Population masculine 75+ ans" },
-      "H75P_EVOL_RAW": { "label": "Population masculine 75+ ans - évolution" },
-      "H75P_PER_POPH": { "label": "Population masculine 75+ ans" },
+      "H75P": {
+        "label": "Population masculine 75+ ans"
+      },
+      "H75P_EVOL_RAW": {
+        "label": "Population masculine 75+ ans - évolution"
+      },
+      "H75P_PER_POPH": {
+        "label": "Population masculine 75+ ans"
+      },
       "H75P_PER_POPH_EVOL_RAW": {
         "label": "Population masculine 75+ ans - évolution"
       },
-      "HCHOM1564": { "label": "Hommes au chômage 15-64 ans" },
+      "HCHOM1564": {
+        "label": "Hommes au chômage 15-64 ans"
+      },
       "HCHOM1564_EVOL_RAW": {
         "label": "Hommes au chômage 15-64 ans - évolution"
       },
-      "HCHOM1564_PER_HACT1564": { "label": "Hommes au chômage 15-64 ans" },
+      "HCHOM1564_PER_HACT1564": {
+        "label": "Hommes au chômage 15-64 ans"
+      },
       "HCHOM1564_PER_HACT1564_EVOL_RAW": {
         "label": "Hommes au chômage 15-64 ans - évolution"
       },
-      "HNSCOL15P_BAC": { "label": "Hommes avec le baccalauréat" },
+      "HNSCOL15P_BAC": {
+        "label": "Hommes avec le baccalauréat"
+      },
       "HNSCOL15P_BAC_EVOL_RAW": {
         "label": "Hommes avec le baccalauréat - évolution"
       },
-      "HNSCOL15P_BAC_PER_HNSCOL15P": { "label": "Hommes avec le baccalauréat" },
+      "HNSCOL15P_BAC_PER_HNSCOL15P": {
+        "label": "Hommes avec le baccalauréat"
+      },
       "HNSCOL15P_BAC_PER_HNSCOL15P_EVOL_RAW": {
         "label": "Hommes avec le baccalauréat - évolution"
       },
-      "HNSCOL15P_CAPBEP": { "label": "Hommes avec un bep/cap" },
+      "HNSCOL15P_CAPBEP": {
+        "label": "Hommes avec un bep/cap"
+      },
       "HNSCOL15P_CAPBEP_EVOL_RAW": {
         "label": "Hommes avec un bep/cap - évolution"
       },
-      "HNSCOL15P_CAPBEP_PER_HNSCOL15P": { "label": "Hommes avec un bep/cap" },
+      "HNSCOL15P_CAPBEP_PER_HNSCOL15P": {
+        "label": "Hommes avec un bep/cap"
+      },
       "HNSCOL15P_CAPBEP_PER_HNSCOL15P_EVOL_RAW": {
         "label": "Hommes avec un bep/cap - évolution"
       },
-      "HNSCOL15P_DIPLMIN": { "label": "Hommes sans diplôme" },
+      "HNSCOL15P_DIPLMIN": {
+        "label": "Hommes sans diplôme"
+      },
       "HNSCOL15P_DIPLMIN_EVOL_RAW": {
         "label": "Hommes sans diplôme - évolution"
       },
-      "HNSCOL15P_DIPLMIN_PER_HNSCOL15P": { "label": "Hommes sans diplôme" },
+      "HNSCOL15P_DIPLMIN_PER_HNSCOL15P": {
+        "label": "Hommes sans diplôme"
+      },
       "HNSCOL15P_DIPLMIN_PER_HNSCOL15P_EVOL_RAW": {
         "label": "Hommes sans diplôme - évolution"
       },
@@ -1854,33 +2147,57 @@
       "HNSCOL15P_SUP_PER_HNSCOL15P_EVOL_RAW": {
         "label": "Hommes avec un dpliôme de l'enseignement supérieur - évolution"
       },
-      "MENFSEUL": { "label": "Femmes vivant seules" },
-      "MENFSEUL_EVOL_RAW": { "label": "Femmes vivant seules - évolution" },
-      "MENFSEUL_PER_MEN": { "label": "Femmes vivant seules" },
+      "MENFSEUL": {
+        "label": "Femmes vivant seules"
+      },
+      "MENFSEUL_EVOL_RAW": {
+        "label": "Femmes vivant seules - évolution"
+      },
+      "MENFSEUL_PER_MEN": {
+        "label": "Femmes vivant seules"
+      },
       "MENFSEUL_PER_MEN_EVOL_RAW": {
         "label": "Femmes vivant seules - évolution"
       },
-      "MENHSEUL": { "label": "Hommes vivant seuls" },
-      "MENHSEUL_EVOL_RAW": { "label": "Hommes vivant seuls - évolution" },
-      "MENHSEUL_PER_MEN": { "label": "Hommes vivant seuls" },
+      "MENHSEUL": {
+        "label": "Hommes vivant seuls"
+      },
+      "MENHSEUL_EVOL_RAW": {
+        "label": "Hommes vivant seuls - évolution"
+      },
+      "MENHSEUL_PER_MEN": {
+        "label": "Hommes vivant seuls"
+      },
       "MENHSEUL_PER_MEN_EVOL_RAW": {
         "label": "Hommes vivant seuls - évolution"
       },
-      "MENPSEUL": { "label": "Personnes vivant seules" },
-      "MENPSEUL_EVOL_RAW": { "label": "Personnes vivant seules - évolution" },
-      "MENPSEUL_PER_MEN": { "label": "Personnes vivant seules" },
+      "MENPSEUL": {
+        "label": "Personnes vivant seules"
+      },
+      "MENPSEUL_EVOL_RAW": {
+        "label": "Personnes vivant seules - évolution"
+      },
+      "MENPSEUL_PER_MEN": {
+        "label": "Personnes vivant seules"
+      },
       "MENPSEUL_PER_MEN_EVOL_RAW": {
         "label": "Personnes vivant seules - évolution"
       },
-      "NE24F0": { "label": "Familles sans enfant de moins de 25 ans" },
+      "NE24F0": {
+        "label": "Familles sans enfant de moins de 25 ans"
+      },
       "NE24F0_EVOL_RAW": {
         "label": "Familles sans enfant de moins de 25 ans - évolution"
       },
-      "NE24F0_PER_FAM": { "label": "Familles sans enfant de moins de 25 ans" },
+      "NE24F0_PER_FAM": {
+        "label": "Familles sans enfant de moins de 25 ans"
+      },
       "NE24F0_PER_FAM_EVOL_RAW": {
         "label": "Familles sans enfant de moins de 25 ans - évolution"
       },
-      "NE24F1": { "label": "Familles avec 1 enfant de moins de 25 ans" },
+      "NE24F1": {
+        "label": "Familles avec 1 enfant de moins de 25 ans"
+      },
       "NE24F1_EVOL_RAW": {
         "label": "Familles avec 1 enfant de moins de 25 ans - évolution"
       },
@@ -1890,7 +2207,9 @@
       "NE24F1_PER_FAM_EVOL_RAW": {
         "label": "Familles avec 1 enfant de moins de 25 ans - évolution"
       },
-      "NE24F2": { "label": "Familles avec 2 enfants de moins de 25 ans" },
+      "NE24F2": {
+        "label": "Familles avec 2 enfants de moins de 25 ans"
+      },
       "NE24F2_EVOL_RAW": {
         "label": "Familles avec 2 enfants de moins de 25 ans - évolution"
       },
@@ -1900,7 +2219,9 @@
       "NE24F2_PER_FAM_EVOL_RAW": {
         "label": "Familles avec 2 enfants de moins de 25 ans - évolution"
       },
-      "NE24F3": { "label": "Familles avec 3 enfants de moins de 25 ans" },
+      "NE24F3": {
+        "label": "Familles avec 3 enfants de moins de 25 ans"
+      },
       "NE24F3_EVOL_RAW": {
         "label": "Familles avec 3 enfants de moins de 25 ans - évolution"
       },
@@ -1910,7 +2231,9 @@
       "NE24F3_PER_FAM_EVOL_RAW": {
         "label": "Familles avec 3 enfants de moins de 25 ans - évolution"
       },
-      "NE24F4P": { "label": "Familles avec 4+ enfants de moins de 25 ans" },
+      "NE24F4P": {
+        "label": "Familles avec 4+ enfants de moins de 25 ans"
+      },
       "NE24F4P_EVOL_RAW": {
         "label": "Familles avec 4+ enfants de moins de 25 ans - évolution"
       },
@@ -1920,41 +2243,87 @@
       "NE24F4P_PER_FAM_EVOL_RAW": {
         "label": "Familles avec 4+ enfants de moins de 25 ans - évolution"
       },
-      "NPER_RP_GRAT": { "label": "Logements gratuits" },
-      "NPER_RP_GRAT_EVOL_RAW": { "label": "Logements gratuits - évolution" },
-      "NPER_RP_GRAT_PER_NPER_RP": { "label": "Logements gratuits" },
+      "NPER_RP_GRAT": {
+        "label": "Logements gratuits"
+      },
+      "NPER_RP_GRAT_EVOL_RAW": {
+        "label": "Logements gratuits - évolution"
+      },
+      "NPER_RP_GRAT_PER_NPER_RP": {
+        "label": "Logements gratuits"
+      },
       "NPER_RP_GRAT_PER_NPER_RP_EVOL_RAW": {
         "label": "Logements gratuits - évolution"
       },
-      "NPER_RP_LOC": { "label": "Locataires" },
-      "NPER_RP_LOCHLMV": { "label": "Hlm" },
-      "NPER_RP_LOCHLMV_EVOL_RAW": { "label": "Hlm - évolution" },
-      "NPER_RP_LOCHLMV_PER_NPER_RP": { "label": "Hlm" },
-      "NPER_RP_LOCHLMV_PER_NPER_RP_EVOL_RAW": { "label": "Hlm - évolution" },
-      "NPER_RP_LOC_EVOL_RAW": { "label": "Locataires - évolution" },
-      "NPER_RP_LOC_PER_NPER_RP": { "label": "Locataires" },
-      "NPER_RP_LOC_PER_NPER_RP_EVOL_RAW": { "label": "Locataires - évolution" },
-      "NPER_RP_PROP": { "label": "Propriétaires" },
-      "NPER_RP_PROP_EVOL_RAW": { "label": "Propriétaires - évolution" },
-      "NPER_RP_PROP_PER_NPER_RP": { "label": "Propriétaires" },
+      "NPER_RP_LOC": {
+        "label": "Locataires"
+      },
+      "NPER_RP_LOCHLMV": {
+        "label": "Hlm"
+      },
+      "NPER_RP_LOCHLMV_EVOL_RAW": {
+        "label": "Hlm - évolution"
+      },
+      "NPER_RP_LOCHLMV_PER_NPER_RP": {
+        "label": "Hlm"
+      },
+      "NPER_RP_LOCHLMV_PER_NPER_RP_EVOL_RAW": {
+        "label": "Hlm - évolution"
+      },
+      "NPER_RP_LOC_EVOL_RAW": {
+        "label": "Locataires - évolution"
+      },
+      "NPER_RP_LOC_PER_NPER_RP": {
+        "label": "Locataires"
+      },
+      "NPER_RP_LOC_PER_NPER_RP_EVOL_RAW": {
+        "label": "Locataires - évolution"
+      },
+      "NPER_RP_PROP": {
+        "label": "Propriétaires"
+      },
+      "NPER_RP_PROP_EVOL_RAW": {
+        "label": "Propriétaires - évolution"
+      },
+      "NPER_RP_PROP_PER_NPER_RP": {
+        "label": "Propriétaires"
+      },
       "NPER_RP_PROP_PER_NPER_RP_EVOL_RAW": {
         "label": "Propriétaires - évolution"
       },
-      "NSCOL15P_BAC": { "label": "Avec le baccalauréat" },
-      "NSCOL15P_BAC_EVOL_RAW": { "label": "Avec le baccalauréat - évolution" },
-      "NSCOL15P_BAC_PER_NSCOL15P": { "label": "Avec le baccalauréat" },
+      "NSCOL15P_BAC": {
+        "label": "Avec le baccalauréat"
+      },
+      "NSCOL15P_BAC_EVOL_RAW": {
+        "label": "Avec le baccalauréat - évolution"
+      },
+      "NSCOL15P_BAC_PER_NSCOL15P": {
+        "label": "Avec le baccalauréat"
+      },
       "NSCOL15P_BAC_PER_NSCOL15P_EVOL_RAW": {
         "label": "Avec le baccalauréat - évolution"
       },
-      "NSCOL15P_CAPBEP": { "label": "Avec un bep/cap" },
-      "NSCOL15P_CAPBEP_EVOL_RAW": { "label": "Avec un bep/cap - évolution" },
-      "NSCOL15P_CAPBEP_PER_NSCOL15P": { "label": "Avec un bep/cap" },
+      "NSCOL15P_CAPBEP": {
+        "label": "Avec un bep/cap"
+      },
+      "NSCOL15P_CAPBEP_EVOL_RAW": {
+        "label": "Avec un bep/cap - évolution"
+      },
+      "NSCOL15P_CAPBEP_PER_NSCOL15P": {
+        "label": "Avec un bep/cap"
+      },
       "NSCOL15P_CAPBEP_PER_NSCOL15P_EVOL_RAW": {
         "label": "Avec un bep/cap - évolution"
       },
-      "NSCOL15P_DIPLMIN": { "label": "Sans diplôme" },
-      "NSCOL15P_DIPLMIN_EVOL_RAW": { "label": "Sans diplôme - évolution" },
-      "NSCOL15P_DIPLMIN_PER_NSCOL15P": { "label": "Sans diplôme" },
+      "NSCOL15P_DIPLMIN": {
+        "label": "Sans diplôme"
+      },
+      "NSCOL15P_DIPLMIN_EVOL_RAW": {
+        "label": "Sans diplôme - évolution"
+      },
+      "NSCOL15P_DIPLMIN_PER_NSCOL15P": {
+        "label": "Sans diplôme"
+      },
       "NSCOL15P_DIPLMIN_PER_NSCOL15P_EVOL_RAW": {
         "label": "Sans diplôme - évolution"
       },
@@ -1970,30 +2339,66 @@
       "NSCOL15P_SUP_PER_NSCOL15P_EVOL_RAW": {
         "label": "Avec un dpliôme de l'enseignement supérieur - évolution"
       },
-      "PMEN_MENFAM": { "label": "Familles" },
-      "PMEN_MENFAMMONO": { "label": "Ménages " },
-      "PMEN_MENFAMMONO_EVOL_RAW": { "label": "Ménages  - évolution" },
-      "PMEN_MENFAMMONO_PER_PMEN": { "label": "Ménages " },
-      "PMEN_MENFAMMONO_PER_PMEN_EVOL_RAW": { "label": "Ménages  - évolution" },
-      "PMEN_MENFAM_EVOL_RAW": { "label": "Familles - évolution" },
-      "PMEN_MENFAM_PER_PMEN": { "label": "Familles" },
-      "PMEN_MENFAM_PER_PMEN_EVOL_RAW": { "label": "Familles - évolution" },
-      "POP0014": { "label": "Population 0-14 ans" },
-      "POP0014_EVOL_RAW": { "label": "Population 0-14 ans - évolution" },
-      "POP0014_PER_POP": { "label": "Population 0-14 ans" },
+      "PMEN_MENFAM": {
+        "label": "Familles"
+      },
+      "PMEN_MENFAMMONO": {
+        "label": "Ménages "
+      },
+      "PMEN_MENFAMMONO_EVOL_RAW": {
+        "label": "Ménages  - évolution"
+      },
+      "PMEN_MENFAMMONO_PER_PMEN": {
+        "label": "Ménages "
+      },
+      "PMEN_MENFAMMONO_PER_PMEN_EVOL_RAW": {
+        "label": "Ménages  - évolution"
+      },
+      "PMEN_MENFAM_EVOL_RAW": {
+        "label": "Familles - évolution"
+      },
+      "PMEN_MENFAM_PER_PMEN": {
+        "label": "Familles"
+      },
+      "PMEN_MENFAM_PER_PMEN_EVOL_RAW": {
+        "label": "Familles - évolution"
+      },
+      "POP0014": {
+        "label": "Population 0-14 ans"
+      },
+      "POP0014_EVOL_RAW": {
+        "label": "Population 0-14 ans - évolution"
+      },
+      "POP0014_PER_POP": {
+        "label": "Population 0-14 ans"
+      },
       "POP0014_PER_POP_EVOL_RAW": {
         "label": "Population 0-14 ans - évolution"
       },
-      "POP1529": { "label": "Population 15-29 ans" },
-      "POP1529_EVOL_RAW": { "label": "Population 15-29 ans - évolution" },
-      "POP1529_PER_POP": { "label": "Population 15-29 ans" },
+      "POP1529": {
+        "label": "Population 15-29 ans"
+      },
+      "POP1529_EVOL_RAW": {
+        "label": "Population 15-29 ans - évolution"
+      },
+      "POP1529_PER_POP": {
+        "label": "Population 15-29 ans"
+      },
       "POP1529_PER_POP_EVOL_RAW": {
         "label": "Population 15-29 ans - évolution"
       },
-      "POP15P_CS1": { "label": "Agriculteurs" },
-      "POP15P_CS1_EVOL_RAW": { "label": "Agriculteurs - évolution" },
-      "POP15P_CS1_PER_POP15P": { "label": "Agriculteurs" },
-      "POP15P_CS1_PER_POP15P_EVOL_RAW": { "label": "Agriculteurs - évolution" },
+      "POP15P_CS1": {
+        "label": "Agriculteurs"
+      },
+      "POP15P_CS1_EVOL_RAW": {
+        "label": "Agriculteurs - évolution"
+      },
+      "POP15P_CS1_PER_POP15P": {
+        "label": "Agriculteurs"
+      },
+      "POP15P_CS1_PER_POP15P_EVOL_RAW": {
+        "label": "Agriculteurs - évolution"
+      },
       "POP15P_CS2": {
         "label": "Artisans, commercants, chefs d'entreprise (csp2)"
       },
@@ -2018,143 +2423,255 @@
       "POP15P_CS3_PER_POP15P_EVOL_RAW": {
         "label": "Cadres, professions intel. supérieures (csp3) - évolution"
       },
-      "POP15P_CS4": { "label": "Professions intermédiares" },
+      "POP15P_CS4": {
+        "label": "Professions intermédiares"
+      },
       "POP15P_CS4_EVOL_RAW": {
         "label": "Professions intermédiares - évolution"
       },
-      "POP15P_CS4_PER_POP15P": { "label": "Professions intermédiares" },
+      "POP15P_CS4_PER_POP15P": {
+        "label": "Professions intermédiares"
+      },
       "POP15P_CS4_PER_POP15P_EVOL_RAW": {
         "label": "Professions intermédiares - évolution"
       },
-      "POP15P_CS5": { "label": "Employés" },
-      "POP15P_CS5_EVOL_RAW": { "label": "Employés - évolution" },
-      "POP15P_CS5_PER_POP15P": { "label": "Employés" },
-      "POP15P_CS5_PER_POP15P_EVOL_RAW": { "label": "Employés - évolution" },
-      "POP15P_CS6": { "label": "Ouvriers" },
-      "POP15P_CS6_EVOL_RAW": { "label": "Ouvriers - évolution" },
-      "POP15P_CS6_PER_POP15P": { "label": "Ouvriers" },
-      "POP15P_CS6_PER_POP15P_EVOL_RAW": { "label": "Ouvriers - évolution" },
-      "POP15P_CS7": { "label": "Retraités" },
-      "POP15P_CS7_EVOL_RAW": { "label": "Retraités - évolution" },
-      "POP15P_CS7_PER_POP15P": { "label": "Retraités" },
-      "POP15P_CS7_PER_POP15P_EVOL_RAW": { "label": "Retraités - évolution" },
-      "POP15P_CS8": { "label": "Autres" },
-      "POP15P_CS8_EVOL_RAW": { "label": "Autres - évolution" },
-      "POP15P_CS8_PER_POP15P": { "label": "Autres" },
-      "POP15P_CS8_PER_POP15P_EVOL_RAW": { "label": "Autres - évolution" },
-      "POP3044": { "label": "Population 30-44 ans" },
-      "POP3044_EVOL_RAW": { "label": "Population 30-44 ans - évolution" },
-      "POP3044_PER_POP": { "label": "Population 30-44 ans" },
+      "POP15P_CS5": {
+        "label": "Employés"
+      },
+      "POP15P_CS5_EVOL_RAW": {
+        "label": "Employés - évolution"
+      },
+      "POP15P_CS5_PER_POP15P": {
+        "label": "Employés"
+      },
+      "POP15P_CS5_PER_POP15P_EVOL_RAW": {
+        "label": "Employés - évolution"
+      },
+      "POP15P_CS6": {
+        "label": "Ouvriers"
+      },
+      "POP15P_CS6_EVOL_RAW": {
+        "label": "Ouvriers - évolution"
+      },
+      "POP15P_CS6_PER_POP15P": {
+        "label": "Ouvriers"
+      },
+      "POP15P_CS6_PER_POP15P_EVOL_RAW": {
+        "label": "Ouvriers - évolution"
+      },
+      "POP15P_CS7": {
+        "label": "Retraités"
+      },
+      "POP15P_CS7_EVOL_RAW": {
+        "label": "Retraités - évolution"
+      },
+      "POP15P_CS7_PER_POP15P": {
+        "label": "Retraités"
+      },
+      "POP15P_CS7_PER_POP15P_EVOL_RAW": {
+        "label": "Retraités - évolution"
+      },
+      "POP15P_CS8": {
+        "label": "Autres"
+      },
+      "POP15P_CS8_EVOL_RAW": {
+        "label": "Autres - évolution"
+      },
+      "POP15P_CS8_PER_POP15P": {
+        "label": "Autres"
+      },
+      "POP15P_CS8_PER_POP15P_EVOL_RAW": {
+        "label": "Autres - évolution"
+      },
+      "POP3044": {
+        "label": "Population 30-44 ans"
+      },
+      "POP3044_EVOL_RAW": {
+        "label": "Population 30-44 ans - évolution"
+      },
+      "POP3044_PER_POP": {
+        "label": "Population 30-44 ans"
+      },
       "POP3044_PER_POP_EVOL_RAW": {
         "label": "Population 30-44 ans - évolution"
       },
-      "POP4559": { "label": "Population 45-59 ans" },
-      "POP4559_EVOL_RAW": { "label": "Population 45-59 ans - évolution" },
-      "POP4559_PER_POP": { "label": "Population 45-59 ans" },
+      "POP4559": {
+        "label": "Population 45-59 ans"
+      },
+      "POP4559_EVOL_RAW": {
+        "label": "Population 45-59 ans - évolution"
+      },
+      "POP4559_PER_POP": {
+        "label": "Population 45-59 ans"
+      },
       "POP4559_PER_POP_EVOL_RAW": {
         "label": "Population 45-59 ans - évolution"
       },
-      "POP6074": { "label": "Population 60-74 ans" },
-      "POP6074_EVOL_RAW": { "label": "Population 60-74 ans - évolution" },
-      "POP6074_PER_POP": { "label": "Population 60-74 ans" },
+      "POP6074": {
+        "label": "Population 60-74 ans"
+      },
+      "POP6074_EVOL_RAW": {
+        "label": "Population 60-74 ans - évolution"
+      },
+      "POP6074_PER_POP": {
+        "label": "Population 60-74 ans"
+      },
       "POP6074_PER_POP_EVOL_RAW": {
         "label": "Population 60-74 ans - évolution"
       },
-      "POP75P": { "label": "Population 75+ ans" },
-      "POP75P_EVOL_RAW": { "label": "Population 75+ ans - évolution" },
-      "POP75P_PER_POP": { "label": "Population 75+ ans" },
-      "POP75P_PER_POP_EVOL_RAW": { "label": "Population 75+ ans - évolution" },
-      "POP_DENSITY": { "label": "Densité de population" },
-      "POP_DENSITY_EVOL_RAW": { "label": "Densité de population - évolution" },
-      "RP_100120M2": { "label": "Résidences principales 100-120 m2" },
+      "POP75P": {
+        "label": "Population 75+ ans"
+      },
+      "POP75P_EVOL_RAW": {
+        "label": "Population 75+ ans - évolution"
+      },
+      "POP75P_PER_POP": {
+        "label": "Population 75+ ans"
+      },
+      "POP75P_PER_POP_EVOL_RAW": {
+        "label": "Population 75+ ans - évolution"
+      },
+      "POP_DENSITY": {
+        "label": "Densité de population"
+      },
+      "POP_DENSITY_EVOL_RAW": {
+        "label": "Densité de population - évolution"
+      },
+      "RP_100120M2": {
+        "label": "Résidences principales 100-120 m2"
+      },
       "RP_100120M2_EVOL_RAW": {
         "label": "Résidences principales 100-120 m2 - évolution"
       },
-      "RP_100120M2_PER_RP": { "label": "Résidences principales 100-120 m2" },
+      "RP_100120M2_PER_RP": {
+        "label": "Résidences principales 100-120 m2"
+      },
       "RP_100120M2_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 100-120 m2 - évolution"
       },
-      "RP_120M2P": { "label": "Résidences principales 120+ m2" },
+      "RP_120M2P": {
+        "label": "Résidences principales 120+ m2"
+      },
       "RP_120M2P_EVOL_RAW": {
         "label": "Résidences principales 120+ m2 - évolution"
       },
-      "RP_120M2P_PER_RP": { "label": "Résidences principales 120+ m2" },
+      "RP_120M2P_PER_RP": {
+        "label": "Résidences principales 120+ m2"
+      },
       "RP_120M2P_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 120+ m2 - évolution"
       },
-      "RP_1P": { "label": "Résidences principales 1 pièce" },
+      "RP_1P": {
+        "label": "Résidences principales 1 pièce"
+      },
       "RP_1P_EVOL_RAW": {
         "label": "Résidences principales 1 pièce - évolution"
       },
-      "RP_1P_PER_RP": { "label": "Résidences principales 1 pièce" },
+      "RP_1P_PER_RP": {
+        "label": "Résidences principales 1 pièce"
+      },
       "RP_1P_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 1 pièce - évolution"
       },
-      "RP_2P": { "label": "Résidences principales 2 pièces" },
+      "RP_2P": {
+        "label": "Résidences principales 2 pièces"
+      },
       "RP_2P_EVOL_RAW": {
         "label": "Résidences principales 2 pièces - évolution"
       },
-      "RP_2P_PER_RP": { "label": "Résidences principales 2 pièces" },
+      "RP_2P_PER_RP": {
+        "label": "Résidences principales 2 pièces"
+      },
       "RP_2P_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 2 pièces - évolution"
       },
-      "RP_3040M2": { "label": "Résidences principales 30-20 m2" },
+      "RP_3040M2": {
+        "label": "Résidences principales 30-20 m2"
+      },
       "RP_3040M2_EVOL_RAW": {
         "label": "Résidences principales 30-20 m2 - évolution"
       },
-      "RP_3040M2_PER_RP": { "label": "Résidences principales 30-20 m2" },
+      "RP_3040M2_PER_RP": {
+        "label": "Résidences principales 30-20 m2"
+      },
       "RP_3040M2_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 30-20 m2 - évolution"
       },
-      "RP_3P": { "label": "Résidences principales 3 pièces" },
+      "RP_3P": {
+        "label": "Résidences principales 3 pièces"
+      },
       "RP_3P_EVOL_RAW": {
         "label": "Résidences principales 3 pièces - évolution"
       },
-      "RP_3P_PER_RP": { "label": "Résidences principales 3 pièces" },
+      "RP_3P_PER_RP": {
+        "label": "Résidences principales 3 pièces"
+      },
       "RP_3P_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 3 pièces - évolution"
       },
-      "RP_4060M2": { "label": "Résidences principales 40-60 m2" },
+      "RP_4060M2": {
+        "label": "Résidences principales 40-60 m2"
+      },
       "RP_4060M2_EVOL_RAW": {
         "label": "Résidences principales 40-60 m2 - évolution"
       },
-      "RP_4060M2_PER_RP": { "label": "Résidences principales 40-60 m2" },
+      "RP_4060M2_PER_RP": {
+        "label": "Résidences principales 40-60 m2"
+      },
       "RP_4060M2_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 40-60 m2 - évolution"
       },
-      "RP_4P": { "label": "Résidences principales 4 pièces" },
+      "RP_4P": {
+        "label": "Résidences principales 4 pièces"
+      },
       "RP_4P_EVOL_RAW": {
         "label": "Résidences principales 4 pièces - évolution"
       },
-      "RP_4P_PER_RP": { "label": "Résidences principales 4 pièces" },
+      "RP_4P_PER_RP": {
+        "label": "Résidences principales 4 pièces"
+      },
       "RP_4P_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 4 pièces - évolution"
       },
-      "RP_5PP": { "label": "Résidences principales 5+ pièces" },
+      "RP_5PP": {
+        "label": "Résidences principales 5+ pièces"
+      },
       "RP_5PP_EVOL_RAW": {
         "label": "Résidences principales 5+ pièces - évolution"
       },
-      "RP_5PP_PER_RP": { "label": "Résidences principales 5+ pièces" },
+      "RP_5PP_PER_RP": {
+        "label": "Résidences principales 5+ pièces"
+      },
       "RP_5PP_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 5+ pièces - évolution"
       },
-      "RP_6080M2": { "label": "Résidences principales 60-80 m2" },
+      "RP_6080M2": {
+        "label": "Résidences principales 60-80 m2"
+      },
       "RP_6080M2_EVOL_RAW": {
         "label": "Résidences principales 60-80 m2 - évolution"
       },
-      "RP_6080M2_PER_RP": { "label": "Résidences principales 60-80 m2" },
+      "RP_6080M2_PER_RP": {
+        "label": "Résidences principales 60-80 m2"
+      },
       "RP_6080M2_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 60-80 m2 - évolution"
       },
-      "RP_80100M2": { "label": "Résidences principales 80-100 m2" },
+      "RP_80100M2": {
+        "label": "Résidences principales 80-100 m2"
+      },
       "RP_80100M2_EVOL_RAW": {
         "label": "Résidences principales 80-100 m2 - évolution"
       },
-      "RP_80100M2_PER_RP": { "label": "Résidences principales 80-100 m2" },
+      "RP_80100M2_PER_RP": {
+        "label": "Résidences principales 80-100 m2"
+      },
       "RP_80100M2_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 80-100 m2 - évolution"
       },
-      "RP_ACH19": { "label": "Résidences principales constuites avant 1919" },
+      "RP_ACH19": {
+        "label": "Résidences principales constuites avant 1919"
+      },
       "RP_ACH19_EVOL_RAW": {
         "label": "Résidences principales constuites avant 1919 - évolution"
       },
@@ -2164,7 +2681,9 @@
       "RP_ACH19_PER_RP_EVOL_RAW": {
         "label": "Résidences principales constuites avant 1919 - évolution"
       },
-      "RP_ACH45": { "label": "Résidences principales construites 1919-1945" },
+      "RP_ACH45": {
+        "label": "Résidences principales construites 1919-1945"
+      },
       "RP_ACH45_EVOL_RAW": {
         "label": "Résidences principales construites 1919-1945 - évolution"
       },
@@ -2174,7 +2693,9 @@
       "RP_ACH45_PER_RP_EVOL_RAW": {
         "label": "Résidences principales construites 1919-1945 - évolution"
       },
-      "RP_ACH70": { "label": "Résidences principales construites 1945-1970" },
+      "RP_ACH70": {
+        "label": "Résidences principales construites 1945-1970"
+      },
       "RP_ACH70_EVOL_RAW": {
         "label": "Résidences principales construites 1945-1970 - évolution"
       },
@@ -2184,7 +2705,9 @@
       "RP_ACH70_PER_RP_EVOL_RAW": {
         "label": "Résidences principales construites 1945-1970 - évolution"
       },
-      "RP_ACH90": { "label": "Résidences principales construites 1970-1990" },
+      "RP_ACH90": {
+        "label": "Résidences principales construites 1970-1990"
+      },
       "RP_ACH90_EVOL_RAW": {
         "label": "Résidences principales construites 1970-1990 - évolution"
       },
@@ -2194,7 +2717,9 @@
       "RP_ACH90_PER_RP_EVOL_RAW": {
         "label": "Résidences principales construites 1970-1990 - évolution"
       },
-      "RP_ACHTOT": { "label": "Résidences principales construites avant 2013" },
+      "RP_ACHTOT": {
+        "label": "Résidences principales construites avant 2013"
+      },
       "RP_ACHTOT_EVOL_RAW": {
         "label": "Résidences principales construites avant 2013 - évolution"
       },
@@ -2204,60 +2729,109 @@
       "RP_ACHTOT_PER_RP_EVOL_RAW": {
         "label": "Résidences principales construites avant 2013 - évolution"
       },
-      "RP_M30M2": { "label": "Résidences principales 0-30 m2" },
+      "RP_M30M2": {
+        "label": "Résidences principales 0-30 m2"
+      },
       "RP_M30M2_EVOL_RAW": {
         "label": "Résidences principales 0-30 m2 - évolution"
       },
-      "RP_M30M2_PER_RP": { "label": "Résidences principales 0-30 m2" },
+      "RP_M30M2_PER_RP": {
+        "label": "Résidences principales 0-30 m2"
+      },
       "RP_M30M2_PER_RP_EVOL_RAW": {
         "label": "Résidences principales 0-30 m2 - évolution"
       },
-      "SCOL0205": { "label": "Scolarisés 2-5 ans" },
-      "SCOL0205_EVOL_RAW": { "label": "Scolarisés 2-5 ans - évolution" },
-      "SCOL0205_PER_POP0205": { "label": "Scolarisés 2-5 ans" },
+      "SCOL0205": {
+        "label": "Scolarisés 2-5 ans"
+      },
+      "SCOL0205_EVOL_RAW": {
+        "label": "Scolarisés 2-5 ans - évolution"
+      },
+      "SCOL0205_PER_POP0205": {
+        "label": "Scolarisés 2-5 ans"
+      },
       "SCOL0205_PER_POP0205_EVOL_RAW": {
         "label": "Scolarisés 2-5 ans - évolution"
       },
-      "SCOL0610": { "label": "Scolarisés 6-10 ans" },
-      "SCOL0610_EVOL_RAW": { "label": "Scolarisés 6-10 ans - évolution" },
-      "SCOL0610_PER_POP0610": { "label": "Scolarisés 6-10 ans" },
+      "SCOL0610": {
+        "label": "Scolarisés 6-10 ans"
+      },
+      "SCOL0610_EVOL_RAW": {
+        "label": "Scolarisés 6-10 ans - évolution"
+      },
+      "SCOL0610_PER_POP0610": {
+        "label": "Scolarisés 6-10 ans"
+      },
       "SCOL0610_PER_POP0610_EVOL_RAW": {
         "label": "Scolarisés 6-10 ans - évolution"
       },
-      "SCOL1114": { "label": "Scolarisés 11-14 ans" },
-      "SCOL1114_EVOL_RAW": { "label": "Scolarisés 11-14 ans - évolution" },
-      "SCOL1114_PER_POP1114": { "label": "Scolarisés 11-14 ans" },
+      "SCOL1114": {
+        "label": "Scolarisés 11-14 ans"
+      },
+      "SCOL1114_EVOL_RAW": {
+        "label": "Scolarisés 11-14 ans - évolution"
+      },
+      "SCOL1114_PER_POP1114": {
+        "label": "Scolarisés 11-14 ans"
+      },
       "SCOL1114_PER_POP1114_EVOL_RAW": {
         "label": "Scolarisés 11-14 ans - évolution"
       },
-      "SCOL1517": { "label": "Scolarisés 15-17 ans" },
-      "SCOL1517_EVOL_RAW": { "label": "Scolarisés 15-17 ans - évolution" },
-      "SCOL1517_PER_POP1517": { "label": "Scolarisés 15-17 ans" },
+      "SCOL1517": {
+        "label": "Scolarisés 15-17 ans"
+      },
+      "SCOL1517_EVOL_RAW": {
+        "label": "Scolarisés 15-17 ans - évolution"
+      },
+      "SCOL1517_PER_POP1517": {
+        "label": "Scolarisés 15-17 ans"
+      },
       "SCOL1517_PER_POP1517_EVOL_RAW": {
         "label": "Scolarisés 15-17 ans - évolution"
       },
-      "SCOL1824": { "label": "Scolarisés 18-24 ans" },
-      "SCOL1824_EVOL_RAW": { "label": "Scolarisés 18-24 ans - évolution" },
-      "SCOL1824_PER_POP1824": { "label": "Scolarisés 18-24 ans" },
+      "SCOL1824": {
+        "label": "Scolarisés 18-24 ans"
+      },
+      "SCOL1824_EVOL_RAW": {
+        "label": "Scolarisés 18-24 ans - évolution"
+      },
+      "SCOL1824_PER_POP1824": {
+        "label": "Scolarisés 18-24 ans"
+      },
       "SCOL1824_PER_POP1824_EVOL_RAW": {
         "label": "Scolarisés 18-24 ans - évolution"
       },
-      "SCOL2529": { "label": "Scolarisés 25-29 ans" },
-      "SCOL2529_EVOL_RAW": { "label": "Scolarisés 25-29 ans - évolution" },
-      "SCOL2529_PER_POP2529": { "label": "Scolarisés 25-29 ans" },
+      "SCOL2529": {
+        "label": "Scolarisés 25-29 ans"
+      },
+      "SCOL2529_EVOL_RAW": {
+        "label": "Scolarisés 25-29 ans - évolution"
+      },
+      "SCOL2529_PER_POP2529": {
+        "label": "Scolarisés 25-29 ans"
+      },
       "SCOL2529_PER_POP2529_EVOL_RAW": {
         "label": "Scolarisés 25-29 ans - évolution"
       },
-      "SCOL30P": { "label": "Scolarisés 30+ ans" },
-      "SCOL30P_EVOL_RAW": { "label": "Scolarisés 30+ ans - évolution" },
-      "SCOL30P_PER_POP30P": { "label": "Scolarisés 30+ ans" },
+      "SCOL30P": {
+        "label": "Scolarisés 30+ ans"
+      },
+      "SCOL30P_EVOL_RAW": {
+        "label": "Scolarisés 30+ ans - évolution"
+      },
+      "SCOL30P_PER_POP30P": {
+        "label": "Scolarisés 30+ ans"
+      },
       "SCOL30P_PER_POP30P_EVOL_RAW": {
         "label": "Scolarisés 30+ ans - évolution"
       },
       "_LSOASs_worst_50perc_perc": {
         "label": "Taux de lsoas (lower layer super output area) parmi les 50% pires du pays - 2010"
       },
-      "abstentions": { "gender": "m", "label": "Abstention" },
+      "abstentions": {
+        "gender": "m",
+        "label": "Abstention"
+      },
       "abstentions_per_registered_perc": {
         "gender": "f",
         "label": "Abstention"
@@ -2282,11 +2856,22 @@
         "gender": "m",
         "label": "Services de soins à domicile"
       },
-      "age": { "label": "Date de construction" },
-      "age_group": { "label": "Tranches d'âge" },
-      "age_groups": { "label": "Tranches d'âge" },
-      "age_pop": { "label": "Âge" },
-      "agency": { "gender": "m", "label": "Intérimaires" },
+      "age": {
+        "label": "Date de construction"
+      },
+      "age_group": {
+        "label": "Tranches d'âge"
+      },
+      "age_groups": {
+        "label": "Tranches d'âge"
+      },
+      "age_pop": {
+        "label": "Âge"
+      },
+      "agency": {
+        "gender": "m",
+        "label": "Intérimaires"
+      },
       "agency_seasonal_temporary_workers_per_employees_perc": {
         "gender": "m",
         "label": "Part des intérimaires, saisonniers ou occasionnels chez les travailleurs salariés"
@@ -2307,7 +2892,9 @@
         "gender": "m",
         "label": "Aide sociale à l'enfance"
       },
-      "all_parties": { "label": "Vue globale" },
+      "all_parties": {
+        "label": "Vue globale"
+      },
       "ambulance_calls_alcohol-related_per_population": {
         "label": "Taux d'appels urgences liés à l'alcool - 2014"
       },
@@ -2321,59 +2908,88 @@
       "avegarde_public_transport_accessibility_score": {
         "label": "Score d'accessibilité aux transports en commun - 2014"
       },
-      "average_age": { "gender": "m", "label": "Âge moyen" },
+      "average_age": {
+        "gender": "m",
+        "label": "Âge moyen"
+      },
       "average_declared_income": {
         "gender": "m",
         "label": "Revenu moyen par déclaration"
       },
-      "average_income": { "gender": "m", "label": "Revenu moyen par habitant" },
+      "average_income": {
+        "gender": "m",
+        "label": "Revenu moyen par habitant"
+      },
       "bame_per_population_perc": {
         "label": "% bame (noir, asiatique et autres minorités ethniques) - 2011"
       },
-      "belgium_elections_br": { "label": "Élections fédérales - bruxelles" },
+      "belgium_elections_br": {
+        "label": "Élections fédérales - bruxelles"
+      },
       "belgium_elections_br_2014": {
         "label": "Élections fédérales - bruxelles - 2014"
       },
       "belgium_elections_br_2019": {
         "label": "Élections fédérales - bruxelles - 2019"
       },
-      "belgium_elections_ck": { "label": "Élections fédérales - chambre" },
+      "belgium_elections_ck": {
+        "label": "Élections fédérales - chambre"
+      },
       "belgium_elections_ck_2014": {
         "label": "Élections fédérales - chambre - 2014"
       },
       "belgium_elections_ck_2019": {
         "label": "Élections fédérales - chambre - 2019"
       },
-      "belgium_elections_de": { "label": "Élections fédérales - germanophone" },
+      "belgium_elections_de": {
+        "label": "Élections fédérales - germanophone"
+      },
       "belgium_elections_de_2014": {
         "label": "Élections fédérales - germanophone - 2014"
       },
       "belgium_elections_de_2019": {
         "label": "Élections fédérales - germanophone - 2019"
       },
-      "belgium_elections_eu": { "label": "Élections européennes" },
-      "belgium_elections_eu_2014": { "label": "Élections européennes - 2014" },
-      "belgium_elections_eu_2019": { "label": "Élections européennes - 2019" },
-      "belgium_elections_vl": { "label": "Élections fédérales - flandres" },
+      "belgium_elections_eu": {
+        "label": "Élections européennes"
+      },
+      "belgium_elections_eu_2014": {
+        "label": "Élections européennes - 2014"
+      },
+      "belgium_elections_eu_2019": {
+        "label": "Élections européennes - 2019"
+      },
+      "belgium_elections_vl": {
+        "label": "Élections fédérales - flandres"
+      },
       "belgium_elections_vl_2014": {
         "label": "Élections fédérales - flandres - 2014"
       },
       "belgium_elections_vl_2019": {
         "label": "Élections fédérales - flandres - 2019"
       },
-      "belgium_elections_wl": { "label": "Élections fédérales - wallonie" },
+      "belgium_elections_wl": {
+        "label": "Élections fédérales - wallonie"
+      },
       "belgium_elections_wl_2014": {
         "label": "Élections fédérales - wallonie - 2014"
       },
       "belgium_elections_wl_2019": {
         "label": "Élections fédérales - wallonie - 2019"
       },
-      "benefits": { "label": "Prestations sociales" },
+      "benefits": {
+        "label": "Prestations sociales"
+      },
       "bicycle_to_work_perc": {
         "label": "Taux de personnes allant au travail en vélo - 2011"
       },
-      "bru": { "gender": "m", "label": "Données bruxelles" },
-      "cars_per_household": { "label": "Voitures par ménage- 2011" },
+      "bru": {
+        "gender": "m",
+        "label": "Données bruxelles"
+      },
+      "cars_per_household": {
+        "label": "Voitures par ménage- 2011"
+      },
       "centers_adults_families_difficulties": {
         "gender": "m",
         "label": "Centres pour adultes et familles en difficulté"
@@ -2393,37 +3009,81 @@
         "gender": "m",
         "label": "Enfants de familles en difficulté"
       },
-      "children_number": { "gender": "m", "label": "Nombre d'enfants" },
+      "children_number": {
+        "gender": "m",
+        "label": "Nombre d'enfants"
+      },
       "chrs_centre_d_hebergement_et_de_readaptation_sociale": {
         "gender": "m",
         "label": "Centres d'hébergement et de réadaptation sociale"
       },
-      "council_2018": { "label": "Élections du council 2018" },
-      "country": { "label": "Pays" },
-      "country_label": { "label": "Libellé pays" },
-      "creches": { "gender": "m", "label": "Crèches" },
-      "crime_rate": { "label": "Taux de criminalité - 2014 - 2015" },
-      "csp": { "label": "Catégories socio-professionnelles" },
-      "csp1": { "label": "Agriculteurs exploitants (csp1)" },
-      "csp2": { "label": "Artisans, commercants, chefs d'entreprise (csp2)" },
-      "csp3": { "label": "Cadres, professions intel. supérieures (csp3)" },
-      "csp4": { "label": "Professions intermédiaires (csp4)" },
-      "csp5": { "label": "Employés (csp5)" },
-      "csp6": { "label": "Ouvriers (csp6)" },
-      "csp7": { "label": "Retraités (csp7)" },
-      "csp8": { "label": "Autres (csp8)" },
+      "council_2018": {
+        "label": "Élections du council 2018"
+      },
+      "country": {
+        "label": "Pays"
+      },
+      "country_label": {
+        "label": "Libellé pays"
+      },
+      "creches": {
+        "gender": "m",
+        "label": "Crèches"
+      },
+      "crime_rate": {
+        "label": "Taux de criminalité - 2014 - 2015"
+      },
+      "csp": {
+        "label": "Catégories socio-professionnelles"
+      },
+      "csp1": {
+        "label": "Agriculteurs exploitants (csp1)"
+      },
+      "csp2": {
+        "label": "Artisans, commercants, chefs d'entreprise (csp2)"
+      },
+      "csp3": {
+        "label": "Cadres, professions intel. supérieures (csp3)"
+      },
+      "csp4": {
+        "label": "Professions intermédiaires (csp4)"
+      },
+      "csp5": {
+        "label": "Employés (csp5)"
+      },
+      "csp6": {
+        "label": "Ouvriers (csp6)"
+      },
+      "csp7": {
+        "label": "Retraités (csp7)"
+      },
+      "csp8": {
+        "label": "Autres (csp8)"
+      },
       "delibirate_fires_per_population1000": {
         "label": "Feux criminels pour 1000 personnes - 2014"
       },
-      "demography": { "label": "Démographie" },
+      "demography": {
+        "label": "Démographie"
+      },
       "demography_evolution": {
         "label": "Évolution de la population, de l'âge et des catégories socio-professionnelles"
       },
-      "density": { "label": "Densité la population" },
-      "department": { "label": "Département" },
-      "department_label": { "label": "Libellé département" },
-      "detached_houses_perc": { "label": "Taux de maisons indépendantes" },
-      "detail": { "label": "Détail" },
+      "density": {
+        "label": "Densité la population"
+      },
+      "department": {
+        "label": "Département"
+      },
+      "department_label": {
+        "label": "Libellé département"
+      },
+      "detached_houses_perc": {
+        "label": "Taux de maisons indépendantes"
+      },
+      "detail": {
+        "label": "Détail"
+      },
       "dwelling_council_tax_bands_A-B_perc": {
         "label": "Taux de logements imposés par le council -  catégorie a ou b - 2015"
       },
@@ -2433,8 +3093,12 @@
       "dwelling_council_tax_bands_F-H_perc": {
         "label": "Taux de logements imposés par le council -  catégories f, g, h - 2015"
       },
-      "education": { "label": "Éducation" },
-      "elections": { "label": "Élections" },
+      "education": {
+        "label": "Éducation"
+      },
+      "elections": {
+        "label": "Élections"
+      },
       "elections-legislative-2017-turn-1": {
         "label": "Élections législatives 2017 tour 1"
       },
@@ -2453,9 +3117,15 @@
       "elections-regional-2015-turn-2": {
         "label": "Élections régionales 2015 tour 2"
       },
-      "employed-16-64": { "label": "Employés (16-64) - 2011" },
-      "employment": { "label": "Chômage" },
-      "employment_rate_16-64": { "label": "Taux d'emploi (16-64) - 2011" },
+      "employed-16-64": {
+        "label": "Employés (16-64) - 2011"
+      },
+      "employment": {
+        "label": "Chômage"
+      },
+      "employment_rate_16-64": {
+        "label": "Taux d'emploi (16-64) - 2011"
+      },
       "employment_rate_resident_population": {
         "label": "Taux d'emploi résidents - 2013"
       },
@@ -2474,12 +3144,24 @@
         "gender": "m",
         "label": "Services à domicile ou ambulatoires"
       },
-      "ethnic_foreign": { "label": "Origines" },
-      "european": { "label": "Européennes" },
-      "european_elections_2019": { "label": "Élections européennes 2019" },
-      "evol": { "label": "Évolution par an" },
-      "evol_2013-2016": { "label": "Évolution par an (2013-2016)" },
-      "families": { "label": "Familles" },
+      "ethnic_foreign": {
+        "label": "Origines"
+      },
+      "european": {
+        "label": "Européennes"
+      },
+      "european_elections_2019": {
+        "label": "Élections européennes 2019"
+      },
+      "evol": {
+        "label": "Évolution par an"
+      },
+      "evol_2013-2016": {
+        "label": "Évolution par an (2013-2016)"
+      },
+      "families": {
+        "label": "Familles"
+      },
       "families_1_children_under_25": {
         "gender": "m",
         "label": "Familles 1 enfant moins de 25 ans"
@@ -2520,8 +3202,13 @@
         "gender": "m",
         "label": "Familles en couple sans enfants"
       },
-      "families_per_households": { "gender": "m", "label": "Taux de famille" },
-      "female": { "label": "Femmes" },
+      "families_per_households": {
+        "gender": "m",
+        "label": "Taux de famille"
+      },
+      "female": {
+        "label": "Femmes"
+      },
       "female_ERIS_per_female_population_perc": {
         "gender": "m",
         "label": "%(e)ris femmes"
@@ -2740,7 +3427,10 @@
         "gender": "m",
         "label": "Taux des femmes professions intermédiaires"
       },
-      "female_population_csp5": { "gender": "m", "label": "Femmes employées" },
+      "female_population_csp5": {
+        "gender": "m",
+        "label": "Femmes employées"
+      },
       "female_population_csp5_evol": {
         "gender": "f",
         "label": "Évolution des femmes employées"
@@ -2749,7 +3439,10 @@
         "gender": "m",
         "label": "Taux des femmes employées"
       },
-      "female_population_csp6": { "gender": "m", "label": "Femmes ouvrières" },
+      "female_population_csp6": {
+        "gender": "m",
+        "label": "Femmes ouvrières"
+      },
       "female_population_csp6_evol": {
         "gender": "f",
         "label": "Évolution des femmes ouvrières"
@@ -2758,7 +3451,10 @@
         "gender": "m",
         "label": "Taux des femmes ouvrières"
       },
-      "female_population_csp7": { "gender": "m", "label": "Femmes retraitées" },
+      "female_population_csp7": {
+        "gender": "m",
+        "label": "Femmes retraitées"
+      },
       "female_population_csp7_evol": {
         "gender": "f",
         "label": "Évolution des femmes retraitées"
@@ -2767,7 +3463,10 @@
         "gender": "m",
         "label": "Taux des femmes retraitées"
       },
-      "female_population_csp8": { "gender": "m", "label": "Femmes autres" },
+      "female_population_csp8": {
+        "gender": "m",
+        "label": "Femmes autres"
+      },
       "female_population_csp8_evol": {
         "gender": "f",
         "label": "Évolution des femmes (autres)"
@@ -2820,7 +3519,9 @@
         "gender": "m",
         "label": "Taux de chômage femmes (15 - 64 ans)"
       },
-      "first_choice": { "label": "Premier choix" },
+      "first_choice": {
+        "label": "Premier choix"
+      },
       "flat_maisonette_appartment_perc": {
         "label": "Taux d'appartements ou maisonnettes - 2011"
       },
@@ -2828,16 +3529,39 @@
         "gender": "m",
         "label": "Population totale de nationalité étrangère (nombre de personnes)"
       },
-      "garde_d_enfant_d_age_prescolaire": { "gender": "m", "label": "Crèches" },
-      "general_fertility_rate": { "label": "Taux de fertilité - 2013" },
-      "global": { "label": "Global" },
-      "graduation": { "label": "Baccalauréat" },
-      "growth_rate": { "gender": "m", "label": "Taux de croissance" },
-      "high_education": { "label": "Éducation supérieure" },
-      "higher_education": { "label": "Études supérieures" },
-      "household_status": { "gender": "m", "label": "Situation du ménage" },
-      "households": { "label": "Ménages et familles" },
-      "households_london": { "label": "Ménages - immobilier" },
+      "garde_d_enfant_d_age_prescolaire": {
+        "gender": "m",
+        "label": "Crèches"
+      },
+      "general_fertility_rate": {
+        "label": "Taux de fertilité - 2013"
+      },
+      "global": {
+        "label": "Global"
+      },
+      "graduation": {
+        "label": "Baccalauréat"
+      },
+      "growth_rate": {
+        "gender": "m",
+        "label": "Taux de croissance"
+      },
+      "high_education": {
+        "label": "Éducation supérieure"
+      },
+      "higher_education": {
+        "label": "Études supérieures"
+      },
+      "household_status": {
+        "gender": "m",
+        "label": "Situation du ménage"
+      },
+      "households": {
+        "label": "Ménages et familles"
+      },
+      "households_london": {
+        "label": "Ménages - immobilier"
+      },
       "households_married_no_child_per_households_perc": {
         "gender": "m",
         "label": "Part des ménages de type couples mariés sans enfant"
@@ -2889,23 +3613,47 @@
         "gender": "m",
         "label": "Autres seul·e·s avec enfant"
       },
-      "housing": { "label": "Logement" },
+      "housing": {
+        "label": "Logement"
+      },
       "housing_benefits_claimant_rate": {
         "label": "Taux de bénéficiaires d'aides au logement - 2015"
       },
-      "incidents": { "label": "Incivilités - accidents" },
-      "income": { "gender": "m", "label": "Revenu" },
-      "indice_of_depravation": { "label": "Indice de dépravation - 2010" },
-      "iris_id": { "label": "Code iris" },
-      "iris_label": { "label": "Libellé iris" },
-      "iris_old": { "label": "Ancien code iris" },
-      "isolated_elders": { "gender": "m", "label": "Personnes âgées isolées" },
-      "jobs": { "label": "Emplois - 2013" },
-      "jsa_rate": { "label": "Taux de chômeurs recevant une indemnité - 2015" },
+      "incidents": {
+        "label": "Incivilités - accidents"
+      },
+      "income": {
+        "gender": "m",
+        "label": "Revenu"
+      },
+      "indice_of_depravation": {
+        "label": "Indice de dépravation - 2010"
+      },
+      "iris_id": {
+        "label": "Code iris"
+      },
+      "iris_label": {
+        "label": "Libellé iris"
+      },
+      "iris_old": {
+        "label": "Ancien code iris"
+      },
+      "isolated_elders": {
+        "gender": "m",
+        "label": "Personnes âgées isolées"
+      },
+      "jobs": {
+        "label": "Emplois - 2013"
+      },
+      "jsa_rate": {
+        "label": "Taux de chômeurs recevant une indemnité - 2015"
+      },
       "killed_injured_road": {
         "label": "Nombre de tués ou blessés sur la route - 2014"
       },
-      "legislative": { "label": "Législatives" },
+      "legislative": {
+        "label": "Législatives"
+      },
       "level_4-_perc": {
         "label": "Taux de personnes avec une qualification 4 ou plus - 2011"
       },
@@ -2968,7 +3716,9 @@
         "gender": "m",
         "label": "Taux de logement de 3 pièces"
       },
-      "main_residences_40-60_m2": { "label": "Résidences de 40 à 60 m2" },
+      "main_residences_40-60_m2": {
+        "label": "Résidences de 40 à 60 m2"
+      },
       "main_residences_40-60_m2_per_main_residences": {
         "label": "Taux de résidences de 40 à 60 m2"
       },
@@ -3068,12 +3818,18 @@
         "gender": "m",
         "label": "Taux de nouvelles résidences (après 2013)"
       },
-      "main_residences_free": { "gender": "m", "label": "Logements gratuit" },
+      "main_residences_free": {
+        "gender": "m",
+        "label": "Logements gratuit"
+      },
       "main_residences_free_per_main_residences": {
         "gender": "m",
         "label": "Taux de logements gratuit"
       },
-      "main_residences_owners": { "gender": "m", "label": "Propriétaires" },
+      "main_residences_owners": {
+        "gender": "m",
+        "label": "Propriétaires"
+      },
       "main_residences_owners_per_main_residences": {
         "gender": "m",
         "label": "Taux de propriétaires"
@@ -3086,12 +3842,17 @@
         "gender": "m",
         "label": "Taux de logements hlm"
       },
-      "main_residences_tenants": { "gender": "m", "label": "Locataires" },
+      "main_residences_tenants": {
+        "gender": "m",
+        "label": "Locataires"
+      },
       "main_residences_tenants_per_main_residences": {
         "gender": "m",
         "label": "Taux de locataires"
       },
-      "male": { "label": "Hommes" },
+      "male": {
+        "label": "Hommes"
+      },
       "male_ERIS_per_male_population_perc": {
         "gender": "m",
         "label": "%(e)ris hommes"
@@ -3104,7 +3865,9 @@
         "gender": "m",
         "label": "Part des intérimaires, saisonniers ou occasionnels chez les travailleurs salariés hommes"
       },
-      "male_female": { "label": "Hommes et femmes" },
+      "male_female": {
+        "label": "Hommes et femmes"
+      },
       "male_households_isolated_per_households_perc": {
         "gender": "m",
         "label": "Part des ménages de type hommes isolés"
@@ -3307,7 +4070,10 @@
         "gender": "m",
         "label": "Taux des hommes professions intermédiaires"
       },
-      "male_population_csp5": { "gender": "m", "label": "Hommes employés" },
+      "male_population_csp5": {
+        "gender": "m",
+        "label": "Hommes employés"
+      },
       "male_population_csp5_evol": {
         "gender": "f",
         "label": "Évolution des hommes employés"
@@ -3316,7 +4082,10 @@
         "gender": "m",
         "label": "Taux des hommes employés"
       },
-      "male_population_csp6": { "gender": "m", "label": "Hommes ouvrièrs" },
+      "male_population_csp6": {
+        "gender": "m",
+        "label": "Hommes ouvrièrs"
+      },
       "male_population_csp6_evol": {
         "gender": "f",
         "label": "Évolution des hommes ouvriers"
@@ -3325,7 +4094,10 @@
         "gender": "m",
         "label": "Taux des hommes ouvrièrs"
       },
-      "male_population_csp7": { "gender": "m", "label": "Hommes retraités" },
+      "male_population_csp7": {
+        "gender": "m",
+        "label": "Hommes retraités"
+      },
       "male_population_csp7_evol": {
         "gender": "f",
         "label": "Évolution des hommes retraités"
@@ -3334,7 +4106,10 @@
         "gender": "m",
         "label": "Taux des hommes retraités"
       },
-      "male_population_csp8": { "gender": "m", "label": "Hommes autres" },
+      "male_population_csp8": {
+        "gender": "m",
+        "label": "Hommes autres"
+      },
       "male_population_csp8_evol": {
         "gender": "f",
         "label": "Évolution des hommes (autres)"
@@ -3387,36 +4162,54 @@
         "gender": "m",
         "label": "Taux de chômage hommes (15 - 64 ans)"
       },
-      "median_age": { "label": "Âge médian - 2013" },
-      "median_house_price": { "label": "Prix moyen des maisons - 2014" },
+      "median_age": {
+        "label": "Âge médian - 2013"
+      },
+      "median_house_price": {
+        "label": "Prix moyen des maisons - 2014"
+      },
       "median_household_income": {
         "label": "Revenu médian du ménage - 2012 - 2013"
       },
-      "municipal": { "label": "Municipales" },
+      "municipal": {
+        "label": "Municipales"
+      },
       "municipal-elections-2014-turn-1": {
         "label": "Élections municipales 2014 tour 1"
       },
       "municipal-elections-2014-turn-2": {
         "label": "Élections municipales 2014 tour 2"
       },
-      "municipal_2016": { "label": "Élections municipales 2016" },
+      "municipal_2016": {
+        "label": "Élections municipales 2016"
+      },
       "municipal_2016_first_choice": {
         "label": "Élections municipales 2016 premier choix"
       },
       "municipal_2016_second_choice": {
         "label": "Élections municipales 2016 second choix"
       },
-      "municipality": { "label": "Municipalité" },
-      "municipality_2016": { "label": "Élections municipales 2016" },
-      "municipality_label": { "label": "Libellé municipalité" },
-      "no_education": { "label": "Pas d'éducation" },
+      "municipality": {
+        "label": "Municipalité"
+      },
+      "municipality_2016": {
+        "label": "Élections municipales 2016"
+      },
+      "municipality_label": {
+        "label": "Libellé municipalité"
+      },
+      "no_education": {
+        "label": "Pas d'éducation"
+      },
       "no_english_first_lang_in_household_per_population_perc": {
         "label": "Taux de personnes n'ayant pas l'anglais comme première langue à la maison - 2011"
       },
       "no_qualifications_perc": {
         "label": "Taux de personnes sans qualification - 2011"
       },
-      "none": { "label": "Sans diplôme" },
+      "none": {
+        "label": "Sans diplôme"
+      },
       "not_born_uk_per_population_perc": {
         "label": "Taux de personnes nées hors uk - 2011"
       },
@@ -3426,8 +4219,12 @@
       "obese_per_children_reception_year": {
         "label": "Taux d'enfants obèses à l'entrée à l'école - 2012 - 2014"
       },
-      "open_space_area_perc": { "label": "% de la surface open-space - 2014" },
-      "other": { "label": "Autres" },
+      "open_space_area_perc": {
+        "label": "% de la surface open-space - 2014"
+      },
+      "other": {
+        "label": "Autres"
+      },
       "other_household_types_per_households_perc": {
         "gender": "m",
         "label": "Part des ménages d'autres types"
@@ -3438,11 +4235,22 @@
       "owned_household_perc": {
         "label": "Taux de ménages propriétaires - 2011"
       },
-      "owner_tenant": { "label": "Propriétaire / locataire" },
-      "per_all": { "label": "Des contacts de la zone" },
-      "per_party": { "label": "Par parti" },
-      "per_seen": { "label": "Des citoyens rencontrés de la zone" },
-      "personnes_agees": { "gender": "m", "label": "Personnes âgées" },
+      "owner_tenant": {
+        "label": "Propriétaire / locataire"
+      },
+      "per_all": {
+        "label": "Des contacts de la zone"
+      },
+      "per_party": {
+        "label": "Par parti"
+      },
+      "per_seen": {
+        "label": "Des citoyens rencontrés de la zone"
+      },
+      "personnes_agees": {
+        "gender": "m",
+        "label": "Personnes âgées"
+      },
       "personnes_agees__soins_a_domicile": {
         "gender": "m",
         "label": "Soins à domicile"
@@ -3451,7 +4259,10 @@
         "gender": "m",
         "label": "Foyers - restaurants"
       },
-      "personnes_agees_hebergement": { "gender": "m", "label": "Hébergement" },
+      "personnes_agees_hebergement": {
+        "gender": "m",
+        "label": "Hébergement"
+      },
       "personnes_agees_services_d_aide": {
         "gender": "m",
         "label": "Services d'aide"
@@ -3464,12 +4275,17 @@
         "gender": "m",
         "label": "Nombre de places d'accueil préscolaire"
       },
-      "population": { "label": "Population - 2015" },
+      "population": {
+        "label": "Population - 2015"
+      },
       "population_0-12_no_incone_in_households_per_population_0-12_perc": {
         "gender": "m",
         "label": "Part des moins de 12 ans vivants dans un ménage sans revenus du travail"
       },
-      "population_0-14": { "gender": "m", "label": "Personnes de 0 à 14 ans" },
+      "population_0-14": {
+        "gender": "m",
+        "label": "Personnes de 0 à 14 ans"
+      },
       "population_0-14_evol": {
         "gender": "f",
         "label": "Évolution du taux de 0 - 14 ans"
@@ -3478,7 +4294,9 @@
         "gender": "m",
         "label": "Taux des personnes de 0 à 14 ans"
       },
-      "population_0-15": { "label": "Enfants (0-15) - 2015" },
+      "population_0-15": {
+        "label": "Enfants (0-15) - 2015"
+      },
       "population_0-15_per_population_perc": {
         "label": "Taux d'enfants (0-15) - 2015"
       },
@@ -3534,7 +4352,9 @@
         "gender": "m",
         "label": "Taux des personnes de 15 à 29 ans"
       },
-      "population_16-64": { "label": "Population active (16-64) - 2015" },
+      "population_16-64": {
+        "label": "Population active (16-64) - 2015"
+      },
       "population_16-64_per_population_perc": {
         "label": "Taux la population active (16)64) - 2015"
       },
@@ -3602,7 +4422,9 @@
         "gender": "m",
         "label": "Taux des personnes de 60 ans et plus"
       },
-      "population_65-": { "label": "Older people aged 65+ - 2015" },
+      "population_65-": {
+        "label": "Older people aged 65+ - 2015"
+      },
       "population_65-_per_population_perc": {
         "label": "% all older people aged 65+ - 2015"
       },
@@ -3670,7 +4492,10 @@
         "gender": "m",
         "label": "Taux des professions intermédiaires (csp4)"
       },
-      "population_csp5": { "gender": "m", "label": "Employés (csp5)" },
+      "population_csp5": {
+        "gender": "m",
+        "label": "Employés (csp5)"
+      },
       "population_csp5_evol": {
         "gender": "f",
         "label": "Évolution globale des employés"
@@ -3679,7 +4504,10 @@
         "gender": "m",
         "label": "Taux des employés (csp5)"
       },
-      "population_csp6": { "gender": "m", "label": "Ouvriers (csp6)" },
+      "population_csp6": {
+        "gender": "m",
+        "label": "Ouvriers (csp6)"
+      },
       "population_csp6_evol": {
         "gender": "f",
         "label": "Évolution globale des ouvriers"
@@ -3688,7 +4516,10 @@
         "gender": "m",
         "label": "Taux des ouvriers (csp6)"
       },
-      "population_csp7": { "gender": "m", "label": "Retraités (csp7)" },
+      "population_csp7": {
+        "gender": "m",
+        "label": "Retraités (csp7)"
+      },
       "population_csp7_evol": {
         "gender": "f",
         "label": "Évolution globale des retraités"
@@ -3697,7 +4528,10 @@
         "gender": "m",
         "label": "Taux des retraités (csp7)"
       },
-      "population_csp8": { "gender": "m", "label": "Autres (csp8)" },
+      "population_csp8": {
+        "gender": "m",
+        "label": "Autres (csp8)"
+      },
       "population_csp8_evol": {
         "gender": "f",
         "label": "Évolution globale (autres)"
@@ -3712,14 +4546,25 @@
       "population_density_en": {
         "label": "Densité la population (par km2) - 2013"
       },
-      "population_density_fr": { "label": "Densité la population" },
-      "population_evol": { "gender": "f", "label": "Évolution globale" },
-      "population_households_families": { "gender": "m", "label": "Familles" },
+      "population_density_fr": {
+        "label": "Densité la population"
+      },
+      "population_evol": {
+        "gender": "f",
+        "label": "Évolution globale"
+      },
+      "population_households_families": {
+        "gender": "m",
+        "label": "Familles"
+      },
       "population_households_families_per_population_households_15-_perc": {
         "gender": "m",
         "label": "Familles"
       },
-      "population_households_married": { "gender": "m", "label": "Marié·e·s" },
+      "population_households_married": {
+        "gender": "m",
+        "label": "Marié·e·s"
+      },
       "population_households_married_per_population_households_15-_perc": {
         "gender": "m",
         "label": "Marié·e·s"
@@ -3772,7 +4617,9 @@
         "gender": "m",
         "label": "Célibatair·e·s plus de 80 ans"
       },
-      "population_london": { "label": "Population" },
+      "population_london": {
+        "label": "Population"
+      },
       "population_out-of-school_high_school_diploma_15-": {
         "gender": "m",
         "label": "Personnes non scolarisées titulaires d'un baccalauréat"
@@ -3901,76 +4748,155 @@
         "gender": "m",
         "label": "Taux de la population active se rendant au travail à pied"
       },
-      "poverty": { "label": "Pauvreté" },
-      "preschool": { "gender": "m", "label": "Crèches" },
-      "presidential": { "label": "Présidentielles" },
-      "primary_education": { "label": "Éducation primaire" },
+      "poverty": {
+        "label": "Pauvreté"
+      },
+      "preschool": {
+        "gender": "m",
+        "label": "Crèches"
+      },
+      "presidential": {
+        "label": "Présidentielles"
+      },
+      "primary_education": {
+        "label": "Éducation primaire"
+      },
       "private_rented_households_perc": {
         "label": "% de ménages locataires - 2011"
       },
-      "properties_sold": { "label": "Nombre de propriétées vendues - 2014" },
-      "region": { "label": "Région" },
-      "region_label": { "label": "Libellé région" },
-      "regional": { "label": "Régionales" },
+      "properties_sold": {
+        "label": "Nombre de propriétées vendues - 2014"
+      },
+      "region": {
+        "label": "Région"
+      },
+      "region_label": {
+        "label": "Libellé région"
+      },
+      "regional": {
+        "label": "Régionales"
+      },
       "registration_migrant_workers_rate": {
         "label": "Taux d'inscription de travailleurs migrants - 2011 - 2012"
       },
-      "rooms": { "label": "Nombre de pièces" },
-      "schooling_rate": { "gender": "m", "label": "Taux de scolarité" },
-      "second_choice": { "label": "Deuxième choix" },
-      "secondary_education": { "label": "Éducation secondaire" },
-      "select_party": { "label": "Par parti" },
+      "rooms": {
+        "label": "Nombre de pièces"
+      },
+      "schooling_rate": {
+        "gender": "m",
+        "label": "Taux de scolarité"
+      },
+      "second_choice": {
+        "label": "Deuxième choix"
+      },
+      "secondary_education": {
+        "label": "Éducation secondaire"
+      },
+      "select_party": {
+        "label": "Par parti"
+      },
       "semi-detached_houses_perc": {
         "label": "Taux de maisons semi-détachées - 2011"
       },
-      "single_parents": { "gender": "m", "label": "Parents seuls" },
+      "single_parents": {
+        "gender": "m",
+        "label": "Parents seuls"
+      },
       "social_equipment_services": {
         "gender": "m",
         "label": "Équipements et services sociaux"
       },
-      "social_help": { "gender": "m", "label": "Aides sociales" },
-      "social_rented_households_perc": { "label": "Ménages hlm - 2011" },
-      "socio-eco": { "label": "Variables socio-économiques" },
-      "status": { "label": "Statut" },
-      "status_seen": { "label": "Statut" },
-      "superficy": { "label": "Superficie" },
-      "surface": { "label": "Surface" },
-      "tags": { "label": "Tag" },
-      "tags_seen": { "label": "Tag" },
-      "terraced_houses_perc": { "label": "Taux de maisons mitoyennes - 2011" },
-      "training_formation": { "label": "Études et formations" },
-      "transport": { "label": "Moyen de transport" },
-      "turn_1": { "label": "Tour 1" },
-      "turn_2": { "label": "Tour 2" },
+      "social_help": {
+        "gender": "m",
+        "label": "Aides sociales"
+      },
+      "social_rented_households_perc": {
+        "label": "Ménages hlm - 2011"
+      },
+      "socio-eco": {
+        "label": "Variables socio-économiques"
+      },
+      "status": {
+        "label": "Statut"
+      },
+      "status_seen": {
+        "label": "Statut"
+      },
+      "superficy": {
+        "label": "Superficie"
+      },
+      "surface": {
+        "label": "Surface"
+      },
+      "tags": {
+        "label": "Tag"
+      },
+      "tags_seen": {
+        "label": "Tag"
+      },
+      "terraced_houses_perc": {
+        "label": "Taux de maisons mitoyennes - 2011"
+      },
+      "training_formation": {
+        "label": "Études et formations"
+      },
+      "transport": {
+        "label": "Moyen de transport"
+      },
+      "turn_1": {
+        "label": "Tour 1"
+      },
+      "turn_2": {
+        "label": "Tour 2"
+      },
       "turnout_mayor_election": {
         "label": "Participations aux élections municipales - 2012"
       },
-      "turnout_perc": { "label": "Votants" },
-      "type": { "label": "Type d'études" },
+      "turnout_perc": {
+        "label": "Votants"
+      },
+      "type": {
+        "label": "Type d'études"
+      },
       "unauthorised_absence_perc": {
         "label": "Absences non-autorisées à l'école - 2013"
       },
-      "unemployed_15-24": { "gender": "m", "label": "Chômage 15-24 ans" },
+      "unemployed_15-24": {
+        "gender": "m",
+        "label": "Chômage 15-24 ans"
+      },
       "unemployed_15-24_per_workforce_15-24": {
         "gender": "m",
         "label": "Taux de chômage 15-24 ans"
       },
-      "unemployed_15-64": { "gender": "m", "label": "Chômage 15-64 ans" },
+      "unemployed_15-64": {
+        "gender": "m",
+        "label": "Chômage 15-64 ans"
+      },
       "unemployed_15-64_per_workforce_15-64": {
         "gender": "m",
         "label": "Taux de chômage 15-64 ans"
       },
-      "unemployed_25-54": { "gender": "m", "label": "Chômage 25-54 ans" },
+      "unemployed_25-54": {
+        "gender": "m",
+        "label": "Chômage 25-54 ans"
+      },
       "unemployed_25-54_per_workforce_25-54": {
         "gender": "m",
         "label": "Taux de chômage 25-54 ans"
       },
-      "unemployed_55-64": { "gender": "m", "label": "Chômage 55-64 ans" },
+      "unemployed_55-64": {
+        "gender": "m",
+        "label": "Chômage 55-64 ans"
+      },
       "unemployed_55-64_per_workforce_55-64": {
         "gender": "m",
         "label": "Taux de chômage 55-64 ans"
       },
-      "unemployment": { "gender": "m", "label": "Chômage" },
+      "unemployment": {
+        "gender": "m",
+        "label": "Chômage"
+      },
       "unemployment_rate_15-24_perc": {
         "gender": "m",
         "label": "Taux de chômage administratif des 15-24 ans"
@@ -4006,12 +4932,28 @@
       "violence_against_person_rate": {
         "label": "Taux de violences contre des personnes - 2014 - 2015"
       },
-      "vocational": { "label": "Cap ou bep" },
-      "votes": { "label": "Votes" },
-      "votes_per_registered_perc": { "gender": "m", "label": "Vote" },
-      "votes_per_votes_cast_perc": { "gender": "m", "label": "Vote" },
-      "wal": { "gender": "m", "label": "Données wallonie" },
-      "wal_and_bru": { "gender": "m", "label": "Données wallonie et bruxelles" }
+      "vocational": {
+        "label": "Cap ou bep"
+      },
+      "votes": {
+        "label": "Votes"
+      },
+      "votes_per_registered_perc": {
+        "gender": "m",
+        "label": "Vote"
+      },
+      "votes_per_votes_cast_perc": {
+        "gender": "m",
+        "label": "Vote"
+      },
+      "wal": {
+        "gender": "m",
+        "label": "Données wallonie"
+      },
+      "wal_and_bru": {
+        "gender": "m",
+        "label": "Données wallonie et bruxelles"
+      }
     },
     "ELEMENT_UI": {
       "el": {
@@ -4020,7 +4962,10 @@
           "noMatch": "Aucune donnée correspondante",
           "placeholder": "Sélectionner"
         },
-        "colorpicker": { "clear": "Effacer", "confirm": "OK" },
+        "colorpicker": {
+          "clear": "Effacer",
+          "confirm": "OK"
+        },
         "datepicker": {
           "// week": "Semaine",
           "cancel": "Annuler",
@@ -4107,9 +5052,14 @@
           "noCheckedFormat": "{total} items",
           "noData": "Pas de données",
           "noMatch": "Aucune donnée correspondante",
-          "titles": ["List 1", "List 2"]
+          "titles": [
+            "List 1",
+            "List 2"
+          ]
         },
-        "tree": { "emptyText": "Aucune donnée" },
+        "tree": {
+          "emptyText": "Aucune donnée"
+        },
         "upload": {
           "continue": "Continuer",
           "delete": "Supprimer",
@@ -4134,10 +5084,21 @@
           }
         },
         "toolbar": {
-          "actions": { "text": "Annuler", "title": "Annuler le dessin" },
-          "buttons": { "polygon": "Dessiner un polygone" },
-          "finish": { "text": "Terminer", "title": "Terminer" },
-          "undo": { "text": "Supprimer", "title": "Supprimer le dernier point" }
+          "actions": {
+            "text": "Annuler",
+            "title": "Annuler le dessin"
+          },
+          "buttons": {
+            "polygon": "Dessiner un polygone"
+          },
+          "finish": {
+            "text": "Terminer",
+            "title": "Terminer"
+          },
+          "undo": {
+            "text": "Supprimer",
+            "title": "Supprimer le dernier point"
+          }
         }
       }
     },
@@ -4159,7 +5120,8 @@
   },
   "_COMMON": {
     "ACTION": {
-      "ENTITY_SUCCESSFULLY_UPDATED": "{entity} mis à jour avec succès !"
+      "ENTITY_SUCCESSFULLY_UPDATED": "{entity} mis à jour avec succès !",
+      "ENTITY_UPDATE_FAILED": "Erreur lors de la mise à jour de l'action."
     },
     "ADD": "Ajouter",
     "ADDRESS": "Adresse",
@@ -4178,7 +5140,10 @@
     "EDIT": "Éditer",
     "EMAIL": "Email",
     "EMPTY_STATES": {
-      "DEFAULT": { "LABEL": "Aucune donnée", "TITLE": "Oups !" },
+      "DEFAULT": {
+        "LABEL": "Aucune donnée",
+        "TITLE": "Oups !"
+      },
       "LOADING": {
         "LABEL": "Nous faisons tout notre possible pour réduire votre attente",
         "TITLE": "Vos données sont en chemin !"

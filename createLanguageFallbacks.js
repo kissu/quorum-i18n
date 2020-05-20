@@ -6,10 +6,14 @@ const allLanguagesVariants = [
   ['en'],
   ['en', 'ong'],
   ['en', 'ong', 'vert'],
+  ['en', 'pltk'],
+  ['en', 'pltk', 'larm'],
+
   ['fr'],
+  ['fr', 'ong'],
+  ['fr', 'ong', 'vert'],
   ['fr', 'pltk'],
   ['fr', 'pltk', 'larm'],
-  ['test', 'pltk', 'larm']
 ]
 /* eslint-enable */
 
