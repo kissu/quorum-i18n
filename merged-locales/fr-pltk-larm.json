@@ -2,7 +2,7 @@
   "ACTION": {
     "CALL_TO_ACTION": {
       "CONFIRM_CLOSE": {
-        "CANCEL_TEXT": "niceMeme, nice Meme All :D",
+        "CANCEL_TEXT": "niceMeme, nice Meme All, from ipad",
         "CONFIRM_TEXT": "Quitter la création",
         "MESSAGE": "Vous n'avez pas terminé la création de votre action. Voulez-vous quitter la page et perdre les informations renseignées ?",
         "TITLE": "Quitter la création de l'action"
