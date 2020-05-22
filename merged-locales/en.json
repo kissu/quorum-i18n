@@ -30,7 +30,12 @@
         }
       },
       "HEADER": {
-        "STEPS": { "INFO": "How", "TARGET": "Where", "TEAM": "Who", "TYPE": "What" },
+        "STEPS": {
+          "INFO": "How",
+          "TARGET": "Where",
+          "TEAM": "Who",
+          "TYPE": "What"
+        },
         "TITLE": "New action"
       },
       "INFORMATIONS": {
@@ -226,7 +231,10 @@
     }
   },
   "ANALYTICS": {
-    "DETAIL": { "REQUEST": "Contact us at ", "TITLE": "Find your custom dashboard here." },
+    "DETAIL": {
+      "REQUEST": "Contact us at ",
+      "TITLE": "Find your custom dashboard here."
+    },
     "GENERATION": {
       "ACTION_NUMBER": "Action n°{number}",
       "CREATE_ACTION": "Create an Action",
@@ -235,7 +243,11 @@
       "STARTING_POINT": "Estimated <br> starting point",
       "UNREACHED": "Person not included<br>in the automatic assignment"
     },
-    "HEADER": { "ANSWERS": "Survey Analysis", "DASHBOARD": "Dashboard", "DETAIL": "Custom Dashboard" }
+    "HEADER": {
+      "ANSWERS": "Survey Analysis",
+      "DASHBOARD": "Dashboard",
+      "DETAIL": "Custom Dashboard"
+    }
   },
   "APP": {
     "ALL_SET": "All you need to do is download the app to take action! Click the link below:",
@@ -310,7 +322,10 @@
       }
     },
     "VALIDATION": {
-      "MESSAGES": { "ERROR": "An error occurred, please try again.", "SUCCESS": "Account activated!" },
+      "MESSAGES": {
+        "ERROR": "An error occurred, please try again.",
+        "SUCCESS": "Account activated!"
+      },
       "NEXT": "Now you can...",
       "NEXT_LINK": "log in",
       "PENDING_TEXT": "Activate the account for {email}",
@@ -344,7 +359,11 @@
       "NAME": "Name of the note",
       "PLACEHOLDER": "Create here notes and talking points for your team!",
       "PLACEHOLDER_SELECT": "Choose a talking point",
-      "SUCCESS": { "ADD": "Note added! 👍", "DELETE": "Note deleted", "EDIT": "Note edited! 👍" }
+      "SUCCESS": {
+        "ADD": "Note added! 👍",
+        "DELETE": "Note deleted",
+        "EDIT": "Note edited! 👍"
+      }
     }
   },
   "CARTO": {
@@ -497,7 +516,10 @@
         },
         "WARNING": "Warning, you need to select at least one variable per category !"
       },
-      "TREE": { "NO_MORE_VALUE": "No additional choices", "SELECT_DATA": "Pick a data category" }
+      "TREE": {
+        "NO_MORE_VALUE": "No additional choices",
+        "SELECT_DATA": "Pick a data category"
+      }
     },
     "NOT_SET": "To subscribe, <a href=\"mailto:?to=support@quorum.co &subject=Upgrade%20de%20l%27abonnement%20:%20Ciblage\">contact us</a>",
     "NOT_SET_TITLE": "Oh no! This feature is not available with your subscription.",
@@ -759,7 +781,10 @@
         "CONTENT3": "The body of your email need to be created in the automatic email section.",
         "TITLE": "Discover automatic emails now!"
       },
-      "PREVIEW": { "NEXT": " Next answer message", "PREVIOUS": "Previous answer message" }
+      "PREVIEW": {
+        "NEXT": " Next answer message",
+        "PREVIOUS": "Previous answer message"
+      }
     },
     "BUILDER": {
       "CANCEL_SUCCESS": "All done! All automatic emails have been restored to their default state!",
@@ -989,7 +1014,12 @@
         "MAILCHIMP_WARNING": "Quorum gives only the email address to Mailchimp! If you have configured any other required fields, Mailchimp may not create the contact. You can visit Mailchimp's help center <a href=\"https://help.mailchimp.com\" target=\"_blank\"> to know more."
       },
       "VENDORS_TITLE": "Integrations",
-      "VENDOR_HEAD": { "ACTION": "Action", "ACTIVE": "Status", "DESC": "Description", "NAME": "Name" },
+      "VENDOR_HEAD": {
+        "ACTION": "Action",
+        "ACTIVE": "Status",
+        "DESC": "Description",
+        "NAME": "Name"
+      },
       "WHERE_TO_GET_INFO": "Where to find this key?"
     },
     "CONSTANTS": { "WARNING": "Warning" },
@@ -1152,7 +1182,12 @@
         "EXAMPLE": "email@address.com",
         "NEW_PASSWORD": "New Password"
       },
-      "ROLES": { "ADMIN": "Staff", "MANAGER": "Field Organizer", "SUPERADMIN": "Admin", "USER": "Member" },
+      "ROLES": {
+        "ADMIN": "Staff",
+        "MANAGER": "Field Organizer",
+        "SUPERADMIN": "Admin",
+        "USER": "Member"
+      },
       "ROLE_IN": "{role} of {name}",
       "TITLE": "Profile",
       "UPDATE": "Update profile",
@@ -1219,7 +1254,10 @@
       "PLEASE_WRITE_INITIAL": "Please edit this field",
       "TITLE": "Name of the sender, appears when receiving an SMS"
     },
-    "PLACEHOLDERS": { "BODY": "Your message...", "TITLE": "Your organisation's name" },
+    "PLACEHOLDERS": {
+      "BODY": "Your message...",
+      "TITLE": "Your organisation's name"
+    },
     "REMAINING_CHARACTERS": "0 remaining character | 1 remaining character | {count} remaining characters",
     "SEND": "Send",
     "SEND_SMS": "Send SMS",
@@ -1313,7 +1351,10 @@
       "GDPR_TEXT": "By giving your members access to Quorum, they may be exposed to potentially sensitive personal information and data, depending on the \"role\" you assign to them. It is important to spread awareness in your members' community about the use of personal data!",
       "SEARCHTEAM": "Search for a team",
       "SEARCHUSER": "Search for a member",
-      "TABS": { "MEMBERS": "Member | Member | Members", "TEAMS": "Team | Team | Teams" },
+      "TABS": {
+        "MEMBERS": "Member | Member | Members",
+        "TEAMS": "Team | Team | Teams"
+      },
       "TEAMS": {
         "ACTIONS": "This team has no ongoing actions | 1 action | %{count} actions",
         "ADD": "Add a team",
@@ -1331,7 +1372,10 @@
           "USERS_PLACEHOLDER": "Add a team member"
         },
         "EMPTY_STATES": {
-          "DEFAULT": { "LABEL": "Create a team and organise your actions", "TITLE": "Oops!" },
+          "DEFAULT": {
+            "LABEL": "Create a team and organise your actions",
+            "TITLE": "Oops!"
+          },
           "LOADING": {
             "LABEL": "We're doing everything we can to reduce your wait time.",
             "TITLE": "Your data are on their way!"
@@ -1475,17 +1519,11 @@
       "ACTOCC15P_TCOM_EVOL_RAW": {
         "label": "Going to work public transportation - evolution"
       },
-      "FNSCOL15P_CAPBEP": { "label": "Female out-of-school with a vocational diploma" },
-      "FNSCOL15P_CAPBEP_EVOL_RAW": { "label": "Female out-of-school with a vocational diploma - evolution" },
-      "FNSCOL15P_CAPBEP_PER_FNSCOL15P": { "label": "Female out-of-school with a vocational diploma" },
-      "FNSCOL15P_CAPBEP_PER_FNSCOL15P_EVOL_RAW": {
-        "label": "Female out-of-school with a vocational diploma - evolution"
+      "ACTOCC15P_TCOM_PER_ACTOCC15P": {
+        "label": "Going to work public transportation"
       },
-      "FNSCOL15P_DIPLMIN": { "label": "Female out-of-school without a diploma" },
-      "FNSCOL15P_DIPLMIN_EVOL_RAW": { "label": "Female out-of-school without a diploma - evolution" },
-      "FNSCOL15P_DIPLMIN_PER_FNSCOL15P": { "label": "Female out-of-school without a diploma" },
-      "FNSCOL15P_DIPLMIN_PER_FNSCOL15P_EVOL_RAW": {
-        "label": "Female out-of-school without a diploma - evolution"
+      "ACTOCC15P_TCOM_PER_ACTOCC15P_EVOL_RAW": {
+        "label": "Going to work public transportation - evolution"
       },
       "ACTOCC15P_VOIT": { "label": "Going to work car" },
       "ACTOCC15P_VOIT_EVOL_RAW": { "label": "Going to work car - evolution" },
@@ -1539,14 +1577,11 @@
       "F15P_CS2_EVOL_RAW": {
         "label": "Female craftsmen, traders, entrepreneurs - evolution"
       },
-      "female_population_30-34_per_population_perc": {
-        "gender": "m",
-        "label": "Percentage of women 30-34 y/o in the total population"
+      "F15P_CS2_PER_F15P": {
+        "label": "Female craftsmen, traders, entrepreneurs"
       },
-      "female_population_30-44": { "gender": "m", "label": "Women aged 30 to 44" },
-      "female_population_30-44_evol": {
-        "gender": "m",
-        "label": "Evolution of the women population from 30 to 44 years old"
+      "F15P_CS2_PER_F15P_EVOL_RAW": {
+        "label": "Female craftsmen, traders, entrepreneurs - evolution"
       },
       "F15P_CS3": { "label": "Female managers, higher professions" },
       "F15P_CS3_EVOL_RAW": {
@@ -3136,190 +3171,143 @@
       "male_population_75-": { "gender": "m", "label": "Men aged 75 and more" },
       "male_population_75-79_per_population_perc": {
         "gender": "m",
-        "label": "Share of female managers, higher occupations"
+        "label": "Percentage of men 75-79 y/o in the total population"
       },
-      "female_population_csp4": { "gender": "m", "label": "Female intermediate professions" },
-      "female_population_csp4_evol": {
+      "male_population_75-_evol": {
         "gender": "f",
-        "label": "Evolution of the intermediate professions (woman)"
+        "label": "Evolution of the men from 75 years old and more"
+      },
+      "male_population_75-_per_male_population": {
+        "gender": "m",
+        "label": "Share of men aged 75 and more"
+      },
+      "male_population_80-84_per_population_perc": {
+        "gender": "m",
+        "label": "Percentage of men 80-84 y/o in the total population"
+      },
+      "male_population_85-89_per_population_perc": {
+        "gender": "m",
+        "label": "Percentage of men 85-89 y/o in the total population"
+      },
+      "male_population_90-94_per_population_perc": {
+        "gender": "m",
+        "label": "Percentage of men 90-94 y/o in the total population"
       },
       "male_population_csp1": { "gender": "m", "label": "Male farmers" },
       "male_population_csp1_evol": {
         "gender": "f",
         "label": "Evolution of the men farmers"
       },
-      "female_population_csp5": { "gender": "m", "label": "Employed women" },
-      "female_population_csp5_evol": { "gender": "f", "label": "Evolution of the women employees" },
-      "female_population_csp5_per_female_population": { "gender": "m", "label": "Share of employed women" },
-      "female_population_csp6": { "gender": "m", "label": "Women workers" },
-      "female_population_csp6_evol": { "gender": "f", "label": "Evolution of the women workers population" },
-      "female_population_csp6_per_female_population": { "gender": "m", "label": "Share of women workers" },
-      "female_population_csp7": { "gender": "m", "label": "Retired women" },
-      "female_population_csp7_evol": { "gender": "f", "label": "Evolution of the women retirees population" },
-      "female_population_csp7_per_female_population": { "gender": "m", "label": "Share of retired women" },
-      "female_population_csp8": { "gender": "m", "label": "Others women" },
-      "female_population_csp8_evol": { "gender": "f", "label": "Evolution of the women (other)" },
-      "female_population_csp8_per_female_population": { "gender": "m", "label": "Share of others women" },
-      "female_population_evol": { "gender": "f", "label": "Global change (women)" },
-      "female_population_out-of-school_high_school_diploma_15-": {
+      "male_population_csp1_per_male_population": {
         "gender": "m",
-        "label": "Out-of-school women without a diploma"
+        "label": "Share of male farmers"
       },
-      "female_population_out-of-school_high_school_diploma_15-_per_female_population_out-of-school_15-": {
+      "male_population_csp2": {
         "gender": "m",
-        "label": "Rate of out-of-school women without a diploma"
+        "label": "Men craftsmen, shopkeepers, business owners"
       },
-      "female_population_out-of-school_higher_education_15-": {
-        "gender": "m",
-        "label": "Out-of-school women with a vocationnal diploma"
+      "male_population_csp2_evol": {
+        "gender": "f",
+        "label": "Evolution of the men craftsmen, traders, entrepreneurs"
       },
-      "female_population_out-of-school_higher_education_15-_per_female_population_out-of-school_15-": {
+      "male_population_csp2_per_male_population": {
         "gender": "m",
-        "label": "Rate of out-of-school women with a vocationnal diploma"
+        "label": "Share of men craftsmen, shopkeepers, business owners"
       },
-      "female_population_out-of-school_no_degree_or_school_certificate_15-": {
+      "male_population_csp3": {
         "gender": "m",
-        "label": "Out-of-school women with a bachelor's degree"
+        "label": "Male managers, higher occupations compared to the total male population"
       },
-      "female_population_out-of-school_no_degree_or_school_certificate_15-_per_female_population_out-of-school_15-": {
+      "male_population_csp3_evol": {
+        "gender": "f",
+        "label": "Evolution of the men managers, higher professions"
+      },
+      "male_population_csp3_per_male_population": {
         "gender": "m",
-        "label": "Rate of out-of-school women with a bachelor's degree"
+        "label": "Share of male managers, higher occupations compared to the total male population"
+      },
+      "male_population_csp4_evol": {
+        "gender": "f",
+        "label": "Evolution of the intermediate professions (man)"
+      },
+      "male_population_csp4_per_male_population": {
+        "gender": "m",
+        "label": "Share of male intermediate professions compared to the total male population"
       },
       "male_population_csp5": { "gender": "m", "label": "Employed men" },
       "male_population_csp5_evol": {
         "gender": "f",
         "label": "Evolution of the men employees"
       },
-      "female_population_out-of-school_vocational_diploma_15-_per_female_population_out-of-school_15-": {
+      "male_population_csp5_per_male_population": {
         "gender": "m",
-        "label": "Rates of out-of-school women with tertiary education"
+        "label": "Share of employed men"
       },
       "male_population_csp6": { "gender": "m", "label": "Men workers" },
       "male_population_csp6_evol": {
         "gender": "f",
         "label": "Evolution of the men workers"
       },
-      "first_choice": { "label": "First choice" },
-      "flat_maisonette_appartment_perc": { "label": "% flat, maisonette or apartment - 2011" },
-      "foreigners": { "gender": "m", "label": "Foreigners" },
-      "garde_d_enfant_d_age_prescolaire": { "gender": "m", "label": "Preschools" },
-      "general_fertility_rate": { "label": "General fertility rate - 2013" },
-      "global": { "label": "Global" },
-      "graduation": { "label": "Bachelor's degree" },
-      "growth_rate": { "gender": "m", "label": "Growth rate" },
-      "high_education": { "label": "Higher education" },
-      "higher_education": { "label": "Graduate studies" },
-      "household_status": { "gender": "m", "label": "Household status" },
-      "households": { "label": "Households and families" },
-      "households_london": { "label": "Households - housing" },
-      "households_married_no_child_per_households_perc": {
+      "male_population_csp6_per_male_population": {
         "gender": "m",
-        "label": "Percentage of non married without child in total households"
+        "label": "Share of men workers"
       },
       "male_population_csp7": { "gender": "m", "label": "Retired men" },
       "male_population_csp7_evol": {
         "gender": "f",
         "label": "Evolution of the men retirees"
       },
-      "households_not_married_no_child_per_households_perc": {
+      "male_population_csp7_per_male_population": {
         "gender": "m",
-        "label": "Percentage of non married without child in total households"
+        "label": "Share of retired men"
       },
       "male_population_csp8": { "gender": "m", "label": "Others men" },
       "male_population_csp8_evol": {
         "gender": "f",
         "label": "Evolution of the men (other)"
       },
-      "households_single-parent_family": { "gender": "m", "label": "Single parents" },
-      "households_single-parent_family_per_households_perc": { "gender": "m", "label": "Single parents" },
-      "households_single_female": { "gender": "m", "label": "Single parents - women" },
-      "households_single_female_per_households_perc": { "gender": "m", "label": "Single parents - women" },
-      "households_single_male": { "gender": "m", "label": "Single parents - men" },
-      "households_single_male_per_households_perc": { "gender": "m", "label": "Single parents - men" },
-      "households_single_other": { "gender": "m", "label": "Single parents - other" },
-      "households_single_other_per_households_perc": { "gender": "m", "label": "Single parents - other" },
-      "housing": { "label": "Housing" },
-      "housing_benefits_claimant_rate": { "label": "Claimant rate of housing benefit (2015)" },
-      "incidents": { "label": "Incivilities - accidents" },
-      "income": { "gender": "m", "label": "Income" },
-      "indice_of_depravation": { "label": "Rank of average score (within london) - 2010" },
-      "iris_id": { "label": "New code" },
-      "iris_label": { "label": "Ward name" },
-      "iris_old": { "label": "Old code" },
-      "isolated_elders": { "gender": "m", "label": "Isolated elders" },
-      "jobs": { "label": "Number of jobs in area - 2013" },
-      "jsa_rate": { "label": "Rate of jobseekers allowance (jsa) claimants - 2015" },
-      "killed_injured_road": { "label": "Number killed or seriously injured on the roads - 2014" },
-      "legislative": { "label": "Legislative" },
-      "level_4-_perc": { "label": "% with level 4 qualifications and above - 2011" },
-      "lone_parents_unemployed_perc": { "label": "% of lone parents not in employment - 2011" },
-      "main_residences_0-30_m2": { "gender": "m", "label": "Residences from 0 to 30 square meters" },
-      "main_residences_0-30_m2_per_main_residences": {
+      "male_population_csp8_per_male_population": {
         "gender": "m",
         "label": "Share of others men"
       },
       "male_population_evol": { "gender": "f", "label": "Global change (men)" },
       "male_population_out-of-school_high_school_diploma_15-": {
         "gender": "m",
-        "label": "Residences from 100 to 120 square meters"
+        "label": "Out-of-school men without a diploma"
       },
-      "main_residences_120-_m2": { "gender": "m", "label": "Residences with more than 120 square meters" },
-      "main_residences_120-_m2_per_main_residences": {
+      "male_population_out-of-school_high_school_diploma_15-_per_male_population_out-of-school_15-": {
         "gender": "m",
-        "label": "Residences with more than 120 square meters"
+        "label": "Rate of out-of-school men without a diploma"
       },
-      "main_residences_1_room": { "gender": "m", "label": "Residence with 1 room" },
-      "main_residences_1_room_per_main_residences": { "gender": "m", "label": "Residence with 1 room" },
-      "main_residences_2_rooms": { "gender": "m", "label": "Residence with 2 rooms" },
-      "main_residences_2_rooms_per_main_residences": { "gender": "m", "label": "Residence with 2 rooms" },
-      "main_residences_30-40_m2": { "gender": "m", "label": "Residences from 30 to 40 square meters" },
-      "main_residences_30-40_m2_per_main_residences": {
+      "male_population_out-of-school_higher_education_15-": {
         "gender": "m",
-        "label": "Residences from 30 to 40 square meters"
+        "label": "Out-of-school men with a vocationnal diploma"
       },
-      "main_residences_3_rooms": { "gender": "m", "label": "Residence with 3 rooms" },
-      "main_residences_3_rooms_per_main_residences": { "gender": "m", "label": "Residence with 3 rooms" },
-      "main_residences_40-60_m2": { "label": "Residences from 40 to 60 square meters" },
-      "main_residences_40-60_m2_per_main_residences": { "label": "Residences from 40 to 60 square meters" },
-      "main_residences_4_rooms": { "gender": "m", "label": "Residence with 4 rooms" },
-      "main_residences_4_rooms_per_main_residences": { "gender": "m", "label": "Residence with 4 rooms" },
-      "main_residences_5-_rooms": { "gender": "m", "label": "Residence with 5 rooms and more" },
-      "main_residences_5-_rooms_per_main_residences": {
+      "male_population_out-of-school_higher_education_15-_per_male_population_out-of-school_15-": {
         "gender": "m",
-        "label": "Residence with 5 rooms and more"
+        "label": "Rate of out-of-school men with a vocationnal diploma"
       },
-      "main_residences_60-80_m2": { "gender": "m", "label": "Residences from 60 to 80 square meters" },
-      "main_residences_60-80_m2_per_main_residences": {
+      "male_population_out-of-school_no_degree_or_school_certificate_15-": {
         "gender": "m",
-        "label": "Residences from 60 to 80 square meters"
+        "label": "Out-of-school men with a bachelor's degree"
       },
-      "main_residences_80-100_m2": { "gender": "m", "label": "Residences from 80 to 100 square meters" },
-      "main_residences_80-100_m2_per_main_residences": {
+      "male_population_out-of-school_no_degree_or_school_certificate_15-_per_male_population_out-of-school_15-": {
         "gender": "m",
-        "label": "Residences from 80 to 100 square meters"
+        "label": "Rate of out-of-school men with a bachelor's degree"
       },
-      "main_residences_built_0-1919": { "label": "Before 1919" },
-      "main_residences_built_0-1919_per_main_residences": { "label": "Before 1919" },
-      "main_residences_built_0-2013_per_main_residences": { "gender": "m", "label": "Before 2013" },
-      "main_residences_built_0-2014-": { "gender": "m", "label": "After 2014" },
-      "main_residences_built_0-2014-_per_main_residences": { "gender": "m", "label": "After 2014" },
-      "main_residences_built_1919-1945": { "gender": "m", "label": "Between 1919 and 1945" },
-      "main_residences_built_1919-1945_per_main_residences": {
+      "male_population_out-of-school_vocational_diploma_15-": {
         "gender": "m",
-        "label": "Between 1919 and 1945"
+        "label": "Out-of-school men with tertiary education"
       },
-      "main_residences_built_1946-1970": { "gender": "m", "label": "Between 1946 and 1970" },
-      "main_residences_built_1946-1970_per_main_residences": {
+      "male_population_out-of-school_vocational_diploma_15-_per_male_population_out-of-school_15-": {
         "gender": "m",
-        "label": "Between 1946 and 1970"
+        "label": "Rates of out-of-school men with tertiary education"
       },
-      "main_residences_built_1971-1990": { "gender": "m", "label": "Between 1971 and 1990" },
-      "main_residences_built_1971-1990_per_main_residences": {
+      "male_unemployed_15-64": {
         "gender": "m",
-        "label": "Between 1971 and 1990"
+        "label": "Unemployedmen (15 - 64 years)"
       },
-      "main_residences_built_1991-2005": { "gender": "m", "label": "Between 1991 and 2005" },
-      "main_residences_built_1991-2005_per_main_residences": {
+      "male_unemployed_15-64_per_male_workforce_15-64": {
         "gender": "m",
         "label": "Unemployment rate men (15 - 64 years)"
       },
@@ -3374,27 +3362,26 @@
       "personnes_agees": { "gender": "m", "label": "Elderly" },
       "personnes_agees__soins_a_domicile": {
         "gender": "m",
-        "label": "Agency workers among men"
+        "label": "Home care services"
       },
-      "male_female": { "label": "Men and women" },
-      "male_households_isolated_per_households_perc": {
+      "personnes_agees_foyer_restaurant": {
         "gender": "m",
-        "label": "Isolated men per household"
+        "label": "Homes - restaurants"
       },
       "personnes_agees_hebergement": { "gender": "m", "label": "Housing" },
       "personnes_agees_services_d_aide": {
         "gender": "m",
-        "label": "Percentage of men 10-14 y/o in the total population"
+        "label": "Help services"
       },
-      "male_population_15-19_per_population_perc": {
+      "personnes_agees_services_de_repas_a_domicile": {
         "gender": "m",
-        "label": "Percentage of men 15-19 y/o in the total population"
+        "label": "Meal delivery"
       },
       "places_preschool": { "gender": "m", "label": "Places preschool" },
       "population": { "label": "Population - 2015" },
       "population_0-12_no_incone_in_households_per_population_0-12_perc": {
         "gender": "m",
-        "label": "Percentage of men 25-29 y/o in the total population"
+        "label": "Percentage of children 0-12 y/o without income at home"
       },
       "population_0-14": { "gender": "m", "label": "People aged 0 to 14" },
       "population_0-14_evol": {
@@ -3441,22 +3428,20 @@
         "gender": "m",
         "label": "Primary education ratio"
       },
-      "male_population_30-44_per_male_population": { "gender": "m", "label": "Share of men aged 30 to 44" },
-      "male_population_35-39_per_population_perc": {
+      "population_10-_secondary_education_per_population_10-": {
         "gender": "m",
-        "label": "Percentage of men 35-39 y/o in the total population"
+        "label": "Secondary education ratio"
       },
-      "male_population_40-44_per_population_perc": {
+      "population_15-19_per_population": {
         "gender": "m",
-        "label": "Percentage of men 40-44 y/o in the total population"
+        "label": "Share of people aged 15 to 19"
       },
       "population_15-29": { "gender": "m", "label": "People aged 15 to 29" },
       "population_15-29_evol": {
         "gender": "f",
-        "label": "Evolution of the men from 45 to 59 years old"
+        "label": "Evolution of the 15 - 29 years old"
       },
-      "male_population_45-59_per_male_population": { "gender": "m", "label": "Share of men aged 45 to 59" },
-      "male_population_5-9_per_population_perc": {
+      "population_15-29_per_population": {
         "gender": "m",
         "label": "Share of people aged 15 to 29"
       },
@@ -3464,55 +3449,54 @@
       "population_16-64_per_population_perc": {
         "label": "% all working-age (16-64) - 2015"
       },
-      "male_population_55-59_per_population_perc": {
+      "population_20-29_per_population": {
         "gender": "m",
-        "label": "Percentage of men 55-59 y/o in the total population"
+        "label": "Share of people aged 20 to 29"
       },
-      "male_population_60-64_per_population_perc": {
+      "population_30-39_per_population": {
         "gender": "m",
-        "label": "Percentage of men 60-64 y/o in the total population"
+        "label": "Share of people aged 30 to 39"
       },
       "population_30-44": { "gender": "m", "label": "People aged 30 to 44" },
       "population_30-44_evol": {
         "gender": "f",
-        "label": "Evolution of the men from 60 to 75 years old"
+        "label": "Evolution of the 30 - 44 years old"
       },
-      "male_population_65-69_per_population_perc": {
+      "population_30-44_per_population": {
         "gender": "m",
-        "label": "Percentage of men 65-69 y/o in the total population"
+        "label": "Share of people aged 30 to 44"
       },
-      "male_population_70-74_per_population_perc": {
+      "population_40-49_per_population": {
         "gender": "m",
-        "label": "Percentage of men 70-74 y/o in the total population"
+        "label": "Share of people aged 40 to 49"
       },
       "population_45-59": { "gender": "m", "label": "People aged 45 to 59" },
       "population_45-59_evol": {
         "gender": "f",
-        "label": "Evolution of the men from 75 years old and more"
+        "label": "Evolution of the 45 - 59 years old"
       },
-      "male_population_75-_per_male_population": { "gender": "m", "label": "Share of men aged 75 and more" },
-      "male_population_80-84_per_population_perc": {
+      "population_45-59_per_population": {
         "gender": "m",
-        "label": "Percentage of men 80-84 y/o in the total population"
+        "label": "Share of people aged 45 to 59"
       },
-      "male_population_85-89_per_population_perc": {
+      "population_5-9_per_population": {
         "gender": "m",
-        "label": "Percentage of men 85-89 y/o in the total population"
+        "label": "Share of people aged 5 to 9"
       },
-      "male_population_90-94_per_population_perc": {
+      "population_50-59_per_population": {
         "gender": "m",
-        "label": "Percentage of men 90-94 y/o in the total population"
+        "label": "Share of people aged 50 to 59"
       },
       "population_60-74": { "gender": "m", "label": "People aged 60 to 74" },
       "population_60-74_evol": {
         "gender": "m",
-        "label": "Share of men craftsmen, shopkeepers, business owners"
+        "label": "Evolution of the people from 60 to 74 years old"
       },
-      "male_population_csp3": {
+      "population_60-74_per_population": {
         "gender": "m",
-        "label": "Male managers, higher occupations compared to the total male population"
+        "label": "Share of people aged 60 to 74"
       },
-      "male_population_csp3_evol": {
+      "population_60-75_evol": {
         "gender": "f",
         "label": "Evolution of the 60 - 75 years old"
       },
@@ -3527,116 +3511,91 @@
       "population_75-": { "gender": "m", "label": "People aged 75 and more" },
       "population_75-_evol": {
         "gender": "f",
-        "label": "Evolution of the intermediate professions (man)"
+        "label": "Evolution of the 75 years old and more"
       },
-      "male_population_csp4_per_male_population": {
+      "population_75-_per_population": {
         "gender": "m",
-        "label": "Share of male intermediate professions compared to the total male population"
+        "label": "Share of people aged 75 and more"
       },
-      "male_population_csp5": { "gender": "m", "label": "Employed men" },
-      "male_population_csp5_evol": { "gender": "f", "label": "Evolution of the men employees" },
-      "male_population_csp5_per_male_population": { "gender": "m", "label": "Share of employed men" },
-      "male_population_csp6": { "gender": "m", "label": "Men workers" },
-      "male_population_csp6_evol": { "gender": "f", "label": "Evolution of the men workers" },
-      "male_population_csp6_per_male_population": { "gender": "m", "label": "Share of men workers" },
-      "male_population_csp7": { "gender": "m", "label": "Retired men" },
-      "male_population_csp7_evol": { "gender": "f", "label": "Evolution of the men retirees" },
-      "male_population_csp7_per_male_population": { "gender": "m", "label": "Share of retired men" },
-      "male_population_csp8": { "gender": "m", "label": "Others men" },
-      "male_population_csp8_evol": { "gender": "f", "label": "Evolution of the men (other)" },
-      "male_population_csp8_per_male_population": { "gender": "m", "label": "Share of others men" },
-      "male_population_evol": { "gender": "f", "label": "Global change (men)" },
-      "male_population_out-of-school_high_school_diploma_15-": {
+      "population_80-_per_population_perc": {
         "gender": "m",
-        "label": "Out-of-school men without a diploma"
+        "label": "Percentage of 80+ y/o in the total population"
       },
       "population_csp1": { "gender": "m", "label": "Farmers" },
       "population_csp1_evol": {
         "gender": "f",
         "label": "Global evolution of the farmers"
       },
-      "male_population_out-of-school_higher_education_15-": {
+      "population_csp1_per_population": {
         "gender": "m",
-        "label": "Out-of-school men with a vocationnal diploma"
+        "label": "Share of farmers"
       },
-      "male_population_out-of-school_higher_education_15-_per_male_population_out-of-school_15-": {
+      "population_csp2": {
         "gender": "m",
-        "label": "Rate of out-of-school men with a vocationnal diploma"
+        "label": "Craftsmen, traders, entrepreneurs"
       },
-      "male_population_out-of-school_no_degree_or_school_certificate_15-": {
-        "gender": "m",
-        "label": "Out-of-school men with a bachelor's degree"
+      "population_csp2_evol": {
+        "gender": "f",
+        "label": "Global evolution of the rcaftsmen, traders, entrepreneurs"
       },
-      "male_population_out-of-school_no_degree_or_school_certificate_15-_per_male_population_out-of-school_15-": {
+      "population_csp2_per_population": {
         "gender": "m",
-        "label": "Rate of out-of-school men with a bachelor's degree"
+        "label": "Share of craftsmen, traders, entrepreneurs"
       },
-      "male_population_out-of-school_vocational_diploma_15-": {
+      "population_csp3": {
         "gender": "m",
-        "label": "Out-of-school men with tertiary education"
+        "label": "Managers, higher professions"
       },
-      "male_population_out-of-school_vocational_diploma_15-_per_male_population_out-of-school_15-": {
+      "population_csp3_evol": {
+        "gender": "f",
+        "label": "Global evolution of the managers, higher professions"
+      },
+      "population_csp3_per_population": {
         "gender": "m",
-        "label": "Rates of out-of-school men with tertiary education"
+        "label": "Share of managers, higher professions"
       },
       "population_csp4": { "gender": "m", "label": "Intermediate professions" },
       "population_csp4_evol": {
         "gender": "f",
         "label": "Global evolution of the intermediate professions"
       },
-      "no_qualifications_perc": { "label": "% with no qualifications - 2011" },
-      "none": { "label": "Without diploma" },
-      "not_born_uk_per_population_perc": { "label": "% not born in uk - 2011" },
-      "obese_per_children_6yo": { "label": "% children in year 6 who are obese- period 2011 - 2014" },
-      "obese_per_children_reception_year": {
-        "label": "% children in reception year who are obese - period 2011 - 2014"
+      "population_csp4_per_population": {
+        "gender": "m",
+        "label": "Share of intermediate professions"
       },
       "population_csp5": { "gender": "m", "label": "Employees" },
       "population_csp5_evol": {
         "gender": "f",
         "label": "Global evolution of the employees"
       },
-      "owned_household_perc": { "label": "% households owned - 2011" },
-      "owner_tenant": { "label": "Owner / tenant" },
-      "per_all": { "label": "Of contacts in zone" },
-      "per_party": { "label": "Per party" },
-      "per_seen": { "label": "Of met citizens in zone" },
-      "personnes_agees": { "gender": "m", "label": "Elderly" },
-      "personnes_agees__soins_a_domicile": { "gender": "m", "label": "Home care services" },
-      "personnes_agees_foyer_restaurant": { "gender": "m", "label": "Homes - restaurants" },
-      "personnes_agees_hebergement": { "gender": "m", "label": "Housing" },
-      "personnes_agees_services_d_aide": { "gender": "m", "label": "Help services" },
-      "personnes_agees_services_de_repas_a_domicile": { "gender": "m", "label": "Meal delivery" },
-      "places_preschool": { "gender": "m", "label": "Places preschool" },
-      "population": { "label": "Population - 2015" },
-      "population_0-12_no_incone_in_households_per_population_0-12_perc": {
+      "population_csp5_per_population": {
         "gender": "m",
-        "label": "Percentage of children 0-12 y/o without income at home"
+        "label": "Share of employees"
       },
       "population_csp6": { "gender": "m", "label": "Workers" },
       "population_csp6_evol": {
         "gender": "f",
         "label": "Global evolution of the workers"
       },
-      "population_0-18_no_incone_in_households_per_population_0-18_perc": {
+      "population_csp6_per_population": {
         "gender": "m",
-        "label": "Percentage of children 0-18 y/o without income at home"
+        "label": "Share of workers"
       },
       "population_csp7": { "gender": "m", "label": "Retired" },
       "population_csp7_evol": {
         "gender": "f",
         "label": "Global evolution of the retirees"
       },
-      "population_10-_secondary_education_per_population_10-": {
+      "population_csp7_per_population": {
         "gender": "m",
-        "label": "Secondary education ratio"
+        "label": "Share of retired"
       },
       "population_csp8": { "gender": "m", "label": "Others" },
       "population_csp8_evol": {
         "gender": "f",
-        "label": "Global evolution of the rcaftsmen, traders, entrepreneurs"
+        "label": "Global evolution (other)"
       },
-      "population_csp2_per_population": {
+      "population_csp8_per_population": {
         "gender": "m",
         "label": "Share of others"
       },
@@ -3658,7 +3617,10 @@
         "gender": "m",
         "label": "Married"
       },
-      "population_households_not_married": { "gender": "m", "label": "Not married" },
+      "population_households_not_married": {
+        "gender": "m",
+        "label": "Not married"
+      },
       "population_households_not_married_per_population_households_15-_perc": {
         "gender": "m",
         "label": "Not married"
@@ -3676,17 +3638,26 @@
         "gender": "m",
         "label": "Single"
       },
-      "population_households_single_25-54": { "gender": "m", "label": "Single 25-54 y/o" },
+      "population_households_single_25-54": {
+        "gender": "m",
+        "label": "Single 25-54 y/o"
+      },
       "population_households_single_25-54_per_population_households_25-54_perc": {
         "gender": "m",
         "label": "Single 25-54 y/o"
       },
-      "population_households_single_55-79": { "gender": "m", "label": "Single 55-79 y/o" },
+      "population_households_single_55-79": {
+        "gender": "m",
+        "label": "Single 55-79 y/o"
+      },
       "population_households_single_55-79_per_population_households_55-79_perc": {
         "gender": "m",
         "label": "Single 55-79 y/o"
       },
-      "population_households_single_80": { "gender": "m", "label": "Single 80 y/o and more" },
+      "population_households_single_80": {
+        "gender": "m",
+        "label": "Single 80 y/o and more"
+      },
       "population_households_single_80_per_population_households_80-_perc": {
         "gender": "m",
         "label": "Single 80 y/o and more"
@@ -3724,37 +3695,58 @@
         "gender": "m",
         "label": "Rate of people not in school with a vocationnal diploma"
       },
-      "population_schooled_11-14": { "gender": "m", "label": "Scolarized aged 11 to 14" },
+      "population_schooled_11-14": {
+        "gender": "m",
+        "label": "Scolarized aged 11 to 14"
+      },
       "population_schooled_11-14_per_population_11-14": {
         "gender": "m",
         "label": "Scolarisation rate aged 11 to 14"
       },
-      "population_schooled_15-17": { "gender": "m", "label": "Scolarized aged 15 to 17" },
+      "population_schooled_15-17": {
+        "gender": "m",
+        "label": "Scolarized aged 15 to 17"
+      },
       "population_schooled_15-17_per_population_15-17": {
         "gender": "m",
         "label": "Scolarisation rate aged 15 to 17"
       },
-      "population_schooled_18-24": { "gender": "m", "label": "Scolarized aged 18 to 24" },
+      "population_schooled_18-24": {
+        "gender": "m",
+        "label": "Scolarized aged 18 to 24"
+      },
       "population_schooled_18-24_per_population_18-24": {
         "gender": "m",
         "label": "Scolarisation rate aged 18 to 24"
       },
-      "population_schooled_2-5": { "gender": "m", "label": "Scolarized aged 2 to 5" },
+      "population_schooled_2-5": {
+        "gender": "m",
+        "label": "Scolarized aged 2 to 5"
+      },
       "population_schooled_2-5_per_population_2-5": {
         "gender": "m",
         "label": "Scolarisation rate aged 2 to 5"
       },
-      "population_schooled_25-29": { "gender": "m", "label": "Scolarized aged 25 to 29" },
+      "population_schooled_25-29": {
+        "gender": "m",
+        "label": "Scolarized aged 25 to 29"
+      },
       "population_schooled_25-29_per_population_25-29": {
         "gender": "m",
         "label": "Scolarisation rate aged 25 to 29"
       },
-      "population_schooled_30-": { "gender": "m", "label": "Scolarized aged 30 years and more" },
+      "population_schooled_30-": {
+        "gender": "m",
+        "label": "Scolarized aged 30 years and more"
+      },
       "population_schooled_30-_per_population_30-": {
         "gender": "m",
         "label": "Scolarisation rate aged 30 years and more"
       },
-      "population_schooled_6-10": { "gender": "m", "label": "Scolarized aged 6 to 10" },
+      "population_schooled_6-10": {
+        "gender": "m",
+        "label": "Scolarized aged 6 to 10"
+      },
       "population_schooled_6-10_per_population_6-10": {
         "gender": "m",
         "label": "Scolarisation rate aged 6 to 10"
@@ -3791,7 +3783,10 @@
         "gender": "m",
         "label": "Share of the working population which goes to work using public transportation"
       },
-      "population_working_walking": { "gender": "m", "label": "Working population which walks to work" },
+      "population_working_walking": {
+        "gender": "m",
+        "label": "Working population which walks to work"
+      },
       "population_working_walking_per_population_working": {
         "gender": "m",
         "label": "Share of the working population which walks to work"
@@ -3971,7 +3966,12 @@
           },
           "year": ""
         },
-        "messagebox": { "cancel": "Cancel", "confirm": "OK", "error": "Illegal input", "title": "Message" },
+        "messagebox": {
+          "cancel": "Cancel",
+          "confirm": "OK",
+          "error": "Illegal input",
+          "title": "Message"
+        },
         "pagination": {
           "goto": "Go to",
           "pageClassifier": "",
@@ -4008,7 +4008,10 @@
         }
       }
     },
-    "GROUPS": { "data": "Socio-economic data", "prio": "Profile and custom analysis" },
+    "GROUPS": {
+      "data": "Socio-economic data",
+      "prio": "Profile and custom analysis"
+    },
     "LEAFLET": {
       "DRAW": {
         "handlers": {
@@ -4070,7 +4073,10 @@
         "LABEL": "We're doing everything we can to reduce your wait time.",
         "TITLE": "Your data are on their way!"
       },
-      "SEARCH": { "LABEL": "Try to modify your search criteria", "TITLE": "Oops! No result" }
+      "SEARCH": {
+        "LABEL": "Try to modify your search criteria",
+        "TITLE": "Oops! No result"
+      }
     },
     "EQUAL": "Equal",
     "FEMALE": "Female",
