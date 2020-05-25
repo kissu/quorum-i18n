@@ -3,7 +3,9 @@
   "version": "1.0.24",
   "description": "Repo for all the i18n resources for the Quorum's Sales Team",
   "author": "quorumsco <https://www.quorum.co>",
+  "main": "dist/index.js",
   "scripts": {
+    "build:app": "babel index.js -d dist",
     "fix:prettier": "prettier --write \"**/*.json\"",
     "create:language-fallbacks": "node ./createLanguageFallbacks.js"
   },
@@ -11,8 +13,13 @@
     "deep-extend": "^0.6.0",
     "fs-extra": "^9.0.0"
   },
-  "main": ".eslintrc.js",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
