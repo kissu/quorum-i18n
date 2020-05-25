@@ -21,7 +21,7 @@ const allLanguagesVariants = [
 
 const jsonFileName = (languageFallbackList) =>
   `./merged-locales/web/${languageFallbackList.map((lang) => lang.match(/\w+/gi)[0]).join('-')}.json`
-const importFile = (lang) => require(`./initial-locales/${lang}.json`)
+const importFile = (lang) => require(`./initial-locales/web/${lang}.json`)
 
 for (const languageVariants of allLanguagesVariants) {
   const importedLanguageLocaleToMerge = languageVariants.reduce((accumulator, currentValue) => {
