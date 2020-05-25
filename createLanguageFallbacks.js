@@ -20,7 +20,7 @@ const allLanguagesVariants = [
 /* eslint-enable */
 
 const jsonFileName = (languageFallbackList) =>
-  `./merged-locales/${languageFallbackList.map((lang) => lang.match(/\w+/gi)[0]).join('-')}.json`
+  `./merged-locales/web/${languageFallbackList.map((lang) => lang.match(/\w+/gi)[0]).join('-')}.json`
 const importFile = (lang) => require(`./initial-locales/${lang}.json`)
 
 for (const languageVariants of allLanguagesVariants) {
