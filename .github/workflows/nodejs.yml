@@ -19,8 +19,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Create JSON merge
       run: |
-        rm merged-locales/web/*
-        rm merged-locales/mobile/*
         npm i
         npm run create:language-fallbacks
         npm run fix:prettier
