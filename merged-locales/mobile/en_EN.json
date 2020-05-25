@@ -62,7 +62,11 @@
       "noCampaignWithThisCode": "This code isn't linked to a campaign.",
       "discover": "Discover"
     },
-    "chooseCampaign": { "emoji": "✊🏻", "letsGo": "Let's go!", "joinYourCompaign": "Join your campaign" },
+    "chooseCampaign": {
+      "emoji": "✊🏻",
+      "letsGo": "Let's go!",
+      "joinYourCompaign": "Join your campaign"
+    },
     "createAccount": {
       "step1": {
         "title": "Your email",
@@ -292,19 +296,46 @@
       "noCitizensFoundWithStaticSearch": "No result found.",
       "addCitizenCTA": "Mobilise someone in this zone",
       "finishAnItem": {
-        "city": { "one": "Finish this city", "other": "Finish {{count}} cities" },
-        "street": { "one": "Finish this street", "other": "Finish {{count}} streets" },
-        "housenumber": { "one": "Finish this housenumber", "other": "Finish {{count}} housenumbers" },
-        "building": { "one": "Finish this building", "other": "Finish {{count}} buildings" },
-        "floor": { "one": "Finish this floor", "other": "Finish {{count}} floors" },
+        "city": {
+          "one": "Finish this city",
+          "other": "Finish {{count}} cities"
+        },
+        "street": {
+          "one": "Finish this street",
+          "other": "Finish {{count}} streets"
+        },
+        "housenumber": {
+          "one": "Finish this housenumber",
+          "other": "Finish {{count}} housenumbers"
+        },
+        "building": {
+          "one": "Finish this building",
+          "other": "Finish {{count}} buildings"
+        },
+        "floor": {
+          "one": "Finish this floor",
+          "other": "Finish {{count}} floors"
+        },
         "item": { "one": "Finish", "other": "Finish {{count}}" }
       },
       "reopenAnItem": {
         "city": { "one": "Reopen city", "other": "Reopen {{count}} cities" },
-        "street": { "one": "Reopen street", "other": "Reopen {{count}} streets" },
-        "housenumber": { "one": "Reopen this housenumber", "other": "Reopen {{count}} housenumbers" },
-        "building": { "one": "Reopen this building", "other": "Reopen {{count}} buildings" },
-        "floor": { "one": "Reopen this floor", "other": "Reopen {{count}} floors" },
+        "street": {
+          "one": "Reopen street",
+          "other": "Reopen {{count}} streets"
+        },
+        "housenumber": {
+          "one": "Reopen this housenumber",
+          "other": "Reopen {{count}} housenumbers"
+        },
+        "building": {
+          "one": "Reopen this building",
+          "other": "Reopen {{count}} buildings"
+        },
+        "floor": {
+          "one": "Reopen this floor",
+          "other": "Reopen {{count}} floors"
+        },
         "item": { "one": "Reopen", "other": "Reopen {{count}}" }
       },
       "finishLabel": "Finish",
@@ -411,7 +442,11 @@
         "title": "Settings",
         "subtitle": "Customise your experience",
         "notifications": { "title": "Notifications" },
-        "me": { "title": "About me", "editProfile": "Modify profile", "editPassword": "Change password" },
+        "me": {
+          "title": "About me",
+          "editProfile": "Modify profile",
+          "editPassword": "Change password"
+        },
         "language": {
           "title": "Language & Regions",
           "titleScreen": "Select your language",
@@ -610,7 +645,9 @@
       "newDocs": "new documents",
       "missingData": "It appears that some data is missing.",
       "reloadLabel": "Refresh",
-      "adminView": { "notificationOnlyForAdmin": "You have access to this view because you are an admin." }
+      "adminView": {
+        "notificationOnlyForAdmin": "You have access to this view because you are an admin."
+      }
     },
     "popup": {
       "needUpdate": {
