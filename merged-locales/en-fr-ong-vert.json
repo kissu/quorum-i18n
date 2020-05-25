@@ -2,7 +2,7 @@
   "ACTION": {
     "CALL_TO_ACTION": {
       "CONFIRM_CLOSE": {
-        "CANCEL_TEXT": "done from VScode",
+        "CANCEL_TEXT": "On aime les buissons !",
         "CONFIRM_TEXT": "Quitter la création",
         "MESSAGE": "Vous n'avez pas terminé la création de votre action. Voulez-vous quitter la page et perdre les informations renseignées ?",
         "TITLE": "Quitter la création de l'action"
