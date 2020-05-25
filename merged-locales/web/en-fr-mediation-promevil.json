@@ -4,10 +4,10 @@
       "CONFIRM_CLOSE": {
         "CANCEL_TEXT": "Je suis la ville au top ! :D",
         "CONFIRM_TEXT": "Quitter la création",
-        "MESSAGE": "Vous n'avez pas terminé la création de votre action. Voulez-vous quitter la page et perdre les informations renseignées ?",
+        "MESSAGE": "Vous n'avez pas terminé la création de votre feuille de route. Voulez-vous quitter la page et perdre les informations renseignées ?",
         "TITLE": "Quitter la création de l'action"
       },
-      "CREATE": "Créer l'action",
+      "CREATE": "Créer une feuille de route",
       "ERROR": "Une erreur est survenue lors de la création. Veuillez réessayer et contacter le support si l'erreur persiste",
       "FORM_FILTER": {
         "ADD_QUESTION": "Ajouter une question",
@@ -36,16 +36,16 @@
           "TEAM": "Qui",
           "TYPE": "Quoi"
         },
-        "TITLE": "Nouvelle action"
+        "TITLE": "Nouvelle feuille de route"
       },
       "INFORMATIONS": {
-        "AIM": "Quel est le nom de votre action ?",
+        "AIM": "Quel est le nom de votre feuille de route ?",
         "AIM_PLACEHOLDER": "Soyez concis ! (à destination des membres)",
         "BRIEFS": "Ajoutez un brief à votre action",
         "COMMENT": "Voulez-vous ajouter des informations supplémentaires ?",
-        "COMMENT_PLACEHOLDER": "Comment se déroule l'action ? Qui sera sur place ? Qui est le coordinateur ?",
+        "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
         "CREATE_BRIEF": "Créer un brief",
-        "DATE": "Quelle est la date de votre action ?",
+        "DATE": "Quelle est la date de votre feuille de route ?",
         "END": "Date de fin",
         "GOAL": "Voulez-vous ajouter un objectif ?",
         "GOAL_PLACEHOLDER": "Entrer un objectif chiffré",
@@ -82,7 +82,7 @@
         "HELP": "Essayez de modifier votre recherche",
         "TEAM_EMPTY": "Aucune équipe ne correspond à votre recherche !",
         "TEAM_HELP_CTA": "créer une nouvelle équipe.",
-        "USER": "Sélectionnez les membres et/ou les équipes qui réaliseront l'action",
+        "USER": "Sélectionnez les médiateurs qui réaliseront cette journée",
         "USER_EMPTY": "Aucun membre ne correspond à votre recherche !",
         "USER_HELP_CTA": "ou inviter un nouveau membre"
       },
@@ -130,7 +130,7 @@
       "VALIDATE": {
         "TITLE": "Le nom de l'action est obligatoire",
         "TYPE": "Le type de l'action est obligatoire",
-        "VOLONTEERS": "L'action doit être assignée à au moins une personne"
+        "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne"
       }
     },
     "DETAIL": {
@@ -140,9 +140,9 @@
       "END": "Se termine le",
       "LINK": "Lien",
       "MEMBERS": "Participants",
-      "NO_MEMBER": "Aucun membre dans cette action",
+      "NO_MEMBER": "Aucun membre pour cette action",
       "NO_PITCH": "Pas de note dans cette action",
-      "NO_TEAM": "Aucune équipe dans cette action",
+      "NO_TEAM": "Aucune équipe pour cette journée",
       "PITCH": "Notes",
       "START": "Commence le",
       "TABS": {
@@ -173,30 +173,30 @@
       "LINK": "Lien",
       "MEMBERS": "Membres",
       "NAME": "Nom",
-      "NO_EMPTY_NAME": "Le nom de l'action est obligatoire",
+      "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire",
       "NO_EMPTY_TEAM": "You must have at least one member invited.",
-      "SUCCESS": "L'action a bien été mise à jour",
+      "SUCCESS": "La feuille de route à bien été mise à jour",
       "TEAMS": "Équipes"
     },
     "LIST": {
-      "ACTIONS_SELECTED": "Aucune action sélectionnée | {count} action sélectionnée | {count} actions sélectionnées",
-      "ACTION_IS_OVER": "La date de l'action est dépassée.",
-      "ADD_ACTION_POLY": "Créer une action sur la zone",
+      "ACTIONS_SELECTED": "Aucune feuille de route sélectionnée",
+      "ACTION_IS_OVER": "La date de cette feuille de route est dépassée",
+      "ADD_ACTION_POLY": "Créer une feuille de route ici",
       "ARCHIVE": "Archiver",
       "ARCHIVED_ACTION": "Noter comme terminée",
       "CONFIRMED": "1 attendee | 1 participant | %{count} participants",
       "CREATED_AT": "Créée le",
-      "DELETE_SUCCESS": "L'action \"{name}\" a bien été supprimée",
-      "EDIT_ACTION": "Éditer l'action",
+      "DELETE_SUCCESS": "La feuille de route \"{name}\" a été supprimée",
+      "EDIT_ACTION": "Modifier la feuille de route",
       "FINISH": "Terminer l'action | Terminer {count} actions",
-      "FINISHED": "Action terminée | Action terminée | Actions terminées",
+      "FINISHED": "Feuille de route complète",
       "MEMBERS": "0 membre | 1 membre | %{count} membres",
       "MET": "{count} rencontré | {count} rencontré | {count} rencontrés",
-      "NO_DATA": "Aucune action pour l’heure ! Il est temps de préparer le terrain ✨ !",
+      "NO_DATA": "Aucune feuille de route pour le moment",
       "PENDING_TEXT": "Un peu de patience, nous préparons le terrain",
-      "REOPEN": "Relancer l'action | Relancer {count} actions",
-      "RUNNING": "Action en cours | Action en cours | Actions en cours",
-      "SEARCH": "Rechercher une action",
+      "REOPEN": "Relancer la feuille de route",
+      "RUNNING": "Feuille de route en cours",
+      "SEARCH": "Rechercher une feuille de route",
       "SELECTORS": {
         "ACTIONS_TYPES": "Types d'action",
         "DATETIME_END": "Date de fin",
@@ -227,7 +227,7 @@
     },
     "SIDEBAR": {
       "KPI": {
-        "ACTIONS_SELECTED": "Pas d'action | 1 action | {count} actions",
+        "ACTIONS_SELECTED": "Aucune feuille de route",
         "TARGET": "objectif | objectif | objectifs",
         "VISITED": "atteint | atteint | atteints"
       }
@@ -239,8 +239,8 @@
       "TITLE": "Retrouvez ici vos analyses personnalisées."
     },
     "GENERATION": {
-      "ACTION_NUMBER": "Action n°{number}",
-      "CREATE_ACTION": "Créer cette action",
+      "ACTION_NUMBER": "Feuille de route n°{number}",
+      "CREATE_ACTION": "Créer une feuille de route",
       "MEMBERS": "Membres",
       "NO_DATA": "Retrouvez ici des actions de terrains optimisées pour vos utilisateurs ! <br> Contacter nous pour activer cette vue",
       "STARTING_POINT": "Point de départ<br>estimé",
@@ -372,16 +372,16 @@
   "CARTO": {
     "CC": {
       "CALL_TO_ACTION": {
-        "ACTIONS": "Action en cours  | Actions en cours",
-        "ADD_ACTION": "Lancer une action",
-        "ADD_ACTION_HERE": "Lancer une action ici",
+        "ACTIONS": "Feuille de route en cours",
+        "ADD_ACTION": "Créer une feuille de route",
+        "ADD_ACTION_HERE": "Créer une feuille de route ici",
         "CONTACTS": "Contacts",
         "CONTACTS_HERE": "Aucun contact dans la zone | 1 contact dans la zone | {count} contacts dans la zone",
         "DIAGRAMS": {
           "DATE": { "TITLE": "Nb de rencontres par {span}" },
           "RESET": "Réinitialiser"
         },
-        "DONE_ACTIONS": "Action terminée | Actions terminées",
+        "DONE_ACTIONS": "Feuille de route terminée",
         "EMPTY_DATA": "Changer d'échelle pour voir cette donnée !",
         "GOTO_DETAIL": "Aller au détail",
         "MEMBERS": "Membres",
@@ -421,7 +421,7 @@
         "EMPTY_DATA": "Affichage sans donnée",
         "HOW_IS_PRIO_MADE": "Comment est construite ma priorisation ?",
         "LAYERS": {
-          "ACTIONS": "Actions",
+          "ACTIONS": "Feuilles de route",
           "CONTACTS": "Contacts",
           "SEEN": "Rencontré(e)s",
           "SUPPORTS": "Soutiens",
@@ -461,7 +461,7 @@
         "ZOOM_OUT": "Dézoomer"
       },
       "PRIO": {
-        "ADD_ACTION": "Créer une action",
+        "ADD_ACTION": "Créer une feuille de route",
         "BACK": "Retour",
         "CHOOSE_CATEGORIES": "Ajouter une catégorie",
         "CHOOSE_VARIABLES": "Ajouter une variable",
@@ -536,7 +536,7 @@
   "COMMUNCATIONS": { "HEADER": { "GENERAL": "Général", "SMS": "SMS" } },
   "CONTACT": {
     "EDIT": {
-      "ACTIONS": "Actions",
+      "ACTIONS": "Feuille de route",
       "ADDRESS": "Adresse",
       "ADD_TAG": "Ajouter un tag",
       "ANSWER": "Réponse",
@@ -584,7 +584,7 @@
       "ACTIVE_QUESTIONS": " aucune question | une question active | {number} questions actives",
       "ALL": "Tous les citoyens",
       "CONTACTS_SELECTED": " 0 citoyen sélectionné | 1 citoyen sélectionné | {number} citoyens sélectionnés",
-      "CREATE_ACTION": "Créer une action",
+      "CREATE_ACTION": "Créer une feuille de route",
       "DATE_PLACEHOLDER": "Choisir une date",
       "EXPORT_SELECTION": "Exporter la selection",
       "FILTERS": {
@@ -619,7 +619,7 @@
       "IS_SUPPORT": "Seulement les soutiens",
       "LIMIT_BOUND_TOTAL_HIT": "Vous ne pouvez pas créer une action sur plus de {number} contacts.",
       "MANAGE_ACTION": "Action sur 0 contact | Action sur ce contact | Action sur {count} contacts",
-      "MANAGE_ACTIONS_AVAILABLES": "Actions",
+      "MANAGE_ACTIONS_AVAILABLES": "Feuille de route",
       "NAME_CONTAINS": "Le prénom et/ou le nom contient ",
       "NOT_VISITED": "Pas encore visités",
       "NO_RESULT": "Aucun résultat",
@@ -725,7 +725,7 @@
       "SEND_EMAIL": "Envoyer un email",
       "SUCCESS_DELETE": "Le contact a bien été supprimé",
       "TABLE": {
-        "ACTIONS": "Actions",
+        "ACTIONS": "Feuille de route",
         "ADDRESS": "Adresse",
         "AGE": "Âge",
         "CONTACT": "Visité par",
@@ -914,7 +914,7 @@
       "CANCEL": "Supprimer l'action",
       "CHOOSE_STATUS": "Indiquer un statut",
       "DONE_TOOLKIT": "Marqué comme fait",
-      "DROPDOWN": "Actions",
+      "DROPDOWN": "Feuille de routes",
       "FINISH": "Marquer comme terminé",
       "INVITE": "Inviter à Quorum",
       "MAIL": "Envoyer un mail",
@@ -935,7 +935,7 @@
     }
   },
   "MENU": {
-    "ACTIONS": "Actions",
+    "ACTIONS": "Feuilles de route",
     "ANALYSIS": "Analyses",
     "BRIEFS": "Briefs",
     "CAMPAIGN_MAILCHIMP": "Campagnes Mailchimp",
@@ -1020,7 +1020,7 @@
       },
       "VENDORS_TITLE": "Extensions",
       "VENDOR_HEAD": {
-        "ACTION": "Action",
+        "ACTION": "Feuille de route",
         "ACTIVE": "Statut",
         "DESC": "Description",
         "NAME": "Nom"
@@ -1367,7 +1367,7 @@
           "TITLE_EDIT": "Éditer l'équipe",
           "USERS_PLACEHOLDER": "Ajouter un membre à l'équipe"
         },
-        "CREATE_ACTION": "Créer une action",
+        "CREATE_ACTION": "Créer une feuille de route",
         "EDIT": {
           "MEMBERS": "Membres",
           "NAME": "Nom de l'équipe",
@@ -4172,7 +4172,7 @@
     },
     "ADD": "Ajouter",
     "ADDRESS": "Adresse",
-    "ADD_ACTION": "Créer une action",
+    "ADD_ACTION": "Créer une feuille de route",
     "AND": "et",
     "BACK": "Retour",
     "CANCEL": "Annuler",

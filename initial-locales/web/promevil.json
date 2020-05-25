@@ -1,113 +1,113 @@
 {
-    "ACTION": {
-        "CALL_TO_ACTION": {
-            "CONFIRM_CLOSE": {
-                "CANCEL_TEXT": "Je suis la ville au top ! :D",
-                "MESSAGE": "Vous n'avez pas terminé la création de votre feuille de route. Voulez-vous quitter la page et perdre les informations renseignées ?"
-            },
-            "VALIDATE": {
-                "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne"
-            },
-            "SEARCH": {
-                "USER": "Sélectionnez les médiateurs qui réaliseront cette journée"
-            },
-            "INFORMATIONS": {
-                "DATE": "Quelle est la date de votre feuille de route ?",
-                "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
-                "AIM": "Quel est le nom de votre feuille de route ?"
-            },
-            "HEADER": {
-                "TITLE": "Nouvelle feuille de route"
-            },
-            "CREATE": "Créer une feuille de route"
-        },
-        "SIDEBAR": {
-            "KPI": {
-                "ACTIONS_SELECTED": "Aucune feuille de route"
-            }
-        },
-        "LIST": {
-            "SEARCH": "Rechercher une feuille de route",
-            "RUNNING": "Feuille de route en cours",
-            "REOPEN": "Relancer la feuille de route",
-            "NO_DATA": "Aucune feuille de route pour le moment",
-            "FINISHED": "Feuille de route complète",
-            "EDIT_ACTION": "Modifier la feuille de route",
-            "DELETE_SUCCESS": "La feuille de route \"{name}\" a été supprimée",
-            "ADD_ACTION_POLY": "Créer une feuille de route ici",
-            "ACTION_IS_OVER": "La date de cette feuille de route est dépassée",
-            "ACTIONS_SELECTED": "Aucune feuille de route sélectionnée"
-        },
-        "EDIT": {
-            "SUCCESS": "La feuille de route à bien été mise à jour",
-            "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire"
-        },
-        "DETAIL": {
-            "NO_TEAM": "Aucune équipe pour cette journée",
-            "NO_MEMBER": "Aucun membre pour cette action"
-        }
+  "ACTION": {
+    "CALL_TO_ACTION": {
+      "CONFIRM_CLOSE": {
+        "CANCEL_TEXT": "Je suis la ville au top ! :D",
+        "MESSAGE": "Vous n'avez pas terminé la création de votre feuille de route. Voulez-vous quitter la page et perdre les informations renseignées ?"
+      },
+      "VALIDATE": {
+        "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne"
+      },
+      "SEARCH": {
+        "USER": "Sélectionnez les médiateurs qui réaliseront cette journée"
+      },
+      "INFORMATIONS": {
+        "DATE": "Quelle est la date de votre feuille de route ?",
+        "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
+        "AIM": "Quel est le nom de votre feuille de route ?"
+      },
+      "HEADER": {
+        "TITLE": "Nouvelle feuille de route"
+      },
+      "CREATE": "Créer une feuille de route"
     },
-    "_COMMON": {
-        "ADD_ACTION": "Créer une feuille de route"
+    "SIDEBAR": {
+      "KPI": {
+        "ACTIONS_SELECTED": "Aucune feuille de route"
+      }
     },
-    "USER_MANAGEMENT": {
-        "USER_LIST": {
-            "TEAMS": {
-                "CREATE_ACTION": "Créer une feuille de route"
-            }
-        }
+    "LIST": {
+      "SEARCH": "Rechercher une feuille de route",
+      "RUNNING": "Feuille de route en cours",
+      "REOPEN": "Relancer la feuille de route",
+      "NO_DATA": "Aucune feuille de route pour le moment",
+      "FINISHED": "Feuille de route complète",
+      "EDIT_ACTION": "Modifier la feuille de route",
+      "DELETE_SUCCESS": "La feuille de route \"{name}\" a été supprimée",
+      "ADD_ACTION_POLY": "Créer une feuille de route ici",
+      "ACTION_IS_OVER": "La date de cette feuille de route est dépassée",
+      "ACTIONS_SELECTED": "Aucune feuille de route sélectionnée"
     },
-    "SETTINGS": {
-        "CAMPAIGN": {
-            "VENDOR_HEAD": {
-                "ACTION": "Feuille de route"
-            }
-        }
+    "EDIT": {
+      "SUCCESS": "La feuille de route à bien été mise à jour",
+      "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire"
     },
-    "MENU": {
-        "ACTIONS": "Feuilles de route"
-    },
-    "MANAGEMENT": {
-        "ISSUE_CENTER": {
-            "DROPDOWN": "Feuille de routes"
-        }
-    },
-    "CONTACT": {
-        "LIST": {
-            "TABLE": {
-                "ACTIONS": "Feuille de route"
-            }
-        },
-        "HEADER": {
-            "MANAGE_ACTIONS_AVAILABLES": "Feuille de route",
-            "CREATE_ACTION": "Créer une feuille de route"
-        },
-        "EDIT": {
-            "ACTIONS": "Feuille de route"
-        }
-    },
-    "CARTO": {
-        "CC": {
-            "PRIO": {
-                "ADD_ACTION": "Créer une feuille de route"
-            },
-            "NAVIGATOR": {
-                "LAYERS": {
-                    "ACTIONS": "Feuilles de route"
-                }
-            },
-            "CALL_TO_ACTION": {
-                "DONE_ACTIONS": "Feuille de route terminée",
-                "ADD_ACTION_HERE": "Créer une feuille de route ici",
-                "ADD_ACTION": "Créer une feuille de route",
-                "ACTIONS": "Feuille de route en cours"
-            }
-        }
-    },
-    "ANALYTICS": {
-        "GENERATION": {
-            "CREATE_ACTION": "Créer une feuille de route",
-            "ACTION_NUMBER": "Feuille de route n°{number}"
-        }
+    "DETAIL": {
+      "NO_TEAM": "Aucune équipe pour cette journée",
+      "NO_MEMBER": "Aucun membre pour cette action"
     }
+  },
+  "_COMMON": {
+    "ADD_ACTION": "Créer une feuille de route"
+  },
+  "USER_MANAGEMENT": {
+    "USER_LIST": {
+      "TEAMS": {
+        "CREATE_ACTION": "Créer une feuille de route"
+      }
+    }
+  },
+  "SETTINGS": {
+    "CAMPAIGN": {
+      "VENDOR_HEAD": {
+        "ACTION": "Feuille de route"
+      }
+    }
+  },
+  "MENU": {
+    "ACTIONS": "Feuilles de route"
+  },
+  "MANAGEMENT": {
+    "ISSUE_CENTER": {
+      "DROPDOWN": "Feuille de routes"
+    }
+  },
+  "CONTACT": {
+    "LIST": {
+      "TABLE": {
+        "ACTIONS": "Feuille de route"
+      }
+    },
+    "HEADER": {
+      "MANAGE_ACTIONS_AVAILABLES": "Feuille de route",
+      "CREATE_ACTION": "Créer une feuille de route"
+    },
+    "EDIT": {
+      "ACTIONS": "Feuille de route"
+    }
+  },
+  "CARTO": {
+    "CC": {
+      "PRIO": {
+        "ADD_ACTION": "Créer une feuille de route"
+      },
+      "NAVIGATOR": {
+        "LAYERS": {
+          "ACTIONS": "Feuilles de route"
+        }
+      },
+      "CALL_TO_ACTION": {
+        "DONE_ACTIONS": "Feuille de route terminée",
+        "ADD_ACTION_HERE": "Créer une feuille de route ici",
+        "ADD_ACTION": "Créer une feuille de route",
+        "ACTIONS": "Feuille de route en cours"
+      }
+    }
+  },
+  "ANALYTICS": {
+    "GENERATION": {
+      "CREATE_ACTION": "Créer une feuille de route",
+      "ACTION_NUMBER": "Feuille de route n°{number}"
+    }
+  }
 }
