@@ -164,6 +164,31 @@ var setLocaleForTheUser = function () {
  * to have the right language depends on locale pack and platform
  */
 
+var Test = function () {
+  var _ref5 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
+    var jsonWanted;
+    return regeneratorRuntime.wrap(function _callee5$(_context5) {
+      while (1) {
+        switch (_context5.prev = _context5.next) {
+          case 0:
+            _context5.next = 2;
+            return getJSONLanguageForApplications(detectedLocale, localeSpecific, platform);
+
+          case 2:
+            jsonWanted = _context5.sent;
+
+          case 3:
+          case 'end':
+            return _context5.stop();
+        }
+      }
+    }, _callee5, this);
+  }));
+
+  return function Test() {
+    return _ref5.apply(this, arguments);
+  };
+}();
 
 function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
@@ -188,9 +213,7 @@ function downgradeMyLocaleSpecific(localeSpecific) {
 function downgradeMyLocaleString(locale) {
   if (locale === '') return locale;
   return locale.replace(/[-_]?[A-Za-z]+$/, '');
-}
-
-module.exports = function () {
+}module.exports = function () {
   var _ref4 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
     var deviceLocale = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'en';
     var localeSpecific = arguments[1];
@@ -228,13 +251,8 @@ module.exports = function () {
   return getJSONLanguageForApplications;
 }();
 
-// const detectedLocale = 'en-GB-en'
-// const localeSpecific = 'ong-vert-modo'
-// const platform = 'web'
+var detectedLocale = 'en-GB-en';
+var localeSpecific = 'ong-vert-modo';
+var platform = 'web';
 
-// async function Test() {
-//   const jsonWanted = await getJSONLanguageForApplications(detectedLocale, localeSpecific, platform)
-//   console.log(jsonWanted.ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT)
-// }
-
-// Test()
+Test();
