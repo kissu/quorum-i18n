@@ -11,7 +11,7 @@
   "scripts": {
     "build:app": "babel index.js --out-dir dist",
     "fix:prettier": "prettier --write \"**/*.json\"",
-    "create:language-fallbacks": "node ./createLanguageFallbacks.js"
+    "create:language-fallbacks": "node --experimental-json-modules ./createLanguageFallbacks.js"
   },
   "dependencies": {
     "deep-extend": "^0.6.0",

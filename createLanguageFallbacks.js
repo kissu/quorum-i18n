@@ -1,5 +1,5 @@
-const fs = require('fs-extra') // beter file creation
-const deepExtend = require('deep-extend') // merge various JSONs
+import fs from 'fs-extra' // beter file creation
+import deepExtend from 'deep-extend' // merge various JSONs
 
 /* eslint-disable */
 const webLanguagesVariants = [
@@ -21,7 +21,8 @@ const webLanguagesVariants = [
 
 const webJsonFileName = (languageFallbackList) =>
   `./merged-locales/web/${languageFallbackList.map((lang) => lang.match(/\w+/gi)[0]).join('-')}.json`
-const importWebFile = (lang) => require(`./initial-locales/web/${lang}.json`)
+const importWebFile = async (lang) =>
+  await import(`./initial-locales/web/${lang}.json`).catch((err) => console.log(err))
 
 for (const languageVariants of webLanguagesVariants) {
   const importedLanguageLocaleToMerge = languageVariants.reduce((accumulator, currentValue) => {
@@ -43,7 +44,8 @@ const mobileLanguagesVariants = [
 
 const mobileJsonFileName = (languageFallbackList) =>
   `./merged-locales/mobile/${languageFallbackList.map((lang) => lang.match(/\w+/gi)[0]).join('-')}.json`
-const importMobileFile = (lang) => require(`./initial-locales/mobile/${lang}.json`)
+const importMobileFile = async (lang) =>
+  await import(`./initial-locales/mobile/${lang}.json`).catch((err) => console.log(err))
 
 for (const languageVariants of mobileLanguagesVariants) {
   const importedLanguageLocaleToMerge = languageVariants.reduce((accumulator, currentValue) => {
