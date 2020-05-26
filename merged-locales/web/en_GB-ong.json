@@ -1,1 +1,4 @@
-{"MENU":{"STRATEGY":"British strategy"},"ACTION":{"CALL_TO_ACTION":{"CONFIRM_CLOSE":{"CANCEL_TEXT":"Les ONG c'est cool !"}}}}
+{
+  "MENU": { "STRATEGY": "British strategy" },
+  "ACTION": { "CALL_TO_ACTION": { "CONFIRM_CLOSE": { "CANCEL_TEXT": "Les ONG c'est cool !" } } }
+}

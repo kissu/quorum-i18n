@@ -86,7 +86,6 @@ async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
  * for the different platforms to helps front end applications
  * to have the right language depends on locale pack and platform
  */
-console.log('nice')
 
 module.exports = async function getJSONLanguageForApplications(
   deviceLocale = 'en',
@@ -104,13 +103,13 @@ module.exports = async function getJSONLanguageForApplications(
   }
 }
 
-// const detectedLocale = 'en-GB-en'
-// const localeSpecific = 'ong-vert-modo'
-// const platform = 'web'
+const detectedLocale = 'en-GB-en'
+const localeSpecific = 'ong-vert-modo'
+const platform = 'web'
 
-// async function Test() {
-//   const jsonWanted = await getJSONLanguageForApplications(detectedLocale, localeSpecific, platform)
-//   console.log(jsonWanted.ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT)
-// }
+async function Test() {
+  const jsonWanted = await getJSONLanguageForApplications(detectedLocale, localeSpecific, platform)
+  console.log(jsonWanted.ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT)
+}
 
-// Test()
+Test()
