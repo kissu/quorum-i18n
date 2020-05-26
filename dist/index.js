@@ -93,6 +93,31 @@ async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
  * to have the right language depends on locale pack and platform
  */
 
+var Test = function () {
+  var _ref5 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {
+    var jsonWanted;
+    return regeneratorRuntime.wrap(function _callee5$(_context5) {
+      while (1) {
+        switch (_context5.prev = _context5.next) {
+          case 0:
+            _context5.next = 2;
+            return getJSONLanguageForApplications(detectedLocale, localeSpecific, platform);
+
+          case 2:
+            jsonWanted = _context5.sent;
+
+          case 3:
+          case 'end':
+            return _context5.stop();
+        }
+      }
+    }, _callee5, this);
+  }));
+
+  return function Test() {
+    return _ref5.apply(this, arguments);
+  };
+}();
 
 export async function getJSONLanguageForApplications(deviceLocale = 'en', localeSpecific = null, platform = 'web') {
   switch (platform) {

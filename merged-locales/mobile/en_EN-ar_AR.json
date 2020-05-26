@@ -62,7 +62,11 @@
       "noCampaignWithThisCode": "ليس هناك أي حملة مطابقة لهذا الرمز.",
       "discover": "أكتشاف"
     },
-    "chooseCampaign": { "emoji": "✊🏻", "letsGo": "لنذهب!", "joinYourCompaign": "إنضم إلى حملتك" },
+    "chooseCampaign": {
+      "emoji": "✊🏻",
+      "letsGo": "لنذهب!",
+      "joinYourCompaign": "إنضم إلى حملتك"
+    },
     "createAccount": {
       "step1": {
         "title": "بريدك الإلكتروني",
@@ -292,19 +296,46 @@
       "noCitizensFoundWithStaticSearch": "لا يوجد أي نتيجة في هذه القائمة",
       "addCitizenCTA": "إضافة شخص في المنطقة",
       "finishAnItem": {
-        "city": { "one": "Finish this city", "other": "Finish {{count}} cities" },
-        "street": { "one": "Finish this street", "other": "Finish {{count}} streets" },
-        "housenumber": { "one": "Finish this housenumber", "other": "Finish {{count}} housenumbers" },
-        "building": { "one": "Finish this building", "other": "Finish {{count}} buildings" },
-        "floor": { "one": "Finish this floor", "other": "Finish {{count}} floors" },
+        "city": {
+          "one": "Finish this city",
+          "other": "Finish {{count}} cities"
+        },
+        "street": {
+          "one": "Finish this street",
+          "other": "Finish {{count}} streets"
+        },
+        "housenumber": {
+          "one": "Finish this housenumber",
+          "other": "Finish {{count}} housenumbers"
+        },
+        "building": {
+          "one": "Finish this building",
+          "other": "Finish {{count}} buildings"
+        },
+        "floor": {
+          "one": "Finish this floor",
+          "other": "Finish {{count}} floors"
+        },
         "item": { "one": "Finish", "other": "Finish {{count}}" }
       },
       "reopenAnItem": {
         "city": { "one": "Reopen city", "other": "Reopen {{count}} cities" },
-        "street": { "one": "Reopen street", "other": "Reopen {{count}} streets" },
-        "housenumber": { "one": "Reopen this housenumber", "other": "Reopen {{count}} housenumbers" },
-        "building": { "one": "Reopen this building", "other": "Reopen {{count}} buildings" },
-        "floor": { "one": "Reopen this floor", "other": "Reopen {{count}} floors" },
+        "street": {
+          "one": "Reopen street",
+          "other": "Reopen {{count}} streets"
+        },
+        "housenumber": {
+          "one": "Reopen this housenumber",
+          "other": "Reopen {{count}} housenumbers"
+        },
+        "building": {
+          "one": "Reopen this building",
+          "other": "Reopen {{count}} buildings"
+        },
+        "floor": {
+          "one": "Reopen this floor",
+          "other": "Reopen {{count}} floors"
+        },
         "item": { "one": "Reopen", "other": "Reopen {{count}}" }
       },
       "finishLabel": "انتهى",
