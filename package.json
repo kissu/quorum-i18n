@@ -1,11 +1,15 @@
 {
   "name": "quorum-i18n",
-  "version": "1.0.26",
+  "version": "1.0.28",
+  "engines": {
+    "node": ">=14.2.0",
+    "npm": ">=6.14.4"
+  },
+  "type": "module",
   "description": "Repo for all the i18n resources for the Quorum's Sales Team",
   "author": "quorumsco <https://www.quorum.co>",
-  "main": "dist/index.js",
   "scripts": {
-    "build:app": "babel index.js -d dist",
+    "build:app": "babel index.js --out-dir dist",
     "fix:prettier": "prettier --write \"**/*.json\"",
     "create:language-fallbacks": "node ./createLanguageFallbacks.js"
   },
@@ -14,12 +18,12 @@
     "fs-extra": "^9.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "babel": "^6.23.0",
-    "babel-cli": "^6.26.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.0.0",
+    "babel-plugin-module-resolver": "^4.0.0",
     "babel-plugin-transform-remove-console": "^6.9.4",
-    "babel-preset-env": "^1.7.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",

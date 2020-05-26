@@ -9,7 +9,8 @@ async function tryModuleAndReturnFile(locale = 'en', pack = '', platform = '') {
   if (!platform) throw new Error('No platform provided')
   const wantedFile = constantizeIfTruthy(locale, pack)
   try {
-    return require(`./merged-locales/${platform}/${wantedFile}.json`)
+    const module = await import(`./merged-locales/${platform}/${wantedFile}.json`)
+    return module.default
   } catch (err) {
     return false
   }
@@ -87,9 +88,9 @@ async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
  * to have the right language depends on locale pack and platform
  */
 
-module.exports = async function getJSONLanguageForApplications(
+export async function getJSONLanguageForApplications(
   deviceLocale = 'en',
-  localeSpecific,
+  localeSpecific = null,
   platform = 'web'
 ) {
   switch (platform) {
@@ -103,13 +104,22 @@ module.exports = async function getJSONLanguageForApplications(
   }
 }
 
-const detectedLocale = 'en-GB-en'
-const localeSpecific = 'ong-vert-modo'
-const platform = 'web'
+// const detectedLocale = 'fr'
+// const localeSpecific = 'politique-larem'
+// const platform = 'web'
 
-async function Test() {
-  const jsonWanted = await getJSONLanguageForApplications(detectedLocale, localeSpecific, platform)
-  console.log(jsonWanted.ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT)
-}
+// async function Test() {
+//   const jsonWanted = await getJSONLanguageForApplications(detectedLocale, localeSpecific, platform)
+//   console.log(jsonWanted.ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT)
+// }
 
-Test()
+// Test()
+
+// ;(async () => {
+//   const x = 'fr-politique-larem'
+//   const module = await import(`./merged-locales/web/${x}.json`)
+//   console.log(module.default.ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT)
+// })()
+
+// import jsonData from './merged-locales/web/fr.json'
+// console.log(jsonData.ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT)
