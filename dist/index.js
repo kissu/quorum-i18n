@@ -73,7 +73,7 @@ function _tryModuleAndReturnFile() {
           case 14:
             _context.prev = 14;
             _context.t0 = _context["catch"](6);
-            return _context.abrupt("return", false);
+            return _context.abrupt("return", _context.t0);
 
           case 17:
           case "end":
