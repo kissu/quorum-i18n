@@ -12,6 +12,7 @@ async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, plat
   try {
     finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific)
     const module = await import(`./merged-locales/${platform}/${wantedFile}.json`)
+    console.log('module', module)
     return module.default
   } catch (err) {
     console.log('hihi', err)
