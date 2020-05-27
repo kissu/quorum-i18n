@@ -1,7 +1,7 @@
 import fs from 'fs-extra' // beter file creation
 import deepExtend from 'deep-extend' // merge various JSONs
 
-const webLocales = [
+const platformLocales = [
   {
     path: 'web',
     variants: [
@@ -27,7 +27,7 @@ const webLocales = [
 ]
 
 ;(async () => {
-  for (const webLocale of webLocales) {
+  for (const webLocale of platformLocales) {
     const jsonFileName = (languageFallbackList) =>
       `./merged-locales/${webLocale.path}/${languageFallbackList
         .map((lang) => lang.match(/\w+/gi)[0])
@@ -48,3 +48,7 @@ const webLocales = [
     })()
   }
 })()
+// ;(async () => {
+//   const module = await import(`merged-locales/web/fr.json`)
+//   console.log('hihi', module.default)
+// })()
