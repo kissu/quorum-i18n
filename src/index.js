@@ -7,7 +7,6 @@ const defineUserLocales = (deviceLocale) => {
 
 let finalAvailableLocale
 async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, platform = 'web') {
-  console.log({ locale, localeSpecific, platform })
   if (!platform) throw new Error('No platform provided')
   const wantedFile = constantizeIfTruthy(locale, localeSpecific)
   finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific)
@@ -15,7 +14,6 @@ async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, plat
     const result = await require(`../merged-locales/${platform}/${wantedFile}.json`)
     return result
   } catch (err) {
-    console.log(err)
     return false
   }
 }
@@ -93,8 +91,8 @@ async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
  */
 
 export const getJSONLanguageForApplications = async (
-  deviceLocale = 'fr',
-  localeSpecific = 'politique-larem',
+  deviceLocale = 'en',
+  localeSpecific = null,
   platform = 'web'
 ) => {
   switch (platform) {
