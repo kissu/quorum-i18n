@@ -1,5 +1,5 @@
 export default function () {
-  const presets = []
+  const presets = ['@babel/preset-env']
   const plugins = [
     '@babel/plugin-syntax-dynamic-import',
     'transform-remove-console',

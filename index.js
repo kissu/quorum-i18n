@@ -5,10 +5,12 @@ const defineUserLocales = (deviceLocale) => {
   return 'en'
 }
 
-async function tryModuleAndReturnFile(locale = 'en', pack = '', platform = '') {
+let finalAvailableLocale
+async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, platform = 'web') {
   if (!platform) throw new Error('No platform provided')
-  const wantedFile = constantizeIfTruthy(locale, pack)
+  const wantedFile = constantizeIfTruthy(locale, localeSpecific)
   try {
+    finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific)
     const module = await import(`./merged-locales/${platform}/${wantedFile}.json`)
     return module.default
   } catch (err) {
@@ -57,7 +59,7 @@ async function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platfo
    * If my locales are empty, I didn't find a solution and return the english
    */
   if (!futurLocaleString && !futurLocaleSpecific) {
-    return await tryModuleAndReturnFile('en', '', platform)
+    return await tryModuleAndReturnFile('en', null, platform)
   }
   /**
    * downgradeAndSearchFilesForLanguage again because we not found the file
@@ -96,30 +98,13 @@ export async function getJSONLanguageForApplications(
   switch (platform) {
     case 'web':
     case 'mobile': {
-      return await setLocaleForTheUser(deviceLocale, localeSpecific, platform)
+      return {
+        content: await setLocaleForTheUser(deviceLocale, localeSpecific, platform),
+        path: finalAvailableLocale,
+      }
     }
 
     default:
-      throw new Error(`The platform '${platform}' is not recognised by quorum-i18n.`)
+      throw new Error(`The platform '${platform || ''}' is not recognised by quorum-i18n.`)
   }
 }
-
-// const detectedLocale = 'fr'
-// const localeSpecific = 'politique-larem'
-// const platform = 'web'
-
-// async function Test() {
-//   const jsonWanted = await getJSONLanguageForApplications(detectedLocale, localeSpecific, platform)
-//   console.log(jsonWanted.ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT)
-// }
-
-// Test()
-
-// ;(async () => {
-//   const x = 'fr-politique-larem'
-//   const module = await import(`./merged-locales/web/${x}.json`)
-//   console.log(module.default.ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT)
-// })()
-
-// import jsonData from './merged-locales/web/fr.json'
-// console.log(jsonData.ACTION.CALL_TO_ACTION.CONFIRM_CLOSE.CANCEL_TEXT)

@@ -5,6 +5,7 @@
     "node": ">=14.2.0",
     "npm": ">=6.14.4"
   },
+  "main": "dist/index.js",
   "type": "module",
   "description": "Repo for all the i18n resources for the Quorum's Sales Team",
   "author": "quorumsco <https://www.quorum.co>",

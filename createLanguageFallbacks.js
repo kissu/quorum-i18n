@@ -1,57 +1,50 @@
 import fs from 'fs-extra' // beter file creation
 import deepExtend from 'deep-extend' // merge various JSONs
 
-/* eslint-disable */
-const webLanguagesVariants = [
-  ['en'],
-  ['en', 'ong'],
-  ['en', 'ong', 'vert'],
+const webLocales = [
+  {
+    path: 'web',
+    variants: [
+      ['en'],
+      ['en', 'ong'],
+      ['en', 'ong', 'vert'],
 
-  ['en_GB'],
-  ['en_GB', 'ong'],
-  ['en_GB', 'ong', 'vert'],
+      ['en_GB'],
+      ['en_GB', 'ong'],
+      ['en_GB', 'ong', 'vert'],
 
-  ['fr'],
-  ['fr', 'mediation'],
-  ['fr', 'mediation', 'promevil'],
-  ['fr', 'politique'],
-  ['fr', 'politique', 'larem'],
+      ['fr'],
+      ['fr', 'mediation'],
+      ['fr', 'mediation', 'promevil'],
+      ['fr', 'politique'],
+      ['fr', 'politique', 'larem'],
+    ],
+  },
+  {
+    path: 'mobile',
+    variants: [['en_EN'], ['en_EN', 'ar_AR'], ['en_EN', 'fr_FR'], ['en_EN', 'sk_SK']],
+  },
 ]
-/* eslint-enable */
 
-const webJsonFileName = (languageFallbackList) =>
-  `./merged-locales/web/${languageFallbackList.map((lang) => lang.match(/\w+/gi)[0]).join('-')}.json`
-const importWebFile = async (lang) =>
-  await import(`./initial-locales/web/${lang}.json`).catch((err) => console.log(err))
+;(async () => {
+  for (const webLocale of webLocales) {
+    const jsonFileName = (languageFallbackList) =>
+      `./merged-locales/${webLocale.path}/${languageFallbackList
+        .map((lang) => lang.match(/\w+/gi)[0])
+        .join('-')}.json`
+    const importFile = async (localeVariant) =>
+      await import(`./initial-locales/${webLocale.path}/${localeVariant}.json`)
 
-for (const languageVariants of webLanguagesVariants) {
-  const importedLanguageLocaleToMerge = languageVariants.reduce((accumulator, currentValue) => {
-    accumulator.push(importWebFile(currentValue))
-    return accumulator
-  }, [])
-  let mergedJson = deepExtend(...importedLanguageLocaleToMerge)
-  fs.outputJsonSync(webJsonFileName(languageVariants), mergedJson)
-}
-
-/* eslint-disable */
-const mobileLanguagesVariants = [
-  ['en_EN'],
-  ['en_EN', 'ar_AR'],
-  ['en_EN', 'fr_FR'],
-  ['en_EN', 'sk_SK'],
-]
-/* eslint-enable */
-
-const mobileJsonFileName = (languageFallbackList) =>
-  `./merged-locales/mobile/${languageFallbackList.map((lang) => lang.match(/\w+/gi)[0]).join('-')}.json`
-const importMobileFile = async (lang) =>
-  await import(`./initial-locales/mobile/${lang}.json`).catch((err) => console.log(err))
-
-for (const languageVariants of mobileLanguagesVariants) {
-  const importedLanguageLocaleToMerge = languageVariants.reduce((accumulator, currentValue) => {
-    accumulator.push(importMobileFile(currentValue))
-    return accumulator
-  }, [])
-  let mergedJson = deepExtend(...importedLanguageLocaleToMerge)
-  fs.outputJsonSync(mobileJsonFileName(languageVariants), mergedJson)
-}
+    ;(async () => {
+      for (const arrayOfLocales of webLocale.variants) {
+        const importedLanguageLocaleToMerge = []
+        for (const locale of arrayOfLocales) {
+          const module = await importFile(locale)
+          importedLanguageLocaleToMerge.push(module.default)
+        }
+        const mergedJson = deepExtend(...importedLanguageLocaleToMerge)
+        fs.outputJsonSync(jsonFileName(arrayOfLocales), mergedJson)
+      }
+    })()
+  }
+})()
