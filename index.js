@@ -11,13 +11,15 @@ async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, plat
   const wantedFile = constantizeIfTruthy(locale, localeSpecific)
   try {
     finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific)
-    console.log('should pass here ?')
-    const module = await import(`./merged-locales/${platform}/${wantedFile}.json`)
-    console.log('module', module)
-    return module.default
-  } catch (err) {
-    console.log('hihi nice meme', err)
-    return err
+    const module = await import(`./merged-locales/${platform}/${wantedFile}.json`).catch(console.log('miaou'))
+    if (module) return module.default
+  } catch (e) {
+    console.log(
+      "%cNo available i18n file for current user's locale 😱",
+      'color:hsl(345, 100%, 63%);font-weight:bold;background:#000;padding:1rem;'
+    )
+    console.log('error happened', e)
+    // return false
   }
 }
 
@@ -93,11 +95,11 @@ async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
  * to have the right language depends on locale pack and platform
  */
 
-export async function getJSONLanguageForApplications(
+export const getJSONLanguageForApplications = async (
   deviceLocale = 'en',
   localeSpecific = null,
   platform = 'web'
-) {
+) => {
   switch (platform) {
     case 'web':
     case 'mobile': {
