@@ -36,7 +36,6 @@ function _tryModuleAndReturnFile() {
         localeSpecific,
         platform,
         wantedFile,
-        result,
         _args2 = arguments;
     return _regenerator["default"].wrap(function _callee2$(_context2) {
       while (1) {
@@ -61,20 +60,19 @@ function _tryModuleAndReturnFile() {
             return require("../merged-locales/".concat(platform, "/").concat(wantedFile, ".json"));
 
           case 10:
-            result = _context2.sent;
-            return _context2.abrupt("return", result);
+            return _context2.abrupt("return", _context2.sent);
 
-          case 14:
-            _context2.prev = 14;
+          case 13:
+            _context2.prev = 13;
             _context2.t0 = _context2["catch"](7);
             return _context2.abrupt("return", false);
 
-          case 17:
+          case 16:
           case "end":
             return _context2.stop();
         }
       }
-    }, _callee2, null, [[7, 14]]);
+    }, _callee2, null, [[7, 13]]);
   }));
   return _tryModuleAndReturnFile.apply(this, arguments);
 }
