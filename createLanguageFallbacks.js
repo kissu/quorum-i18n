@@ -1,5 +1,5 @@
-import fs from 'fs-extra' // beter file creation
-import deepExtend from 'deep-extend' // merge various JSONs
+const fs = require('fs-extra') // beter file creation
+const deepExtend = require('deep-extend') // merge various JSONs
 
 const platformLocales = [
   {
@@ -32,15 +32,21 @@ const platformLocales = [
       `./merged-locales/${webLocale.path}/${languageFallbackList
         .map((lang) => lang.match(/\w+/gi)[0])
         .join('-')}.json`
-    const importFile = async (localeVariant) =>
-      await import(`./initial-locales/${webLocale.path}/${localeVariant}.json`)
+
+    const importFile = async (localeVariant) => {
+      try {
+        return await require(`./initial-locales/${webLocale.path}/${localeVariant}.json`)
+      } catch (err) {
+        console.log(err)
+      }
+    }
 
     ;(async () => {
       for (const arrayOfLocales of webLocale.variants) {
         const importedLanguageLocaleToMerge = []
         for (const locale of arrayOfLocales) {
           const module = await importFile(locale)
-          importedLanguageLocaleToMerge.push(module.default)
+          importedLanguageLocaleToMerge.push(module)
         }
         const mergedJson = deepExtend(...importedLanguageLocaleToMerge)
         fs.outputJsonSync(jsonFileName(arrayOfLocales), mergedJson)
@@ -48,7 +54,3 @@ const platformLocales = [
     })()
   }
 })()
-// ;(async () => {
-//   const module = await import(`merged-locales/web/fr.json`)
-//   console.log('hihi', module.default)
-// })()

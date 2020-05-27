@@ -12,8 +12,7 @@ async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, plat
   const wantedFile = constantizeIfTruthy(locale, localeSpecific)
   finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific)
   try {
-    const result = await require(`../merged-locales/${platform}/${wantedFile}.json`)
-    return result
+    return await require(`../merged-locales/${platform}/${wantedFile}.json`)
   } catch (err) {
     console.log(err)
     return false

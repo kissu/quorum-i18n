@@ -1,8 +1,4 @@
 {
   "MENU": { "STRATEGY": "British strategy" },
-  "ACTION": {
-    "CALL_TO_ACTION": {
-      "CONFIRM_CLOSE": { "CANCEL_TEXT": "On aime les buissons !" }
-    }
-  }
+  "ACTION": { "CALL_TO_ACTION": { "CONFIRM_CLOSE": { "CANCEL_TEXT": "On aime les buissons !" } } }
 }
