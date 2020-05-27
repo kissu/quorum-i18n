@@ -29,7 +29,7 @@ const platformLocales = [
 ;(async () => {
   for (const webLocale of platformLocales) {
     const jsonFileName = (languageFallbackList) =>
-      `./merged-locales/${webLocale.path}/${languageFallbackList
+      `../merged-locales/${webLocale.path}/${languageFallbackList
         .map((lang) => lang.match(/\w+/gi)[0])
         .join('-')}.json`
     const importFile = async (localeVariant) =>
