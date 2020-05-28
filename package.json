@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build:app": "babel src/index.js --out-dir dist",
-    "fix:prettier": "prettier --write \"**/*.json\"",
+    "fix:prettier": "prettier --write \"**/*.{json,js}\"",
     "create:language-fallbacks": "node --experimental-json-modules ./createLanguageFallbacks.js",
     "test:manual": "yarn run build:app && node __tests__/index.test.js"
   },
