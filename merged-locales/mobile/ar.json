@@ -1,29 +1,12 @@
 {
-  "locale_shorted": "ar-AR",
-  "locale": "arabic",
   "greeting": { "hello": "عالسلامة\n\n" },
-  "splashScreen": {
-    "loadingUpdateOTA": "Une mise à jour de Quorum est en cours",
-    "successUpdateOTA": "Mise à jour réussie ! Redémarrage.."
-  },
   "navigator": {
     "goBack": "عودة",
     "QG": "المقر المركزي",
-    "search": "البحث\n",
     "actions": "الانشطة\n",
     "informations": "الوثائق",
-    "profile": "الحساب"
-  },
-  "support": {
-    "withTelegramApp": "تواصل مع الفريق عبر تيليغرام",
-    "withMail": "أو عبر البريد الإلكتروني",
-    "titleSupportHelp": "هل تحتاج مساعدة؟",
-    "informationHelp": "هل تواجه صعوبات في استعمال التطبيق؟\n\nأسئلة؟",
-    "askingSupport": "طلب مساعدة",
-    "firstname": "الإسم الشخصي",
-    "surname": "الإسم العائي",
-    "mail": "البريد الإلكتروني",
-    "contactUs": "Contactez-nous"
+    "profile": "الحساب",
+    "search": "البحث\n"
   },
   "auth": {
     "wantAConnexion": "تسجيل الدخول",
@@ -48,8 +31,7 @@
       "toSend": "إرسال",
       "lookAtYourMails": "تم إرسال رسالة إلكترونية تحتوي على إرشادات لتغيير كلمة المرور الخاصة بك.",
       "errorMailNotFound": "لا يوجد أي حساب مطابق لـ",
-      "errorMailNotFoundPart2": "ربما تكون قد استخدمت عنوان بريد إلكتروني مغاير أثناء إنشاء حسابك.",
-      "sendAnEmailTo": "Send a link by email to"
+      "errorMailNotFoundPart2": "ربما تكون قد استخدمت عنوان بريد إلكتروني مغاير أثناء إنشاء حسابك."
     },
     "disconnect": { "toDisconnect": "تسجيل الخروج" },
     "joinCampaign": {
@@ -91,10 +73,10 @@
         "title": "قم بكتابة اسمك الأول والثاني، الشخصي والعائلي",
         "createTheAccountLabel": "إنشاء الحساب",
         "firstnamePlaceholder": "مثال: Charles",
-        "statusCreationAccount": "متوفر",
         "firstnameLabel": "الإسم الشخصي",
         "namePlaceholder": "مثال: Dafault",
-        "nameLabel": "الإسم العائلي"
+        "nameLabel": "الإسم العائلي",
+        "statusCreationAccount": "متوفر"
       },
       "step4": {
         "title": "أتمم ملفك الشخصي وساعد الفريق على ربط الاتصال بك",
@@ -119,7 +101,6 @@
         "urlData": "urlData",
         "later": "لاحقا",
         "addAPicture": "إضافة صورة",
-        "errorCouldNotPatch": "لقد حدث خطأ في جهاز الاستعمال الخاص بنا. إذا استمرت المشكلة، تجاوز الخطوة أو قم بربط الاتصال بنا",
         "pictureFeature": {
           "titlePopUp": "صورة الملف الشخصي",
           "descriptionOfThePopUp": "اختر من بين الخيارات التالية. قد يتم تعديلها في وقت لاحق.",
@@ -129,7 +110,8 @@
           "problemLabel": "غير ممكن",
           "messageTextProblem": "يبدو أننا لا نملك الإذن اللازم لاستخدام الصوروالكاميرا الخاصة بك.\n",
           "settingsLabel": "الإعدادات"
-        }
+        },
+        "errorCouldNotPatch": "لقد حدث خطأ في جهاز الاستعمال الخاص بنا. إذا استمرت المشكلة، تجاوز الخطوة أو قم بربط الاتصال بنا"
       },
       "step5": {
         "congratz": "شكرا",
@@ -142,8 +124,6 @@
   "logged": {
     "fieldActions": {
       "typeOfActions": {
-        "static": "Direct Interaction",
-        "challenge": "Challenge",
         "canvassing": "حملة طرق الأبواب",
         "leaflet": "منشورات\n",
         "poster": "ملصقات",
@@ -183,58 +163,23 @@
         "information": "معلومات",
         "attendees": "المشاركين",
         "startCanvassing": "الانطلاق",
-        "readMore": "More",
-        "readLess": "Less",
-        "presentLabel": "Present",
         "attend": "مشاركة",
-        "seeBrief": "Open the notes",
-        "actionBrief": "Action's notes",
         "youAttend": "أنت تشارك",
         "youWantToAttend": "أنا أشارك",
-        "descJoinAction": "Attending 🚀",
-        "descAttendedAction": "Join the action now ✊",
-        "editYourAttendStatus": "Edit your coming",
-        "startTheAction": "Start action",
-        "cantStartTheAction": "Attending 🚀",
         "youDoNotWantToAttend": "لا للمشاركة",
-        "youAreNotAnAttendee": "أنت لا تشارك",
-        "peopleGoal": "(people)",
-        "startingFrom": "Starting from"
+        "youAreNotAnAttendee": "أنت لا تشارك"
       }
     },
     "canvassing": {
-      "scriptTitle": "Note",
       "subHeaderTitle": "عرض الشوارع القريبة",
       "loadingTitle": "المرجو الانتظار قليلا.\nنقوم بجمع العناوين.\n",
-      "loadingStaticTitle": "انتظر قليلا.\nنحن بصدد جمع المعلومات.",
       "filterLabel": "تصفية",
-      "staticCanvassing": {
-        "addedContacts": "معلومات الاتصال التي تم إضافتها",
-        "addAContact": "إضافة شخص جديد",
-        "addFirstContact": "إضافة الشخص الاول",
-        "quote": "النشاط هو مفتاح النجاح!",
-        "quoteAuthor": "بابلو بيكاسو",
-        "searchDisabledPlaceholder": "لايوجد"
-      },
-      "callAction": {
-        "pickerPlaceholder": "الجميع\n",
-        "emptyLabel": "لا يوجد أي شخص للاتصال به",
-        "phone": "Fixe",
-        "mobile": "Mobile"
-      },
-      "disabledSearchLabel": "لا يوجد أي مواطن حول الموقع الذي تتواجد فيه",
       "popUpLeaveCanvassing": {
         "titleLabel": "هل تريد مغادرة حملة طرق الأبواب؟",
-        "staticTitleLabel": "هل تريد إنهاء المقابلة؟",
-        "callTitleLabel": "هل تريد مغادرة الاتصال؟ ",
-        "handouMailTitleLabel": "Are you done with your action?",
         "yesLabel": "نعم",
-        "noLabel": "لا"
-      },
-      "popupArchiveLevel": {
-        "titleLabel": "By clicking here, you declare that you have finished the canvassing at this address",
-        "yesLabel": "I understood",
-        "noLabel": "Cancel"
+        "noLabel": "لا",
+        "staticTitleLabel": "هل تريد إنهاء المقابلة؟",
+        "callTitleLabel": "هل تريد مغادرة الاتصال؟ "
       },
       "filterList": {
         "filtersTitle": "العناوين التي تمت تصفيتها",
@@ -254,13 +199,11 @@
         "toSearch": "بحث",
         "at": "في",
         "citizensWithoutAddresses": "مواطنون عناوينهم غير دقيقة وغير محددة",
-        "citizensWithoutAddressesWithoutNonFind": "المواطنون",
-        "errorFetching": "يبدو أن هناك مشكلة بينك وبين جهاز الاستخدام.\nتحقق من مدى اتصالك بخط الانترنت.\nإذا استمرت المشكلة، اتصل بفريقنا للمساعدة"
+        "errorFetching": "يبدو أن هناك مشكلة بينك وبين جهاز الاستخدام.\nتحقق من مدى اتصالك بخط الانترنت.\nإذا استمرت المشكلة، اتصل بفريقنا للمساعدة",
+        "citizensWithoutAddressesWithoutNonFind": "المواطنون"
       },
       "advicesCanvassingInformation": {
-        "acceptLabel": "فهمت",
         "choose": "قم بالاختيار",
-        "aCitizenOrAddress": "عنوان أو إسم الشخص الذي ستتصل به في القائمة ",
         "typeHere": "أكتب هنا",
         "youLookingFor": "قم بالبحث",
         "aCity": "مدينة",
@@ -280,33 +223,13 @@
         "houseNumberInfoGlobal": "• في أسفل القائمة تجد أسماء المواطنين الذين ماتزال عناوينهم غير مكتملة.",
         "houseNumberInfo": "• طالع عداد tocs لمعرفة عدد الأبواب التي لم يتم طرقها بعد\n\n\n• في أسفل القائمة تجد أسماء المواطنين الذين ماتزال عناوينهم غير مكتملة.",
         "citizenInfo": "• تحقق مما إذا كان المواطن قد تم الإلتقاء به في عمل وفعل سابق.",
-        "handoutMailInfo": "• Find the best way to go by clicking on directions.",
-        "handoutMailSwipeInfo": "You can select the addresses you are boxing as you go along and declare that you have done so.",
-        "archiveSwipeInfoCanvassing": "You can defined an address as completed by swiping each line from right to left."
+        "acceptLabel": "فهمت",
+        "aCitizenOrAddress": "عنوان أو إسم الشخص الذي ستتصل به في القائمة "
       },
       "cancelSearch": "إلغاء",
       "additionnalInformation": "معلومات إضافية",
       "noCitizensFoundWithTheFilter": "لم يتم العثور على أي عنوان.\nقم بإضافة مواطن إلى هذا العنوان لإنشائ حسابه.",
       "noCitizensFound": "لم نجد أي مواطن من حولك.\nانقر على + لإضافة المزيد.",
-      "noCitizendsFoundWithSearch": "لم يتم العثور على أي نتيجة على هذا المستوى.",
-      "noCitizensFoundWithStaticSearch": "لا يوجد أي نتيجة في هذه القائمة",
-      "addCitizenCTA": "إضافة شخص في المنطقة",
-      "finishAnItem": {
-        "city": { "one": "Finish this city", "other": "Finish {{count}} cities" },
-        "street": { "one": "Finish this street", "other": "Finish {{count}} streets" },
-        "housenumber": { "one": "Finish this housenumber", "other": "Finish {{count}} housenumbers" },
-        "building": { "one": "Finish this building", "other": "Finish {{count}} buildings" },
-        "floor": { "one": "Finish this floor", "other": "Finish {{count}} floors" },
-        "item": { "one": "Finish", "other": "Finish {{count}}" }
-      },
-      "reopenAnItem": {
-        "city": { "one": "Reopen city", "other": "Reopen {{count}} cities" },
-        "street": { "one": "Reopen street", "other": "Reopen {{count}} streets" },
-        "housenumber": { "one": "Reopen this housenumber", "other": "Reopen {{count}} housenumbers" },
-        "building": { "one": "Reopen this building", "other": "Reopen {{count}} buildings" },
-        "floor": { "one": "Reopen this floor", "other": "Reopen {{count}} floors" },
-        "item": { "one": "Reopen", "other": "Reopen {{count}}" }
-      },
       "finishLabel": "انتهى",
       "titleLabelAllTheCities": "عنوان تسمية جميع المدن",
       "titleLabelNearCitizens": "من حولك",
@@ -319,9 +242,6 @@
       "listItem": {
         "toHitLeftSingular": "الباب الذي لم يطرق بعد",
         "toHitLeftPlural": "الأبواب التي لم يتم طرقها بعد",
-        "aBuilding": "العمارة",
-        "aFloor": "الطابق",
-        "aDoor": "الباب",
         "citizens": "المواطنون",
         "individual": "شخص",
         "openMapLabel": "فتح خطة",
@@ -334,31 +254,17 @@
         "messageCantFindLocation": "لم نتمكن من تحديد المسار.",
         "openTheMapFromStreets": "المسار",
         "addMissCitizen": "إضافة مواطن",
+        "aBuilding": "العمارة",
+        "aFloor": "الطابق",
+        "aDoor": "الباب",
         "absentLabel": "غائب",
         "presentLabel": "حاضر",
         "refusalLabel": "رفض",
-        "notDefined": "غير محدد",
-        "finished": "Finished",
-        "finishAnItem": {
-          "city": "Finish city",
-          "street": "Finish street",
-          "building": "Finish building",
-          "floor": "Finish floor",
-          "housenumber": "Finish housenumber"
-        },
-        "resumeAnItem": {
-          "city": "Resume city",
-          "street": "Resume street",
-          "building": "Resume building",
-          "floor": "Resume floor",
-          "housenumber": "Resume housenumber"
-        }
+        "notDefined": "غير محدد"
       },
       "viewContact": {
-        "briefTitle": "Note",
         "metByLabel": "تم الالتقاء به",
         "theLabel": "الملصق",
-        "doorLabel": "باب",
         "absentLabel": "غائب (ة)",
         "presentLabel": "حاضر (ة)",
         "refusalLabel": "رفض",
@@ -367,13 +273,14 @@
         "genderLabelM": "سيد",
         "newContactLabel": "اسم جديد",
         "errorServer": "حدث خطأ في جهاز الاستعمال. اتصل بمركز خدمة Quroum في حال استمرت المشكلة.",
-        "seeAnswers": "الاطلاع على إجابات الاستبيان",
         "metStatus": {
           "present": "تم الالتقاء به (ها)",
           "absent": "كان (ت) غائبا (ة)",
           "refus": "رفض اللقاء",
           "firstMet": "سيتم الالتقاء به (ها) لأول مرة"
         },
+        "doorLabel": "باب",
+        "seeAnswers": "الاطلاع على إجابات الاستبيان",
         "callAction": {
           "title": "إتصال",
           "launchCallLabel": "القيام باتصال",
@@ -392,7 +299,26 @@
           "phone": "هاتف قار\n",
           "mobile": "هاتف جوال"
         }
-      }
+      },
+      "noCitizendsFoundWithSearch": "لم يتم العثور على أي نتيجة على هذا المستوى.",
+      "disabledSearchLabel": "لا يوجد أي مواطن حول الموقع الذي تتواجد فيه",
+      "loadingStaticTitle": "انتظر قليلا.\nنحن بصدد جمع المعلومات.",
+      "staticCanvassing": {
+        "addedContacts": "معلومات الاتصال التي تم إضافتها",
+        "addAContact": "إضافة شخص جديد",
+        "addFirstContact": "إضافة الشخص الاول",
+        "quote": "النشاط هو مفتاح النجاح!",
+        "quoteAuthor": "بابلو بيكاسو",
+        "searchDisabledPlaceholder": "لايوجد"
+      },
+      "noCitizensFoundWithStaticSearch": "لا يوجد أي نتيجة في هذه القائمة",
+      "callAction": {
+        "pickerPlaceholder": "الجميع\n",
+        "emptyLabel": "لا يوجد أي شخص للاتصال به",
+        "phone": "Fixe",
+        "mobile": "Mobile"
+      },
+      "addCitizenCTA": "إضافة شخص في المنطقة"
     },
     "profile": {
       "public": {
@@ -400,15 +326,15 @@
         "actionsFinished": "تم إنجاز النشاط سابقا",
         "peopleMeet": "أشخاص تم اللقاء بهم",
         "noCitizenMeet": "لم يتم الالتقاء بأي شخص، إطلع على أنشطتك",
-        "actions": "actions",
         "joinMouvement": {
-          "one": "قبل {{count}} أيام، بـ✊ و❤️ كنت قد انضممت إلى الحركة\n\n\n",
-          "other": "قبل {{count}} أيام، بـ✊ و❤️ كنت قد انضممت إلى الحركة",
           "zero": "",
+          "one": "قبل {{count}} أيام، بـ✊ و❤️ كنت قد انضممت إلى الحركة\n\n\n",
           "two": "",
           "few": "",
-          "many": ""
+          "many": "",
+          "other": "قبل {{count}} أيام، بـ✊ و❤️ كنت قد انضممت إلى الحركة"
         },
+        "actions": "actions",
         "inALightning": ""
       },
       "settings": {
@@ -438,8 +364,8 @@
           "supportSubject": "طلب مساعدة",
           "supportFeedback": "انطباعاتي حول Quorum",
           "supportShareYourFeedbackLabel": "مشاركة انطباعاتك بخصوص Quorum",
-          "supportRessources": "مساعدة وموارد للتطبيق",
-          "supportBody": "Version :"
+          "supportBody": "Version :",
+          "supportRessources": "مساعدة وموارد للتطبيق"
         },
         "logout": { "title": "تسجيل الخروج", "label": "تسجيل الدخول" },
         "version": "Version : ",
@@ -506,11 +432,6 @@
       }
     },
     "form": {
-      "switchContactAddress": {
-        "detailsLabel": "Détails",
-        "contactLabel": "رابط الإتصال",
-        "addressLabel": "العنوان"
-      },
       "endForm": {
         "thanksYouLabel": "شكرا،",
         "oneMoreLabel": "واحد آخر",
@@ -518,8 +439,7 @@
         "goBackToBoard": "عودة إلى جدولك",
         "rateTheForm": "التعليق على التبادل ",
         "backToActions": "عودة إلى القائمة",
-        "backToHeadQuarter": "عودة إلى المقر المركزي",
-        "addAnotherCitizen": "Mobilise one more!"
+        "backToHeadQuarter": "عودة إلى المقر المركزي"
       },
       "rateContact": {
         "howTheDiscussionHasGoing": "ترك تعليق على التبادل ",
@@ -533,7 +453,6 @@
         "noLabel": "لا"
       },
       "allQuestions": "اطلع على الأسئلة",
-      "becauseYouAnswered": "لأن إجابتك هي:\n",
       "allQuestionsForm": {
         "theQuestionsLabel": "الأسئلة",
         "description": "بإمكانك الإطلاع على قائمة الأسئلة التي يجب طرحها والعودة إلى سؤال سبق أن تم طرحه.",
@@ -543,24 +462,36 @@
       "end": "إنهاء",
       "nextQuestion": "السؤال التالي",
       "informationContact": "المعطيات",
-      "editAContactTitle": "نشر المعلومات والمعطيات الخاصة باسم ما",
       "answers": {
         "locale": "ar",
         "streetPlaceholder": "الشارع",
         "additionPlaceholder": "معطيات حول العنوان (الطابق، الرقم، الباب)",
         "housenumberPlaceholder": "الرقم",
-        "buildingPlaceholder": "العمارة",
-        "floorPlaceholder": "الطابق",
-        "doorPlaceholder": "الباب",
         "datePlaceholder": "اختيار تاريخ",
-        "postalcodePlaceholder": "الرمز البريدي",
         "cityPlaceholder": "المدينة",
         "placeholder": "الجواب",
         "territories": "الأقاليم",
         "chooseATerritory": "قم باختيار إقليم",
+        "done": "إنهاء",
+        "dateFormat": "اليوم/الشهر/السنة",
+        "confirm": "تأكيد",
+        "cancel": "إلغاء",
+        "support": {
+          "titleAddSupport": "إضافة دعم",
+          "titleUpdateSupport": "تحديث الدعم والمساعدة",
+          "finish": "إنشاء",
+          "skipTheStep": "Passer l'étape",
+          "titleWhatIsTheNextStep": "Quelle est la prochaine étape pour ce citoyen ?",
+          "doAForm": "Faire passer un questionnaire",
+          "valid": "Valider",
+          "goToForm": "الإنشاء والإستبيان"
+        },
+        "buildingPlaceholder": "العمارة",
+        "floorPlaceholder": "الطابق",
+        "doorPlaceholder": "الباب",
+        "mandatory": "ضروري",
+        "postalcodePlaceholder": "الرمز البريدي",
         "chooseAnAgeCategory": "إختيار شريحة عمرية",
-        "femaleLabel": "Female",
-        "maleLabel": "Male",
         "ageSelection": [
           "لم يقع إدراج السن",
           "أقل من 18 سنة ",
@@ -570,78 +501,62 @@
           "50 ـ 65 سنة \n",
           "65 وأكثر"
         ],
-        "moreInfo": "+ More info",
-        "mandatory": "ضروري",
-        "done": "إنهاء",
-        "dateFormat": "اليوم/الشهر/السنة",
-        "confirm": "تأكيد",
-        "cancel": "إلغاء",
-        "support": {
-          "titleAddSupport": "إضافة دعم",
-          "titleUpdateSupport": "تحديث الدعم والمساعدة",
-          "finish": "إنشاء",
-          "nextStep": "Next step",
-          "skipTheStep": "Passer l'étape",
-          "leaveWithoutValidating": "Skip",
-          "whoDoWeMeet": "What best describes the person you're meeting?",
-          "titleWhatIsTheNextStep": "Quelle est la prochaine étape pour ce citoyen ?",
-          "doAForm": "Faire passer un questionnaire",
-          "valid": "Valider",
-          "goToForm": "الإنشاء والإستبيان"
-        },
         "postcodePlaceholder": ""
       },
-      "errorAfterUpdateOrCreation": "هناك خطأ. الرجاء التثبت من الربط بشبكة الانترنات و إعادة المحاولة"
+      "editAContactTitle": "نشر المعلومات والمعطيات الخاصة باسم ما",
+      "switchContactAddress": {
+        "contactLabel": "رابط الإتصال",
+        "addressLabel": "العنوان",
+        "detailsLabel": "Détails"
+      },
+      "errorAfterUpdateOrCreation": "هناك خطأ. الرجاء التثبت من الربط بشبكة الانترنات و إعادة المحاولة",
+      "becauseYouAnswered": "لأن إجابتك هي:\n"
     },
     "headQuarter": {
-      "updatePopup": {
-        "title": "تحديث جديد متوفر",
-        "content": "تمكن من الان من استعمال الميزات الجديدة في Quorum",
-        "later": "بعد قليل \n",
-        "update": "تحديث"
-      },
       "quickActions": {
-        "welcome": "مرحبا {{firstname}}",
         "title": "إجراءات سريعة",
         "canvassing": "التعبئة حولي",
         "donate": "جمع تبرع",
         "add": "استطلاع رأي مواطن",
         "addSupport": "إضافة\nدعم",
-        "upload": "نقل وثيقة"
+        "upload": "نقل وثيقة",
+        "welcome": "مرحبا {{firstname}}"
       },
       "newActions": {
         "newActionLabel": {
-          "one": "النشاط المبرمج",
-          "other": "الانشطة المبرمجة \n",
           "zero": "",
+          "one": "النشاط المبرمج",
           "two": "",
           "few": "",
-          "many": ""
+          "many": "",
+          "other": "الانشطة المبرمجة \n"
         },
-        "actionWillStartFromStart": "Starts the {{date}}",
-        "actionAllreadyStartedFromStart": "Started the {{date}}",
-        "actionSimpleDateWillFinish": "End date on {{date}}",
-        "actionSameDay": "{{dateStart}} from {{hourStart}} to {{hourEnd}}",
         "emptyStateText": "ليس هناك انشطة مبرمجة\nالانطلاق في نشاط سريع ",
         "newActionsLabel": ""
       },
       "newDocs": "وثائق جديدة",
       "missingData": "يبدو أن بعض المعطيات منقوصة ",
       "reloadLabel": "تحديث ",
-      "adminView": { "notificationOnlyForAdmin": "يمكنك الاطلاع لانك مشرف" }
+      "adminView": { "notificationOnlyForAdmin": "يمكنك الاطلاع لانك مشرف" },
+      "updatePopup": {
+        "title": "تحديث جديد متوفر",
+        "content": "تمكن من الان من استعمال الميزات الجديدة في Quorum",
+        "later": "بعد قليل \n",
+        "update": "تحديث"
+      }
     },
     "popup": {
+      "noLocation": {
+        "title": "أين توجد أنت؟",
+        "messagePopup": "لا يمكن العثور حاليا على\nمواطنين يوجدون من حولك.\n\nتأكد جيدا من إعدادات التطبيق للوصول إلى الموقع وتحقق من مدى اتصالك بالشبكة وخط الانترنت.\n",
+        "settingsLabel": "الإعدادات",
+        "closeLabel": "غلق",
+        "lookingForYourLocationTitle": "Nous recherchons votre position"
+      },
       "needUpdate": {
         "title": "تحديث",
         "body": "الرجاء التحديث لاستعمال التطبيق في أحسن صورة ",
         "update": "التحديث"
-      },
-      "noLocation": {
-        "lookingForYourLocationTitle": "Nous recherchons votre position",
-        "title": "أين توجد أنت؟",
-        "messagePopup": "لا يمكن العثور حاليا على\nمواطنين يوجدون من حولك.\n\nتأكد جيدا من إعدادات التطبيق للوصول إلى الموقع وتحقق من مدى اتصالك بالشبكة وخط الانترنت.\n",
-        "settingsLabel": "الإعدادات",
-        "closeLabel": "غلق"
       }
     }
   },
@@ -684,16 +599,29 @@
     "cgu": "https://www.quorum.co/cgumobile",
     "dataProtection": "https://www.quorum.co/docs/PrivacyPolicy_fr.pdf"
   },
+  "locale_shorted": "ar-AR",
+  "locale": "arabic",
+  "support": {
+    "withTelegramApp": "تواصل مع الفريق عبر تيليغرام",
+    "withMail": "أو عبر البريد الإلكتروني",
+    "titleSupportHelp": "هل تحتاج مساعدة؟",
+    "informationHelp": "هل تواجه صعوبات في استعمال التطبيق؟\n\nأسئلة؟",
+    "askingSupport": "طلب مساعدة",
+    "firstname": "الإسم الشخصي",
+    "surname": "الإسم العائي",
+    "mail": "البريد الإلكتروني",
+    "contactUs": "Contactez-nous"
+  },
   "popup": {
     "consent": {
       "title": "الموافقة ",
       "content": "لا تنس تذكير مخاطبك بإطار العمل الذي تقوم به وتجميعك لآرائه وطرق التواصل به وتذكيره بهوية الحزب الذي تنتمي إليه بطريقة واضحة. ",
-      "cancel": "Cancel",
-      "nextStep": "Continue",
-      "gpdrOkLabel": "وصلت المعلومة",
-      "gpdrOkEmailLabel": "The contact agrees to receive emails (related to your action)",
-      "gpdrOkSMSLabel": "The contact agrees to be contacted by phone (related to your action)",
-      "neverAskAgain": "عدم السؤال مرة أخرى"
+      "neverAskAgain": "عدم السؤال مرة أخرى",
+      "gpdrOkLabel": "وصلت المعلومة"
     }
+  },
+  "splashScreen": {
+    "loadingUpdateOTA": "Une mise à jour de Quorum est en cours",
+    "successUpdateOTA": "Mise à jour réussie ! Redémarrage.."
   }
 }

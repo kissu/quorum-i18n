@@ -2,14 +2,9 @@
   "locale_shorted": "sk-SK",
   "locale": "slovak",
   "greeting": { "hello": "Ahoj" },
-  "splashScreen": {
-    "loadingUpdateOTA": "Une mise à jour de Quorum est en cours",
-    "successUpdateOTA": "Synchronisation serveur réussie ! Redémarrage.."
-  },
   "navigator": {
     "goBack": "Naspäť",
     "QG": "HQ",
-    "search": "Recherche",
     "actions": "Akcie",
     "informations": "Docs",
     "profile": "Profil"
@@ -22,8 +17,7 @@
     "askingSupport": "Zažiadaj o podporu",
     "firstname": "Krstné meno",
     "surname": "Priezvisko",
-    "mail": "Email",
-    "contactUs": "Contactez-nous"
+    "mail": "Email"
   },
   "auth": {
     "wantAConnexion": "Prihlásiť sa",
@@ -39,8 +33,7 @@
       "errorMailNotValid": "Skontroluj si emailovu schránku pre overenie tvojho účtu.",
       "errorWrongPassword": "Nesprávne prihlasovacie meno alebo heslo. Klikni na ukáź heslo a skontroluj či je správne zadané.",
       "errorServer": "Serverová chyba. Prosím skús znovu neskôr alebo kontaktuj podporu ak problém pretrváva.",
-      "errorNotConnectedToInternet": "Vyzerá to, že nastal problém medzi tebou a našim serverom! Prosím skontroluj si svoje pripojenie k internetu.\n\nAk problém pretrváva, kontaktuj našu klientskú podporu.",
-      "supportAsking": "Un problème avec l'application ? Contactez nous."
+      "errorNotConnectedToInternet": "Vyzerá to, že nastal problém medzi tebou a našim serverom! Prosím skontroluj si svoje pripojenie k internetu.\n\nAk problém pretrváva, kontaktuj našu klientskú podporu."
     },
     "passwordForgot": {
       "passwordForgotHeader": "Zabudnuté heslo?",
@@ -48,8 +41,7 @@
       "toSend": "Odoslať",
       "lookAtYourMails": "Email s inštrukciami ako resetovať heslo bol poslaný.",
       "errorMailNotFound": "Žiadny účet nieje pripojený k ",
-      "errorMailNotFoundPart2": "Pre vytvorenie tvojho účtu mohla byť použitá iná emailová adresa.",
-      "sendAnEmailTo": "Envoyer un lien par email à"
+      "errorMailNotFoundPart2": "Pre vytvorenie tvojho účtu mohla byť použitá iná emailová adresa."
     },
     "disconnect": { "toDisconnect": "Odhlásiť sa" },
     "joinCampaign": {
@@ -95,10 +87,10 @@
         "title": "Napíš svoje krstné meno a priezvisko",
         "createTheAccountLabel": "Vytvoriť účet",
         "firstnamePlaceholder": "Napr.: Zuzana",
-        "statusCreationAccount": "Available",
         "firstnameLabel": "Krstné meno",
         "namePlaceholder": "Napr.: Čaputová",
-        "nameLabel": "Priezvisko"
+        "nameLabel": "Priezvisko",
+        "statusCreationAccount": "Available"
       },
       "step4": {
         "title": "Vytvor si svoj profil",
@@ -123,17 +115,14 @@
         "urlData": "",
         "later": "Preskočiť",
         "addAPicture": "Nahraj fotku",
-        "errorCouldNotPatch": "Stala sa chyba s našim serverom. Ak problém pretrváva, preskoč tento krok alebo kontaktuj",
         "pictureFeature": {
           "titlePopUp": "Profilová fotka",
           "descriptionOfThePopUp": "Vyber si z následujúcich možností. Môžeš to upraviť neskôr.",
           "takeAPictureLabel": "Odfoť sa",
           "chooseAPictureLabel": "Moje fotky",
-          "cancelLabel": "Zrušiť",
-          "problemLabel": "Impossible",
-          "messageTextProblem": "Il semblerait que nous n'avons pas les permissions nécessaires pour utiliser vos photos & votre caméra.",
-          "settingsLabel": "Paramètres"
-        }
+          "cancelLabel": "Zrušiť"
+        },
+        "errorCouldNotPatch": "Stala sa chyba s našim serverom. Ak problém pretrváva, preskoč tento krok alebo kontaktuj"
       },
       "step5": {
         "congratz": "Ďakujeme!",
@@ -146,8 +135,6 @@
   "logged": {
     "fieldActions": {
       "typeOfActions": {
-        "static": "Rencontre citoyenne",
-        "challenge": "Challenge",
         "canvassing": "Canvassuj",
         "leaflet": "Brožúry",
         "poster": "Letáky / plagáty",
@@ -187,59 +174,18 @@
         "information": "Info",
         "attendees": "Účastníci",
         "startCanvassing": "Začať",
-        "readMore": "Plus",
-        "readLess": "Moins",
-        "presentLabel": "Présent",
         "attend": "Zúčastniť sa",
-        "seeBrief": "Voir le brief",
-        "actionBrief": "Brief de l'action",
         "youAttend": "Zúčastním sa",
         "youWantToAttend": "Zúčastním sa!",
-        "descJoinAction": "Vous participez 🚀",
-        "descAttendedAction": "Rejoignez l'action maintenant ✊",
-        "editYourAttendStatus": "Modifier votre venue",
-        "startTheAction": "Démarrer l'action",
-        "cantStartTheAction": "Vous participez 🚀",
         "youDoNotWantToAttend": "Nie, ďakujem!",
-        "youAreNotAnAttendee": "Nezúčastním sa",
-        "peopleGoal": "(personnes)",
-        "startingFrom": "A partir de"
+        "youAreNotAnAttendee": "Nezúčastním sa"
       }
     },
     "canvassing": {
-      "scriptTitle": "Le brief",
       "subHeaderTitle": "Ukáž mi najbližsie ulice",
       "loadingTitle": "Moment. Vyhľadávame adresy.",
-      "loadingStaticTitle": "Un peu de patience. \nNous rassemblons les contacts.",
       "filterLabel": "Filter",
-      "staticCanvassing": {
-        "addedContacts": "contacts ajoutés",
-        "addAContact": "Ajouter un nouveau contact",
-        "addFirstContact": "Ajouter le premier contact",
-        "quote": "L’action est la clé fondamentale de tout succès.",
-        "quoteAuthor": "Pablo Picasso",
-        "searchDisabledPlaceholder": "Aucun contact"
-      },
-      "callAction": {
-        "pickerPlaceholder": "Tout le monde",
-        "emptyLabel": "Aucun contact à joindre.",
-        "phone": "Fixe",
-        "mobile": "Mobile"
-      },
-      "disabledSearchLabel": "Aucun citoyen autour de vous",
-      "popUpLeaveCanvassing": {
-        "titleLabel": "Koniec canvassingu?",
-        "staticTitleLabel": "Voulez vous quitter la rencontre citoyenne ?",
-        "callTitleLabel": "Voulez vous quitter l'action appel ?",
-        "handouMailTitleLabel": "Voulez vous quitter l'action de boîtage ?",
-        "yesLabel": "Ano",
-        "noLabel": "Nie"
-      },
-      "popupArchiveLevel": {
-        "titleLabel": "En cliquant ici, vous déclarez avoir fini le porte à porte à cette adresse.",
-        "yesLabel": "J'ai compris",
-        "noLabel": "Annuler"
-      },
+      "popUpLeaveCanvassing": { "titleLabel": "Koniec canvassingu?", "yesLabel": "Ano", "noLabel": "Nie" },
       "filterList": {
         "filtersTitle": "Filtry",
         "filterDescription": "Roztriediť a filtrovať zoznam",
@@ -258,13 +204,11 @@
         "toSearch": "Hľadať",
         "at": "o",
         "citizensWithoutAddresses": "Ľudia bez adresy",
-        "citizensWithoutAddressesWithoutNonFind": "Citoyens",
-        "errorFetching": "Zdá sa, že bol problém medzi tebou a našim serverom. Prosím skontroluj si svoje pripojenie na internet. \nKontaktuj nás ak tento problém pretrváva."
+        "errorFetching": "Zdá sa, že bol problém medzi tebou a našim serverom. Prosím skontroluj si svoje pripojenie na internet. \nKontaktuj nás ak tento problém pretrváva.",
+        "citizensWithoutAddressesWithoutNonFind": "Citoyens"
       },
       "advicesCanvassingInformation": {
-        "acceptLabel": "J'ai compris",
         "choose": "Vyber",
-        "aCitizenOrAddress": "l'adresse ou le citoyen à rencontrer dans la liste",
         "typeHere": "Zadaj sem",
         "youLookingFor": "Hľadáš",
         "aCity": "mesto",
@@ -284,33 +228,12 @@
         "houseNumberInfoGlobal": "* Nájdi zoznam ľudí s nekompletnými informáciami o adrese dole.",
         "houseNumberInfo": "* Zobraz počet \"zaklopaní\" a zisti na koľko dverí ešte musíš zaklopať.\n\n\n* Nájdi zoznam voličov s neúplnými adresami dole.",
         "citizenInfo": "Pozri, či tento kontakt bol už  oslovený v predchádzajucej akcii.",
-        "handoutMailInfo": "• Cliquez sur itinéraire pour obtenir\n le meilleur trajet.",
-        "handoutMailSwipeInfo": "Vous pouvez sélectionner au fur et à mesure les adresses que vous êtes en train de boîter et déclarer les avoir fait.",
-        "archiveSwipeInfoCanvassing": "Vous pouvez définir une adresse comme terminée en glissant chaque ligne de la droite vers la gauche."
+        "acceptLabel": "J'ai compris"
       },
       "cancelSearch": "Zrušiť",
       "additionnalInformation": "Viac informácii",
       "noCitizensFoundWithTheFilter": "Žiadna adresa nebola nájdená.\nPridaj kontakt na tejto adrese a vytvor novú lokáciu.",
       "noCitizensFound": "Nikto z databázi nie je okoľo teba.\nKlikni na + a pridaj ich.",
-      "noCitizendsFoundWithSearch": "Aucun résultat trouvé à ce niveau.",
-      "noCitizensFoundWithStaticSearch": "Aucun résultat trouvé dans cette liste de contacts.",
-      "addCitizenCTA": "Ajouter un citoyen dans la zone",
-      "finishAnItem": {
-        "city": { "one": "Terminer la ville", "other": "Terminer {{count}} villes" },
-        "street": { "one": "Terminer la rue", "other": "Terminer {{count}} rues" },
-        "housenumber": { "one": "Terminer le numéro", "other": "Terminer {{count}} numéros" },
-        "building": { "one": "Terminer le bâtiment", "other": "Terminer {{count}} bâtiments" },
-        "floor": { "one": "Terminer l'étage", "other": "Terminer {{count}} étages" },
-        "item": { "one": "Terminer", "other": "Terminer les {{count}}" }
-      },
-      "reopenAnItem": {
-        "city": { "one": "Rouvrir la ville", "other": "Rouvrir {{count}} villes" },
-        "street": { "one": "Rouvrir la rue", "other": "Rouvrir {{count}} rues" },
-        "housenumber": { "one": "Rouvrir le numéro", "other": "Rouvrir {{count}} numéros" },
-        "building": { "one": "Rouvrir le bâtiment", "other": "Rouvrir {{count}} bâtiments" },
-        "floor": { "one": "Rouvrir l'étage", "other": "Rouvrir {{count}} étages" },
-        "item": { "one": "Rouvrir", "other": "Rouvrir les {{count}}" }
-      },
       "finishLabel": "Dokončiť",
       "titleLabelAllTheCities": "",
       "titleLabelNearCitizens": "Okolo mňa",
@@ -323,9 +246,6 @@
       "listItem": {
         "toHitLeftSingular": "Zaklop",
         "toHitLeftPlural": "Zaklopanie",
-        "aBuilding": "Bâtiment",
-        "aFloor": "Étage",
-        "aDoor": "Porte",
         "citizens": "ľudí",
         "individual": "Jednotlivec",
         "openMapLabel": "Otvor mapu",
@@ -338,31 +258,16 @@
         "messageCantFindLocation": "Nemôžeme nájsť tvoju lokáciu.",
         "openTheMapFromStreets": "Smer",
         "addMissCitizen": "Pridaj niekoho",
+        "aBuilding": "Bâtiment",
+        "aFloor": "Étage",
+        "aDoor": "Porte",
         "absentLabel": "Neprítomný",
         "presentLabel": "Prítomný",
-        "refusalLabel": "Odmietnutie",
-        "notDefined": "Non défini",
-        "finished": "Terminé",
-        "finishAnItem": {
-          "city": "Terminer la ville",
-          "street": "Terminer la rue",
-          "building": "Terminer le bâtiment",
-          "floor": "Terminer l'étage",
-          "housenumber": "Terminer le numéro"
-        },
-        "resumeAnItem": {
-          "city": "Rouvrir la ville",
-          "street": "Rouvrir la rue",
-          "building": "Rouvrir le bâtiment",
-          "floor": "Rouvrir l'étage",
-          "housenumber": "Rouvrir le numéro"
-        }
+        "refusalLabel": "Odmietnutie"
       },
       "viewContact": {
-        "briefTitle": "Brief",
         "metByLabel": "Oslovený",
         "theLabel": "na",
-        "doorLabel": "Porte: ",
         "absentLabel": "Neprítomný",
         "presentLabel": "Prítomný",
         "refusalLabel": "Odmietnutie",
@@ -371,32 +276,15 @@
         "genderLabelM": "Pán",
         "newContactLabel": "Nový kontakt",
         "errorServer": "Stala sa chyba. Kontaktuj našu podporu ak problém pretrváva.",
-        "seeAnswers": "Voir les réponses du questionnaire",
         "metStatus": {
           "present": "Oslovený",
           "absent": "Bol neprítomný",
           "refus": "Odmietol stretnutie",
           "firstMet": "prvé oslovenie"
         },
-        "callAction": {
-          "title": "Appel",
-          "launchCallLabel": "Lancer l'appel",
-          "showScriptLabel": "Afficher le script",
-          "redirectionLabel": "Vous allez être redirigé hors de l'application Quorum afin de procéder à votre appel téléphonique.",
-          "goingToCall": "Vous êtes sur le point de joindre",
-          "contactHasNoNumber": "Le contact n'a pas renseigné de numéro",
-          "beginCall": "Démarrer",
-          "noNumber": "Aucun numéro de téléphone",
-          "RGPD": "",
-          "warningPopupTitle": "Attention",
-          "warningPopupContent": "Le numéro semble être incorrect, voulez-vous continuer ?",
-          "warningPopupCancel": "Annuler",
-          "warningPopupCall": "Appeller",
-          "chooseNumberToCall": "Choisir le numéro à joindre",
-          "phone": "Fixe",
-          "mobile": "Mobile"
-        }
-      }
+        "doorLabel": "Porte: "
+      },
+      "noCitizendsFoundWithSearch": "Aucun résultat trouvé à ce niveau."
     },
     "profile": {
       "public": {
@@ -404,30 +292,19 @@
         "actionsFinished": "Dokončené akcie",
         "peopleMeet": "Oslovených ľudí",
         "noCitizenMeet": "Nikto nebol oslovený. Zobraz svoje akcie.",
-        "actions": "actions",
         "joinMouvement": {
           "one": "{{count}} deň, odkedy si sa pridal/a k nášmu hnutiu s ✊a ❤️",
-          "other": "V záblesku⚡️génia, si sa pridal/a k nášmu hnutiu.",
-          "zero": "Dans un ⚡️de génie vous venez de rejoindre le mouvement.",
-          "two": "",
           "few": "{{count}} dni, odkedy si sa pridal/a k nášmu hnutiu s ✊a ❤️",
-          "many": "{{count}} dní, odkedy si sa pridal/a k nášmu hnutiu s ✊a ❤️"
-        },
-        "inALightning": ""
+          "many": "{{count}} dní, odkedy si sa pridal/a k nášmu hnutiu s ✊a ❤️",
+          "other": "V záblesku⚡️génia, si sa pridal/a k nášmu hnutiu."
+        }
       },
       "settings": {
         "title": "Nastavenia",
         "subtitle": "Prispôsob si svoje Quorum.",
         "notifications": { "title": "Notifikácie" },
         "me": { "title": "O mne", "editProfile": "Uprav profil", "editPassword": "Zmeň heslo" },
-        "language": {
-          "title": "Jazyk",
-          "titleScreen": "Sélectionner la langue de votre choix",
-          "restartLabel": "Redémarrage",
-          "restartMessage": "Le changement de langue nécessite un redémarrage de l'application.",
-          "confirm": "Confirmer",
-          "cancel": "Annuler"
-        },
+        "language": { "title": "Jazyk" },
         "share": {
           "title": "O Quorum",
           "invite": "Pozvi priateľov",
@@ -438,13 +315,10 @@
           "supportSubject": "Požiadaj o pomoc",
           "supportFeedback": "Moj feedback na Quorum Mobile",
           "supportShareYourFeedbackLabel": "Pošli feedback do Quorum",
-          "supportRessources": "Aide et ressources",
           "supportBody": "Verzia:"
         },
         "logout": { "title": "Odhlásiť sa", "label": "Odhlásiť sa" },
-        "version": "Verzia: ",
-        "checkVersion": "Vérifier les mises à jour",
-        "update": "Mettre l'app à jour"
+        "version": "Verzia: "
       },
       "edit": {
         "finish": "Dokončiť",
@@ -498,28 +372,17 @@
           "descriptionOfThePopUp": "Vyber si z následujúcich možností. Môžes to upraviť neskôr.",
           "takeAPictureLabel": "Odfoť",
           "chooseAPictureLabel": "Moje fotky",
-          "cancelLabel": "Zrušiť",
-          "problemLabel": "",
-          "messageTextProblem": "",
-          "settingsLabel": ""
+          "cancelLabel": "Zrušiť"
         }
       }
     },
     "form": {
-      "switchContactAddress": {
-        "detailsLabel": "Détails",
-        "contactLabel": "Contact",
-        "addressLabel": "Adresse"
-      },
       "endForm": {
         "thanksYouLabel": "Ďakujeme!",
         "oneMoreLabel": "poďme ďalej!",
         "finishTheMeeting": "Naspäť ku kontaktom",
         "goBackToBoard": "Naspäť",
-        "rateTheForm": "Ohodnoť stretnutie",
-        "backToActions": "Retour à la liste",
-        "backToHeadQuarter": "Retour au QG",
-        "addAnotherCitizen": "Ajouter un nouveau citoyen"
+        "rateTheForm": "Ohodnoť stretnutie"
       },
       "rateContact": {
         "howTheDiscussionHasGoing": "Komentáre",
@@ -533,7 +396,6 @@
         "noLabel": "Nie"
       },
       "allQuestions": "Zobraziť otázky",
-      "becauseYouAnswered": "Car vous avez répondu :",
       "allQuestionsForm": {
         "theQuestionsLabel": "Otázky",
         "description": "Môžeš sa vrátiť k predchádzajúcim otázkam na zozname.",
@@ -543,35 +405,17 @@
       "end": "Dokončiť",
       "nextQuestion": "Ďalšia otázka",
       "informationContact": "Kontaktné informácie",
-      "editAContactTitle": "Upraviť kontakt",
       "answers": {
         "locale": "sk",
         "streetPlaceholder": "Ulica",
         "additionPlaceholder": "Iné info o adrese (napr. kód k bráne)",
         "housenumberPlaceholder": "Číslo domu",
-        "buildingPlaceholder": "Budova",
-        "floorPlaceholder": "Poschodie",
-        "doorPlaceholder": "Číslo dverí",
         "datePlaceholder": "Vyber dátum",
-        "postalcodePlaceholder": "PSČ",
+        "postcodePlaceholder": "PSČ",
         "cityPlaceholder": "Mesto",
         "placeholder": "Odpoveď",
         "territories": "Región",
         "chooseATerritory": "Vyber región",
-        "chooseAnAgeCategory": "Choisissez une tranche d'âge",
-        "femaleLabel": "Femme",
-        "maleLabel": "Homme",
-        "ageSelection": {
-          "0": "Âge non renseigné",
-          "1": "Moins de 18 ans",
-          "2": "18 - 25 ans",
-          "3": "25 - 35 ans",
-          "4": "35 - 50 ans",
-          "5": "50 - 65 ans",
-          "6": "65 ans et plus"
-        },
-        "moreInfo": "+ Informations complémentaires",
-        "mandatory": "Obligatoire",
         "done": "Dokončiť",
         "dateFormat": "DD/MM/YYYY",
         "confirm": "Potvrdiť",
@@ -580,28 +424,19 @@
           "titleAddSupport": "Pridaj dobrovoľníka",
           "titleUpdateSupport": "Aktualizuj dobrovoľníka",
           "finish": "Dokončiť",
-          "nextStep": "Étape suivante",
-          "skipTheStep": "Passer l'étape",
-          "leaveWithoutValidating": "Passer l'étape",
-          "whoDoWeMeet": "Quel intérêt le citoyen rencontré porte-t-il à votre action ?",
-          "titleWhatIsTheNextStep": "Quelle est la prochaine étape pour ce citoyen ?",
-          "doAForm": "Faire passer un questionnaire",
-          "valid": "Valider",
           "goToForm": "Odpovedz na dotazník"
         },
-        "postcodePlaceholder": "PSČ"
+        "buildingPlaceholder": "Budova",
+        "floorPlaceholder": "Poschodie",
+        "doorPlaceholder": "Číslo dverí",
+        "mandatory": "Obligatoire",
+        "postalcodePlaceholder": "PSČ"
       },
-      "errorAfterUpdateOrCreation": "Une erreur est survenue. Vérifiez votre connexion au réseau & réessayer."
+      "editAContactTitle": "Upraviť kontakt",
+      "switchContactAddress": { "contactLabel": "Contact", "addressLabel": "Adresse" }
     },
     "headQuarter": {
-      "updatePopup": {
-        "title": "Mise à jour disponible",
-        "content": "Bénéficiez dès maintenant des dernières fonctionnalités de Quorum.",
-        "later": "Plus tard",
-        "update": "Mettre à jour"
-      },
       "quickActions": {
-        "welcome": "Bienvenue {{firstname}}",
         "title": "Odkazy",
         "canvassing": "Canvassuj\n",
         "donate": "Prijmi dar\n",
@@ -612,32 +447,17 @@
       "newActions": {
         "newActionLabel": {
           "one": "Najnovšia akcia",
-          "other": "",
-          "zero": "",
-          "two": "",
           "few": "Najnovšie akcie",
-          "many": "Najnovšie akcie"
+          "many": "Najnovšie akcie",
+          "other": ""
         },
-        "actionWillStartFromStart": "Démarre le {{date}}",
-        "actionAllreadyStartedFromStart": "A démarré le {{date}}",
-        "actionSimpleDateWillFinish": "Finira le {{date}}",
-        "actionSameDay": "{{dateStart}} de {{hourStart}} à {{hourEnd}}",
-        "emptyStateText": "Momentálne niesu naplánovane žiadne akcie.\nPridaj dobrovoľníkov, canvassuj alebo osľovuj ľudí na vlastnú päsť.",
-        "newActionsLabel": "Predchádzajúce akcie"
+        "newActionsLabel": "Predchádzajúce akcie",
+        "emptyStateText": "Momentálne niesu naplánovane žiadne akcie.\nPridaj dobrovoľníkov, canvassuj alebo osľovuj ľudí na vlastnú päsť."
       },
-      "newDocs": "nové dokumenty",
-      "missingData": "Il semblerait que certaines données soit manquantes.",
-      "reloadLabel": "Rafraichir",
-      "adminView": { "notificationOnlyForAdmin": "Vous avez accès à cette vue car vous êtes administrateur." }
+      "newDocs": "nové dokumenty"
     },
     "popup": {
-      "needUpdate": {
-        "title": "MISE À JOUR",
-        "body": "Veuillez faire la mise à jour pour utiliser Quorum à sa pleine puissance.",
-        "update": "Mettre à jour"
-      },
       "noLocation": {
-        "lookingForYourLocationTitle": "Nous recherchons votre position",
         "title": "Kde som?",
         "messagePopup": "Nemôžeme nájsť žiadnych ľudí okolo teba.\n\nSkontroluj si nastavenia a uisti sa, že aplikácia má prístup k tvojej polohe a over si svoje pripojenie k internetu.",
         "settingsLabel": "Nastavenia",
@@ -649,10 +469,7 @@
     "errorServer": "Server nemôže spracovať tvoju požiadavku. Kontaktuj podporu ak problém pretrváva.",
     "errorServerRetry": "Skús znovu",
     "noFieldActionsAvailable": "Žiadne nadchádzajúce akcie.\nMobilizuj použitím zkratiek v HQ.",
-    "backToHeadQuarter": "Naspäť na HQ.",
-    "notConnectedToTheNetwork": "Pas de connexion Internet",
-    "yourAreNotConnected": "Impossible de se connecter à Quorum",
-    "connectYouAndTryAgain": "Le problème vient peut-être de votre connexion. Vous pouvez réessayer."
+    "backToHeadQuarter": "Naspäť na HQ."
   },
   "tutorial": {
     "location": {
@@ -683,17 +500,5 @@
   "urls": {
     "cgu": "https://www.quorum.co/docs/End_User-Terms_Conditions.pdf",
     "dataProtection": "https://www.quorum.co/docs/PrivacyPolicy_en.pdf"
-  },
-  "popup": {
-    "consent": {
-      "title": "Consentement",
-      "content": "N'oubliez pas de rappeler à votre interlocuteur dans quel cadre vous récoltez son avis et son contact, puis de rappeler clairement l'identité de l'organisation que vous représentez !",
-      "cancel": "Annuler",
-      "nextStep": "Continuer",
-      "gpdrOkLabel": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de mon action.",
-      "gpdrOkEmailLabel": "Le contact accepte de recevoir des emails (en rapport avec votre cause)",
-      "gpdrOkSMSLabel": "Le contact accepte d'être contacté par téléphone (en rapport avec votre cause)",
-      "neverAskAgain": "عدم السؤال مرة أخرى"
-    }
   }
 }
