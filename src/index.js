@@ -1,3 +1,6 @@
+import { readFileSync } from "fs";
+import { join } from "path";
+
 const constantizeIfTruthy = (...args) => [...args].filter(Boolean).join("-");
 
 const defineUserLocales = (deviceLocale) => {
@@ -15,10 +18,11 @@ async function tryModuleAndReturnFile(
   const wantedFile = constantizeIfTruthy(locale, localeSpecific);
   finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific);
   try {
-    const result = await import(
-      `../merged-locales/${platform}/${wantedFile}.json`
+    const src = readFileSync(
+      join(__dirname, `../merged-locales/${platform}/${wantedFile}.json`),
+      "utf8"
     );
-    return result;
+    return JSON.parse(src);
   } catch (err) {
     return false;
   }

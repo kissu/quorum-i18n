@@ -7,11 +7,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getJSONLanguageForApplications = void 0;
 
-var _interopRequireWildcard2 = _interopRequireDefault(require("@babel/runtime/helpers/interopRequireWildcard"));
-
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
 var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/asyncToGenerator"));
+
+var _fs = require("fs");
+
+var _path = require("path");
 
 var constantizeIfTruthy = function constantizeIfTruthy() {
   for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
@@ -38,7 +40,7 @@ function _tryModuleAndReturnFile() {
         localeSpecific,
         platform,
         wantedFile,
-        result,
+        src,
         _args2 = arguments;
     return _regenerator["default"].wrap(function _callee2$(_context2) {
       while (1) {
@@ -59,26 +61,20 @@ function _tryModuleAndReturnFile() {
             wantedFile = constantizeIfTruthy(locale, localeSpecific);
             finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific);
             _context2.prev = 7;
-            _context2.next = 10;
-            return Promise.resolve("../merged-locales/".concat(platform, "/").concat(wantedFile, ".json")).then(function (s) {
-              return (0, _interopRequireWildcard2["default"])(require(s));
-            });
+            src = (0, _fs.readFileSync)((0, _path.join)(__dirname, "../merged-locales/".concat(platform, "/").concat(wantedFile, ".json")), "utf8");
+            return _context2.abrupt("return", JSON.parse(src));
 
-          case 10:
-            result = _context2.sent;
-            return _context2.abrupt("return", result);
-
-          case 14:
-            _context2.prev = 14;
+          case 12:
+            _context2.prev = 12;
             _context2.t0 = _context2["catch"](7);
             return _context2.abrupt("return", false);
 
-          case 17:
+          case 15:
           case "end":
             return _context2.stop();
         }
       }
-    }, _callee2, null, [[7, 14]]);
+    }, _callee2, null, [[7, 12]]);
   }));
   return _tryModuleAndReturnFile.apply(this, arguments);
 }

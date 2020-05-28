@@ -6,6 +6,6 @@ async function test() {
     "politique-larem",
     "web"
   );
-  console.log(module.content);
+  console.log(module.content._COMMON);
 }
 test();

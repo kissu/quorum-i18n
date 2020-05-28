@@ -4,6 +4,6 @@
   ],
   "plugins": [
     "@babel/plugin-transform-runtime",
-    "dynamic-import-node"
+    "wildcard"
   ]
 }
