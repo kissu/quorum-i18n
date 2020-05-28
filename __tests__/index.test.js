@@ -1,7 +1,11 @@
-var func = require('../dist/index.js')
+var func = require("../dist/index.js");
 
 async function test() {
-  const module = await func.getJSONLanguageForApplications('en-GB', 'politique-larem', 'web')
-  console.log(module.content.MENU.STRATEGY)
+  const module = await func.getJSONLanguageForApplications(
+    "en-GB",
+    "politique-larem",
+    "web"
+  );
+  console.log(module.content);
 }
-test()
+test();

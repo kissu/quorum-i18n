@@ -3,6 +3,7 @@
     "@babel/preset-env"
   ],
   "plugins": [
-    "transform-remove-console", "@babel/plugin-transform-runtime"
+    "@babel/plugin-transform-runtime",
+    "dynamic-import-node"
   ]
 }
