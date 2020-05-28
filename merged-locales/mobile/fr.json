@@ -44,12 +44,12 @@
     },
     "passwordForgot": {
       "passwordForgotHeader": "Mot de passe oublié",
+      "sendAnEmailTo": "Envoyer un lien par email à",
       "retrieveEmailLabel": "Email",
       "toSend": "Envoyer",
       "lookAtYourMails": "Un email contenant les instructions pour modifier votre mot de passe vient de vous être envoyé.",
       "errorMailNotFound": "Aucun compte ne correspond à ",
-      "errorMailNotFoundPart2": "Vous avez peut être utilisé une adresse email différente lors de la création de votre compte.",
-      "sendAnEmailTo": "Envoyer un lien par email à"
+      "errorMailNotFoundPart2": "Vous avez peut être utilisé une adresse email différente lors de la création de votre compte."
     },
     "disconnect": { "toDisconnect": "Se déconnecter" },
     "joinCampaign": {
@@ -407,13 +407,10 @@
         "actions": "actions",
         "joinMouvement": {
           "one": "Il y a {{count}} jour, avec ✊ et ❤️ vous avez rejoint le mouvement.",
-          "other": "Il y a {{count}} jours, avec ✊ et ❤️ vous avez rejoint le mouvement.",
-          "zero": "Dans un ⚡️de génie vous venez de rejoindre le mouvement.",
-          "two": "",
           "few": "Il y a {{count}} jours, avec ✊ et ❤️ vous avez rejoint le mouvement.",
-          "many": ""
-        },
-        "inALightning": ""
+          "other": "Il y a {{count}} jours, avec ✊ et ❤️ vous avez rejoint le mouvement.",
+          "zero": "Dans un ⚡️de génie vous venez de rejoindre le mouvement."
+        }
       },
       "settings": {
         "title": "Paramètres",
@@ -502,10 +499,7 @@
           "descriptionOfThePopUp": "Choisissez parmi les options suivantes. Elle pourra être modifiée ultérieurement.",
           "takeAPictureLabel": "Prendre une photo",
           "chooseAPictureLabel": "Mes photos",
-          "cancelLabel": "Annuler",
-          "problemLabel": "",
-          "messageTextProblem": "",
-          "settingsLabel": ""
+          "cancelLabel": "Annuler"
         }
       }
     },
@@ -590,10 +584,8 @@
           "whoDoWeMeet": "Quel intérêt le citoyen rencontré porte-t-il à votre action ?",
           "titleWhatIsTheNextStep": "Quelle est la prochaine étape pour ce citoyen ?",
           "doAForm": "Faire passer un questionnaire",
-          "valid": "Valider",
-          "goToForm": "الإنشاء والإستبيان"
-        },
-        "postcodePlaceholder": ""
+          "valid": "Valider"
+        }
       },
       "errorAfterUpdateOrCreation": "Une erreur est survenue. Vérifiez votre connexion au réseau & réessayer."
     },
@@ -614,20 +606,12 @@
         "upload": "Transmettre un document"
       },
       "newActions": {
-        "newActionLabel": {
-          "one": "Votre action",
-          "other": "Vos actions",
-          "zero": "",
-          "two": "",
-          "few": "Vos actions",
-          "many": ""
-        },
+        "newActionLabel": { "one": "Votre action", "few": "Vos actions", "other": "Vos actions" },
         "actionWillStartFromStart": "Démarre le {{date}}",
         "actionAllreadyStartedFromStart": "A démarré le {{date}}",
         "actionSimpleDateWillFinish": "Finira le {{date}}",
         "actionSameDay": "{{dateStart}} de {{hourStart}} à {{hourEnd}}",
-        "emptyStateText": "Pas d'action prévue pour le moment.\nDémarrez une action rapide.",
-        "newActionsLabel": ""
+        "emptyStateText": "Pas d'action prévue pour le moment.\nDémarrez une action rapide."
       },
       "newDocs": "nouveaux documents",
       "missingData": "Il semblerait que certaines données soit manquantes.",
@@ -696,8 +680,7 @@
       "nextStep": "Continuer",
       "gpdrOkLabel": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de mon action.",
       "gpdrOkEmailLabel": "Le contact accepte de recevoir des emails (en rapport avec votre cause)",
-      "gpdrOkSMSLabel": "Le contact accepte d'être contacté par téléphone (en rapport avec votre cause)",
-      "neverAskAgain": "عدم السؤال مرة أخرى"
+      "gpdrOkSMSLabel": "Le contact accepte d'être contacté par téléphone (en rapport avec votre cause)"
     }
   }
 }
