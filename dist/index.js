@@ -64,12 +64,12 @@ var constantizeIfTruthy = function constantizeIfTruthy() {
     args[_key] = arguments[_key];
   }
 
-  return [].concat(args).filter(Boolean).join("-");
+  return [].concat(args).filter(Boolean).join('-');
 };
 
 var defineUserLocales = function defineUserLocales(deviceLocale) {
-  if (deviceLocale) return deviceLocale.replace(/-/gi, "_");
-  return "en";
+  if (deviceLocale) return deviceLocale.replace(/-/gi, '_');
+  return 'en';
 };
 
 var finalAvailableLocale;
@@ -89,22 +89,22 @@ function _tryModuleAndReturnFile() {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
-            locale = _args2.length > 0 && _args2[0] !== undefined ? _args2[0] : "en";
+            locale = _args2.length > 0 && _args2[0] !== undefined ? _args2[0] : 'en';
             localeSpecific = _args2.length > 1 && _args2[1] !== undefined ? _args2[1] : null;
-            platform = _args2.length > 2 && _args2[2] !== undefined ? _args2[2] : "web";
+            platform = _args2.length > 2 && _args2[2] !== undefined ? _args2[2] : 'web';
 
             if (platform) {
               _context2.next = 5;
               break;
             }
 
-            throw new Error("No platform provided");
+            throw new Error('No platform provided');
 
           case 5:
             wantedFile = constantizeIfTruthy(locale, localeSpecific);
             finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific);
             _context2.t0 = platform;
-            _context2.next = _context2.t0 === "web" ? 10 : 13;
+            _context2.next = _context2.t0 === 'web' ? 10 : 13;
             break;
 
           case 10:
@@ -140,13 +140,13 @@ function _tryModuleAndReturnFile() {
 }
 
 function downgradeMyLocaleSpecific(localeSpecific) {
-  if (localeSpecific === "") return localeSpecific;
-  return localeSpecific.replace(/-?[A-Za-z]+$/, "");
+  if (localeSpecific === '') return localeSpecific;
+  return localeSpecific.replace(/-?[A-Za-z]+$/, '');
 }
 
 function downgradeMyLocaleString(locale) {
-  if (locale === "") return locale;
-  return locale.replace(/[-_]?[A-Za-z]+$/, "");
+  if (locale === '') return locale;
+  return locale.replace(/[-_]?[A-Za-z]+$/, '');
 }
 /**
  * @func downgradeAndSearchFilesForLanguage
@@ -188,11 +188,11 @@ function _downgradeAndSearchFilesForLanguage() {
             /**
              *
              */
-            futurLocaleString = "";
-            futurLocaleSpecific = "";
+            futurLocaleString = '';
+            futurLocaleSpecific = '';
             if (localeSpecific) futurLocaleSpecific = downgradeMyLocaleSpecific(localeSpecific); //
 
-            if (futurLocaleSpecific === "") {
+            if (futurLocaleSpecific === '') {
               if (futurLocaleSpecific === localeSpecific) {
                 futurLocaleString = downgradeMyLocaleString(locale);
               } else {
@@ -212,7 +212,7 @@ function _downgradeAndSearchFilesForLanguage() {
             }
 
             _context3.next = 12;
-            return tryModuleAndReturnFile("en", null, platform);
+            return tryModuleAndReturnFile('en', null, platform);
 
           case 12:
             return _context3.abrupt("return", _context3.sent);
@@ -283,11 +283,11 @@ var getJSONLanguageForApplications = /*#__PURE__*/function () {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            deviceLocale = _args.length > 0 && _args[0] !== undefined ? _args[0] : "en";
+            deviceLocale = _args.length > 0 && _args[0] !== undefined ? _args[0] : 'en';
             localeSpecific = _args.length > 1 && _args[1] !== undefined ? _args[1] : null;
-            platform = _args.length > 2 && _args[2] !== undefined ? _args[2] : "web";
+            platform = _args.length > 2 && _args[2] !== undefined ? _args[2] : 'web';
             _context.t0 = platform;
-            _context.next = _context.t0 === "web" ? 6 : _context.t0 === "mobile" ? 6 : 11;
+            _context.next = _context.t0 === 'web' ? 6 : _context.t0 === 'mobile' ? 6 : 11;
             break;
 
           case 6:
@@ -303,7 +303,7 @@ var getJSONLanguageForApplications = /*#__PURE__*/function () {
             });
 
           case 11:
-            throw new Error("The platform '".concat(platform || "", "' is not recognised by quorum-i18n."));
+            throw new Error("The platform '".concat(platform || '', "' is not recognised by quorum-i18n."));
 
           case 12:
           case "end":

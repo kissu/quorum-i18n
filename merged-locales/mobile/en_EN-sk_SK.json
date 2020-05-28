@@ -296,49 +296,19 @@
       "noCitizensFoundWithStaticSearch": "Aucun résultat trouvé dans cette liste de contacts.",
       "addCitizenCTA": "Ajouter un citoyen dans la zone",
       "finishAnItem": {
-        "city": {
-          "one": "Terminer la ville",
-          "other": "Terminer {{count}} villes"
-        },
-        "street": {
-          "one": "Terminer la rue",
-          "other": "Terminer {{count}} rues"
-        },
-        "housenumber": {
-          "one": "Terminer le numéro",
-          "other": "Terminer {{count}} numéros"
-        },
-        "building": {
-          "one": "Terminer le bâtiment",
-          "other": "Terminer {{count}} bâtiments"
-        },
-        "floor": {
-          "one": "Terminer l'étage",
-          "other": "Terminer {{count}} étages"
-        },
+        "city": { "one": "Terminer la ville", "other": "Terminer {{count}} villes" },
+        "street": { "one": "Terminer la rue", "other": "Terminer {{count}} rues" },
+        "housenumber": { "one": "Terminer le numéro", "other": "Terminer {{count}} numéros" },
+        "building": { "one": "Terminer le bâtiment", "other": "Terminer {{count}} bâtiments" },
+        "floor": { "one": "Terminer l'étage", "other": "Terminer {{count}} étages" },
         "item": { "one": "Terminer", "other": "Terminer les {{count}}" }
       },
       "reopenAnItem": {
-        "city": {
-          "one": "Rouvrir la ville",
-          "other": "Rouvrir {{count}} villes"
-        },
-        "street": {
-          "one": "Rouvrir la rue",
-          "other": "Rouvrir {{count}} rues"
-        },
-        "housenumber": {
-          "one": "Rouvrir le numéro",
-          "other": "Rouvrir {{count}} numéros"
-        },
-        "building": {
-          "one": "Rouvrir le bâtiment",
-          "other": "Rouvrir {{count}} bâtiments"
-        },
-        "floor": {
-          "one": "Rouvrir l'étage",
-          "other": "Rouvrir {{count}} étages"
-        },
+        "city": { "one": "Rouvrir la ville", "other": "Rouvrir {{count}} villes" },
+        "street": { "one": "Rouvrir la rue", "other": "Rouvrir {{count}} rues" },
+        "housenumber": { "one": "Rouvrir le numéro", "other": "Rouvrir {{count}} numéros" },
+        "building": { "one": "Rouvrir le bâtiment", "other": "Rouvrir {{count}} bâtiments" },
+        "floor": { "one": "Rouvrir l'étage", "other": "Rouvrir {{count}} étages" },
         "item": { "one": "Rouvrir", "other": "Rouvrir les {{count}}" }
       },
       "finishLabel": "Dokončiť",
@@ -449,11 +419,7 @@
         "title": "Nastavenia",
         "subtitle": "Prispôsob si svoje Quorum.",
         "notifications": { "title": "Notifikácie" },
-        "me": {
-          "title": "O mne",
-          "editProfile": "Uprav profil",
-          "editPassword": "Zmeň heslo"
-        },
+        "me": { "title": "O mne", "editProfile": "Uprav profil", "editPassword": "Zmeň heslo" },
         "language": {
           "title": "Jazyk",
           "titleScreen": "Sélectionner la langue de votre choix",
@@ -662,9 +628,7 @@
       "newDocs": "nové dokumenty",
       "missingData": "Il semblerait que certaines données soit manquantes.",
       "reloadLabel": "Rafraichir",
-      "adminView": {
-        "notificationOnlyForAdmin": "Vous avez accès à cette vue car vous êtes administrateur."
-      }
+      "adminView": { "notificationOnlyForAdmin": "Vous avez accès à cette vue car vous êtes administrateur." }
     },
     "popup": {
       "needUpdate": {
