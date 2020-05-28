@@ -1,5 +1,5 @@
-import { readFileSync } from "fs";
-import { join } from "path";
+import * as MobileTranslates from "../merged-locales/mobile";
+import * as WebTranslates from "../merged-locales/web";
 
 const constantizeIfTruthy = (...args) => [...args].filter(Boolean).join("-");
 
@@ -17,14 +17,14 @@ async function tryModuleAndReturnFile(
   if (!platform) throw new Error("No platform provided");
   const wantedFile = constantizeIfTruthy(locale, localeSpecific);
   finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific);
-  try {
-    const src = readFileSync(
-      join(__dirname, `../merged-locales/${platform}/${wantedFile}.json`),
-      "utf8"
-    );
-    return JSON.parse(src);
-  } catch (err) {
-    return false;
+  switch (platform) {
+    case "web":
+      if (WebTranslates[wantedFile]) return WebTranslates[wantedFile];
+      return false;
+
+    default:
+      if (MobileTranslates[wantedFile]) return WebTranslates[wantedFile];
+      return false;
   }
 }
 

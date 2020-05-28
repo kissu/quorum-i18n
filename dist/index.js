@@ -11,9 +11,53 @@ var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"))
 
 var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/asyncToGenerator"));
 
-var _fs = require("fs");
+var _en_EN = _interopRequireDefault(require("./../merged-locales/mobile/en_EN.json"));
 
-var _path = require("path");
+var _en_ENSk_SK = _interopRequireDefault(require("./../merged-locales/mobile/en_EN-sk_SK.json"));
+
+var _en_ENFr_FR = _interopRequireDefault(require("./../merged-locales/mobile/en_EN-fr_FR.json"));
+
+var _en_ENAr_AR = _interopRequireDefault(require("./../merged-locales/mobile/en_EN-ar_AR.json"));
+
+var _fr = _interopRequireDefault(require("./../merged-locales/web/fr.json"));
+
+var _frPolitique = _interopRequireDefault(require("./../merged-locales/web/fr-politique.json"));
+
+var _frPolitiqueLarem = _interopRequireDefault(require("./../merged-locales/web/fr-politique-larem.json"));
+
+var _frMediation = _interopRequireDefault(require("./../merged-locales/web/fr-mediation.json"));
+
+var _frMediationPromevil = _interopRequireDefault(require("./../merged-locales/web/fr-mediation-promevil.json"));
+
+var _en_GB = _interopRequireDefault(require("./../merged-locales/web/en_GB.json"));
+
+var _en_GBOng = _interopRequireDefault(require("./../merged-locales/web/en_GB-ong.json"));
+
+var _en_GBOngVert = _interopRequireDefault(require("./../merged-locales/web/en_GB-ong-vert.json"));
+
+var _en = _interopRequireDefault(require("./../merged-locales/web/en.json"));
+
+var _enOng = _interopRequireDefault(require("./../merged-locales/web/en-ong.json"));
+
+var _enOngVert = _interopRequireDefault(require("./../merged-locales/web/en-ong-vert.json"));
+
+var MobileTranslates = {};
+MobileTranslates["en_EN"] = _en_EN["default"];
+MobileTranslates["en_EN-sk_SK"] = _en_ENSk_SK["default"];
+MobileTranslates["en_EN-fr_FR"] = _en_ENFr_FR["default"];
+MobileTranslates["en_EN-ar_AR"] = _en_ENAr_AR["default"];
+var WebTranslates = {};
+WebTranslates["fr"] = _fr["default"];
+WebTranslates["fr-politique"] = _frPolitique["default"];
+WebTranslates["fr-politique-larem"] = _frPolitiqueLarem["default"];
+WebTranslates["fr-mediation"] = _frMediation["default"];
+WebTranslates["fr-mediation-promevil"] = _frMediationPromevil["default"];
+WebTranslates["en_GB"] = _en_GB["default"];
+WebTranslates["en_GB-ong"] = _en_GBOng["default"];
+WebTranslates["en_GB-ong-vert"] = _en_GBOngVert["default"];
+WebTranslates["en"] = _en["default"];
+WebTranslates["en-ong"] = _enOng["default"];
+WebTranslates["en-ong-vert"] = _enOngVert["default"];
 
 var constantizeIfTruthy = function constantizeIfTruthy() {
   for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
@@ -40,7 +84,6 @@ function _tryModuleAndReturnFile() {
         localeSpecific,
         platform,
         wantedFile,
-        src,
         _args2 = arguments;
     return _regenerator["default"].wrap(function _callee2$(_context2) {
       while (1) {
@@ -60,21 +103,38 @@ function _tryModuleAndReturnFile() {
           case 5:
             wantedFile = constantizeIfTruthy(locale, localeSpecific);
             finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific);
-            _context2.prev = 7;
-            src = (0, _fs.readFileSync)((0, _path.join)(__dirname, "../merged-locales/".concat(platform, "/").concat(wantedFile, ".json")), "utf8");
-            return _context2.abrupt("return", JSON.parse(src));
+            _context2.t0 = platform;
+            _context2.next = _context2.t0 === "web" ? 10 : 13;
+            break;
+
+          case 10:
+            if (!WebTranslates[wantedFile]) {
+              _context2.next = 12;
+              break;
+            }
+
+            return _context2.abrupt("return", WebTranslates[wantedFile]);
 
           case 12:
-            _context2.prev = 12;
-            _context2.t0 = _context2["catch"](7);
             return _context2.abrupt("return", false);
 
+          case 13:
+            if (!MobileTranslates[wantedFile]) {
+              _context2.next = 15;
+              break;
+            }
+
+            return _context2.abrupt("return", WebTranslates[wantedFile]);
+
           case 15:
+            return _context2.abrupt("return", false);
+
+          case 16:
           case "end":
             return _context2.stop();
         }
       }
-    }, _callee2, null, [[7, 12]]);
+    }, _callee2);
   }));
   return _tryModuleAndReturnFile.apply(this, arguments);
 }

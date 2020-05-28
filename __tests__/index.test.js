@@ -2,8 +2,8 @@ var func = require("../dist/index.js");
 
 async function test() {
   const module = await func.getJSONLanguageForApplications(
-    "en-GB",
-    "politique-larem",
+    "fr",
+    "mediation",
     "web"
   );
   console.log(module.content._COMMON);
