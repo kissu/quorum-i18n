@@ -1,6 +1,6 @@
 {
   "name": "quorum-i18n",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Repo for all the i18n resources for the Quorum's Sales Team",
   "author": "quorumsco <https://www.quorum.co>",
   "main": "dist/index.js",
