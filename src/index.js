@@ -1,41 +1,37 @@
-import * as MobileTranslates from "../merged-locales/mobile";
-import * as WebTranslates from "../merged-locales/web";
+import * as MobileTranslates from '../merged-locales/mobile'
+import * as WebTranslates from '../merged-locales/web'
 
-const constantizeIfTruthy = (...args) => [...args].filter(Boolean).join("-");
+const constantizeIfTruthy = (...args) => [...args].filter(Boolean).join('-')
 
 const defineUserLocales = (deviceLocale) => {
-  if (deviceLocale) return deviceLocale.replace(/-/gi, "_");
-  return "en";
-};
+  if (deviceLocale) return deviceLocale.replace(/-/gi, '_')
+  return 'en'
+}
 
-let finalAvailableLocale;
-async function tryModuleAndReturnFile(
-  locale = "en",
-  localeSpecific = null,
-  platform = "web"
-) {
-  if (!platform) throw new Error("No platform provided");
-  const wantedFile = constantizeIfTruthy(locale, localeSpecific);
-  finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific);
+let finalAvailableLocale
+async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, platform = 'web') {
+  if (!platform) throw new Error('No platform provided')
+  const wantedFile = constantizeIfTruthy(locale, localeSpecific)
+  finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific)
   switch (platform) {
-    case "web":
-      if (WebTranslates[wantedFile]) return WebTranslates[wantedFile];
-      return false;
+    case 'web':
+      if (WebTranslates[wantedFile]) return WebTranslates[wantedFile]
+      return false
 
     default:
-      if (MobileTranslates[wantedFile]) return WebTranslates[wantedFile];
-      return false;
+      if (MobileTranslates[wantedFile]) return WebTranslates[wantedFile]
+      return false
   }
 }
 
 function downgradeMyLocaleSpecific(localeSpecific) {
-  if (localeSpecific === "") return localeSpecific;
-  return localeSpecific.replace(/-?[A-Za-z]+$/, "");
+  if (localeSpecific === '') return localeSpecific
+  return localeSpecific.replace(/-?[A-Za-z]+$/, '')
 }
 
 function downgradeMyLocaleString(locale) {
-  if (locale === "") return locale;
-  return locale.replace(/[-_]?[A-Za-z]+$/, "");
+  if (locale === '') return locale
+  return locale.replace(/[-_]?[A-Za-z]+$/, '')
 }
 
 /**
@@ -44,50 +40,37 @@ function downgradeMyLocaleString(locale) {
  * Downgrade d'abord la locale specific : 'politique-larem' => 'politique' -> '' -> false
  * Downgrade ensuite la locale : 'fr_FR' -> 'fr' -> '' -> false
  */
-async function downgradeAndSearchFilesForLanguage(
-  locale,
-  localeSpecific,
-  platform
-) {
-  const attemptFileFound = await tryModuleAndReturnFile(
-    locale,
-    localeSpecific,
-    platform
-  );
-  if (attemptFileFound) return attemptFileFound;
+async function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platform) {
+  const attemptFileFound = await tryModuleAndReturnFile(locale, localeSpecific, platform)
+  if (attemptFileFound) return attemptFileFound
   /**
    *
    */
-  let futurLocaleString = "";
-  let futurLocaleSpecific = "";
+  let futurLocaleString = ''
+  let futurLocaleSpecific = ''
 
-  if (localeSpecific)
-    futurLocaleSpecific = downgradeMyLocaleSpecific(localeSpecific);
+  if (localeSpecific) futurLocaleSpecific = downgradeMyLocaleSpecific(localeSpecific)
   //
-  if (futurLocaleSpecific === "") {
+  if (futurLocaleSpecific === '') {
     if (futurLocaleSpecific === localeSpecific) {
-      futurLocaleString = downgradeMyLocaleString(locale);
+      futurLocaleString = downgradeMyLocaleString(locale)
     } else {
-      futurLocaleString = locale;
+      futurLocaleString = locale
     }
   } else {
-    futurLocaleString = locale;
+    futurLocaleString = locale
   }
 
   /**
    * If my locales are empty, I didn't find a solution and return the english
    */
   if (!futurLocaleString && !futurLocaleSpecific) {
-    return await tryModuleAndReturnFile("en", null, platform);
+    return await tryModuleAndReturnFile('en', null, platform)
   }
   /**
    * downgradeAndSearchFilesForLanguage again because we not found the file
    */
-  return downgradeAndSearchFilesForLanguage(
-    futurLocaleString,
-    futurLocaleSpecific,
-    platform
-  );
+  return downgradeAndSearchFilesForLanguage(futurLocaleString, futurLocaleSpecific, platform)
 }
 
 /**
@@ -98,12 +81,8 @@ async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
    * We want to get the locale formatted with
    * the defineUserLocales function
    */
-  const localeFormatted = defineUserLocales(detectedLocale);
-  return await downgradeAndSearchFilesForLanguage(
-    localeFormatted,
-    localeSpecific,
-    platform
-  );
+  const localeFormatted = defineUserLocales(detectedLocale)
+  return await downgradeAndSearchFilesForLanguage(localeFormatted, localeSpecific, platform)
 }
 
 /**
@@ -118,26 +97,20 @@ async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
  */
 
 export const getJSONLanguageForApplications = async (
-  deviceLocale = "en",
+  deviceLocale = 'en',
   localeSpecific = null,
-  platform = "web"
+  platform = 'web'
 ) => {
   switch (platform) {
-    case "web":
-    case "mobile": {
+    case 'web':
+    case 'mobile': {
       return {
-        content: await setLocaleForTheUser(
-          deviceLocale,
-          localeSpecific,
-          platform
-        ),
+        content: await setLocaleForTheUser(deviceLocale, localeSpecific, platform),
         path: finalAvailableLocale,
-      };
+      }
     }
 
     default:
-      throw new Error(
-        `The platform '${platform || ""}' is not recognised by quorum-i18n.`
-      );
+      throw new Error(`The platform '${platform || ''}' is not recognised by quorum-i18n.`)
   }
-};
+}
