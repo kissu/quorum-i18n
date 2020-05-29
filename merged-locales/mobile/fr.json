@@ -35,7 +35,7 @@
       "seePassword": "voir",
       "emailLabel": "Email",
       "passwordLabel": "Mot de passe",
-      "errorNoCampaign": "Votre compte n'a pas de campagne.",
+      "errorNoCampaign": "Votre compte n'est rattaché à aucun espace.",
       "errorMailNotValid": "Adresse mail non validée. Veuillez vérifier votre boîte mail.",
       "errorWrongPassword": "Votre couple identifiant mot de passe est incorrect. Vous pouvez afficher votre mot de passe pour corriger l'erreur.",
       "errorServer": "Erreur serveur. Veuillez réessayer et contacter notre support client si le problème persiste.",
@@ -597,7 +597,7 @@
         "update": "Mettre à jour"
       },
       "quickActions": {
-        "welcome": "Bienvenue {{firstname}}",
+        "welcome": "Bienvenue sur votre application {{firstname}}👋",
         "title": "Actions Rapides",
         "canvassing": "Autour de moi\n",
         "donate": "Récolter un don\n",
