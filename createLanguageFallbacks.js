@@ -1,5 +1,6 @@
 const fs = require('fs-extra') // beter file creation
 const deepExtend = require('deep-extend') // merge various JSONs
+const cloneDeep = require('lodash/cloneDeep')
 
 const platformLocales = [
   {
@@ -27,28 +28,28 @@ const platformLocales = [
 ]
 
 ;(async () => {
-  for (const webLocale of platformLocales) {
+  for (const platformLocale of platformLocales) {
     const jsonFileName = (languageFallbackList) =>
-      `./merged-locales/${webLocale.path}/${languageFallbackList
+      `./merged-locales/${platformLocale.path}/${languageFallbackList
         .map((lang) => lang.match(/\w+/gi)[0])
         .join('-')}.json`
 
     const importFile = async (localeVariant) => {
       try {
-        return await require(`./initial-locales/${webLocale.path}/${localeVariant}.json`)
+        return await require(`./initial-locales/${platformLocale.path}/${localeVariant}.json`)
       } catch (err) {
         console.log(err)
       }
     }
 
     ;(async () => {
-      for (const arrayOfLocales of webLocale.variants) {
+      for (const arrayOfLocales of platformLocale.variants) {
         const importedLanguageLocaleToMerge = []
         for (const locale of arrayOfLocales) {
           const module = await importFile(locale)
           importedLanguageLocaleToMerge.push(module)
         }
-        const mergedJson = deepExtend(...importedLanguageLocaleToMerge)
+        const mergedJson = deepExtend(...cloneDeep(importedLanguageLocaleToMerge))
         fs.outputJsonSync(jsonFileName(arrayOfLocales), mergedJson)
       }
     })()
