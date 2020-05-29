@@ -1,738 +1,738 @@
 {
-  "locale_shorted": "en-EN",
-  "locale": "english",
-  "greeting": {
-    "hello": "Hello"
-  },
-  "splashScreen": {
-    "loadingUpdateOTA": "An update is running!",
-    "successUpdateOTA": "Sync. server completed! Restart.."
-  },
-  "navigator": {
-    "goBack": "Back",
-    "QG": "HQ",
-    "search": "Search",
-    "actions": "Actions",
-    "informations": "Materials",
-    "profile": "Profile"
-  },
-  "support": {
-    "withTelegramApp": "Contact support with Telegram",
-    "withMail": "By email",
-    "titleSupportHelp": "Need help?",
-    "informationHelp": "Any issue with the app? \nLet us know!",
-    "askingSupport": "Ask for support",
-    "firstname": "First name",
-    "surname": "Last name",
-    "mail": "Email",
-    "contactUs": "Contact us"
-  },
-  "auth": {
-    "wantAConnexion": "Log in",
-    "wantToCreateAnAccount": "Create an account",
-    "signIn": {
-      "connectionHeader": "Log in",
-      "passwordForgotten": "Forgot password?",
-      "buttonToConnect": "Log in",
-      "seePassword": "Show",
-      "emailLabel": "Email",
-      "passwordLabel": "Password",
-      "errorNoCampaign": "Your account isn't part of a campaign yet.",
-      "errorMailNotValid": "Please check your inbox to confirm your email address.",
-      "errorWrongPassword": "Wrong username/password combination. Show password to make sure it's correct.",
-      "errorServer": "Server error. Please try again later or contact support if the problem persists.",
-      "errorNotConnectedToInternet": "Looks like there was a problem between you and the server! Please check your internet connection.\n\nIf the problem persists, contact our support team.",
-      "supportAsking": "A problem with the app? Contact us."
+    "locale_shorted": "en-EN",
+    "locale": "english",
+    "greeting": {
+        "hello": "Hello"
     },
-    "passwordForgot": {
-      "passwordForgotHeader": "Forgot password?",
-      "retrieveEmailLabel": "Email",
-      "toSend": "Send",
-      "lookAtYourMails": "An email with instructions on how to reset your password has been sent.",
-      "errorMailNotFound": "No account is linked to ",
-      "errorMailNotFoundPart2": "You may have used a different email address to create your account.",
-      "sendAnEmailTo": "Send a link by email to"
+    "splashScreen": {
+        "loadingUpdateOTA": "An update is running!",
+        "successUpdateOTA": "Sync. server completed! Restart.."
     },
-    "disconnect": {
-      "toDisconnect": "Log out"
+    "navigator": {
+        "goBack": "Back",
+        "QG": "HQ",
+        "search": "Search",
+        "actions": "Actions",
+        "informations": "Materials",
+        "profile": "Profile"
     },
-    "joinCampaign": {
-      "emoji": "✊🏻",
-      "letsGo": "Let's go!",
-      "disposeCode": "If you have your organisation's secret nickname, enter it here",
-      "goButton": "Go!",
-      "placeholder": "Organisation's secret nickname",
-      "noCampaign": "No secret nickname? Please contact your organisation.",
-      "noCampaignWithThisCode": "This code isn't linked to a campaign.",
-      "discover": "Discover"
+    "support": {
+        "withTelegramApp": "Contact support with Telegram",
+        "withMail": "By email",
+        "titleSupportHelp": "Need help?",
+        "informationHelp": "Any issue with the app? \nLet us know!",
+        "askingSupport": "Ask for support",
+        "firstname": "First name",
+        "surname": "Last name",
+        "mail": "Email",
+        "contactUs": "Contact us"
     },
-    "chooseCampaign": {
-      "emoji": "✊🏻",
-      "letsGo": "Let's go!",
-      "joinYourCompaign": "Join your campaign"
-    },
-    "createAccount": {
-      "step1": {
-        "title": "Your email",
-        "alert": " The email you entered is not valid.",
-        "emailLabel": "Email",
-        "emailPlaceholder": "Ex: martin@monasso.com",
-        "button": "Submit",
-        "alertPart1": "By signing up, you agree to",
-        "alertPart2": "our Terms of Use",
-        "alertPart3": "and our",
-        "alertPart4": "Privacy Policy",
-        "alertPart5": "data.",
-        "urlUseCase": "",
-        "urlData": "",
-        "mailAllreadyExist": "The email already exists. Please try another one or reset your password."
-      },
-      "step2": {
-        "title": "Your password",
-        "passwordLabel": "Password",
-        "passwordPlaceHolder": "Choose your password",
-        "alert": "Your password must contain at least 8 characters, 1 capital letter and 1 digit.",
-        "button": "Next",
-        "seePassword": "Show"
-      },
-      "step3": {
-        "title": "Enter your first and last name",
-        "createTheAccountLabel": "Create account",
-        "firstnamePlaceholder": "Ex: Charles",
-        "statusCreationAccount": "Available",
-        "firstnameLabel": "First name",
-        "namePlaceholder": "Ex: Smith",
-        "nameLabel": "Last name"
-      },
-      "step4": {
-        "title": "Set up your profile and let your team know the best way to reach you",
-        "streetPlaceholder": "50 avenue Charles de Gaulle",
-        "streetLabel": "Address",
-        "cityPlaceholder": "Ex: Paris",
-        "cityLabel": "City",
-        "postalCodePlaceholder": "Ex: 75 000",
-        "postalCodeLabel": "Zip code",
-        "statusPlaceholder": "Get started!",
-        "statusLabel": "Status",
-        "phoneNumberPlaceholder": "Ex: +44 7 76 78 45 23",
-        "phoneNumberLabel": "Phone number",
-        "birthdatePlaceholder": "Date of birth",
-        "birthdateLabel": "Date of birth",
-        "birthdateNotCompleted": "Date of birth incomplete",
-        "birthdateInvalid": "This date does not exist",
-        "cancelButtonBirthdate": "Cancel",
-        "confirmButtonBirthdate": "Confirm",
-        "button": "Get started!",
-        "urlUseCase": "",
-        "urlData": "",
-        "later": "Skip",
-        "addAPicture": "Upload a photo",
-        "errorCouldNotPatch": "An error occurred. If the problem persists, refresh or contact support.",
-        "pictureFeature": {
-          "titlePopUp": "Profile picture",
-          "descriptionOfThePopUp": "Choose from the following options. You can change it later.",
-          "takeAPictureLabel": "Take a photo",
-          "chooseAPictureLabel": "My photos",
-          "cancelLabel": "Cancel",
-          "problemLabel": "Impossible",
-          "messageTextProblem": "It looks like we do not have the required permissions to use your photos and camera",
-          "settingsLabel": "Settings"
+    "auth": {
+        "wantAConnexion": "Log in",
+        "wantToCreateAnAccount": "Create an account",
+        "signIn": {
+            "connectionHeader": "Log in",
+            "passwordForgotten": "Forgot password?",
+            "buttonToConnect": "Log in",
+            "seePassword": "Show",
+            "emailLabel": "Email",
+            "passwordLabel": "Password",
+            "errorNoCampaign": "Your account isn't part of a campaign yet.",
+            "errorMailNotValid": "Please check your inbox to confirm your email address.",
+            "errorWrongPassword": "Wrong username/password combination. Show password to make sure it's correct.",
+            "errorServer": "Server error. Please try again later or contact support if the problem persists.",
+            "errorNotConnectedToInternet": "Looks like there was a problem between you and the server! Please check your internet connection.\n\nIf the problem persists, contact our support team.",
+            "supportAsking": "A problem with the app? Contact us."
+        },
+        "passwordForgot": {
+            "passwordForgotHeader": "Forgot password?",
+            "retrieveEmailLabel": "Email",
+            "toSend": "Send",
+            "lookAtYourMails": "An email with instructions on how to reset your password has been sent.",
+            "errorMailNotFound": "No account is linked to ",
+            "errorMailNotFoundPart2": "You may have used a different email address to create your account.",
+            "sendAnEmailTo": "Send a link by email to"
+        },
+        "disconnect": {
+            "toDisconnect": "Log out"
+        },
+        "joinCampaign": {
+            "emoji": "✊🏻",
+            "letsGo": "Let's go!",
+            "disposeCode": "If you have your organisation's secret nickname, enter it here",
+            "goButton": "Go!",
+            "placeholder": "Organisation's secret nickname",
+            "noCampaign": "No secret nickname? Please contact your organisation.",
+            "noCampaignWithThisCode": "This code isn't linked to a campaign.",
+            "discover": "Discover"
+        },
+        "chooseCampaign": {
+            "emoji": "✊🏻",
+            "letsGo": "Let's go!",
+            "joinYourCompaign": "Join your campaign"
+        },
+        "createAccount": {
+            "step1": {
+                "title": "Your email",
+                "alert": " The email you entered is not valid.",
+                "emailLabel": "Email",
+                "emailPlaceholder": "Ex: martin@monasso.com",
+                "button": "Submit",
+                "alertPart1": "By signing up, you agree to",
+                "alertPart2": "our Terms of Use",
+                "alertPart3": "and our",
+                "alertPart4": "Privacy Policy",
+                "alertPart5": "data.",
+                "urlUseCase": "",
+                "urlData": "",
+                "mailAllreadyExist": "The email already exists. Please try another one or reset your password."
+            },
+            "step2": {
+                "title": "Your password",
+                "passwordLabel": "Password",
+                "passwordPlaceHolder": "Choose your password",
+                "alert": "Your password must contain at least 8 characters, 1 capital letter and 1 digit.",
+                "button": "Next",
+                "seePassword": "Show"
+            },
+            "step3": {
+                "title": "Enter your first and last name",
+                "createTheAccountLabel": "Create account",
+                "firstnamePlaceholder": "Ex: Charles",
+                "statusCreationAccount": "Available",
+                "firstnameLabel": "First name",
+                "namePlaceholder": "Ex: Smith",
+                "nameLabel": "Last name"
+            },
+            "step4": {
+                "title": "Set up your profile and let your team know the best way to reach you",
+                "streetPlaceholder": "50 avenue Charles de Gaulle",
+                "streetLabel": "Address",
+                "cityPlaceholder": "Ex: Paris",
+                "cityLabel": "City",
+                "postalCodePlaceholder": "Ex: 75 000",
+                "postalCodeLabel": "Zip code",
+                "statusPlaceholder": "Get started!",
+                "statusLabel": "Status",
+                "phoneNumberPlaceholder": "Ex: +44 7 76 78 45 23",
+                "phoneNumberLabel": "Phone number",
+                "birthdatePlaceholder": "Date of birth",
+                "birthdateLabel": "Date of birth",
+                "birthdateNotCompleted": "Date of birth incomplete",
+                "birthdateInvalid": "This date does not exist",
+                "cancelButtonBirthdate": "Cancel",
+                "confirmButtonBirthdate": "Confirm",
+                "button": "Get started!",
+                "urlUseCase": "",
+                "urlData": "",
+                "later": "Skip",
+                "addAPicture": "Upload a photo",
+                "errorCouldNotPatch": "An error occurred. If the problem persists, refresh or contact support.",
+                "pictureFeature": {
+                    "titlePopUp": "Profile picture",
+                    "descriptionOfThePopUp": "Choose from the following options. You can change it later.",
+                    "takeAPictureLabel": "Take a photo",
+                    "chooseAPictureLabel": "My photos",
+                    "cancelLabel": "Cancel",
+                    "problemLabel": "Impossible",
+                    "messageTextProblem": "It looks like we do not have the required permissions to use your photos and camera",
+                    "settingsLabel": "Settings"
+                }
+            },
+            "step5": {
+                "congratz": "Thanks!",
+                "profileCompleted": "One last thing...",
+                "creationFinalized": "Click the link in the email you just received to verify your account!",
+                "returnOnHomeScreen": "Log in"
+            }
         }
-      },
-      "step5": {
-        "congratz": "Thanks!",
-        "profileCompleted": "One last thing...",
-        "creationFinalized": "Click the link in the email you just received to verify your account!",
-        "returnOnHomeScreen": "Log in"
-      }
-    }
-  },
-  "logged": {
-    "fieldActions": {
-      "typeOfActions": {
-        "static": "Direct Interaction",
-        "challenge": "Challenge",
-        "canvassing": "Canvassing",
-        "leaflet": "Leaflets",
-        "poster": "Flyers / posters",
-        "call": "Calls",
-        "mail": "Handout mail",
-        "other": "Other"
-      },
-      "titleScreenLabel": "Actions",
-      "mapLabel": "Map",
-      "listLabel": "List",
-      "listFieldActions": {
-        "startAnActionLabel": "Take action!",
-        "moreInformationLabel": "More info",
-        "moreInformationSentenceLabel": "Learn more",
-        "foldUpTheCard": "Less info",
-        "emptyPitch": "There is no additional information. Try contacting your organisation directly.",
-        "finishAnActionLabel": "Finish",
-        "citizensLabel": "People",
-        "startAnActionAroundLabel": "Let's start!",
-        "aroundMeLabel": "Around me...",
-        "onAnAddress": "By address",
-        "displayPastFieldActionsLabel": "Show completed actions",
-        "hidePastFieldActionsLabel": "Hide completed actions",
-        "campaignNotSet": {
-          "campaignNotSetLabel": "Setup of your campaign",
-          "moreInfoLabel": "For more info, contact us: ",
-          "mailToContact": "support@quorum.co\n",
-          "subjectMailToContactSupport": "Campaign not configured"
-        }
-      },
-      "popUpFinishFieldActions": {
-        "titleLabel": "Are you sure you want to exit?",
-        "yesLabel": "Quit",
-        "noLabel": "Cancel"
-      },
-      "advancedLayout": {
-        "information": "Info",
-        "attendees": "Participants",
-        "startCanvassing": "Start action!",
-        "readMore": "More",
-        "readLess": "Less",
-        "presentLabel": "Present",
-        "attend": "Attend",
-        "seeBrief": "Open the notes",
-        "actionBrief": "Action's notes",
-        "youAttend": "Going",
-        "youWantToAttend": "Attend",
-        "descJoinAction": "Attending 🚀",
-        "descAttendedAction": "Join the action now ✊",
-        "editYourAttendStatus": "Edit your coming",
-        "startTheAction": "Start action",
-        "cantStartTheAction": "Attending 🚀",
-        "youDoNotWantToAttend": "Not going",
-        "youAreNotAnAttendee": "Not attending",
-        "peopleGoal": "(people)",
-        "startingFrom": "Starting from"
-      }
     },
-    "canvassing": {
-      "scriptTitle": "Note",
-      "subHeaderTitle": "Show the closest streets",
-      "loadingTitle": "Just a moment. We're pulling up the addresses.",
-      "loadingStaticTitle": "Just a moment. We're pulling up the contacts.",
-      "filterLabel": "Filter",
-      "staticCanvassing": {
-        "addedContacts": "contacts added",
-        "addAContact": "Add a new contact",
-        "addFirstContact": "Add your first contact",
-        "quote": "\"You don’t have to be great to start, but you have to start to be great\"",
-        "quoteAuthor": "Pablo Picasso",
-        "searchDisabledPlaceholder": "No contact"
-      },
-      "callAction": {
-        "pickerPlaceholder": "Everyone",
-        "emptyLabel": "No contact to call.",
-        "phone": "Phone",
-        "mobile": "Mobile"
-      },
-      "disabledSearchLabel": "No one around you",
-      "popUpLeaveCanvassing": {
-        "titleLabel": "Are you done with your action?",
-        "staticTitleLabel": "Are you done with your action?",
-        "callTitleLabel": "Are you done with calling?",
-        "handouMailTitleLabel": "Are you done with your action?",
-        "yesLabel": "Quit",
-        "noLabel": "Cancel"
-      },
-      "popupArchiveLevel": {
-        "titleLabel": "By clicking here, you declare that you have finished the canvassing at this address",
-        "yesLabel": "I understood",
-        "noLabel": "Cancel"
-      },
-      "filterList": {
-        "filtersTitle": "Filters",
-        "filterDescription": "Sort and filter list",
-        "displayMaskLabel": "Show/Hide",
-        "streetsFinishedLabel": "Completed addresses",
-        "citizensVisited": "People you've already met"
-      },
-      "addAMissingItem": {
-        "addALabel": "Add",
-        "aCityLabel": "a city",
-        "aStreetLabel": "a street",
-        "aHouseNumber": "a street number",
-        "aBuildingLabel": "a building",
-        "aFloorLabel": "a floor",
-        "aCitizen": "a person",
-        "toSearch": "Search",
-        "at": "at",
-        "citizensWithoutAddresses": "People with no address info",
-        "citizensWithoutAddressesWithoutNonFind": "People",
-        "errorFetching": "It looks like there is a connection problem. Please verify your internet connection.\nContact us if the problem persists."
-      },
-      "advicesCanvassingInformation": {
-        "acceptLabel": "I understand",
-        "choose": "Choose",
-        "aCitizenOrAddress": "the address or person to reach is in the list",
-        "typeHere": "Enter it here",
-        "youLookingFor": "You're looking for ",
-        "aCity": "a city",
-        "aCityAdd": "Can't see an address? Press + to create a first contact in the address.",
-        "findCity": "Looking for a specific city?\nUse the search bar to look for a specific city.",
-        "aStreet": "a street",
-        "aStreetAdd": "Can't see an address? Press + to create a first contact in the address.",
-        "findStreet": "Looking for a specific street?\nUse the search bar to look for a specific street.",
-        "aHouseNumber": "a street number",
-        "aHouseNumberAdd": "Street number missing? Press + to add a new person and create the address.",
-        "findHouseNumber": "Looking for a specific address?\nUse the search bar to look for a specific number.",
-        "aCitizen": "a person",
-        "aCitizenAdd": "Press + to mobilise a new person.",
-        "findCitizen": "Looking for someone in particular?\nSearch for her of his name in the search bar.",
-        "streetInfo": "• Find the best way to go by clicking on directions.\n\n• View the number of \"knocks\" to see the number of doors you have left to visit.",
-        "streetInfoGlobal": "• Visualise the streets around you.\n\n• Find the best way to go by clicking on directions.",
-        "houseNumberInfoGlobal": "• Find the list of people with an incomplete address at the end of this page",
-        "houseNumberInfo": "• View the number of \"knocks\" and see how many doors you have left to visit.\n\n• Find the list of people with an incomplete address at the end of this page",
-        "citizenInfo": "See if the contact has already been consulted during a previous action.",
-        "handoutMailInfo": "• Find the best way to go by clicking on directions.",
-        "handoutMailSwipeInfo": "You can select the addresses you are boxing as you go along and declare that you have done so.",
-        "archiveSwipeInfoCanvassing": "You can defined an address as completed by swiping each line from right to left."
-      },
-      "cancelSearch": "Cancel",
-      "additionnalInformation": "More info",
-      "noCitizensFoundWithTheFilter": "No one around you!",
-      "noCitizensFound": "There is no one in the contact base around you.\nClick + to add a person.",
-      "noCitizendsFoundWithSearch": "No result found.",
-      "noCitizensFoundWithStaticSearch": "No result found.",
-      "addCitizenCTA": "Mobilise someone in this zone",
-      "finishAnItem": {
-        "city": {
-          "one": "Finish this city",
-          "other": "Finish {{count}} cities"
+    "logged": {
+        "fieldActions": {
+            "typeOfActions": {
+                "static": "Direct Interaction",
+                "challenge": "Challenge",
+                "canvassing": "Canvassing",
+                "leaflet": "Leaflets",
+                "poster": "Flyers / posters",
+                "call": "Calls",
+                "mail": "Handout mail",
+                "other": "Other"
+            },
+            "titleScreenLabel": "Actions",
+            "mapLabel": "Map",
+            "listLabel": "List",
+            "listFieldActions": {
+                "startAnActionLabel": "Take action!",
+                "moreInformationLabel": "More info",
+                "moreInformationSentenceLabel": "Learn more",
+                "foldUpTheCard": "Less info",
+                "emptyPitch": "There is no additional information. Try contacting your organisation directly.",
+                "finishAnActionLabel": "Finish",
+                "citizensLabel": "People",
+                "startAnActionAroundLabel": "Let's start!",
+                "aroundMeLabel": "Around me...",
+                "onAnAddress": "By address",
+                "displayPastFieldActionsLabel": "Show completed actions",
+                "hidePastFieldActionsLabel": "Hide completed actions",
+                "campaignNotSet": {
+                    "campaignNotSetLabel": "Setup of your campaign",
+                    "moreInfoLabel": "For more info, contact us: ",
+                    "mailToContact": "support@quorum.co\n",
+                    "subjectMailToContactSupport": "Campaign not configured"
+                }
+            },
+            "popUpFinishFieldActions": {
+                "titleLabel": "Are you sure you want to exit?",
+                "yesLabel": "Quit",
+                "noLabel": "Cancel"
+            },
+            "advancedLayout": {
+                "information": "Info",
+                "attendees": "Participants",
+                "startCanvassing": "Start action!",
+                "readMore": "More",
+                "readLess": "Less",
+                "presentLabel": "Present",
+                "attend": "Attend",
+                "seeBrief": "Open the notes",
+                "actionBrief": "Action's notes",
+                "youAttend": "Going",
+                "youWantToAttend": "Attend",
+                "descJoinAction": "Attending 🚀",
+                "descAttendedAction": "Join the action now ✊",
+                "editYourAttendStatus": "Edit your coming",
+                "startTheAction": "Start action",
+                "cantStartTheAction": "Attending 🚀",
+                "youDoNotWantToAttend": "Not going",
+                "youAreNotAnAttendee": "Not attending",
+                "peopleGoal": "(people)",
+                "startingFrom": "Starting from"
+            }
         },
-        "street": {
-          "one": "Finish this street",
-          "other": "Finish {{count}} streets"
+        "canvassing": {
+            "scriptTitle": "Note",
+            "subHeaderTitle": "Show the closest streets",
+            "loadingTitle": "Just a moment. We're pulling up the addresses.",
+            "loadingStaticTitle": "Just a moment. We're pulling up the contacts.",
+            "filterLabel": "Filter",
+            "staticCanvassing": {
+                "addedContacts": "contacts added",
+                "addAContact": "Add a new contact",
+                "addFirstContact": "Add your first contact",
+                "quote": "\"You don’t have to be great to start, but you have to start to be great\"",
+                "quoteAuthor": "Pablo Picasso",
+                "searchDisabledPlaceholder": "No contact"
+            },
+            "callAction": {
+                "pickerPlaceholder": "Everyone",
+                "emptyLabel": "No contact to call.",
+                "phone": "Phone",
+                "mobile": "Mobile"
+            },
+            "disabledSearchLabel": "No one around you",
+            "popUpLeaveCanvassing": {
+                "titleLabel": "Are you done with your action?",
+                "staticTitleLabel": "Are you done with your action?",
+                "callTitleLabel": "Are you done with calling?",
+                "handouMailTitleLabel": "Are you done with your action?",
+                "yesLabel": "Quit",
+                "noLabel": "Cancel"
+            },
+            "popupArchiveLevel": {
+                "titleLabel": "By clicking here, you declare that you have finished the canvassing at this address",
+                "yesLabel": "I understood",
+                "noLabel": "Cancel"
+            },
+            "filterList": {
+                "filtersTitle": "Filters",
+                "filterDescription": "Sort and filter list",
+                "displayMaskLabel": "Show/Hide",
+                "streetsFinishedLabel": "Completed addresses",
+                "citizensVisited": "People you've already met"
+            },
+            "addAMissingItem": {
+                "addALabel": "Add",
+                "aCityLabel": "a city",
+                "aStreetLabel": "a street",
+                "aHouseNumber": "a street number",
+                "aBuildingLabel": "a building",
+                "aFloorLabel": "a floor",
+                "aCitizen": "a person",
+                "toSearch": "Search",
+                "at": "at",
+                "citizensWithoutAddresses": "People with no address info",
+                "citizensWithoutAddressesWithoutNonFind": "People",
+                "errorFetching": "It looks like there is a connection problem. Please verify your internet connection.\nContact us if the problem persists."
+            },
+            "advicesCanvassingInformation": {
+                "acceptLabel": "I understand",
+                "choose": "Choose",
+                "aCitizenOrAddress": "the address or person to reach is in the list",
+                "typeHere": "Enter it here",
+                "youLookingFor": "You're looking for ",
+                "aCity": "a city",
+                "aCityAdd": "Can't see an address? Press + to create a first contact in the address.",
+                "findCity": "Looking for a specific city?\nUse the search bar to look for a specific city.",
+                "aStreet": "a street",
+                "aStreetAdd": "Can't see an address? Press + to create a first contact in the address.",
+                "findStreet": "Looking for a specific street?\nUse the search bar to look for a specific street.",
+                "aHouseNumber": "a street number",
+                "aHouseNumberAdd": "Street number missing? Press + to add a new person and create the address.",
+                "findHouseNumber": "Looking for a specific address?\nUse the search bar to look for a specific number.",
+                "aCitizen": "a person",
+                "aCitizenAdd": "Press + to mobilise a new person.",
+                "findCitizen": "Looking for someone in particular?\nSearch for her of his name in the search bar.",
+                "streetInfo": "• Find the best way to go by clicking on directions.\n\n• View the number of \"knocks\" to see the number of doors you have left to visit.",
+                "streetInfoGlobal": "• Visualise the streets around you.\n\n• Find the best way to go by clicking on directions.",
+                "houseNumberInfoGlobal": "• Find the list of people with an incomplete address at the end of this page",
+                "houseNumberInfo": "• View the number of \"knocks\" and see how many doors you have left to visit.\n\n• Find the list of people with an incomplete address at the end of this page",
+                "citizenInfo": "See if the contact has already been consulted during a previous action.",
+                "handoutMailInfo": "• Find the best way to go by clicking on directions.",
+                "handoutMailSwipeInfo": "You can select the addresses you are boxing as you go along and declare that you have done so.",
+                "archiveSwipeInfoCanvassing": "You can defined an address as completed by swiping each line from right to left."
+            },
+            "cancelSearch": "Cancel",
+            "additionnalInformation": "More info",
+            "noCitizensFoundWithTheFilter": "No one around you!",
+            "noCitizensFound": "There is no one in the contact base around you.\nClick + to add a person.",
+            "noCitizendsFoundWithSearch": "No result found.",
+            "noCitizensFoundWithStaticSearch": "No result found.",
+            "addCitizenCTA": "Mobilise someone in this zone",
+            "finishAnItem": {
+                "city": {
+                    "one": "Finish this city",
+                    "other": "Finish {{count}} cities"
+                },
+                "street": {
+                    "one": "Finish this street",
+                    "other": "Finish {{count}} streets"
+                },
+                "housenumber": {
+                    "one": "Finish this housenumber",
+                    "other": "Finish {{count}} housenumbers"
+                },
+                "building": {
+                    "one": "Finish this building",
+                    "other": "Finish {{count}} buildings"
+                },
+                "floor": {
+                    "one": "Finish this floor",
+                    "other": "Finish {{count}} floors"
+                },
+                "item": {
+                    "one": "Finish",
+                    "other": "Finish {{count}}"
+                }
+            },
+            "reopenAnItem": {
+                "city": {
+                    "one": "Reopen city",
+                    "other": "Reopen {{count}} cities"
+                },
+                "street": {
+                    "one": "Reopen street",
+                    "other": "Reopen {{count}} streets"
+                },
+                "housenumber": {
+                    "one": "Reopen this housenumber",
+                    "other": "Reopen {{count}} housenumbers"
+                },
+                "building": {
+                    "one": "Reopen this building",
+                    "other": "Reopen {{count}} buildings"
+                },
+                "floor": {
+                    "one": "Reopen this floor",
+                    "other": "Reopen {{count}} floors"
+                },
+                "item": {
+                    "one": "Reopen",
+                    "other": "Reopen {{count}}"
+                }
+            },
+            "finishLabel": "Finish",
+            "titleLabelAllTheCities": "",
+            "titleLabelNearCitizens": "Around me",
+            "labelAllTheCities": "Choose a city",
+            "labelAllTheStreets": "Choose a street",
+            "labelAllTheHouseNumbers": "Choose a street number",
+            "labelAllTheBuildings": "Which building?",
+            "labelAllTheFloors": "Which floor?",
+            "labelAllTheContacts": "People",
+            "listItem": {
+                "toHitLeftSingular": "Knock",
+                "toHitLeftPlural": "Knocks",
+                "aBuilding": "Building",
+                "aFloor": "Floor",
+                "aDoor": "Door",
+                "citizens": "People",
+                "individual": "Individual",
+                "openMapLabel": "Open map",
+                "notAvailable": "Unavailable",
+                "letsGo": "Let's go! 🚀",
+                "youCanChooseYourGps": "Use GPS to get to your destination.",
+                "openWithTheMap": "Open with Maps",
+                "cancel": "Cancel",
+                "cantFindLocation": "Impossible 😢",
+                "messageCantFindLocation": "We couldn't find your location.",
+                "openTheMapFromStreets": "Directions",
+                "addMissCitizen": "Add someone",
+                "absentLabel": "Absent",
+                "presentLabel": "Present",
+                "refusalLabel": "Refusal",
+                "notDefined": "Not defined",
+                "finished": "Finished",
+                "finishAnItem": {
+                    "city": "Finish city",
+                    "street": "Finish street",
+                    "building": "Finish building",
+                    "floor": "Finish floor",
+                    "housenumber": "Finish housenumber"
+                },
+                "resumeAnItem": {
+                    "city": "Resume city",
+                    "street": "Resume street",
+                    "building": "Resume building",
+                    "floor": "Resume floor",
+                    "housenumber": "Resume housenumber"
+                }
+            },
+            "viewContact": {
+                "briefTitle": "Note",
+                "metByLabel": "Met by",
+                "theLabel": "on",
+                "doorLabel": "Door:",
+                "absentLabel": "Absent",
+                "presentLabel": "Present",
+                "refusalLabel": "Refusal",
+                "unnamedLabel": "Individual",
+                "genderLabelF": "Ms.",
+                "genderLabelM": "Mr.",
+                "newContactLabel": "New contact",
+                "errorServer": "An error occurred. Contact support if the problem persists.",
+                "seeAnswers": "See the survey answers",
+                "metStatus": {
+                    "present": "Met",
+                    "absent": "Was absent",
+                    "refus": "Refused conversation",
+                    "firstMet": "Will be met for the first time."
+                },
+                "callAction": {
+                    "title": "Call",
+                    "launchCallLabel": "Start the call",
+                    "showScriptLabel": "Show the script",
+                    "redirectionLabel": "You are going to be redirected out of the application to proceed",
+                    "goingToCall": "You are about to call",
+                    "contactHasNoNumber": "The contact did not provide a phone number",
+                    "beginCall": "Get started!",
+                    "noNumber": "No phone number",
+                    "RGPD": "",
+                    "warningPopupTitle": "Warning",
+                    "warningPopupContent": "The number seems to be erroneous, do you want to continue?",
+                    "warningPopupCancel": "Cancel",
+                    "warningPopupCall": "Call",
+                    "chooseNumberToCall": "Choose the number to call",
+                    "phone": "Phone",
+                    "mobile": "Mobile"
+                }
+            }
         },
-        "housenumber": {
-          "one": "Finish this housenumber",
-          "other": "Finish {{count}} housenumbers"
+        "profile": {
+            "public": {
+                "anActionFinished": "Completed action",
+                "actionsFinished": "Completed actions",
+                "peopleMeet": "People reached",
+                "noCitizenMeet": "No one reached yet. Keep going!",
+                "actions": "actions",
+                "joinMouvement": {
+                    "one": "{{count}} day ago, you joined the movement with ✊and ❤️",
+                    "other": "{{count}} days ago, you joined the movement with ✊and ❤️"
+                },
+                "inALightning": "In a ⚡️ of genius, you joined the movement."
+            },
+            "settings": {
+                "title": "Settings",
+                "subtitle": "Customise your experience",
+                "notifications": {
+                    "title": "Notifications"
+                },
+                "me": {
+                    "title": "About me",
+                    "editProfile": "Modify profile",
+                    "editPassword": "Change password"
+                },
+                "language": {
+                    "title": "Language & Regions",
+                    "titleScreen": "Select your language",
+                    "restartLabel": "Restart",
+                    "restartMessage": "The language change requires a restart of the app.",
+                    "confirm": "Confirm",
+                    "cancel": "Cancel"
+                },
+                "share": {
+                    "title": "About Quorum",
+                    "invite": "Invite your friends to Quorum",
+                    "inviteMessage": " is inviting you to mobilise with Quorum.\n\nDownload the app here to start taking action:\n\nIOS:\nhttp://bit.ly/quorumIOS \nAndroid:\nhttp://bit.ly/quorumAndroid",
+                    "rate": "Give Quorum 5 stars!",
+                    "legal": "Legal",
+                    "support": "Contact Us",
+                    "supportSubject": "Support request",
+                    "supportFeedback": "My feedback on Quorum Mobile",
+                    "supportShareYourFeedbackLabel": "Suggest an improvement to Quorum",
+                    "supportRessources": "Resources center",
+                    "supportBody": "Version:"
+                },
+                "logout": {
+                    "title": "Log out",
+                    "label": "Log out"
+                },
+                "version": "Version: ",
+                "checkVersion": "Check for newer versions",
+                "update": "Update the app"
+            },
+            "edit": {
+                "finish": "Done",
+                "title": "Modify profile",
+                "subtitle": "Settings",
+                "picture": "Change your profile picture",
+                "status": {
+                    "title": "Share your mood",
+                    "label": "is your current status",
+                    "updatePasswordLabel": "Change password",
+                    "forgotActualPassword": "Forgot password?",
+                    "oldPassword": "Old password",
+                    "newPassword": "New password",
+                    "confirmPassword": "Confirm password",
+                    "update": "Update",
+                    "passwordLength": "The new password must contain at least 8 characters, 1 capital letter and 1 digit.",
+                    "oldPasswordNotSeemsCorrect": "Your old password is incorrect. Please try again.",
+                    "newPasswordsAreNotEquals": "The passwords don't match up.",
+                    "errorServer": "An error occurred. Please try again or contact our support team if the problem persists.",
+                    "successUpdatePassword": "Update successful",
+                    "presetupLabel": {
+                        "avaibleLabel": "Available",
+                        "goLabel": "Fired up!",
+                        "withFamilyLabel": "With family",
+                        "pauseLabel": "On break"
+                    }
+                },
+                "account": {
+                    "title": "My Account",
+                    "firstname": "First name",
+                    "name": "Last name",
+                    "email": "Email",
+                    "firstnameEx": "Clark",
+                    "nameEx": "Kent",
+                    "emailEx": "superman@quorum.co\n"
+                },
+                "perso": {
+                    "title": "My Personal info",
+                    "birthdate": "Birthday",
+                    "phone": "Phone",
+                    "address": "Address",
+                    "city": "City",
+                    "birthdateEx": "24/04/1938\n",
+                    "phoneEx": "+44 07 70 21 45 00\n",
+                    "addressEx": "10 Downing Street",
+                    "cityEx": "City",
+                    "postal": "W1U6GH\n"
+                },
+                "pictureFeature": {
+                    "titlePopUp": "Profile picture",
+                    "descriptionOfThePopUp": "Choose from the following options. You can change it later on.",
+                    "takeAPictureLabel": "Take a photo",
+                    "chooseAPictureLabel": "My pictures",
+                    "cancelLabel": "Cancel",
+                    "problemLabel": "Impossible",
+                    "messageTextProblem": "It seems that we don't have the right permissions to use your camera and photos.",
+                    "settingsLabel": "Settings"
+                }
+            }
         },
-        "building": {
-          "one": "Finish this building",
-          "other": "Finish {{count}} buildings"
+        "form": {
+            "switchContactAddress": {
+                "detailsLabel": "Details",
+                "contactLabel": "Contact",
+                "addressLabel": "Address"
+            },
+            "endForm": {
+                "thanksYouLabel": "Thanks,",
+                "oneMoreLabel": "one step forward!",
+                "finishTheMeeting": "Back to contacts",
+                "goBackToBoard": "Back to the board",
+                "rateTheForm": "Add comments",
+                "backToActions": "Back to the list",
+                "backToHeadQuarter": "Back to Headquarter",
+                "addAnotherCitizen": "Mobilise one more!"
+            },
+            "rateContact": {
+                "howTheDiscussionHasGoing": "What's next for this person?",
+                "commentary": "Comments",
+                "finish": "Finish"
+            },
+            "popUpLeaveForm": {
+                "titleLabel": "Want to leave the survey? It won't be saved.",
+                "titleLabelUpdateContact": "Cancel update?",
+                "yesLabel": "Quit",
+                "noLabel": "Cancel"
+            },
+            "allQuestions": "View questions",
+            "becauseYouAnswered": "Because your replied:",
+            "allQuestionsForm": {
+                "theQuestionsLabel": "Questions",
+                "description": "Feel free to navigate the survey",
+                "finishTheFormLabel": "Finish survey"
+            },
+            "updateTheContactLabel": "Update contact",
+            "end": "Finish",
+            "nextQuestion": "Next question",
+            "informationContact": "Contact info",
+            "editAContactTitle": "Edit contact info",
+            "answers": {
+                "locale": "en",
+                "streetPlaceholder": "Street",
+                "additionPlaceholder": "Other address info",
+                "housenumberPlaceholder": "Street number",
+                "buildingPlaceholder": "Building",
+                "floorPlaceholder": "Floor",
+                "doorPlaceholder": "Door",
+                "datePlaceholder": "Pick a date",
+                "postalcodePlaceholder": "Postcode",
+                "cityPlaceholder": "City",
+                "placeholder": "Response",
+                "territories": "Areas",
+                "chooseATerritory": "Choose an area",
+                "chooseAnAgeCategory": "Choose an age category",
+                "femaleLabel": "Female",
+                "maleLabel": "Male",
+                "ageSelection": {
+                    "0": "No age given",
+                    "1": "Under 18",
+                    "2": "18 - 25 years",
+                    "3": "25 - 35 years",
+                    "4": "35 - 50 years",
+                    "5": "50 - 65 years",
+                    "6": "65 years or above"
+                },
+                "moreInfo": "+ More info",
+                "mandatory": "Required",
+                "done": "Finish",
+                "dateFormat": "DD/MM/YYYY",
+                "confirm": "Confirm",
+                "cancel": "Cancel",
+                "support": {
+                    "titleAddSupport": "Add a new person 😃",
+                    "titleUpdateSupport": "Update contact info",
+                    "finish": "Next",
+                    "nextStep": "Next step",
+                    "skipTheStep": "Skip",
+                    "leaveWithoutValidating": "Skip",
+                    "whoDoWeMeet": "What best describes the person you're meeting?",
+                    "titleWhatIsTheNextStep": "What's next for this person?",
+                    "doAForm": "Survey this person",
+                    "valid": "Submit"
+                }
+            },
+            "errorAfterUpdateOrCreation": "An error occured. Look at your connection to the network and try again."
         },
-        "floor": {
-          "one": "Finish this floor",
-          "other": "Finish {{count}} floors"
+        "headQuarter": {
+            "updatePopup": {
+                "title": "An update is available",
+                "content": "Enjoy Quorum's latest features now.",
+                "later": "Later",
+                "update": "Update"
+            },
+            "quickActions": {
+                "welcome": "Welcome 👋 {{firstname}}",
+                "title": "Shortcuts",
+                "canvassing": "Around me\n",
+                "donate": "Collect donation\n",
+                "add": "Start a survey",
+                "addSupport": "Mobilise someone\n",
+                "upload": "Send a document"
+            },
+            "newActions": {
+                "newActionLabel": {
+                    "one": "Your action",
+                    "other": "Your actions"
+                },
+                "actionWillStartFromStart": "Starts the {{date}}",
+                "actionAllreadyStartedFromStart": "Started the {{date}}",
+                "actionSimpleDateWillFinish": "End date on {{date}}",
+                "actionSameDay": "{{dateStart}} from {{hourStart}} to {{hourEnd}}",
+                "emptyStateText": "No upcoming action for now. \nAdd supporters, canvass, or survey on your own! "
+            },
+            "newDocs": "new documents",
+            "missingData": "It appears that some data is missing.",
+            "reloadLabel": "Refresh",
+            "adminView": {
+                "notificationOnlyForAdmin": "You have access to this view because you are an admin."
+            }
         },
-        "item": {
-          "one": "Finish",
-          "other": "Finish {{count}}"
+        "popup": {
+            "needUpdate": {
+                "title": "UPDATE AVAILABLE",
+                "body": "Please update the app to get the best out of Quorum.",
+                "update": "Update"
+            },
+            "noLocation": {
+                "lookingForYourLocationTitle": "Looking for your location...",
+                "title": "Where am I?",
+                "messagePopup": "We can't seem to find people around you.\n\nCheck settings to make sure the app has access to your location, verify your network connection, and refresh.",
+                "settingsLabel": "Settings",
+                "closeLabel": "Close"
+            }
         }
-      },
-      "reopenAnItem": {
-        "city": {
-          "one": "Reopen city",
-          "other": "Reopen {{count}} cities"
-        },
-        "street": {
-          "one": "Reopen street",
-          "other": "Reopen {{count}} streets"
-        },
-        "housenumber": {
-          "one": "Reopen this housenumber",
-          "other": "Reopen {{count}} housenumbers"
-        },
-        "building": {
-          "one": "Reopen this building",
-          "other": "Reopen {{count}} buildings"
-        },
-        "floor": {
-          "one": "Reopen this floor",
-          "other": "Reopen {{count}} floors"
-        },
-        "item": {
-          "one": "Reopen",
-          "other": "Reopen {{count}}"
-        }
-      },
-      "finishLabel": "Finish",
-      "titleLabelAllTheCities": "",
-      "titleLabelNearCitizens": "Around me",
-      "labelAllTheCities": "Choose a city",
-      "labelAllTheStreets": "Choose a street",
-      "labelAllTheHouseNumbers": "Choose a street number",
-      "labelAllTheBuildings": "Which building?",
-      "labelAllTheFloors": "Which floor?",
-      "labelAllTheContacts": "People",
-      "listItem": {
-        "toHitLeftSingular": "Knock",
-        "toHitLeftPlural": "Knocks",
-        "aBuilding": "Building",
-        "aFloor": "Floor",
-        "aDoor": "Door",
-        "citizens": "People",
-        "individual": "Individual",
-        "openMapLabel": "Open map",
-        "notAvailable": "Unavailable",
-        "letsGo": "Let's go! 🚀",
-        "youCanChooseYourGps": "Use GPS to get to your destination.",
-        "openWithTheMap": "Open with Maps",
-        "cancel": "Cancel",
-        "cantFindLocation": "Impossible 😢",
-        "messageCantFindLocation": "We couldn't find your location.",
-        "openTheMapFromStreets": "Directions",
-        "addMissCitizen": "Add someone",
-        "absentLabel": "Absent",
-        "presentLabel": "Present",
-        "refusalLabel": "Refusal",
-        "notDefined": "Not defined",
-        "finished": "Finished",
-        "finishAnItem": {
-          "city": "Finish city",
-          "street": "Finish street",
-          "building": "Finish building",
-          "floor": "Finish floor",
-          "housenumber": "Finish housenumber"
-        },
-        "resumeAnItem": {
-          "city": "Resume city",
-          "street": "Resume street",
-          "building": "Resume building",
-          "floor": "Resume floor",
-          "housenumber": "Resume housenumber"
-        }
-      },
-      "viewContact": {
-        "briefTitle": "Note",
-        "metByLabel": "Met by",
-        "theLabel": "on",
-        "doorLabel": "Door:",
-        "absentLabel": "Absent",
-        "presentLabel": "Present",
-        "refusalLabel": "Refusal",
-        "unnamedLabel": "Individual",
-        "genderLabelF": "Ms.",
-        "genderLabelM": "Mr.",
-        "newContactLabel": "New contact",
-        "errorServer": "An error occurred. Contact support if the problem persists.",
-        "seeAnswers": "See the survey answers",
-        "metStatus": {
-          "present": "Met",
-          "absent": "Was absent",
-          "refus": "Refused conversation",
-          "firstMet": "Will be met for the first time."
-        },
-        "callAction": {
-          "title": "Call",
-          "launchCallLabel": "Start the call",
-          "showScriptLabel": "Show the script",
-          "redirectionLabel": "You are going to be redirected out of the application to proceed",
-          "goingToCall": "You are about to call",
-          "contactHasNoNumber": "The contact did not provide a phone number",
-          "beginCall": "Get started!",
-          "noNumber": "No phone number",
-          "RGPD": "",
-          "warningPopupTitle": "Warning",
-          "warningPopupContent": "The number seems to be erroneous, do you want to continue?",
-          "warningPopupCancel": "Cancel",
-          "warningPopupCall": "Call",
-          "chooseNumberToCall": "Choose the number to call",
-          "phone": "Phone",
-          "mobile": "Mobile"
-        }
-      }
     },
-    "profile": {
-      "public": {
-        "anActionFinished": "Completed action",
-        "actionsFinished": "Completed actions",
-        "peopleMeet": "People reached",
-        "noCitizenMeet": "No one reached yet. Keep going!",
-        "actions": "actions",
-        "joinMouvement": {
-          "one": "{{count}} day ago, you joined the movement with ✊and ❤️",
-          "other": "{{count}} days ago, you joined the movement with ✊and ❤️"
-        },
-        "inALightning": "In a ⚡️ of genius, you joined the movement."
-      },
-      "settings": {
-        "title": "Settings",
-        "subtitle": "Customise your experience",
-        "notifications": {
-          "title": "Notifications"
-        },
-        "me": {
-          "title": "About me",
-          "editProfile": "Modify profile",
-          "editPassword": "Change password"
-        },
-        "language": {
-          "title": "Language & Regions",
-          "titleScreen": "Select your language",
-          "restartLabel": "Restart",
-          "restartMessage": "The language change requires a restart of the app.",
-          "confirm": "Confirm",
-          "cancel": "Cancel"
-        },
-        "share": {
-          "title": "About Quorum",
-          "invite": "Invite your friends to Quorum",
-          "inviteMessage": " is inviting you to mobilise with Quorum.\n\nDownload the app here to start taking action:\n\nIOS:\nhttp://bit.ly/quorumIOS \nAndroid:\nhttp://bit.ly/quorumAndroid",
-          "rate": "Give Quorum 5 stars!",
-          "legal": "Legal",
-          "support": "Contact Us",
-          "supportSubject": "Support request",
-          "supportFeedback": "My feedback on Quorum Mobile",
-          "supportShareYourFeedbackLabel": "Suggest an improvement to Quorum",
-          "supportRessources": "Resources center",
-          "supportBody": "Version:"
-        },
-        "logout": {
-          "title": "Log out",
-          "label": "Log out"
-        },
-        "version": "Version: ",
-        "checkVersion": "Check for newer versions",
-        "update": "Update the app"
-      },
-      "edit": {
-        "finish": "Done",
-        "title": "Modify profile",
-        "subtitle": "Settings",
-        "picture": "Change your profile picture",
-        "status": {
-          "title": "Share your mood",
-          "label": "is your current status",
-          "updatePasswordLabel": "Change password",
-          "forgotActualPassword": "Forgot password?",
-          "oldPassword": "Old password",
-          "newPassword": "New password",
-          "confirmPassword": "Confirm password",
-          "update": "Update",
-          "passwordLength": "The new password must contain at least 8 characters, 1 capital letter and 1 digit.",
-          "oldPasswordNotSeemsCorrect": "Your old password is incorrect. Please try again.",
-          "newPasswordsAreNotEquals": "The passwords don't match up.",
-          "errorServer": "An error occurred. Please try again or contact our support team if the problem persists.",
-          "successUpdatePassword": "Update successful",
-          "presetupLabel": {
-            "avaibleLabel": "Available",
-            "goLabel": "Fired up!",
-            "withFamilyLabel": "With family",
-            "pauseLabel": "On break"
-          }
-        },
-        "account": {
-          "title": "My Account",
-          "firstname": "First name",
-          "name": "Last name",
-          "email": "Email",
-          "firstnameEx": "Clark",
-          "nameEx": "Kent",
-          "emailEx": "superman@quorum.co\n"
-        },
-        "perso": {
-          "title": "My Personal info",
-          "birthdate": "Birthday",
-          "phone": "Phone",
-          "address": "Address",
-          "city": "City",
-          "birthdateEx": "24/04/1938\n",
-          "phoneEx": "+44 07 70 21 45 00\n",
-          "addressEx": "10 Downing Street",
-          "cityEx": "City",
-          "postal": "W1U6GH\n"
-        },
-        "pictureFeature": {
-          "titlePopUp": "Profile picture",
-          "descriptionOfThePopUp": "Choose from the following options. You can change it later on.",
-          "takeAPictureLabel": "Take a photo",
-          "chooseAPictureLabel": "My pictures",
-          "cancelLabel": "Cancel",
-          "problemLabel": "Impossible",
-          "messageTextProblem": "It seems that we don't have the right permissions to use your camera and photos.",
-          "settingsLabel": "Settings"
-        }
-      }
+    "errors": {
+        "errorServer": "The server cannot process your request. Contact support if the problem persists.",
+        "errorServerRetry": "Refresh",
+        "noFieldActionsAvailable": "No upcoming action for now. \nAdd supporters, canvass, or survey on your own!",
+        "backToHeadQuarter": "Back to HQ",
+        "notConnectedToTheNetwork": "No Internet connection",
+        "yourAreNotConnected": "Can't connect to Quorum",
+        "connectYouAndTryAgain": "You may have a connection problem. Please refresh."
     },
-    "form": {
-      "switchContactAddress": {
-        "detailsLabel": "Details",
-        "contactLabel": "Contact",
-        "addressLabel": "Address"
-      },
-      "endForm": {
-        "thanksYouLabel": "Thanks,",
-        "oneMoreLabel": "one step forward!",
-        "finishTheMeeting": "Back to contacts",
-        "goBackToBoard": "Back to the board",
-        "rateTheForm": "Add comments",
-        "backToActions": "Back to the list",
-        "backToHeadQuarter": "Back to Headquarter",
-        "addAnotherCitizen": "Mobilise one more!"
-      },
-      "rateContact": {
-        "howTheDiscussionHasGoing": "What's next for this person?",
-        "commentary": "Comments",
-        "finish": "Finish"
-      },
-      "popUpLeaveForm": {
-        "titleLabel": "Want to leave the survey? It won't be saved.",
-        "titleLabelUpdateContact": "Cancel update?",
-        "yesLabel": "Quit",
-        "noLabel": "Cancel"
-      },
-      "allQuestions": "View questions",
-      "becauseYouAnswered": "Because your replied:",
-      "allQuestionsForm": {
-        "theQuestionsLabel": "Questions",
-        "description": "Feel free to navigate the survey",
-        "finishTheFormLabel": "Finish survey"
-      },
-      "updateTheContactLabel": "Update contact",
-      "end": "Finish",
-      "nextQuestion": "Next question",
-      "informationContact": "Contact info",
-      "editAContactTitle": "Edit contact info",
-      "answers": {
-        "locale": "en",
-        "streetPlaceholder": "Street",
-        "additionPlaceholder": "Other address info",
-        "housenumberPlaceholder": "Street number",
-        "buildingPlaceholder": "Building",
-        "floorPlaceholder": "Floor",
-        "doorPlaceholder": "Door",
-        "datePlaceholder": "Pick a date",
-        "postalcodePlaceholder": "Postcode",
-        "cityPlaceholder": "City",
-        "placeholder": "Response",
-        "territories": "Areas",
-        "chooseATerritory": "Choose an area",
-        "chooseAnAgeCategory": "Choose an age category",
-        "femaleLabel": "Female",
-        "maleLabel": "Male",
-        "ageSelection": {
-          "0": "No age given",
-          "1": "Under 18",
-          "2": "18 - 25 years",
-          "3": "25 - 35 years",
-          "4": "35 - 50 years",
-          "5": "50 - 65 years",
-          "6": "65 years or above"
+    "tutorial": {
+        "location": {
+            "popup": {
+                "title": "Where am I?",
+                "whereAreYou": "By activating your location, you can view the streets closest to you.",
+                "locationMe": "Localize myself",
+                "problemWithGeopositionning": "We could not determine your position.",
+                "searchingForLocation": "Looking for people around you.",
+                "foundYourPosition": "We found your position. Now you can see what's happening in your area.",
+                "problemCanRetry": "Looks like we couldn't find your position. Please try again.",
+                "introductionTitle": "Turn on your location to get the most out of the app.",
+                "pleaseWait": "Please wait",
+                "close": "Close",
+                "retry": "Try again",
+                "enable": "Activate"
+            }
         },
-        "moreInfo": "+ More info",
-        "mandatory": "Required",
-        "done": "Finish",
-        "dateFormat": "DD/MM/YYYY",
-        "confirm": "Confirm",
-        "cancel": "Cancel",
-        "support": {
-          "titleAddSupport": "Add a new person 😃",
-          "titleUpdateSupport": "Update contact info",
-          "finish": "Next",
-          "nextStep": "Next step",
-          "skipTheStep": "Skip",
-          "leaveWithoutValidating": "Skip",
-          "whoDoWeMeet": "What best describes the person you're meeting?",
-          "titleWhatIsTheNextStep": "What's next for this person?",
-          "doAForm": "Survey this person",
-          "valid": "Submit"
+        "beforeStart": {
+            "titleStep1": "Find out everything you need to know",
+            "titleStep2": "It's never been easier to take action!",
+            "titleStep3": "Making (paperless) connections is a breeze!",
+            "titleStep4": "Track your achievements",
+            "createAnAccount": "Create an account",
+            "allreadyAnAccount": "Already have an account? Login"
         }
-      },
-      "errorAfterUpdateOrCreation": "An error occured. Look at your connection to the network and try again."
     },
-    "headQuarter": {
-      "updatePopup": {
-        "title": "An update is available",
-        "content": "Enjoy Quorum's latest features now.",
-        "later": "Later",
-        "update": "Update"
-      },
-      "quickActions": {
-        "welcome": "Welcome 👋 {{firstname}}!",
-        "title": "Shortcuts",
-        "canvassing": "Around me\n",
-        "donate": "Collect donation\n",
-        "add": "Start a survey",
-        "addSupport": "Mobilise someone\n",
-        "upload": "Send a document"
-      },
-      "newActions": {
-        "newActionLabel": {
-          "one": "Your action",
-          "other": "Your actions"
-        },
-        "actionWillStartFromStart": "Starts the {{date}}",
-        "actionAllreadyStartedFromStart": "Started the {{date}}",
-        "actionSimpleDateWillFinish": "End date on {{date}}",
-        "actionSameDay": "{{dateStart}} from {{hourStart}} to {{hourEnd}}",
-        "emptyStateText": "No upcoming action for now. \nAdd supporters, canvass, or survey on your own! "
-      },
-      "newDocs": "new documents",
-      "missingData": "It appears that some data is missing.",
-      "reloadLabel": "Refresh",
-      "adminView": {
-        "notificationOnlyForAdmin": "You have access to this view because you are an admin."
-      }
+    "urls": {
+        "cgu": "https://2020.quorum.co/tos.pdf",
+        "dataProtection": "https://2020.quorum.co/PrivacyPolicy_en.pdf"
     },
     "popup": {
-      "needUpdate": {
-        "title": "UPDATE AVAILABLE",
-        "body": "Please update the app to get the best out of Quorum.",
-        "update": "Update"
-      },
-      "noLocation": {
-        "lookingForYourLocationTitle": "Looking for your location...",
-        "title": "Where am I?",
-        "messagePopup": "We can't seem to find people around you.\n\nCheck settings to make sure the app has access to your location, verify your network connection, and refresh.",
-        "settingsLabel": "Settings",
-        "closeLabel": "Close"
-      }
+        "consent": {
+            "title": "Consent",
+            "content": "Do not forget to inform the person of the context of the action you're taking and make your organisation's name clear!",
+            "cancel": "Cancel",
+            "nextStep": "Continue",
+            "gpdrOkLabel": "The contact authorizes me to collect and use this information as part of my action.",
+            "gpdrOkEmailLabel": "The contact agrees to receive emails (related to your action)",
+            "gpdrOkSMSLabel": "The contact agrees to be contacted by phone (related to your action)"
+        }
     }
-  },
-  "errors": {
-    "errorServer": "The server cannot process your request. Contact support if the problem persists.",
-    "errorServerRetry": "Refresh",
-    "noFieldActionsAvailable": "No upcoming action for now. \nAdd supporters, canvass, or survey on your own!",
-    "backToHeadQuarter": "Back to HQ",
-    "notConnectedToTheNetwork": "No Internet connection",
-    "yourAreNotConnected": "Can't connect to Quorum",
-    "connectYouAndTryAgain": "You may have a connection problem. Please refresh."
-  },
-  "tutorial": {
-    "location": {
-      "popup": {
-        "title": "Where am I?",
-        "whereAreYou": "By activating your location, you can view the streets closest to you.",
-        "locationMe": "Localize myself",
-        "problemWithGeopositionning": "We could not determine your position.",
-        "searchingForLocation": "Looking for people around you.",
-        "foundYourPosition": "We found your position. Now you can see what's happening in your area.",
-        "problemCanRetry": "Looks like we couldn't find your position. Please try again.",
-        "introductionTitle": "Turn on your location to get the most out of the app.",
-        "pleaseWait": "Please wait",
-        "close": "Close",
-        "retry": "Try again",
-        "enable": "Activate"
-      }
-    },
-    "beforeStart": {
-      "titleStep1": "Find out everything you need to know",
-      "titleStep2": "It's never been easier to take action!",
-      "titleStep3": "Making (paperless) connections is a breeze!",
-      "titleStep4": "Track your achievements",
-      "createAnAccount": "Create an account",
-      "allreadyAnAccount": "Already have an account? Login"
-    }
-  },
-  "urls": {
-    "cgu": "https://2020.quorum.co/tos.pdf",
-    "dataProtection": "https://2020.quorum.co/PrivacyPolicy_en.pdf"
-  },
-  "popup": {
-    "consent": {
-      "title": "Consent",
-      "content": "Do not forget to inform the person of the context of the action you're taking and make your organisation's name clear!",
-      "cancel": "Cancel",
-      "nextStep": "Continue",
-      "gpdrOkLabel": "The contact authorizes me to collect and use this information as part of my action.",
-      "gpdrOkEmailLabel": "The contact agrees to receive emails (related to your action)",
-      "gpdrOkSMSLabel": "The contact agrees to be contacted by phone (related to your action)"
-    }
-  }
 }
