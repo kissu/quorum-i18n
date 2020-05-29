@@ -18,8 +18,11 @@ async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, plat
       if (WebTranslates[wantedFile]) return WebTranslates[wantedFile]
       return false
 
+    case 'mobile':
+      if (MobileTranslates[wantedFile]) return MobileTranslates[wantedFile]
+      return false
+
     default:
-      if (MobileTranslates[wantedFile]) return WebTranslates[wantedFile]
       return false
   }
 }
