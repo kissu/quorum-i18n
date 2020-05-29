@@ -1,0 +1,9 @@
+{
+  "logged": {
+    "headQuarter": {
+      "quickActions": {
+        "welcome": "Bien le bonjour mon très cher {{firstname}}"
+      }
+    }
+  }
+}

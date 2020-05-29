@@ -23,7 +23,7 @@ const platformLocales = [
   },
   {
     path: 'mobile',
-    variants: [['en'], ['ar'], ['fr'], ['sk']],
+    variants: [['en'], ['fr'], ['fr', 'mediation', 'promevil'], ['sk'], ['ar']],
   },
 ]
 
