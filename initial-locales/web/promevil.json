@@ -1,181 +1,181 @@
 {
-    "ACTION": {
-        "CALL_TO_ACTION": {
-            "CONFIRM_CLOSE": {
-                "CANCEL_TEXT": "Je suis la ville au top ! :D",
-                "MESSAGE": "Vous n'avez pas terminé la création de votre feuille de route. Voulez-vous quitter la page et perdre les informations renseignées ?"
-            },
-            "VALIDATE": {
-                "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne",
-                "TITLE": "Votre feuille de route doit avoir un nom"
-            },
-            "SEARCH": {
-                "USER": "Sélectionnez les médiateurs qui réaliseront cette journée"
-            },
-            "INFORMATIONS": {
-                "DATE": "Quelle est la date de votre feuille de route ?",
-                "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
-                "AIM": "Quel est le nom de votre feuille de route ?"
-            },
-            "HEADER": {
-                "TITLE": "Nouvelle feuille de route"
-            },
-            "CREATE": "Créer une feuille de route",
-            "SUCCESS": "Feuille de route créée !"
-        },
-        "SIDEBAR": {
-            "KPI": {
-                "ACTIONS_SELECTED": "Aucune feuille de route"
-            }
-        },
-        "LIST": {
-            "SEARCH": "Rechercher une feuille de route",
-            "RUNNING": "Feuille de route en cours",
-            "REOPEN": "Relancer la feuille de route",
-            "NO_DATA": "Aucune feuille de route pour le moment",
-            "FINISHED": "Feuille de route complète",
-            "EDIT_ACTION": "Modifier la feuille de route",
-            "DELETE_SUCCESS": "La feuille de route \"{name}\" a été supprimée",
-            "ADD_ACTION_POLY": "Créer une feuille de route ici",
-            "ACTION_IS_OVER": "La date de cette feuille de route est dépassée",
-            "ACTIONS_SELECTED": "Aucune feuille de route sélectionnée",
-            "SELECTORS": {
-                "ACTIONS_TYPES": "Type d'interventions"
-            }
-        },
-        "EDIT": {
-            "SUCCESS": "La feuille de route à bien été mise à jour",
-            "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire"
-        },
-        "DETAIL": {
-            "NO_TEAM": "Aucune équipe pour cette journée",
-            "NO_MEMBER": "Aucun membre pour cette action",
-            "NO_PITCH": "Aucun script pour cette journée"
-        }
+  "ACTION": {
+    "CALL_TO_ACTION": {
+      "CONFIRM_CLOSE": {
+        "CANCEL_TEXT": "Je suis la ville au top ! :D",
+        "MESSAGE": "Vous n'avez pas terminé la création de votre feuille de route. Voulez-vous quitter la page et perdre les informations renseignées ?"
+      },
+      "VALIDATE": {
+        "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne",
+        "TITLE": "Votre feuille de route doit avoir un nom"
+      },
+      "SEARCH": {
+        "USER": "Sélectionnez les médiateurs qui réaliseront cette journée"
+      },
+      "INFORMATIONS": {
+        "DATE": "Quelle est la date de votre feuille de route ?",
+        "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
+        "AIM": "Quel est le nom de votre feuille de route ?"
+      },
+      "HEADER": {
+        "TITLE": "Nouvelle feuille de route"
+      },
+      "CREATE": "Créer une feuille de route",
+      "SUCCESS": "Feuille de route créée !"
     },
-    "_COMMON": {
-        "ADD_ACTION": "Créer une feuille de route"
+    "SIDEBAR": {
+      "KPI": {
+        "ACTIONS_SELECTED": "Aucune feuille de route"
+      }
     },
-    "USER_MANAGEMENT": {
-        "USER_LIST": {
-            "TEAMS": {
-                "CREATE_ACTION": "Créer une feuille de route"
-            }
-        },
-        "DETAIL": {
-            "ROLES": {
-                "MANAGER": {
-                    "TITLE": "Chef d'équipe"
-                },
-                "USER": {
-                    "TITLE": "Médiateur"
-                },
-                "ADMIN": {
-                    "TITLE": "Référent ville"
-                },
-                "SUPERADMIN": {
-                    "TITLE": "QG Promévil"
-                }
-            }
-        }
+    "LIST": {
+      "SEARCH": "Rechercher une feuille de route",
+      "RUNNING": "Feuille de route en cours",
+      "REOPEN": "Relancer la feuille de route",
+      "NO_DATA": "Aucune feuille de route pour le moment",
+      "FINISHED": "Feuille de route complète",
+      "EDIT_ACTION": "Modifier la feuille de route",
+      "DELETE_SUCCESS": "La feuille de route \"{name}\" a été supprimée",
+      "ADD_ACTION_POLY": "Créer une feuille de route ici",
+      "ACTION_IS_OVER": "La date de cette feuille de route est dépassée",
+      "ACTIONS_SELECTED": "Aucune feuille de route sélectionnée",
+      "SELECTORS": {
+        "ACTIONS_TYPES": "Type d'interventions"
+      }
     },
-    "SETTINGS": {
-        "CAMPAIGN": {
-            "VENDOR_HEAD": {
-                "ACTION": "Feuille de route"
-            }
-        },
-        "HEADER": {
-            "ACTIONS": "Tâches",
-            "LEAD": "Tâches"
-        },
-        "FORM_BUILDER": {
-            "NAMES": {
-                "ACTION": "Tâches"
-            }
-        },
-        "PROFILE": {
-            "ROLES": {
-                "MANAGER": "Chef d'équipe",
-                "ADMIN": "Référent ville",
-                "USER": "Médiateur",
-                "SUPERADMIN": "QG Promévil"
-            }
-        }
+    "EDIT": {
+      "SUCCESS": "La feuille de route à bien été mise à jour",
+      "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire"
     },
-    "MENU": {
-        "ACTIONS": "Feuilles de route",
-        "ISSUE_CENTER": "Tâches",
-        "CITIZENS": "Intervention"
-    },
-    "MANAGEMENT": {
-        "ISSUE_CENTER": {
-            "DROPDOWN": "Feuille de routes"
-        }
-    },
-    "CONTACT": {
-        "LIST": {
-            "TABLE": {
-                "ACTIONS": "Feuille de route"
-            },
-            "MODAL": {
-                "WARNING": "Attention : vous allez faire des modifications sur toutes les interventions sélectionnées sur cette page",
-                "TITLE": {
-                    "TAGS": "Modifier le tag de {count} intervention(s)",
-                    "STATUS": "Modifier le statut de {count} intervention(s)"
-                }
-            },
-            "EXPORT_LIMITATION": "Vous ne pouvez pas exporter plus de 10 000 interventions. Si vous avez besoin d'un export plus grand, contactez l'équipe support."
-        },
-        "HEADER": {
-            "MANAGE_ACTIONS_AVAILABLES": "Feuille de route",
-            "CREATE_ACTION": "Créer une feuille de route",
-            "TITLE": "Interventions"
-        },
-        "EDIT": {
-            "ACTIONS": "Feuille de route",
-            "LEAD": "Tâches"
-        },
-        "KPI": {
-            "OVERLAY": "Voir intervention",
-            "CONTACTS": "Aucune intervention"
-        }
-    },
-    "CARTO": {
-        "CC": {
-            "PRIO": {
-                "ADD_ACTION": "Créer une feuille de route"
-            },
-            "NAVIGATOR": {
-                "LAYERS": {
-                    "ACTIONS": "Feuilles de route",
-                    "CONTACTS": "Interventions"
-                }
-            },
-            "CALL_TO_ACTION": {
-                "DONE_ACTIONS": "Feuille de route terminée",
-                "ADD_ACTION_HERE": "Créer une feuille de route ici",
-                "ADD_ACTION": "Créer une feuille de route",
-                "ACTIONS": "Feuille de route en cours"
-            }
-        }
-    },
-    "ANALYTICS": {
-        "GENERATION": {
-            "CREATE_ACTION": "Créer une feuille de route",
-            "ACTION_NUMBER": "Feuille de route n°{number}"
-        }
-    },
-    "VENDORS": {
-        "ARCHITECTURE": {
-            "per_all": {
-                "label": "D'intervention dans la zone"
-            }
-        }
-    },
-    "SMS": {
-        "ANALYTICS": {
-            "CONTACTS_SELECTED": "Interventions sélectionnées"
-        }
+    "DETAIL": {
+      "NO_TEAM": "Aucune équipe pour cette journée",
+      "NO_MEMBER": "Aucun membre pour cette action",
+      "NO_PITCH": "Aucun script pour cette journée"
     }
+  },
+  "_COMMON": {
+    "ADD_ACTION": "Créer une feuille de route"
+  },
+  "USER_MANAGEMENT": {
+    "USER_LIST": {
+      "TEAMS": {
+        "CREATE_ACTION": "Créer une feuille de route"
+      }
+    },
+    "DETAIL": {
+      "ROLES": {
+        "MANAGER": {
+          "TITLE": "Chef d'équipe"
+        },
+        "USER": {
+          "TITLE": "Médiateur"
+        },
+        "ADMIN": {
+          "TITLE": "Référent ville"
+        },
+        "SUPERADMIN": {
+          "TITLE": "QG Promévil"
+        }
+      }
+    }
+  },
+  "SETTINGS": {
+    "CAMPAIGN": {
+      "VENDOR_HEAD": {
+        "ACTION": "Feuille de route"
+      }
+    },
+    "HEADER": {
+      "ACTIONS": "Tâches",
+      "LEAD": "Tâches"
+    },
+    "FORM_BUILDER": {
+      "NAMES": {
+        "ACTION": "Tâches"
+      }
+    },
+    "PROFILE": {
+      "ROLES": {
+        "MANAGER": "Chef d'équipe",
+        "ADMIN": "Référent ville",
+        "USER": "Médiateur",
+        "SUPERADMIN": "QG Promévil"
+      }
+    }
+  },
+  "MENU": {
+    "ACTIONS": "Feuilles de route",
+    "ISSUE_CENTER": "Tâches",
+    "CITIZENS": "Intervention"
+  },
+  "MANAGEMENT": {
+    "ISSUE_CENTER": {
+      "DROPDOWN": "Feuille de routes"
+    }
+  },
+  "CONTACT": {
+    "LIST": {
+      "TABLE": {
+        "ACTIONS": "Feuille de route"
+      },
+      "MODAL": {
+        "WARNING": "Attention : vous allez faire des modifications sur toutes les interventions sélectionnées sur cette page",
+        "TITLE": {
+          "TAGS": "Modifier le tag de {count} intervention(s)",
+          "STATUS": "Modifier le statut de {count} intervention(s)"
+        }
+      },
+      "EXPORT_LIMITATION": "Vous ne pouvez pas exporter plus de 10 000 interventions. Si vous avez besoin d'un export plus grand, contactez l'équipe support."
+    },
+    "HEADER": {
+      "MANAGE_ACTIONS_AVAILABLES": "Feuille de route",
+      "CREATE_ACTION": "Créer une feuille de route",
+      "TITLE": "Interventions"
+    },
+    "EDIT": {
+      "ACTIONS": "Feuille de route",
+      "LEAD": "Tâches"
+    },
+    "KPI": {
+      "OVERLAY": "Voir intervention",
+      "CONTACTS": "Aucune intervention"
+    }
+  },
+  "CARTO": {
+    "CC": {
+      "PRIO": {
+        "ADD_ACTION": "Créer une feuille de route"
+      },
+      "NAVIGATOR": {
+        "LAYERS": {
+          "ACTIONS": "Feuilles de route",
+          "CONTACTS": "Interventions"
+        }
+      },
+      "CALL_TO_ACTION": {
+        "DONE_ACTIONS": "Feuille de route terminée",
+        "ADD_ACTION_HERE": "Créer une feuille de route ici",
+        "ADD_ACTION": "Créer une feuille de route",
+        "ACTIONS": "Feuille de route en cours"
+      }
+    }
+  },
+  "ANALYTICS": {
+    "GENERATION": {
+      "CREATE_ACTION": "Créer une feuille de route",
+      "ACTION_NUMBER": "Feuille de route n°{number}"
+    }
+  },
+  "VENDORS": {
+    "ARCHITECTURE": {
+      "per_all": {
+        "label": "D'intervention dans la zone"
+      }
+    }
+  },
+  "SMS": {
+    "ANALYTICS": {
+      "CONTACTS_SELECTED": "Interventions sélectionnées"
+    }
+  }
 }

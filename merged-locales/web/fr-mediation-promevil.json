@@ -81,7 +81,7 @@
         "USER_EMPTY": "Aucun membre ne correspond à votre recherche !",
         "USER_HELP_CTA": "ou inviter un nouveau membre"
       },
-      "SUCCESS": "Nouvelle action crée !",
+      "SUCCESS": "Feuille de route créée !",
       "TARGET": {
         "ABSENT_OR_NOT_VISITED": "Absents ou jamais visités",
         "ADDRESS": {
@@ -123,7 +123,7 @@
       "USERS": "Membres",
       "USER_LENGTH": "Membres sélectionnés | Membre sélectionné au total | Membres sélectionnés au total",
       "VALIDATE": {
-        "TITLE": "Le nom de l'action est obligatoire",
+        "TITLE": "Votre feuille de route doit avoir un nom",
         "TYPE": "Le type de l'action est obligatoire",
         "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne"
       }
@@ -136,7 +136,7 @@
       "LINK": "Lien",
       "MEMBERS": "Participants",
       "NO_MEMBER": "Aucun membre pour cette action",
-      "NO_PITCH": "Pas de note dans cette action",
+      "NO_PITCH": "Aucun script pour cette journée",
       "NO_TEAM": "Aucune équipe pour cette journée",
       "PITCH": "Notes",
       "START": "Commence le",
@@ -190,7 +190,7 @@
       "RUNNING": "Feuille de route en cours",
       "SEARCH": "Rechercher une feuille de route",
       "SELECTORS": {
-        "ACTIONS_TYPES": "Types d'action",
+        "ACTIONS_TYPES": "Type d'interventions",
         "DATETIME_END": "Date de fin",
         "DATETIME_START": "Date de début",
         "TEAMS": "Équipes",
@@ -399,7 +399,7 @@
         "HOW_IS_PRIO_MADE": "Comment est construite ma priorisation ?",
         "LAYERS": {
           "ACTIONS": "Feuilles de route",
-          "CONTACTS": "Contacts",
+          "CONTACTS": "Interventions",
           "SEEN": "Rencontré(e)s",
           "SUPPORTS": "Soutiens",
           "USERS": "Membres"
@@ -533,7 +533,7 @@
       "HIDE_ALL": "Cacher les champs",
       "HOUSENUMBER": "Numéro",
       "INFO": "Coordonnées",
-      "LEAD": "Opportunités",
+      "LEAD": "Tâches",
       "MET": "Rencontré(e) le {date}",
       "NA": "Non renseigné",
       "NOT_MET": "Pas encore rencontré",
@@ -601,17 +601,17 @@
       "SEND_SMS": "Envoyer un SMS",
       "SET": "Renseigné",
       "TERRITORY_PLACEHOLDER": "Choisir",
-      "TITLE": "Contacts",
+      "TITLE": "Interventions",
       "TYPE_LOCATION": "Adresse inconnue",
       "UNSET": "Non renseigné"
     },
     "KPI": {
-      "CONTACTS": "Aucun contact | 1 contact | {number} contacts",
+      "CONTACTS": "Aucune intervention",
       "DRAW_ERROR": "Action non autorisée",
       "EVOLUTION": "+ {number} depuis la semaine dernière",
       "FILTER_MAP": "Filtrer avec la carte",
       "ONE_POLY_ONLY": "Vous ne pouvez dessiner qu'un seul polygone à la fois",
-      "OVERLAY": "Afficher les contacts",
+      "OVERLAY": "Voir intervention",
       "SELECTED": " | 1 sélectionné | {number} sélectionnés"
     },
     "LIST": {
@@ -664,7 +664,7 @@
       "ERROR_EXPORT": "Une erreur est survenue. Réessayez ou contactez votre support",
       "EXPORT": "Exporter",
       "EXPORT_DURATION": "Attention, l'export de la base peut prendre quelques minutes!",
-      "EXPORT_LIMITATION": "Vous ne pouvez exporter que 10 000 contacts maximum. Si vous avez besoin d'un export complet de votre base de contacts, contactez le support.",
+      "EXPORT_LIMITATION": "Vous ne pouvez pas exporter plus de 10 000 interventions. Si vous avez besoin d'un export plus grand, contactez l'équipe support.",
       "E_TOO_MANY_EMAIL": "Vous ne pouvez pas envoyez d'email à plus de {count} personnes d'un coup. Rendez-vous dans les paramètres pour activer une extension mail.",
       "IMPORT": "Importer",
       "IMPORT_MESSAGE": "Veuillez envoyer le fichier que vous souhaitez importer à l'adresse <a class=\"action\" href=\"mailto:support@quorum.co\">support@quorum.co</a>",
@@ -677,11 +677,11 @@
         "MODIFY_TERRITORY": "Modifier le territoire",
         "SUCCESS": "Mise à jour terminée !",
         "TITLE": {
-          "STATUS": "Modifier le statut de {count} contacts",
-          "TAGS": "Modifier les tags de {count} contacts",
+          "STATUS": "Modifier le statut de {count} intervention(s)",
+          "TAGS": "Modifier le tag de {count} intervention(s)",
           "TERRITORIES": "Modifier le territoire de {count} contacts"
         },
-        "WARNING": "Attention vous allez appliquer cette modification à tous les contacts sélectionnés sur cette page."
+        "WARNING": "Attention : vous allez faire des modifications sur toutes les interventions sélectionnées sur cette page"
       },
       "NONE_SELECTED": "Aucun citoyen sélectionné !",
       "NOT_VISITED": "Jamais visité",
@@ -904,7 +904,7 @@
     "BRIEFS": "Briefs",
     "CAMPAIGN_MAILCHIMP": "Campagnes Mailchimp",
     "CHAT": "Chat et support",
-    "CITIZENS": "Base de contacts",
+    "CITIZENS": "Intervention",
     "COMMUNICATIONS": "Communication",
     "DISCONNECT": "Déconnexion",
     "DOCS": "Documents",
@@ -914,7 +914,7 @@
     "HELP_MESSAGE": "Écrivez à <a class=\"action\" href=\"mailto:jeandaniel@support.quorum.co\">jeandaniel@support.quorum.co</a>",
     "HELP_TITLE": "Besoin d'aide ?",
     "HQ": "Quartier Général",
-    "ISSUE_CENTER": "Opportunités",
+    "ISSUE_CENTER": "Tâches",
     "LEAD": "Communauté",
     "MAPS": "Cartes",
     "MEMBERS": "Membres",
@@ -1055,7 +1055,7 @@
         "SHOW_QUESTION": "Je n'affiche la question"
       },
       "MUST_BE_NUMBER": "Ce n'est pas un numéro !",
-      "NAMES": { "ACTION": "Tunnel d'opportunités", "STATUS": "Statuts" },
+      "NAMES": { "ACTION": "Tâches", "STATUS": "Statuts" },
       "NEXT_QUESTION": "Question suivante",
       "ONLY_IF": "Seulement si a répondu \"{answer}\"",
       "PRINT": "Imprimer le formulaire",
@@ -1111,12 +1111,12 @@
       "WARNING_MEANING_LABEL_SETTINGS": "Attention, vous allez <strong>éditer</strong> vos paramètres ! <br/>Si vos modifications changent le <strong>sens</strong> de votre question/reponse : <strong>supprimez et recommencez la.</strong>"
     },
     "HEADER": {
-      "ACTIONS": "Tunnel d'opportunités",
+      "ACTIONS": "Tâches",
       "ADVANCED": "Paramètres avancés",
       "CONTACT": "Fiche contact",
       "FORM": "Questionnaire",
       "GENERAL": "Général",
-      "LEAD": "Opportunités",
+      "LEAD": "Tâches",
       "MAILAUTO": "Email automatique",
       "PROFILE": "Profil",
       "STATUS": "Statuts",
@@ -1153,10 +1153,10 @@
         "NEW_PASSWORD": "Nouveau mot de passe"
       },
       "ROLES": {
-        "ADMIN": "Superviseur",
-        "MANAGER": "Coordinateur",
-        "SUPERADMIN": "Administrateur",
-        "USER": "Membre"
+        "ADMIN": "Référent ville",
+        "MANAGER": "Chef d'équipe",
+        "SUPERADMIN": "QG Promévil",
+        "USER": "Médiateur"
       },
       "ROLE_IN": "{role} de {name}",
       "TITLE": "Votre profil",
@@ -1168,7 +1168,7 @@
   },
   "SMS": {
     "ANALYTICS": {
-      "CONTACTS_SELECTED": "Nombre de destinataire(s)",
+      "CONTACTS_SELECTED": "Interventions sélectionnées",
       "DATE": "Date d'envoi",
       "DELIVERED": "Distribué",
       "END_LIST": "Fin de la liste",
@@ -1254,20 +1254,20 @@
       "ROLES": {
         "ADMIN": {
           "RIGHTS": "Accès <strong class=\"q-is-pink\">restreint</strong> aux applications web et mobile",
-          "TITLE": "Superviseur"
+          "TITLE": "Référent ville"
         },
         "HELP_TOOLTIP": "Référez vous à <a target=\"_blank\" style=\"text-decoration: underline;\" class=\"q-is-blue\" href=\"https://intercom.help/quorumhq/fr/articles/3421779-les-roles-sur-quorum\">notre article sur les différents rôles</a><br /> pour plus de détails.",
         "MANAGER": {
           "RIGHTS": "Accès <strong class=\"q-is-pink\">restreint</strong> aux applications web et mobile",
-          "TITLE": "Coordinateur"
+          "TITLE": "Chef d'équipe"
         },
         "SUPERADMIN": {
           "RIGHTS": "Accès à <strong class=\"q-is-pink\">toutes</strong> les fonctionnalités des applications web et mobile",
-          "TITLE": "Administrateur"
+          "TITLE": "QG Promévil"
         },
         "USER": {
           "RIGHTS": "Accès <strong class=\"q-is-pink\">seulement</strong> à l’application mobile",
-          "TITLE": "Membre"
+          "TITLE": "Médiateur"
         }
       }
     },
@@ -2643,7 +2643,7 @@
       "out-of-work_benefits_claimant_rate": { "label": "Taux de chômeurs indemnisés (2014)" },
       "owned_household_perc": { "label": "Taux de ménages propriétaires - 2011" },
       "owner_tenant": { "label": "Propriétaire / locataire" },
-      "per_all": { "label": "Des contacts de la zone" },
+      "per_all": { "label": "D'intervention dans la zone" },
       "per_party": { "label": "Par parti" },
       "per_seen": { "label": "Des citoyens rencontrés de la zone" },
       "personnes_agees": { "gender": "m", "label": "Personnes âgées" },
