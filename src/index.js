@@ -49,31 +49,30 @@ async function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platfo
   /**
    *
    */
-  let futurLocaleString = ''
-  let futurLocaleSpecific = ''
+  let futureLocaleString = ''
+  let futureLocaleSpecific = ''
 
-  if (localeSpecific) futurLocaleSpecific = downgradeMyLocaleSpecific(localeSpecific)
   //
-  if (futurLocaleSpecific === '') {
-    if (futurLocaleSpecific === localeSpecific) {
-      futurLocaleString = downgradeMyLocaleString(locale)
-    } else {
-      futurLocaleString = locale
-    }
+  if (locale.match(/[a-z]+/gi).length > 1) {
+    futureLocaleString = downgradeMyLocaleString(locale)
+    futureLocaleSpecific = localeSpecific
   } else {
-    futurLocaleString = locale
+    if (localeSpecific) {
+      futureLocaleSpecific = downgradeMyLocaleSpecific(localeSpecific)
+      futureLocaleString = locale
+    }
   }
 
   /**
    * If my locales are empty, I didn't find a solution and return the english
    */
-  if (!futurLocaleString && !futurLocaleSpecific) {
+  if (!futureLocaleString && !futureLocaleSpecific) {
     return await tryModuleAndReturnFile('en', null, platform)
   }
   /**
    * downgradeAndSearchFilesForLanguage again because we not found the file
    */
-  return downgradeAndSearchFilesForLanguage(futurLocaleString, futurLocaleSpecific, platform)
+  return downgradeAndSearchFilesForLanguage(futureLocaleString, futureLocaleSpecific, platform)
 }
 
 /**
