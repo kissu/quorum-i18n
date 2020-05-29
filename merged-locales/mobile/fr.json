@@ -4,7 +4,7 @@
   "greeting": { "hello": "Bonjour" },
   "splashScreen": {
     "loadingUpdateOTA": "Une mise à jour de Quorum est en cours",
-    "successUpdateOTA": "Synchronisation serveur réussie ! Redémarrage.."
+    "successUpdateOTA": "Synchronisation serveur réussie ! Redémarrage..."
   },
   "navigator": {
     "goBack": "Retour",
