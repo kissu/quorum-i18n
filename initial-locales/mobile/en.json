@@ -644,7 +644,7 @@
         "update": "Update"
       },
       "quickActions": {
-        "welcome": "Welcome 👋 {{firstname}}!",
+        "welcome": "Welcome 👋 {{firstname}}",
         "title": "Shortcuts",
         "canvassing": "Around me\n",
         "donate": "Collect donation\n",
