@@ -1,72 +1,72 @@
 {
-    "logged": {
-        "headQuarter": {
-            "quickActions": {
-                "welcome": "Bienvenue sur Promévil {{firstname}}",
-                "addSupport": "Ajouter une intervention\n"
-            },
-            "newActions": {
-                "newActionLabel": {
-                    "other": "Vos feuilles de route",
-                    "one": "Votre feuille de route"
-                }
-            }
-        },
-        "profile": {
-            "public": {
-                "actionsFinished": "Feuilles de route terminées",
-                "actions": "feuilles de route"
-            }
-        },
-        "fieldActions": {
-            "advancedLayout": {
-                "actionBrief": "Notes de la feuille de route"
-            },
-            "titleScreenLabel": "Feuilles de route",
-            "listFieldActions": {
-                "citizensLabel": "Intervention"
-            }
-        },
-        "form": {
-            "answers": {
-                "support": {
-                    "titleUpdateSupport": "Mettre à jour les informations de l'intervention"
-                }
-            },
-            "updateTheContactLabel": "Mettre à jour l'intervention",
-            "editAContactTitle": "Modifier les informations de l'interventions",
-            "switchContactAddress": {
-                "contactLabel": "Intervention"
-            },
-            "endForm": {
-                "addAnotherCitizen": "Ajouter une nouvelle intervention !"
-            }
-        },
-        "canvassing": {
-            "viewContact": {
-                "newContactLabel": "Nouvelle intervention"
-            },
-            "labelAllTheContacts": "Intervention",
-            "staticCanvassing": {
-                "searchDisabledPlaceholder": "Aucune intervention",
-                "addFirstContact": "Ajouter votre première intervention",
-                "addAContact": "Ajouter une nouvelle intervention",
-                "addedContacts": "interventions créées"
-            },
-            "addAMissingItem": {
-                "aCitizen": "une intervention",
-                "citizensWithoutAddressesWithoutNonFind": "Intervention"
-            },
-            "listItem": {
-                "addMissCitizen": "Ajouter une interention"
-            },
-            "advicesCanvassingInformation": {
-                "aCitizenAdd": "Appuyez sur + pour ajouter une intervention."
-            },
-            "addCitizenCTA": "Ajouter une intervention dans cette zone"
+  "logged": {
+    "headQuarter": {
+      "quickActions": {
+        "welcome": "Bienvenue sur Promévil {{firstname}}",
+        "addSupport": "Ajouter une intervention\n"
+      },
+      "newActions": {
+        "newActionLabel": {
+          "other": "Vos feuilles de route",
+          "one": "Votre feuille de route"
         }
+      }
     },
-    "navigator": {
-        "actions": "Feuilles de route"
+    "profile": {
+      "public": {
+        "actionsFinished": "Feuilles de route terminées",
+        "actions": "feuilles de route"
+      }
+    },
+    "fieldActions": {
+      "advancedLayout": {
+        "actionBrief": "Notes de la feuille de route"
+      },
+      "titleScreenLabel": "Feuilles de route",
+      "listFieldActions": {
+        "citizensLabel": "Intervention"
+      }
+    },
+    "form": {
+      "answers": {
+        "support": {
+          "titleUpdateSupport": "Mettre à jour les informations de l'intervention"
+        }
+      },
+      "updateTheContactLabel": "Mettre à jour l'intervention",
+      "editAContactTitle": "Modifier les informations de l'interventions",
+      "switchContactAddress": {
+        "contactLabel": "Intervention"
+      },
+      "endForm": {
+        "addAnotherCitizen": "Ajouter une nouvelle intervention !"
+      }
+    },
+    "canvassing": {
+      "viewContact": {
+        "newContactLabel": "Nouvelle intervention"
+      },
+      "labelAllTheContacts": "Intervention",
+      "staticCanvassing": {
+        "searchDisabledPlaceholder": "Aucune intervention",
+        "addFirstContact": "Ajouter votre première intervention",
+        "addAContact": "Ajouter une nouvelle intervention",
+        "addedContacts": "interventions créées"
+      },
+      "addAMissingItem": {
+        "aCitizen": "une intervention",
+        "citizensWithoutAddressesWithoutNonFind": "Intervention"
+      },
+      "listItem": {
+        "addMissCitizen": "Ajouter une interention"
+      },
+      "advicesCanvassingInformation": {
+        "aCitizenAdd": "Appuyez sur + pour ajouter une intervention."
+      },
+      "addCitizenCTA": "Ajouter une intervention dans cette zone"
     }
+  },
+  "navigator": {
+    "actions": "Feuilles de route"
+  }
 }

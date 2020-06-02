@@ -10,7 +10,7 @@
     "goBack": "Retour",
     "QG": "QG",
     "search": "Recherche",
-    "actions": "Actions",
+    "actions": "Feuilles de route",
     "informations": "Docs",
     "profile": "Profil"
   },
@@ -155,7 +155,7 @@
         "mail": "Boîtages",
         "other": "Autre"
       },
-      "titleScreenLabel": "Actions",
+      "titleScreenLabel": "Feuilles de route",
       "mapLabel": "Carte",
       "listLabel": "Liste",
       "listFieldActions": {
@@ -165,7 +165,7 @@
         "foldUpTheCard": "- d'infos",
         "emptyPitch": "Il n'y a pas d'information supplémentaire. Vous pouvez contacter les organisteurs de la campagne",
         "finishAnActionLabel": "Terminée",
-        "citizensLabel": "citoyens",
+        "citizensLabel": "Intervention",
         "startAnActionAroundLabel": "Démarrer...",
         "aroundMeLabel": "Autour de soi",
         "onAnAddress": "Sur une adresse",
@@ -192,7 +192,7 @@
         "presentLabel": "Présent",
         "attend": "Participer",
         "seeBrief": "Voir le brief",
-        "actionBrief": "Brief de l'action",
+        "actionBrief": "Notes de la feuille de route",
         "youAttend": "Participe",
         "youWantToAttend": "Participe",
         "descJoinAction": "Vous participez 🚀",
@@ -213,12 +213,12 @@
       "loadingStaticTitle": "Un peu de patience. \nNous rassemblons les contacts.",
       "filterLabel": "Filtrer",
       "staticCanvassing": {
-        "addedContacts": "contacts ajoutés",
-        "addAContact": "Ajouter un nouveau contact",
-        "addFirstContact": "Ajouter le premier contact",
+        "addedContacts": "interventions créées",
+        "addAContact": "Ajouter une nouvelle intervention",
+        "addFirstContact": "Ajouter votre première intervention",
         "quote": "L’action est la clé fondamentale de tout succès.",
         "quoteAuthor": "Pablo Picasso",
-        "searchDisabledPlaceholder": "Aucun contact"
+        "searchDisabledPlaceholder": "Aucune intervention"
       },
       "callAction": {
         "pickerPlaceholder": "Tout le monde",
@@ -254,11 +254,11 @@
         "aHouseNumber": "un numéro",
         "aBuildingLabel": "un bâtiment",
         "aFloorLabel": "un étage",
-        "aCitizen": "un citoyen",
+        "aCitizen": "une intervention",
         "toSearch": "Chercher",
         "at": "à",
         "citizensWithoutAddresses": "Citoyens avec adresses non précisées",
-        "citizensWithoutAddressesWithoutNonFind": "Citoyens",
+        "citizensWithoutAddressesWithoutNonFind": "Intervention",
         "errorFetching": "Il semblerait qu'il y ait un problème entre vous et le serveur. \nVérifiez votre connexion internet. \nSi le problème persiste, contactez notre support."
       },
       "advicesCanvassingInformation": {
@@ -277,7 +277,7 @@
         "aHouseNumberAdd": "Un numéro est manquant ? Appuyer sur le + pour y ajouter un citoyen et créer ainsi l'adresse.",
         "findHouseNumber": "Vous cherchez un numéro en particulier ?\nInscrivez un numéro dans la barre de recherche.",
         "aCitizen": "un citoyen",
-        "aCitizenAdd": "Un citoyen est manquant ? Appuyer sur le + pour ajouter un citoyen",
+        "aCitizenAdd": "Appuyez sur + pour ajouter une intervention.",
         "findCitizen": "Vous cherchez un citoyen en particulier ?\nInscrivez son nom dans la barre de recherche.",
         "streetInfo": "• Cliquez sur itinéraire pour obtenir\n le meilleur trajet.\n\n• Consultez le compteur de tocs pour\nconnaitre le nombre de portes\nqui n'ont pas encore été frappées.\n\n• Retrouvez en bas de la liste les citoyens\ndont l'adresse n'est pas complète.",
         "streetInfoGlobal": "• Identifiez les rues autour de vous.\n\n• Cliquez sur itinéraire pour obtenir\n le meilleur trajet.\n\n• Retrouvez en bas de la liste les citoyens\ndont l'adresse n'est pas complète.",
@@ -294,7 +294,7 @@
       "noCitizensFound": "Nous n'avons trouvé aucun citoyen autour de vous. \nCliquez sur + pour en ajouter.",
       "noCitizendsFoundWithSearch": "Aucun résultat trouvé à ce niveau.",
       "noCitizensFoundWithStaticSearch": "Aucun résultat trouvé dans cette liste de contacts.",
-      "addCitizenCTA": "Ajouter un citoyen dans la zone",
+      "addCitizenCTA": "Ajouter une intervention dans cette zone",
       "finishAnItem": {
         "city": { "one": "Terminer la ville", "other": "Terminer {{count}} villes" },
         "street": { "one": "Terminer la rue", "other": "Terminer {{count}} rues" },
@@ -319,7 +319,7 @@
       "labelAllTheHouseNumbers": "Numéros",
       "labelAllTheBuildings": "Bâtiments",
       "labelAllTheFloors": "Étages",
-      "labelAllTheContacts": "Citoyens",
+      "labelAllTheContacts": "Intervention",
       "listItem": {
         "toHitLeftSingular": "toc\nrestant",
         "toHitLeftPlural": "tocs\nrestants",
@@ -337,7 +337,7 @@
         "cantFindLocation": "Impossible 😢",
         "messageCantFindLocation": "Nous n'avons pas réussi à déterminer l'itinéraire.",
         "openTheMapFromStreets": "Itinéraire",
-        "addMissCitizen": "Ajouter un citoyen",
+        "addMissCitizen": "Ajouter une interention",
         "absentLabel": "Absent(e)",
         "presentLabel": "Présent(e)",
         "refusalLabel": "Refus",
@@ -369,7 +369,7 @@
         "unnamedLabel": "Individu",
         "genderLabelF": "Mme",
         "genderLabelM": "M.",
-        "newContactLabel": "Nouveau contact",
+        "newContactLabel": "Nouvelle intervention",
         "errorServer": "Une erreur serveur est survenue. Contactez le service client de Quorum si le problème persiste.",
         "seeAnswers": "Voir les réponses du questionnaire",
         "metStatus": {
@@ -401,10 +401,10 @@
     "profile": {
       "public": {
         "anActionFinished": "Action déjà réalisée",
-        "actionsFinished": "Actions déjà réalisées",
+        "actionsFinished": "Feuilles de route terminées",
         "peopleMeet": "Personnes rencontrées",
         "noCitizenMeet": "Aucun citoyen rencontré, consultez vos actions.",
-        "actions": "actions",
+        "actions": "feuilles de route",
         "joinMouvement": {
           "one": "Il y a {{count}} jour, avec ✊ et ❤️ vous avez rejoint le mouvement.",
           "few": "Il y a {{count}} jours, avec ✊ et ❤️ vous avez rejoint le mouvement.",
@@ -506,7 +506,7 @@
     "form": {
       "switchContactAddress": {
         "detailsLabel": "Détails",
-        "contactLabel": "Contact",
+        "contactLabel": "Intervention",
         "addressLabel": "Adresse"
       },
       "endForm": {
@@ -517,7 +517,7 @@
         "rateTheForm": "Commenter l'échange",
         "backToActions": "Retour à la liste",
         "backToHeadQuarter": "Retour au QG",
-        "addAnotherCitizen": "Ajouter un nouveau citoyen"
+        "addAnotherCitizen": "Ajouter une nouvelle intervention !"
       },
       "rateContact": {
         "howTheDiscussionHasGoing": "Quelle est la prochaine étape pour ce citoyen ?",
@@ -537,11 +537,11 @@
         "description": "Vous pouvez consulter la liste des questions à poser et revenir sur une question déjà passée.",
         "finishTheFormLabel": "Terminer le questionnaire"
       },
-      "updateTheContactLabel": "Mettre à jour le contact",
+      "updateTheContactLabel": "Mettre à jour l'intervention",
       "end": "Terminer",
       "nextQuestion": "Question suivante",
       "informationContact": "Coordonnées",
-      "editAContactTitle": "Édition des coordonnées d'un contact",
+      "editAContactTitle": "Modifier les informations de l'interventions",
       "answers": {
         "locale": "fr",
         "streetPlaceholder": "Rue",
@@ -576,7 +576,7 @@
         "cancel": "Annuler",
         "support": {
           "titleAddSupport": "Ajouter un citoyen 🙂",
-          "titleUpdateSupport": "Mettre à jour le citoyen",
+          "titleUpdateSupport": "Mettre à jour les informations de l'intervention",
           "finish": "Suivant",
           "nextStep": "Étape suivante",
           "skipTheStep": "Passer l'étape",
@@ -597,16 +597,20 @@
         "update": "Mettre à jour"
       },
       "quickActions": {
-        "welcome": "Bien le bonjour mon très cher {{firstname}}",
+        "welcome": "Bienvenue sur Promévil {{firstname}}",
         "title": "Actions Rapides",
         "canvassing": "Autour de moi\n",
         "donate": "Récolter un don\n",
         "add": "Questionner\nun citoyen\n",
-        "addSupport": "Ajouter\nun citoyen\n",
+        "addSupport": "Ajouter une intervention\n",
         "upload": "Transmettre un document"
       },
       "newActions": {
-        "newActionLabel": { "one": "Votre action", "few": "Vos actions", "other": "Vos actions" },
+        "newActionLabel": {
+          "one": "Votre feuille de route",
+          "few": "Vos actions",
+          "other": "Vos feuilles de route"
+        },
         "actionWillStartFromStart": "Démarre le {{date}}",
         "actionAllreadyStartedFromStart": "A démarré le {{date}}",
         "actionSimpleDateWillFinish": "Finira le {{date}}",
