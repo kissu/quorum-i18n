@@ -1,7 +1,9 @@
 {
   "locale_shorted": "en-EN",
   "locale": "english",
-  "greeting": { "hello": "Hello" },
+  "greeting": {
+    "hello": "Hello"
+  },
   "splashScreen": {
     "loadingUpdateOTA": "An update is running!",
     "successUpdateOTA": "Sync. server completed! Restart.."
@@ -51,18 +53,24 @@
       "errorMailNotFoundPart2": "You may have used a different email address to create your account.",
       "sendAnEmailTo": "Send a link by email to"
     },
-    "disconnect": { "toDisconnect": "Log out" },
+    "disconnect": {
+      "toDisconnect": "Log out"
+    },
     "joinCampaign": {
       "emoji": "✊🏻",
       "letsGo": "Let's go!",
-      "disposeCode": "If you have your organisation's secret nickname, enter it here",
+      "disposeCode": "If you have your invitation code, enter it here",
       "goButton": "Go!",
-      "placeholder": "Organisation's secret nickname",
-      "noCampaign": "No secret nickname? Please contact your organisation.",
-      "noCampaignWithThisCode": "This code isn't linked to a campaign.",
+      "placeholder": "Invitation code",
+      "noCampaign": "No invitation code? Please contact your organization.",
+      "noCampaignWithThisCode": "This code isn't linked to a Quorum space.",
       "discover": "Discover"
     },
-    "chooseCampaign": { "emoji": "✊🏻", "letsGo": "Let's go!", "joinYourCompaign": "Join your campaign" },
+    "chooseCampaign": {
+      "emoji": "✊🏻",
+      "letsGo": "Let's go!",
+      "joinYourCompaign": "Join your organization"
+    },
     "createAccount": {
       "step1": {
         "title": "Your email",
@@ -149,7 +157,8 @@
         "poster": "Flyers / posters",
         "call": "Calls",
         "mail": "Handout mail",
-        "other": "Other"
+        "other": "Other",
+        "sharing": "Share"
       },
       "titleScreenLabel": "Actions",
       "mapLabel": "Map",
@@ -185,7 +194,7 @@
         "startCanvassing": "Start action!",
         "readMore": "More",
         "readLess": "Less",
-        "presentLabel": "Present",
+        "presentLabel": "Attend",
         "attend": "Attend",
         "seeBrief": "Open the notes",
         "actionBrief": "Action's notes",
@@ -194,6 +203,8 @@
         "descJoinAction": "Attending 🚀",
         "descAttendedAction": "Join the action now ✊",
         "editYourAttendStatus": "Edit your coming",
+        "shareItToYourNetworkButton": "Share the message",
+        "shareItToYourNetworkTitle": "Use the network effect and share the message below 👇",
         "startTheAction": "Start action",
         "cantStartTheAction": "Attending 🚀",
         "youDoNotWantToAttend": "Not going",
@@ -292,20 +303,56 @@
       "noCitizensFoundWithStaticSearch": "No result found.",
       "addCitizenCTA": "Mobilise someone in this zone",
       "finishAnItem": {
-        "city": { "one": "Finish this city", "other": "Finish {{count}} cities" },
-        "street": { "one": "Finish this street", "other": "Finish {{count}} streets" },
-        "housenumber": { "one": "Finish this housenumber", "other": "Finish {{count}} housenumbers" },
-        "building": { "one": "Finish this building", "other": "Finish {{count}} buildings" },
-        "floor": { "one": "Finish this floor", "other": "Finish {{count}} floors" },
-        "item": { "one": "Finish", "other": "Finish {{count}}" }
+        "city": {
+          "one": "Finish this city",
+          "other": "Finish {{count}} cities"
+        },
+        "street": {
+          "one": "Finish this street",
+          "other": "Finish {{count}} streets"
+        },
+        "housenumber": {
+          "one": "Finish this housenumber",
+          "other": "Finish {{count}} housenumbers"
+        },
+        "building": {
+          "one": "Finish this building",
+          "other": "Finish {{count}} buildings"
+        },
+        "floor": {
+          "one": "Finish this floor",
+          "other": "Finish {{count}} floors"
+        },
+        "item": {
+          "one": "Finish",
+          "other": "Finish {{count}}"
+        }
       },
       "reopenAnItem": {
-        "city": { "one": "Reopen city", "other": "Reopen {{count}} cities" },
-        "street": { "one": "Reopen street", "other": "Reopen {{count}} streets" },
-        "housenumber": { "one": "Reopen this housenumber", "other": "Reopen {{count}} housenumbers" },
-        "building": { "one": "Reopen this building", "other": "Reopen {{count}} buildings" },
-        "floor": { "one": "Reopen this floor", "other": "Reopen {{count}} floors" },
-        "item": { "one": "Reopen", "other": "Reopen {{count}}" }
+        "city": {
+          "one": "Reopen city",
+          "other": "Reopen {{count}} cities"
+        },
+        "street": {
+          "one": "Reopen street",
+          "other": "Reopen {{count}} streets"
+        },
+        "housenumber": {
+          "one": "Reopen this housenumber",
+          "other": "Reopen {{count}} housenumbers"
+        },
+        "building": {
+          "one": "Reopen this building",
+          "other": "Reopen {{count}} buildings"
+        },
+        "floor": {
+          "one": "Reopen this floor",
+          "other": "Reopen {{count}} floors"
+        },
+        "item": {
+          "one": "Reopen",
+          "other": "Reopen {{count}}"
+        }
       },
       "finishLabel": "Finish",
       "titleLabelAllTheCities": "",
@@ -410,8 +457,14 @@
       "settings": {
         "title": "Settings",
         "subtitle": "Customise your experience",
-        "notifications": { "title": "Notifications" },
-        "me": { "title": "About me", "editProfile": "Modify profile", "editPassword": "Change password" },
+        "notifications": {
+          "title": "Notifications"
+        },
+        "me": {
+          "title": "About me",
+          "editProfile": "Modify profile",
+          "editPassword": "Change password"
+        },
         "language": {
           "title": "Language & Regions",
           "titleScreen": "Select your language",
@@ -433,7 +486,10 @@
           "supportRessources": "Resources center",
           "supportBody": "Version:"
         },
-        "logout": { "title": "Log out", "label": "Log out" },
+        "logout": {
+          "title": "Log out",
+          "label": "Log out"
+        },
         "version": "Version: ",
         "checkVersion": "Check for newer versions",
         "update": "Update the app"
@@ -591,7 +647,7 @@
         "update": "Update"
       },
       "quickActions": {
-        "welcome": "Welcome 👋 {{firstname}}",
+        "welcome": "Welcome 👋 {{firstname}}!",
         "title": "Shortcuts",
         "canvassing": "Around me\n",
         "donate": "Collect donation\n",
@@ -600,7 +656,10 @@
         "upload": "Send a document"
       },
       "newActions": {
-        "newActionLabel": { "one": "Your action", "other": "Your actions" },
+        "newActionLabel": {
+          "one": "Your action",
+          "other": "Your actions"
+        },
         "actionWillStartFromStart": "Starts the {{date}}",
         "actionAllreadyStartedFromStart": "Started the {{date}}",
         "actionSimpleDateWillFinish": "End date on {{date}}",
@@ -610,7 +669,9 @@
       "newDocs": "new documents",
       "missingData": "It appears that some data is missing.",
       "reloadLabel": "Refresh",
-      "adminView": { "notificationOnlyForAdmin": "You have access to this view because you are an admin." }
+      "adminView": {
+        "notificationOnlyForAdmin": "You have access to this view because you are an admin."
+      }
     },
     "popup": {
       "needUpdate": {

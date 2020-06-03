@@ -1,10 +1,12 @@
 {
   "locale_shorted": "fr-FR",
   "locale": "french",
-  "greeting": { "hello": "Bonjour" },
+  "greeting": {
+    "hello": "Bonjour"
+  },
   "splashScreen": {
     "loadingUpdateOTA": "Une mise à jour de Quorum est en cours",
-    "successUpdateOTA": "Synchronisation serveur réussie ! Redémarrage..."
+    "successUpdateOTA": "Synchronisation serveur réussie ! Redémarrage.."
   },
   "navigator": {
     "goBack": "Retour",
@@ -35,7 +37,7 @@
       "seePassword": "voir",
       "emailLabel": "Email",
       "passwordLabel": "Mot de passe",
-      "errorNoCampaign": "Votre compte n'est rattaché à aucun espace.",
+      "errorNoCampaign": "Votre compte n'a pas de campagne.",
       "errorMailNotValid": "Adresse mail non validée. Veuillez vérifier votre boîte mail.",
       "errorWrongPassword": "Votre couple identifiant mot de passe est incorrect. Vous pouvez afficher votre mot de passe pour corriger l'erreur.",
       "errorServer": "Erreur serveur. Veuillez réessayer et contacter notre support client si le problème persiste.",
@@ -51,21 +53,23 @@
       "errorMailNotFound": "Aucun compte ne correspond à ",
       "errorMailNotFoundPart2": "Vous avez peut être utilisé une adresse email différente lors de la création de votre compte."
     },
-    "disconnect": { "toDisconnect": "Se déconnecter" },
+    "disconnect": {
+      "toDisconnect": "Se déconnecter"
+    },
     "joinCampaign": {
       "emoji": "✊🏻",
       "letsGo": "En avant",
-      "disposeCode": "Si vous disposez d'un code campagne, renseignez-le pour la rejoindre.",
+      "disposeCode": "Si vous disposez d'un code d'invitation, renseignez-le ici.",
       "goButton": "Go !",
-      "placeholder": "Code campagne",
+      "placeholder": "Code d'invitation",
       "noCampaign": "Pas encore sur Quorum ?",
-      "noCampaignWithThisCode": "Aucune campagne correspondant à ce code.",
+      "noCampaignWithThisCode": "Aucun espace Quorum ne correspondant à ce code.",
       "discover": "Découvrir"
     },
     "chooseCampaign": {
       "emoji": "✊🏻",
       "letsGo": "Let's go!",
-      "joinYourCompaign": "Rejoignez votre campagne"
+      "joinYourCompaign": "Rejoignez votre organisation"
     },
     "createAccount": {
       "step1": {
@@ -153,7 +157,8 @@
         "poster": "Affiches",
         "call": "Appels",
         "mail": "Boîtages",
-        "other": "Autre"
+        "other": "Autre",
+        "sharing": "Partage"
       },
       "titleScreenLabel": "Actions",
       "mapLabel": "Carte",
@@ -189,15 +194,17 @@
         "startCanvassing": "Démarrer",
         "readMore": "Plus",
         "readLess": "Moins",
-        "presentLabel": "Présent",
+        "presentLabel": "Participe",
         "attend": "Participer",
         "seeBrief": "Voir le brief",
         "actionBrief": "Brief de l'action",
         "youAttend": "Participe",
-        "youWantToAttend": "Participe",
+        "youWantToAttend": "Participer",
         "descJoinAction": "Vous participez 🚀",
         "descAttendedAction": "Rejoignez l'action maintenant ✊",
         "editYourAttendStatus": "Modifier votre venue",
+        "shareItToYourNetworkButton": "Partager le message",
+        "shareItToYourNetworkTitle": "Faites jouer l'effet de réseaux et partager le message ci-dessous 👇",
         "startTheAction": "Démarrer l'action",
         "cantStartTheAction": "Vous participez 🚀",
         "youDoNotWantToAttend": "Ne participe pas",
@@ -296,20 +303,56 @@
       "noCitizensFoundWithStaticSearch": "Aucun résultat trouvé dans cette liste de contacts.",
       "addCitizenCTA": "Ajouter un citoyen dans la zone",
       "finishAnItem": {
-        "city": { "one": "Terminer la ville", "other": "Terminer {{count}} villes" },
-        "street": { "one": "Terminer la rue", "other": "Terminer {{count}} rues" },
-        "housenumber": { "one": "Terminer le numéro", "other": "Terminer {{count}} numéros" },
-        "building": { "one": "Terminer le bâtiment", "other": "Terminer {{count}} bâtiments" },
-        "floor": { "one": "Terminer l'étage", "other": "Terminer {{count}} étages" },
-        "item": { "one": "Terminer", "other": "Terminer les {{count}}" }
+        "city": {
+          "one": "Terminer la ville",
+          "other": "Terminer {{count}} villes"
+        },
+        "street": {
+          "one": "Terminer la rue",
+          "other": "Terminer {{count}} rues"
+        },
+        "housenumber": {
+          "one": "Terminer le numéro",
+          "other": "Terminer {{count}} numéros"
+        },
+        "building": {
+          "one": "Terminer le bâtiment",
+          "other": "Terminer {{count}} bâtiments"
+        },
+        "floor": {
+          "one": "Terminer l'étage",
+          "other": "Terminer {{count}} étages"
+        },
+        "item": {
+          "one": "Terminer",
+          "other": "Terminer les {{count}}"
+        }
       },
       "reopenAnItem": {
-        "city": { "one": "Rouvrir la ville", "other": "Rouvrir {{count}} villes" },
-        "street": { "one": "Rouvrir la rue", "other": "Rouvrir {{count}} rues" },
-        "housenumber": { "one": "Rouvrir le numéro", "other": "Rouvrir {{count}} numéros" },
-        "building": { "one": "Rouvrir le bâtiment", "other": "Rouvrir {{count}} bâtiments" },
-        "floor": { "one": "Rouvrir l'étage", "other": "Rouvrir {{count}} étages" },
-        "item": { "one": "Rouvrir", "other": "Rouvrir les {{count}}" }
+        "city": {
+          "one": "Rouvrir la ville",
+          "other": "Rouvrir {{count}} villes"
+        },
+        "street": {
+          "one": "Rouvrir la rue",
+          "other": "Rouvrir {{count}} rues"
+        },
+        "housenumber": {
+          "one": "Rouvrir le numéro",
+          "other": "Rouvrir {{count}} numéros"
+        },
+        "building": {
+          "one": "Rouvrir le bâtiment",
+          "other": "Rouvrir {{count}} bâtiments"
+        },
+        "floor": {
+          "one": "Rouvrir l'étage",
+          "other": "Rouvrir {{count}} étages"
+        },
+        "item": {
+          "one": "Rouvrir",
+          "other": "Rouvrir les {{count}}"
+        }
       },
       "finishLabel": "Terminé",
       "titleLabelAllTheCities": "",
@@ -415,7 +458,9 @@
       "settings": {
         "title": "Paramètres",
         "subtitle": "Personnalisez votre expérience",
-        "notifications": { "title": "Notifications" },
+        "notifications": {
+          "title": "Notifications"
+        },
         "me": {
           "title": "À propos de moi",
           "editProfile": "Modifier mon profil",
@@ -442,7 +487,10 @@
           "supportRessources": "Aide et ressources",
           "supportBody": "Version :"
         },
-        "logout": { "title": "Déconnexion", "label": "Se déconnecter" },
+        "logout": {
+          "title": "Déconnexion",
+          "label": "Se déconnecter"
+        },
         "version": "Version : ",
         "checkVersion": "Vérifier les mises à jour",
         "update": "Mettre l'app à jour"
@@ -597,7 +645,7 @@
         "update": "Mettre à jour"
       },
       "quickActions": {
-        "welcome": "Bienvenue sur votre application {{firstname}}👋",
+        "welcome": "Bienvenue {{firstname}}",
         "title": "Actions Rapides",
         "canvassing": "Autour de moi\n",
         "donate": "Récolter un don\n",
@@ -606,7 +654,11 @@
         "upload": "Transmettre un document"
       },
       "newActions": {
-        "newActionLabel": { "one": "Votre action", "few": "Vos actions", "other": "Vos actions" },
+        "newActionLabel": {
+          "one": "Votre action",
+          "few": "Vos actions",
+          "other": "Vos actions"
+        },
         "actionWillStartFromStart": "Démarre le {{date}}",
         "actionAllreadyStartedFromStart": "A démarré le {{date}}",
         "actionSimpleDateWillFinish": "Finira le {{date}}",
@@ -616,7 +668,9 @@
       "newDocs": "nouveaux documents",
       "missingData": "Il semblerait que certaines données soit manquantes.",
       "reloadLabel": "Rafraichir",
-      "adminView": { "notificationOnlyForAdmin": "Vous avez accès à cette vue car vous êtes administrateur." }
+      "adminView": {
+        "notificationOnlyForAdmin": "Vous avez accès à cette vue car vous êtes administrateur."
+      }
     },
     "popup": {
       "needUpdate": {
