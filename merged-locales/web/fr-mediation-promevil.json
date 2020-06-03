@@ -904,7 +904,7 @@
     "BRIEFS": "Briefs",
     "CAMPAIGN_MAILCHIMP": "Campagnes Mailchimp",
     "CHAT": "Chat et support",
-    "CITIZENS": "Intervention",
+    "CITIZENS": "Interventions",
     "COMMUNICATIONS": "Communication",
     "DISCONNECT": "Déconnexion",
     "DOCS": "Documents",
@@ -1287,10 +1287,10 @@
     },
     "KPI": {
       "HELPERS": "membre | membres",
-      "LEADERS": "administrateur | administrateurs",
-      "MANAGERS": "coordinateur | coordinateurs",
+      "LEADERS": "QG Promévil | QG Promévil",
+      "MANAGERS": "chef d'équipe | chef d'équipe",
       "MEMBERS": "membre et | membres et ",
-      "ORGANIZERS": "superviseur | superviseurs",
+      "ORGANIZERS": "référent ville | référent ville",
       "SUBTITLE": "Ils mobilisent à vos côtés sur Quorum",
       "TEAMS": "équipe | équipes",
       "TITLE": "Votre mouvement rassemble sur Quorum"

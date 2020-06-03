@@ -77,6 +77,11 @@
           "TITLE": "QG Promévil"
         }
       }
+    },
+    "KPI": {
+      "LEADERS": "QG Promévil | QG Promévil",
+      "MANAGERS": "chef d'équipe | chef d'équipe",
+      "ORGANIZERS": "référent ville | référent ville"
     }
   },
   "SETTINGS": {
@@ -106,7 +111,7 @@
   "MENU": {
     "ACTIONS": "Feuilles de route",
     "ISSUE_CENTER": "Tâches",
-    "CITIZENS": "Intervention"
+    "CITIZENS": "Interventions"
   },
   "MANAGEMENT": {
     "ISSUE_CENTER": {
