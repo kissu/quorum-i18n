@@ -103,7 +103,6 @@ export const getJSONLanguageForApplications = async (
   localeSpecific = null,
   platform = 'web'
 ) => {
-  return 'this-is-working-great'
   switch (platform) {
     case 'web':
     case 'mobile': {
