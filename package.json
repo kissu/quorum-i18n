@@ -1,6 +1,6 @@
 {
   "name": "quorum-i18n",
-  "version": "1.3.0",
+  "version": "1.3.3",
   "description": "Repo for all the i18n resources for the Quorum's Sales Team",
   "author": "quorumsco <https://www.quorum.co>",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
     "build:app": "babel src/index.js --out-dir dist",
     "fix:prettier": "prettier --write \"**/*.{json,js}\"",
     "create:language-fallbacks": "node --experimental-json-modules ./createLanguageFallbacks.js",
-    "test:manual": "yarn run build:app && node __tests__/index.test.js"
+    "test:manual": "npm run build:app && node __tests__/index.test.js"
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
@@ -31,6 +31,7 @@
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
     "jest": "^26.0.1",
     "lodash": "^4.17.15",
     "prettier": "^2.0.5"
