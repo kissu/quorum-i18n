@@ -403,9 +403,16 @@
         "metByLabel": "A été rencontré(e)",
         "theLabel": "le",
         "doorLabel": "Porte: ",
+        "callSpecificStatus": {
+          "absentLabel": "N'a pas répondu",
+          "presentLabel": "A répondu",
+          "refusalLabel": "A refusé la conversation",
+          "refusLabel": "A refusé la conversation"
+        },
         "absentLabel": "Absent(e)",
         "presentLabel": "Présent(e)",
         "refusalLabel": "Refus",
+        "refusLabel": "Refus",
         "unnamedLabel": "Individu",
         "genderLabelF": "Mme",
         "genderLabelM": "M.",
@@ -416,7 +423,8 @@
           "present": "A été rencontré(e)",
           "absent": "Était absent(e)",
           "refus": "A refusé la rencontre",
-          "firstMet": "Va être rencontré(e) pour la première fois."
+          "firstMet": "Va être rencontré(e) pour la première fois.",
+          "firstMetPhone": "Va être appelé(e) pour la première fois."
         },
         "callAction": {
           "title": "Appel",
