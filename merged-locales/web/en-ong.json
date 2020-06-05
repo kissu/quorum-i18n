@@ -200,6 +200,7 @@
       "PITCH": "Pitch",
       "PLACEHOLDERS": { "BRIEF": "Choose a brief" },
       "PROGRESS": "Action progress",
+      "SHARING_ACTION": "Shared message",
       "START": "Begins on",
       "TABS": { "CONFIRMED": "Confirmed", "INVITED": "Invited" },
       "TEAMS": "Teams"
