@@ -7,7 +7,7 @@
         "MESSAGE": "You haven't finished creating your action. The information will not be saved. Are you sure to leave ?",
         "TITLE": "Leave the page"
       },
-      "CREATE": "Create an action",
+      "CREATE": "Create your action",
       "ERROR": "An error occurred. Please try again and contact support if the error persists.",
       "FORM_FILTER": {
         "ADD_QUESTION": "Add a question",
@@ -38,23 +38,51 @@
         },
         "TITLE": "New action"
       },
+      "HELP_CENTER": {
+        "LINK_ACTION_CREATION": ""
+      },
       "INFORMATIONS": {
-        "AIM": "What name for this action?",
+        "ADDITIONNAL_HELP_TITLE_STEP_CREATION": "👋 Some details",
+        "ADD_END_DATE": "Add end date",
+        "AIM": "📣 What name for this action?",
+        "AIM_HELPER": "Keep it short for your members.",
+        "AIM_NEEDED": "Your action must have a title.",
         "AIM_PLACEHOLDER": "Be concise! (This info is for your team members)",
-        "BRIEFS": "Would you like to link a talking point?",
-        "COMMENT": "Would you like to join a script?",
+        "BRIEF": "📃 Would you like to add a talking point?",
+        "BRIEFS": "",
+        "BRIEF_CHOOSE_ONE": "Select a talking point",
+        "BRIEF_CREATED_PLACEHOLDER": "Text of your talking point",
+        "BRIEF_NOT_SELECTED": "Not selected",
+        "BRIEF_TITLE": "Title of your talking point",
+        "BRIEF_TITLE_CREATION": "Create a talking point for your members",
+        "COMMENT": "ℹ️ Would you like to join a script?",
         "COMMENT_PLACEHOLDER": "How will the action take place? Who will be on board? Who is the coordinator?",
+        "COUNT_CONTACTS_SELECTED_FROM_DATABASE": "Aucun contact sélectionné | {count} contact sélectionné | {count} contacts sélectionnés",
+        "COUNT_CONTACT_SELECTED": "contact selected in the area | contact selected in the area | contacts selected in the area",
+        "COUNT_CONTACT_SELECTED_CALL": "selected contact with a phone number in the field | selected contact with a phone number in the field | selected contacts with a phone number in the field",
         "CREATE_BRIEF": "Create a new talking point",
-        "DATE": "What is the action's date ?",
+        "DATE": "📅 What is the action's date?",
         "END": "End date",
-        "GOAL": "Would you like to add a goal?",
+        "END_DATE_TIME": "End time",
+        "GOAL": "🎯 Would you like to add a numerical target?",
+        "GOAL_HELPER": "Example: a number of people to meet",
         "GOAL_PLACEHOLDER": "Enter your numeral goal",
-        "LINK": "Would you like to add a link?",
+        "LINK": "🔗 Would you like to add a link?",
+        "LINK_CLICKABLE": "Clickable by your members",
         "LINK_PLACEHOLDER": "Links to WhatsApp, Telegram, webpage etc.",
         "LINK_POPHOVER": "Your members will be able to use this link<br /> to enter a chat room <br />(Telegram, WhatsApp, Signal, …).<br /> or to visit a webpage.",
         "OPTIONNAL": "optional",
+        "PRECISION": {
+          "CONTACT_DATABASE": "From your contact's list in database",
+          "STREETS_AREA": "Simply on street's area",
+          "TITLE": "Do you wan to do action on ?"
+        },
+        "REMOVE_END_DATE": "Remove end date",
+        "SHARING_CONTENT": "What message would you like to be share?",
+        "SHARING_CONTENT_HELPER": "Your teams will be able to forward it to their contacts, via text messages or social media, through the mobile app.",
         "START": "Start date",
-        "TYPE": "Which type of action would you like to start?",
+        "START_DATE_TIME": "Start time",
+        "TYPE": "✊ What type of action would you like to launch?",
         "TYPES": {
           "CALL": "Calls",
           "CANVASSING": "Canvassing",
@@ -64,21 +92,36 @@
           "MAIL": "Handout mail",
           "OTHER": "Other",
           "POSTER": "Posters/Flyers",
+          "SHARING": "Share",
           "STATIC": "Direct conversation"
         },
         "TYPES_INFO": {
-          "CALL": "Call a list of people from your contact base.",
-          "CANVASSING": "Deploy door-to-door campaign and  allow your team to be more effective.",
-          "CHALLENGE": "Surpass yourself and propose a challenge to your team to reach a goal that you have defined.",
-          "EVENT": "Don't miss the date! Create an event to invite your team to join you.",
-          "LEAFLET": "Organise a flyer distribution operation on a static or mobile place defined by you.",
-          "MAIL": "Highlight your cause in a flyer or a letter so that your team can forward it!",
-          "OTHER": "Other ideas in mind? Create an action to share it with your team. ",
-          "POSTER": "Share your flyers to a static or mobile place.",
-          "STATIC": "Propose a meeting point to your team (subway, market, etc.) in order to meet new people."
+          "CALL": "Provide your teams with lists of people to call.<br /><br />• Add a script.<br />• Your teams will call these people directly form the mobile app.<br />• They will also be able to qualify their calls during the talk.",
+          "CANVASSING": "Organize canvassing thanks to a roadmap!<br /><br />• Provide your teams with a list of streets and addresses to visit.<br /> • Add communication tools for your members.<br />• Track live, the information brought by this canvassing.<br />• Follow the progress of \"completed\" streets and streets yet \"to do\".",
+          "CHALLENGE": "Challenge your teams !<br /><br />• Create a quantified target.<br />• Add a deadline.<br />• The team that meets the most people wins the challenge.",
+          "EVENT": "Plan an event from your Quorum space.<br /><br />• Send push notifications to members you wish to invite.<br />• You will know which members are participating.",
+          "LEAFLET": "",
+          "MAIL": "Distribute leaflets efficently thanks to a roadmap!<br /><br />• Provide your teams with a list of streets.<br />• They will be able to state which streets they completed.<br />• Follow the progress of \"completed\" streets and streets yet \"to do\".",
+          "OTHER": "You're full of ideas!<br />Create a personalized action.",
+          "POSTER": "This action allows you to plan a leaflet distribution operation in a precise area.",
+          "SHARING": "Use the network effect!<br/><br/>• share a message with your teams.<br/>• they will then be able to forward it to their contacts via text messages or social media.",
+          "STATIC": "Share a meeting point with your teams.<br /><br />• Pick a meeting date and location.<br />• Send notifications to your members.<br />• Your teams on the field will be able to add citizens directly on the mobile app."
         }
       },
+      "PRECISION": {
+        "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Create an empty action",
+        "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION_DESC": "Your teams in the field won't have a list of addresses to visit.<br /> They can however add citizens as they go. 👍",
+        "ZONE_POLYGON_EMPTY_STREETS_ONLY": "Streets where you don't have any contact",
+        "ZONE_POLYGON_EMPTY_STREETS_ONLY_DESC": "Your teams on the field will have the list of the streets where you don't have any contacts.<br /><br />This feature allows you to cover your area and to add citizens to your database. ✊",
+        "ZONE_POLYGON_WITH_EMPTY_STREETS_AND_CONTACTS": "All streets",
+        "ZONE_POLYGON_WITH_EMPTY_STREETS_AND_CONTACTS_DESC": "Your teams on the field will have the list of all the streets in this area.<br /><br />This feature allows you to target both streets where you have contacts and streets where you don't. 👊",
+        "ZONE_TOO_BIG": "La zone observée est beaucoup trop grande.",
+        "ZONE_WITH_CONTACTS_ONLY": "Streets where you have contacts",
+        "ZONE_WITH_CONTACTS_ONLY_DESC": "Your teams once on the field will have access to all of your contacts from the area.<br /><br />This feature allows you to go and meet your contacts directly. 👍",
+        "ZONE_WITH_CONTACTS_ONLY_EMPTY": ""
+      },
       "SEARCH": {
+        "COUNT_CONTACT_ADDRESSES": "{count} contact | {count} contact | {count} contacts",
         "HELP": "Try modifying your search",
         "TEAM_EMPTY": "No team matches your criteria!\n",
         "TEAM_HELP_CTA": "Create a new team",
@@ -86,13 +129,15 @@
         "USER_EMPTY": "No member matches your criteria!",
         "USER_HELP_CTA": "or invite a new member"
       },
+      "SELECT_MEMBERS_TITLE": "🏆 Who will do this action?",
+      "SUBMIT_INFO": "",
       "SUCCESS": "Action created!",
       "TARGET": {
         "ABSENT_OR_NOT_VISITED": "Absent or never visited",
         "ADDRESS": {
           "ADD": "Add an address",
+          "ADDRESS_LABEL": "Address",
           "CITY": "City",
-          "HOUSENUMBER": "House number",
           "POPHOVER": "This address will be the meeting point.",
           "POSTAL_CODE": "Postcode/Zipcode",
           "STREET": "Street",
@@ -102,22 +147,27 @@
         "ALL": "All people",
         "ANSWER_SECTION": "Survey responses",
         "BEFORE": "Before",
+        "CHOOSE_PLACE": "🗺 Choose the location of your action",
         "CITIZENS": " No one | person selected | people selected",
         "CONTACT_LINK": "the people tab",
         "ERROR": "No one has been selected",
-        "GEO_SECTION": "Select from the contact base",
+        "GEO_SECTION": "🗺 Where you action take place?",
+        "GEO_SECTION_RECAP": "",
+        "HELPER_DRAW_MAP": "You can also draw an area on map",
         "KNOWN_PHONE_ONLY": "With a phone number",
         "KNOWN_PHONE_ONLY_MOBILE": "With a mobile number",
         "MODIFY_MORE_CRITERIA": "To modify your filters, go to ",
         "NEED_MORE_CRITERIA": "More criteria? Add filters from ",
         "NEVER": "Never met",
-        "SEARCH_LABEL": "Street or city",
+        "SEARCH_LABEL": "Streets or cities",
         "SEARCH_PLACEHOLDER": "Filter by street or city",
+        "SELECTED_STREETS_WITHOUT_CONTACTS": "{count} street selected without contacts | {count} street selected without contacts | {count} streets selected without contacts",
+        "SELECTED_STREETS_WITH_CONTACTS": "{count} street selected with contacts | {count} street selected with contacts | {count} streets selected with contacts",
         "SKIP": "Skip",
         "SKIP_CREATE": "Create an action without selecting people",
         "TAGS": "Tags",
         "TAG_PLACEHOLDER": "Filter by tags",
-        "TERRITORY": "Region",
+        "TERRITORY": "Areas",
         "TERRITORY_PLACEHOLDER": "Filter by region",
         "TIMEFORMAT": "DD/MM/YYYY\n",
         "TIME_SECTION": "Filter",
@@ -134,16 +184,38 @@
       }
     },
     "DETAIL": {
+      "ACTION_NAME": "Action name",
+      "ADD": {
+        "MEMBER": "Add an attendee",
+        "TEAM": "Add a team",
+        "TEAM_TO_ADD": "Team to add"
+      },
+      "ADDITIVES_INFORMATIONS": "Additional informations",
       "ADDRESSES": "Address | Addresses",
+      "ALL_MEMBERS_ADDED": "All members have been selected",
+      "ALL_TEAMS_ADDED": "All teams have been added",
       "BRIEF": "Talking Point",
+      "CONFIRMED_PARTICIPATIONS": "{amount} confirmed participation | {amount} confirmed participations",
       "DATES": "Dates",
       "END": "Ends on",
       "LINK": "Link",
-      "MEMBERS": "Participants",
+      "MEETING_POINT_UNDEFINED": "Meeting point : no information",
+      "MEMBERS": "Invited members",
+      "MODAL_ACTION": "{action} the action",
+      "NO_CURRENT_TEAM": "No current team",
       "NO_MEMBER": "No member for this action",
+      "NO_MEMBERS_INVITED": "No invited members",
       "NO_PITCH": "No pitch for this action",
       "NO_TEAM": "No team for this action",
+      "PICKERS": {
+        "CHOOSE_DAY": "Choose a date",
+        "CHOOSE_TIME": "Choose hour"
+      },
       "PITCH": "Pitch",
+      "PLACEHOLDERS": {
+        "BRIEF": "Choose a brief"
+      },
+      "PROGRESS": "Action progress",
       "START": "Begins on",
       "TABS": {
         "CONFIRMED": "Confirmed",
@@ -158,7 +230,7 @@
       "ADD_TEAM": "Add a team",
       "ADD_TEAM_PLACEHOLDER": "Search for a team",
       "ALL_TEAMS_ALREADY_SELECTED": "All teams are already selected",
-      "ALL_USERS_ALREADY_SELECTED": "Toutes les équipes ont été sélectionnées",
+      "ALL_USERS_ALREADY_SELECTED": "All invited members have been added",
       "BRIEF": "Talking Point",
       "COMMENT": "Comments\n",
       "CONFIRM": {
@@ -175,24 +247,39 @@
       "NAME": "Last Name",
       "NO_EMPTY_NAME": "You must enter the name of the action",
       "NO_EMPTY_TEAM": "You must have at least one member invited.",
+      "SELECT_ONE_AT_LEAST": "Please select at least one user or team",
+      "STREET_OR_CITY": "Street or city",
       "SUCCESS": "Action successfully updated",
-      "TEAMS": "Teams"
+      "TEAMS": "Teams",
+      "TERRITORY": "Territories"
     },
     "LIST": {
       "ACTIONS_SELECTED": "No action selected | {count} action selected | {count} actions selected",
       "ACTION_IS_OVER": "The action's date is exceeded.",
+      "ACTION_NOW": "Your action is now {status} !",
       "ADD_ACTION_POLY": "Create an action here",
       "ARCHIVE": "Archive",
       "ARCHIVED_ACTION": "Note as completed",
+      "CLOSE": "Close",
+      "CONFIRMATION_OPEN_CLOSE": "Are you sure you want to {action} the action?",
       "CONFIRMED": "0 attendee | 1 attendee | %{count} attendees",
       "CREATED_AT": "Created on",
       "DELETE_SUCCESS": "The action \"{name}\" has been deleted",
+      "DELETION": {
+        "CONFIRMATION": "You are about to delete this action",
+        "TITLE": "Deleting an action"
+      },
       "EDIT_ACTION": "Edit action",
+      "ERROR_HAPPENED": {
+        "TOGGLE": "An error occurred while deleting your action."
+      },
       "FINISH": "End action | End {count} actions",
       "FINISHED": "Action completed",
       "MEMBERS": "0 invited | 1 invited | %{count} invited",
       "MET": "{count} reached | {count} reached | {count} reached",
       "NO_DATA": "No action planned for now! Time to hit the ground!  ✨",
+      "OPENED": "Opened",
+      "OPEN_BACK": "Reopen",
       "PENDING_TEXT": "Please wait, we're setting the scene!",
       "REOPEN": "Relaunch action | Relaunch {count} actions",
       "RUNNING": "Ongoing Action | Ongoing Action | Ongoing Actions",
@@ -220,6 +307,7 @@
         "MAIL": "Mailing",
         "OTHER": "Other",
         "POSTER": "Posters",
+        "SHARING": "",
         "STATIC": "Meeting"
       },
       "UPDATE_ERROR": "Error: the action \"{name}\" has not been updated",
@@ -370,10 +458,25 @@
     }
   },
   "CARTO": {
+    "CAPTION": {
+      "FROM": "from",
+      "LESS": "less than",
+      "MORE": "more than",
+      "TO": "to"
+    },
     "CC": {
       "CALL_TO_ACTION": {
         "ACTIONS": "Action in progress | Actions in progress",
         "ADD_ACTION": "Create an action",
+        "ADD_ACTION_FIRST_STEP": {
+          "COMBINE_CONTACTS_UNKNOW_STREETS": "My contacts and all streets in this area",
+          "ERROR_CANNOT_CREATE_ACTION_TOO_LARGE": "This area is to big, you can't create an action on this.",
+          "NEED_HELP_FIRST_SENTENCE": "Need help to create an action ? Take a look at ",
+          "NEED_HELP_SECOND_SENTENCE": "this article.",
+          "ONLY_CONTACTS": "My contacts only",
+          "START_LABEL_BUTTON": "Start",
+          "TITLE": "You want to create an action on :"
+        },
         "ADD_ACTION_HERE": "Create an action here",
         "CONTACTS": "Contact database",
         "CONTACTS_HERE": "No contacts in this area | One contact in the area | {count} contacts in the area",
@@ -441,7 +544,9 @@
           "IRIS": "Zone",
           "MUNICIPALITY": "City",
           "POLLING_STATION": "Polling Station",
+          "PROVINCE": "",
           "REGION": "Region",
+          "SECTOR": "",
           "WARD": "Ward"
         },
         "MAIL": "E-mail: ",
@@ -454,12 +559,14 @@
         "PRIO": {
           "$1": "Priority #1 - Area to visit",
           "$5": "Priority #5 - Area with no priority",
-          "$DEFAULT": "Priority {count}"
+          "$DEFAULT": "Priority {count}",
+          "PRIORITY": "Priority"
         },
         "PRIORISATION": "Profiles and Priority areas",
         "PRIO_LATENCY": "Your analysis will reload automatically shortly",
         "RETRY": "Try again",
         "ROLE": "Role: ",
+        "SATELLITE_MODE": "Satellite mode",
         "SEE_PROFILE": "See profile",
         "TODO": "To do",
         "ZOOM_IN": "Zoom in",
@@ -609,7 +716,7 @@
           "NO_AGE": "No age available"
         },
         "AREA51": "Location",
-        "DATE": "Met since",
+        "DATE": "Visited since",
         "GENDER": "Gender",
         "IN_AREA51": "Unknown address",
         "MAIL": "Email",
@@ -1012,7 +1119,7 @@
       "ACTIVATE": "Activate this integration",
       "ACTIVE": "Active",
       "ALLOW_FORM_ON_REFUSAL": "Display survey, even in case of refusal",
-      "CODE": "Invitation code",
+      "CODE": "Secret nickname",
       "CONFIG_MOBILE": "Mobile configuration",
       "DISABLE_AROUND_YOU": "Disable \"Around me\" on mobile",
       "DISABLE_AROUND_YOU_TOOLTIP": "\"Around me\" allows mobile users to see addresses from the databases around them.",
@@ -1180,8 +1287,8 @@
       "BETA": "BETA"
     },
     "MY_CAMPAIGNS": {
-      "CAMPAIGN_CODE": "Invitation code",
-      "CAMPAIGN_ENDING": "End of the subscription",
+      "CAMPAIGN_CODE": "Cause code",
+      "CAMPAIGN_ENDING": "Campaign ending",
       "DESCRIPTION": "Here you will find all your Quorum spaces.",
       "TERRITORY": "Area",
       "TITLE": "My spaces"
@@ -1201,6 +1308,7 @@
       "NEW_PASSWORD": "New password",
       "OLD_ENTITY": "Old password",
       "OLD_PASSWORD": "Fill in your former password",
+      "PATTERN": "",
       "PLACEHOLDERS": {
         "CONFIRM": "Please confirm password",
         "EMAIL": "Email",
@@ -1342,8 +1450,8 @@
     },
     "INVITE": {
       "ADD_MORE": "Add more people ",
-      "CAMPAIGNCODE": "For information, your invitation code is",
-      "CHANGE_CODE": "Change your organisation's invitation code",
+      "CAMPAIGNCODE": "For information, your secret nickname is",
+      "CHANGE_CODE": "Change your organisation's secret nickname",
       "CTA": "Share ({count}) ",
       "EMAIL_ERROR": "Please enter a valid email address",
       "ERROR": "An error occurred, please try again",
@@ -1359,7 +1467,7 @@
       "LEADERS": "admin | admins",
       "MANAGERS": "field organiser | field organisers",
       "MEMBERS": "member and | members and ",
-      "ORGANIZERS": "staff | staff",
+      "ORGANIZERS": "staff | staff members",
       "SUBTITLE": "Composition of the team",
       "TEAMS": "team | teams",
       "TITLE": "Your organisation gathers "
@@ -1449,10 +1557,13 @@
     "EMAIL": "Please enter a valid email",
     "ENTITY_MUST_CONTAIN": "Your {entity} must contain {correctFormat}",
     "FIELDS_SHOULD_NOT": "{firstEntity} and {secondEntity} fields should not be {comparative}.",
+    "MAXIMUM": "{entity} must not have more than {amount} characters.",
     "MINIMUM": "{entity} must have at least {amount} characters.",
+    "MINIMUM_VALUE": "{entity} must be {amount} or more.",
     "REQUIRED": "This field is required",
     "REQUIRED_IF": "This field must be filled if {otherField} is not empty.",
     "RESPECT_THE_FORMAT": "Please follow the required format",
+    "STARTS_WITH_HTTPS": "This field must contain a valid URL with the prefix https://",
     "WRONG_REGEX_FORMAT": "Please respect the following format: {correctFormat}"
   },
   "VENDORS": {
@@ -1490,11 +1601,11 @@
       },
       "18-24_ERIS_per_population_18-24_perc": {
         "gender": "m",
-        "label": "Eris 18-24 y/o"
+        "label": "ERIS 18-24 y/o"
       },
       "18-64_ERIS_per_population_18-64_perc": {
         "gender": "m",
-        "label": "Eris 18-64 y/o"
+        "label": "ERIS 18-64 y/o"
       },
       "2-5": {
         "label": "2 - 5 years"
@@ -1507,7 +1618,7 @@
       },
       "25-44_ERIS_per_population_25-44_perc": {
         "gender": "m",
-        "label": "Eris 25-44 y/o"
+        "label": "ERIS 25-44 y/o"
       },
       "25-49_agency_seasonal_temporary_workers_per_employees_25-49_perc": {
         "gender": "m",
@@ -1533,7 +1644,7 @@
       },
       "45-64_ERIS_per_population_45-64_perc": {
         "gender": "m",
-        "label": "Eris 45-64 y/o"
+        "label": "ERIS 45-64 y/o"
       },
       "5-9": {
         "label": "5 - 9 years"
@@ -1561,1268 +1672,20 @@
         "label": "75 years and above"
       },
       "A-level_score_per_entry": {
-        "label": "A-level average point score per entry - period 2013 - 2014"
+        "label": "A-Level Average Point Score Per Entry - Period 2013 - 2014"
       },
       "A-level_score_per_student": {
-        "label": "A-level average point score per student - period 2013 - 2014"
-      },
-      "ACTOCC15P_DROU": {
-        "label": "Going to work bicycle or motorbike"
-      },
-      "ACTOCC15P_DROU_EVOL_RAW": {
-        "label": "Going to work bicycle or motorbike - evolution"
-      },
-      "ACTOCC15P_DROU_PER_ACTOCC15P": {
-        "label": "Going to work bicycle or motorbike"
-      },
-      "ACTOCC15P_DROU_PER_ACTOCC15P_EVOL_RAW": {
-        "label": "Going to work bicycle or motorbike - evolution"
-      },
-      "ACTOCC15P_MAR": {
-        "label": "Going to work walking"
-      },
-      "ACTOCC15P_MAR_EVOL_RAW": {
-        "label": "Going to work walking - evolution"
-      },
-      "ACTOCC15P_MAR_PER_ACTOCC15P": {
-        "label": "Going to work walking"
-      },
-      "ACTOCC15P_MAR_PER_ACTOCC15P_EVOL_RAW": {
-        "label": "Going to work walking - evolution"
-      },
-      "ACTOCC15P_PAS": {
-        "label": "Going to work without using transportation"
-      },
-      "ACTOCC15P_PAS_EVOL_RAW": {
-        "label": "Going to work without using transportation - evolution"
-      },
-      "ACTOCC15P_PAS_PER_ACTOCC15P": {
-        "label": "Going to work without using transportation"
-      },
-      "ACTOCC15P_PAS_PER_ACTOCC15P_EVOL_RAW": {
-        "label": "Going to work without using transportation - evolution"
-      },
-      "ACTOCC15P_TCOM": {
-        "label": "Going to work public transportation"
-      },
-      "ACTOCC15P_TCOM_EVOL_RAW": {
-        "label": "Going to work public transportation - evolution"
-      },
-      "ACTOCC15P_TCOM_PER_ACTOCC15P": {
-        "label": "Going to work public transportation"
-      },
-      "ACTOCC15P_TCOM_PER_ACTOCC15P_EVOL_RAW": {
-        "label": "Going to work public transportation - evolution"
-      },
-      "ACTOCC15P_VOIT": {
-        "label": "Going to work car"
-      },
-      "ACTOCC15P_VOIT_EVOL_RAW": {
-        "label": "Going to work car - evolution"
-      },
-      "ACTOCC15P_VOIT_PER_ACTOCC15P": {
-        "label": "Going to work car"
-      },
-      "ACTOCC15P_VOIT_PER_ACTOCC15P_EVOL_RAW": {
-        "label": "Going to work car - evolution"
-      },
-      "AVERAGE_AGE": {
-        "label": "Average age"
-      },
-      "AVERAGE_AGE_EVOL_RAW": {
-        "label": "Average age - evolution"
-      },
-      "CHOM1524": {
-        "label": "Unemployed 15-24 y/o"
-      },
-      "CHOM1524_EVOL_RAW": {
-        "label": "Unemployed 15-24 y/o - evolution"
-      },
-      "CHOM1524_PER_ACT1524": {
-        "label": "Unemployed 15-24 y/o"
-      },
-      "CHOM1524_PER_ACT1524_EVOL_RAW": {
-        "label": "Unemployed 15-24 y/o - evolution"
-      },
-      "CHOM1564": {
-        "label": "Unemployed 15-64 y/o"
-      },
-      "CHOM1564_EVOL_RAW": {
-        "label": "Unemployed 15-64 y/o - evolution"
-      },
-      "CHOM1564_PER_ACT1564": {
-        "label": "Unemployed 15-64 y/o"
-      },
-      "CHOM1564_PER_ACT1564_EVOL_RAW": {
-        "label": "Unemployed 15-64 y/o - evolution"
-      },
-      "CHOM2554": {
-        "label": "Unemployed 25-54 y/o"
-      },
-      "CHOM2554_EVOL_RAW": {
-        "label": "Unemployed 25-54 y/o - evolution"
-      },
-      "CHOM2554_PER_ACT2554": {
-        "label": "Unemployed 25-54 y/o"
-      },
-      "CHOM2554_PER_ACT2554_EVOL_RAW": {
-        "label": "Unemployed 25-54 y/o - evolution"
-      },
-      "CHOM5564": {
-        "label": "Unemployed 55-64 y/o"
-      },
-      "CHOM5564_EVOL_RAW": {
-        "label": "Unemployed 55-64 y/o - evolution"
-      },
-      "CHOM5564_PER_ACT5564": {
-        "label": "Unemployed 55-64 y/o"
-      },
-      "CHOM5564_PER_ACT5564_EVOL_RAW": {
-        "label": "Unemployed 55-64 y/o - evolution"
-      },
-      "F0014": {
-        "label": "Female population 0-14 y/o"
-      },
-      "F0014_EVOL_RAW": {
-        "label": "Female population 0-14 y/o - evolution"
-      },
-      "F0014_PER_POPF": {
-        "label": "Female population 0-14 y/o"
-      },
-      "F0014_PER_POPF_EVOL_RAW": {
-        "label": "Female population 0-14 y/o - evolution"
-      },
-      "F1529": {
-        "label": "Female population 15-29 y/o"
-      },
-      "F1529_EVOL_RAW": {
-        "label": "Female population 15-29 y/o - evolution"
-      },
-      "F1529_PER_POPF": {
-        "label": "Female population 15-29 y/o"
-      },
-      "F1529_PER_POPF_EVOL_RAW": {
-        "label": "Female population 15-29 y/o - evolution"
-      },
-      "F15P_CS1": {
-        "label": "Female farmers"
-      },
-      "F15P_CS1_EVOL_RAW": {
-        "label": "Female farmers - evolution"
-      },
-      "F15P_CS1_PER_F15P": {
-        "label": "Female farmers"
-      },
-      "F15P_CS1_PER_F15P_EVOL_RAW": {
-        "label": "Female farmers - evolution"
-      },
-      "F15P_CS2": {
-        "label": "Female craftsmen, traders, entrepreneurs"
-      },
-      "F15P_CS2_EVOL_RAW": {
-        "label": "Female craftsmen, traders, entrepreneurs - evolution"
-      },
-      "F15P_CS2_PER_F15P": {
-        "label": "Female craftsmen, traders, entrepreneurs"
-      },
-      "F15P_CS2_PER_F15P_EVOL_RAW": {
-        "label": "Female craftsmen, traders, entrepreneurs - evolution"
-      },
-      "F15P_CS3": {
-        "label": "Female managers, higher professions"
-      },
-      "F15P_CS3_EVOL_RAW": {
-        "label": "Female managers, higher professions - evolution"
-      },
-      "F15P_CS3_PER_F15P": {
-        "label": "Female managers, higher professions"
-      },
-      "F15P_CS3_PER_F15P_EVOL_RAW": {
-        "label": "Female managers, higher professions - evolution"
-      },
-      "F15P_CS4": {
-        "label": "Female intermediate professions"
-      },
-      "F15P_CS4_EVOL_RAW": {
-        "label": "Female intermediate professions - evolution"
-      },
-      "F15P_CS4_PER_F15P": {
-        "label": "Female intermediate professions"
-      },
-      "F15P_CS4_PER_F15P_EVOL_RAW": {
-        "label": "Female intermediate professions - evolution"
-      },
-      "F15P_CS5": {
-        "label": "Female employees"
-      },
-      "F15P_CS5_EVOL_RAW": {
-        "label": "Female employees - evolution"
-      },
-      "F15P_CS5_PER_F15P": {
-        "label": "Female employees"
-      },
-      "F15P_CS5_PER_F15P_EVOL_RAW": {
-        "label": "Female employees - evolution"
-      },
-      "F15P_CS6": {
-        "label": "Female workers"
-      },
-      "F15P_CS6_EVOL_RAW": {
-        "label": "Female workers - evolution"
-      },
-      "F15P_CS6_PER_F15P": {
-        "label": "Female workers"
-      },
-      "F15P_CS6_PER_F15P_EVOL_RAW": {
-        "label": "Female workers - evolution"
-      },
-      "F15P_CS7": {
-        "label": "Female retired"
-      },
-      "F15P_CS7_EVOL_RAW": {
-        "label": "Female retired - evolution"
-      },
-      "F15P_CS7_PER_F15P": {
-        "label": "Female retired"
-      },
-      "F15P_CS7_PER_F15P_EVOL_RAW": {
-        "label": "Female retired - evolution"
-      },
-      "F15P_CS8": {
-        "label": "Female others"
-      },
-      "F15P_CS8_EVOL_RAW": {
-        "label": "Female others - evolution"
-      },
-      "F15P_CS8_PER_F15P": {
-        "label": "Female others"
-      },
-      "F15P_CS8_PER_F15P_EVOL_RAW": {
-        "label": "Female others - evolution"
-      },
-      "F3044": {
-        "label": "Female population 30-44 y/o"
-      },
-      "F3044_EVOL_RAW": {
-        "label": "Female population 30-44 y/o - evolution"
-      },
-      "F3044_PER_POPF": {
-        "label": "Female population 30-44 y/o"
-      },
-      "F3044_PER_POPF_EVOL_RAW": {
-        "label": "Female population 30-44 y/o - evolution"
-      },
-      "F4559": {
-        "label": "Female population 45-59 y/o"
-      },
-      "F4559_EVOL_RAW": {
-        "label": "Female population 45-59 y/o - evolution"
-      },
-      "F4559_PER_POPF": {
-        "label": "Female population 45-59 y/o"
-      },
-      "F4559_PER_POPF_EVOL_RAW": {
-        "label": "Female population 45-59 y/o - evolution"
-      },
-      "F6074": {
-        "label": "Female population 60-74 y/o"
-      },
-      "F6074_EVOL_RAW": {
-        "label": "Female population 60-74 y/o - evolution"
-      },
-      "F6074_PER_POPF": {
-        "label": "Female population 60-74 y/o"
-      },
-      "F6074_PER_POPF_EVOL_RAW": {
-        "label": "Female population 60-74 y/o - evolution"
-      },
-      "F75P": {
-        "label": "Female population 75+ y/o"
-      },
-      "F75P_EVOL_RAW": {
-        "label": "Female population 75+ y/o - evolution"
-      },
-      "F75P_PER_POPF": {
-        "label": "Female population 75+ y/o"
-      },
-      "F75P_PER_POPF_EVOL_RAW": {
-        "label": "Female population 75+ y/o - evolution"
-      },
-      "FCHOM1564": {
-        "label": "Female unemployed 15-64 y/o"
-      },
-      "FCHOM1564_EVOL_RAW": {
-        "label": "Female unemployed 15-64 y/o - evolution"
-      },
-      "FCHOM1564_PER_FACT1564": {
-        "label": "Female unemployed 15-64 y/o"
-      },
-      "FCHOM1564_PER_FACT1564_EVOL_RAW": {
-        "label": "Female unemployed 15-64 y/o - evolution"
-      },
-      "FNSCOL15P_BAC": {
-        "label": "Female out-of-school with a bachelor's degree"
-      },
-      "FNSCOL15P_BAC_EVOL_RAW": {
-        "label": "Female out-of-school with a bachelor's degree - evolution"
-      },
-      "FNSCOL15P_BAC_PER_FNSCOL15P": {
-        "label": "Female out-of-school with a bachelor's degree"
-      },
-      "FNSCOL15P_BAC_PER_FNSCOL15P_EVOL_RAW": {
-        "label": "Female out-of-school with a bachelor's degree - evolution"
-      },
-      "FNSCOL15P_CAPBEP": {
-        "label": "Female out-of-school with a vocational diploma"
-      },
-      "FNSCOL15P_CAPBEP_EVOL_RAW": {
-        "label": "Female out-of-school with a vocational diploma - evolution"
-      },
-      "FNSCOL15P_CAPBEP_PER_FNSCOL15P": {
-        "label": "Female out-of-school with a vocational diploma"
-      },
-      "FNSCOL15P_CAPBEP_PER_FNSCOL15P_EVOL_RAW": {
-        "label": "Female out-of-school with a vocational diploma - evolution"
-      },
-      "FNSCOL15P_DIPLMIN": {
-        "label": "Female out-of-school without a diploma"
-      },
-      "FNSCOL15P_DIPLMIN_EVOL_RAW": {
-        "label": "Female out-of-school without a diploma - evolution"
-      },
-      "FNSCOL15P_DIPLMIN_PER_FNSCOL15P": {
-        "label": "Female out-of-school without a diploma"
-      },
-      "FNSCOL15P_DIPLMIN_PER_FNSCOL15P_EVOL_RAW": {
-        "label": "Female out-of-school without a diploma - evolution"
-      },
-      "FNSCOL15P_SUP": {
-        "label": "Female out-of-school with a higher education diploma"
-      },
-      "FNSCOL15P_SUP_EVOL_RAW": {
-        "label": "Female out-of-school with a higher education diploma - evolution"
-      },
-      "FNSCOL15P_SUP_PER_FNSCOL15P": {
-        "label": "Female out-of-school with a higher education diploma"
-      },
-      "FNSCOL15P_SUP_PER_FNSCOL15P_EVOL_RAW": {
-        "label": "Female out-of-school with a higher education diploma - evolution"
+        "label": "A-Level Average Point Score Per Student - Period 2013 - 2014"
       },
       "GCSE_average": {
-        "label": "Average gcse capped point scores - 2014"
+        "label": "Average GCSE capped point scores - 2014"
       },
       "GRAPA/RG_per_population_65-_perc": {
         "gender": "m",
-        "label": "Grapa/rg among 65+ y/o"
-      },
-      "H0014": {
-        "label": "Male population 0-14 y/o"
-      },
-      "H0014_EVOL_RAW": {
-        "label": "Male population 0-14 y/o - evolution"
-      },
-      "H0014_PER_POPH": {
-        "label": "Male population 0-14 y/o"
-      },
-      "H0014_PER_POPH_EVOL_RAW": {
-        "label": "Male population 0-14 y/o - evolution"
-      },
-      "H1529": {
-        "label": "Male population 15-29 y/o"
-      },
-      "H1529_EVOL_RAW": {
-        "label": "Male population 15-29 y/o - evolution"
-      },
-      "H1529_PER_POPH": {
-        "label": "Male population 15-29 y/o"
-      },
-      "H1529_PER_POPH_EVOL_RAW": {
-        "label": "Male population 15-29 y/o - evolution"
-      },
-      "H15P_CS1": {
-        "label": "Male farmers"
-      },
-      "H15P_CS1_EVOL_RAW": {
-        "label": "Male farmers - evolution"
-      },
-      "H15P_CS1_PER_H15P": {
-        "label": "Male farmers"
-      },
-      "H15P_CS1_PER_H15P_EVOL_RAW": {
-        "label": "Male farmers - evolution"
-      },
-      "H15P_CS2": {
-        "label": "Male craftsmen, traders, entrepreneurs"
-      },
-      "H15P_CS2_EVOL_RAW": {
-        "label": "Male craftsmen, traders, entrepreneurs - evolution"
-      },
-      "H15P_CS2_PER_H15P": {
-        "label": "Male craftsmen, traders, entrepreneurs"
-      },
-      "H15P_CS2_PER_H15P_EVOL_RAW": {
-        "label": "Male craftsmen, traders, entrepreneurs - evolution"
-      },
-      "H15P_CS3": {
-        "label": "Male managers, higher professions"
-      },
-      "H15P_CS3_EVOL_RAW": {
-        "label": "Male managers, higher professions - evolution"
-      },
-      "H15P_CS3_PER_H15P": {
-        "label": "Male managers, higher professions"
-      },
-      "H15P_CS3_PER_H15P_EVOL_RAW": {
-        "label": "Male managers, higher professions - evolution"
-      },
-      "H15P_CS4": {
-        "label": "Male intermediate professions"
-      },
-      "H15P_CS4_EVOL_RAW": {
-        "label": "Male intermediate professions - evolution"
-      },
-      "H15P_CS4_PER_H15P": {
-        "label": "Male intermediate professions"
-      },
-      "H15P_CS4_PER_H15P_EVOL_RAW": {
-        "label": "Male intermediate professions - evolution"
-      },
-      "H15P_CS5": {
-        "label": "Male employees"
-      },
-      "H15P_CS5_EVOL_RAW": {
-        "label": "Male employees - evolution"
-      },
-      "H15P_CS5_PER_H15P": {
-        "label": "Male employees"
-      },
-      "H15P_CS5_PER_H15P_EVOL_RAW": {
-        "label": "Male employees - evolution"
-      },
-      "H15P_CS6": {
-        "label": "Male workers"
-      },
-      "H15P_CS6_EVOL_RAW": {
-        "label": "Male workers - evolution"
-      },
-      "H15P_CS6_PER_H15P": {
-        "label": "Male workers"
-      },
-      "H15P_CS6_PER_H15P_EVOL_RAW": {
-        "label": "Male workers - evolution"
-      },
-      "H15P_CS7": {
-        "label": "Male retired"
-      },
-      "H15P_CS7_EVOL_RAW": {
-        "label": "Male retired - evolution"
-      },
-      "H15P_CS7_PER_H15P": {
-        "label": "Male retired"
-      },
-      "H15P_CS7_PER_H15P_EVOL_RAW": {
-        "label": "Male retired - evolution"
-      },
-      "H15P_CS8": {
-        "label": "Male others"
-      },
-      "H15P_CS8_EVOL_RAW": {
-        "label": "Male others - evolution"
-      },
-      "H15P_CS8_PER_H15P": {
-        "label": "Male others"
-      },
-      "H15P_CS8_PER_H15P_EVOL_RAW": {
-        "label": "Male others - evolution"
-      },
-      "H3044": {
-        "label": "Male population 30-44 y/o"
-      },
-      "H3044_EVOL_RAW": {
-        "label": "Male population 30-44 y/o - evolution"
-      },
-      "H3044_PER_POPH": {
-        "label": "Male population 30-44 y/o"
-      },
-      "H3044_PER_POPH_EVOL_RAW": {
-        "label": "Male population 30-44 y/o - evolution"
-      },
-      "H4559": {
-        "label": "Male population 45-59 y/o"
-      },
-      "H4559_EVOL_RAW": {
-        "label": "Male population 45-59 y/o - evolution"
-      },
-      "H4559_PER_POPH": {
-        "label": "Male population 45-59 y/o"
-      },
-      "H4559_PER_POPH_EVOL_RAW": {
-        "label": "Male population 45-59 y/o - evolution"
-      },
-      "H6074": {
-        "label": "Male population 60-74 y/o"
-      },
-      "H6074_EVOL_RAW": {
-        "label": "Male population 60-74 y/o - evolution"
-      },
-      "H6074_PER_POPH": {
-        "label": "Male population 60-74 y/o"
-      },
-      "H6074_PER_POPH_EVOL_RAW": {
-        "label": "Male population 60-74 y/o - evolution"
-      },
-      "H75P": {
-        "label": "Male population 75+ y/o"
-      },
-      "H75P_EVOL_RAW": {
-        "label": "Male population 75+ y/o - evolution"
-      },
-      "H75P_PER_POPH": {
-        "label": "Male population 75+ y/o"
-      },
-      "H75P_PER_POPH_EVOL_RAW": {
-        "label": "Male population 75+ y/o - evolution"
-      },
-      "HCHOM1564": {
-        "label": "Male unemployed 15-64 y/o"
-      },
-      "HCHOM1564_EVOL_RAW": {
-        "label": "Male unemployed 15-64 y/o - evolution"
-      },
-      "HCHOM1564_PER_HACT1564": {
-        "label": "Male unemployed 15-64 y/o"
-      },
-      "HCHOM1564_PER_HACT1564_EVOL_RAW": {
-        "label": "Male unemployed 15-64 y/o - evolution"
-      },
-      "HNSCOL15P_BAC": {
-        "label": "Male out-of-school with a bachelor's degree"
-      },
-      "HNSCOL15P_BAC_EVOL_RAW": {
-        "label": "Male out-of-school with a bachelor's degree - evolution"
-      },
-      "HNSCOL15P_BAC_PER_HNSCOL15P": {
-        "label": "Male out-of-school with a bachelor's degree"
-      },
-      "HNSCOL15P_BAC_PER_HNSCOL15P_EVOL_RAW": {
-        "label": "Male out-of-school with a bachelor's degree - evolution"
-      },
-      "HNSCOL15P_CAPBEP": {
-        "label": "Male out-of-school with a vocational diploma"
-      },
-      "HNSCOL15P_CAPBEP_EVOL_RAW": {
-        "label": "Male out-of-school with a vocational diploma - evolution"
-      },
-      "HNSCOL15P_CAPBEP_PER_HNSCOL15P": {
-        "label": "Male out-of-school with a vocational diploma"
-      },
-      "HNSCOL15P_CAPBEP_PER_HNSCOL15P_EVOL_RAW": {
-        "label": "Male out-of-school with a vocational diploma - evolution"
-      },
-      "HNSCOL15P_DIPLMIN": {
-        "label": "Male out-of-school without a diploma"
-      },
-      "HNSCOL15P_DIPLMIN_EVOL_RAW": {
-        "label": "Male out-of-school without a diploma - evolution"
-      },
-      "HNSCOL15P_DIPLMIN_PER_HNSCOL15P": {
-        "label": "Male out-of-school without a diploma"
-      },
-      "HNSCOL15P_DIPLMIN_PER_HNSCOL15P_EVOL_RAW": {
-        "label": "Male out-of-school without a diploma - evolution"
-      },
-      "HNSCOL15P_SUP": {
-        "label": "Male out-of-school with a higher education diploma"
-      },
-      "HNSCOL15P_SUP_EVOL_RAW": {
-        "label": "Male out-of-school with a higher education diploma - evolution"
-      },
-      "HNSCOL15P_SUP_PER_HNSCOL15P": {
-        "label": "Male out-of-school with a higher education diploma"
-      },
-      "HNSCOL15P_SUP_PER_HNSCOL15P_EVOL_RAW": {
-        "label": "Male out-of-school with a higher education diploma - evolution"
-      },
-      "MENFSEUL": {
-        "label": "Women living alone"
-      },
-      "MENFSEUL_EVOL_RAW": {
-        "label": "Women living alone - evolution"
-      },
-      "MENFSEUL_PER_MEN": {
-        "label": "Women living alone"
-      },
-      "MENFSEUL_PER_MEN_EVOL_RAW": {
-        "label": "Women living alone - evolution"
-      },
-      "MENHSEUL": {
-        "label": "Men living alone"
-      },
-      "MENHSEUL_EVOL_RAW": {
-        "label": "Men living alone - evolution"
-      },
-      "MENHSEUL_PER_MEN": {
-        "label": "Men living alone"
-      },
-      "MENHSEUL_PER_MEN_EVOL_RAW": {
-        "label": "Men living alone - evolution"
-      },
-      "MENPSEUL": {
-        "label": "People living alone"
-      },
-      "MENPSEUL_EVOL_RAW": {
-        "label": "People living alone - evolution"
-      },
-      "MENPSEUL_PER_MEN": {
-        "label": "People living alone"
-      },
-      "MENPSEUL_PER_MEN_EVOL_RAW": {
-        "label": "People living alone - evolution"
-      },
-      "NE24F0": {
-        "label": "Families without children younger than 25 y/o"
-      },
-      "NE24F0_EVOL_RAW": {
-        "label": "Families without children younger than 25 y/o - evolution"
-      },
-      "NE24F0_PER_FAM": {
-        "label": "Families without children younger than 25 y/o"
-      },
-      "NE24F0_PER_FAM_EVOL_RAW": {
-        "label": "Families without children younger than 25 y/o - evolution"
-      },
-      "NE24F1": {
-        "label": "Families with 1 children younger than 25 y/o"
-      },
-      "NE24F1_EVOL_RAW": {
-        "label": "Families with 1 children younger than 25 y/o - evolution"
-      },
-      "NE24F1_PER_FAM": {
-        "label": "Families with 1 children younger than 25 y/o"
-      },
-      "NE24F1_PER_FAM_EVOL_RAW": {
-        "label": "Families with 1 children younger than 25 y/o - evolution"
-      },
-      "NE24F2": {
-        "label": "Families with 2 children younger than 25 y/o"
-      },
-      "NE24F2_EVOL_RAW": {
-        "label": "Families with 2 children younger than 25 y/o - evolution"
-      },
-      "NE24F2_PER_FAM": {
-        "label": "Families with 2 children younger than 25 y/o"
-      },
-      "NE24F2_PER_FAM_EVOL_RAW": {
-        "label": "Families with 2 children younger than 25 y/o - evolution"
-      },
-      "NE24F3": {
-        "label": "Families with 3 children younger than 25 y/o"
-      },
-      "NE24F3_EVOL_RAW": {
-        "label": "Families with 3 children younger than 25 y/o - evolution"
-      },
-      "NE24F3_PER_FAM": {
-        "label": "Families with 3 children younger than 25 y/o"
-      },
-      "NE24F3_PER_FAM_EVOL_RAW": {
-        "label": "Families with 3 children younger than 25 y/o - evolution"
-      },
-      "NE24F4P": {
-        "label": "Families with 4+ children younger than 25 y/o"
-      },
-      "NE24F4P_EVOL_RAW": {
-        "label": "Families with 4+ children younger than 25 y/o - evolution"
-      },
-      "NE24F4P_PER_FAM": {
-        "label": "Families with 4+ children younger than 25 y/o"
-      },
-      "NE24F4P_PER_FAM_EVOL_RAW": {
-        "label": "Families with 4+ children younger than 25 y/o - evolution"
-      },
-      "NPER_RP_GRAT": {
-        "label": "Free housing"
-      },
-      "NPER_RP_GRAT_EVOL_RAW": {
-        "label": "Free housing - evolution"
-      },
-      "NPER_RP_GRAT_PER_NPER_RP": {
-        "label": "Free housing"
-      },
-      "NPER_RP_GRAT_PER_NPER_RP_EVOL_RAW": {
-        "label": "Free housing - evolution"
-      },
-      "NPER_RP_LOC": {
-        "label": "Tenants"
-      },
-      "NPER_RP_LOCHLMV": {
-        "label": "Social housing"
-      },
-      "NPER_RP_LOCHLMV_EVOL_RAW": {
-        "label": "Social housing - evolution"
-      },
-      "NPER_RP_LOCHLMV_PER_NPER_RP": {
-        "label": "Social housing"
-      },
-      "NPER_RP_LOCHLMV_PER_NPER_RP_EVOL_RAW": {
-        "label": "Social housing - evolution"
-      },
-      "NPER_RP_LOC_EVOL_RAW": {
-        "label": "Tenants - evolution"
-      },
-      "NPER_RP_LOC_PER_NPER_RP": {
-        "label": "Tenants"
-      },
-      "NPER_RP_LOC_PER_NPER_RP_EVOL_RAW": {
-        "label": "Tenants - evolution"
-      },
-      "NPER_RP_PROP": {
-        "label": "Owners"
-      },
-      "NPER_RP_PROP_EVOL_RAW": {
-        "label": "Owners - evolution"
-      },
-      "NPER_RP_PROP_PER_NPER_RP": {
-        "label": "Owners"
-      },
-      "NPER_RP_PROP_PER_NPER_RP_EVOL_RAW": {
-        "label": "Owners - evolution"
-      },
-      "NSCOL15P_BAC": {
-        "label": "Out-of-school with a bachelor's degree"
-      },
-      "NSCOL15P_BAC_EVOL_RAW": {
-        "label": "Out-of-school with a bachelor's degree - evolution"
-      },
-      "NSCOL15P_BAC_PER_NSCOL15P": {
-        "label": "Out-of-school with a bachelor's degree"
-      },
-      "NSCOL15P_BAC_PER_NSCOL15P_EVOL_RAW": {
-        "label": "Out-of-school with a bachelor's degree - evolution"
-      },
-      "NSCOL15P_CAPBEP": {
-        "label": "Out-of-school with a vocational diploma"
-      },
-      "NSCOL15P_CAPBEP_EVOL_RAW": {
-        "label": "Out-of-school with a vocational diploma - evolution"
-      },
-      "NSCOL15P_CAPBEP_PER_NSCOL15P": {
-        "label": "Out-of-school with a vocational diploma"
-      },
-      "NSCOL15P_CAPBEP_PER_NSCOL15P_EVOL_RAW": {
-        "label": "Out-of-school with a vocational diploma - evolution"
-      },
-      "NSCOL15P_DIPLMIN": {
-        "label": "Out-of-school without a diploma"
-      },
-      "NSCOL15P_DIPLMIN_EVOL_RAW": {
-        "label": "Out-of-school without a diploma - evolution"
-      },
-      "NSCOL15P_DIPLMIN_PER_NSCOL15P": {
-        "label": "Out-of-school without a diploma"
-      },
-      "NSCOL15P_DIPLMIN_PER_NSCOL15P_EVOL_RAW": {
-        "label": "Out-of-school without a diploma - evolution"
-      },
-      "NSCOL15P_SUP": {
-        "label": "Out-of-school with a higher education diploma"
-      },
-      "NSCOL15P_SUP_EVOL_RAW": {
-        "label": "Out-of-school with a higher education diploma - evolution"
-      },
-      "NSCOL15P_SUP_PER_NSCOL15P": {
-        "label": "Out-of-school with a higher education diploma"
-      },
-      "NSCOL15P_SUP_PER_NSCOL15P_EVOL_RAW": {
-        "label": "Out-of-school with a higher education diploma - evolution"
-      },
-      "PMEN_MENFAM": {
-        "label": "Population of families"
-      },
-      "PMEN_MENFAMMONO": {
-        "label": "Households"
-      },
-      "PMEN_MENFAMMONO_EVOL_RAW": {
-        "label": "Households - evolution"
-      },
-      "PMEN_MENFAMMONO_PER_PMEN": {
-        "label": "Households"
-      },
-      "PMEN_MENFAMMONO_PER_PMEN_EVOL_RAW": {
-        "label": "Households - evolution"
-      },
-      "PMEN_MENFAM_EVOL_RAW": {
-        "label": "Population of families - evolution"
-      },
-      "PMEN_MENFAM_PER_PMEN": {
-        "label": "Population of families"
-      },
-      "PMEN_MENFAM_PER_PMEN_EVOL_RAW": {
-        "label": "Population of families - evolution"
-      },
-      "POP0014": {
-        "label": "Population 0-14 y/o"
-      },
-      "POP0014_EVOL_RAW": {
-        "label": "Population 0-14 y/o - evolution"
-      },
-      "POP0014_PER_POP": {
-        "label": "Population 0-14 y/o"
-      },
-      "POP0014_PER_POP_EVOL_RAW": {
-        "label": "Population 0-14 y/o - evolution"
-      },
-      "POP1529": {
-        "label": "Population 15-29 y/o"
-      },
-      "POP1529_EVOL_RAW": {
-        "label": "Population 15-29 y/o - evolution"
-      },
-      "POP1529_PER_POP": {
-        "label": "Population 15-29 y/o"
-      },
-      "POP1529_PER_POP_EVOL_RAW": {
-        "label": "Population 15-29 y/o - evolution"
-      },
-      "POP15P_CS1": {
-        "label": "Farmers"
-      },
-      "POP15P_CS1_EVOL_RAW": {
-        "label": "Farmers - evolution"
-      },
-      "POP15P_CS1_PER_POP15P": {
-        "label": "Farmers"
-      },
-      "POP15P_CS1_PER_POP15P_EVOL_RAW": {
-        "label": "Farmers - evolution"
-      },
-      "POP15P_CS2": {
-        "label": "Craftsmen, traders, entrepreneurs"
-      },
-      "POP15P_CS2_EVOL_RAW": {
-        "label": "Craftsmen, traders, entrepreneurs - evolution"
-      },
-      "POP15P_CS2_PER_POP15P": {
-        "label": "Craftsmen, traders, entrepreneurs"
-      },
-      "POP15P_CS2_PER_POP15P_EVOL_RAW": {
-        "label": "Craftsmen, traders, entrepreneurs - evolution"
-      },
-      "POP15P_CS3": {
-        "label": "Managers, higher professions"
-      },
-      "POP15P_CS3_EVOL_RAW": {
-        "label": "Managers, higher professions - evolution"
-      },
-      "POP15P_CS3_PER_POP15P": {
-        "label": "Managers, higher professions"
-      },
-      "POP15P_CS3_PER_POP15P_EVOL_RAW": {
-        "label": "Managers, higher professions - evolution"
-      },
-      "POP15P_CS4": {
-        "label": "Intermediate professions"
-      },
-      "POP15P_CS4_EVOL_RAW": {
-        "label": "Intermediate professions - evolution"
-      },
-      "POP15P_CS4_PER_POP15P": {
-        "label": "Intermediate professions"
-      },
-      "POP15P_CS4_PER_POP15P_EVOL_RAW": {
-        "label": "Intermediate professions - evolution"
-      },
-      "POP15P_CS5": {
-        "label": "Employees"
-      },
-      "POP15P_CS5_EVOL_RAW": {
-        "label": "Employees - evolution"
-      },
-      "POP15P_CS5_PER_POP15P": {
-        "label": "Employees"
-      },
-      "POP15P_CS5_PER_POP15P_EVOL_RAW": {
-        "label": "Employees - evolution"
-      },
-      "POP15P_CS6": {
-        "label": "Workers"
-      },
-      "POP15P_CS6_EVOL_RAW": {
-        "label": "Workers - evolution"
-      },
-      "POP15P_CS6_PER_POP15P": {
-        "label": "Workers"
-      },
-      "POP15P_CS6_PER_POP15P_EVOL_RAW": {
-        "label": "Workers - evolution"
-      },
-      "POP15P_CS7": {
-        "label": "Retired"
-      },
-      "POP15P_CS7_EVOL_RAW": {
-        "label": "Retired - evolution"
-      },
-      "POP15P_CS7_PER_POP15P": {
-        "label": "Retired"
-      },
-      "POP15P_CS7_PER_POP15P_EVOL_RAW": {
-        "label": "Retired - evolution"
-      },
-      "POP15P_CS8": {
-        "label": "Others"
-      },
-      "POP15P_CS8_EVOL_RAW": {
-        "label": "Others - evolution"
-      },
-      "POP15P_CS8_PER_POP15P": {
-        "label": "Others"
-      },
-      "POP15P_CS8_PER_POP15P_EVOL_RAW": {
-        "label": "Others - evolution"
-      },
-      "POP3044": {
-        "label": "Population 30-44 y/o"
-      },
-      "POP3044_EVOL_RAW": {
-        "label": "Population 30-44 y/o - evolution"
-      },
-      "POP3044_PER_POP": {
-        "label": "Population 30-44 y/o"
-      },
-      "POP3044_PER_POP_EVOL_RAW": {
-        "label": "Population 30-44 y/o - evolution"
-      },
-      "POP4559": {
-        "label": "Population 45-59 y/o"
-      },
-      "POP4559_EVOL_RAW": {
-        "label": "Population 45-59 y/o - evolution"
-      },
-      "POP4559_PER_POP": {
-        "label": "Population 45-59 y/o"
-      },
-      "POP4559_PER_POP_EVOL_RAW": {
-        "label": "Population 45-59 y/o - evolution"
-      },
-      "POP6074": {
-        "label": "Population 60-74 y/o"
-      },
-      "POP6074_EVOL_RAW": {
-        "label": "Population 60-74 y/o - evolution"
-      },
-      "POP6074_PER_POP": {
-        "label": "Population 60-74 y/o"
-      },
-      "POP6074_PER_POP_EVOL_RAW": {
-        "label": "Population 60-74 y/o - evolution"
-      },
-      "POP75P": {
-        "label": "Population 75+ y/o"
-      },
-      "POP75P_EVOL_RAW": {
-        "label": "Population 75+ y/o - evolution"
-      },
-      "POP75P_PER_POP": {
-        "label": "Population 75+ y/o"
-      },
-      "POP75P_PER_POP_EVOL_RAW": {
-        "label": "Population 75+ y/o - evolution"
-      },
-      "POP_DENSITY": {
-        "label": "Population density"
-      },
-      "POP_DENSITY_EVOL_RAW": {
-        "label": "Population density - evolution"
-      },
-      "RP_100120M2": {
-        "label": "Main residence 100-120 m2"
-      },
-      "RP_100120M2_EVOL_RAW": {
-        "label": "Main residence 100-120 m2 - evolution"
-      },
-      "RP_100120M2_PER_RP": {
-        "label": "Main residence 100-120 m2"
-      },
-      "RP_100120M2_PER_RP_EVOL_RAW": {
-        "label": "Main residence 100-120 m2 - evolution"
-      },
-      "RP_120M2P": {
-        "label": "Main residence 120+ m2"
-      },
-      "RP_120M2P_EVOL_RAW": {
-        "label": "Main residence 120+ m2 - evolution"
-      },
-      "RP_120M2P_PER_RP": {
-        "label": "Main residence 120+ m2"
-      },
-      "RP_120M2P_PER_RP_EVOL_RAW": {
-        "label": "Main residence 120+ m2 - evolution"
-      },
-      "RP_1P": {
-        "label": "Main residence 1 room"
-      },
-      "RP_1P_EVOL_RAW": {
-        "label": "Main residence 1 room - evolution"
-      },
-      "RP_1P_PER_RP": {
-        "label": "Main residence 1 room"
-      },
-      "RP_1P_PER_RP_EVOL_RAW": {
-        "label": "Main residence 1 room - evolution"
-      },
-      "RP_2P": {
-        "label": "Main residence 2 room"
-      },
-      "RP_2P_EVOL_RAW": {
-        "label": "Main residence 2 room - evolution"
-      },
-      "RP_2P_PER_RP": {
-        "label": "Main residence 2 room"
-      },
-      "RP_2P_PER_RP_EVOL_RAW": {
-        "label": "Main residence 2 room - evolution"
-      },
-      "RP_3040M2": {
-        "label": "Main residence 30-20 m2"
-      },
-      "RP_3040M2_EVOL_RAW": {
-        "label": "Main residence 30-20 m2 - evolution"
-      },
-      "RP_3040M2_PER_RP": {
-        "label": "Main residence 30-20 m2"
-      },
-      "RP_3040M2_PER_RP_EVOL_RAW": {
-        "label": "Main residence 30-20 m2 - evolution"
-      },
-      "RP_3P": {
-        "label": "Main residence 3 room"
-      },
-      "RP_3P_EVOL_RAW": {
-        "label": "Main residence 3 room - evolution"
-      },
-      "RP_3P_PER_RP": {
-        "label": "Main residence 3 room"
-      },
-      "RP_3P_PER_RP_EVOL_RAW": {
-        "label": "Main residence 3 room - evolution"
-      },
-      "RP_4060M2": {
-        "label": "Main residence 40-60 m2"
-      },
-      "RP_4060M2_EVOL_RAW": {
-        "label": "Main residence 40-60 m2 - evolution"
-      },
-      "RP_4060M2_PER_RP": {
-        "label": "Main residence 40-60 m2"
-      },
-      "RP_4060M2_PER_RP_EVOL_RAW": {
-        "label": "Main residence 40-60 m2 - evolution"
-      },
-      "RP_4P": {
-        "label": "Main residence 4 room"
-      },
-      "RP_4P_EVOL_RAW": {
-        "label": "Main residence 4 room - evolution"
-      },
-      "RP_4P_PER_RP": {
-        "label": "Main residence 4 room"
-      },
-      "RP_4P_PER_RP_EVOL_RAW": {
-        "label": "Main residence 4 room - evolution"
-      },
-      "RP_5PP": {
-        "label": "Main residence 5+ room"
-      },
-      "RP_5PP_EVOL_RAW": {
-        "label": "Main residence 5+ room - evolution"
-      },
-      "RP_5PP_PER_RP": {
-        "label": "Main residence 5+ room"
-      },
-      "RP_5PP_PER_RP_EVOL_RAW": {
-        "label": "Main residence 5+ room - evolution"
-      },
-      "RP_6080M2": {
-        "label": "Main residence 60-80 m2"
-      },
-      "RP_6080M2_EVOL_RAW": {
-        "label": "Main residence 60-80 m2 - evolution"
-      },
-      "RP_6080M2_PER_RP": {
-        "label": "Main residence 60-80 m2"
-      },
-      "RP_6080M2_PER_RP_EVOL_RAW": {
-        "label": "Main residence 60-80 m2 - evolution"
-      },
-      "RP_80100M2": {
-        "label": "Main residence 80-100 m2"
-      },
-      "RP_80100M2_EVOL_RAW": {
-        "label": "Main residence 80-100 m2 - evolution"
-      },
-      "RP_80100M2_PER_RP": {
-        "label": "Main residence 80-100 m2"
-      },
-      "RP_80100M2_PER_RP_EVOL_RAW": {
-        "label": "Main residence 80-100 m2 - evolution"
-      },
-      "RP_ACH19": {
-        "label": "Main residence built before 1919"
-      },
-      "RP_ACH19_EVOL_RAW": {
-        "label": "Main residence built before 1919 - evolution"
-      },
-      "RP_ACH19_PER_RP": {
-        "label": "Main residence built before 1919"
-      },
-      "RP_ACH19_PER_RP_EVOL_RAW": {
-        "label": "Main residence built before 1919 - evolution"
-      },
-      "RP_ACH45": {
-        "label": "Main residence built 1919-1945"
-      },
-      "RP_ACH45_EVOL_RAW": {
-        "label": "Main residence built 1919-1945 - evolution"
-      },
-      "RP_ACH45_PER_RP": {
-        "label": "Main residence built 1919-1945"
-      },
-      "RP_ACH45_PER_RP_EVOL_RAW": {
-        "label": "Main residence built 1919-1945 - evolution"
-      },
-      "RP_ACH70": {
-        "label": "Main residence built 1945-1970"
-      },
-      "RP_ACH70_EVOL_RAW": {
-        "label": "Main residence built 1945-1970 - evolution"
-      },
-      "RP_ACH70_PER_RP": {
-        "label": "Main residence built 1945-1970"
-      },
-      "RP_ACH70_PER_RP_EVOL_RAW": {
-        "label": "Main residence built 1945-1970 - evolution"
-      },
-      "RP_ACH90": {
-        "label": "Main residence built 1970-1990"
-      },
-      "RP_ACH90_EVOL_RAW": {
-        "label": "Main residence built 1970-1990 - evolution"
-      },
-      "RP_ACH90_PER_RP": {
-        "label": "Main residence built 1970-1990"
-      },
-      "RP_ACH90_PER_RP_EVOL_RAW": {
-        "label": "Main residence built 1970-1990 - evolution"
-      },
-      "RP_ACHTOT": {
-        "label": "Main residence built before 2013"
-      },
-      "RP_ACHTOT_EVOL_RAW": {
-        "label": "Main residence built before 2013 - evolution"
-      },
-      "RP_ACHTOT_PER_RP": {
-        "label": "Main residence built before 2013"
-      },
-      "RP_ACHTOT_PER_RP_EVOL_RAW": {
-        "label": "Main residence built before 2013 - evolution"
-      },
-      "RP_M30M2": {
-        "label": "Main residence 0-30 m2"
-      },
-      "RP_M30M2_EVOL_RAW": {
-        "label": "Main residence 0-30 m2 - evolution"
-      },
-      "RP_M30M2_PER_RP": {
-        "label": "Main residence 0-30 m2"
-      },
-      "RP_M30M2_PER_RP_EVOL_RAW": {
-        "label": "Main residence 0-30 m2 - evolution"
-      },
-      "SCOL0205": {
-        "label": "Attending school 2-5 y/o"
-      },
-      "SCOL0205_EVOL_RAW": {
-        "label": "Attending school 2-5 y/o - evolution"
-      },
-      "SCOL0205_PER_POP0205": {
-        "label": "Attending school 2-5 y/o"
-      },
-      "SCOL0205_PER_POP0205_EVOL_RAW": {
-        "label": "Attending school 2-5 y/o - evolution"
-      },
-      "SCOL0610": {
-        "label": "Attending school 6-10 y/o"
-      },
-      "SCOL0610_EVOL_RAW": {
-        "label": "Attending school 6-10 y/o - evolution"
-      },
-      "SCOL0610_PER_POP0610": {
-        "label": "Attending school 6-10 y/o"
-      },
-      "SCOL0610_PER_POP0610_EVOL_RAW": {
-        "label": "Attending school 6-10 y/o - evolution"
-      },
-      "SCOL1114": {
-        "label": "Attending school 11-14 y/o"
-      },
-      "SCOL1114_EVOL_RAW": {
-        "label": "Attending school 11-14 y/o - evolution"
-      },
-      "SCOL1114_PER_POP1114": {
-        "label": "Attending school 11-14 y/o"
-      },
-      "SCOL1114_PER_POP1114_EVOL_RAW": {
-        "label": "Attending school 11-14 y/o - evolution"
-      },
-      "SCOL1517": {
-        "label": "Attending school 15-17 y/o"
-      },
-      "SCOL1517_EVOL_RAW": {
-        "label": "Attending school 15-17 y/o - evolution"
-      },
-      "SCOL1517_PER_POP1517": {
-        "label": "Attending school 15-17 y/o"
-      },
-      "SCOL1517_PER_POP1517_EVOL_RAW": {
-        "label": "Attending school 15-17 y/o - evolution"
-      },
-      "SCOL1824": {
-        "label": "Attending school 18-24 y/o"
-      },
-      "SCOL1824_EVOL_RAW": {
-        "label": "Attending school 18-24 y/o - evolution"
-      },
-      "SCOL1824_PER_POP1824": {
-        "label": "Attending school 18-24 y/o"
-      },
-      "SCOL1824_PER_POP1824_EVOL_RAW": {
-        "label": "Attending school 18-24 y/o - evolution"
-      },
-      "SCOL2529": {
-        "label": "Attending school 25-29 y/o"
-      },
-      "SCOL2529_EVOL_RAW": {
-        "label": "Attending school 25-29 y/o - evolution"
-      },
-      "SCOL2529_PER_POP2529": {
-        "label": "Attending school 25-29 y/o"
-      },
-      "SCOL2529_PER_POP2529_EVOL_RAW": {
-        "label": "Attending school 25-29 y/o - evolution"
-      },
-      "SCOL30P": {
-        "label": "Attending school 30+ y/o"
-      },
-      "SCOL30P_EVOL_RAW": {
-        "label": "Attending school 30+ y/o - evolution"
-      },
-      "SCOL30P_PER_POP30P": {
-        "label": "Attending school 30+ y/o"
-      },
-      "SCOL30P_PER_POP30P_EVOL_RAW": {
-        "label": "Attending school 30+ y/o - evolution"
+        "label": "GRAPA/RG among 65+ y/o"
       },
       "_LSOASs_worst_50perc_perc": {
-        "label": "% of lsoas (lower layer super output area) in worst 50% nationally - 2010"
+        "label": "% of LSOAs (Lower Layer Super Output Area) in worst 50% nationally - 2010"
       },
       "abstentions": {
         "gender": "m",
@@ -2874,11 +1737,11 @@
       },
       "aide_sociale_a_l_enfance_action_educative": {
         "gender": "m",
-        "label": "Educative action"
+        "label": "Educative Action"
       },
       "aide_sociale_a_l_enfance_actions_educative": {
         "gender": "m",
-        "label": "Educative actions"
+        "label": "Educative Actions"
       },
       "aide_sociale_a_l_enfance_hebergement": {
         "gender": "m",
@@ -2895,14 +1758,14 @@
         "label": "Rates of ambulance call outs for alcohol related illness - 2014"
       },
       "ambulance_incidents_per_population1000": {
-        "label": "Rate of all ambulance incidents per 1,000 population - 2014"
+        "label": "Rate of All Ambulance Incidents per 1,000 population - 2014"
       },
       "autres_etablissements_pour_adultes_et_familles_en_difficulte": {
         "gender": "m",
         "label": "Other facilities for adults and families in difficulty"
       },
       "avegarde_public_transport_accessibility_score": {
-        "label": "Average public transport accessibility score - 2014"
+        "label": "Average Public Transport Accessibility score - 2014"
       },
       "average_age": {
         "gender": "m",
@@ -2917,71 +1780,71 @@
         "label": "Average income"
       },
       "bame_per_population_perc": {
-        "label": "% bame (black, asian and minority ethnic) - 2011"
+        "label": "% BAME (Black, Asian and Minority Ethnic) - 2011"
       },
       "belgium_elections_br": {
-        "label": "Federal elections - brussels"
+        "label": "Federal Elections - Brussels"
       },
       "belgium_elections_br_2014": {
-        "label": "Federal elections - brussels - 2014"
+        "label": "Federal Elections - Brussels - 2014"
       },
       "belgium_elections_br_2019": {
-        "label": "Federal elections - brussels - 2019"
+        "label": "Federal Elections - Brussels - 2019"
       },
       "belgium_elections_ck": {
-        "label": "Federal elections - chamber"
+        "label": "Federal Elections - Chamber"
       },
       "belgium_elections_ck_2014": {
-        "label": "Federal elections - chamber - 2014"
+        "label": "Federal Elections - Chamber - 2014"
       },
       "belgium_elections_ck_2019": {
-        "label": "Federal elections - chamber - 2019"
+        "label": "Federal Elections - Chamber - 2019"
       },
       "belgium_elections_de": {
-        "label": "Federal elections - german"
+        "label": "Federal Elections - German"
       },
       "belgium_elections_de_2014": {
-        "label": "Federal elections - german - 2014"
+        "label": "Federal Elections - German - 2014"
       },
       "belgium_elections_de_2019": {
-        "label": "Federal elections - german - 2019"
+        "label": "Federal Elections - German - 2019"
       },
       "belgium_elections_eu": {
-        "label": "European elections"
+        "label": "European Elections"
       },
       "belgium_elections_eu_2014": {
-        "label": "European elections - 2014"
+        "label": "European Elections - 2014"
       },
       "belgium_elections_eu_2019": {
-        "label": "European elections - 2019"
+        "label": "European Elections - 2019"
       },
       "belgium_elections_vl": {
-        "label": "Federal elections - flanders"
+        "label": "Federal Elections - Flanders"
       },
       "belgium_elections_vl_2014": {
-        "label": "Federal elections - flanders - 2014"
+        "label": "Federal Elections - Flanders - 2014"
       },
       "belgium_elections_vl_2019": {
-        "label": "Federal elections - flanders - 2019"
+        "label": "Federal Elections - Flanders - 2019"
       },
       "belgium_elections_wl": {
-        "label": "Federal elections - wallonia"
+        "label": "Federal Elections - Wallonia"
       },
       "belgium_elections_wl_2014": {
-        "label": "Federal elections - wallonia - 2014"
+        "label": "Federal Elections - Wallonia - 2014"
       },
       "belgium_elections_wl_2019": {
-        "label": "Federal elections - wallonia - 2019"
+        "label": "Federal Elections - Wallonia - 2019"
       },
       "benefits": {
-        "label": "Social assistance"
+        "label": "Social Assistance"
       },
       "bicycle_to_work_perc": {
         "label": "% travel by bicycle to work - 2011"
       },
       "bru": {
         "gender": "m",
-        "label": "Data brussels"
+        "label": "Data Brussels"
       },
       "cars_per_household": {
         "label": "Cars per household - 2011"
@@ -3018,19 +1881,20 @@
         "label": "Housing and social rehabilitation centers"
       },
       "council_2018": {
-        "label": "Council elections 2018"
+        "label": "Council Elections 2018"
       },
       "country": {
         "label": "Country"
       },
       "country_label": {
-        "label": "Country label"
+        "label": "Country Label"
       },
       "creches": {
-        "label": "Preschool"
+        "gender": "",
+        "label": ""
       },
       "crime_rate": {
-        "label": "Crime rate - period 2014 - 2015"
+        "label": "Crime rate - Period 2014 - 2015"
       },
       "csp": {
         "label": "Socio-professional categories"
@@ -3060,13 +1924,13 @@
         "label": "Others"
       },
       "delibirate_fires_per_population1000": {
-        "label": "Deliberate fires per 1,000 population - 2014"
+        "label": "Deliberate Fires per 1,000 population - 2014"
       },
       "demography": {
         "label": "Demography"
       },
       "demography_evolution": {
-        "label": "Evolution of population, age and socio-professional categories"
+        "label": "Evolution of Population, Age and Socio-Professional Categories"
       },
       "density": {
         "label": "Population density"
@@ -3075,7 +1939,7 @@
         "label": "Department"
       },
       "department_label": {
-        "label": "Department label"
+        "label": "Department Label"
       },
       "detached_houses_perc": {
         "label": "% detached houses - 2011"
@@ -3084,13 +1948,13 @@
         "label": "Detail"
       },
       "dwelling_council_tax_bands_A-B_perc": {
-        "label": "% dwellings in council tax bands a or b - 2015"
+        "label": "% dwellings in council tax bands A or B - 2015"
       },
       "dwelling_council_tax_bands_C-E_perc": {
-        "label": "% dwellings in council tax bands c, d or e - 2015"
+        "label": "% dwellings in council tax bands C, D or E - 2015"
       },
       "dwelling_council_tax_bands_F-H_perc": {
-        "label": "% dwellings in council tax bands f, g or h - 2015"
+        "label": "% dwellings in council tax bands F, G or H - 2015"
       },
       "education": {
         "label": "Education"
@@ -3099,22 +1963,22 @@
         "label": "Elections"
       },
       "elections-legislative-2017-turn-1": {
-        "label": "Legislative elections 2017 turn 1"
+        "label": "Legislative Elections 2017 turn 1"
       },
       "elections-legislative-2017-turn-2": {
-        "label": "Legislative elections 2017 turn 2"
+        "label": "Legislative Elections 2017 turn 2"
       },
       "elections-presidential-2017-turn-1": {
-        "label": "Presidential elections 2017 turn 1"
+        "label": "Presidential Elections 2017 turn 1"
       },
       "elections-presidential-2017-turn-2": {
-        "label": "Presidential elections 2017 turn 2"
+        "label": "Presidential Elections 2017 turn 2"
       },
       "elections-regional-2015-turn-1": {
-        "label": "Regional elections 2015 turn 1"
+        "label": "Regional Elections 2015 turn 1"
       },
       "elections-regional-2015-turn-2": {
-        "label": "Regional elections 2015 turn 2"
+        "label": "Regional Elections 2015 turn 2"
       },
       "employed-16-64": {
         "label": "In employment (16-64) - 2011"
@@ -3126,10 +1990,10 @@
         "label": "Employment rate (16-64) - 2011"
       },
       "employment_rate_resident_population": {
-        "label": "Employment per head of resident wa population - 2013"
+        "label": "Employment per head of resident WA population - 2013"
       },
       "employment_support_allowance_benefits_claimant_rate": {
-        "label": "Claimant rate of employment support allowance - 2014"
+        "label": "Claimant Rate of Employment Support Allowance - 2014"
       },
       "enfants_handicapes": {
         "gender": "m",
@@ -3150,13 +2014,7 @@
         "label": "European"
       },
       "european_elections_2019": {
-        "label": "European elections 2019"
-      },
-      "evol": {
-        "label": "Evolution per year"
-      },
-      "evol_2013-2016": {
-        "label": "Evolution per year (2013-2016)"
+        "label": "European Elections 2019"
       },
       "families": {
         "label": "Families"
@@ -3210,11 +2068,11 @@
       },
       "female_ERIS_per_female_population_perc": {
         "gender": "m",
-        "label": "Eris women"
+        "label": "ERIS women"
       },
       "female_GRAPA/RG_per_female_population_65-_perc": {
         "gender": "m",
-        "label": "Grapa/rg among 65+ y/o women"
+        "label": "GRAPA/RG among 65+ y/o women"
       },
       "female_agency_seasonal_temporary_workers_per_female_employees_perc": {
         "gender": "m",
@@ -3400,7 +2258,7 @@
       },
       "female_population_csp2_per_female_population": {
         "gender": "m",
-        "label": "Share of women craftsmen, shopkeepers, business owners"
+        "label": "Share of Women Craftsmen, shopkeepers, business owners"
       },
       "female_population_csp3": {
         "gender": "m",
@@ -3516,13 +2374,13 @@
       },
       "female_unemployed_15-64_per_female_workforce_15-64": {
         "gender": "m",
-        "label": "Unemployment rate women (15 - 64 years)"
+        "label": "Unemployment rate Women (15 - 64 years)"
       },
       "first_choice": {
-        "label": "First choice"
+        "label": "First Choice"
       },
       "flat_maisonette_appartment_perc": {
-        "label": "% flat, maisonette or apartment - 2011"
+        "label": "% Flat, maisonette or apartment - 2011"
       },
       "foreigners": {
         "gender": "m",
@@ -3533,7 +2391,7 @@
         "label": "Preschools"
       },
       "general_fertility_rate": {
-        "label": "General fertility rate - 2013"
+        "label": "General Fertility Rate - 2013"
       },
       "global": {
         "label": "Global"
@@ -3559,7 +2417,7 @@
         "label": "Households and families"
       },
       "households_london": {
-        "label": "Households - housing"
+        "label": "Households - Housing"
       },
       "households_married_no_child_per_households_perc": {
         "gender": "m",
@@ -3594,7 +2452,7 @@
       },
       "households_single_female_per_households_perc": {
         "gender": "m",
-        "label": "Single parents - women"
+        "label": "Single parents - Women"
       },
       "households_single_male": {
         "gender": "m",
@@ -3602,7 +2460,7 @@
       },
       "households_single_male_per_households_perc": {
         "gender": "m",
-        "label": "Single parents - men"
+        "label": "Single parents - Men"
       },
       "households_single_other": {
         "gender": "m",
@@ -3610,23 +2468,23 @@
       },
       "households_single_other_per_households_perc": {
         "gender": "m",
-        "label": "Single parents - other"
+        "label": "Single parents - Other"
       },
       "housing": {
         "label": "Housing"
       },
       "housing_benefits_claimant_rate": {
-        "label": "Claimant rate of housing benefit (2015)"
+        "label": "Claimant Rate of Housing Benefit (2015)"
       },
       "incidents": {
-        "label": "Incivilities - accidents"
+        "label": "Incivilities - Accidents"
       },
       "income": {
         "gender": "m",
         "label": "Income"
       },
       "indice_of_depravation": {
-        "label": "Rank of average score (within london) - 2010"
+        "label": "Rank of average score (within London) - 2010"
       },
       "iris_id": {
         "label": "New code"
@@ -3639,22 +2497,22 @@
       },
       "isolated_elders": {
         "gender": "m",
-        "label": "Isolated elders"
+        "label": "Isolated Elders"
       },
       "jobs": {
         "label": "Number of jobs in area - 2013"
       },
       "jsa_rate": {
-        "label": "Rate of jobseekers allowance (jsa) claimants - 2015"
+        "label": "Rate of JobSeekers Allowance (JSA) Claimants - 2015"
       },
       "killed_injured_road": {
-        "label": "Number killed or seriously injured on the roads - 2014"
+        "label": "Number Killed or Seriously Injured on the roads - 2014"
       },
       "legislative": {
         "label": "Legislative"
       },
       "level_4-_perc": {
-        "label": "% with level 4 qualifications and above - 2011"
+        "label": "% with Level 4 qualifications and above - 2011"
       },
       "lone_parents_unemployed_perc": {
         "label": "% of lone parents not in employment - 2011"
@@ -3854,11 +2712,11 @@
       },
       "male_ERIS_per_male_population_perc": {
         "gender": "m",
-        "label": "Eris women"
+        "label": "ERIS women"
       },
       "male_GRAPA/RG_per_male_population_65-_perc": {
         "gender": "m",
-        "label": "Grapa/rg among 65+ y/o women"
+        "label": "GRAPA/RG among 65+ y/o women"
       },
       "male_agency_seasonal_temporary_workers_per_male_employees_perc": {
         "gender": "m",
@@ -4047,7 +2905,7 @@
       },
       "male_population_csp2_per_male_population": {
         "gender": "m",
-        "label": "Share of men craftsmen, shopkeepers, business owners"
+        "label": "Share of men Craftsmen, shopkeepers, business owners"
       },
       "male_population_csp3": {
         "gender": "m",
@@ -4159,46 +3017,49 @@
       },
       "male_unemployed_15-64_per_male_workforce_15-64": {
         "gender": "m",
-        "label": "Unemployment rate men (15 - 64 years)"
+        "label": "Unemployment rate Men (15 - 64 years)"
       },
       "median_age": {
-        "label": "Median age - 2013"
+        "label": "Median Age - 2013"
       },
       "median_house_price": {
-        "label": "Median house price (£) - 2014"
+        "label": "Median House Price (£) - 2014"
       },
       "median_household_income": {
-        "label": "Median household income estimate - period 2012 - 2013"
+        "label": "Median Household income estimate - Period 2012 - 2013"
       },
       "municipal": {
         "label": "Municipal"
       },
       "municipal-elections-2014-turn-1": {
-        "label": "Municipal elections 2014 turn 1"
+        "label": "Municipal Elections 2014 turn 1"
       },
       "municipal-elections-2014-turn-2": {
-        "label": "Municipal elections 2014 turn 2"
+        "label": "Municipal Elections 2014 turn 2"
       },
       "municipal_2016": {
-        "label": "Municipal elections 2016"
+        "label": "Municipal Elections 2016"
       },
       "municipal_2016_first_choice": {
-        "label": "Municipal elections 2016 first choice"
+        "label": "Municipal Elections 2016 first choice"
       },
       "municipal_2016_second_choice": {
-        "label": "Municipal elections 2016 second choice"
+        "label": "Municipal Elections 2016 second choice"
       },
       "municipality": {
         "label": "Municipality"
       },
+      "municipality_2016": {
+        "label": ""
+      },
       "municipality_label": {
-        "label": "Municipality label"
+        "label": "Municipality Label"
       },
       "no_education": {
         "label": "No education"
       },
       "no_english_first_lang_in_household_per_population_perc": {
-        "label": "% english is first language of no one in household - 2011"
+        "label": "% English is First Language of no one in household - 2011"
       },
       "no_qualifications_perc": {
         "label": "% with no qualifications - 2011"
@@ -4207,13 +3068,13 @@
         "label": "Without diploma"
       },
       "not_born_uk_per_population_perc": {
-        "label": "% not born in uk - 2011"
+        "label": "% Not Born in UK - 2011"
       },
       "obese_per_children_6yo": {
-        "label": "% children in year 6 who are obese- period 2011 - 2014"
+        "label": "% children in year 6 who are obese- Period 2011 - 2014"
       },
       "obese_per_children_reception_year": {
-        "label": "% children in reception year who are obese - period 2011 - 2014"
+        "label": "% children in reception year who are obese - Period 2011 - 2014"
       },
       "open_space_area_perc": {
         "label": "% area that is open space - 2014"
@@ -4229,16 +3090,16 @@
         "label": "Claimant rate of key out-of-work benefits (working age client group) (2014)"
       },
       "owned_household_perc": {
-        "label": "% households owned - 2011"
+        "label": "% Households Owned - 2011"
       },
       "owner_tenant": {
-        "label": "Owner / tenant"
+        "label": "Owner / Tenant"
       },
       "per_all": {
         "label": "Of contacts in zone"
       },
       "per_party": {
-        "label": "Per party"
+        "label": "Per Party"
       },
       "per_seen": {
         "label": "Of met citizens in zone"
@@ -4253,7 +3114,7 @@
       },
       "personnes_agees_foyer_restaurant": {
         "gender": "m",
-        "label": "Homes - restaurants"
+        "label": "Homes - Restaurants"
       },
       "personnes_agees_hebergement": {
         "gender": "m",
@@ -4294,7 +3155,7 @@
         "label": "Children aged 0-15 - 2015"
       },
       "population_0-15_per_population_perc": {
-        "label": "% all children aged 0-15 - 2015"
+        "label": "% All Children aged 0-15 - 2015"
       },
       "population_0-18_no_incone_in_households_or_unemployment_per_population_0-18_perc": {
         "gender": "m",
@@ -4352,7 +3213,7 @@
         "label": "Working-age (16-64) - 2015"
       },
       "population_16-64_per_population_perc": {
-        "label": "% all working-age (16-64) - 2015"
+        "label": "% All Working-age (16-64) - 2015"
       },
       "population_20-29_per_population": {
         "gender": "m",
@@ -4422,7 +3283,7 @@
         "label": "Older people aged 65+ - 2015"
       },
       "population_65-_per_population_perc": {
-        "label": "% all older people aged 65+ - 2015"
+        "label": "% All Older people aged 65+ - 2015"
       },
       "population_75-": {
         "gender": "m",
@@ -4450,7 +3311,7 @@
       },
       "population_csp1_per_population": {
         "gender": "m",
-        "label": "Share of farmers"
+        "label": "Share of Farmers"
       },
       "population_csp2": {
         "gender": "m",
@@ -4462,7 +3323,7 @@
       },
       "population_csp2_per_population": {
         "gender": "m",
-        "label": "Share of craftsmen, traders, entrepreneurs"
+        "label": "Share of Craftsmen, traders, entrepreneurs"
       },
       "population_csp3": {
         "gender": "m",
@@ -4474,7 +3335,7 @@
       },
       "population_csp3_per_population": {
         "gender": "m",
-        "label": "Share of managers, higher professions"
+        "label": "Share of Managers, higher professions"
       },
       "population_csp4": {
         "gender": "m",
@@ -4486,7 +3347,7 @@
       },
       "population_csp4_per_population": {
         "gender": "m",
-        "label": "Share of intermediate professions"
+        "label": "Share of Intermediate professions"
       },
       "population_csp5": {
         "gender": "m",
@@ -4498,7 +3359,7 @@
       },
       "population_csp5_per_population": {
         "gender": "m",
-        "label": "Share of employees"
+        "label": "Share of Employees"
       },
       "population_csp6": {
         "gender": "m",
@@ -4510,7 +3371,7 @@
       },
       "population_csp6_per_population": {
         "gender": "m",
-        "label": "Share of workers"
+        "label": "Share of Workers"
       },
       "population_csp7": {
         "gender": "m",
@@ -4522,7 +3383,7 @@
       },
       "population_csp7_per_population": {
         "gender": "m",
-        "label": "Share of retired"
+        "label": "Share of Retired"
       },
       "population_csp8": {
         "gender": "m",
@@ -4534,7 +3395,7 @@
       },
       "population_csp8_per_population": {
         "gender": "m",
-        "label": "Share of others"
+        "label": "Share of Others"
       },
       "population_density": {
         "label": "Population density (persons per sq km) - 2013"
@@ -4758,7 +3619,7 @@
         "label": "Primary education"
       },
       "private_rented_households_perc": {
-        "label": "% households private rented - 2011"
+        "label": "% Households Private Rented - 2011"
       },
       "properties_sold": {
         "label": "Number of properties sold - 2014"
@@ -4767,13 +3628,13 @@
         "label": "Region"
       },
       "region_label": {
-        "label": "Region label"
+        "label": "Region Label"
       },
       "regional": {
         "label": "Regional"
       },
       "registration_migrant_workers_rate": {
-        "label": "Rate of new registrations of migrant workers - period 2011 - 2012"
+        "label": "Rate of new registrations of migrant workers - Period 2011 - 2012"
       },
       "rooms": {
         "label": "Number of rooms"
@@ -4783,7 +3644,7 @@
         "label": "Schooling rate"
       },
       "second_choice": {
-        "label": "Second choice"
+        "label": "Second Choice"
       },
       "secondary_education": {
         "label": "Secondary education"
@@ -4800,14 +3661,14 @@
       },
       "social_equipment_services": {
         "gender": "m",
-        "label": "Social equipment and services"
+        "label": "Social Equipment and Services"
       },
       "social_help": {
         "gender": "m",
-        "label": "Social help"
+        "label": "Social Help"
       },
       "social_rented_households_perc": {
-        "label": "% households social rented - 2011"
+        "label": "% Households Social Rented - 2011"
       },
       "socio-eco": {
         "label": "Socio-economic variables"
@@ -4819,7 +3680,7 @@
         "label": "Status"
       },
       "superficy": {
-        "label": "Area - square kilometres"
+        "label": "Area - Square Kilometres"
       },
       "surface": {
         "label": "Surface"
@@ -4846,7 +3707,7 @@
         "label": "Round 2"
       },
       "turnout_mayor_election": {
-        "label": "Turnout at mayoral election - 2012"
+        "label": "Turnout at Mayoral election - 2012"
       },
       "turnout_perc": {
         "label": "Turnout"
@@ -4855,7 +3716,7 @@
         "label": "Type of studies"
       },
       "unauthorised_absence_perc": {
-        "label": "Unauthorised absence in all schools (%) - 2013"
+        "label": "Unauthorised Absence in All Schools (%) - 2013"
       },
       "unemployed_15-24": {
         "gender": "m",
@@ -4895,11 +3756,11 @@
       },
       "unemployment_rate_15-24_perc": {
         "gender": "m",
-        "label": "Unemployment rate 15-24 y/o"
+        "label": "Unemployment Rate 15-24 y/o"
       },
       "unemployment_rate_15-64_perc": {
         "gender": "m",
-        "label": "Unemployment rate 15-64 y/o"
+        "label": "Unemployment Rate 15-64 y/o"
       },
       "unemployment_ratio_15-19": {
         "gender": "m",
@@ -4926,13 +3787,10 @@
         "label": "Unemployment rate 60 years and more"
       },
       "violence_against_person_rate": {
-        "label": "Violence against the person rate - period 2014 - 2015"
+        "label": "Violence against the person rate - Period 2014 - 2015"
       },
       "vocational": {
         "label": "Vocationnal"
-      },
-      "votes": {
-        "label": "Votes"
       },
       "votes_per_registered_perc": {
         "gender": "m",
@@ -4944,11 +3802,11 @@
       },
       "wal": {
         "gender": "m",
-        "label": "Data wallonia"
+        "label": "Data Wallonia"
       },
       "wal_and_bru": {
         "gender": "m",
-        "label": "Data wallonia and brussels"
+        "label": "Data Wallonia and Brussels"
       }
     },
     "ELEMENT_UI": {
@@ -5048,7 +3906,10 @@
           "noCheckedFormat": "{total} items",
           "noData": "No data",
           "noMatch": "No matching data",
-          "titles": ["List 1", "List 2"]
+          "titles": [
+            "List 1",
+            "List 2"
+          ]
         },
         "tree": {
           "emptyText": "No Data"
@@ -5113,20 +3974,23 @@
   },
   "_COMMON": {
     "ACTION": {
-      "ENTITY_SUCCESSFULLY_UPDATED": "{entity} succesfully updated !"
+      "ENTITY_SUCCESSFULLY_UPDATED": "{entity} succesfully updated !",
+      "ENTITY_UPDATE_FAILED": "An error happened while updating the action."
     },
     "ADD": "Add",
     "ADDRESS": "Address",
-    "ADD_ACTION": "Create an action",
+    "ADD_ACTION": "Create the action",
     "AND": "and",
     "BACK": "Back",
+    "BETA_FEATURE": "This feature is in bêtà.<br/>Contact us if you have any problems using it",
     "CANCEL": "Cancel",
     "CHECK": "Select",
     "CITY": "City",
     "CLOSE": "Close",
     "CONFIRM": "Submit",
+    "CONTACT": "Contact",
     "CREATE": "Create",
-    "DATE": "Data",
+    "DATE": "Date",
     "DELETE": "Delete",
     "DUPLICATE": "Duplicate",
     "EDIT": "Edit",
@@ -5168,12 +4032,14 @@
     "LOADING": "Loading...",
     "MALE": "Male",
     "MARRIED_NAME": "Married name",
+    "MEETING_POINT": "Meeting point",
     "MORE_FILTERS": "Access more filters",
     "NA": "N.A",
     "NAME": "Name",
     "NEXT": "Next",
     "NO": "No",
     "NO_DATA": "No data",
+    "NO_INFORMATION": "No information",
     "OK": "OK",
     "OPTIONNAL": "optional",
     "PASSWORDS": "Passwords",
@@ -5182,6 +4048,8 @@
     "RGPD": "By saving this information, I confirm that I have obtained lawfully and with consent the data transmitted.",
     "SAVE": "Save",
     "SEARCH": "Search...",
+    "SEE_LESS": "See less",
+    "SEE_MORE": "See more",
     "SHOW": "Show",
     "SPECIAL_CHAR": "special char",
     "STAY_ON_PAGE": "Stay on this tab",
@@ -5189,6 +4057,7 @@
     "SUMMARY": "Summary",
     "TAGS": "Tags",
     "TELEPHONE": "Phone",
+    "TERRITORIES": "Territory | Territories",
     "TIME": {
       "DAY": "day | days\n",
       "MONTH": "month | months",
