@@ -157,7 +157,8 @@
         "poster": "Flyers / posters",
         "call": "Calls",
         "mail": "Handout mail",
-        "other": "Other"
+        "other": "Other",
+        "sharing": "Share"
       },
       "titleScreenLabel": "Actions",
       "mapLabel": "Map",
@@ -193,7 +194,7 @@
         "startCanvassing": "Start action!",
         "readMore": "More",
         "readLess": "Less",
-        "presentLabel": "Present",
+        "presentLabel": "Attend",
         "attend": "Attend",
         "seeBrief": "Open the notes",
         "actionBrief": "Action's notes",
@@ -202,6 +203,8 @@
         "descJoinAction": "Attending 🚀",
         "descAttendedAction": "Join the action now ✊",
         "editYourAttendStatus": "Edit your coming",
+        "shareItToYourNetworkButton": "Share the message",
+        "shareItToYourNetworkTitle": "Use the network effect and share the message below 👇",
         "startTheAction": "Start action",
         "cantStartTheAction": "Attending 🚀",
         "youDoNotWantToAttend": "Not going",
