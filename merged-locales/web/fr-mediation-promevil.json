@@ -448,7 +448,7 @@
         },
         "ADD_ACTION_HERE": "Créer une feuille de route ici",
         "CONTACTS": "Contacts",
-        "CONTACTS_HERE": "Aucun contact dans la zone | 1 contact dans la zone | {count} contacts dans la zone",
+        "CONTACTS_HERE": "Pas d'intervention dans cette zone | Une intervention dans cette zone | {count}  interventions dans cette zone",
         "DIAGRAMS": { "DATE": { "TITLE": "Nb de rencontres par {span}" }, "RESET": "Réinitialiser" },
         "DONE_ACTIONS": "Feuille de route terminée",
         "EMPTY_DATA": "Changer d'échelle pour voir cette donnée !",
@@ -472,7 +472,7 @@
         "SUPPORTERS": "Soutiens",
         "SUPPORTS_HERE": "Aucun {support} dans la zone | 1 {support} dans la zone | {count} {support}s dans la zone",
         "SUPPORT_DEFAULT": "soutien",
-        "TABS": { "DATA": "Données", "MOBILISATION": "Mobilisation" },
+        "TABS": { "DATA": "Données", "MOBILISATION": "Faits" },
         "TITLES": { "DATA": "Résumé de la zone" },
         "TYPE": "Type :"
       },
@@ -711,7 +711,7 @@
     "LIST": {
       "ADD_CITIZEN": "Ajouter un citoyen",
       "AREA51": "Problème de localisation",
-      "CONTACTS_SELECTED": "0 sélectionné | 1 sélectionné | {count} sélectionnés",
+      "CONTACTS_SELECTED": "0 sélectionné | 1 sélectionné | {count} selected",
       "CSV_HEADER": {
         "address": {
           "building": "Bâtiment",
@@ -773,7 +773,7 @@
         "TITLE": {
           "STATUS": "Modifier le statut de {count} intervention(s)",
           "TAGS": "Modifier le tag de {count} intervention(s)",
-          "TERRITORIES": "Modifier le territoire de {count} contacts"
+          "TERRITORIES": "Modifier le territoire de {count} interventions"
         },
         "WARNING": "Attention : vous allez faire des modifications sur toutes les interventions sélectionnées sur cette page"
       },
@@ -1013,7 +1013,7 @@
     "MAPS": "Cartes",
     "MEMBERS": "Membres",
     "MOBILE_APP": "Application mobile",
-    "MOBILIZATION": "MOBILISATION",
+    "MOBILIZATION": "Faits",
     "MY_CAMPAIGNS": "Mes espaces",
     "PARAMETERS": "Paramètres de l'organisation",
     "PRIO": "Priorisation",
