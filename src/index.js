@@ -103,6 +103,8 @@ export const getJSONLanguageForApplications = async (
   localeSpecific = null,
   platform = 'web'
 ) => {
+  if (deviceLocale.includes(' ') || localeSpecific.includes(' '))
+    throw new Error("The device locale or specific shouldn't have a space string.")
   switch (platform) {
     case 'web':
     case 'mobile': {
