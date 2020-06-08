@@ -111,7 +111,8 @@
   "MENU": {
     "ACTIONS": "Feuilles de route",
     "ISSUE_CENTER": "Tâches",
-    "CITIZENS": "Interventions"
+    "CITIZENS": "Interventions",
+    "MOBILIZATION": "Faits"
   },
   "MANAGEMENT": {
     "ISSUE_CENTER": {
@@ -127,10 +128,12 @@
         "WARNING": "Attention : vous allez faire des modifications sur toutes les interventions sélectionnées sur cette page",
         "TITLE": {
           "TAGS": "Modifier le tag de {count} intervention(s)",
-          "STATUS": "Modifier le statut de {count} intervention(s)"
+          "STATUS": "Modifier le statut de {count} intervention(s)",
+          "TERRITORIES": "Modifier le territoire de {count} interventions"
         }
       },
-      "EXPORT_LIMITATION": "Vous ne pouvez pas exporter plus de 10 000 interventions. Si vous avez besoin d'un export plus grand, contactez l'équipe support."
+      "EXPORT_LIMITATION": "Vous ne pouvez pas exporter plus de 10 000 interventions. Si vous avez besoin d'un export plus grand, contactez l'équipe support.",
+      "CONTACTS_SELECTED": "0 sélectionné | 1 sélectionné | {count} selected"
     },
     "HEADER": {
       "MANAGE_ACTIONS_AVAILABLES": "Feuille de route",
@@ -161,7 +164,11 @@
         "DONE_ACTIONS": "Feuille de route terminée",
         "ADD_ACTION_HERE": "Créer une feuille de route ici",
         "ADD_ACTION": "Créer une feuille de route",
-        "ACTIONS": "Feuille de route en cours"
+        "ACTIONS": "Feuille de route en cours",
+        "TABS": {
+          "MOBILISATION": "Faits"
+        },
+        "CONTACTS_HERE": "Pas d'intervention dans cette zone | Une intervention dans cette zone | {count}  interventions dans cette zone"
       }
     }
   },
