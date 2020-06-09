@@ -22,10 +22,12 @@ jobs:
       run: |
         rm merged-locales/web/* || true
         rm merged-locales/mobile/* || true
-        npm i
-        npm run create:language-fallbacks
-        npm run fix:prettier
-        npm run build:app
+        yarn
+        # yarn run create:language-fallbacks
+        yarn run fix:prettier
+        yarn run build:app
+    - name: Run Jest tests
+      run: yarn run test
     - name: Commit files
       run: |
         git config --local user.email "hello@kissu.io"

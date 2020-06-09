@@ -8,8 +8,9 @@
     "build:app": "babel src/index.js --out-dir dist",
     "fix:prettier": "prettier --write \"**/*.{json,js}\"",
     "create:language-fallbacks": "node --experimental-json-modules ./createLanguageFallbacks.js",
-    "test:manual": "npm run build:app && node __tests__/index.test.js",
-    "test": "jest"
+    "test:manual": "npm run build:app && node --experimental-json-modules __tests__/index.test.js",
+    "test": "jest",
+    "watch": "jest --no-cache --watch ./*"
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
