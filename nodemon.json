@@ -1,0 +1,13 @@
+{
+  "start": "src/",
+  "events": {
+    "restart": "echo 'nice meme'"
+  },
+  "watch": ["src", "initial-locales", "merged-locales"],
+  "ignore": ["dist/*"],
+  "execMap": {
+    "js": "echo 'js file touched'",
+    "json": "echo 'JSOOOOON'"
+  },
+  "ext": "js, ts, graphql, json"
+}

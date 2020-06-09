@@ -1,6 +1,6 @@
 {
   "hooks": {
     "post-merge": "npm run build:app",
-    "pre-commit": ["yarn run test", "lint-staged"]
+    "pre-commit": "yarn run test && lint-staged"
   },
 }

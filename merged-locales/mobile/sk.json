@@ -1,4 +1,5 @@
 {
+  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "sk",
   "locale_shorted": "sk-SK",
   "locale": "slovak",
   "greeting": { "hello": "Ahoj" },

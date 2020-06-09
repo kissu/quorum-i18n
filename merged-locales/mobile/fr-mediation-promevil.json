@@ -1,4 +1,5 @@
 {
+  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-promevil",
   "locale_shorted": "fr-FR",
   "locale": "french",
   "greeting": { "hello": "Bonjour" },

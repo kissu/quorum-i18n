@@ -1,5 +1,5 @@
-import * as MobileTranslates from '../merged-locales/mobile'
-import * as WebTranslates from '../merged-locales/web'
+import deepExtend from 'deep-extend' // merge various JSONs
+import cloneDeep from 'lodash/cloneDeep'
 
 const constantizeIfTruthy = (...args) => [...args].filter(Boolean).join('-')
 
@@ -10,20 +10,13 @@ const defineUserLocales = (deviceLocale) => {
 
 let finalAvailableLocale
 async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, platform = 'web') {
-  if (!platform) throw new Error('No platform provided')
   const wantedFile = constantizeIfTruthy(locale, localeSpecific)
   finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific)
-  switch (platform) {
-    case 'web':
-      if (WebTranslates[wantedFile]) return WebTranslates[wantedFile]
-      return false
-
-    case 'mobile':
-      if (MobileTranslates[wantedFile]) return MobileTranslates[wantedFile]
-      return false
-
-    default:
-      return false
+  try {
+    module = await import(`../initial-locales/${platform}/${wantedFile}`)
+    return module.default
+  } catch (error) {
+    return false
   }
 }
 
@@ -43,9 +36,15 @@ function downgradeMyLocaleString(locale) {
  * Downgrade d'abord la locale specific : 'politique-larem' => 'politique' -> '' -> false
  * Downgrade ensuite la locale : 'fr_FR' -> 'fr' -> '' -> false
  */
+let finalArray = []
 async function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platform) {
   const attemptFileFound = await tryModuleAndReturnFile(locale, localeSpecific, platform)
-  if (attemptFileFound) return attemptFileFound
+  // if (attemptFileFound) return attemptFileFound
+  console.log('|||', locale, localeSpecific)
+  console.log('attempt', attemptFileFound?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST)
+  if (attemptFileFound) finalArray.unshift(attemptFileFound)
+  console.log('ls', localeSpecific)
+  if (!localeSpecific) return finalArray
   /**
    *
    */
@@ -103,13 +102,22 @@ export const getJSONLanguageForApplications = async (
   localeSpecific = null,
   platform = 'web'
 ) => {
-  if (deviceLocale.includes(' ') || localeSpecific.includes(' '))
-    throw new Error("The device locale or specific shouldn't have a space string.")
+  // if (deviceLocale.includes(' ') || localeSpecific.includes(' '))
+  //   throw new Error("The device locale or specific shouldn't have a space string.")
   switch (platform) {
     case 'web':
     case 'mobile': {
+      await setLocaleForTheUser(deviceLocale, localeSpecific, platform)
+      console.log(
+        'to merge',
+        finalArray?.[0]?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST,
+        finalArray?.[1]?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST,
+        finalArray?.[2]?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST
+      )
+      const fallbackedJsons = deepExtend(...cloneDeep(finalArray))
+      console.log('merged final array', fallbackedJsons?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST)
       return {
-        content: await setLocaleForTheUser(deviceLocale, localeSpecific, platform),
+        content: fallbackedJsons,
         path: finalAvailableLocale,
       }
     }

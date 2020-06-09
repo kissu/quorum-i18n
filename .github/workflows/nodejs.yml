@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.2.0]
+        node-version: [13.2.0]
 
     steps:
     - uses: actions/checkout@v2
@@ -18,23 +18,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Create JSON merge
+    - name: Babelify app
       run: |
-        rm merged-locales/web/* || true
-        rm merged-locales/mobile/* || true
         yarn
-        # yarn run create:language-fallbacks
-        yarn run fix:prettier
-        yarn run build:app
-    - name: Run Jest tests
-      run: yarn run test
-    - name: Commit files
-      run: |
-        git config --local user.email "hello@kissu.io"
-        git config --local user.name "kissu"
-        touch git-push.md
-        git add .
-        git commit -m "Pushed from Actions" --allow-empty
+        yarn build:app
+    - name: Run Jest
+      run: yarn test
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
@@ -55,3 +44,10 @@ jobs:
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # required
       if: always() #  Pickk up events even if the job fails or is canceled.
+    - name: Create commit comment
+      uses: peter-evans/commit-comment@v1
+      with:
+        body: |
+          ### The **fancy** repo can be found [here][1]
+
+          [1]: https://www.npmjs.com/package/quorum-i18n
