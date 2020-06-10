@@ -1,3 +1,5 @@
+import * as MobileTranslates from '../initial-locales/mobile'
+import * as WebTranslates from '../initial-locales/web'
 import deepExtend from 'deep-extend' // merge various JSONs
 import cloneDeep from 'lodash/cloneDeep'
 
@@ -12,11 +14,18 @@ let finalAvailableLocale
 async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, platform = 'web') {
   const wantedFile = constantizeIfTruthy(locale, localeSpecific)
   finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific)
-  try {
-    module = await import(`../initial-locales/${platform}/${wantedFile}`)
-    return module.default
-  } catch (error) {
-    return false
+  switch (platform) {
+    case 'web':
+      console.log('web case')
+      if (WebTranslates[wantedFile]) return WebTranslates[wantedFile]
+      return false
+
+    case 'mobile':
+      if (MobileTranslates[wantedFile]) return MobileTranslates[wantedFile]
+      return false
+
+    default:
+      return false
   }
 }
 
@@ -41,7 +50,7 @@ async function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platfo
   const attemptFileFound = await tryModuleAndReturnFile(locale, localeSpecific, platform)
   // if (attemptFileFound) return attemptFileFound
   console.log('|||', locale, localeSpecific)
-  console.log('attempt', attemptFileFound?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST)
+  console.log('attempt', attemptFileFound.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST)
   if (attemptFileFound) finalArray.unshift(attemptFileFound)
   console.log('ls', localeSpecific)
   if (!localeSpecific) return finalArray
@@ -109,13 +118,13 @@ export const getJSONLanguageForApplications = async (
     case 'mobile': {
       await setLocaleForTheUser(deviceLocale, localeSpecific, platform)
       console.log(
-        'to merge',
+        'to merge ? :) 150',
         finalArray?.[0]?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST,
         finalArray?.[1]?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST,
         finalArray?.[2]?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST
       )
       const fallbackedJsons = deepExtend(...cloneDeep(finalArray))
-      console.log('merged final array', fallbackedJsons?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST)
+      console.log('merged final array', fallbackedJsons)
       return {
         content: fallbackedJsons,
         path: finalAvailableLocale,

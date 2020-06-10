@@ -8,10 +8,12 @@
     "build:app": "babel src/index.js --out-dir dist",
     "pretty": "prettier --write \"**/*.{json,js}\"",
     "reset-dev-locales": "rm merged-locales/* || true && mkdir -p merged-locales",
-    "dev-locales": "yarn reset-dev-locales && node --experimental-json-modules ./createMergedLocalesForDev.js && yarn pretty",
+    "dev-locales": "yarn reset-dev-locales && node --experimental-json-modules ./createMergedLocalesForDev.js",
     "test:manual": "yarn build:app && node --experimental-json-modules __tests__/index.test.js",
     "test": "jest",
-    "watch": "jest --no-cache --watch ./*"
+    "watch": "jest --no-cache --watch ./*",
+    "dev": "nodemon",
+    "reload": "yarn build:app && yalc publish --push --changed"
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
@@ -39,6 +41,7 @@
     "jest": "^26.0.1",
     "lint-staged": "^10.2.9",
     "lodash": "^4.17.15",
+    "nodemon": "^2.0.4",
     "prettier": "^2.0.5"
   },
   "repository": {

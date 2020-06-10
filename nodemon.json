@@ -1,13 +1,9 @@
 {
   "start": "src/",
   "events": {
-    "restart": "echo 'nice meme'"
+    "restart": "yarn run build:app && yalc publish --push --changed"
   },
-  "watch": ["src", "initial-locales", "merged-locales"],
+  "watch": ["src", "initial-locales"],
   "ignore": ["dist/*"],
-  "execMap": {
-    "js": "echo 'js file touched'",
-    "json": "echo 'JSOOOOON'"
-  },
   "ext": "js, ts, graphql, json"
 }
