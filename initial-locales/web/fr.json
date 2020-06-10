@@ -38,22 +38,50 @@
         },
         "TITLE": "Nouvelle action"
       },
+      "HELP_CENTER": {
+        "LINK_ACTION_CREATION": "https://help.quorum.co/fr/articles/3171272-creer-une-action-video"
+      },
       "INFORMATIONS": {
+        "ADDITIONNAL_HELP_TITLE_STEP_CREATION": "👋 Quelques précisions",
+        "ADD_END_DATE": "+ Ajouter une date de fin",
         "AIM": "📣 Quel est le nom de votre action ?",
+        "AIM_HELPER": "Soyez concis pour vos membres !",
+        "AIM_NEEDED": "Votre action doit comporter un titre.",
         "AIM_PLACEHOLDER": "Soyez concis ! (à destination des membres)",
+        "BRIEF": "📃 Voulez-vous ajouter un brief ?",
         "BRIEFS": "",
+        "BRIEF_CHOOSE_ONE": "Choisissez un brief",
+        "BRIEF_CREATED_PLACEHOLDER": "Votre texte pour votre brief",
+        "BRIEF_NOT_SELECTED": "Non sélectionné",
+        "BRIEF_TITLE": "Titre de votre brief",
+        "BRIEF_TITLE_CREATION": "Créer un brief pour vos membres",
         "COMMENT": "ℹ️ Voulez-vous ajouter des informations supplémentaires ?",
         "COMMENT_PLACEHOLDER": "Comment se déroule l'action ? Qui sera sur place ? Qui est le coordinateur ?",
+        "COUNT_CONTACTS_SELECTED_FROM_DATABASE": "Aucun contact sélectionné | {count} contact sélectionné | {count} contacts sélectionnés",
+        "COUNT_CONTACT_SELECTED": "contact sélectionné dans la zone | contact sélectionné dans la zone | contacts sélectionnés dans la zone",
+        "COUNT_CONTACT_SELECTED_CALL": "contact sélectionné avec un numéro de téléphone dans la zone | contact sélectionné avec un numéro de téléphone dans la zone | contacts sélectionnés avec un numéro de téléphone dans la zone",
         "CREATE_BRIEF": "Créer un brief",
         "DATE": "📅 Quelle est la date de votre action?",
         "END": "Date de fin",
+        "END_DATE_TIME": "Heure de fin",
         "GOAL": "🎯 Voulez-vous ajouter un objectif chiffré ?",
+        "GOAL_HELPER": "C'est un indicateur de performance que vous vous attribuez pour voir si vous atteignez vos objectifs.",
         "GOAL_PLACEHOLDER": "Entrer un objectif chiffré",
         "LINK": "🔗 Voulez-vous ajouter un lien ?",
+        "LINK_CLICKABLE": "Il pourra être cliquable par vos membres.",
         "LINK_PLACEHOLDER": "Lien vers WhatsApp, Telegram, Signal, ...",
         "LINK_POPHOVER": "Ce lien pourra être utilisé par vos membres<br /> pour rejoindre un espace de discussion<br />(Telegram, WhatsApp, Signal, …).<br /><br />Si vous utilisez ces outils, pensez à bien partager le lien<br /> de la conversation à vos membres pour qu’ils puissent la rejoindre.",
         "OPTIONNAL": "optionnel",
+        "PRECISION": {
+          "CONTACT_DATABASE": "À partir de votre liste de contacts",
+          "STREETS_AREA": "Simplement sur les rues de la zone",
+          "TITLE": "Vous voulez faire votre action sur ?"
+        },
+        "REMOVE_END_DATE": "- Retirer la date de fin",
+        "SHARING_CONTENT": "Quel message souhaitez-vous faire partager ?",
+        "SHARING_CONTENT_HELPER": "Vos équipes pourront partager ce message à leurs contacts, par sms ou sur leurs réseaux sociaux, depuis l'application mobile.",
         "START": "Date de début",
+        "START_DATE_TIME": "Heure de début",
         "TYPE": "✊ Quel type d'action souhaitez-vous lancer ?",
         "TYPES": {
           "CALL": "Appel",
@@ -64,8 +92,8 @@
           "MAIL": "Boîtage",
           "OTHER": "Autre",
           "POSTER": "Affiches",
-          "STATIC": "Rencontre",
-          "SHARING": "Partage"
+          "SHARING": "Partage",
+          "STATIC": "Rencontre"
         },
         "TYPES_INFO": {
           "CALL": "Donnez à vos équipes une liste de personnes à appeler.<br /><br />• Ajoutez un script d'appel.<br />• Vos équipes pourront appeler ces personnes directement depuis l'application mobile.<br />• Ils pourront qualifier les appels pendant leurs discussions.",
@@ -76,98 +104,9 @@
           "MAIL": "Boîtez efficacement avec une feuille de route !<br /><br />• Donnez à vos équipes une liste de rues à boîter.<br />• Ils pourront déclarer avoir fait des rues en un seul clic.<br />• Suivez la progression des rues \"faites\" et \"à faire\".<br /><br />Ne passez plus à côté d'aucune rue.<br /><br />Jetez un oeil à cet article : <a class=\"q-link\" href=\"https://intercom.help/quorumhq/fr/articles/3690066-comment-organiser-un-boitage-efficace-avec-quorum\" target=\"_blank\">Comment organiser un boîtage efficace avec Quorum ?</a>",
           "OTHER": "Vous êtes plein d'imaginiation !<br />Créer une action personnalisée.",
           "POSTER": "Cette action vous permet d’organiser une opération de distribution de tracts sur un lieu précis",
-          "STATIC": "Communiquez un point de rencontre à vos équipes.<br /><br />• Définissez une date et un lieu de rendez-vous.<br />• Envoyez des notifications à vos membres.<br />• Vos équipes sur le terrain pourront ajouter les citoyens rencontrés directement depuis l'application mobile.",
-          "SHARING": "Faites jouer l'effet de réseaux !<br/><br/>• Communiquez un message à vos équipes.<br/>• Ils pourront alors simplement le re-partager à leurs contacts par sms ou sur leurs réseaux sociaux."
-        },
-        "ADDITIONNAL_HELP_TITLE_STEP_CREATION": "👋 Quelques précisions",
-        "ADD_END_DATE": "+ Ajouter une date de fin",
-        "AIM_HELPER": "Soyez concis pour vos membres !",
-        "AIM_NEEDED": "Votre action doit comporter un titre.",
-        "BRIEF": "📃 Voulez-vous ajouter un brief ?",
-        "BRIEF_CHOOSE_ONE": "Choisissez un brief",
-        "BRIEF_CREATED_PLACEHOLDER": "Votre texte pour votre brief",
-        "BRIEF_NOT_SELECTED": "Non sélectionné",
-        "BRIEF_TITLE": "Titre de votre brief",
-        "BRIEF_TITLE_CREATION": "Créer un brief pour vos membres",
-        "COUNT_CONTACTS_SELECTED_FROM_DATABASE": "Aucun contact sélectionné | {count} contact sélectionné | {count} contacts sélectionnés",
-        "COUNT_CONTACT_SELECTED": "contact sélectionné dans la zone | contact sélectionné dans la zone | contacts sélectionnés dans la zone",
-        "COUNT_CONTACT_SELECTED_CALL": "contact sélectionné avec un numéro de téléphone dans la zone | contact sélectionné avec un numéro de téléphone dans la zone | contacts sélectionnés avec un numéro de téléphone dans la zone",
-        "END_DATE_TIME": "Heure de fin",
-        "GOAL_HELPER": "C'est un indicateur de performance que vous vous attribuez pour voir si vous atteignez vos objectifs.",
-        "LINK_CLICKABLE": "Il pourra être cliquable par vos membres.",
-        "PRECISION": {
-          "CONTACT_DATABASE": "À partir de votre liste de contacts",
-          "STREETS_AREA": "Simplement sur les rues de la zone",
-          "TITLE": "Vous voulez faire votre action sur ?"
-        },
-        "REMOVE_END_DATE": "- Retirer la date de fin",
-        "SHARING_CONTENT": "Quel message souhaitez-vous faire partager ?",
-        "SHARING_CONTENT_HELPER": "Vos équipes pourront partager ce message à leurs contacts, par sms ou sur leurs réseaux sociaux, depuis l'application mobile.",
-        "START_DATE_TIME": "Heure de début"
-      },
-      "SEARCH": {
-        "HELP": "Essayez de modifier votre recherche",
-        "TEAM_EMPTY": "Aucune équipe ne correspond à votre recherche !",
-        "TEAM_HELP_CTA": "créer une nouvelle équipe.",
-        "USER": "Sélectionnez les membres et/ou les équipes qui réaliseront l'action",
-        "USER_EMPTY": "Aucun membre ne correspond à votre recherche !",
-        "USER_HELP_CTA": "ou inviter un nouveau membre",
-        "COUNT_CONTACT_ADDRESSES": "{count} contact | {count} contact | {count} contacts"
-      },
-      "SUCCESS": "Nouvelle action crée !",
-      "TARGET": {
-        "ABSENT_OR_NOT_VISITED": "Absents ou jamais visités",
-        "ADDRESS": {
-          "ADD": "Ajouter une adresse",
-          "CITY": "Ville",
-          "HOUSENUMBER": "N°",
-          "POPHOVER": "Cette adresse peut être un point de rencontre.",
-          "POSTAL_CODE": "Code Postal",
-          "STREET": "Rue",
-          "TARGET": "Choisissez votre lieu de rencontre",
-          "ADDRESS_LABEL": "Adresse"
-        },
-        "AFTER": "Après le",
-        "ALL": "Tous les citoyens",
-        "ANSWER_SECTION": "Réponses au questionnaire",
-        "BEFORE": "Avant le",
-        "CITIZENS": " Aucun citoyen | citoyen sélectionné | citoyens sélectionnés",
-        "CONTACT_LINK": "votre base de contacts",
-        "ERROR": "Aucune personne n'est sélectionnée",
-        "GEO_SECTION": "🗺 Où souhaitez-vous mener votre action ?",
-        "KNOWN_PHONE_ONLY": "Avec un numéro de téléphone",
-        "KNOWN_PHONE_ONLY_MOBILE": "Avec un numéro de téléphone mobile",
-        "MODIFY_MORE_CRITERIA": "Pour modifier vos filtres, rendez-vous sur ",
-        "NEED_MORE_CRITERIA": "Plus de critères ? Ajoutez des filtres depuis ",
-        "NEVER": "Jamais rencontré",
-        "SEARCH_LABEL": "Les rues ou les villes",
-        "SEARCH_PLACEHOLDER": "Filtrer sur une rue ou ville",
-        "SKIP": "Passer l'étape",
-        "SKIP_CREATE": "Créer une action sans citoyen",
-        "TAGS": "Tags",
-        "TAG_PLACEHOLDER": "Filtrer sur des tags",
-        "TERRITORY": "Les territoires",
-        "TERRITORY_PLACEHOLDER": "Filtrer sur un territoire",
-        "TIMEFORMAT": "JJ/MM/AAAA",
-        "TIME_SECTION": "Filtrer",
-        "UPPER_BOUND_REACHED": "Veuillez sélectionner un nombre de citoyens inférieur à {count}",
-        "UPPER_BOUND_REACHED_WARN": "Une action ne peut excéder {count} citoyens. Veuillez modifier les critères pour continuer.",
-        "CHOOSE_PLACE": "🗺 Choisissez le lieu de votre action",
-        "GEO_SECTION_RECAP": "🗺 Récapitulatif de votre sélection",
-        "HELPER_DRAW_MAP": "Vous pouvez aussi dessiner une zone sur la map",
-        "SELECTED_STREETS_WITHOUT_CONTACTS": "{count} rue sélectionnée sans contacts | {count} rue sélectionnée sans contacts | {count} rues sélectionnées sans contacts",
-        "SELECTED_STREETS_WITH_CONTACTS": "{count} rue sélectionnée avec contacts | {count} rue sélectionnée avec contacts | {count} rues sélectionnées avec contacts"
-      },
-      "TEAMS": "Équipes",
-      "USERS": "Membres",
-      "USER_LENGTH": "Membres sélectionnés | Membre sélectionné au total | Membres sélectionnés au total",
-      "VALIDATE": {
-        "TITLE": "Le nom de l'action est obligatoire",
-        "TYPE": "Le type de l'action est obligatoire",
-        "VOLONTEERS": "L'action doit être assignée à au moins une personne"
-      },
-      "HELP_CENTER": {
-        "LINK_ACTION_CREATION": "https://help.quorum.co/fr/articles/3171272-creer-une-action-video"
+          "SHARING": "Faites jouer l'effet de réseaux !<br/><br/>• Communiquez un message à vos équipes.<br/>• Ils pourront alors simplement le re-partager à leurs contacts par sms ou sur leurs réseaux sociaux.",
+          "STATIC": "Communiquez un point de rencontre à vos équipes.<br /><br />• Définissez une date et un lieu de rendez-vous.<br />• Envoyez des notifications à vos membres.<br />• Vos équipes sur le terrain pourront ajouter les citoyens rencontrés directement depuis l'application mobile."
+        }
       },
       "PRECISION": {
         "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une action vide",
@@ -181,26 +120,71 @@
         "ZONE_WITH_CONTACTS_ONLY_DESC": "Vos équipes sur le terrain auront la liste des adresses de tous vos contacts dans la zone.<br /><br />Cette option vous permet d’aller à la rencontre de vos contacts. 👍",
         "ZONE_WITH_CONTACTS_ONLY_EMPTY": "Créer une action vide"
       },
+      "SEARCH": {
+        "COUNT_CONTACT_ADDRESSES": "{count} contact | {count} contact | {count} contacts",
+        "HELP": "Essayez de modifier votre recherche",
+        "TEAM_EMPTY": "Aucune équipe ne correspond à votre recherche !",
+        "TEAM_HELP_CTA": "créer une nouvelle équipe.",
+        "USER": "Sélectionnez les membres et/ou les équipes qui réaliseront l'action",
+        "USER_EMPTY": "Aucun membre ne correspond à votre recherche !",
+        "USER_HELP_CTA": "ou inviter un nouveau membre"
+      },
       "SELECT_MEMBERS_TITLE": "🏆 Qui réalisera cette action ?",
-      "SUBMIT_INFO": "Votre action est en cours de création. Veuillez patienter."
-    },
-    "DETAIL": {
-      "ADDRESSES": "Adresse | Adresses",
-      "BRIEF": "Brief",
-      "DATES": "Dates",
-      "END": "Se termine le",
-      "LINK": "Lien",
-      "MEMBERS": "Membres invités",
-      "NO_MEMBER": "Aucun membre dans cette action",
-      "NO_PITCH": "Pas de note dans cette action",
-      "NO_TEAM": "Aucune équipe dans cette action",
-      "PITCH": "Notes",
-      "START": "Commence le",
-      "TABS": {
-        "CONFIRMED": "Confirmé | Confirmé | Confirmés",
-        "INVITED": "Invité | Invité | Invités"
+      "SUBMIT_INFO": "Votre action est en cours de création. Veuillez patienter.",
+      "SUCCESS": "Nouvelle action crée !",
+      "TARGET": {
+        "ABSENT_OR_NOT_VISITED": "Absents ou jamais visités",
+        "ADDRESS": {
+          "ADD": "Ajouter une adresse",
+          "ADDRESS_LABEL": "Adresse",
+          "CITY": "Ville",
+          "HOUSENUMBER": "N°",
+          "POPHOVER": "Cette adresse peut être un point de rencontre.",
+          "POSTAL_CODE": "Code Postal",
+          "STREET": "Rue",
+          "TARGET": "Choisissez votre lieu de rencontre"
+        },
+        "AFTER": "Après le",
+        "ALL": "Tous les citoyens",
+        "ANSWER_SECTION": "Réponses au questionnaire",
+        "BEFORE": "Avant le",
+        "CHOOSE_PLACE": "🗺 Choisissez le lieu de votre action",
+        "CITIZENS": " Aucun citoyen | citoyen sélectionné | citoyens sélectionnés",
+        "CONTACT_LINK": "votre base de contacts",
+        "ERROR": "Aucune personne n'est sélectionnée",
+        "GEO_SECTION": "🗺 Où souhaitez-vous mener votre action ?",
+        "GEO_SECTION_RECAP": "🗺 Récapitulatif de votre sélection",
+        "HELPER_DRAW_MAP": "Vous pouvez aussi dessiner une zone sur la map",
+        "KNOWN_PHONE_ONLY": "Avec un numéro de téléphone",
+        "KNOWN_PHONE_ONLY_MOBILE": "Avec un numéro de téléphone mobile",
+        "MODIFY_MORE_CRITERIA": "Pour modifier vos filtres, rendez-vous sur ",
+        "NEED_MORE_CRITERIA": "Plus de critères ? Ajoutez des filtres depuis ",
+        "NEVER": "Jamais rencontré",
+        "SEARCH_LABEL": "Les rues ou les villes",
+        "SEARCH_PLACEHOLDER": "Filtrer sur une rue ou ville",
+        "SELECTED_STREETS_WITHOUT_CONTACTS": "{count} rue sélectionnée sans contacts | {count} rue sélectionnée sans contacts | {count} rues sélectionnées sans contacts",
+        "SELECTED_STREETS_WITH_CONTACTS": "{count} rue sélectionnée avec contacts | {count} rue sélectionnée avec contacts | {count} rues sélectionnées avec contacts",
+        "SKIP": "Passer l'étape",
+        "SKIP_CREATE": "Créer une action sans citoyen",
+        "TAGS": "Tags",
+        "TAG_PLACEHOLDER": "Filtrer sur des tags",
+        "TERRITORY": "Les territoires",
+        "TERRITORY_PLACEHOLDER": "Filtrer sur un territoire",
+        "TIMEFORMAT": "JJ/MM/AAAA",
+        "TIME_SECTION": "Filtrer",
+        "UPPER_BOUND_REACHED": "Veuillez sélectionner un nombre de citoyens inférieur à {count}",
+        "UPPER_BOUND_REACHED_WARN": "Une action ne peut excéder {count} citoyens. Veuillez modifier les critères pour continuer."
       },
       "TEAMS": "Équipes",
+      "USERS": "Membres",
+      "USER_LENGTH": "Membres sélectionnés | Membre sélectionné au total | Membres sélectionnés au total",
+      "VALIDATE": {
+        "TITLE": "Le nom de l'action est obligatoire",
+        "TYPE": "Le type de l'action est obligatoire",
+        "VOLONTEERS": "L'action doit être assignée à au moins une personne"
+      }
+    },
+    "DETAIL": {
       "ACTION_NAME": "Nom de l'action",
       "ADD": {
         "MEMBER": "Ajouter un participant",
@@ -208,22 +192,38 @@
         "TEAM_TO_ADD": "Équipe à ajouter"
       },
       "ADDITIVES_INFORMATIONS": "Informations supplémentaires",
+      "ADDRESSES": "Adresse | Adresses",
       "ALL_MEMBERS_ADDED": "Tous les membres invités ont été sélectionnés",
       "ALL_TEAMS_ADDED": "Toutes les équipes ont été sélectionnées",
+      "BRIEF": "Brief",
       "CONFIRMED_PARTICIPATIONS": "{amount} participation confirmée | {amount} participations confirmées",
+      "DATES": "Dates",
+      "END": "Se termine le",
+      "LINK": "Lien",
       "MEETING_POINT_UNDEFINED": "Point de rencontre: non précisé",
+      "MEMBERS": "Membres invités",
       "MODAL_ACTION": "{action} l'action",
       "NO_CURRENT_TEAM": "Aucune équipe actuellement",
+      "NO_MEMBER": "Aucun membre dans cette action",
       "NO_MEMBERS_INVITED": "Aucune invitation de membre(s) sans équipe(s)",
+      "NO_PITCH": "Pas de note dans cette action",
+      "NO_TEAM": "Aucune équipe dans cette action",
       "PICKERS": {
         "CHOOSE_DAY": "Choix du jour",
         "CHOOSE_TIME": "Choix de l'heure"
       },
+      "PITCH": "Notes",
       "PLACEHOLDERS": {
         "BRIEF": "Choisissez un brief"
       },
       "PROGRESS": "Avancée de l'action",
-      "SHARING_ACTION": "Message partagé"
+      "SHARING_ACTION": "Message partagé",
+      "START": "Commence le",
+      "TABS": {
+        "CONFIRMED": "Confirmé | Confirmé | Confirmés",
+        "INVITED": "Invité | Invité | Invités"
+      },
+      "TEAMS": "Équipes"
     },
     "EDIT": {
       "ADDRESSES": "Adresses",
@@ -249,27 +249,39 @@
       "NAME": "Nom",
       "NO_EMPTY_NAME": "Le nom de l'action est obligatoire",
       "NO_EMPTY_TEAM": "You must have at least one member invited.",
-      "SUCCESS": "L'action a bien été mise à jour",
-      "TEAMS": "Équipes",
       "SELECT_ONE_AT_LEAST": "Veuillez sélectionner au moins un utilisateur ou une équipe",
       "STREET_OR_CITY": "Rue ou ville",
+      "SUCCESS": "L'action a bien été mise à jour",
+      "TEAMS": "Équipes",
       "TERRITORY": "Territoires"
     },
     "LIST": {
       "ACTIONS_SELECTED": "Aucune action sélectionnée | {count} action sélectionnée | {count} actions sélectionnées",
       "ACTION_IS_OVER": "La date de l'action est dépassée.",
+      "ACTION_NOW": "Votre action est maintenant {status} !",
       "ADD_ACTION_POLY": "Créer une action sur la zone",
       "ARCHIVE": "Archiver",
       "ARCHIVED_ACTION": "Noter comme terminée",
+      "CLOSE": "Terminer",
+      "CONFIRMATION_OPEN_CLOSE": "Êtes-vous sûr de vouloir {action} l'action ?",
       "CONFIRMED": "1 attendee | 1 participant | %{count} participants",
       "CREATED_AT": "Créée le",
       "DELETE_SUCCESS": "L'action \"{name}\" a bien été supprimée",
+      "DELETION": {
+        "CONFIRMATION": "Vous êtes sur le point de supprimer cette action",
+        "TITLE": "Suppression d'une action"
+      },
       "EDIT_ACTION": "Éditer l'action",
+      "ERROR_HAPPENED": {
+        "TOGGLE": "Une erreur est survenue lors de la suppresion de votre action."
+      },
       "FINISH": "Terminer l'action | Terminer {count} actions",
       "FINISHED": "Action terminée | Action terminée | Actions terminées",
       "MEMBERS": "0 membre | 1 membre | %{count} membres",
       "MET": "{count} rencontré | {count} rencontré | {count} rencontrés",
       "NO_DATA": "Aucune action pour l’heure ! Il est temps de préparer le terrain ✨ !",
+      "OPENED": "Rouverte",
+      "OPEN_BACK": "Rouvrir",
       "PENDING_TEXT": "Un peu de patience, nous préparons le terrain",
       "REOPEN": "Relancer l'action | Relancer {count} actions",
       "RUNNING": "Action en cours | Action en cours | Actions en cours",
@@ -297,23 +309,11 @@
         "MAIL": "Boîtages",
         "OTHER": "Autre",
         "POSTER": "Affiches",
-        "STATIC": "Rencontre",
-        "SHARING": "Partage"
+        "SHARING": "Partage",
+        "STATIC": "Rencontre"
       },
       "UPDATE_ERROR": "Erreur : l'action \"{name}\" n'a pas été mise à jour",
-      "UPDATE_SUCCESS": "L'action \"{name}\" a bien été mise à jour",
-      "ACTION_NOW": "Votre action est maintenant {status} !",
-      "CLOSE": "Terminer",
-      "CONFIRMATION_OPEN_CLOSE": "Êtes-vous sûr de vouloir {action} l'action ?",
-      "DELETION": {
-        "CONFIRMATION": "Vous êtes sur le point de supprimer cette action",
-        "TITLE": "Suppression d'une action"
-      },
-      "ERROR_HAPPENED": {
-        "TOGGLE": "Une erreur est survenue lors de la suppresion de votre action."
-      },
-      "OPENED": "Rouverte",
-      "OPEN_BACK": "Rouvrir"
+      "UPDATE_SUCCESS": "L'action \"{name}\" a bien été mise à jour"
     },
     "SIDEBAR": {
       "KPI": {
@@ -460,10 +460,25 @@
     }
   },
   "CARTO": {
+    "CAPTION": {
+      "FROM": "entre",
+      "LESS": "moins de",
+      "MORE": "plus de",
+      "TO": "et"
+    },
     "CC": {
       "CALL_TO_ACTION": {
         "ACTIONS": "Action en cours  | Actions en cours",
         "ADD_ACTION": "Lancer une action",
+        "ADD_ACTION_FIRST_STEP": {
+          "COMBINE_CONTACTS_UNKNOW_STREETS": "Vos contacts et toutes les rues de cette zone",
+          "ERROR_CANNOT_CREATE_ACTION_TOO_LARGE": "Vous ne pouvez pas créer d'action sur une zone aussi grande.",
+          "NEED_HELP_FIRST_SENTENCE": "Besoin d'aide pour créer une action ? Jeter un oeil sur ",
+          "NEED_HELP_SECOND_SENTENCE": "cette article.",
+          "ONLY_CONTACTS": "Vos contacts dans cette zone uniquement",
+          "START_LABEL_BUTTON": "Démarrer",
+          "TITLE": "Vous voulez créer une action sur :"
+        },
         "ADD_ACTION_HERE": "Lancer une action ici",
         "CONTACTS": "Contacts",
         "CONTACTS_HERE": "Aucun contact dans la zone | 1 contact dans la zone | {count} contacts dans la zone",
@@ -502,16 +517,7 @@
         "TITLES": {
           "DATA": "Résumé de la zone"
         },
-        "TYPE": "Type :",
-        "ADD_ACTION_FIRST_STEP": {
-          "COMBINE_CONTACTS_UNKNOW_STREETS": "Vos contacts et toutes les rues de cette zone",
-          "ERROR_CANNOT_CREATE_ACTION_TOO_LARGE": "Vous ne pouvez pas créer d'action sur une zone aussi grande.",
-          "NEED_HELP_FIRST_SENTENCE": "Besoin d'aide pour créer une action ? Jeter un oeil sur ",
-          "NEED_HELP_SECOND_SENTENCE": "cette article.",
-          "ONLY_CONTACTS": "Vos contacts dans cette zone uniquement",
-          "START_LABEL_BUTTON": "Démarrer",
-          "TITLE": "Vous voulez créer une action sur :"
-        }
+        "TYPE": "Type :"
       },
       "CAPTION": "Légende",
       "NAVIGATOR": {
@@ -562,11 +568,11 @@
         "PRIO_LATENCY": "Votre analyse va se recharger automatiquement dans quelques instants",
         "RETRY": "Réessayer ?",
         "ROLE": "Rôle : ",
+        "SATELLITE_MODE": "Mode satellite",
         "SEE_PROFILE": "Voir le profil",
         "TODO": "À faire ",
         "ZOOM_IN": "Zoomer",
-        "ZOOM_OUT": "Dézoomer",
-        "SATELLITE_MODE": "Mode satellite"
+        "ZOOM_OUT": "Dézoomer"
       },
       "PRIO": {
         "ADD_ACTION": "Créer une action",
@@ -639,12 +645,6 @@
     "SIDEBARS": {
       "FILTER_WITH_MAP": "Filtrer avec la carte",
       "REMOVE_ALL": "Supprimer le polygone"
-    },
-    "CAPTION": {
-      "FROM": "entre",
-      "LESS": "moins de",
-      "MORE": "plus de",
-      "TO": "et"
     }
   },
   "COMMUNCATIONS": {
@@ -1415,12 +1415,12 @@
         "TITLE": "Vous ne pouvez pas encore envoyer de SMS"
       },
       "MESSAGE": "Le message que vous êtiez en train d'éditer sera définitivement supprimé",
-      "TITLE": "Attention",
       "ORIGINATOR": {
         "FOLLOW_LINK": "",
         "NEED_TO_SET_ORIGINATOR": "",
         "TITLE": ""
-      }
+      },
+      "TITLE": "Attention"
     }
   },
   "STRUCTURE": {
@@ -1559,14 +1559,14 @@
     "EMAIL": "Merci de rentrer une adresse mail valide",
     "ENTITY_MUST_CONTAIN": "Votre {entity} doit contenir {correctFormat}",
     "FIELDS_SHOULD_NOT": "Votre {firstEntity} et {secondEntity} ne doivent pas être {comparative}.",
+    "MAXIMUM": "Votre {entity} ne doit pas contenir plus de {amount} caractères.",
     "MINIMUM": "Votre {entity} doit contenir au minimum {amount} caractères.",
+    "MINIMUM_VALUE": "Le champ {entity} doit être égal à {amount} ou plus.",
     "REQUIRED": "Ce champ est requis",
     "REQUIRED_IF": "Ce champ doit être rempli si {otherField} n'est pas vide.",
     "RESPECT_THE_FORMAT": "Merci de respecter le format",
-    "WRONG_REGEX_FORMAT": "Merci de respecter le format suivant: {correctFormat}",
-    "MAXIMUM": "Votre {entity} ne doit pas contenir plus de {amount} caractères.",
-    "MINIMUM_VALUE": "Le champ {entity} doit être égal à {amount} ou plus.",
-    "STARTS_WITH_HTTPS": "Merci de mettre une URL qui commence par https://"
+    "STARTS_WITH_HTTPS": "Merci de mettre une URL qui commence par https://",
+    "WRONG_REGEX_FORMAT": "Merci de respecter le format suivant: {correctFormat}"
   },
   "VENDORS": {
     "ARCHITECTURE": {
@@ -3121,6 +3121,10 @@
       "children_number": {
         "gender": "m",
         "label": "Nombre d'enfants"
+      },
+      "chreches": {
+        "gender": "",
+        "label": ""
       },
       "chrs_centre_d_hebergement_et_de_readaptation_sociale": {
         "gender": "m",
@@ -5062,10 +5066,6 @@
       "wal_and_bru": {
         "gender": "m",
         "label": "Données Wallonie et Bruxelles"
-      },
-      "chreches": {
-        "gender": "",
-        "label": ""
       }
     },
     "ELEMENT_UI": {
@@ -5165,7 +5165,10 @@
           "noCheckedFormat": "{total} items",
           "noData": "Pas de données",
           "noMatch": "Aucune donnée correspondante",
-          "titles": ["List 1", "List 2"]
+          "titles": [
+            "List 1",
+            "List 2"
+          ]
         },
         "tree": {
           "emptyText": "Aucune donnée"
@@ -5228,6 +5231,7 @@
     "NEW_CURRENT_CAMPAIGN": "Vous êtes sur l’espace:",
     "PAGE_IS_LOADING": "Nous chargeons actuellement votre page ! 🌱"
   },
+  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr",
   "_COMMON": {
     "ACTION": {
       "ENTITY_SUCCESSFULLY_UPDATED": "{entity} mis à jour avec succès !",
@@ -5238,11 +5242,13 @@
     "ADD_ACTION": "Créer une action",
     "AND": "et",
     "BACK": "Retour",
+    "BETA_FEATURE": "Cette fonctionnalité est en version Bêta.<br/>Contactez-nous si vous rencontrez des problèmes d'utilisation.",
     "CANCEL": "Annuler",
     "CHECK": "Sélection",
     "CITY": "Ville",
     "CLOSE": "Fermer",
     "CONFIRM": "Confirmer",
+    "CONTACT": "Contact",
     "CREATE": "Créer",
     "DATE": "Date",
     "DELETE": "Supprimer",
@@ -5286,12 +5292,14 @@
     "LOADING": "Chargement...",
     "MALE": "Homme",
     "MARRIED_NAME": "Nom marital",
+    "MEETING_POINT": "Point de rencontre",
     "MORE_FILTERS": "Accéder aux filtres",
     "NA": "Non renseigné",
     "NAME": "Nom",
     "NEXT": "Suivant",
     "NO": "Non",
     "NO_DATA": "Aucune donnée",
+    "NO_INFORMATION": "Non renseigné",
     "OK": "OK",
     "OPTIONNAL": "facultatif",
     "PASSWORDS": "Les mots de passe",
@@ -5300,6 +5308,8 @@
     "RGPD": "En cliquant sur Sauvegarder, je confirme avoir obtenu licitement et avec consentement les données transmises.",
     "SAVE": "Sauvegarder",
     "SEARCH": "Rechercher",
+    "SEE_LESS": "Voir moins",
+    "SEE_MORE": "Voir plus",
     "SHOW": "Montrer",
     "SPECIAL_CHAR": "caractère spécial",
     "STAY_ON_PAGE": "Rester sur la page",
@@ -5307,20 +5317,13 @@
     "SUMMARY": "Récapitulatif",
     "TAGS": "Tags",
     "TELEPHONE": "Téléphone",
+    "TERRITORIES": "Territoire | Territoires",
     "TIME": {
       "DAY": "jour | jours",
       "MONTH": "mois | mois",
       "WEEK": "semaine | semaines",
       "YEAR": "an | ans"
     },
-    "YES": "Oui",
-    "BETA_FEATURE": "Cette fonctionnalité est en version Bêta.<br/>Contactez-nous si vous rencontrez des problèmes d'utilisation.",
-    "CONTACT": "Contact",
-    "MEETING_POINT": "Point de rencontre",
-    "NO_INFORMATION": "Non renseigné",
-    "SEE_LESS": "Voir moins",
-    "SEE_MORE": "Voir plus",
-    "TERRITORIES": "Territoire | Territoires"
-  },
-  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr"
+    "YES": "Oui"
+  }
 }

@@ -1,159 +1,75 @@
 {
-  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-promevil",
   "ACTION": {
     "CALL_TO_ACTION": {
       "CONFIRM_CLOSE": {
         "CANCEL_TEXT": "Je suis la ville au top ! :D",
         "MESSAGE": "Vous n'avez pas terminé la création de votre feuille de route. Voulez-vous quitter la page et perdre les informations renseignées ?"
       },
-      "VALIDATE": {
-        "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne",
-        "TITLE": "Votre feuille de route doit avoir un nom"
+      "CREATE": "Créer une feuille de route",
+      "HEADER": {
+        "TITLE": "Nouvelle feuille de route"
+      },
+      "INFORMATIONS": {
+        "AIM": "Quel est le nom de votre feuille de route ?",
+        "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
+        "DATE": "Quelle est la date de votre feuille de route ?"
       },
       "SEARCH": {
         "USER": "Sélectionnez les médiateurs qui réaliseront cette journée"
       },
-      "INFORMATIONS": {
-        "DATE": "Quelle est la date de votre feuille de route ?",
-        "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
-        "AIM": "Quel est le nom de votre feuille de route ?"
-      },
-      "HEADER": {
-        "TITLE": "Nouvelle feuille de route"
-      },
-      "CREATE": "Créer une feuille de route",
-      "SUCCESS": "Feuille de route créée !"
+      "SUCCESS": "Feuille de route créée !",
+      "VALIDATE": {
+        "TITLE": "Votre feuille de route doit avoir un nom",
+        "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne"
+      }
+    },
+    "DETAIL": {
+      "NO_MEMBER": "Aucun membre pour cette action",
+      "NO_PITCH": "Aucun script pour cette journée",
+      "NO_TEAM": "Aucune équipe pour cette journée"
+    },
+    "EDIT": {
+      "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire",
+      "SUCCESS": "La feuille de route à bien été mise à jour"
+    },
+    "LIST": {
+      "ACTIONS_SELECTED": "Aucune feuille de route sélectionnée",
+      "ACTION_IS_OVER": "La date de cette feuille de route est dépassée",
+      "ADD_ACTION_POLY": "Créer une feuille de route ici",
+      "DELETE_SUCCESS": "La feuille de route \"{name}\" a été supprimée",
+      "EDIT_ACTION": "Modifier la feuille de route",
+      "FINISHED": "Feuille de route complète",
+      "NO_DATA": "Aucune feuille de route pour le moment",
+      "REOPEN": "Relancer la feuille de route",
+      "RUNNING": "Feuille de route en cours",
+      "SEARCH": "Rechercher une feuille de route",
+      "SELECTORS": {
+        "ACTIONS_TYPES": "Type d'interventions"
+      }
     },
     "SIDEBAR": {
       "KPI": {
         "ACTIONS_SELECTED": "Aucune feuille de route"
       }
-    },
-    "LIST": {
-      "SEARCH": "Rechercher une feuille de route",
-      "RUNNING": "Feuille de route en cours",
-      "REOPEN": "Relancer la feuille de route",
-      "NO_DATA": "Aucune feuille de route pour le moment",
-      "FINISHED": "Feuille de route complète",
-      "EDIT_ACTION": "Modifier la feuille de route",
-      "DELETE_SUCCESS": "La feuille de route \"{name}\" a été supprimée",
-      "ADD_ACTION_POLY": "Créer une feuille de route ici",
-      "ACTION_IS_OVER": "La date de cette feuille de route est dépassée",
-      "ACTIONS_SELECTED": "Aucune feuille de route sélectionnée",
-      "SELECTORS": {
-        "ACTIONS_TYPES": "Type d'interventions"
-      }
-    },
-    "EDIT": {
-      "SUCCESS": "La feuille de route à bien été mise à jour",
-      "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire"
-    },
-    "DETAIL": {
-      "NO_TEAM": "Aucune équipe pour cette journée",
-      "NO_MEMBER": "Aucun membre pour cette action",
-      "NO_PITCH": "Aucun script pour cette journée"
     }
   },
-  "_COMMON": {
-    "ADD_ACTION": "Créer une feuille de route"
-  },
-  "USER_MANAGEMENT": {
-    "USER_LIST": {
-      "TEAMS": {
-        "CREATE_ACTION": "Créer une feuille de route"
-      }
-    },
-    "DETAIL": {
-      "ROLES": {
-        "MANAGER": {
-          "TITLE": "Chef d'équipe"
-        },
-        "USER": {
-          "TITLE": "Médiateur"
-        },
-        "ADMIN": {
-          "TITLE": "Référent ville"
-        },
-        "SUPERADMIN": {
-          "TITLE": "QG Promévil"
-        }
-      }
-    },
-    "KPI": {
-      "LEADERS": "QG Promévil | QG Promévil",
-      "MANAGERS": "chef d'équipe | chef d'équipe",
-      "ORGANIZERS": "référent ville | référent ville"
-    }
-  },
-  "SETTINGS": {
-    "CAMPAIGN": {
-      "VENDOR_HEAD": {
-        "ACTION": "Feuille de route"
-      }
-    },
-    "HEADER": {
-      "ACTIONS": "Tâches",
-      "LEAD": "Tâches"
-    },
-    "FORM_BUILDER": {
-      "NAMES": {
-        "ACTION": "Tâches"
-      }
-    },
-    "PROFILE": {
-      "ROLES": {
-        "MANAGER": "Chef d'équipe",
-        "ADMIN": "Référent ville",
-        "USER": "Médiateur",
-        "SUPERADMIN": "QG Promévil"
-      }
-    }
-  },
-  "MENU": {
-    "ACTIONS": "Feuilles de route",
-    "ISSUE_CENTER": "Tâches",
-    "CITIZENS": "Interventions",
-    "MOBILIZATION": "Faits"
-  },
-  "MANAGEMENT": {
-    "ISSUE_CENTER": {
-      "DROPDOWN": "Feuille de routes"
-    }
-  },
-  "CONTACT": {
-    "LIST": {
-      "TABLE": {
-        "ACTIONS": "Feuille de route"
-      },
-      "MODAL": {
-        "WARNING": "Attention : vous allez faire des modifications sur toutes les interventions sélectionnées sur cette page",
-        "TITLE": {
-          "TAGS": "Modifier le tag de {count} intervention(s)",
-          "STATUS": "Modifier le statut de {count} intervention(s)",
-          "TERRITORIES": "Modifier le territoire de {count} interventions"
-        }
-      },
-      "EXPORT_LIMITATION": "Vous ne pouvez pas exporter plus de 10 000 interventions. Si vous avez besoin d'un export plus grand, contactez l'équipe support.",
-      "CONTACTS_SELECTED": "0 sélectionné | 1 sélectionné | {count} selected"
-    },
-    "HEADER": {
-      "MANAGE_ACTIONS_AVAILABLES": "Feuille de route",
-      "CREATE_ACTION": "Créer une feuille de route",
-      "TITLE": "Interventions"
-    },
-    "EDIT": {
-      "ACTIONS": "Feuille de route",
-      "LEAD": "Tâches"
-    },
-    "KPI": {
-      "OVERLAY": "Voir intervention",
-      "CONTACTS": "Aucune intervention"
+  "ANALYTICS": {
+    "GENERATION": {
+      "ACTION_NUMBER": "Feuille de route n°{number}",
+      "CREATE_ACTION": "Créer une feuille de route"
     }
   },
   "CARTO": {
     "CC": {
-      "PRIO": {
-        "ADD_ACTION": "Créer une feuille de route"
+      "CALL_TO_ACTION": {
+        "ACTIONS": "Feuille de route en cours",
+        "ADD_ACTION": "Créer une feuille de route",
+        "ADD_ACTION_HERE": "Créer une feuille de route ici",
+        "CONTACTS_HERE": "Pas d'intervention dans cette zone | Une intervention dans cette zone | {count}  interventions dans cette zone",
+        "DONE_ACTIONS": "Feuille de route terminée",
+        "TABS": {
+          "MOBILISATION": "Faits"
+        }
       },
       "NAVIGATOR": {
         "LAYERS": {
@@ -161,22 +77,107 @@
           "CONTACTS": "Interventions"
         }
       },
-      "CALL_TO_ACTION": {
-        "DONE_ACTIONS": "Feuille de route terminée",
-        "ADD_ACTION_HERE": "Créer une feuille de route ici",
-        "ADD_ACTION": "Créer une feuille de route",
-        "ACTIONS": "Feuille de route en cours",
-        "TABS": {
-          "MOBILISATION": "Faits"
-        },
-        "CONTACTS_HERE": "Pas d'intervention dans cette zone | Une intervention dans cette zone | {count}  interventions dans cette zone"
+      "PRIO": {
+        "ADD_ACTION": "Créer une feuille de route"
       }
     }
   },
-  "ANALYTICS": {
-    "GENERATION": {
+  "CONTACT": {
+    "EDIT": {
+      "ACTIONS": "Feuille de route",
+      "LEAD": "Tâches"
+    },
+    "HEADER": {
       "CREATE_ACTION": "Créer une feuille de route",
-      "ACTION_NUMBER": "Feuille de route n°{number}"
+      "MANAGE_ACTIONS_AVAILABLES": "Feuille de route",
+      "TITLE": "Interventions"
+    },
+    "KPI": {
+      "CONTACTS": "Aucune intervention",
+      "OVERLAY": "Voir intervention"
+    },
+    "LIST": {
+      "CONTACTS_SELECTED": "0 sélectionné | 1 sélectionné | {count} selected",
+      "EXPORT_LIMITATION": "Vous ne pouvez pas exporter plus de 10 000 interventions. Si vous avez besoin d'un export plus grand, contactez l'équipe support.",
+      "MODAL": {
+        "TITLE": {
+          "STATUS": "Modifier le statut de {count} intervention(s)",
+          "TAGS": "Modifier le tag de {count} intervention(s)",
+          "TERRITORIES": "Modifier le territoire de {count} interventions"
+        },
+        "WARNING": "Attention : vous allez faire des modifications sur toutes les interventions sélectionnées sur cette page"
+      },
+      "TABLE": {
+        "ACTIONS": "Feuille de route"
+      }
+    }
+  },
+  "MANAGEMENT": {
+    "ISSUE_CENTER": {
+      "DROPDOWN": "Feuille de routes"
+    }
+  },
+  "MENU": {
+    "ACTIONS": "Feuilles de route",
+    "CITIZENS": "Interventions",
+    "ISSUE_CENTER": "Tâches",
+    "MOBILIZATION": "Faits"
+  },
+  "SETTINGS": {
+    "CAMPAIGN": {
+      "VENDOR_HEAD": {
+        "ACTION": "Feuille de route"
+      }
+    },
+    "FORM_BUILDER": {
+      "NAMES": {
+        "ACTION": "Tâches"
+      }
+    },
+    "HEADER": {
+      "ACTIONS": "Tâches",
+      "LEAD": "Tâches"
+    },
+    "PROFILE": {
+      "ROLES": {
+        "ADMIN": "Référent ville",
+        "MANAGER": "Chef d'équipe",
+        "SUPERADMIN": "QG Promévil",
+        "USER": "Médiateur"
+      }
+    }
+  },
+  "SMS": {
+    "ANALYTICS": {
+      "CONTACTS_SELECTED": "Interventions sélectionnées"
+    }
+  },
+  "USER_MANAGEMENT": {
+    "DETAIL": {
+      "ROLES": {
+        "ADMIN": {
+          "TITLE": "Référent ville"
+        },
+        "MANAGER": {
+          "TITLE": "Chef d'équipe"
+        },
+        "SUPERADMIN": {
+          "TITLE": "QG Promévil"
+        },
+        "USER": {
+          "TITLE": "Médiateur"
+        }
+      }
+    },
+    "KPI": {
+      "LEADERS": "QG Promévil | QG Promévil",
+      "MANAGERS": "chef d'équipe | chef d'équipe",
+      "ORGANIZERS": "référent ville | référent ville"
+    },
+    "USER_LIST": {
+      "TEAMS": {
+        "CREATE_ACTION": "Créer une feuille de route"
+      }
     }
   },
   "VENDORS": {
@@ -186,9 +187,8 @@
       }
     }
   },
-  "SMS": {
-    "ANALYTICS": {
-      "CONTACTS_SELECTED": "Interventions sélectionnées"
-    }
+  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-promevil",
+  "_COMMON": {
+    "ADD_ACTION": "Créer une feuille de route"
   }
 }

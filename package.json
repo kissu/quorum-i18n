@@ -2,18 +2,30 @@
   "name": "quorum-i18n",
   "version": "1.7.3",
   "description": "Repo for all the i18n resources for the Quorum's Sales Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kissu/quorum-i18n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kissu/quorum-i18n/issues"
+  },
+  "homepage": "https://github.com/kissu/quorum-i18n#readme",
   "author": "quorumsco <https://www.quorum.co>",
+  "keywords": [
+    "quorum"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "build:app": "babel src/index.js --out-dir dist",
-    "pretty": "prettier --write \"**/*.{json,js}\"",
-    "reset-dev-locales": "rm merged-locales/* || true && mkdir -p merged-locales",
-    "dev-locales": "yarn reset-dev-locales && node --experimental-json-modules ./createMergedLocalesForDev.js",
-    "test:manual": "yarn build:app && node --experimental-json-modules __tests__/index.test.js",
-    "test": "jest",
-    "watch": "jest --no-cache --watch ./*",
     "dev": "nodemon",
-    "reload": "yarn build:app && yalc publish --push --changed"
+    "dev-locales": "yarn reset-dev-locales && node --experimental-json-modules ./createMergedLocalesForDev.js",
+    "pretty": "prettier --write \"**/*.{json,js}\" && jsonsort 'initial-locales/**/*.json' package.json",
+    "reload": "yarn build:app && yalc publish --push --changed",
+    "reset-dev-locales": "rm merged-locales/* || true && mkdir -p merged-locales",
+    "test": "jest",
+    "test:manual": "yarn build:app && node --experimental-json-modules __tests__/index.test.js",
+    "watch": "jest --no-cache --watch ./*"
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
@@ -39,21 +51,10 @@
     "eslint-plugin-prettier": "^3.1.3",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
+    "json-sort-cli": "^1.15.22",
     "lint-staged": "^10.2.9",
     "lodash": "^4.17.15",
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kissu/quorum-i18n.git"
-  },
-  "keywords": [
-    "quorum"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kissu/quorum-i18n/issues"
-  },
-  "homepage": "https://github.com/kissu/quorum-i18n#readme"
+  }
 }

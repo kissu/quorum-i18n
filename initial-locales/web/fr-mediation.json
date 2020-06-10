@@ -1,10 +1,10 @@
 {
-  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation",
   "ACTION": {
     "CALL_TO_ACTION": {
       "CONFIRM_CLOSE": {
         "CANCEL_TEXT": "Je médite beaucoup ! :) :)"
       }
     }
-  }
+  },
+  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation"
 }
