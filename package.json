@@ -22,7 +22,7 @@
     "dev-locales": "yarn reset-dev-locales && node --experimental-json-modules ./createMergedLocalesForDev.js",
     "pretty": "prettier --write \"**/*.{json,js}\" && jsonsort 'initial-locales/**/*.json' 'merged-locales/**/*.json' package.json",
     "reload": "yarn build:app && yalc publish --push --changed",
-    "reset-dev-locales": "rm merged-locales/* || true && mkdir -p merged-locales",
+    "reset-dev-locales": "rm -rf merged-locales/* || true && mkdir -p merged-locales",
     "test": "jest",
     "test:manual": "yarn build:app && node --experimental-json-modules __tests__/index.test.js",
     "watch": "jest --no-cache --watch ./*"
