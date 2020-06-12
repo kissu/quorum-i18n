@@ -13,10 +13,9 @@ const defineUserLocales = (deviceLocale) => {
 let finalAvailableLocale
 async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, platform = 'web') {
   const wantedFile = constantizeIfTruthy(locale, localeSpecific)
-  finalAvailableLocale = constantizeIfTruthy(locale, localeSpecific)
+  finalAvailableLocale = locale
   switch (platform) {
     case 'web':
-      console.log('web case')
       if (WebTranslates[wantedFile]) return WebTranslates[wantedFile]
       return false
 
@@ -29,14 +28,24 @@ async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, plat
   }
 }
 
-function downgradeMyLocaleSpecific(localeSpecific) {
-  if (localeSpecific === '') return localeSpecific
-  return localeSpecific.replace(/-?[A-Za-z]+$/, '')
+function sanitizeString(string) {
+  //? I did not found a sanitizer like this online, so I did a custom one
+  return string
+    .trim() // remove space around the string
+    .replace(/\d/g, '') // remove all the digits
+    .replace(/[\s_]/g, '-') // replace any space or `_` by a `-`
+    .replace(/[^\w-]/g, '') // matches any non-word char + `-`, aka remove all "symbols"
+    .replace(/(\W){2,}/, '$1') // dedupe all the `-` in case several are folowing each other
 }
 
 function downgradeMyLocaleString(locale) {
   if (locale === '') return locale
-  return locale.replace(/[-_]?[A-Za-z]+$/, '')
+  return locale.replace(/[-_]?[a-z]+$/i, '')
+}
+
+function downgradeMyLocaleSpecific(localeSpecific) {
+  if (localeSpecific === '') return localeSpecific
+  return localeSpecific.replace(/-?[a-z]+$/i, '')
 }
 
 /**
@@ -48,19 +57,16 @@ function downgradeMyLocaleString(locale) {
 let finalArray = []
 async function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platform) {
   const attemptFileFound = await tryModuleAndReturnFile(locale, localeSpecific, platform)
-  // if (attemptFileFound) return attemptFileFound
-  console.log('|||', locale, localeSpecific)
-  console.log('attempt', attemptFileFound.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST)
-  if (attemptFileFound) finalArray.unshift(attemptFileFound)
-  console.log('ls', localeSpecific)
-  if (!localeSpecific) return finalArray
-  /**
-   *
-   */
+  if (attemptFileFound) {
+    finalArray.unshift(attemptFileFound)
+    if (!localeSpecific) {
+      return finalArray
+    }
+  }
+
   let futureLocaleString = ''
   let futureLocaleSpecific = ''
 
-  //
   if (locale.match(/[a-z]+/gi).length > 1) {
     futureLocaleString = downgradeMyLocaleString(locale)
     futureLocaleSpecific = localeSpecific
@@ -69,14 +75,15 @@ async function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platfo
       futureLocaleSpecific = downgradeMyLocaleSpecific(localeSpecific)
       futureLocaleString = locale
     }
+
+    /**
+     * If my locales are empty, I didn't find a solution and return the english
+     */
+    if (!futureLocaleString && !futureLocaleSpecific) {
+      return await tryModuleAndReturnFile('en', null, platform)
+    }
   }
 
-  /**
-   * If my locales are empty, I didn't find a solution and return the english
-   */
-  if (!futureLocaleString && !futureLocaleSpecific) {
-    return await tryModuleAndReturnFile('en', null, platform)
-  }
   /**
    * downgradeAndSearchFilesForLanguage again because we not found the file
    */
@@ -91,8 +98,8 @@ async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
    * We want to get the locale formatted with
    * the defineUserLocales function
    */
-  const localeFormatted = defineUserLocales(detectedLocale)
-  return await downgradeAndSearchFilesForLanguage(localeFormatted, localeSpecific, platform)
+  const localeFormatted = sanitizeString(defineUserLocales(detectedLocale))
+  return await downgradeAndSearchFilesForLanguage(localeFormatted, sanitizeString(localeSpecific), platform)
 }
 
 /**
@@ -111,20 +118,12 @@ export const getJSONLanguageForApplications = async (
   localeSpecific = null,
   platform = 'web'
 ) => {
-  // if (deviceLocale.includes(' ') || localeSpecific.includes(' '))
-  //   throw new Error("The device locale or specific shouldn't have a space string.")
   switch (platform) {
     case 'web':
     case 'mobile': {
       await setLocaleForTheUser(deviceLocale, localeSpecific, platform)
-      console.log(
-        'to merge ? :) 150',
-        finalArray?.[0]?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST,
-        finalArray?.[1]?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST,
-        finalArray?.[2]?.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST
-      )
-      const fallbackedJsons = deepExtend(...cloneDeep(finalArray))
-      console.log('merged final array', fallbackedJsons)
+      let fallbackedJsons = deepExtend(...cloneDeep(finalArray))
+      finalArray = [] // reset here or the next call to this function will be wrong
       return {
         content: fallbackedJsons,
         path: finalAvailableLocale,
