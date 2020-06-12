@@ -2,7 +2,6 @@
   "ACTION": {
     "CALL_TO_ACTION": {
       "CONFIRM_CLOSE": {
-        "CANCEL_TEXT": "Je suis la ville au top ! :D",
         "MESSAGE": "Vous n'avez pas terminé la création de votre feuille de route. Voulez-vous quitter la page et perdre les informations renseignées ?"
       },
       "CREATE": "Créer une feuille de route",
@@ -118,7 +117,7 @@
     }
   },
   "MENU": {
-    "ACTIONS": "Feuilles de route :3",
+    "ACTIONS": "Feuilles de route",
     "CITIZENS": "Interventions",
     "ISSUE_CENTER": "Tâches",
     "MOBILIZATION": "Faits"

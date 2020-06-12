@@ -115,7 +115,7 @@
         "ZONE_POLYGON_EMPTY_STREETS_ONLY_DESC": "Vos équipes sur le terrain auront la liste des rues dans cette zone où vous n’avez pas de contacts.<br /><br />Cette option vous permet de couvrir tout votre territoire et d’ajouter des citoyens à votre base de contacts. ✊",
         "ZONE_POLYGON_WITH_EMPTY_STREETS_AND_CONTACTS": "Toutes les rues",
         "ZONE_POLYGON_WITH_EMPTY_STREETS_AND_CONTACTS_DESC": "Vos équipes sur le terrain auront la liste de toutes les rues de cette zone.<br /><br />Cette option vous permet de cibler à la fois les rues de vos contacts et les rues où vous n’avez pas de contacts. 👊",
-        "ZONE_TOO_BIG": "La zone sélectionnées est trop grande.",
+        "ZONE_TOO_BIG": "La zone sélectionnée est trop grande.",
         "ZONE_WITH_CONTACTS_ONLY": "Les rues où vous avez des contacts",
         "ZONE_WITH_CONTACTS_ONLY_DESC": "Vos équipes sur le terrain auront la liste des adresses de tous vos contacts dans la zone.<br /><br />Cette option vous permet d’aller à la rencontre de vos contacts. 👍",
         "ZONE_WITH_CONTACTS_ONLY_EMPTY": "Créer une action vide"
@@ -1121,7 +1121,7 @@
       "ACTIVATE": "Activer cette extension",
       "ACTIVE": "Actif",
       "ALLOW_FORM_ON_REFUSAL": "Afficher le questionnaire, même en cas de refus",
-      "CODE": "Code cause",
+      "CODE": "Code invitation",
       "CONFIG_MOBILE": "Personnalisation mobile",
       "DISABLE_AROUND_YOU": "Désactiver \"Autour de moi\"",
       "DISABLE_AROUND_YOU_TOOLTIP": "Autour de moi permet aux utilisateurs mobile de voir les adresses de la base de contact autour d'eux",
@@ -1289,7 +1289,7 @@
       "BETA": "BETA"
     },
     "MY_CAMPAIGNS": {
-      "CAMPAIGN_CODE": "Code cause",
+      "CAMPAIGN_CODE": "Code invitation",
       "CAMPAIGN_ENDING": "Fin de la campagne",
       "DESCRIPTION": "Vous retrouvez ici l’ensemble de vos espaces Quorum.",
       "TERRITORY": "Territoire",
@@ -1452,8 +1452,8 @@
     },
     "INVITE": {
       "ADD_MORE": "Ajouter une personne supplémentaire",
-      "CAMPAIGNCODE": "Pour information, votre code cause est ",
-      "CHANGE_CODE": "Modifier le code cause",
+      "CAMPAIGNCODE": "Pour information, votre code invitation est ",
+      "CHANGE_CODE": "Modifier le code invitation",
       "CTA": "Partager ({count})",
       "EMAIL_ERROR": "Merci de rentrer un email valide",
       "ERROR": "Une erreur est survenue, veuillez réessayer",

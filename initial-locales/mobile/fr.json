@@ -86,13 +86,13 @@
     },
     "joinCampaign": {
       "discover": "Découvrir",
-      "disposeCode": "Si vous disposez d'un code campagne, renseignez-le pour la rejoindre.",
+      "disposeCode": "Si vous disposez d'un code d'invitation, renseignez-le pour la rejoindre.",
       "emoji": "✊🏻",
       "goButton": "Go !",
       "letsGo": "En avant",
       "noCampaign": "Pas encore sur Quorum ?",
-      "noCampaignWithThisCode": "Aucune campagne correspondant à ce code.",
-      "placeholder": "Code campagne"
+      "noCampaignWithThisCode": "Aucun espace correspondant à ce code.",
+      "placeholder": "Code d'invitation"
     },
     "passwordForgot": {
       "errorMailNotFound": "Aucun compte ne correspond à ",
