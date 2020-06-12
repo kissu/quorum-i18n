@@ -2,7 +2,7 @@ name: Quorum's i18n
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
@@ -13,43 +13,36 @@ jobs:
         node-version: [13.2.0]
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Babelify app
-      run: |
-        yarn
-        yarn build:app
-    - name: Run Jest
-      run: yarn test
-    - name: Format nicely
-      run: yarn pretty
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Bump package.json
-      uses: phips28/gh-action-bump-version@v7.1.0
-    - name: Publish to NPM
-      if: github.ref == 'refs/heads/master'
-      uses: mikeal/merge-release@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-    - name: Trigger Slack Webhook
-      uses: 8398a7/action-slack@v3
-      with:
-        status: ${{ job.status }}
-        fields: repo,message,commit,author,action,eventName,ref,workflow # selectable (default: repo,message)
-      env:
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # required
-      if: always() #  Pickk up events even if the job fails or is canceled.
-    - name: Create commit comment
-      uses: peter-evans/commit-comment@v1
-      with:
-        body: |
-          ### The **fancy** repo can be found [here][1]
-
-          [1]: https://www.npmjs.com/package/quorum-i18n
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Babelify app
+        run: |
+          yarn
+          yarn build:app
+      - name: Run Jest
+        run: yarn test
+      - name: Format nicely
+        run: yarn pretty
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Bump package.json
+        uses: phips28/gh-action-bump-version@v7.1.0
+      - name: Publish to NPM
+        if: github.ref == 'refs/heads/master'
+        uses: mikeal/merge-release@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+      - name: Trigger Slack Webhook
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          fields: repo,message,commit,author,action,eventName,ref,workflow # selectable (default: repo,message)
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # required
+        if: always() #  Pickk up events even if the job fails or is canceled.
