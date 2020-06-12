@@ -20,7 +20,7 @@ describe('Global testing for Web Application & Mobile', () => {
   //   const result = await getJSONLanguageForApplications('FR', 'aeaeaeeaeaa', 'web')
   //   expect(result.path).toEqual('en')
   // })
-  it('true', async () => {
-    return false
+  it('I should fail on purpose', async () => {
+    expect(1).toEqual(3)
   })
 })
