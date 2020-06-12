@@ -20,7 +20,7 @@
     "build:app": "babel src/index.js --out-dir dist",
     "dev": "nodemon",
     "dev-locales": "yarn reset-dev-locales && node --experimental-json-modules ./createMergedLocalesForDev.js",
-    "pretty": "prettier --write \"**/*.{json,js}\" && jsonsort 'initial-locales/**/*.json' package.json",
+    "pretty": "prettier --write \"**/*.{json,js}\" && jsonsort 'initial-locales/**/*.json' 'merged-locales/**/*.json' package.json",
     "reload": "yarn build:app && yalc publish --push --changed",
     "reset-dev-locales": "rm merged-locales/* || true && mkdir -p merged-locales",
     "test": "jest",
