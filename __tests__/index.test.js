@@ -21,6 +21,6 @@ describe('Global testing for Web Application & Mobile', () => {
   //   expect(result.path).toEqual('en')
   // })
   it('true', async () => {
-    return true
+    return false
   })
 })
