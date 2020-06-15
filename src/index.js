@@ -28,13 +28,24 @@ async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, plat
   }
 }
 
-function sanitizeString(string) {
+function sanitizeLocale(string) {
+  if (!string) return null
   //? I did not found a sanitizer like this online, so I did a custom one
   return string
     .trim() // remove space around the string
     .replace(/\d/g, '') // remove all the digits
+    .replace(/\s/g, '-') // replace any space by a `-`
+    .replace(/[^\w-_]/g, '') // match all BUT [word char + `-` and `-`], aka remove all "symbols"
+    .replace(/[-_]{2,}/, '_') // dedupe all the `-` and `_` into clean unique `_`
+}
+
+function sanitizeLocaleSpecific(string) {
+  if (!string) return null
+  return string
+    .trim() // remove space around the string
+    .replace(/\d/g, '') // remove all the digits
     .replace(/[\s_]/g, '-') // replace any space or `_` by a `-`
-    .replace(/[^\w-]/g, '') // matches any non-word char + `-`, aka remove all "symbols"
+    .replace(/[^\w-]/g, '') // match all BUT [word char + `-`], aka remove all "symbols"
     .replace(/(\W){2,}/, '$1') // dedupe all the `-` in case several are folowing each other
 }
 
@@ -98,8 +109,12 @@ async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
    * We want to get the locale formatted with
    * the defineUserLocales function
    */
-  const localeFormatted = sanitizeString(defineUserLocales(detectedLocale))
-  return await downgradeAndSearchFilesForLanguage(localeFormatted, sanitizeString(localeSpecific), platform)
+  const localeFormatted = sanitizeLocale(defineUserLocales(detectedLocale))
+  return await downgradeAndSearchFilesForLanguage(
+    localeFormatted,
+    sanitizeLocaleSpecific(localeSpecific),
+    platform
+  )
 }
 
 /**
