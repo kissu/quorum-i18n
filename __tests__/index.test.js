@@ -34,4 +34,20 @@ describe('Global testing for Web Application & Mobile', () => {
     expect(result.path).toEqual('fr')
     expect(result.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('fr-politique-larem')
   })
+
+  it("Should return a properly formatted locale if it's more specific (eg: en-GB)", async () => {
+    const result = await getJSONLanguageForApplications('en---____----__-___-__GB', null, 'web')
+    expect(result.path).toEqual('en_GB')
+    expect(result.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('en_GB')
+  })
+
+  it('Mobile i18n is working properly', async () => {
+    const sk = await getJSONLanguageForApplications('sk', null, 'mobile')
+    expect(sk.path).toEqual('sk')
+    expect(sk.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('sk')
+
+    const frMedProm = await getJSONLanguageForApplications('fr', 'mediation-promevil', 'mobile')
+    expect(frMedProm.path).toEqual('fr')
+    expect(frMedProm.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('fr-mediation-promevil')
+  })
 })
