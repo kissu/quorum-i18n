@@ -549,7 +549,11 @@
           "PROVINCE": "",
           "REGION": "Region",
           "SECTOR": "",
-          "WARD": "Ward"
+          "WARD": "Ward",
+          "CIRCONSCRIPTION": "Circonscription",
+          "COMUNE": "Comune",
+          "JUDET": "Județ",
+          "PROVINCIA": "Province"
         },
         "MAIL": "E-mail: ",
         "MORE_INFO": "More about the data",

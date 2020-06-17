@@ -541,12 +541,15 @@
         },
         "LEVELS": {
           "BOROUGH": "Borough",
+          "CIRCONSCRIPTION": "Circonscription",
+          "COMUNE": "Commune",
           "DEPARTMENT": "Département",
           "DISTRICT": "Circonscription",
           "IRIS": "IRIS",
           "MUNICIPALITY": "Commune",
           "POLLING_STATION": "Bureau de vote",
           "PROVINCE": "Province",
+          "PROVINCIA": "Province",
           "REGION": "Région",
           "SECTOR": "Secteur Statistique",
           "WARD": "Ward"
