@@ -2,9 +2,10 @@
   "ACTION": {
     "CALL_TO_ACTION": {
       "CONFIRM_CLOSE": {
+        "CANCEL_TEXT": " ",
         "MESSAGE": "Vous n'avez pas terminé la création de votre feuille de route. Voulez-vous quitter la page et perdre les informations renseignées ?"
       },
-      "CREATE": "Créer une feuille de route",
+      "CREATE": "Créer votre feuille de route",
       "HEADER": {
         "TITLE": "Nouvelle feuille de route"
       },
