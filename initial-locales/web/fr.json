@@ -70,7 +70,7 @@
         "LINK": "🔗 Voulez-vous ajouter un lien ?",
         "LINK_CLICKABLE": "Il pourra être cliquable par vos membres.",
         "LINK_PLACEHOLDER": "Lien vers WhatsApp, Telegram, Signal, ...",
-        "LINK_POPHOVER": "Ce lien pourra être utilisé par vos membres<br /> pour rejoindre un espace de discussion<br />(Telegram, WhatsApp, Signal, …).<br /><br />Si vous utilisez ces outils, pensez à bien partager le lien<br /> de la conversation à vos membres pour qu’ils puissent la rejoindre.",
+        "LINK_POPHOVER": "Ce lien pourra être utilisé par vos membres<br /> pour rejoindre un espace de discussion<br />(Telegram, WhatsApp, Signal, ...).<br /><br />Si vous utilisez ces outils, pensez à bien partager le lien<br /> de la conversation à vos membres pour qu’ils puissent la rejoindre.",
         "OPTIONNAL": "optionnel",
         "PRECISION": {
           "CONTACT_DATABASE": "À partir de votre liste de contacts",
