@@ -1180,6 +1180,7 @@
       "ADDRESS_INFO_CITY": "Si le champ adresse est choisi, le champ ville est obligatoire.",
       "ADDRESS_INFO_TITLE": "Informations importantes",
       "AGE": "Age",
+      "AGE_CATEGORY": "Tranches d'âge",
       "BIRTHCITY": "Commune de naissance",
       "BIRTHCOUNTRY": "Pays de naissance",
       "BIRTHDATE": "Date de naissance",
