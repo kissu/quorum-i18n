@@ -24,11 +24,12 @@
       }
     },
     "DETAIL": {
-      "NO_MEMBER": "Aucun membre pour cette action",
+      "NO_MEMBER": "Aucun médiateur pour cette action",
       "NO_PITCH": "Aucun script pour cette journée",
       "NO_TEAM": "Aucune équipe pour cette journée"
     },
     "EDIT": {
+      "MEMBERS": "Médiateurs",
       "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire",
       "SUCCESS": "La feuille de route à bien été mise à jour"
     },
@@ -56,7 +57,8 @@
   "ANALYTICS": {
     "GENERATION": {
       "ACTION_NUMBER": "Feuille de route n°{number}",
-      "CREATE_ACTION": "Créer une feuille de route"
+      "CREATE_ACTION": "Créer une feuille de route",
+      "MEMBERS": "Médiateurs"
     }
   },
   "CARTO": {
@@ -67,6 +69,7 @@
         "ADD_ACTION_HERE": "Créer une feuille de route ici",
         "CONTACTS_HERE": "Pas d'intervention dans cette zone | Une intervention dans cette zone | {count}  interventions dans cette zone",
         "DONE_ACTIONS": "Feuille de route terminée",
+        "MEMBERS": "Médiateurs",
         "TABS": {
           "MOBILISATION": "Faits"
         }
@@ -85,6 +88,7 @@
   "CONTACT": {
     "EDIT": {
       "ACTIONS": "Feuille de route",
+      "ANSWERS": "Faits",
       "LEAD": "Tâches"
     },
     "HEADER": {
@@ -112,6 +116,17 @@
       }
     }
   },
+  "FORM": {
+    "BUILDER": {
+      "EDIT": "Modifier les faits",
+      "PUBLISH": "Enregistrer les faits",
+      "PUBLISH_SUCCESS": "Les faits ont bien été enregistrées sur l'application mobile.",
+      "WARN1": ""
+    },
+    "SIDEBAR": {
+      "SURVEY": "Faits"
+    }
+  },
   "MANAGEMENT": {
     "ISSUE_CENTER": {
       "DROPDOWN": "Feuille de routes"
@@ -120,10 +135,14 @@
   "MENU": {
     "ACTIONS": "Feuilles de route",
     "CITIZENS": "Interventions",
+    "FORM": "Faits",
     "ISSUE_CENTER": "Tâches",
     "MOBILIZATION": "Faits"
   },
   "SETTINGS": {
+    "AUTOSEND_CONF": {
+      "SURVEY": "Faits"
+    },
     "CAMPAIGN": {
       "VENDOR_HEAD": {
         "ACTION": "Feuille de route"
@@ -132,10 +151,12 @@
     "FORM_BUILDER": {
       "NAMES": {
         "ACTION": "Tâches"
-      }
+      },
+      "SUCCESS": "Les faits ont bien été enregistrés"
     },
     "HEADER": {
       "ACTIONS": "Tâches",
+      "FORM": "Faits",
       "LEAD": "Tâches"
     },
     "PROFILE": {
@@ -150,6 +171,11 @@
   "SMS": {
     "ANALYTICS": {
       "CONTACTS_SELECTED": "Interventions sélectionnées"
+    }
+  },
+  "STRUCTURE": {
+    "NAVBAR": {
+      "MEMBERS": ""
     }
   },
   "USER_MANAGEMENT": {
@@ -170,6 +196,7 @@
       }
     },
     "KPI": {
+      "HELPERS": "médiateur | médiateurs",
       "LEADERS": "QG Promévil | QG Promévil",
       "MANAGERS": "chef d'équipe | chef d'équipe",
       "ORGANIZERS": "référent ville | référent ville"
