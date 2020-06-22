@@ -691,6 +691,7 @@
       "FLOOR": "Étage ",
       "FLOOR_NUMBER": "Étage n°{number}",
       "HIDE_ALL": "Cacher les champs",
+      "HISTORIC_IS_COMING_SOON": "L'historique arrive bientôt !",
       "LASTCHANGE": "Rencontré le {lastchange}",
       "NOT_LASTCHANGE": "Le contact n'a pas encore été rencontré.",
       "ROUTE_NOTES": "Notes",
