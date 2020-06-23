@@ -675,6 +675,7 @@
       "CITY": "Ville",
       "COLLAPSE": "Réduire",
       "CONTACT_OWNER": "Propriétaire",
+      "CONTACT_UNKNOW": "Contact : {id}",
       "DELETED_CONTACT_CONFIRMED": "Le contact a bien été supprimé.",
       "DELETE_MESSAGE": "Êtes vous sûr(e) de vouloir supprimer ce contact ? Cette action est irrémédiable !",
       "DELETE_TITLE": "Attention",
