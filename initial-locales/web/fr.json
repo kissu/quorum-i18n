@@ -689,7 +689,7 @@
       "FLOOR": "Étage ",
       "FLOOR_NUMBER": "Étage n°{number}",
       "HIDE_ALL": "Cacher les champs",
-      "HISTORIC_IS_COMING_SOON": "L'historique arrive bientôt !",
+      "HISTORIC_IS_COMING_SOON": "L'historique arrive bientôt ! 😉",
       "HOUSENUMBER": "Numéro",
       "INFO": "Coordonnées",
       "LASTCHANGE": "Rencontré le {lastchange} par {name}",
@@ -1193,7 +1193,6 @@
       "GENDER": "Genre",
       "IDENTITY": "Personnel",
       "MAIL": "Email",
-      "MAN": "Homme",
       "MARRIED_NAME": "Nom marital",
       "MOBILE": "Téléphone mobile",
       "PHONE": "Téléphone fixe",
@@ -1203,8 +1202,7 @@
       "SUCCESS": "La fiche contact a bien été publiée !",
       "SURNAME": "Nom",
       "TITLE": "Paramétrer la fiche contact",
-      "UPDATE_CONTACT": "Mettre à jour le contact",
-      "WOMEN": "Femme"
+      "UPDATE_CONTACT": "Mettre à jour le contact"
     },
     "FORM_BUILDER": {
       "ADD_ANSWER": "Ajouter une réponse",
