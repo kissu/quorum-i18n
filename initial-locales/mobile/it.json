@@ -1,11 +1,11 @@
 {
-    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "it",
-    "auth": {
-        "chooseCampaign": {
-            "emoji": "✊"
-        }
-    },
-    "greeting": {
-        "hello": "Buongiorno"
+  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "it",
+  "auth": {
+    "chooseCampaign": {
+      "emoji": "✊"
     }
+  },
+  "greeting": {
+    "hello": "Buongiorno"
+  }
 }
