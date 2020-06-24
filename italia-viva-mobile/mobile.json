@@ -1,4 +1,7 @@
 {
-  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "itmobile",
-  "hello": "buongiorno"
+    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "itmobile",
+    "hello": "buongiorno",
+    "greeting": {
+        "hello": "Buongiorno"
+    }
 }
