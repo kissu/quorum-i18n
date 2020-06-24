@@ -5190,10 +5190,7 @@
           "noCheckedFormat": "{total} items",
           "noData": "No data",
           "noMatch": "No matching data",
-          "titles": [
-            "List 1",
-            "List 2"
-          ]
+          "titles": ["List 1", "List 2"]
         },
         "tree": {
           "emptyText": "No Data"
