@@ -714,6 +714,7 @@
       "SUCCESS": "Info updated!",
       "SUCCESS_ADD": "Contact successfully added!\n",
       "SUCCESS_DELETE": "Contact successfully deleted.",
+      "TAGS": "Tags",
       "TERRITORY": "Territory",
       "UNKNOWN": "Unnamed contact ({id})",
       "UNSAVED_CONTACT": "You have modified this contact",

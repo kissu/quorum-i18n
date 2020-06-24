@@ -713,6 +713,7 @@
       "SUCCESS": "Les informations ont bien été mises à jour !",
       "SUCCESS_ADD": "Le contact a bien été ajouté !",
       "SUCCESS_DELETE": "Le contact a bien été supprimé.",
+      "TAGS": "Tags",
       "TERRITORY": "Territoire",
       "UNKNOWN": "Contact inconnu ({id})",
       "UNSAVED_CONTACT": "Vous avez modifié ce contact",
