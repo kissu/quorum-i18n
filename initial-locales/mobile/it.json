@@ -527,12 +527,12 @@
         "actionSameDay": "{{dateStart}}, dalle {{hourStart}} alle {{hourEnd}}",
         "actionSimpleDateWillFinish": "Conclusione il {{date}}",
         "actionWillStartFromStart": "Inizia il {{date}}",
-        "outdatedAction": "(scadenze superate)",
         "emptyStateText": "Nessuna azione per il momento.\nAggiungi sostenitori e fai sondaggi in autonomia! ",
         "newActionLabel": {
           "one": "La tua azione",
           "other": "Le tue azioni"
-        }
+        },
+        "outdatedAction": "(scadenze superate)"
       },
       "newDocs": "nuovi documenti",
       "quickActions": {
