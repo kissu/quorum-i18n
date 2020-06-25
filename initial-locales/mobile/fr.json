@@ -533,6 +533,7 @@
         "actionSameDay": "{{dateStart}} de {{hourStart}} à {{hourEnd}}",
         "actionSimpleDateWillFinish": "Finira le {{date}}",
         "actionWillStartFromStart": "Démarre le {{date}}",
+        "outdatedAction": "(délai dépassé)",
         "emptyStateText": "Pas d'action prévue pour le moment.\nDémarrez une action rapide.",
         "newActionLabel": {
           "few": "Vos actions",

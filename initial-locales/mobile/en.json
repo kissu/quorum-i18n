@@ -533,6 +533,7 @@
         "actionSameDay": "{{dateStart}} from {{hourStart}} to {{hourEnd}}",
         "actionSimpleDateWillFinish": "End date on {{date}}",
         "actionWillStartFromStart": "Starts the {{date}}",
+        "outdatedAction": "(outdated action)",
         "emptyStateText": "No upcoming action for now. \nAdd supporters, canvass, or survey on your own! ",
         "newActionLabel": {
           "one": "Your action",
