@@ -1,6 +1,6 @@
 {
   "name": "quorum-i18n",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "description": "Repo for all the i18n resources for the Quorum's Sales Team",
   "license": "MIT",
   "repository": {
@@ -27,6 +27,11 @@
     "test": "jest",
     "test:manual": "yarn build:app && node --experimental-json-modules __tests__/index.test.js",
     "watch": "jest --no-cache --watch ./*"
+  },
+  "standard-version": {
+    "scripts": {
+      "prerelease": "yarn test"
+    }
   },
   "dependencies": {
     "deep-extend": "^0.6.0",
@@ -58,10 +63,5 @@
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
     "standard-version": "^8.0.0"
-  },
-  "standard-version": {
-    "scripts": {
-      "prerelease": "yarn test"
-    }
   }
 }
