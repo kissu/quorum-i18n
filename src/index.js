@@ -11,7 +11,7 @@ const defineUserLocales = (deviceLocale) => {
 }
 
 let finalAvailableLocale
-async function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, platform = 'web') {
+function tryModuleAndReturnFile(locale = 'en', localeSpecific = null, platform = 'web') {
   const wantedFile = constantizeIfTruthy(locale, localeSpecific)
   finalAvailableLocale = locale
   switch (platform) {
@@ -66,8 +66,8 @@ function downgradeMyLocaleSpecific(localeSpecific) {
  * Downgrade ensuite la locale : 'fr_FR' -> 'fr' -> '' -> false
  */
 let finalArray = []
-async function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platform) {
-  const attemptFileFound = await tryModuleAndReturnFile(locale, localeSpecific, platform)
+function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platform) {
+  const attemptFileFound = tryModuleAndReturnFile(locale, localeSpecific, platform)
   if (attemptFileFound) {
     finalArray.unshift(attemptFileFound)
     if (!localeSpecific) {
@@ -90,8 +90,11 @@ async function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platfo
     /**
      * If my locales are empty, I didn't find a solution and return the english
      */
+
     if (!futureLocaleString && !futureLocaleSpecific) {
-      return await tryModuleAndReturnFile('en', null, platform)
+      const myLangFallBack = tryModuleAndReturnFile('en', null, platform)
+      finalArray.unshift(myLangFallBack)
+      return myLangFallBack
     }
   }
 
@@ -104,17 +107,13 @@ async function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platfo
 /**
  * @func setLocaleForTheUser
  */
-async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
+function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
   /**
    * We want to get the locale formatted with
    * the defineUserLocales function
    */
   const localeFormatted = sanitizeLocale(defineUserLocales(detectedLocale))
-  return await downgradeAndSearchFilesForLanguage(
-    localeFormatted,
-    sanitizeLocaleSpecific(localeSpecific),
-    platform
-  )
+  downgradeAndSearchFilesForLanguage(localeFormatted, sanitizeLocaleSpecific(localeSpecific), platform)
 }
 
 /**
@@ -128,7 +127,7 @@ async function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
  * to have the right language depends on locale pack and platform
  */
 
-export const getJSONLanguageForApplications = async (
+export const getJSONLanguageForApplications = (
   deviceLocale = 'en',
   localeSpecific = null,
   platform = 'web'
@@ -136,7 +135,7 @@ export const getJSONLanguageForApplications = async (
   switch (platform) {
     case 'web':
     case 'mobile': {
-      await setLocaleForTheUser(deviceLocale, localeSpecific, platform)
+      setLocaleForTheUser(deviceLocale, localeSpecific, platform)
       let fallbackedJsons = deepExtend(...cloneDeep(finalArray))
       finalArray = [] // reset here or the next call to this function will be wrong
       return {

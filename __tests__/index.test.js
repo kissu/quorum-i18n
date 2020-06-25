@@ -45,9 +45,14 @@ describe('Global testing for Web Application & Mobile', () => {
     const sk = await getJSONLanguageForApplications('sk', null, 'mobile')
     expect(sk.path).toEqual('sk')
     expect(sk.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('sk')
-
     const frMedProm = await getJSONLanguageForApplications('fr', 'mediation-promevil', 'mobile')
     expect(frMedProm.path).toEqual('fr')
     expect(frMedProm.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('fr-mediation-promevil')
+  })
+
+  it('Should return en path and en content if language is xx (like undefined)', async () => {
+    const sk = getJSONLanguageForApplications('xx', null, 'web')
+    expect(sk.path).toEqual('en')
+    expect(sk.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('en')
   })
 })
