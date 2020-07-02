@@ -119,7 +119,8 @@
             "LASTCHANGE_DIRECT": "A été créée {lastchange} par {name}",
             "DELETE_MESSAGE": "Êtes-vous sûr de vouloir supprimer cette intervention ? Cette action est irréversible",
             "DELETED_CONTACT_CONFIRMED": "L'intervention a bien été supprimée.",
-            "ASKING_TO_DELETE_CONTACT": "Êtes-vous sûr de vouloir supprimer cette intervention ?"
+            "ASKING_TO_DELETE_CONTACT": "Êtes-vous sûr de vouloir supprimer cette intervention ?",
+            "CONTACT_UNKNOW": "Intervention : {id}"
         },
         "HEADER": {
             "CREATE_ACTION": "Créer une journée",
