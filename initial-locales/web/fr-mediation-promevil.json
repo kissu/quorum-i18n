@@ -3,7 +3,7 @@
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
                 "CANCEL_TEXT": " ",
-                "MESSAGE": "Vous n'avez pas terminé la création de votre feuille de route. Voulez-vous quitter la page et perdre les informations renseignées ?"
+                "MESSAGE": "Vous n'avez pas terminé la création de votre journée. Voulez-vous quitter la page et perdre les informations renseignées ?"
             },
             "CREATE": "Créer votre journée",
             "HEADER": {
@@ -13,7 +13,17 @@
                 "AIM": "Quel est le nom de votre feuille de route ?",
                 "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
                 "DATE": "Quelle est la date de votre feuille de route ?",
-                "COUNT_CONTACTS_SELECTED_FROM_DATABASE": "Aucun intervention sélectionnée | {count} intervention sélectionné | {count} interventions sélectionnés"
+                "COUNT_CONTACTS_SELECTED_FROM_DATABASE": "Aucun intervention sélectionnée | {count} intervention sélectionné | {count} interventions sélectionnés",
+                "PRECISION": {
+                    "TITLE": "Vous voulez faire cette journée sur ?"
+                },
+                "TYPES_INFO": {
+                    "CANVASSING": "Organisez vos journée avec une feuille de route !<br /><br />• Donnez à vos équipes une liste de rues.<br />• Ajoutez des éléments de langages et des informations supplémentaires pour vos médiateurs.<br />• Retrouvez, en temps réel, les remontées d'informations de cette journée.<br />• Visualiser les adresses où des interventions ont été faites."
+                },
+                "COUNT_CONTACT_SELECTED": "  ",
+                "TYPES": {
+                    "CANVASSING": "Feuille de route"
+                }
             },
             "SEARCH": {
                 "USER": "Sélectionnez les médiateurs qui réaliseront cette journée"
@@ -22,6 +32,13 @@
             "VALIDATE": {
                 "TITLE": "Votre feuille de route doit avoir un nom",
                 "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne"
+            },
+            "TARGET": {
+                "GEO_SECTION": "🗺Où souhaitez-vous faire votre journée ?"
+            },
+            "SELECT_MEMBERS_TITLE": "🏆 Qui participera à cette feuille de route ?",
+            "PRECISION": {
+                "ZONE_POLYGON_WITH_EMPTY_STREETS_AND_CONTACTS_DESC": "Cette option permettra aux médiateurs sur le terrain d'avoir la liste de toutes les rues du quartier que vous avez sélectionné. <br /><br />Ils n'auront qu'a sélectionner la rue dans laquelle ils se trouvent pour pouvoir y ajouter une intervention. 👍"
             }
         },
         "DETAIL": {
@@ -47,6 +64,9 @@
             "SEARCH": "Rechercher une feuille de route",
             "SELECTORS": {
                 "ACTIONS_TYPES": "Type d'interventions"
+            },
+            "TYPE": {
+                "CANVASSING": "Feuille de route"
             }
         },
         "SIDEBAR": {
@@ -104,7 +124,8 @@
         "HEADER": {
             "CREATE_ACTION": "Créer une journée",
             "MANAGE_ACTIONS_AVAILABLES": "Journées",
-            "TITLE": "Interventions"
+            "TITLE": "Interventions",
+            "CONTACTS_SELECTED": " 0 intervention | 1 intervention sélectionnée | {number} interventions sélectionnées"
         },
         "KPI": {
             "CONTACTS": "Aucune intervention",
@@ -181,8 +202,8 @@
         },
         "PROFILE": {
             "ROLES": {
-                "ADMIN": "Référent ville",
-                "MANAGER": "Chef d'équipe",
+                "ADMIN": "Chef d'équipe",
+                "MANAGER": "Référent ville",
                 "SUPERADMIN": "QG Promévil",
                 "USER": "Médiateur"
             }
@@ -202,10 +223,10 @@
         "DETAIL": {
             "ROLES": {
                 "ADMIN": {
-                    "TITLE": "Référent ville"
+                    "TITLE": "Chef d'équipe"
                 },
                 "MANAGER": {
-                    "TITLE": "Chef d'équipe"
+                    "TITLE": "Référent ville"
                 },
                 "SUPERADMIN": {
                     "TITLE": "QG Promévil"
@@ -219,7 +240,7 @@
             "HELPERS": "médiateur | médiateurs",
             "LEADERS": "QG Promévil | QG Promévil",
             "MANAGERS": "chef d'équipe | chef d'équipe",
-            "ORGANIZERS": "référent ville | référent ville"
+            "ORGANIZERS": "chef d'équipe | chefs d'équipe"
         },
         "USER_LIST": {
             "TEAMS": {
