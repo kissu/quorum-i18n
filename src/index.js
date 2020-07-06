@@ -130,7 +130,7 @@ function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
 export const getJSONLanguageForApplications = (
   deviceLocale = 'en',
   localeSpecific = null,
-  platform = 'web'
+  platform = 'web',
 ) => {
   switch (platform) {
     case 'web':

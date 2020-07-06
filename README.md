@@ -1,4 +1,3 @@
-Translations repository created by Weblate
-==========================================
+# Translations repository created by Weblate
 
 See https://weblate.org/ for more info !

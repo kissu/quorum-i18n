@@ -29,7 +29,7 @@ describe('Global testing for Web Application & Mobile', () => {
     const result = await getJSONLanguageForApplications(
       '  fr niceMoo~long hihi ',
       ' poѡliحملtiqлue__8-4_%&7^^_la五rem-av~ec des_espacЮes-de| mal音ade  ',
-      'web'
+      'web',
     )
     expect(result.path).toEqual('fr')
     expect(result.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('fr-politique-larem')
