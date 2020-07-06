@@ -1,241 +1,256 @@
 {
-  "ACTION": {
-    "CALL_TO_ACTION": {
-      "CONFIRM_CLOSE": {
-        "CANCEL_TEXT": " ",
-        "MESSAGE": "Vous n'avez pas terminé la création de votre feuille de route. Voulez-vous quitter la page et perdre les informations renseignées ?"
-      },
-      "CREATE": "Créer votre journée",
-      "HEADER": {
-        "TITLE": "Nouvelle journée"
-      },
-      "INFORMATIONS": {
-        "AIM": "Quel est le nom de votre feuille de route ?",
-        "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
-        "COUNT_CONTACTS_SELECTED_FROM_DATABASE": "Aucun intervention sélectionnée | {count} intervention sélectionné | {count} interventions sélectionnés",
-        "DATE": "Quelle est la date de votre feuille de route ?"
-      },
-      "SEARCH": {
-        "USER": "Sélectionnez les médiateurs qui réaliseront cette journée"
-      },
-      "SUCCESS": "Feuille de route créée !",
-      "VALIDATE": {
-        "TITLE": "Votre feuille de route doit avoir un nom",
-        "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne"
-      }
-    },
-    "DETAIL": {
-      "NO_MEMBER": "Aucun médiateur pour cette action",
-      "NO_PITCH": "Aucun script pour cette journée",
-      "NO_TEAM": "Aucune équipe pour cette journée"
-    },
-    "EDIT": {
-      "MEMBERS": "Médiateurs",
-      "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire",
-      "SUCCESS": "La feuille de route à bien été mise à jour"
-    },
-    "LIST": {
-      "ACTIONS_SELECTED": "Aucune feuille de route sélectionnée",
-      "ACTION_IS_OVER": "La date de cette feuille de route est dépassée",
-      "ADD_ACTION_POLY": "Créer une feuille de route ici",
-      "DELETE_SUCCESS": "La feuille de route \"{name}\" a été supprimée",
-      "EDIT_ACTION": "Modifier la feuille de route",
-      "FINISHED": "Journée terminée",
-      "NO_DATA": "Aucune feuille de route pour le moment",
-      "REOPEN": "Relancer la journée",
-      "RUNNING": "Feuille de route en cours",
-      "SEARCH": "Rechercher une feuille de route",
-      "SELECTORS": {
-        "ACTIONS_TYPES": "Type d'interventions"
-      }
-    },
-    "SIDEBAR": {
-      "KPI": {
-        "ACTIONS_SELECTED": "Aucune journée | 1 journée | {count} journées"
-      }
-    }
-  },
-  "ANALYTICS": {
-    "GENERATION": {
-      "ACTION_NUMBER": "Feuille de route n°{number}",
-      "CREATE_ACTION": "Créer une feuille de route",
-      "MEMBERS": "Médiateurs"
-    }
-  },
-  "CARTO": {
-    "CC": {
-      "CALL_TO_ACTION": {
-        "ACTIONS": "Feuille de route en cours",
-        "ADD_ACTION": "Créer une journée",
-        "ADD_ACTION_HERE": "Créer une journée ici",
-        "CONTACTS_HERE": "Pas d'intervention dans cette zone | Une intervention dans cette zone | {count}  interventions dans cette zone",
-        "DONE_ACTIONS": "Feuille de route terminée",
-        "MEMBERS": "Médiateurs",
-        "POLLING_STATION": "Quartier police #{pollingStation}",
-        "TABS": {
-          "MOBILISATION": "Faits"
-        }
-      },
-      "NAVIGATOR": {
-        "LAYERS": {
-          "ACTIONS": "Journées",
-          "CONTACTS": "Interventions"
+    "ACTION": {
+        "CALL_TO_ACTION": {
+            "CONFIRM_CLOSE": {
+                "MESSAGE": "Vous n'avez pas terminé la création de votre journée. Voulez-vous quitter la page et perdre les informations renseignées ?"
+            },
+            "CREATE": "Créer votre journée",
+            "HEADER": {
+                "TITLE": "Nouvelle journée"
+            },
+            "INFORMATIONS": {
+                "AIM": "Quel est le nom de votre feuille de route ?",
+                "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
+                "COUNT_CONTACTS_SELECTED_FROM_DATABASE": "Aucun intervention sélectionnée | {count} intervention sélectionné | {count} interventions sélectionnés",
+                "DATE": "Quelle est la date de votre feuille de route ?",
+                "PRECISION": {
+                    "TITLE": "Vous voulez faire cette journée sur ?"
+                },
+                "TYPES": {
+                    "CANVASSING": "Feuille de route"
+                },
+                "TYPES_INFO": {
+                    "CANVASSING": "Organisez vos journée avec une feuille de route !<br /><br />• Donnez à vos équipes une liste de rues.<br />• Ajoutez des éléments de langages et des informations supplémentaires pour vos médiateurs.<br />• Retrouvez, en temps réel, les remontées d'informations de cette journée.<br />• Visualiser les adresses où des interventions ont été faites."
+                }
+            },
+            "PRECISION": {
+                "ZONE_POLYGON_WITH_EMPTY_STREETS_AND_CONTACTS_DESC": "Cette option permettra aux médiateurs sur le terrain d'avoir la liste de toutes les rues du quartier que vous avez sélectionné. <br /><br />Ils n'auront qu'a sélectionner la rue dans laquelle ils se trouvent pour pouvoir y ajouter une intervention. 👍"
+            },
+            "SEARCH": {
+                "USER": "Sélectionnez les médiateurs qui réaliseront cette journée"
+            },
+            "SELECT_MEMBERS_TITLE": "🏆 Qui participera à cette feuille de route ?",
+            "SUCCESS": "Feuille de route créée !",
+            "TARGET": {
+                "GEO_SECTION": "🗺Où souhaitez-vous faire votre journée ?"
+            },
+            "VALIDATE": {
+                "TITLE": "Votre feuille de route doit avoir un nom",
+                "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne"
+            }
         },
-        "LEVELS": {
-          "POLLING_STATION": "Quartier police"
-        }
-      },
-      "PRIO": {
-        "ADD_ACTION": "Créer une  journée"
-      }
-    }
-  },
-  "CONTACT": {
-    "EDIT": {
-      "ACTIONS": "Journées",
-      "ANSWERS": "Faits",
-      "ASKING_TO_DELETE_CONTACT": "Êtes-vous sûr de vouloir supprimer cette intervention ?",
-      "DELETED_CONTACT_CONFIRMED": "L'intervention a bien été supprimée.",
-      "DELETE_MESSAGE": "Êtes-vous sûr de vouloir supprimer cette intervention ? Cette action est irréversible",
-      "LASTCHANGE_DIRECT": "A été créée {lastchange} par {name}",
-      "LEAD": "Tâches",
-      "MET": "Créée le {date}"
-    },
-    "HEADER": {
-      "CREATE_ACTION": "Créer une journée",
-      "MANAGE_ACTIONS_AVAILABLES": "Journées",
-      "TITLE": "Interventions"
-    },
-    "KPI": {
-      "CONTACTS": "Aucune intervention",
-      "OVERLAY": "Voir intervention"
-    },
-    "LIST": {
-      "CONTACTS_SELECTED": "0 sélectionné | 1 sélectionné | {count} selected",
-      "CSV_HEADER": {
-        "address": {
-          "pollingstation": "Quartier police"
-        }
-      },
-      "ERROR_DELETE": "Suite à une erreur, cette intervention ne peut pas être supprimée.",
-      "EXPORT_LIMITATION": "Vous ne pouvez pas exporter plus de 10 000 interventions. Si vous avez besoin d'un export plus grand, contactez l'équipe support.",
-      "MODAL": {
-        "TITLE": {
-          "STATUS": "Modifier le statut de {count} intervention(s)",
-          "TAGS": "Modifier le tag de {count} intervention(s)",
-          "TERRITORIES": "Modifier le territoire de {count} interventions"
+        "DETAIL": {
+            "NO_MEMBER": "Aucun médiateur pour cette action",
+            "NO_PITCH": "Aucun script pour cette journée",
+            "NO_TEAM": "Aucune équipe pour cette journée"
         },
-        "WARNING": "Attention : vous allez faire des modifications sur toutes les interventions sélectionnées sur cette page"
-      },
-      "SUCCESS_DELETE": "Intervention supprimée",
-      "TABLE": {
-        "ACTIONS": "Journées",
-        "CONTACT": "Créée par",
-        "LASTSEEN": "Crée"
-      }
-    }
-  },
-  "FORM": {
-    "BUILDER": {
-      "EDIT": "Modifier les faits",
-      "PUBLISH": "Enregistrer les faits",
-      "PUBLISH_SUCCESS": "Les faits ont bien été enregistrées sur l'application mobile.",
-      "WARN1": ""
+        "EDIT": {
+            "MEMBERS": "Médiateurs",
+            "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire",
+            "SUCCESS": "La feuille de route à bien été mise à jour"
+        },
+        "LIST": {
+            "ACTIONS_SELECTED": "Aucune feuille de route sélectionnée",
+            "ACTION_IS_OVER": "La date de cette feuille de route est dépassée",
+            "ADD_ACTION_POLY": "Créer une feuille de route ici",
+            "DELETE_SUCCESS": "La feuille de route \"{name}\" a été supprimée",
+            "EDIT_ACTION": "Modifier la feuille de route",
+            "FINISHED": "Journée terminée",
+            "NO_DATA": "Aucune feuille de route pour le moment",
+            "REOPEN": "Relancer la journée",
+            "RUNNING": "Feuille de route en cours",
+            "SEARCH": "Rechercher une feuille de route",
+            "SELECTORS": {
+                "ACTIONS_TYPES": "Type d'interventions"
+            },
+            "TYPE": {
+                "CANVASSING": "Feuille de route"
+            }
+        },
+        "SIDEBAR": {
+            "KPI": {
+                "ACTIONS_SELECTED": "Aucune journée | 1 journée | {count} journées"
+            }
+        }
     },
-    "SIDEBAR": {
-      "SURVEY": "Faits"
-    }
-  },
-  "MANAGEMENT": {
-    "ISSUE_CENTER": {
-      "DROPDOWN": "Journées",
-      "MET_BY": "Créée {date} par {user}"
-    }
-  },
-  "MENU": {
-    "ACTIONS": "Journées",
-    "CITIZENS": "Interventions",
-    "FORM": "Faits",
-    "ISSUE_CENTER": "Tâches",
-    "MOBILIZATION": "Faits"
-  },
-  "SETTINGS": {
-    "AUTOSEND_CONF": {
-      "SURVEY": "Faits"
-    },
-    "CAMPAIGN": {
-      "VENDOR_HEAD": {
-        "ACTION": "Journée"
-      }
-    },
-    "FORM_BUILDER": {
-      "NAMES": {
-        "ACTION": "Tâches"
-      },
-      "SUCCESS": "Les faits ont bien été enregistrés"
-    },
-    "HEADER": {
-      "ACTIONS": "Tâches",
-      "FORM": "Faits",
-      "LEAD": "Tâches"
-    },
-    "PROFILE": {
-      "ROLES": {
-        "ADMIN": "Référent ville",
-        "MANAGER": "Chef d'équipe",
-        "SUPERADMIN": "QG Promévil",
-        "USER": "Médiateur"
-      }
-    }
-  },
-  "SMS": {
     "ANALYTICS": {
-      "CONTACTS_SELECTED": "Interventions sélectionnées"
-    }
-  },
-  "STRUCTURE": {
-    "NAVBAR": {
-      "MEMBERS": ""
-    }
-  },
-  "USER_MANAGEMENT": {
-    "DETAIL": {
-      "ROLES": {
-        "ADMIN": {
-          "TITLE": "Référent ville"
-        },
-        "MANAGER": {
-          "TITLE": "Chef d'équipe"
-        },
-        "SUPERADMIN": {
-          "TITLE": "QG Promévil"
-        },
-        "USER": {
-          "TITLE": "Médiateur"
+        "GENERATION": {
+            "ACTION_NUMBER": "Feuille de route n°{number}",
+            "CREATE_ACTION": "Créer une feuille de route",
+            "MEMBERS": "Médiateurs"
         }
-      }
     },
-    "KPI": {
-      "HELPERS": "médiateur | médiateurs",
-      "LEADERS": "QG Promévil | QG Promévil",
-      "MANAGERS": "chef d'équipe | chef d'équipe",
-      "ORGANIZERS": "référent ville | référent ville"
+    "CARTO": {
+        "CC": {
+            "CALL_TO_ACTION": {
+                "ACTIONS": "Feuille de route en cours",
+                "ADD_ACTION": "Créer une journée",
+                "ADD_ACTION_HERE": "Créer une journée ici",
+                "CONTACTS_HERE": "Pas d'intervention dans cette zone | Une intervention dans cette zone | {count}  interventions dans cette zone",
+                "DONE_ACTIONS": "Feuille de route terminée",
+                "MEMBERS": "Médiateurs",
+                "POLLING_STATION": "Quartier police #{pollingStation}",
+                "TABS": {
+                    "MOBILISATION": "Faits"
+                }
+            },
+            "NAVIGATOR": {
+                "LAYERS": {
+                    "ACTIONS": "Journées",
+                    "CONTACTS": "Interventions"
+                },
+                "LEVELS": {
+                    "POLLING_STATION": "Quartier police"
+                }
+            },
+            "PRIO": {
+                "ADD_ACTION": "Créer une  journée"
+            }
+        }
     },
-    "USER_LIST": {
-      "TEAMS": {
-        "CREATE_ACTION": "Créer une journée"
-      }
+    "CONTACT": {
+        "EDIT": {
+            "ACTIONS": "Journées",
+            "ANSWERS": "Faits",
+            "ASKING_TO_DELETE_CONTACT": "Êtes-vous sûr de vouloir supprimer cette intervention ?",
+            "CONTACT_UNKNOW": "Intervention : {id}",
+            "DELETED_CONTACT_CONFIRMED": "L'intervention a bien été supprimée.",
+            "DELETE_MESSAGE": "Êtes-vous sûr de vouloir supprimer cette intervention ? Cette action est irréversible",
+            "LASTCHANGE_DIRECT": "A été créée {lastchange} par {name}",
+            "LEAD": "Tâches",
+            "MET": "Créée le {date}"
+        },
+        "HEADER": {
+            "CONTACTS_SELECTED": " 0 intervention | 1 intervention sélectionnée | {number} interventions sélectionnées",
+            "CREATE_ACTION": "Créer une journée",
+            "MANAGE_ACTIONS_AVAILABLES": "Journées",
+            "TITLE": "Interventions"
+        },
+        "KPI": {
+            "CONTACTS": "Aucune intervention",
+            "OVERLAY": "Voir intervention"
+        },
+        "LIST": {
+            "CONTACTS_SELECTED": "0 sélectionné | 1 sélectionné | {count} selected",
+            "CSV_HEADER": {
+                "address": {
+                    "pollingstation": "Quartier police"
+                }
+            },
+            "ERROR_DELETE": "Suite à une erreur, cette intervention ne peut pas être supprimée.",
+            "EXPORT_LIMITATION": "Vous ne pouvez pas exporter plus de 10 000 interventions. Si vous avez besoin d'un export plus grand, contactez l'équipe support.",
+            "MODAL": {
+                "TITLE": {
+                    "STATUS": "Modifier le statut de {count} intervention(s)",
+                    "TAGS": "Modifier le tag de {count} intervention(s)",
+                    "TERRITORIES": "Modifier le territoire de {count} interventions"
+                },
+                "WARNING": "Attention : vous allez faire des modifications sur toutes les interventions sélectionnées sur cette page"
+            },
+            "SUCCESS_DELETE": "Intervention supprimée",
+            "TABLE": {
+                "ACTIONS": "Journées",
+                "CONTACT": "Créée par",
+                "LASTSEEN": "Crée"
+            }
+        }
+    },
+    "FORM": {
+        "BUILDER": {
+            "EDIT": "Modifier les faits",
+            "PUBLISH": "Enregistrer les faits",
+            "PUBLISH_SUCCESS": "Les faits ont bien été enregistrées sur l'application mobile.",
+            "WARN1": ""
+        },
+        "SIDEBAR": {
+            "SURVEY": "Faits"
+        }
+    },
+    "MANAGEMENT": {
+        "ISSUE_CENTER": {
+            "DROPDOWN": "Journées",
+            "MET_BY": "Créée {date} par {user}"
+        }
+    },
+    "MENU": {
+        "ACTIONS": "Journées",
+        "CITIZENS": "Interventions",
+        "FORM": "Faits",
+        "ISSUE_CENTER": "Tâches",
+        "MOBILIZATION": "Faits"
+    },
+    "SETTINGS": {
+        "AUTOSEND_CONF": {
+            "SURVEY": "Faits"
+        },
+        "CAMPAIGN": {
+            "VENDOR_HEAD": {
+                "ACTION": "Journée"
+            }
+        },
+        "FORM_BUILDER": {
+            "NAMES": {
+                "ACTION": "Tâches"
+            },
+            "SUCCESS": "Les faits ont bien été enregistrés"
+        },
+        "HEADER": {
+            "ACTIONS": "Tâches",
+            "FORM": "Faits",
+            "LEAD": "Tâches"
+        },
+        "PROFILE": {
+            "ROLES": {
+                "ADMIN": "Chef d'équipe",
+                "MANAGER": "Référent ville",
+                "SUPERADMIN": "QG Promévil",
+                "USER": "Médiateur"
+            }
+        }
+    },
+    "SMS": {
+        "ANALYTICS": {
+            "CONTACTS_SELECTED": "Interventions sélectionnées"
+        }
+    },
+    "USER_MANAGEMENT": {
+        "DETAIL": {
+            "ROLES": {
+                "ADMIN": {
+                    "TITLE": "Chef d'équipe"
+                },
+                "MANAGER": {
+                    "TITLE": "Référent ville"
+                },
+                "SUPERADMIN": {
+                    "TITLE": "QG Promévil"
+                },
+                "USER": {
+                    "TITLE": "Médiateur"
+                }
+            }
+        },
+        "KPI": {
+            "HELPERS": "médiateur | médiateurs",
+            "LEADERS": "QG Promévil | QG Promévil",
+            "MANAGERS": "chef d'équipe | chef d'équipe",
+            "ORGANIZERS": "chef d'équipe | chefs d'équipe"
+        },
+        "USER_LIST": {
+            "TEAMS": {
+                "CREATE_ACTION": "Créer une journée"
+            }
+        }
+    },
+    "VENDORS": {
+        "ARCHITECTURE": {
+            "per_all": {
+                "label": "D'intervention dans la zone"
+            }
+        }
+    },
+    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-promevil",
+    "_COMMON": {
+        "ADD_ACTION": "Créer une journée"
     }
-  },
-  "VENDORS": {
-    "ARCHITECTURE": {
-      "per_all": {
-        "label": "D'intervention dans la zone"
-      }
-    }
-  },
-  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-promevil",
-  "_COMMON": {
-    "ADD_ACTION": "Créer une journée"
-  }
 }

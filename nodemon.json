@@ -1,9 +1,9 @@
 {
-  "start": "src/",
-  "events": {
-    "restart": "yarn run build:app && yalc publish --push --changed"
-  },
-  "watch": ["src", "initial-locales"],
-  "ignore": ["dist/*"],
-  "ext": "js, ts, graphql, json"
+    "start": "src/",
+    "events": {
+        "restart": "yarn run build:app && yalc publish --push --changed"
+    },
+    "watch": ["src", "initial-locales"],
+    "ignore": ["dist/*"],
+    "ext": "js, ts, graphql, json"
 }

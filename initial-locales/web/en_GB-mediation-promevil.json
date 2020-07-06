@@ -1,10 +1,10 @@
 {
-  "ACTION": {
-    "CALL_TO_ACTION": {
-      "CONFIRM_CLOSE": {
-        "CANCEL_TEXT": "This is here as a reminder of the structure of the whole structure: no need to have a `en_GB-GB_mediation-promevil` and `en_GB-GB_mediation-GB_promevil`"
-      }
-    }
-  },
-  "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "en_GB-mediation-promevil"
+    "ACTION": {
+        "CALL_TO_ACTION": {
+            "CONFIRM_CLOSE": {
+                "CANCEL_TEXT": "This is here as a reminder of the structure of the whole structure: no need to have a `en_GB-GB_mediation-promevil` and `en_GB-GB_mediation-GB_promevil`"
+            }
+        }
+    },
+    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "en_GB-mediation-promevil"
 }
