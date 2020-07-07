@@ -1,6 +1,6 @@
 {
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "en-ong-vert",
     "_COMMON": {
-        "ADD_ACTION": "pushed automatically with webhook tracking"
+        "ADD_ACTION": "fetched from the repo"
     }
 }
