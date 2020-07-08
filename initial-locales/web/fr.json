@@ -779,11 +779,11 @@
             "UNSET": "Non renseigné"
         },
         "HISTORY": {
-            "TITLE": "Activité",
             "FORMDATA_WAS_ADDED": "a été ajouté",
             "FORMDATA_WAS_DELETED": "a été supprimé",
             "RECEIVED_AN_EMAIL": "Reçu un email ",
-            "RECEIVED_AN_SMS": "Reçu un sms"
+            "RECEIVED_AN_SMS": "Reçu un sms",
+            "TITLE": "Activité"
         },
         "KPI": {
             "CONTACTS": "Aucun contact | 1 contact | {number} contacts",

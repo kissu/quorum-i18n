@@ -780,11 +780,11 @@
             "UNSET": "Not specified"
         },
         "HISTORY": {
-            "TITLE": "Activity",
             "FORMDATA_WAS_ADDED": "was added",
             "FORMDATA_WAS_DELETED": "was deleted",
             "RECEIVED_AN_EMAIL": "Received an email ",
-            "RECEIVED_AN_SMS": "Received an sms"
+            "RECEIVED_AN_SMS": "Received an sms",
+            "TITLE": "Activity"
         },
         "KPI": {
             "CONTACTS": "No contact | 1 contact | {number} contacts",
