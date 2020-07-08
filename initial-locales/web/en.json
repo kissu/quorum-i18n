@@ -715,6 +715,7 @@
             "SUCCESS": "Info updated!",
             "SUCCESS_ADD": "Contact successfully added!\n",
             "SUCCESS_DELETE": "Contact successfully deleted.",
+            "SYNC_NATIONBUILDER": "This contact is synchronized with NationBuilder",
             "TAGS": "Tags",
             "TERRITORY": "Territory",
             "UNKNOWN": "Unnamed contact ({id})",
