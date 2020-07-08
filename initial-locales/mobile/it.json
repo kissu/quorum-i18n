@@ -117,7 +117,7 @@
         "wantToCreateAnAccount": "Crea un account"
     },
     "errors": {
-        "backToHeadQuarter": "Ritorna alla base",
+        "backToHeadQuarter": "Ritorna a Home",
         "connectYouAndTryAgain": "Potresti avere problemi di connessione. Aggiorna.",
         "errorServer": "Il server non può processare la tua richiesta. Contatta il nostro supporto tecnico se il problema persiste.",
         "errorServerRetry": "Aggiorna",
@@ -489,7 +489,7 @@
             "endForm": {
                 "addAnotherCitizen": "Coinvolgi ancor un'altra persona!",
                 "backToActions": "Ritorna alla lista",
-                "backToHeadQuarter": "Ritorna all'HQ",
+                "backToHeadQuarter": "Ritorna a Home",
                 "finishTheMeeting": "Ritorna ai contatti",
                 "goBackToBoard": "Ritorna al menu",
                 "oneMoreLabel": "un passo avanti!",
@@ -680,7 +680,7 @@
         }
     },
     "navigator": {
-        "QG": "HQ",
+        "QG": "Home",
         "actions": "Azioni",
         "goBack": "Indietro",
         "informations": "Materiali",
