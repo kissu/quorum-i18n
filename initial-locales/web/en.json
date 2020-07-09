@@ -1253,6 +1253,8 @@
                 "ACTION": "Lead channels",
                 "STATUS": "Status"
             },
+            "NATION_BUILDER_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your nation.",
+            "NATION_BUILDER_TO_ENABLE": "Enable NationBuilder sync",
             "NEXT_QUESTION": "Next question",
             "ONLY_IF": "Only if answered \"{answer}\"",
             "PRINT": "Print survey",

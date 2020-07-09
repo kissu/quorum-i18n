@@ -1252,6 +1252,8 @@
                 "ACTION": "Tunnel d'opportunités",
                 "STATUS": "Statuts"
             },
+            "NATION_BUILDER_SWITCH_EXPLANATION": "Vous retrouverez (sous forme de tag) les réponses à cette question du contact au sein de votre nation.",
+            "NATION_BUILDER_TO_ENABLE": "Activer la syncro NationBuilder",
             "NEXT_QUESTION": "Question suivante",
             "ONLY_IF": "Seulement si a répondu \"{answer}\"",
             "PRINT": "Imprimer le formulaire",
