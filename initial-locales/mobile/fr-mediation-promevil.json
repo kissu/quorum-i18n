@@ -1,5 +1,20 @@
 {
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-promevil",
+    "auth": {
+        "chooseCampaign": {
+            "emoji": "✊",
+            "joinYourCompaign": "Rejoindre",
+            "letsGo": "C'est parti !"
+        },
+        "joinCampaign": {
+            "emoji": "✊",
+            "goButton": "Go !",
+            "letsGo": "C'est parti !"
+        }
+    },
+    "errors": {
+        "noFieldActionsAvailable": "Aucune journée pour le moment."
+    },
     "logged": {
         "canvassing": {
             "addAMissingItem": {
@@ -9,18 +24,23 @@
             "addCitizenCTA": "Ajouter une intervention dans cette zone",
             "advicesCanvassingInformation": {
                 "aCitizenAdd": "Appuyez sur + pour ajouter une intervention.",
-                "findStreet": "Vous chercher une rue en particulier ?\nUtilisez la barre de recherche.",
-                "findHouseNumber": "Vous chercher une rue en particulier ?\nUtilisez la barre de recherche.",
-                "findCity": "Vous chercher une ville en particulier ?\nUtilisez la barre de recherche.",
+                "aCityAdd": "Vous ne voyez aucun adresse ? Cliquer sur + pour en ajouter une.",
                 "findCitizen": "Vous chercher une rue en particulier ?\nUtilisez la barre de recherche.",
-                "aCityAdd": "Vous ne voyez aucun adresse ? Cliquer sur + pour en ajouter une."
+                "findCity": "Vous chercher une ville en particulier ?\nUtilisez la barre de recherche.",
+                "findHouseNumber": "Vous chercher une rue en particulier ?\nUtilisez la barre de recherche.",
+                "findStreet": "Vous chercher une rue en particulier ?\nUtilisez la barre de recherche."
             },
             "labelAllTheContacts": "Intervention",
             "listItem": {
                 "addMissCitizen": "Ajouter une interention",
-                "toHitLeftSingular": "Intervention",
+                "individual": "Interventions",
                 "toHitLeftPlural": "Interventions",
-                "individual": "Interventions"
+                "toHitLeftSingular": "Intervention"
+            },
+            "popUpLeaveCanvassing": {
+                "handouMailTitleLabel": "Avez-vous fini cette journée ?",
+                "staticTitleLabel": "Avez-vous fini cette journée ?",
+                "titleLabel": "Avez-vous fini cette journée ?"
             },
             "staticCanvassing": {
                 "addAContact": "Ajouter une nouvelle intervention",
@@ -31,18 +51,13 @@
             "viewContact": {
                 "newContactLabel": "Nouvelle intervention",
                 "unnamedLabel": "Intervention"
-            },
-            "popUpLeaveCanvassing": {
-                "titleLabel": "Avez-vous fini cette journée ?",
-                "staticTitleLabel": "Avez-vous fini cette journée ?",
-                "handouMailTitleLabel": "Avez-vous fini cette journée ?"
             }
         },
         "fieldActions": {
             "advancedLayout": {
                 "actionBrief": "Notes de la feuille de route",
-                "startTheAction": "Commencer la journée",
-                "startCanvassing": "Commencer la journée !"
+                "startCanvassing": "Commencer la journée !",
+                "startTheAction": "Commencer la journée"
             },
             "listFieldActions": {
                 "citizensLabel": "Intervention"
@@ -58,8 +73,8 @@
             "editAContactTitle": "Modifier les informations de l'interventions",
             "endForm": {
                 "addAnotherCitizen": "Ajouter une nouvelle intervention !",
-                "rateTheForm": "Informations complémentaires",
-                "oneMoreLabel": "une intervention de plus !"
+                "oneMoreLabel": "une intervention de plus !",
+                "rateTheForm": "Informations complémentaires"
             },
             "switchContactAddress": {
                 "contactLabel": "Intervention"
@@ -74,9 +89,9 @@
                 }
             },
             "quickActions": {
+                "add": "Créer une intervention",
                 "addSupport": "Ajouter une intervention\n",
-                "welcome": "Bienvenue sur Promévil {{firstname}}",
-                "add": "Créer une intervention"
+                "welcome": "Bienvenue sur Promévil {{firstname}}"
             }
         },
         "profile": {
@@ -88,20 +103,5 @@
     },
     "navigator": {
         "actions": "Feuilles de route"
-    },
-    "errors": {
-        "noFieldActionsAvailable": "Aucune journée pour le moment."
-    },
-    "auth": {
-        "joinCampaign": {
-            "letsGo": "C'est parti !",
-            "goButton": "Go !",
-            "emoji": "✊"
-        },
-        "chooseCampaign": {
-            "letsGo": "C'est parti !",
-            "joinYourCompaign": "Rejoindre",
-            "emoji": "✊"
-        }
     }
 }
