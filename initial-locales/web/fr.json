@@ -1163,14 +1163,18 @@
             "ERROR_CONNECT": "Le service n'a pas pu être joint. Essayez de reconfigurer l'extension",
             "INSUFFICIENT_RIGHTS": "Vous n'avez pas les droits suffisant pour cela ! Merci de contacter votre (vos) administrateur(s)",
             "INVALID_VENDOR": "Nous n'avons pas réussi à joindre le service. Merci de vérifier les paramètres",
-            "NAME": "Nom de la espace",
+            "NAME": "Nom de l'espace",
             "PROVIDE_INFORMATION": "Plus que quelques étapes pour activer cette extension !",
             "REFERY_EMAIL": "Email référent :",
+            "SETTINGS": "Paramètres",
             "UPDATE_SUCCESSFUL": "Les informations de votre espace ont bien été mises à jour ! 👍",
             "VENDORS": {
                 "MAILCHIMP": "Synchronisez vos campagnes Mailchimp avec Quorum",
                 "MAILCHIMP_PLACEHOLDER": "Clé API Mailchimp",
-                "MAILCHIMP_WARNING": "Quorum ne transmet que l'email. Si vous avez configuré d'autres champs obligatoires, Mailchimp ne créera pas le contact. Vous pouvez vous rendre sur l'aide de Mailchimp pour <a href=\"https://help.mailchimp.com\" target=\"_blank\">en savoir plus.</a>"
+                "MAILCHIMP_WARNING": "Quorum ne transmet que l'email. Si vous avez configuré d'autres champs obligatoires, Mailchimp ne créera pas le contact. Vous pouvez vous rendre sur l'aide de Mailchimp pour <a href=\"https://help.mailchimp.com\" target=\"_blank\">en savoir plus.</a>",
+                "NATIONBUILDER": "Synchronisez Quorum avec votre espace NationBuilder",
+                "NATIONBUILDER_PLACEHOLDER": "Clé API NationBuilder",
+                "NATIONBUILDER_WARNING": "Quorum transmet à votre espace NationBuilder, sous forme de tag, les informations ajoutées sur vos contacts depuis la plateforme web et l'application mobile. <a href=\"https://nationbuilder.com/\" target=\"_blank\">En savoir plus.</a>"
             },
             "VENDORS_TITLE": "Extensions",
             "VENDOR_HEAD": {
