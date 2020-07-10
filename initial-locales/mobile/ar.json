@@ -637,7 +637,7 @@
         }
     },
     "urls": {
-        "cgu": "https://www.quorum.co/cgumobile",
-        "dataProtection": "https://www.quorum.co/docs/PrivacyPolicy_fr.pdf"
+        "cgu": "https://www.quorum.co/mobile-tos/",
+        "dataProtection": "https://www.quorum.co/privacy/"
     }
 }
