@@ -9,10 +9,10 @@
             "addCitizenCTA": "Ajouter une intervention dans cette zone",
             "advicesCanvassingInformation": {
                 "aCitizenAdd": "Appuyez sur + pour ajouter une intervention.",
-                "findStreet": "Vous chercher une rue en particulier ?\nUtilisez la barre de recherche.",
-                "findHouseNumber": "Vous chercher une rue en particulier ?\nUtilisez la barre de recherche.",
-                "findCity": "Vous chercher une ville en particulier ?\nUtilisez la barre de recherche.",
-                "findCitizen": "Vous chercher une rue en particulier ?\nUtilisez la barre de recherche.",
+                "findStreet": "Vous cherchez une rue en particulier ?\nUtilisez la barre de recherche.",
+                "findHouseNumber": "Vous cherchez une rue en particulier ?\nUtilisez la barre de recherche.",
+                "findCity": "Vous cherchez une ville en particulier ?\nUtilisez la barre de recherche.",
+                "findCitizen": "Vous cherchez une rue en particulier ?\nUtilisez la barre de recherche.",
                 "aCityAdd": "Vous ne voyez aucun adresse ? Cliquer sur + pour en ajouter une."
             },
             "labelAllTheContacts": "Intervention",
