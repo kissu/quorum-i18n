@@ -82,13 +82,13 @@
         },
         "joinCampaign": {
             "discover": "Descoperă",
-            "disposeCode": "Dacă știi identificatorul secret al organizației tale, introdu-l aici",
+            "disposeCode": "Dacă știi codul de invitație al filialei, introdu-l aici",
             "emoji": "✊🏻",
             "goButton": "Hai!",
             "letsGo": "Hai!",
-            "noCampaign": "Nu știi identificatorul secret? Contactează organizația.",
+            "noCampaign": "Nu știi codul de invitație al filialei? Contactează-ne.",
             "noCampaignWithThisCode": "Codul nu este asociat unei campanii.",
-            "placeholder": "Indetificatorul secret al organizației"
+            "placeholder": "Codul de invitație al filialei"
         },
         "passwordForgot": {
             "errorMailNotFound": "Niciun cont nu este conectat cu ",
