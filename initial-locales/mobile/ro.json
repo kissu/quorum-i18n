@@ -1,0 +1,746 @@
+{
+    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "ro",
+    "auth": {
+        "chooseCampaign": {
+            "emoji": "✊",
+            "joinYourCompaign": "Alătură-te campaniei noastre",
+            "letsGo": "Hai!"
+        },
+        "createAccount": {
+            "step1": {
+                "alert": " Adresa de demail introdusă nu este validă.",
+                "alertPart1": "Prin înregistrare, accepți că",
+                "alertPart2": "Termenii și Condițiile noastre",
+                "alertPart3": "și",
+                "alertPart4": "Politică de confidențialitate",
+                "alertPart5": "data.",
+                "button": "Trimite",
+                "emailLabel": "Email",
+                "emailPlaceholder": "Ex: ionut@emailprovider.com",
+                "mailAllreadyExist": "Adresa de email este deja înregistrată. Încearcă cu o altă adresă sau resetează-ți parola.",
+                "title": "Emailul tău"
+            },
+            "step2": {
+                "alert": "Parola trebuie să conțină minim 8 caractere, între care o majusculă și o cifră.",
+                "button": "Continuare",
+                "passwordLabel": "Parolă",
+                "passwordPlaceHolder": "Alege parola",
+                "seePassword": "Arată",
+                "title": "Parola ta"
+            },
+            "step3": {
+                "createTheAccountLabel": "Crează cont",
+                "firstnameLabel": "Prenume",
+                "firstnamePlaceholder": "Ex: Ionuț",
+                "nameLabel": "Nume",
+                "namePlaceholder": "Ex: Popescu",
+                "statusCreationAccount": "Disponbil",
+                "title": "Introdu prenumele și numele"
+            },
+            "step4": {
+                "addAPicture": "Încarcă o poză",
+                "birthdateInvalid": "Dată inexistentă",
+                "birthdateLabel": "Data nașterii",
+                "birthdateNotCompleted": "Data nașterii este incompletă",
+                "birthdatePlaceholder": "Data nașterii",
+                "button": "Începe!",
+                "cancelButtonBirthdate": "Anulează",
+                "cityLabel": "Localitate",
+                "cityPlaceholder": "Ex: Iași",
+                "confirmButtonBirthdate": "Confirmă",
+                "errorCouldNotPatch": "Am întâmpinat o eroare. Dacă problema persistă, reîncarcă pagina sau solicită asistență.",
+                "later": "Sări",
+                "phoneNumberLabel": "Număr de telefon",
+                "phoneNumberPlaceholder": "Ex: +4 0797 564 231",
+                "pictureFeature": {
+                    "cancelLabel": "Anulează",
+                    "chooseAPictureLabel": "Pozele mele",
+                    "descriptionOfThePopUp": "Alege din opțiunile următoare. Poți schimba selecția ulterior.",
+                    "messageTextProblem": "Se pare că nu avem permisiunile necesare pentru a utiliza fotografiile și camera",
+                    "problemLabel": "Imposibil",
+                    "settingsLabel": "Setări",
+                    "takeAPictureLabel": "Fă o poză",
+                    "titlePopUp": "Poză de profil"
+                },
+                "postalCodeLabel": "Cod poștal",
+                "postalCodePlaceholder": "Ex: 050487",
+                "statusLabel": "Status",
+                "statusPlaceholder": "Începe!",
+                "streetLabel": "Adresă",
+                "streetPlaceholder": "Calea Mihai Viteazu nr. 15",
+                "title": "Configureză-ți profilul astfel încât echipa ta să știe cum te poate contacta"
+            },
+            "step5": {
+                "congratz": "Mulțumesc!",
+                "creationFinalized": "Accesează link-ul din emailul pe care ți l-am trimis pentru a-ți verifica contul!",
+                "profileCompleted": "Încă ceva...",
+                "returnOnHomeScreen": "Autentificare"
+            }
+        },
+        "disconnect": {
+            "toDisconnect": "Ieșire"
+        },
+        "joinCampaign": {
+            "discover": "Descoperă",
+            "disposeCode": "Dacă știi codul de invitație al filialei, introdu-l aici",
+            "emoji": "✊🏻",
+            "goButton": "Hai!",
+            "letsGo": "Hai!",
+            "noCampaign": "Nu știi codul de invitație al filialei? Contactează-ne.",
+            "noCampaignWithThisCode": "Codul nu este asociat unei campanii.",
+            "placeholder": "Codul de invitație al filialei"
+        },
+        "passwordForgot": {
+            "errorMailNotFound": "Niciun cont nu este conectat cu ",
+            "errorMailNotFoundPart2": "Este posibil să fi folosit o altă adresă de email la crearea contului.",
+            "lookAtYourMails": "A fost trimis un email cu instrucțiuni pentru resetarea parolei.",
+            "passwordForgotHeader": "Ai uitat parola?",
+            "retrieveEmailLabel": "Email",
+            "sendAnEmailTo": "Trimite un link prin email la",
+            "toSend": "Trimite"
+        },
+        "signIn": {
+            "buttonToConnect": "Autentificare",
+            "connectionHeader": "Autentificare",
+            "emailLabel": "Email",
+            "errorMailNotValid": "Te rugăm să îți verifici adresa de email pentru confirmare.",
+            "errorNoCampaign": "Contul tău nu este asociat niciunei campanii.",
+            "errorNotConnectedToInternet": "Se pare că este o problemă la comunicarea cu serverul. Verifică conexiunea la internet.\n\nDacă problema persistă, contactează echipa noastră de asistență.",
+            "errorServer": "Eroare de server. Te rugăm să încerci mai târziu sau contactează echipa de asistență dacă problema persistă.",
+            "errorWrongPassword": "Numele de utilizator și parola nu se potrivesc. Folosește opțiunea de afișare a parolei pentru a te asigura că este corectă.",
+            "passwordForgotten": "Ai uitat parola?",
+            "passwordLabel": "Parolă",
+            "seePassword": "Arată",
+            "supportAsking": "Probleme cu aplicația? Contactează-ne."
+        },
+        "wantAConnexion": "Autentificare",
+        "wantToCreateAnAccount": "Crează un cont"
+    },
+    "errors": {
+        "backToHeadQuarter": "Înapoi la bază",
+        "connectYouAndTryAgain": "S-ar putea să i o problemă de conexiune. Te rugăm să reîncarci pagina.",
+        "errorServer": "Serverul nu poate procesa cererea. Contactează asistența dacă problema persistă.",
+        "errorServerRetry": "Reîncarcă",
+        "noFieldActionsAvailable": "Pentru moment, nu există nicio acțiune programată \nAdaugă simpatizanți sau mergi pe teren pe cont propriu!",
+        "notConnectedToTheNetwork": "Nu ai conexiune la internet",
+        "yourAreNotConnected": "Nu se poate conecta la Quorum"
+    },
+    "greeting": {
+        "hello": "Salut"
+    },
+    "locale": "engleză",
+    "locale_shorted": "en-EN",
+    "logged": {
+        "canvassing": {
+            "addAMissingItem": {
+                "aBuildingLabel": "o clădire",
+                "aCitizen": "o persoană",
+                "aCityLabel": "o localitate",
+                "aFloorLabel": "un etaj",
+                "aHouseNumber": "un număr de stradă",
+                "aStreetLabel": "o stradă",
+                "addALabel": "Adaugă",
+                "at": "la",
+                "citizensWithoutAddresses": "Persoane fără adresă",
+                "citizensWithoutAddressesWithoutNonFind": "Persoane",
+                "errorFetching": "Se pare că există o problemă cu conexiunea. Te rugăm să o verifici.\nContactează-ne dacă problema persistă.",
+                "toSearch": "Caută"
+            },
+            "addCitizenCTA": "Mobilizează pe cineva în această zonă",
+            "additionnalInformation": "Mai multe detalii",
+            "advicesCanvassingInformation": {
+                "aCitizen": "o persoană",
+                "aCitizenAdd": "Apasă + pentru a mobiliza o nouă persoană.",
+                "aCitizenOrAddress": "adresa sau persoana este în listă",
+                "aCity": "o localitate",
+                "aCityAdd": "Nu vezi o adresă? Apasă + pentru a crea primul contact la adresă.",
+                "aHouseNumber": "un număr poștal",
+                "aHouseNumberAdd": "Lipsește numărul poștal? Apasă + pentru a adăuga o noua persoană și a crea adresa.",
+                "aStreet": "o stradă",
+                "aStreetAdd": "Nu vezi o adresă? Apasă + pentru a crea primul contact la adresă.",
+                "acceptLabel": "Am înțeles",
+                "archiveSwipeInfoCanvassing": "Poți marca adresa ca fiind completă glisând fiecare linie spre stânga.",
+                "choose": "Alege",
+                "citizenInfo": "Vezi dacă contactul a fost vizitat anterior.",
+                "findCitizen": "Cauți pe cineva anume?\nIntrodu numele în bara de căutare.",
+                "findCity": "Cauți o localitate anume?\nFolosește bara de căutare.",
+                "findHouseNumber": "Cauți o adresă anume?\nFolosește bara de căutare.",
+                "findStreet": "Cauți o stradă anume?\nFolosește bara de căutare.",
+                "handoutMailInfo": "• Găsește cel mai bun drum apăsând pe \"Traseu\".",
+                "handoutMailSwipeInfo": "Poți marca adresele vizitate pe parcurs",
+                "houseNumberInfo": "• Vezi numărul de uși la care ai ciocănit și cîte mai ai de vizitat.\n\n• O listă a persoanelor cu adresă incompletă se găsește la sfârșitul acestei pagini",
+                "houseNumberInfoGlobal": "• O listă a persoanelor cu adresă incompletă se găsește la sfârșitul acestei pagini",
+                "streetInfo": "• Găsește cel mai bun drum apăsând pe \"Traseu\".\n\n• View the number of \"knocks\" to see the number of doors you have left to visit.",
+                "streetInfoGlobal": "• Vezi străzile din jur.\n\n• Găsește cel mai bun drum apăsând pe \"Traseu\".",
+                "typeHere": "Introdu aici",
+                "youLookingFor": "Cauți "
+            },
+            "callAction": {
+                "emptyLabel": "Niciun contact de sunat.",
+                "mobile": "Mobil",
+                "phone": "Telefon",
+                "pickerPlaceholder": "Toată lumea"
+            },
+            "cancelSearch": "Anulează",
+            "disabledSearchLabel": "Nu e nimeni în jur",
+            "filterLabel": "Filtru",
+            "filterList": {
+                "citizensVisited": "Persoane pe care le-ai întâlnit deja",
+                "displayMaskLabel": "Arată/Ascunde",
+                "filterDescription": "Sortează și filtrează lista",
+                "filtersTitle": "Filtre",
+                "streetsFinishedLabel": "Adrese complete"
+            },
+            "finishAnItem": {
+                "building": {
+                    "one": "Termină cu această clădire",
+                    "other": "Termină cu {{count}} clădiri"
+                },
+                "city": {
+                    "one": "Termină cu această localitate",
+                    "other": "Termină cu {{count}} localități"
+                },
+                "floor": {
+                    "one": "Termină cu acest etaj",
+                    "other": "Termină cu {{count}} etaje"
+                },
+                "housenumber": {
+                    "one": "Termină cu acest număr poștal",
+                    "other": "Termină cu {{count}} numere poștale"
+                },
+                "item": {
+                    "one": "Termină",
+                    "other": "Termină cu {{count}}"
+                },
+                "street": {
+                    "one": "Termină cu această stradă",
+                    "other": "Termină cu {{count}} străzi"
+                }
+            },
+            "finishLabel": "Termină",
+            "labelAllTheBuildings": "Care clădire?",
+            "labelAllTheCities": "Alege o localitate",
+            "labelAllTheContacts": "Persoane",
+            "labelAllTheFloors": "Care etaj?",
+            "labelAllTheHouseNumbers": "Alege un număr poștal",
+            "labelAllTheStreets": "Alege o stradă",
+            "listItem": {
+                "aBuilding": "Clădire",
+                "aDoor": "Apartament",
+                "aFloor": "Etaj",
+                "absentLabel": "Absent",
+                "addMissCitizen": "Adaugă o persoană",
+                "cancel": "Anulează",
+                "cantFindLocation": "Imposibil 😢",
+                "citizens": "Persoane",
+                "finishAnItem": {
+                    "building": "Termină cu clădirea",
+                    "city": "Termină cu localitatea",
+                    "floor": "Termină cu etajul",
+                    "housenumber": "Termină cu numărul poștal",
+                    "street": "Termină cu strada"
+                },
+                "finished": "Terminat",
+                "individual": "Individ",
+                "letsGo": "Hai! 🚀",
+                "messageCantFindLocation": "Nu am putut să îți găsim locația.",
+                "notAvailable": "Indisponibil",
+                "notDefined": "Nedefinit",
+                "openMapLabel": "Deschide harta",
+                "openTheMapFromStreets": "Traseu",
+                "openWithTheMap": "Deschide în Maps",
+                "presentLabel": "Prezent",
+                "refusalLabel": "Refuz",
+                "resumeAnItem": {
+                    "building": "Reia această clădire",
+                    "city": "Reia această localitate",
+                    "floor": "Reia acest etaj",
+                    "housenumber": "Reia acest număr poștal",
+                    "street": "Reia această stradă"
+                },
+                "toHitLeftPlural": "Ciocăniri",
+                "toHitLeftSingular": "Ciocănește",
+                "youCanChooseYourGps": "Folosește GPS pentru a ajunge la destinație."
+            },
+            "loadingStaticTitle": "U n moment. Extragem contactele.",
+            "loadingTitle": "Un moment. Extragem adresele.",
+            "noCitizendsFoundWithSearch": "Niciun rezultat.",
+            "noCitizensFound": "Nu mai există nimeni de contactat în jur.\nApasă + pentru a adăuga o persoană.",
+            "noCitizensFoundWithStaticSearch": "Niciun rezultat.",
+            "noCitizensFoundWithTheFilter": "Nu e nimeni în jur!",
+            "popUpLeaveCanvassing": {
+                "callTitleLabel": "Ai terminat de sunat?",
+                "handouMailTitleLabel": "Ai terminat acțiunea?",
+                "noLabel": "Anulează",
+                "staticTitleLabel": "Ai terminat acțiunea?",
+                "titleLabel": "Ai terminat acțiunea?",
+                "yesLabel": "Ieși"
+            },
+            "popupArchiveLevel": {
+                "noLabel": "Anulează",
+                "titleLabel": "Apăsând aici declari că ai terminat de prospectat la această adresă",
+                "yesLabel": "Am înțeles"
+            },
+            "reopenAnItem": {
+                "building": {
+                    "one": "Redeschide această clădire",
+                    "other": "Redeschide {{count}} clădiri"
+                },
+                "city": {
+                    "one": "Redeschide localitatea",
+                    "other": "Redeschide {{count}} localități"
+                },
+                "floor": {
+                    "one": "Redeschide acest etaj",
+                    "other": "Redeschide {{count}} etaje"
+                },
+                "housenumber": {
+                    "one": "Redeschide acest număr poștal",
+                    "other": "Redeschide {{count}} numere poștale"
+                },
+                "item": {
+                    "one": "Redeschide",
+                    "other": "Redeschide {{count}}"
+                },
+                "street": {
+                    "one": "Redeschide strada",
+                    "other": "Redeschide {{count}} străzi"
+                }
+            },
+            "scriptTitle": "Notă",
+            "staticCanvassing": {
+                "addAContact": "Adaugă un nou contact",
+                "addFirstContact": "Adaugă primul tău contact",
+                "addedContacts": "contacte adăugate",
+                "quote": "\"Nu trebuie să fii extrardinar ca să începi, dar trebuie să începi ca să fii extraordinar\"",
+                "quoteAuthor": "Pablo Picasso",
+                "searchDisabledPlaceholder": "Niciun contact"
+            },
+            "subHeaderTitle": "Arată cele mai apropiate străzi",
+            "titleLabelNearCitizens": "În jurul meu",
+            "viewContact": {
+                "absentLabel": "Absent",
+                "briefTitle": "Notă",
+                "callAction": {
+                    "beginCall": "Începe!",
+                    "chooseNumberToCall": "Alege numărul de sunat",
+                    "contactHasNoNumber": "Acest contact nu a furnizat un număr de telefon",
+                    "goingToCall": "Ești pe cale să suni",
+                    "launchCallLabel": "Începe apelul",
+                    "mobile": "Mobil",
+                    "noNumber": "Fără număr de telefon",
+                    "phone": "Telefon",
+                    "redirectionLabel": "Vei fi redirecționat în afara aplicației pentru a continua",
+                    "showScriptLabel": "Arată scenariul",
+                    "title": "Apel/ează",
+                    "warningPopupCall": "Apel/ează",
+                    "warningPopupCancel": "Anulează",
+                    "warningPopupContent": "Numărul pare eronat, vrei să continui?",
+                    "warningPopupTitle": "Avertisment"
+                },
+                "callSpecificStatus": {
+                    "absentLabel": "Nu a răspuns",
+                    "presentLabel": "Răspuns",
+                    "refusLabel": "Refuz",
+                    "refusalLabel": "Refuz"
+                },
+                "doorLabel": "Apartament:",
+                "errorServer": "Am întâmpinat o eroare. Contactează asistența dacă problema persistă.",
+                "genderLabelF": "Dna.",
+                "genderLabelM": "Dl.",
+                "metByLabel": "Întâlnit de",
+                "metStatus": {
+                    "absent": "Era absent",
+                    "firstMet": "Va fi întâlnit pentru prima dată.",
+                    "firstMetPhone": "Va fi sunat pentru prima dată.",
+                    "present": "Întâlnit",
+                    "refus": "A refuzat conversația"
+                },
+                "newContactLabel": "Contact nou",
+                "presentLabel": "Prezent",
+                "refusLabel": "Refuz",
+                "refusalLabel": "Refuz",
+                "seeAnswers": "Vezi răspunsurile sondajului",
+                "theLabel": "pe",
+                "unnamedLabel": "Individ"
+            }
+        },
+        "fieldActions": {
+            "advancedLayout": {
+                "actionBrief": "Notele acțiunii",
+                "attend": "Participă",
+                "attendees": "Participanți",
+                "cantStartTheAction": "Participare 🚀",
+                "descAttendedAction": "Alătură-te acțiunii acum ✊",
+                "descJoinAction": "Participare 🚀",
+                "editYourAttendStatus": "Editează participarea ta",
+                "information": "Info",
+                "peopleGoal": "(persoane)",
+                "presentLabel": "Participă",
+                "readLess": "Mai puțin",
+                "readMore": "Mai mult",
+                "seeBrief": "Deschide notele",
+                "shareItToYourNetworkButton": "Distribuie mesajul",
+                "shareItToYourNetworkTitle": "Folosește efectul de rețea și distribuie mesajul de mai jos 👇",
+                "startCanvassing": "Începe acțiunea!",
+                "startTheAction": "Începe acțiunea",
+                "startingFrom": "Începând de la",
+                "youAreNotAnAttendee": "Nu particip",
+                "youAttend": "Particip",
+                "youDoNotWantToAttend": "Nu particip",
+                "youWantToAttend": "Particip"
+            },
+            "listFieldActions": {
+                "aroundMeLabel": "În jurul meu...",
+                "campaignNotSet": {
+                    "campaignNotSetLabel": "Configurarea campaniei tale",
+                    "mailToContact": "support@quorum.co\n",
+                    "moreInfoLabel": "Pentru mai multe detalii, contactează-ne: ",
+                    "subjectMailToContactSupport": "Campania nu este configurată"
+                },
+                "citizensLabel": "Persoane",
+                "displayPastFieldActionsLabel": "Arată acțiunile terminate",
+                "emptyPitch": "Nu există informații adiționale. Încearcă să contactezi direct organizația ta.",
+                "finishAnActionLabel": "Termninare",
+                "foldUpTheCard": "Mai puține detalii",
+                "hidePastFieldActionsLabel": "Ascunde acțiunile terminate",
+                "moreInformationLabel": "Mai multe detalii",
+                "moreInformationSentenceLabel": "Află mai mult",
+                "onAnAddress": "După adresă",
+                "startAnActionAroundLabel": "Să începem!",
+                "startAnActionLabel": "Acționează!"
+            },
+            "listLabel": "Listă",
+            "mapLabel": "Hartă",
+            "popUpFinishFieldActions": {
+                "noLabel": "Anulează",
+                "titleLabel": "Ești sigur că vrei să ieși?",
+                "yesLabel": "Ieșire"
+            },
+            "titleScreenLabel": "Acțiuni",
+            "typeOfActions": {
+                "call": "Apeluri",
+                "canvassing": "Prospectare",
+                "challenge": "Provocare",
+                "event": "Eveniment",
+                "leaflet": "Fluturași",
+                "mail": "Material de distribuit în cutia poștală",
+                "other": "Altele",
+                "poster": "Fluturași / Afișe",
+                "sharing": "Distribuie",
+                "static": "Interacțiune directă"
+            }
+        },
+        "form": {
+            "allQuestions": "Vezi întrebările",
+            "allQuestionsForm": {
+                "description": "Aruncă un ochi peste sondaj",
+                "finishTheFormLabel": "Termină sondajul",
+                "theQuestionsLabel": "Întrebări"
+            },
+            "answers": {
+                "additionPlaceholder": "Alte detalii ale adresei",
+                "ageSelection": {
+                    "0": "Vărstă nespecificată",
+                    "1": "Sub 18 ani",
+                    "2": "18 - 25 ani",
+                    "3": "25 - 35 ani",
+                    "4": "35 - 50 ani",
+                    "5": "50 - 65 ani",
+                    "6": "65 de ani și peste"
+                },
+                "buildingPlaceholder": "Clădire",
+                "cancel": "Anulează",
+                "chooseATerritory": "Alege o zonă",
+                "chooseAnAgeCategory": "Alege o categorie de vârstă",
+                "cityPlaceholder": "Localitate",
+                "confirm": "Confirmă",
+                "dateFormat": "ZZ/LL/AAAA",
+                "datePlaceholder": "Alege o dată",
+                "done": "Finalziare",
+                "doorPlaceholder": "Apartament",
+                "femaleLabel": "Femeie",
+                "floorPlaceholder": "Etaj",
+                "housenumberPlaceholder": "Număr poștal",
+                "locale": "en",
+                "maleLabel": "Bărbat",
+                "mandatory": "Necesar",
+                "moreInfo": "+ Mai multe informații",
+                "placeholder": "Răspuns",
+                "postalcodePlaceholder": "Cod poștal",
+                "streetPlaceholder": "Stradă",
+                "support": {
+                    "doAForm": "Intervievează aceată persoană",
+                    "finish": "Următorul",
+                    "leaveWithoutValidating": "Sări",
+                    "nextStep": "Pasul următor",
+                    "skipTheStep": "Sări",
+                    "titleAddSupport": "Adaugă o nouă persoană 😃",
+                    "titleUpdateSupport": "Actualizează infromațiile de contact",
+                    "titleWhatIsTheNextStep": "Ce urmează pentru aceată persoană?",
+                    "valid": "Trimite",
+                    "whoDoWeMeet": "Ce descrie cel mai bine persoana cu care te întâlnești?"
+                },
+                "territories": "Zone"
+            },
+            "becauseYouAnswered": "Pentru că ai răspuns:",
+            "editAContactTitle": "Editează informațiile de contact",
+            "end": "Termină",
+            "endForm": {
+                "addAnotherCitizen": "Mobilizează încă o persoană!",
+                "backToActions": "Înapoi la listă",
+                "backToHeadQuarter": "Înapoi la bază",
+                "finishTheMeeting": "Înapoi la contacte",
+                "goBackToBoard": "Înapoi la panou",
+                "oneMoreLabel": "un pas înainte!",
+                "rateTheForm": "Adaugă comentarii",
+                "thanksYouLabel": "Mulțumim,"
+            },
+            "errorAfterUpdateOrCreation": "Am întâmpinat o eroare. Verifică conexiunea și încearcă din nou.",
+            "informationContact": "Informații de contact",
+            "nextQuestion": "Următoarea întrebare",
+            "popUpLeaveForm": {
+                "noLabel": "Anulează",
+                "titleLabel": "Vrei să părăsești interviul? Nu va fi salvat.",
+                "titleLabelUpdateContact": "Anuleazi actualizarea?",
+                "yesLabel": "Ieșire"
+            },
+            "rateContact": {
+                "commentary": "Comentarii",
+                "finish": "Terminare",
+                "howTheDiscussionHasGoing": "Ce urmează pentru această persoană?"
+            },
+            "switchContactAddress": {
+                "addressLabel": "Adresă",
+                "contactLabel": "Contact",
+                "detailsLabel": "Detalii"
+            },
+            "updateTheContactLabel": "Actualizează contactul"
+        },
+        "headQuarter": {
+            "adminView": {
+                "notificationOnlyForAdmin": "Ai acces aici pentru că ești administrator."
+            },
+            "missingData": "Se pare că lipsesc unele date.",
+            "newActions": {
+                "actionAllreadyStartedFromStart": "Început pe {{date}}",
+                "actionSameDay": "{{dateStart}} de la  {{hourStart}} până la {{hourEnd}}",
+                "actionSimpleDateWillFinish": "Încheiat pe {{date}}",
+                "actionWillStartFromStart": "Începe pe {{date}}",
+                "emptyStateText": "Pentru moment nu există nicio acțiune programată. \nAdaugă suporteri sau prospectează pe cont propriu! ",
+                "newActionLabel": {
+                    "one": "Acțiunea ta",
+                    "other": "Acțiunile tale"
+                },
+                "outdatedAction": "(acțiune neactuală)"
+            },
+            "newDocs": "documente noi",
+            "quickActions": {
+                "add": "Începe un sondaj",
+                "addSupport": "Mobilizează pe cineva\n",
+                "canvassing": "În jurul meu\n",
+                "donate": "Colectează o donație\n",
+                "title": "Scurtături",
+                "upload": "Trimite un document",
+                "welcome": "Bine ai venit 👋 {{firstname}}"
+            },
+            "reloadLabel": "Reîncarcă",
+            "updatePopup": {
+                "content": "Bucură-te de cele mai recente funcționalități.",
+                "later": "Mai târziu",
+                "title": "Este disponibilă o actualizare",
+                "update": "Actualizare"
+            }
+        },
+        "popup": {
+            "needUpdate": {
+                "body": "Te rugăm să actualizezi aplicația.",
+                "title": "ACTUALIZARE DISPONIBILĂ",
+                "update": "Actulizează"
+            },
+            "noLocation": {
+                "closeLabel": "Închide",
+                "lookingForYourLocationTitle": "Determinăm locația ta...",
+                "messagePopup": "Nu găsim persoane în juru tău.\n\nVerifică setările pentru a te asigura că aplicația are acces la locația ta, verifică coneiunea și reîncarcă.",
+                "settingsLabel": "Setări",
+                "title": "Unde sunt?"
+            }
+        },
+        "profile": {
+            "edit": {
+                "account": {
+                    "email": "Email",
+                    "emailEx": "superman@quorum.co\n",
+                    "firstname": "Prenume",
+                    "firstnameEx": "Bruce",
+                    "name": "Nume",
+                    "nameEx": "Wayne",
+                    "title": "Contul meu"
+                },
+                "finish": "Terminat",
+                "perso": {
+                    "address": "Adresă",
+                    "addressEx": "Str. Democrației 20",
+                    "birthdate": "Data nașterii",
+                    "birthdateEx": "18/05/1973\n",
+                    "city": "Localitate",
+                    "cityEx": "Localitate",
+                    "phone": "Telefon",
+                    "phoneEx": "+4 0799 236 458\n",
+                    "postal": "050478\n",
+                    "title": "Informațiile mele"
+                },
+                "picture": "Schimbă poza de profil",
+                "pictureFeature": {
+                    "cancelLabel": "Anulează",
+                    "chooseAPictureLabel": "Fotografiile mele",
+                    "descriptionOfThePopUp": "Alege din opțiunile de mai jos. Poți schimba selecția ulterior.",
+                    "messageTextProblem": "Se pare că nu avem permisiunile necesare pentru a accesa camera și imaginile.",
+                    "problemLabel": "Imposibil",
+                    "settingsLabel": "Setări",
+                    "takeAPictureLabel": "Fă o poză",
+                    "titlePopUp": "Poză de profil"
+                },
+                "status": {
+                    "confirmPassword": "Confirmă parola",
+                    "errorServer": "Am întâmpinat o eroare. Reîncearcă sau contactează echipa de asistență dacă problema persistă.",
+                    "forgotActualPassword": "Ai uitat parola?",
+                    "label": "este statusul tău curent",
+                    "newPassword": "Parolă nouă",
+                    "newPasswordsAreNotEquals": "Parolele nu se potrivesc.",
+                    "oldPassword": "Parola veche",
+                    "oldPasswordNotSeemsCorrect": "Vechea parolă este incorectă. Te rugăm să reîncerci.",
+                    "passwordLength": "Noua parolă trebuie să conțință minim 8 caractere, între care o majusculă și o cifră",
+                    "presetupLabel": {
+                        "avaibleLabel": "Disponibil",
+                        "goLabel": "Entuziasmat!",
+                        "pauseLabel": "În pauză",
+                        "withFamilyLabel": "Cu familia"
+                    },
+                    "successUpdatePassword": "Actualizare reușită",
+                    "title": "Spune în ce stare ești",
+                    "update": "Actualizare",
+                    "updatePasswordLabel": "Schimbă parola"
+                },
+                "subtitle": "Setări",
+                "title": "Editează profilul"
+            },
+            "public": {
+                "actions": "acțiuni",
+                "actionsFinished": "Acțiuni încheiate",
+                "anActionFinished": "Acțiune încheiată",
+                "inALightning": "Ai fost inspirat să te alături mișcării!",
+                "joinMouvement": {
+                    "one": "Acum {{count}} zile, te-ai alăturat mișcării cu ✊și ❤️",
+                    "other": "Acum {{count}} zile, te-ai alăturat mișcării cu ✊și ❤️"
+                },
+                "noCitizenMeet": "Încă nu ai contactat pe nimeni. Nu te descuraja!",
+                "peopleMeet": "Persoane contactate"
+            },
+            "settings": {
+                "checkVersion": "Verifică dacă există actualzări",
+                "language": {
+                    "cancel": "Anulează",
+                    "confirm": "Confirmă",
+                    "restartLabel": "Reîncepe",
+                    "restartMessage": "Schimbarea limbii necesită repornirea aplicației.",
+                    "title": "Limbi și regiuni",
+                    "titleScreen": "Selectează limba"
+                },
+                "logout": {
+                    "label": "Deconectare",
+                    "title": "Deconectare"
+                },
+                "me": {
+                    "editPassword": "Schimbă parola",
+                    "editProfile": "Modifică profilul",
+                    "title": "Despre mine"
+                },
+                "notifications": {
+                    "title": "Notificări"
+                },
+                "share": {
+                    "invite": "Invită-ți prietenii",
+                    "inviteMessage": " te invită să te mobilizezi cu Quorum.\n\nDescarcă aplicația:\n\nIOS:\nhttp://bit.ly/quorumIOS \nAndroid:\nhttp://bit.ly/quorumAndroid",
+                    "legal": "Juridic",
+                    "rate": "Acordă-ne 5 stele!",
+                    "support": "Contactează-ne",
+                    "supportBody": "Versiune:",
+                    "supportFeedback": "Feedback-ul meu pe Quorum Mobile",
+                    "supportRessources": "Centru de resurse",
+                    "supportShareYourFeedbackLabel": "Sugerează o îmbunătățire",
+                    "supportSubject": "Cerere de asistență",
+                    "title": "Despre Quorum"
+                },
+                "subtitle": "Personalizează-ți experiența",
+                "title": "Setări",
+                "update": "Actulizează aplicația",
+                "version": "Versiune: "
+            }
+        }
+    },
+    "navigator": {
+        "QG": "Baza",
+        "actions": "Acțiuni",
+        "goBack": "Înapoi",
+        "informations": "Materiale",
+        "profile": "profil",
+        "search": "Căutare"
+    },
+    "popup": {
+        "consent": {
+            "cancel": "Anulează",
+            "content": "Nu uita să informezi persoana despre scopul acțiunii și asigură-te că este clar ce organizație reprezinți!",
+            "gpdrOkEmailLabel": "Contactul a agreat să primească emailuri (în legătură cu această acțiune)",
+            "gpdrOkLabel": "Contactul mă autorizează să colectez și folosesc această informație în cadrul acțiunii.",
+            "gpdrOkSMSLabel": "Contactul a agreat să fie contactat telefonic (în legătură această acțiune)",
+            "nextStep": "Continuă",
+            "title": "Consimțământ"
+        }
+    },
+    "splashScreen": {
+        "loadingUpdateOTA": "O actualizare este în curs!",
+        "successUpdateOTA": "Sincronziarea cu serverul s-a încheiat! Repornește."
+    },
+    "support": {
+        "askingSupport": "Solicită asistență",
+        "contactUs": "Contactează",
+        "firstname": "Prenume",
+        "informationHelp": "Probleme cu aplicația? \nZi-ne!",
+        "mail": "Email",
+        "surname": "Nume",
+        "titleSupportHelp": "Ai nevoie de asistență?",
+        "withMail": "Prin email",
+        "withTelegramApp": "Contactează asistența prin Telegram"
+    },
+    "tutorial": {
+        "beforeStart": {
+            "allreadyAnAccount": "Ai deja un cont? Autentifică-te",
+            "createAnAccount": "Crează un cont",
+            "titleStep1": "Află tot ce trebuie să știi",
+            "titleStep2": "Nu a fost niciodată mai ușor să acționezi!",
+            "titleStep3": "Conexiunile (virtuale) sunt floare la ureche!",
+            "titleStep4": "Monitorizează rezultatele tale"
+        },
+        "location": {
+            "popup": {
+                "close": "Închide",
+                "enable": "Activează",
+                "foundYourPosition": "Ți-am identificat locația. Acum poți vedea ce se întâmplă în zona ta.",
+                "introductionTitle": "Activează localizarea pentru a putea utiliza toate funcțiile aplicației.",
+                "locationMe": "Localizează-mă",
+                "pleaseWait": "Te rugăm să aștepți",
+                "problemCanRetry": "Se pare că nu reușim să te localizăm. Te rugăm să încerci din nou.",
+                "problemWithGeopositionning": "Nu am reușit să îți determinăm poziționarea.",
+                "retry": "Încearcă din nou",
+                "searchingForLocation": "Caut persoane în zona ta.",
+                "title": "Unde sunt?",
+                "whereAreYou": "Prin activarea localizării, poți vedea străzile cele mai apropiate."
+            }
+        }
+    },
+    "urls": {
+        "cgu": "https://www.quorum.co/mobile-tos/",
+        "dataProtection": "https://www.quorum.co/privacy/"
+    }
+}
