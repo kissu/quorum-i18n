@@ -55,4 +55,22 @@ describe('Global testing for Web Application & Mobile', () => {
     expect(sk.path).toEqual('en')
     expect(sk.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('en')
   })
+
+  it('Should return en path and en content if language is en_RO', async () => {
+    const ro = getJSONLanguageForApplications('en-RO', null, 'mobile')
+    expect(ro.path).toEqual('en')
+    expect(ro.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('en')
+  })
+
+  it('Should return en path and en content if language is empty', async () => {
+    const ro = getJSONLanguageForApplications('', null, 'mobile')
+    expect(ro.path).toEqual('en')
+    expect(ro.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('en')
+  })
+
+  it('Should return en path and en content if language is null', async () => {
+    const ro = getJSONLanguageForApplications(null, null, 'mobile')
+    expect(ro.path).toEqual('en')
+    expect(ro.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('en')
+  })
 })
