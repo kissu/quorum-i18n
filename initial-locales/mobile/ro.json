@@ -121,7 +121,36 @@
             "missingData": "Se pare că lipsesc unele date.",
             "adminView": {
                 "notificationOnlyForAdmin": "Ai acces aici pentru că ești administrator."
-            }
+            },
+            "updatePopup": {
+                "update": "Actualizare",
+                "title": "Este disponibilă o actualizare",
+                "content": "Bucură-te de cele mai recente funcționalități.",
+                "later": "Mai târziu"
+            },
+            "reloadLabel": "Reîncarcă",
+            "quickActions": {
+                "welcome": "Bine ai venit 👋 {{firstname}}",
+                "upload": "Trimite un document",
+                "title": "Scurtături",
+                "donate": "Colectează o donație\n",
+                "canvassing": "În jurul meu\n",
+                "addSupport": "Mobilizează pe cineva\n",
+                "add": "Începe un sondaj"
+            },
+            "newActions": {
+                "outdatedAction": "(acțiune neactuală)",
+                "newActionLabel": {
+                    "other": "Acțiunile tale",
+                    "one": "Acțiunea ta"
+                },
+                "emptyStateText": "Pentru moment nu există nicio acțiune programată. \nAdaugă suporteri sau prospectează pe cont propriu! ",
+                "actionWillStartFromStart": "Începe pe {{date}}",
+                "actionSimpleDateWillFinish": "Încheiat pe {{date}}",
+                "actionAllreadyStartedFromStart": "Început pe {{date}}",
+                "actionSameDay": "{{dateStart}} de la  {{hourStart}} până la {{hourEnd}}"
+            },
+            "newDocs": "documente noi"
         },
         "form": {
             "updateTheContactLabel": "Actualizează contactul",
@@ -508,6 +537,132 @@
             "cancelSearch": "Anulează",
             "additionnalInformation": "Mai multe detalii",
             "addCitizenCTA": "Mobilizează pe cineva în această zonă"
+        },
+        "profile": {
+            "settings": {
+                "version": "Versiune: ",
+                "update": "Actulizează aplicația",
+                "title": "Setări",
+                "subtitle": "Personalizează-ți experiența",
+                "share": {
+                    "title": "Despre Quorum",
+                    "supportSubject": "Cerere de asistență",
+                    "supportShareYourFeedbackLabel": "Sugerează o îmbunătățire",
+                    "supportRessources": "Centru de resurse",
+                    "supportFeedback": "Feedback-ul meu pe Quorum Mobile",
+                    "supportBody": "Versiune:",
+                    "support": "Contactează-ne",
+                    "rate": "Acordă-ne 5 stele!",
+                    "legal": "Juridic",
+                    "inviteMessage": " te invită să te mobilizezi cu Quorum.\n\nDescarcă aplicația:\n\nIOS:\nhttp://bit.ly/quorumIOS \nAndroid:\nhttp://bit.ly/quorumAndroid",
+                    "invite": "Invită-ți prietenii"
+                },
+                "notifications": {
+                    "title": "Notificări"
+                },
+                "me": {
+                    "title": "Despre mine",
+                    "editProfile": "Modifică profilul",
+                    "editPassword": "Schimbă parola"
+                },
+                "logout": {
+                    "title": "Deconectare",
+                    "label": "Deconectare"
+                },
+                "language": {
+                    "titleScreen": "Selectează limba",
+                    "title": "Limbi și regiuni",
+                    "restartMessage": "Schimbarea limbii necesită repornirea aplicației.",
+                    "restartLabel": "Reîncepe",
+                    "confirm": "Confirmă",
+                    "cancel": "Anulează"
+                },
+                "checkVersion": "Verifică dacă există actualzări"
+            },
+            "public": {
+                "peopleMeet": "Persoane contactate",
+                "noCitizenMeet": "Încă nu ai contactat pe nimeni. Nu te descuraja!",
+                "joinMouvement": {
+                    "other": "Acum {{count}} zile, te-ai alăturat mișcării cu ✊și ❤️",
+                    "one": "Acum {{count}} zile, te-ai alăturat mișcării cu ✊și ❤️"
+                },
+                "inALightning": "Ai fost inspirat să te alături mișcării!",
+                "anActionFinished": "Acțiune încheiată",
+                "actionsFinished": "Acțiuni încheiate",
+                "actions": "acțiuni"
+            },
+            "edit": {
+                "title": "Editează profilul",
+                "subtitle": "Setări",
+                "status": {
+                    "updatePasswordLabel": "Schimbă parola",
+                    "update": "Actualizare",
+                    "title": "Spune în ce stare ești",
+                    "successUpdatePassword": "Actualizare reușită",
+                    "presetupLabel": {
+                        "withFamilyLabel": "Cu familia",
+                        "pauseLabel": "În pauză",
+                        "goLabel": "Entuziasmat!",
+                        "avaibleLabel": "Disponibil"
+                    },
+                    "passwordLength": "Noua parolă trebuie să conțință minim 8 caractere, între care o majusculă și o cifră",
+                    "oldPasswordNotSeemsCorrect": "Vechea parolă este incorectă. Te rugăm să reîncerci.",
+                    "oldPassword": "Parola veche",
+                    "newPasswordsAreNotEquals": "Parolele nu se potrivesc.",
+                    "newPassword": "Parolă nouă",
+                    "label": "este statusul tău curent",
+                    "forgotActualPassword": "Ai uitat parola?",
+                    "errorServer": "Am întâmpinat o eroare. Reîncearcă sau contactează echipa de asistență dacă problema persistă.",
+                    "confirmPassword": "Confirmă parola"
+                },
+                "pictureFeature": {
+                    "titlePopUp": "Poză de profil",
+                    "takeAPictureLabel": "Fă o poză",
+                    "settingsLabel": "Setări",
+                    "problemLabel": "Imposibil",
+                    "messageTextProblem": "Se pare că nu avem permisiunile necesare pentru a accesa camera și imaginile.",
+                    "descriptionOfThePopUp": "Alege din opțiunile de mai jos. Poți schimba selecția ulterior.",
+                    "chooseAPictureLabel": "Fotografiile mele",
+                    "cancelLabel": "Anulează"
+                },
+                "picture": "Schimbă poza de profil",
+                "perso": {
+                    "title": "Informațiile mele",
+                    "postal": "050478\n",
+                    "phoneEx": "+4 0799 236 458\n",
+                    "phone": "Telefon",
+                    "cityEx": "Localitate",
+                    "city": "Localitate",
+                    "birthdateEx": "18/05/1973\n",
+                    "birthdate": "Data nașterii",
+                    "addressEx": "Str. Democrației 20",
+                    "address": "Adresă"
+                },
+                "finish": "Terminat",
+                "account": {
+                    "title": "Contul meu",
+                    "nameEx": "Wayne",
+                    "name": "Nume",
+                    "firstnameEx": "Bruce",
+                    "firstname": "Prenume",
+                    "emailEx": "superman@quorum.co\n",
+                    "email": "Email"
+                }
+            }
+        },
+        "popup": {
+            "noLocation": {
+                "title": "Unde sunt?",
+                "settingsLabel": "Setări",
+                "messagePopup": "Nu găsim persoane în juru tău.\n\nVerifică setările pentru a te asigura că aplicația are acces la locația ta, verifică coneiunea și reîncarcă.",
+                "lookingForYourLocationTitle": "Determinăm locația ta...",
+                "closeLabel": "Închide"
+            },
+            "needUpdate": {
+                "update": "Actulizează",
+                "body": "Te rugăm să actualizezi aplicația.",
+                "title": "ACTUALIZARE DISPONIBILĂ"
+            }
         }
     },
     "locale_shorted": "en-EN",
@@ -523,5 +678,69 @@
         "errorServer": "Serverul nu poate procesa cererea. Contactează asistența dacă problema persistă.",
         "connectYouAndTryAgain": "S-ar putea să i o problemă de conexiune. Te rugăm să reîncarci pagina.",
         "backToHeadQuarter": "Înapoi la bază"
+    },
+    "urls": {
+        "dataProtection": "https://www.quorum.co/privacy/",
+        "cgu": "https://www.quorum.co/mobile-tos/"
+    },
+    "tutorial": {
+        "location": {
+            "popup": {
+                "whereAreYou": "Prin activarea localizării, poți vedea străzile cele mai apropiate.",
+                "title": "Unde sunt?",
+                "searchingForLocation": "Caut persoane în zona ta.",
+                "retry": "Încearcă din nou",
+                "problemWithGeopositionning": "Nu am reușit să îți determinăm poziționarea.",
+                "problemCanRetry": "Se pare că nu reușim să te localizăm. Te rugăm să încerci din nou.",
+                "pleaseWait": "Te rugăm să aștepți",
+                "locationMe": "Localizează-mă",
+                "introductionTitle": "Activează localizarea pentru a putea utiliza toate funcțiile aplicației.",
+                "foundYourPosition": "Ți-am identificat locația. Acum poți vedea ce se întâmplă în zona ta.",
+                "enable": "Activează",
+                "close": "Închide"
+            }
+        },
+        "beforeStart": {
+            "titleStep4": "Monitorizează rezultatele tale",
+            "titleStep3": "Conexiunile (virtuale) sunt floare la ureche!",
+            "titleStep2": "Nu a fost niciodată mai ușor să acționezi!",
+            "titleStep1": "Află tot ce trebuie să știi",
+            "createAnAccount": "Crează un cont",
+            "allreadyAnAccount": "Ai deja un cont? Autentifică-te"
+        }
+    },
+    "support": {
+        "withTelegramApp": "Contactează asistența prin Telegram",
+        "withMail": "Prin email",
+        "titleSupportHelp": "Ai nevoie de asistență?",
+        "surname": "Nume",
+        "mail": "Email",
+        "informationHelp": "Probleme cu aplicația? \nZi-ne!",
+        "firstname": "Prenume",
+        "contactUs": "Contactează",
+        "askingSupport": "Solicită asistență"
+    },
+    "splashScreen": {
+        "successUpdateOTA": "Sincronziarea cu serverul s-a încheiat! Repornește.",
+        "loadingUpdateOTA": "O actualizare este în curs!"
+    },
+    "popup": {
+        "consent": {
+            "title": "Consimțământ",
+            "nextStep": "Continuă",
+            "gpdrOkSMSLabel": "Contactul a agreat să fie contactat telefonic (în legătură această acțiune)",
+            "gpdrOkEmailLabel": "Contactul a agreat să primească emailuri (în legătură cu această acțiune)",
+            "gpdrOkLabel": "Contactul mă autorizează să colectez și folosesc această informație în cadrul acțiunii.",
+            "content": "Nu uita să informezi persoana despre scopul acțiunii și asigură-te că este clar ce organizație reprezinți!",
+            "cancel": "Anulează"
+        }
+    },
+    "navigator": {
+        "search": "Căutare",
+        "profile": "profil",
+        "informations": "Materiale",
+        "goBack": "Înapoi",
+        "actions": "Acțiuni",
+        "QG": "Baza"
     }
 }
