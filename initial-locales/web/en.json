@@ -924,6 +924,10 @@
                 "ACTIVATE": "Activate automatic email responses",
                 "ANSWER": "Answer:",
                 "CLICK_TO_ADD": "Click to add",
+                "CONTACT_VARIABLE": {
+                    "FIRSTNAME": "Contact firstname",
+                    "LASTNAME": "Contact lastname"
+                },
                 "DISABLE": "Disable",
                 "ENABLE": "Enable",
                 "INFO": "By activating automatic emails for this question, your contact will receive an email that is generated based on their response.",
@@ -933,11 +937,7 @@
                 "MESSAGE_PLACEHOLDER": "Message related to this answer",
                 "MORE_INFO": "More info",
                 "PEOPLE_ATTRIBUTES": "Variables",
-                "QUESTION": "Question:",
-                "CONTACT_VARIABLE": {
-                    "FIRSTNAME": "Contact firstname",
-                    "LASTNAME": "Contact lastname"
-                }
+                "QUESTION": "Question:"
             },
             "HELP": {
                 "CONTENT1": "Once you create your survey, you'll be able to activate an automatic email for each response.",
