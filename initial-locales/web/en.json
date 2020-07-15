@@ -924,6 +924,10 @@
                 "ACTIVATE": "Activate automatic email responses",
                 "ANSWER": "Answer:",
                 "CLICK_TO_ADD": "Click to add",
+                "CONTACT_VARIABLE": {
+                    "FIRSTNAME": "Contact firstname",
+                    "LASTNAME": "Contact lastname"
+                },
                 "DISABLE": "Disable",
                 "ENABLE": "Enable",
                 "INFO": "By activating automatic emails for this question, your contact will receive an email that is generated based on their response.",
