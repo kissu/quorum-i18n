@@ -1,7 +1,7 @@
 import * as MobileTranslates from '../initial-locales/mobile'
-import * as WebTranslates from '../initial-locales/web'
-import deepExtend from 'deep-extend' // merge various JSONs
+import * as WebTranslates from '../initial-locales/web' // merge various JSONs
 import cloneDeep from 'lodash/cloneDeep'
+import merge from 'lodash/merge'
 
 const constantizeIfTruthy = (...args) => [...args].filter(Boolean).join('-')
 
@@ -144,7 +144,7 @@ export const getJSONLanguageForApplications = (
        */
       const basicLanguage = setLocaleForTheUser('en', null, platform)
       setLocaleForTheUser(deviceLocale, localeSpecific, platform)
-      let fallbackedJsons = deepExtend(...cloneDeep(basicLanguage), ...cloneDeep(finalArray))
+      let fallbackedJsons = merge(...cloneDeep(basicLanguage), ...cloneDeep(finalArray))
       finalArray = [] // reset here or the next call to this function will be wrong
       return {
         content: fallbackedJsons,
