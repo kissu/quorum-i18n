@@ -73,4 +73,22 @@ describe('Global testing for Web Application & Mobile', () => {
     expect(ro.path).toEqual('en')
     expect(ro.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('en')
   })
+
+  it('Should return ro path and ro content if language is ro', async () => {
+    const ro = getJSONLanguageForApplications('ro', null, 'mobile')
+    expect(ro.path).toEqual('ro')
+    expect(ro.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('ro')
+  })
+
+  /**
+   * This test will cover the fact that we have an empty new json
+   * for the mobile or the web and we don't want an empty file.
+   * All the missing languages will be fallback by the english
+   */
+  it('Should return example path populated with english', async () => {
+    const ex = getJSONLanguageForApplications('ex', null, 'mobile')
+    expect(ex.path).toEqual('ex')
+    expect(ex.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('ex')
+    expect(ex.content.navigator.goBack).toEqual('Back')
+  })
 })
