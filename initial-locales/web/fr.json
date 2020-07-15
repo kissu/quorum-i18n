@@ -932,7 +932,11 @@
                 "MESSAGE_PLACEHOLDER": "Message associé à cette réponse",
                 "MORE_INFO": "En savoir plus",
                 "PEOPLE_ATTRIBUTES": "Variables",
-                "QUESTION": "Question : "
+                "QUESTION": "Question : ",
+                "CONTACT_VARIABLE": {
+                    "FIRSTNAME": "Prénom contact",
+                    "LASTNAME": "Nom contact"
+                }
             },
             "HELP": {
                 "CONTENT1": "Lorsque vous créez votre questionnaire, vous pouvez activer pour chaque réponse potentielle, un email automatique.",

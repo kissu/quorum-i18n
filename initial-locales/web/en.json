@@ -933,7 +933,11 @@
                 "MESSAGE_PLACEHOLDER": "Message related to this answer",
                 "MORE_INFO": "More info",
                 "PEOPLE_ATTRIBUTES": "Variables",
-                "QUESTION": "Question:"
+                "QUESTION": "Question:",
+                "CONTACT_VARIABLE": {
+                    "FIRSTNAME": "Contact firstname",
+                    "LASTNAME": "Contact lastname"
+                }
             },
             "HELP": {
                 "CONTENT1": "Once you create your survey, you'll be able to activate an automatic email for each response.",
