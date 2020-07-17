@@ -1,7 +1,7 @@
 import * as MobileTranslates from '../initial-locales/mobile'
-import * as WebTranslates from '../initial-locales/web'
-import deepExtend from 'deep-extend' // merge various JSONs
+import * as WebTranslates from '../initial-locales/web' // merge various JSONs
 import cloneDeep from 'lodash/cloneDeep'
+import merge from 'lodash/merge'
 
 const constantizeIfTruthy = (...args) => [...args].filter(Boolean).join('-')
 
@@ -108,12 +108,13 @@ function downgradeAndSearchFilesForLanguage(locale, localeSpecific, platform) {
  * @func setLocaleForTheUser
  */
 function setLocaleForTheUser(detectedLocale, localeSpecific, platform) {
+  finalArray = [] // reset here or the next call to this function will be wrong
   /**
    * We want to get the locale formatted with
    * the defineUserLocales function
    */
   const localeFormatted = sanitizeLocale(defineUserLocales(detectedLocale))
-  downgradeAndSearchFilesForLanguage(localeFormatted, sanitizeLocaleSpecific(localeSpecific), platform)
+  return downgradeAndSearchFilesForLanguage(localeFormatted, sanitizeLocaleSpecific(localeSpecific), platform)
 }
 
 /**
@@ -135,8 +136,15 @@ export const getJSONLanguageForApplications = (
   switch (platform) {
     case 'web':
     case 'mobile': {
+      /**
+       * Add a english fallback by default to avoid empty strings on new
+       * basic languages like just few keys for a new lang.
+       * All the languages are now based on english by default to avoid missing
+       * translations on a new language.
+       */
+      const basicLanguage = setLocaleForTheUser('en', null, platform)
       setLocaleForTheUser(deviceLocale, localeSpecific, platform)
-      let fallbackedJsons = deepExtend(...cloneDeep(finalArray))
+      let fallbackedJsons = merge(...cloneDeep(basicLanguage), ...cloneDeep(finalArray))
       finalArray = [] // reset here or the next call to this function will be wrong
       return {
         content: fallbackedJsons,

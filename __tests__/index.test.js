@@ -48,6 +48,12 @@ describe('Global testing for Web Application & Mobile', () => {
     const frMedProm = await getJSONLanguageForApplications('fr', 'mediation-promevil', 'mobile')
     expect(frMedProm.path).toEqual('fr')
     expect(frMedProm.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('fr-mediation-promevil')
+    expect(frMedProm.content.auth.createAccount.step1.button).toEqual('Valider')
+    expect(frMedProm.content.auth.chooseCampaign.joinYourCompaign).toEqual('Rejoindre')
+    expect(frMedProm.content.logged.canvassing.addCitizenCTA).toEqual(
+      'Ajouter une intervention dans cette zone',
+    )
+    expect(frMedProm.content.logged.canvassing.additionnalInformation).toEqual('Informations supplémentaires')
   })
 
   it('Should return en path and en content if language is xx (like undefined)', async () => {
@@ -72,5 +78,23 @@ describe('Global testing for Web Application & Mobile', () => {
     const ro = getJSONLanguageForApplications(null, null, 'mobile')
     expect(ro.path).toEqual('en')
     expect(ro.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('en')
+  })
+
+  it('Should return ro path and ro content if language is ro', async () => {
+    const ro = getJSONLanguageForApplications('ro', null, 'mobile')
+    expect(ro.path).toEqual('ro')
+    expect(ro.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('ro')
+  })
+
+  /**
+   * This test will cover the fact that we have an empty new json
+   * for the mobile or the web and we don't want an empty file.
+   * All the missing languages or partial jsons will be fallback by the english
+   */
+  it('Should return example path populated with english', async () => {
+    const ex = getJSONLanguageForApplications('ex', null, 'mobile')
+    expect(ex.path).toEqual('ex')
+    expect(ex.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('ex')
+    expect(ex.content.navigator.goBack).toEqual('Back')
   })
 })

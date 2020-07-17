@@ -923,6 +923,10 @@
                 "ACTIVATE": "Activer les emails automatiques",
                 "ANSWER": "Réponse :",
                 "CLICK_TO_ADD": "Cliquer pour ajouter",
+                "CONTACT_VARIABLE": {
+                    "FIRSTNAME": "Prénom contact",
+                    "LASTNAME": "Nom contact"
+                },
                 "DISABLE": "Désactiver",
                 "ENABLE": "Activer",
                 "INFO": "En activant les emails automatiques pour cette question, votre contact recevra un email dont le contenu sera généré en fonction de ses réponses aux questions.",
@@ -932,11 +936,7 @@
                 "MESSAGE_PLACEHOLDER": "Message associé à cette réponse",
                 "MORE_INFO": "En savoir plus",
                 "PEOPLE_ATTRIBUTES": "Variables",
-                "QUESTION": "Question : ",
-                "CONTACT_VARIABLE": {
-                    "FIRSTNAME": "Prénom contact",
-                    "LASTNAME": "Nom contact"
-                }
+                "QUESTION": "Question : "
             },
             "HELP": {
                 "CONTENT1": "Lorsque vous créez votre questionnaire, vous pouvez activer pour chaque réponse potentielle, un email automatique.",
