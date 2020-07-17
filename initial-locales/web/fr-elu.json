@@ -31,7 +31,9 @@
                 "BRIEF_CREATED_PLACEHOLDER": "Texte de votre guide",
                 "BRIEF_TITLE": "Titre de votre guide",
                 "BRIEF_CHOOSE_ONE": "Sélectionner un guide d'agents",
-                "BRIEF": "📃 Voulez-vous ajouter un guide d'agents ?"
+                "BRIEF": "📃 Voulez-vous ajouter un guide d'agents ?",
+                "LINK_CLICKABLE": "Cliquable par vos agents",
+                "AIM_HELPER": "Faites simple pour vos agents."
             },
             "PRECISION": {
                 "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une consultation vide"
@@ -136,10 +138,20 @@
     },
     "SETTINGS": {
         "FORM_BUILDER": {
-            "TOOLTIP_ACTION": "Faire apparaître ce champ dans les onglets de votre centre de tâches."
+            "TOOLTIP_ACTION": "Faire apparaître ce champ dans les onglets de votre centre de tâches.",
+            "NAMES": {
+                "ACTION": "Tâc"
+            },
+            "HOW_TO_USE_TUNNELS": "Comment personnaliser les status et les tâches ?"
         },
         "HEADER": {
-            "LEAD": "Tâches"
+            "LEAD": "Tâches",
+            "ACTIONS": "Gestion des tâches"
+        }
+    },
+    "MANAGEMENT": {
+        "ISSUE_CENTER": {
+            "ACTIONS": "Catégories de tâches"
         }
     }
 }
