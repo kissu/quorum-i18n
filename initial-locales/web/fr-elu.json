@@ -2,7 +2,10 @@
     "ACTION": {
         "CALL_TO_ACTION": {
             "FORM_FILTER": {
-                "LOOKING_FOR": "Contacts cabinet"
+                "LOOKING_FOR": "Contacts cabinet",
+                "TYPES": {
+                    "ANSWERED": "responded..."
+                }
             },
             "INFORMATIONS": {
                 "AIM": "📣 Quel est le nom de votre consultation ?",
