@@ -18,19 +18,32 @@
                 "LOOKING_FOR": "Contacts cabinet"
             },
             "INFORMATIONS": {
-                "AIM_NEEDED": "Votre consultation doit avoir un titre."
+                "AIM_NEEDED": "Votre consultation doit avoir un titre.",
+                "TYPE": "✊Quel type de consultation souhaitez-vous créer ?",
+                "COMMENT_PLACEHOLDER": "Comment se déroulera votre consultation ?"
             },
             "PRECISION": {
                 "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une consultation vide"
             },
             "TARGET": {
-                "SKIP_CREATE": "Créer une consultation sans sélectionner de contact"
+                "SKIP_CREATE": "Créer une consultation sans sélectionner de contact",
+                "GEO_SECTION": "🗺 Où souhaitez-vous mener votre consultation ?"
             },
             "SUCCESS": "Consultation créée !",
-            "CREATE": "Créez votre consultation"
+            "CREATE": "Créez votre consultation",
+            "VALIDATE": {
+                "VOLONTEERS": "La consultation doit être assignée à au moins une personne"
+            }
         },
         "LIST": {
-            "ADD_ACTION_POLY": "Créer une consultation ici"
+            "ADD_ACTION_POLY": "Créer une consultation ici",
+            "DELETE_SUCCESS": "La consultation \"{name}\" a été supprimée",
+            "ACTION_NOW": "Votre consultation est maintenant {status} !",
+            "ACTIONS_SELECTED": "Aucune consultation sélectionnée | {count} consultation sélectionnée | {count} consultation sélectionnées"
+        },
+        "DETAIL": {
+            "PROGRESS": "Progression de la consultation",
+            "ACTION_NAME": "Nom de la consultation"
         }
     },
     "_COMMON": {
