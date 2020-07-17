@@ -34,7 +34,6 @@
     }
   },
   "dependencies": {
-    "deep-extend": "^0.6.0",
     "fs-extra": "^9.0.1"
   },
   "devDependencies": {
