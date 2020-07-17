@@ -1,17 +1,6 @@
 {
     "ACTION": {
         "CALL_TO_ACTION": {
-            "SUCCESS": "Consultation créée !",
-            "TARGET": {
-                "GEO_SECTION": "🗺 Où souhaitez-vous mener votre consultation ?",
-                "SKIP_CREATE": "Créer une consultation sans sélectionner de contact"
-            },
-            "VALIDATE": {
-                "VOLONTEERS": "La consultation doit être assignée à au moins une personne"
-            },
-            "PRECISION": {
-                "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une consultation vide"
-            },
             "FORM_FILTER": {
                 "LOOKING_FOR": "Contacts cabinet"
             },
@@ -27,6 +16,17 @@
                 "CREATE_BRIEF": "Créer un nouveau guide d'agents",
                 "LINK_CLICKABLE": "Cliquable par vos agents",
                 "TYPE": "✊Quel type de consultation souhaitez-vous créer ?"
+            },
+            "PRECISION": {
+                "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une consultation vide"
+            },
+            "SUCCESS": "Consultation créée !",
+            "TARGET": {
+                "GEO_SECTION": "🗺 Où souhaitez-vous mener votre consultation ?",
+                "SKIP_CREATE": "Créer une consultation sans sélectionner de contact"
+            },
+            "VALIDATE": {
+                "VOLONTEERS": "La consultation doit être assignée à au moins une personne"
             }
         },
         "DETAIL": {
