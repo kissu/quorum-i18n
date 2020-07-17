@@ -59,7 +59,7 @@
     "jest": "^26.0.1",
     "json-sort-cli": "^1.15.22",
     "lint-staged": "^10.2.9",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
     "standard-version": "^8.0.0"
