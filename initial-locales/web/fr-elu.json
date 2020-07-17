@@ -84,8 +84,15 @@
     "USER_MANAGEMENT": {
         "USER_LIST": {
             "TEAMS": {
-                "CREATE_ACTION": "Créer une consultation"
+                "CREATE_ACTION": "Créer une consultation",
+                "MEMBERS": "0 agent | 1 agent | %{count} agents"
+            },
+            "TABS": {
+                "MEMBERS": "Agent | Agent | Agents"
             }
+        },
+        "KPI": {
+            "ORGANIZERS": "conseiller | conseillers"
         }
     },
     "CARTO": {
