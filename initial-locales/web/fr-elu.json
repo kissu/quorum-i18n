@@ -20,7 +20,13 @@
             "INFORMATIONS": {
                 "AIM_NEEDED": "Votre consultation doit avoir un titre.",
                 "TYPE": "✊Quel type de consultation souhaitez-vous créer ?",
-                "COMMENT_PLACEHOLDER": "Comment se déroulera votre consultation ?"
+                "COMMENT_PLACEHOLDER": "Comment se déroulera votre consultation ?",
+                "CREATE_BRIEF": "Créer un nouveau guide d'agents",
+                "BRIEF_TITLE_CREATION": "Créer un guide pour vos agents",
+                "BRIEF_CREATED_PLACEHOLDER": "Texte de votre guide",
+                "BRIEF_TITLE": "Titre de votre guide",
+                "BRIEF_CHOOSE_ONE": "Sélectionner un guide d'agents",
+                "BRIEF": "📃 Voulez-vous ajouter un guide d'agents ?"
             },
             "PRECISION": {
                 "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une consultation vide"
@@ -50,12 +56,19 @@
         },
         "DETAIL": {
             "PROGRESS": "Progression de la consultation",
-            "ACTION_NAME": "Nom de la consultation"
+            "ACTION_NAME": "Nom de la consultation",
+            "PLACEHOLDERS": {
+                "BRIEF": "Choisir un guide d'agents"
+            },
+            "BRIEF": "Guide d'agents"
         },
         "SIDEBAR": {
             "KPI": {
                 "ACTIONS_SELECTED": "Aucune consultation | 1 consultation | {count} consultations"
             }
+        },
+        "EDIT": {
+            "BRIEF": "Guide d'agents"
         }
     },
     "_COMMON": {
@@ -77,10 +90,12 @@
                 "ADD_ACTION_HERE": "Créer une consultation ici",
                 "ADD_ACTION": "Créer une consultation",
                 "ADD_ACTION_FIRST_STEP": {
-                    "NEED_HELP_FIRST_SENTENCE": "Besoin d'aide pour créer une action ? ",
-                    "ERROR_CANNOT_CREATE_ACTION_TOO_LARGE": "Cette zone est trop grande, vous ne pouvez créer de consultation dessus."
+                    "NEED_HELP_FIRST_SENTENCE": "Besoin d'aide pour créer une consultation ? ",
+                    "ERROR_CANNOT_CREATE_ACTION_TOO_LARGE": "Cette zone est trop grande, vous ne pouvez créer de consultation dessus.",
+                    "TITLE": "Vous voulez créer une consultation sur :"
                 },
-                "ACTIONS": "Consultation en cours | Consultations en cours"
+                "ACTIONS": "Consultation en cours | Consultations en cours",
+                "DONE_ACTIONS": "Consultation terminée | Consultations terminées"
             }
         }
     },
@@ -88,6 +103,15 @@
         "GENERATION": {
             "CREATE_ACTION": "Créer une consultation",
             "ACTION_NUMBER": "Consultation n°{number}"
+        }
+    },
+    "BRIEFS": {
+        "LIST": {
+            "ADD_BRIEF": "Créer votre premier guide d'agents"
+        },
+        "HEADER": {
+            "TITLE": "Guide d'agent | Guide d'agents",
+            "ADD_BRIEF": "Ajouter un guide d'agents"
         }
     }
 }
