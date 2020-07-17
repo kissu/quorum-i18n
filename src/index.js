@@ -2,6 +2,7 @@ import * as MobileTranslates from '../initial-locales/mobile'
 import * as WebTranslates from '../initial-locales/web' // merge various JSONs
 import cloneDeep from 'lodash/cloneDeep'
 import merge from 'lodash/merge'
+import forIn from 'lodash/forIn'
 
 const constantizeIfTruthy = (...args) => [...args].filter(Boolean).join('-')
 
@@ -155,4 +156,54 @@ export const getJSONLanguageForApplications = (
     default:
       throw new Error(`The platform '${platform || ''}' is not recognised by quorum-i18n.`)
   }
+}
+
+/**
+ * @function getAllAvailableLocales
+ * The purpose of this function is to given tools to know exactly what are the
+ * languages availables in the apps. We can filter it by pack.
+ */
+export const getAllAvailableLocales = (platform = 'web', packageWanted = '') => {
+  const allLanguages = []
+  let packageLanguagesToUse
+  switch (platform) {
+    case 'web':
+      packageLanguagesToUse = WebTranslates
+      break
+
+    case 'mobile':
+      packageLanguagesToUse = MobileTranslates
+      break
+
+    default:
+      break
+  }
+
+  if (packageLanguagesToUse) {
+    if (!packageWanted) {
+      forIn(packageLanguagesToUse, (value, key) => {
+        if (!key.includes('-')) {
+          if (value['XXX_TRANSLATION_LANGUAGE_NAME']) {
+            allLanguages.push({
+              key,
+              languageName: value['XXX_TRANSLATION_LANGUAGE_NAME'],
+            })
+          }
+        }
+      })
+    } else {
+      forIn(packageLanguagesToUse, (value, key) => {
+        if (key.includes(packageWanted)) {
+          if (value['XXX_TRANSLATION_LANGUAGE_NAME']) {
+            allLanguages.push({
+              key,
+              languageName: value['XXX_TRANSLATION_LANGUAGE_NAME'],
+            })
+          }
+        }
+      })
+    }
+  }
+
+  return allLanguages
 }

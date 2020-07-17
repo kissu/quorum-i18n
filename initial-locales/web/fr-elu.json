@@ -17,5 +17,6 @@
     "SMS": {
         "SEND_SMS_TO_X_CONTACT": "Vous allez envoyer un SMS à 0 citoyen | Vous allez envoyer un SMS à 1 citoyen | Vous allez envoyer un SMS à {count} citoyens"
     },
-    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-elu"
+    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-elu",
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français"
 }

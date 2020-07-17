@@ -5276,6 +5276,7 @@
         "PAGE_IS_LOADING": "Nous chargeons actuellement votre page ! 🌱"
     },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr",
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "_COMMON": {
         "ACTION": {
             "ENTITY_SUCCESSFULLY_UPDATED": "{entity} mis à jour avec succès !",
