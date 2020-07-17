@@ -2,7 +2,8 @@
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-elu",
     "CONTACT": {
         "HEADER": {
-            "LIMIT_BOUND_TOTAL_HIT": "Vous ne pouvez créer une action sur plus de {number} citoyens."
+            "LIMIT_BOUND_TOTAL_HIT": "Vous ne pouvez créer une consultation sur plus de {number} citoyens.",
+            "CREATE_ACTION": "Créer une consultation"
         }
     },
     "SMS": {
@@ -15,7 +16,47 @@
         "CALL_TO_ACTION": {
             "FORM_FILTER": {
                 "LOOKING_FOR": "Contacts cabinet"
+            },
+            "INFORMATIONS": {
+                "AIM_NEEDED": "Votre consultation doit avoir un titre."
+            },
+            "PRECISION": {
+                "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une consultation vide"
+            },
+            "TARGET": {
+                "SKIP_CREATE": "Créer une consultation sans sélectionner de contact"
+            },
+            "SUCCESS": "Consultation créée !",
+            "CREATE": "Créez votre consultation"
+        },
+        "LIST": {
+            "ADD_ACTION_POLY": "Créer une consultation ici"
+        }
+    },
+    "_COMMON": {
+        "ADD_ACTION": "Créer la consultation"
+    },
+    "USER_MANAGEMENT": {
+        "USER_LIST": {
+            "TEAMS": {
+                "CREATE_ACTION": "Créer une consultation"
             }
+        }
+    },
+    "CARTO": {
+        "CC": {
+            "PRIO": {
+                "ADD_ACTION": "Créer une consultation"
+            },
+            "CALL_TO_ACTION": {
+                "ADD_ACTION_HERE": "Créer une consultation ici",
+                "ADD_ACTION": "Créer une consultation"
+            }
+        }
+    },
+    "ANALYTICS": {
+        "GENERATION": {
+            "CREATE_ACTION": "Créer une consultation"
         }
     }
 }
