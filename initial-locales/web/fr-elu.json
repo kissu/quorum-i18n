@@ -5,6 +5,7 @@
                 "LOOKING_FOR": "Contacts cabinet"
             },
             "INFORMATIONS": {
+                "AIM": "📣 Quel est le nom de votre consultation ?",
                 "AIM_HELPER": "Faites simple pour vos agents.",
                 "AIM_NEEDED": "Votre consultation doit avoir un titre.",
                 "BRIEF": "📃 Voulez-vous ajouter un guide d'agents ?",
@@ -14,12 +15,17 @@
                 "BRIEF_TITLE_CREATION": "Créer un guide pour vos agents",
                 "COMMENT_PLACEHOLDER": "Comment se déroulera votre consultation ?",
                 "CREATE_BRIEF": "Créer un nouveau guide d'agents",
+                "DATE": "📅 Quelle est la date de votre consultation ?",
                 "LINK_CLICKABLE": "Cliquable par vos agents",
+                "PRECISION": {
+                    "TITLE": "Vous voulez faire votre consultation sur ?"
+                },
                 "TYPE": "✊Quel type de consultation souhaitez-vous créer ?"
             },
             "PRECISION": {
                 "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une consultation vide"
             },
+            "SELECT_MEMBERS_TITLE": "🏆 Qui réalisera cette consultation ?",
             "SUCCESS": "Consultation créée !",
             "TARGET": {
                 "GEO_SECTION": "🗺 Où souhaitez-vous mener votre consultation ?",
@@ -109,7 +115,8 @@
     },
     "CONTACT": {
         "EDIT": {
-            "LEAD": "Tâches"
+            "LEAD": "Tâches",
+            "ROUTE_OPPORTUNITIES": "Tâches"
         },
         "HEADER": {
             "CREATE_ACTION": "Créer une consultation",
@@ -122,9 +129,17 @@
         }
     },
     "MENU": {
+        "ACTIONS": "Consultations",
         "BRIEFS": "Guide d'agents",
         "CITIZENS": "Contacts cabinet",
-        "ISSUE_CENTER": "Tâches"
+        "COMMUNICATIONS": "Communications externes",
+        "ISSUE_CENTER": "Tâches",
+        "LEAD": "CABINET",
+        "MAPS": "Carte ville",
+        "MEMBERS": "Équipes",
+        "MOBILIZATION": "Concertation",
+        "PARAMETERS": "Paramètres de l'espace",
+        "STRATEGY": "ANALYSES"
     },
     "SETTINGS": {
         "FORM_BUILDER": {
