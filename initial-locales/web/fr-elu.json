@@ -1,3 +1,21 @@
 {
-    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-elu"
+    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-elu",
+    "CONTACT": {
+        "HEADER": {
+            "LIMIT_BOUND_TOTAL_HIT": "Vous ne pouvez créer une action sur plus de {number} citoyens."
+        }
+    },
+    "SMS": {
+        "SEND_SMS_TO_X_CONTACT": "Vous allez envoyer un SMS à 0 citoyen | Vous allez envoyer un SMS à 1 citoyen | Vous allez envoyer un SMS à {count} citoyens"
+    },
+    "MENU": {
+        "CITIZENS": "Contacts cabinet"
+    },
+    "ACTION": {
+        "CALL_TO_ACTION": {
+            "FORM_FILTER": {
+                "LOOKING_FOR": "Contacts cabinet"
+            }
+        }
+    }
 }
