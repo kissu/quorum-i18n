@@ -309,7 +309,7 @@
                 "MAIL": "Mailing",
                 "OTHER": "Other",
                 "POSTER": "Posters",
-                "SHARING": "",
+                "SHARING": "Sharing",
                 "STATIC": "Meeting"
             },
             "UPDATE_ERROR": "Error: the action \"{name}\" has not been updated",
