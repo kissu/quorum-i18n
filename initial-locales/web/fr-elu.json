@@ -3,20 +3,177 @@
         "CALL_TO_ACTION": {
             "FORM_FILTER": {
                 "LOOKING_FOR": "Contacts cabinet"
+            },
+            "INFORMATIONS": {
+                "AIM": "📣 Quel est le nom de votre consultation ?",
+                "AIM_HELPER": "Faites simple pour vos agents.",
+                "AIM_NEEDED": "Votre consultation doit avoir un titre.",
+                "BRIEF": "📃 Voulez-vous ajouter un guide d'agents ?",
+                "BRIEF_CHOOSE_ONE": "Sélectionner un guide d'agents",
+                "BRIEF_CREATED_PLACEHOLDER": "Texte de votre guide",
+                "BRIEF_TITLE": "Titre de votre guide",
+                "BRIEF_TITLE_CREATION": "Créer un guide pour vos agents",
+                "COMMENT_PLACEHOLDER": "Comment se déroulera votre consultation ?",
+                "CREATE_BRIEF": "Créer un nouveau guide d'agents",
+                "DATE": "📅 Quelle est la date de votre consultation ?",
+                "LINK_CLICKABLE": "Cliquable par vos agents",
+                "PRECISION": {
+                    "TITLE": "Vous voulez faire votre consultation sur ?"
+                },
+                "TYPE": "✊Quel type de consultation souhaitez-vous créer ?"
+            },
+            "PRECISION": {
+                "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une consultation vide"
+            },
+            "SELECT_MEMBERS_TITLE": "🏆 Qui réalisera cette consultation ?",
+            "SUCCESS": "Consultation créée !",
+            "TARGET": {
+                "GEO_SECTION": "🗺 Où souhaitez-vous mener votre consultation ?",
+                "SKIP_CREATE": "Créer une consultation sans sélectionner de contact"
+            },
+            "VALIDATE": {
+                "VOLONTEERS": "La consultation doit être assignée à au moins une personne"
+            }
+        },
+        "DETAIL": {
+            "ACTION_NAME": "Nom de la consultation",
+            "BRIEF": "Guide d'agents",
+            "PLACEHOLDERS": {
+                "BRIEF": "Choisir un guide d'agents"
+            },
+            "PROGRESS": "Progression de la consultation"
+        },
+        "EDIT": {
+            "BRIEF": "Guide d'agents"
+        },
+        "LIST": {
+            "ACTIONS_SELECTED": "Aucune consultation sélectionnée | {count} consultation sélectionnée | {count} consultation sélectionnées",
+            "ACTION_NOW": "Votre consultation est maintenant {status} !",
+            "ADD_ACTION_POLY": "Créer une consultation ici",
+            "DELETE_SUCCESS": "La consultation \"{name}\" a été supprimée",
+            "FINISH": "Terminer la consultation | Terminer {count} consultations",
+            "FINISHED": "Consultation terminée",
+            "NO_DATA": "Aucune consultation planifiée pour le moment  Il est temps de préparer le terrain ✨ !",
+            "REOPEN": "Relancer la consultation | Relancer {count} consultations",
+            "RUNNING": "Consultation en cours | Consultation en cours | Consultations en cours",
+            "UPDATE_ERROR": "Erreur : la consultation \"{name}\" n'a pas été mise à jour",
+            "UPDATE_SUCCESS": "La consultation \"{name}\" a été mise à jour"
+        },
+        "SIDEBAR": {
+            "KPI": {
+                "ACTIONS_SELECTED": "Aucune consultation | 1 consultation | {count} consultations"
+            }
+        }
+    },
+    "ANALYTICS": {
+        "GENERATION": {
+            "ACTION_NUMBER": "Consultation n°{number}",
+            "CREATE_ACTION": "Créer une consultation"
+        }
+    },
+    "BRIEFS": {
+        "HEADER": {
+            "ADD_BRIEF": "Ajouter un guide d'agents",
+            "EDIT_BRIEF": "Éditer le guide",
+            "SEARCH": "Rechercher un guide",
+            "TITLE": "Guide d'agents | Guides d'agents"
+        },
+        "LIST": {
+            "ADD_BRIEF": "Créer votre premier guide d'agents",
+            "BRIEF_NOT_FOUND": "Aucun guide ne correspond à votre recherche.",
+            "EMPTY_STATE": "Aucun guide d'agents pour le moment !",
+            "INFORMATION_BRIEF": "C’est ici que vous pouvez créer des éléments de language et des scripts. Il vous suffira de les lier à vos consultations pour que vos équipes deviennent des porte-paroles informés et outillés. "
+        },
+        "MODAL": {
+            "NAME": "Nom du guide",
+            "PLACEHOLDER": "Créer ici des guides pour vos agents !",
+            "PLACEHOLDER_SELECT": "Choisir un guide d'agents",
+            "SUCCESS": {
+                "ADD": "Guide ajouté ! 👍",
+                "DELETE": "Guide supprimé",
+                "EDIT": "Guide modifié ! 👍"
+            }
+        }
+    },
+    "CARTO": {
+        "CC": {
+            "CALL_TO_ACTION": {
+                "ACTIONS": "Consultation en cours | Consultations en cours",
+                "ADD_ACTION": "Créer une consultation",
+                "ADD_ACTION_FIRST_STEP": {
+                    "ERROR_CANNOT_CREATE_ACTION_TOO_LARGE": "Cette zone est trop grande, vous ne pouvez créer de consultation dessus.",
+                    "NEED_HELP_FIRST_SENTENCE": "Besoin d'aide pour créer une consultation ? ",
+                    "TITLE": "Vous voulez créer une consultation sur :"
+                },
+                "ADD_ACTION_HERE": "Créer une consultation ici",
+                "DONE_ACTIONS": "Consultation terminée | Consultations terminées"
+            },
+            "PRIO": {
+                "ADD_ACTION": "Créer une consultation"
             }
         }
     },
     "CONTACT": {
+        "EDIT": {
+            "LEAD": "Tâches",
+            "ROUTE_OPPORTUNITIES": "Tâches"
+        },
         "HEADER": {
-            "LIMIT_BOUND_TOTAL_HIT": "Vous ne pouvez créer une action sur plus de {number} citoyens."
+            "CREATE_ACTION": "Créer une consultation",
+            "LIMIT_BOUND_TOTAL_HIT": "Vous ne pouvez créer une consultation sur plus de {number} citoyens."
+        }
+    },
+    "MANAGEMENT": {
+        "ISSUE_CENTER": {
+            "ACTIONS": "Catégories de tâches"
         }
     },
     "MENU": {
-        "CITIZENS": "Contacts cabinet"
+        "ACTIONS": "Consultations",
+        "BRIEFS": "Guide d'agents",
+        "CITIZENS": "Contacts cabinet",
+        "COMMUNICATIONS": "Communications externes",
+        "ISSUE_CENTER": "Tâches",
+        "LEAD": "CABINET",
+        "MAPS": "Carte ville",
+        "MEMBERS": "Équipes",
+        "MOBILIZATION": "Concertation",
+        "PARAMETERS": "Paramètres de l'espace",
+        "STRATEGY": "ANALYSES"
+    },
+    "SETTINGS": {
+        "FORM_BUILDER": {
+            "HOW_TO_USE_TUNNELS": "Comment personnaliser les status et les tâches ?",
+            "NAMES": {
+                "ACTION": "Tâches"
+            },
+            "TOOLTIP_ACTION": "Faire apparaître ce champ dans les onglets de votre centre de tâches."
+        },
+        "HEADER": {
+            "ACTIONS": "Gestion des tâches",
+            "LEAD": "Tâches"
+        }
     },
     "SMS": {
         "SEND_SMS_TO_X_CONTACT": "Vous allez envoyer un SMS à 0 citoyen | Vous allez envoyer un SMS à 1 citoyen | Vous allez envoyer un SMS à {count} citoyens"
     },
+    "USER_MANAGEMENT": {
+        "KPI": {
+            "ORGANIZERS": "conseiller | conseillers"
+        },
+        "USER_LIST": {
+            "TABS": {
+                "MEMBERS": "Agent | Agent | Agents"
+            },
+            "TEAMS": {
+                "CREATE_ACTION": "Créer une consultation",
+                "MEMBERS": "0 agent | 1 agent | %{count} agents"
+            }
+        }
+    },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-elu",
-    "XXX_TRANSLATION_LANGUAGE_NAME": "Français"
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
+    "_COMMON": {
+        "ADD_ACTION": "Créer votre consultation"
+    }
 }
