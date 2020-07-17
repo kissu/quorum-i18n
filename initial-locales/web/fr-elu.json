@@ -145,7 +145,7 @@
         "FORM_BUILDER": {
             "HOW_TO_USE_TUNNELS": "Comment personnaliser les status et les tâches ?",
             "NAMES": {
-                "ACTION": "Tâc"
+                "ACTION": "Tâches"
             },
             "TOOLTIP_ACTION": "Faire apparaître ce champ dans les onglets de votre centre de tâches."
         },
