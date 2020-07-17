@@ -39,11 +39,23 @@
             "ADD_ACTION_POLY": "Créer une consultation ici",
             "DELETE_SUCCESS": "La consultation \"{name}\" a été supprimée",
             "ACTION_NOW": "Votre consultation est maintenant {status} !",
-            "ACTIONS_SELECTED": "Aucune consultation sélectionnée | {count} consultation sélectionnée | {count} consultation sélectionnées"
+            "ACTIONS_SELECTED": "Aucune consultation sélectionnée | {count} consultation sélectionnée | {count} consultation sélectionnées",
+            "UPDATE_SUCCESS": "La consultation \"{name}\" a été mise à jour",
+            "UPDATE_ERROR": "Erreur : la consultation \"{name}\" n'a pas été mise à jour",
+            "RUNNING": "Consultation en cours | Consultation en cours | Consultations en cours",
+            "REOPEN": "Relancer la consultation | Relancer {count} consultations",
+            "NO_DATA": "Aucune consultation planifiée pour le moment  Il est temps de préparer le terrain ✨ !",
+            "FINISHED": "Consultation terminée",
+            "FINISH": "Terminer la consultation | Terminer {count} consultations"
         },
         "DETAIL": {
             "PROGRESS": "Progression de la consultation",
             "ACTION_NAME": "Nom de la consultation"
+        },
+        "SIDEBAR": {
+            "KPI": {
+                "ACTIONS_SELECTED": "Aucune consultation | 1 consultation | {count} consultations"
+            }
         }
     },
     "_COMMON": {
@@ -63,13 +75,19 @@
             },
             "CALL_TO_ACTION": {
                 "ADD_ACTION_HERE": "Créer une consultation ici",
-                "ADD_ACTION": "Créer une consultation"
+                "ADD_ACTION": "Créer une consultation",
+                "ADD_ACTION_FIRST_STEP": {
+                    "NEED_HELP_FIRST_SENTENCE": "Besoin d'aide pour créer une action ? ",
+                    "ERROR_CANNOT_CREATE_ACTION_TOO_LARGE": "Cette zone est trop grande, vous ne pouvez créer de consultation dessus."
+                },
+                "ACTIONS": "Consultation en cours | Consultations en cours"
             }
         }
     },
     "ANALYTICS": {
         "GENERATION": {
-            "CREATE_ACTION": "Créer une consultation"
+            "CREATE_ACTION": "Créer une consultation",
+            "ACTION_NUMBER": "Consultation n°{number}"
         }
     }
 }
