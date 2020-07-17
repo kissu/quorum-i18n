@@ -97,7 +97,7 @@
                 },
                 "TYPES_INFO": {
                     "CALL": "Provide your teams with lists of people to call.<br /><br />• Add a script.<br />• Your teams will call these people directly form the mobile app.<br />• They will also be able to qualify their calls during the talk.",
-                    "CANVASSING": "Organize canvassing thanks to a roadmap!<br /><br />• Provide your teams with a list of streets and addresses to visit.<br /> • Add communication tools for your members.<br />• Track live, the information brought by this canvassing.<br />• Follow the progress of \"completed\" streets and streets yet \"to do\".",
+                    "CANVASSING": "Organize canvassing thanks to a roadmap!<br /><br />• Provide your teams with a list of streets and addresses to visit.<br /> • Add communication tools for your members.<br />• Track live, the information brought by this canvassing.<br />• Follow the progress of \"completed\" streets and streets yet \"to do\".<br /><br />",
                     "CHALLENGE": "Challenge your teams !<br /><br />• Create a quantified target.<br />• Add a deadline.<br />• The team that meets the most people wins the challenge.",
                     "EVENT": "Plan an event from your Quorum space.<br /><br />• Send push notifications to members you wish to invite.<br />• You will know which members are participating.",
                     "LEAFLET": "",
