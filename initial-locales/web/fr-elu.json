@@ -4,13 +4,18 @@
         "HEADER": {
             "LIMIT_BOUND_TOTAL_HIT": "Vous ne pouvez créer une consultation sur plus de {number} citoyens.",
             "CREATE_ACTION": "Créer une consultation"
+        },
+        "EDIT": {
+            "LEAD": "Tâches"
         }
     },
     "SMS": {
         "SEND_SMS_TO_X_CONTACT": "Vous allez envoyer un SMS à 0 citoyen | Vous allez envoyer un SMS à 1 citoyen | Vous allez envoyer un SMS à {count} citoyens"
     },
     "MENU": {
-        "CITIZENS": "Contacts cabinet"
+        "CITIZENS": "Contacts cabinet",
+        "ISSUE_CENTER": "Tâches",
+        "BRIEFS": "Guide d'agents"
     },
     "ACTION": {
         "CALL_TO_ACTION": {
@@ -107,11 +112,34 @@
     },
     "BRIEFS": {
         "LIST": {
-            "ADD_BRIEF": "Créer votre premier guide d'agents"
+            "ADD_BRIEF": "Créer votre premier guide d'agents",
+            "BRIEF_NOT_FOUND": "Aucun guide ne correspond à votre recherche.",
+            "INFORMATION_BRIEF": "C’est ici que vous pouvez créer des éléments de language et des scripts. Il vous suffira de les lier à vos consultations pour que vos équipes deviennent des porte-paroles informés et outillés. ",
+            "EMPTY_STATE": "Aucun guide d'agents pour le moment !"
         },
         "HEADER": {
-            "TITLE": "Guide d'agent | Guide d'agents",
-            "ADD_BRIEF": "Ajouter un guide d'agents"
+            "TITLE": "Guide d'agents | Guides d'agents",
+            "ADD_BRIEF": "Ajouter un guide d'agents",
+            "EDIT_BRIEF": "Éditer le guide",
+            "SEARCH": "Rechercher un guide"
+        },
+        "MODAL": {
+            "SUCCESS": {
+                "EDIT": "Guide modifié ! 👍",
+                "DELETE": "Guide supprimé",
+                "ADD": "Guide ajouté ! 👍"
+            },
+            "PLACEHOLDER_SELECT": "Choisir un guide d'agents",
+            "PLACEHOLDER": "Créer ici des guides pour vos agents !",
+            "NAME": "Nom du guide"
+        }
+    },
+    "SETTINGS": {
+        "FORM_BUILDER": {
+            "TOOLTIP_ACTION": "Faire apparaître ce champ dans les onglets de votre centre de tâches."
+        },
+        "HEADER": {
+            "LEAD": "Tâches"
         }
     }
 }
