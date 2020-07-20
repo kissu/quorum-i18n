@@ -5043,6 +5043,9 @@
                 "gender": "m",
                 "label": "Unemployment rate 25-54 years"
             },
+            "departmental": {
+                "label": "Departmental"
+            },
             "unemployed_55-64": {
                 "gender": "m",
                 "label": "Unemployed55-64 years"

@@ -4857,6 +4857,9 @@
                 "gender": "m",
                 "label": "Taux de scolarisation 30 ans et plus"
             },
+            "departmental": {
+                "label": "Départementales"
+            },
             "population_schooled_6-10": {
                 "gender": "m",
                 "label": "Scolarisation 6 - 10 ans"
