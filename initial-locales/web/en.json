@@ -3236,6 +3236,9 @@
             "department_label": {
                 "label": "Department Label"
             },
+            "departmental": {
+                "label": "Departmental"
+            },
             "detached_houses_perc": {
                 "label": "% detached houses - 2011"
             },
@@ -5042,9 +5045,6 @@
             "unemployed_25-54_per_workforce_25-54": {
                 "gender": "m",
                 "label": "Unemployment rate 25-54 years"
-            },
-            "departmental": {
-                "label": "Departmental"
             },
             "unemployed_55-64": {
                 "gender": "m",

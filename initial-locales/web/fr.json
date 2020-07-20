@@ -3235,6 +3235,9 @@
             "department_label": {
                 "label": "Libellé département"
             },
+            "departmental": {
+                "label": "Départementales"
+            },
             "detached_houses_perc": {
                 "label": "Taux de maisons indépendantes"
             },
@@ -4856,9 +4859,6 @@
             "population_schooled_30-_per_population_30-": {
                 "gender": "m",
                 "label": "Taux de scolarisation 30 ans et plus"
-            },
-            "departmental": {
-                "label": "Départementales"
             },
             "population_schooled_6-10": {
                 "gender": "m",
