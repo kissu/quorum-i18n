@@ -781,11 +781,22 @@
             "UNSET": "Not specified"
         },
         "HISTORY": {
-            "FORMDATA_WAS_ADDED": "was added",
-            "FORMDATA_WAS_DELETED": "was deleted",
-            "RECEIVED_AN_EMAIL": "Received an email ",
-            "RECEIVED_AN_SMS": "Received an sms",
-            "TITLE": "Activity"
+            "HISTORY": {
+                "RECEIVED_AN_EMAIL": "Automatic Email",
+                "RECEIVED_AN_EMAIL_DESC": "The contact received an automatic email (with Quorum).",
+                "RECEIVED_AN_SMS": "SMS",
+                "RECEIVED_AN_SMS_DESC": "The contact received an sms.",
+                "ANSWERED_FORM": "Questionnaire",
+                "ANSWERED_FORM_DESC": "The contact answered to form.",
+                "NOTE_ADDED": "added a note",
+                "NOTE_TITLE": "Note",
+                "ACTION_TITLE": "Action",
+                "ANSWER": "Answer :",
+                "THE_CONTACT": "This contact",
+                "HAS_BEEN_SELECTED_IN_ACTION": "has been selected in the action : ",
+                "FORM": "Question :",
+                "TITLE": "Activity"
+            }
         },
         "KPI": {
             "CONTACTS": "No contact | 1 contact | {number} contacts",

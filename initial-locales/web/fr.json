@@ -780,10 +780,19 @@
             "UNSET": "Non renseigné"
         },
         "HISTORY": {
-            "FORMDATA_WAS_ADDED": "a été ajouté",
-            "FORMDATA_WAS_DELETED": "a été supprimé",
-            "RECEIVED_AN_EMAIL": "Reçu un email ",
-            "RECEIVED_AN_SMS": "Reçu un sms",
+            "RECEIVED_AN_EMAIL": "Email automatique",
+            "RECEIVED_AN_EMAIL_DESC": "Le contact a reçu un email automatique (via Quorum).",
+            "RECEIVED_AN_SMS": "SMS",
+            "RECEIVED_AN_SMS_DESC": "Le contact a reçu un sms.",
+            "ANSWERED_FORM": "Questionnaire",
+            "ANSWERED_FORM_DESC": "Le contact a répondu au questionnaire.",
+            "NOTE_ADDED": "a ajouté une note",
+            "NOTE_TITLE": "Note",
+            "ACTION_TITLE": "Action",
+            "ANSWER": "Réponse :",
+            "THE_CONTACT": "Le contact",
+            "HAS_BEEN_SELECTED_IN_ACTION": "a été sélectionné dans l'action : ",
+            "FORM": "Question :",
             "TITLE": "Activité"
         },
         "KPI": {
