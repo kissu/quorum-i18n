@@ -782,19 +782,19 @@
         },
         "HISTORY": {
             "HISTORY": {
+                "ACTION_TITLE": "Action",
+                "ANSWER": "Answer :",
+                "ANSWERED_FORM": "Questionnaire",
+                "ANSWERED_FORM_DESC": "The contact answered to form.",
+                "FORM": "Question :",
+                "HAS_BEEN_SELECTED_IN_ACTION": "has been selected in the action : ",
+                "NOTE_ADDED": "added a note",
+                "NOTE_TITLE": "Note",
                 "RECEIVED_AN_EMAIL": "Automatic Email",
                 "RECEIVED_AN_EMAIL_DESC": "The contact received an automatic email (with Quorum).",
                 "RECEIVED_AN_SMS": "SMS",
                 "RECEIVED_AN_SMS_DESC": "The contact received an sms.",
-                "ANSWERED_FORM": "Questionnaire",
-                "ANSWERED_FORM_DESC": "The contact answered to form.",
-                "NOTE_ADDED": "added a note",
-                "NOTE_TITLE": "Note",
-                "ACTION_TITLE": "Action",
-                "ANSWER": "Answer :",
                 "THE_CONTACT": "This contact",
-                "HAS_BEEN_SELECTED_IN_ACTION": "has been selected in the action : ",
-                "FORM": "Question :",
                 "TITLE": "Activity"
             }
         },
