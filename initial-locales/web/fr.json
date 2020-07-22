@@ -780,10 +780,19 @@
             "UNSET": "Non renseigné"
         },
         "HISTORY": {
-            "FORMDATA_WAS_ADDED": "a été ajouté",
-            "FORMDATA_WAS_DELETED": "a été supprimé",
-            "RECEIVED_AN_EMAIL": "Reçu un email ",
-            "RECEIVED_AN_SMS": "Reçu un sms",
+            "ACTION_TITLE": "Action",
+            "ANSWER": "Réponse :",
+            "ANSWERED_FORM": "Questionnaire",
+            "ANSWERED_FORM_DESC": "Le contact a répondu au questionnaire.",
+            "FORM": "Question :",
+            "HAS_BEEN_SELECTED_IN_ACTION": "a été sélectionné dans l'action : ",
+            "NOTE_ADDED": "a ajouté une note",
+            "NOTE_TITLE": "Note",
+            "RECEIVED_AN_EMAIL": "Email automatique",
+            "RECEIVED_AN_EMAIL_DESC": "Le contact a reçu un email automatique (via Quorum).",
+            "RECEIVED_AN_SMS": "SMS",
+            "RECEIVED_AN_SMS_DESC": "Le contact a reçu un sms.",
+            "THE_CONTACT": "Le contact",
             "TITLE": "Activité"
         },
         "KPI": {
@@ -3236,6 +3245,9 @@
             "department_label": {
                 "label": "Libellé département"
             },
+            "departmental": {
+                "label": "Départementales"
+            },
             "detached_houses_perc": {
                 "label": "Taux de maisons indépendantes"
             },
@@ -5277,6 +5289,7 @@
         "PAGE_IS_LOADING": "Nous chargeons actuellement votre page ! 🌱"
     },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr",
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "_COMMON": {
         "ACTION": {
             "ENTITY_SUCCESSFULLY_UPDATED": "{entity} mis à jour avec succès !",

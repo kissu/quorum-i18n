@@ -5232,6 +5232,7 @@
         "PAGE_IS_LOADING": "We're currently loading your page ! 🌱"
     },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "en_GB",
+    "XXX_TRANSLATION_LANGUAGE_NAME": "English (UK)",
     "_COMMON": {
         "ACTION": {
             "ENTITY_SUCCESSFULLY_UPDATED": "{entity} succesfully updated !",

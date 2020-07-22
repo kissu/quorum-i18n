@@ -1,4 +1,4 @@
-import { getJSONLanguageForApplications } from '../src/index'
+import { getJSONLanguageForApplications, getAllAvailableLocales } from '../dist/index'
 
 describe('Global testing for Web Application & Mobile', () => {
   it('Should return `fr` path if `fr` path provided', async () => {
@@ -15,24 +15,6 @@ describe('Global testing for Web Application & Mobile', () => {
     const result = await getJSONLanguageForApplications('fr', 'ong-vert', 'web')
     expect(result.path).toEqual('fr')
     expect(result.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('fr')
-  })
-
-  it('Should not have side effects when several locales are toggled', async () => {
-    await getJSONLanguageForApplications('en', 'ong-vert', 'web')
-    await getJSONLanguageForApplications('fr', 'politique-larem', 'web')
-    const result = await getJSONLanguageForApplications('fr', 'politique', 'web')
-    expect(result.path).toEqual('fr')
-    expect(result.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('fr-politique')
-  })
-
-  it('Should be able to sanitize even the uggliest localeSpecific', async () => {
-    const result = await getJSONLanguageForApplications(
-      '  fr niceMoo~long hihi ',
-      ' poѡliحملtiqлue__8-4_%&7^^_la五rem-av~ec des_espacЮes-de| mal音ade  ',
-      'web',
-    )
-    expect(result.path).toEqual('fr')
-    expect(result.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('fr-politique-larem')
   })
 
   it("Should return a properly formatted locale if it's more specific (eg: en-GB)", async () => {
@@ -93,8 +75,57 @@ describe('Global testing for Web Application & Mobile', () => {
    */
   it('Should return example path populated with english', async () => {
     const ex = getJSONLanguageForApplications('ex', null, 'mobile')
-    expect(ex.path).toEqual('ex')
-    expect(ex.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('ex')
+    expect(ex.path).toEqual('en')
+    expect(ex.content.XXX_DO_NOT_TOUCH_ME_USED_BY_JEST).toEqual('en')
     expect(ex.content.navigator.goBack).toEqual('Back')
+  })
+
+  /**
+   * This test will show if the languages availables are provided for the mobile
+   */
+  it('Mobile : Should return a list of availables languages', async () => {
+    const allLanguages = getAllAvailableLocales('mobile')
+    const foundFrenchOrEnglish = allLanguages.find(
+      (aLanguage) => aLanguage.key === 'fr' || aLanguage.key === 'en',
+    )
+    expect(foundFrenchOrEnglish.key.length).toEqual(2)
+  })
+
+  /**
+   * This test will show if the languages availables are provided for the web
+   */
+  it('Web : Should return a list of availables languages', async () => {
+    const allLanguages = getAllAvailableLocales('web')
+    const foundFrenchOrEnglish = allLanguages.find(
+      (aLanguage) => aLanguage.key === 'fr' || aLanguage.key === 'en',
+    )
+    expect(foundFrenchOrEnglish.key.length).toEqual(2)
+  })
+
+  /**
+   * This test will show if the languages availables are provided for the mobile
+   */
+  it('Mobile : Should return a list of availables languages with pack', async () => {
+    const allLanguages = getAllAvailableLocales('mobile', 'elu')
+    const foundFrenchOrEnglish = allLanguages.find((aLanguage) => aLanguage.key === 'fr-elu')
+    expect(foundFrenchOrEnglish.key).toEqual('fr-elu')
+  })
+
+  /**
+   * This test will show if the languages availables are provided for the mobile
+   */
+  it('Mobile : Should return a list of availables languages with pack mediation', async () => {
+    const allLanguages = getAllAvailableLocales('mobile', 'mediation-promevil')
+    const foundFrenchOrEnglish = allLanguages.find((aLanguage) => aLanguage.key === 'fr-mediation-promevil')
+    expect(foundFrenchOrEnglish.key).toEqual('fr-mediation-promevil')
+  })
+
+  /**
+   * This test will show if the languages availables are provided for the mobile
+   */
+  it('Web : Should return a list of availables languages with pack mediation', async () => {
+    const allLanguages = getAllAvailableLocales('web', 'mediation-promevil')
+    const foundFrenchOrEnglish = allLanguages.find((aLanguage) => aLanguage.key === 'fr-mediation-promevil')
+    expect(foundFrenchOrEnglish.key).toEqual('fr-mediation-promevil')
   })
 })

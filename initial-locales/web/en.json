@@ -96,15 +96,15 @@
                     "STATIC": "Direct conversation"
                 },
                 "TYPES_INFO": {
-                    "CALL": "Provide your teams with lists of people to call.<br /><br />• Add a script.<br />• Your teams will call these people directly form the mobile app.<br />• They will also be able to qualify their calls during the talk.",
-                    "CANVASSING": "Organize canvassing thanks to a roadmap!<br /><br />• Provide your teams with a list of streets and addresses to visit.<br /> • Add communication tools for your members.<br />• Track live, the information brought by this canvassing.<br />• Follow the progress of \"completed\" streets and streets yet \"to do\".",
+                    "CALL": "Provide your teams with lists of people to call.<br /><br />• Add a script.<br />• Your teams will call these people directly form the mobile app.<br />• They will also be able to qualify their calls during the talk.<br /><br />",
+                    "CANVASSING": "Organize canvassing thanks to a roadmap!<br /><br />• Provide your teams with a list of streets and addresses to visit.<br /> • Add communication tools for your members.<br />• Track live, the information brought by this canvassing.<br />• Follow the progress of \"completed\" streets and streets yet \"to do\".<br /><br />TESTkos2",
                     "CHALLENGE": "Challenge your teams !<br /><br />• Create a quantified target.<br />• Add a deadline.<br />• The team that meets the most people wins the challenge.",
                     "EVENT": "Plan an event from your Quorum space.<br /><br />• Send push notifications to members you wish to invite.<br />• You will know which members are participating.",
                     "LEAFLET": "",
-                    "MAIL": "Distribute leaflets efficently thanks to a roadmap!<br /><br />• Provide your teams with a list of streets.<br />• They will be able to state which streets they completed.<br />• Follow the progress of \"completed\" streets and streets yet \"to do\".",
+                    "MAIL": "Distribute leaflets efficently thanks to a roadmap!<br /><br />• Provide your teams with a list of streets.<br />• They will be able to state which streets they completed.<br />• Follow the progress of \"completed\" streets and streets yet \"to do\"..<br />Don't ever miss a street!<br /><br />",
                     "OTHER": "You're full of ideas!<br />Create a personalized action.",
                     "POSTER": "This action allows you to plan a leaflet distribution operation in a precise area.",
-                    "SHARING": "Use the network effect!<br/><br/>• share a message with your teams.<br/>• they will then be able to forward it to their contacts via text messages or social media.",
+                    "SHARING": "Use the network effect!<br/><br/>• Share a message with your teams.<br/>• They will then be able to forward it to their contacts via text messages or social media.",
                     "STATIC": "Share a meeting point with your teams.<br /><br />• Pick a meeting date and location.<br />• Send notifications to your members.<br />• Your teams on the field will be able to add citizens directly on the mobile app."
                 }
             },
@@ -170,7 +170,7 @@
                 "TAG_PLACEHOLDER": "Filter by tags",
                 "TERRITORY": "Areas",
                 "TERRITORY_PLACEHOLDER": "Filter by region",
-                "TIMEFORMAT": "DD/MM/YYYY\n",
+                "TIMEFORMAT": "DD/MM/YYYY\n\n",
                 "TIME_SECTION": "Filter",
                 "UPPER_BOUND_REACHED": "Please select less than {count} people",
                 "UPPER_BOUND_REACHED_WARN": "Actions cannot exceed {count} people. Please modify the criteria to continue."
@@ -781,11 +781,22 @@
             "UNSET": "Not specified"
         },
         "HISTORY": {
-            "FORMDATA_WAS_ADDED": "was added",
-            "FORMDATA_WAS_DELETED": "was deleted",
-            "RECEIVED_AN_EMAIL": "Received an email ",
-            "RECEIVED_AN_SMS": "Received an sms",
-            "TITLE": "Activity"
+            "HISTORY": {
+                "ACTION_TITLE": "Action",
+                "ANSWER": "Answer :",
+                "ANSWERED_FORM": "Questionnaire",
+                "ANSWERED_FORM_DESC": "The contact answered to form.",
+                "FORM": "Question :",
+                "HAS_BEEN_SELECTED_IN_ACTION": "has been selected in the action : ",
+                "NOTE_ADDED": "added a note",
+                "NOTE_TITLE": "Note",
+                "RECEIVED_AN_EMAIL": "Automatic Email",
+                "RECEIVED_AN_EMAIL_DESC": "The contact received an automatic email (with Quorum).",
+                "RECEIVED_AN_SMS": "SMS",
+                "RECEIVED_AN_SMS_DESC": "The contact received an sms.",
+                "THE_CONTACT": "This contact",
+                "TITLE": "Activity"
+            }
         },
         "KPI": {
             "CONTACTS": "No contact | 1 contact | {number} contacts",
@@ -3237,6 +3248,9 @@
             "department_label": {
                 "label": "Department Label"
             },
+            "departmental": {
+                "label": "Departmental"
+            },
             "detached_houses_perc": {
                 "label": "% detached houses - 2011"
             },
@@ -5278,6 +5292,7 @@
         "PAGE_IS_LOADING": "We're currently loading your page ! 🌱"
     },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "en",
+    "XXX_TRANSLATION_LANGUAGE_NAME": "English",
     "_COMMON": {
         "ACTION": {
             "ENTITY_SUCCESSFULLY_UPDATED": "{entity} succesfully updated !",

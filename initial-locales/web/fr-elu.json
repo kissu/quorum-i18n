@@ -2,7 +2,10 @@
     "ACTION": {
         "CALL_TO_ACTION": {
             "FORM_FILTER": {
-                "LOOKING_FOR": "Contacts cabinet"
+                "LOOKING_FOR": "Contacts cabinet",
+                "TYPES": {
+                    "ANSWERED": "responded...."
+                }
             },
             "INFORMATIONS": {
                 "AIM": "📣 Quel est le nom de votre consultation ?",
@@ -172,6 +175,7 @@
         }
     },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-elu",
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "_COMMON": {
         "ADD_ACTION": "Créer votre consultation"
     }
