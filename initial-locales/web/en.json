@@ -937,8 +937,8 @@
                 "CLICK_TO_ADD": "Click to add",
                 "CONTACT_VARIABLE": {
                     "FIRSTNAME": "Contact firstname",
-                    "SURNAME": "Contact surname",
-                    "GENDER": "Gender"
+                    "GENDER": "Gender",
+                    "SURNAME": "Contact surname"
                 },
                 "DISABLE": "Disable",
                 "ENABLE": "Enable",
