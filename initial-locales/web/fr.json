@@ -925,7 +925,8 @@
                 "CLICK_TO_ADD": "Cliquer pour ajouter",
                 "CONTACT_VARIABLE": {
                     "FIRSTNAME": "Prénom contact",
-                    "LASTNAME": "Nom contact"
+                    "SURNAME": "Nom contact",
+                    "GENDER": "Genre"
                 },
                 "DISABLE": "Désactiver",
                 "ENABLE": "Activer",
