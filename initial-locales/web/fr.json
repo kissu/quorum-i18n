@@ -800,7 +800,14 @@
             "RECEIVED_AN_SMS": "SMS",
             "RECEIVED_AN_SMS_DESC": "Le contact a reçu un sms.",
             "THE_CONTACT": "Le contact",
-            "TITLE": "Activité"
+            "TITLE": "Activité",
+            "FIELDS": {
+                "OBJECT": "Objet : ",
+                "MESSAGE": "Message : ",
+                "FROM": "Expéditeur : "
+            },
+            "SEE_MORE": "Voir plus",
+            "SEE_LESS": "Voir moins"
         },
         "KPI": {
             "CONTACTS": "Aucun contact | 1 contact | {number} contacts",
