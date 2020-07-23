@@ -783,15 +783,20 @@
         "HISTORY": {
             "ACTION_TITLE": "Action",
             "ANSWER": "Answer :",
+            "ANSWERED_ACTION": "Opportunities",
+            "ANSWERED_ACTION_DESC": "Opportunities have been added to this contact.",
+            "ANSWERED_ACTION_DESC_CHANGED": "Modification of opportunities on this contact.",
             "ANSWERED_FORM": "Questionnaire",
             "ANSWERED_FORM_DESC": "The contact answered to form.",
             "ANSWERED_FORM_DESC_CHANGED": "Changes of survey answers.",
             "ANSWERED_STATUS": "Status",
             "ANSWERED_STATUS_DESC": "A status has been added to the contact.",
             "ANSWERED_STATUS_DESC_CHANGED": "The status of the contact has been changed.",
-            "ANSWERED_ACTION": "Opportunities",
-            "ANSWERED_ACTION_DESC": "Opportunities have been added to this contact.",
-            "ANSWERED_ACTION_DESC_CHANGED": "Modification of opportunities on this contact.",
+            "FIELDS": {
+                "FROM": "From : ",
+                "MESSAGE": "Message : ",
+                "OBJECT": "Object : "
+            },
             "FORM": "Question :",
             "HAS_BEEN_SELECTED_IN_ACTION": "has been selected in the action : ",
             "NOTE_ADDED": "added a note",
@@ -800,15 +805,10 @@
             "RECEIVED_AN_EMAIL_DESC": "The contact received an automatic email (with Quorum).",
             "RECEIVED_AN_SMS": "SMS",
             "RECEIVED_AN_SMS_DESC": "The contact received an sms.",
-            "THE_CONTACT": "This contact",
-            "TITLE": "Activity",
-            "FIELDS": {
-                "OBJECT": "Object : ",
-                "MESSAGE": "Message : ",
-                "FROM": "From : "
-            },
+            "SEE_LESS": "See less",
             "SEE_MORE": "See more",
-            "SEE_LESS": "See less"
+            "THE_CONTACT": "This contact",
+            "TITLE": "Activity"
         },
         "KPI": {
             "CONTACTS": "No contact | 1 contact | {number} contacts",

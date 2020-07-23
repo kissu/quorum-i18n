@@ -791,6 +791,11 @@
             "ANSWERED_STATUS": "Statut",
             "ANSWERED_STATUS_DESC": "Un statut a été ajouté au contact.",
             "ANSWERED_STATUS_DESC_CHANGED": "Le statut du contact a été modifié.",
+            "FIELDS": {
+                "FROM": "Expéditeur : ",
+                "MESSAGE": "Message : ",
+                "OBJECT": "Objet : "
+            },
             "FORM": "Question :",
             "HAS_BEEN_SELECTED_IN_ACTION": "a été sélectionné dans l'action : ",
             "NOTE_ADDED": "a ajouté une note",
@@ -799,15 +804,10 @@
             "RECEIVED_AN_EMAIL_DESC": "Le contact a reçu un email automatique (via Quorum).",
             "RECEIVED_AN_SMS": "SMS",
             "RECEIVED_AN_SMS_DESC": "Le contact a reçu un sms.",
-            "THE_CONTACT": "Le contact",
-            "TITLE": "Activité",
-            "FIELDS": {
-                "OBJECT": "Objet : ",
-                "MESSAGE": "Message : ",
-                "FROM": "Expéditeur : "
-            },
+            "SEE_LESS": "Voir moins",
             "SEE_MORE": "Voir plus",
-            "SEE_LESS": "Voir moins"
+            "THE_CONTACT": "Le contact",
+            "TITLE": "Activité"
         },
         "KPI": {
             "CONTACTS": "Aucun contact | 1 contact | {number} contacts",
