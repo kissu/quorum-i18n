@@ -648,13 +648,13 @@
                 "checkVersion": "Check for newer versions",
                 "language": {
                     "cancel": "Cancel",
+                    "changeMessage": "You are about to change the language. Do you want to confirm your choice?",
                     "confirm": "Confirm",
                     "restartLabel": "Restart",
-                    "warningLabel": "Warning",
                     "restartMessage": "The language change requires a restart of the app.",
-                    "changeMessage": "You are about to change the language. Do you want to confirm your choice?",
                     "title": "Language & Regions",
-                    "titleScreen": "Select your language"
+                    "titleScreen": "Select your language",
+                    "warningLabel": "Warning"
                 },
                 "logout": {
                     "label": "Log out",
