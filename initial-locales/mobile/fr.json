@@ -649,7 +649,9 @@
                     "cancel": "Annuler",
                     "confirm": "Confirmer",
                     "restartLabel": "Redémarrage",
+                    "warningLabel": "Attention",
                     "restartMessage": "Le changement de langue nécessite un redémarrage de l'application.",
+                    "changeMessage": "Vous êtes sur le point de changer de langue. Voulez-vous confirmer votre choix ?",
                     "title": "Langue & Régions",
                     "titleScreen": "Sélectionner la langue de votre choix"
                 },
