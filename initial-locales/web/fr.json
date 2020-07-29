@@ -679,6 +679,7 @@
             "DELETED_CONTACT_CONFIRMED": "Le contact a bien été supprimé.",
             "DELETE_MESSAGE": "Êtes vous sûr(e) de vouloir supprimer ce contact ? Cette action est irrémédiable !",
             "DELETE_TITLE": "Attention",
+            "DELETE_RANGE_VALUE": "Supprimer la valeur",
             "DOOR": "Porte ",
             "EMAIL": "Email",
             "ERROR": "Une erreur est survenue, veuillez réessayer",
