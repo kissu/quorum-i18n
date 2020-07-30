@@ -949,9 +949,9 @@
                 "ANSWER": "Answer:",
                 "CLICK_TO_ADD": "Click to add",
                 "CONTACT_VARIABLE": {
-                    "FIRSTNAME": "Contact firstname",
+                    "FIRSTNAME": "Contact Firstname",
                     "GENDER": "Gender",
-                    "SURNAME": "Contact surname"
+                    "SURNAME": "Contact Lastname"
                 },
                 "DISABLE": "Disable",
                 "ENABLE": "Enable",
