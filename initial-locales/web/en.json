@@ -793,7 +793,7 @@
             "ANSWERED_CONSENT_YES": "Collect and use his informations in the context of your action",
             "ANSWERED_CONSENT_MOBILE": "Contact him by email",
             "ANSWERED_CONSENT_EMAIL": "Contact him by phone",
-            "ANSWERED_FORM": "Questionnaire",
+            "ANSWERED_FORM": "Form",
             "ANSWERED_FORM_DESC": "The contact answered to form.",
             "ANSWERED_FORM_DESC_CHANGED": "Changes of survey answers.",
             "ANSWERED_STATUS": "Status",
