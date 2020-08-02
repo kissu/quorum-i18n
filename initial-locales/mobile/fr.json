@@ -647,11 +647,13 @@
                 "checkVersion": "Vérifier les mises à jour",
                 "language": {
                     "cancel": "Annuler",
+                    "changeMessage": "Vous êtes sur le point de changer de langue. Voulez-vous confirmer votre choix ?",
                     "confirm": "Confirmer",
                     "restartLabel": "Redémarrage",
                     "restartMessage": "Le changement de langue nécessite un redémarrage de l'application.",
                     "title": "Langue & Régions",
-                    "titleScreen": "Sélectionner la langue de votre choix"
+                    "titleScreen": "Sélectionner la langue de votre choix",
+                    "warningLabel": "Attention"
                 },
                 "logout": {
                     "label": "Se déconnecter",

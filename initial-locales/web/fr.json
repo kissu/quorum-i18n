@@ -677,13 +677,14 @@
             "BIRTHCOUNTRY": "Pays de naissance",
             "BIRTHDATE": "Age",
             "BUILDING": "Bâtiment",
-            "CHOOSE_OR_CREATE_TAG": "Choisir ou créer un tag",
+            "CHOOSE_OR_CREATE_TAG": "Choisir ou créer un",
             "CITY": "Ville",
             "COLLAPSE": "Réduire",
             "CONTACT_OWNER": "Propriétaire",
             "CONTACT_UNKNOW": "Contact : {id}",
             "DELETED_CONTACT_CONFIRMED": "Le contact a bien été supprimé.",
             "DELETE_MESSAGE": "Êtes vous sûr(e) de vouloir supprimer ce contact ? Cette action est irrémédiable !",
+            "DELETE_RANGE_VALUE": "Supprimer la valeur",
             "DELETE_TITLE": "Attention",
             "DOOR": "Porte ",
             "EMAIL": "Email",
@@ -786,10 +787,39 @@
             "UNSET": "Non renseigné"
         },
         "HISTORY": {
-            "FORMDATA_WAS_ADDED": "a été ajouté",
-            "FORMDATA_WAS_DELETED": "a été supprimé",
-            "RECEIVED_AN_EMAIL": "Reçu un email ",
-            "RECEIVED_AN_SMS": "Reçu un sms",
+            "ACTION_TITLE": "Action",
+            "ANSWER": "Réponse :",
+            "ANSWERED_ACTION": "Opportunités",
+            "ANSWERED_ACTION_DESC": "Des opportunités ont été ajoutées à ce contact.",
+            "ANSWERED_ACTION_DESC_CHANGED": "Modification d'opportunités sur ce contact.",
+            "ANSWERED_CONSENT": "Consentement",
+            "ANSWERED_CONSENT_DESC": "Le contact vous autorise à :",
+            "ANSWERED_CONSENT_DESC_CHANGED": "Modifications sur le consentement :",
+            "ANSWERED_CONSENT_EMAIL": "Le contacter par téléphone",
+            "ANSWERED_CONSENT_MOBILE": "Le contacter par email",
+            "ANSWERED_CONSENT_YES": "Collecter et utiliser ses informations dans le cadre de votre action.",
+            "ANSWERED_FORM": "Questionnaire",
+            "ANSWERED_FORM_DESC": "Le contact a répondu au questionnaire.",
+            "ANSWERED_FORM_DESC_CHANGED": "Modifications des réponses au questionnaire.",
+            "ANSWERED_STATUS": "Statut",
+            "ANSWERED_STATUS_DESC": "Un statut a été ajouté au contact.",
+            "ANSWERED_STATUS_DESC_CHANGED": "Le statut du contact a été modifié.",
+            "FIELDS": {
+                "FROM": "Expéditeur : ",
+                "MESSAGE": "Message : ",
+                "OBJECT": "Objet : "
+            },
+            "FORM": "Question :",
+            "HAS_BEEN_SELECTED_IN_ACTION": "a été sélectionné dans l'action : ",
+            "NOTE_ADDED": "a ajouté une note",
+            "NOTE_TITLE": "Note",
+            "RECEIVED_AN_EMAIL": "Email automatique",
+            "RECEIVED_AN_EMAIL_DESC": "Le contact a reçu un email automatique (via Quorum).",
+            "RECEIVED_AN_SMS": "SMS",
+            "RECEIVED_AN_SMS_DESC": "Le contact a reçu un sms.",
+            "SEE_LESS": "Voir moins",
+            "SEE_MORE": "Voir plus",
+            "THE_CONTACT": "Le contact",
             "TITLE": "Activité"
         },
         "KPI": {
@@ -931,7 +961,8 @@
                 "CLICK_TO_ADD": "Cliquer pour ajouter",
                 "CONTACT_VARIABLE": {
                     "FIRSTNAME": "Prénom contact",
-                    "LASTNAME": "Nom contact"
+                    "GENDER": "Genre",
+                    "SURNAME": "Nom contact"
                 },
                 "DISABLE": "Désactiver",
                 "ENABLE": "Activer",
@@ -3241,6 +3272,9 @@
             "department_label": {
                 "label": "Libellé département"
             },
+            "departmental": {
+                "label": "Départementales"
+            },
             "detached_houses_perc": {
                 "label": "Taux de maisons indépendantes"
             },
@@ -4862,9 +4896,6 @@
             "population_schooled_30-_per_population_30-": {
                 "gender": "m",
                 "label": "Taux de scolarisation 30 ans et plus"
-            },
-            "departmental": {
-                "label": "Départementales"
             },
             "population_schooled_6-10": {
                 "gender": "m",
