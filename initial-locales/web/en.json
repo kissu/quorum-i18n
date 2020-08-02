@@ -1,10 +1,4 @@
 {
-    "FORM-BIS": {
-        "CREATION": "Création",
-        "RESULTS": "Résultats",
-        "GENERAL": "Généraux",
-        "DETAILED": "Détaillés"
-    },
     "ACTION": {
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
@@ -1090,6 +1084,12 @@
             "SUB_HEADER2": "The survey is your way to raise awareness and mobilise on the field. You can customise it here and publish it instantly on mobile and tablet applications for your entire organisation. You can also save time and boost your impact by setting up automatic emails! Yay!",
             "SURVEY": "Survey"
         }
+    },
+    "FORM-BIS": {
+        "CREATION": "Création",
+        "DETAILED": "Détaillés",
+        "GENERAL": "Généraux",
+        "RESULTS": "Résultats"
     },
     "HOME": {
         "APP": {
