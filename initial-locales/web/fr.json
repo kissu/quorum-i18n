@@ -1,4 +1,10 @@
 {
+    "FORM-BIS": {
+        "CREATION": "Création",
+        "RESULTS": "Résultats",
+        "GENERAL": "Généraux",
+        "DETAILED": "Détaillés"
+    },
     "ACTION": {
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
