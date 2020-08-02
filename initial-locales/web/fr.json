@@ -1,10 +1,4 @@
 {
-    "FORM-BIS": {
-        "CREATION": "Création",
-        "RESULTS": "Résultats",
-        "GENERAL": "Généraux",
-        "DETAILED": "Détaillés"
-    },
     "ACTION": {
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
@@ -1089,6 +1083,12 @@
             "SUB_HEADER2": "Le questionnaire est votre enquête ou moyen de sensibilisation/mobilisation pour le terrain.  Vous pouvez le paramétrer ici et le publier instantanément sur les applications mobile et tablette de toute votre organisation.  Vous pouvez également économiser des heures de travail et améliorer votre impact en paramétrant l’envoi automatique d’email ! yes !  ",
             "SURVEY": "Questionnaire"
         }
+    },
+    "FORM-BIS": {
+        "CREATION": "Création",
+        "DETAILED": "Détaillés",
+        "GENERAL": "Généraux",
+        "RESULTS": "Résultats"
     },
     "HOME": {
         "APP": {
