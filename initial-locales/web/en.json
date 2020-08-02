@@ -1,9 +1,9 @@
 {
     "FORM-BIS": {
-        "CREATION": "Création",
-        "RESULTS": "Résultats",
-        "GENERAL": "Généraux",
-        "DETAILED": "Détaillés"
+        "CREATION": "Creation",
+        "RESULTS": "Results",
+        "GENERAL": "General",
+        "DETAILED": "Detailed"
     },
     "ACTION": {
         "CALL_TO_ACTION": {
