@@ -1084,6 +1084,12 @@
             "SURVEY": "Questionnaire"
         }
     },
+    "FORM-BIS": {
+        "CREATION": "Création",
+        "DETAILED": "Détaillés",
+        "GENERAL": "Généraux",
+        "RESULTS": "Résultats"
+    },
     "HOME": {
         "APP": {
             "CONTENT": "Connectez le QG de campagne avec les membres sur le terrain pour renforcer l'action",
