@@ -1,0 +1,6 @@
+{
+    "SMS": {
+        "SEND_SMS_FROM_QUORUM_TITLE": "Envoyer des SMS depuis Quorum",
+        "SEND_SMS_FROM_QUORUM_DESC": "Donner encore plus d'impact à votre cause en activant la fonctionnalité d'envoi SMS"
+    }
+}
