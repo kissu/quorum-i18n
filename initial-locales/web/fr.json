@@ -680,10 +680,10 @@
             "DELETE_MESSAGE": "Êtes vous sûr(e) de vouloir supprimer ce contact ? Cette action est irrémédiable !",
             "DELETE_RANGE_VALUE": "Supprimer la valeur",
             "DELETE_TITLE": "Attention",
+            "DOOR": "Porte ",
+            "DO_DUPLICATES_WORKFLOW_CTA": "Traîter",
             "DUPLICATES_CONTACTS": "Doublon | Doublons",
             "DUPLICATES_CONTACTS_DESCRIPTION": "Nous n'avons pas trouvé de doublons. | Nous avons trouvé {number} doublon potentiel pour ce contact. | Nous avons trouvé {number} doublons potentiels pour ce contact.",
-            "DO_DUPLICATES_WORKFLOW_CTA": "Traîter",
-            "DOOR": "Porte ",
             "EMAIL": "Email",
             "ERROR": "Une erreur est survenue, veuillez réessayer",
             "ERROR_ADD": "Une erreur nous empêche de créer ce contact",
@@ -3464,9 +3464,6 @@
                 "gender": "m",
                 "label": "Taux des Femmes de 15 à 29 ans"
             },
-            "priority": {
-                "label": "Priority"
-            },
             "female_population_20-24_per_population_perc": {
                 "gender": "m",
                 "label": "Part de femmes de 20 à 24 ans"
@@ -4963,6 +4960,9 @@
             },
             "primary_education": {
                 "label": "Éducation primaire"
+            },
+            "priority": {
+                "label": "Priority"
             },
             "private_rented_households_perc": {
                 "label": "% de ménages locataires - 2011"
