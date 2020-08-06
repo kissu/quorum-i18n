@@ -3464,6 +3464,9 @@
                 "gender": "m",
                 "label": "Taux des Femmes de 15 à 29 ans"
             },
+            "priority": {
+                "label": "Priority"
+            },
             "female_population_20-24_per_population_perc": {
                 "gender": "m",
                 "label": "Part de femmes de 20 à 24 ans"
