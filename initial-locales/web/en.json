@@ -5047,6 +5047,9 @@
             "turn_2": {
                 "label": "Round 2"
             },
+            "priority": {
+                "label": "Priority"
+            },
             "turnout_mayor_election": {
                 "label": "Turnout at Mayoral election - 2012"
             },
