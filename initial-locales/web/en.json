@@ -4959,6 +4959,9 @@
             "primary_education": {
                 "label": "Primary education"
             },
+            "priority": {
+                "label": "Priority"
+            },
             "private_rented_households_perc": {
                 "label": "% Households Private Rented - 2011"
             },
@@ -5046,9 +5049,6 @@
             },
             "turn_2": {
                 "label": "Round 2"
-            },
-            "priority": {
-                "label": "Priority"
             },
             "turnout_mayor_election": {
                 "label": "Turnout at Mayoral election - 2012"
