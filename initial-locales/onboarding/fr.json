@@ -1,45 +1,45 @@
 {
     "SMS": {
-        "QUOTE_NOT_VALID": "Le devis n'est pas valide.",
-        "SEND_SMS_FROM_QUORUM_TITLE": "Envoyer des SMS depuis Quorum",
-        "SEND_SMS_FROM_QUORUM_DESC": "Donner encore plus d'impact à votre cause en activant la fonctionnalité d'envoi SMS",
-        "CHOOSE_A_PACK": "Choisissez votre pack de SMS",
-        "RECAP": {
-            "PACK_PRICE": "Prix du pack :",
-            "PACK_PRICE_DETAILS": "Détails de votre pack :"
-        },
         "BILLING": {
             "BILLING_ADDRESS": "Adresse de facturation",
-            "BILLING_NAME": "Nom de votre organisation (association, entreprise, personne physique)",
-            "BILLING_STREET": "Adresse",
-            "BILLING_POSTAL_CODE": "Code Postal",
             "BILLING_CITY": "Ville",
             "BILLING_COUNTRY": "Pays",
             "BILLING_EMAIL": "Adresse email",
+            "BILLING_NAME": "Nom de votre organisation (association, entreprise, personne physique)",
+            "BILLING_POSTAL_CODE": "Code Postal",
+            "BILLING_STREET": "Adresse",
             "TOTAL_WITHOUT_VAT": "Total HT",
             "VAT": "TVA",
             "VAT_TOTAL": "Total TTC"
         },
+        "CHOOSE_A_PACK": "Choisissez votre pack de SMS",
         "PAYMENT": {
-            "PAYMENT_METHOD": "Méthode de paiement",
-            "PAYMENT_SEPA": "Prélèvement",
-            "PAYMENT_BY_SEPA": "Payer par prélèvement",
+            "PAYMENT_ACCEPTED": "Paiement accepté",
+            "PAYMENT_ACCEPTED_DESC": "Vous venez de <strong>créditer</strong> votre compte.<br />Votre crédit <strong>SMS</strong> apparaîtra sur Quorum dans quelques heures. <br />Vous recevrez un email une fois votre compte approvisionné. <strong>Bonne mobilisation !</strong>",
+            "PAYMENT_ACCEPT_CGS": "En cochant cette case, j'accepte les <a href=\"https://www.quorum.co/cgs\" target=\"_blank\">Conditions Générales de Services</a> de Quorum.",
             "PAYMENT_BANK_CARD": "Carte bancaire",
             "PAYMENT_BY_BANK_CARD": "Payer par carte bancaire",
+            "PAYMENT_BY_SEPA": "Payer par prélèvement",
             "PAYMENT_FULLNAME": "Nom complet",
-            "PAYMENT_ACCEPT_CGS": "En cochant cette case, j'accepte les <a href=\"https://www.quorum.co/cgs\" target=\"_blank\">Conditions Générales de Services</a> de Quorum.",
-            "PAYMENT_TRANSACTION_PENDING": "Vérification de la transaction",
-            "PAYMENT_TRANSACTION_ERROR": "Une erreur est survenue avec vos coordonnées bancaires.<br />Veuillez vérifier les informations transmises.",
             "PAYMENT_IBAN": "IBAN",
             "PAYMENT_IBAN_MENTIONS": "En fournissant votre IBAN et en confirmant ce paiement, vous autorisez Rocketship Inc. et Stripe, notre fournisseur de services de paiement, à envoyer des instructions à votre banque pour qu'elle débite votre compte et à votre banque pour débiter votre compte conformément à ces instructions. Vous avez droit à un remboursement de votre banque selon les termes et conditions de votre contrat avec votre banque. Un remboursement doit être demandé dans les 8 semaines à compter de la date à laquelle votre compte a été débité.",
-            "PAYMENT_ACCEPTED": "Paiement accepté",
-            "PAYMENT_ACCEPTED_DESC": "Vous venez de <strong>créditer</strong> votre compte.<br />Votre crédit <strong>SMS</strong> apparaîtra sur Quorum dans quelques heures. <br />Vous recevrez un email une fois votre compte approvisionné. <strong>Bonne mobilisation !</strong>"
-        }
+            "PAYMENT_METHOD": "Méthode de paiement",
+            "PAYMENT_SEPA": "Prélèvement",
+            "PAYMENT_TRANSACTION_ERROR": "Une erreur est survenue avec vos coordonnées bancaires.<br />Veuillez vérifier les informations transmises.",
+            "PAYMENT_TRANSACTION_PENDING": "Vérification de la transaction"
+        },
+        "QUOTE_NOT_VALID": "Le devis n'est pas valide.",
+        "RECAP": {
+            "PACK_PRICE": "Prix du pack :",
+            "PACK_PRICE_DETAILS": "Détails de votre pack :"
+        },
+        "SEND_SMS_FROM_QUORUM_DESC": "Donner encore plus d'impact à votre cause en activant la fonctionnalité d'envoi SMS",
+        "SEND_SMS_FROM_QUORUM_TITLE": "Envoyer des SMS depuis Quorum"
     },
     "_COMMON": {
-        "NEXT_BUTTON": "Suivant",
-        "PREVIOUS_BUTTON": "Précédent",
         "BACK_TO_QUORUM": "Retour à Quorum",
-        "BACK_TO_WEBAPP": "Retour à la plateforme web"
+        "BACK_TO_WEBAPP": "Retour à la plateforme web",
+        "NEXT_BUTTON": "Suivant",
+        "PREVIOUS_BUTTON": "Précédent"
     }
 }
