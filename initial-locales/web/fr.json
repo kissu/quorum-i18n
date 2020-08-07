@@ -1457,7 +1457,7 @@
             "GIVE_MORE_IMPACT": "Donnez encore plus d'impact à votre cause en activant la fonctionnalité d'envoi de SMS. ✊",
             "LEARN_MORE": "Comment envoyer un SMS ?",
             "LEARN_MORE_ACTIVATE_IT": "Comment activer les SMS ?",
-            "PAYEMENT_URL": "https://onboarding.quorum.co/sms?campaignId={campaignId}&userId={userId}&userEmail={userEmail}",
+            "PAYEMENT_URL": "https://onboarding.quorum.co/sms?campaignId={campaignId}&userId={userId}&userEmail={userEmail}&lang={lang}",
             "REMAINING_SMS": "Vous n'avez pas encore de SMS sur votre compte 😒| Il vous reste un seul SMS 🌱| Il vous reste {count} SMS à envoyer 🚀"
         },
         "HELP_MESSAGE": "Les SMS non envoyés ou les erreurs de numéros ne vous seront pas facturés.",
