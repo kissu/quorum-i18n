@@ -681,6 +681,9 @@
             "DELETE_RANGE_VALUE": "Supprimer la valeur",
             "DELETE_TITLE": "Attention",
             "DOOR": "Porte ",
+            "DO_DUPLICATES_WORKFLOW_CTA": "Traîter",
+            "DUPLICATES_CONTACTS": "Doublon | Doublons",
+            "DUPLICATES_CONTACTS_DESCRIPTION": "Nous n'avons pas trouvé de doublons. | Nous avons trouvé {number} doublon potentiel pour ce contact. | Nous avons trouvé {number} doublons potentiels pour ce contact.",
             "EMAIL": "Email",
             "ERROR": "Une erreur est survenue, veuillez réessayer",
             "ERROR_ADD": "Une erreur nous empêche de créer ce contact",
@@ -1454,7 +1457,7 @@
             "GIVE_MORE_IMPACT": "Donnez encore plus d'impact à votre cause en activant la fonctionnalité d'envoi de SMS. ✊",
             "LEARN_MORE": "Comment envoyer un SMS ?",
             "LEARN_MORE_ACTIVATE_IT": "Comment activer les SMS ?",
-            "PAYEMENT_URL": "https://onboarding.quorum.co/sms?campaignId={campaignId}&userId={userId}&userEmail={userEmail}",
+            "PAYEMENT_URL": "https://onboarding.quorum.co/sms?campaignId={campaignId}&userId={userId}&userEmail={userEmail}&lang={lang}",
             "REMAINING_SMS": "Vous n'avez pas encore de SMS sur votre compte 😒| Il vous reste un seul SMS 🌱| Il vous reste {count} SMS à envoyer 🚀"
         },
         "HELP_MESSAGE": "Les SMS non envoyés ou les erreurs de numéros ne vous seront pas facturés.",
@@ -3461,9 +3464,6 @@
                 "gender": "m",
                 "label": "Taux des Femmes de 15 à 29 ans"
             },
-            "priority": {
-                "label": "Priority"
-            },
             "female_population_20-24_per_population_perc": {
                 "gender": "m",
                 "label": "Part de femmes de 20 à 24 ans"
@@ -4960,6 +4960,9 @@
             },
             "primary_education": {
                 "label": "Éducation primaire"
+            },
+            "priority": {
+                "label": "Priority"
             },
             "private_rented_households_perc": {
                 "label": "% de ménages locataires - 2011"

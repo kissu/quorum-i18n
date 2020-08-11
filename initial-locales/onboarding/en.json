@@ -1,0 +1,45 @@
+{
+    "SMS": {
+        "BILLING": {
+            "BILLING_ADDRESS": "Billing address",
+            "BILLING_CITY": "City",
+            "BILLING_COUNTRY": "Country",
+            "BILLING_EMAIL": "Email",
+            "BILLING_NAME": "Name of your organisation",
+            "BILLING_POSTAL_CODE": "Postal code",
+            "BILLING_STREET": "Address (street)",
+            "TOTAL_WITHOUT_VAT": "Total",
+            "VAT": "VAT",
+            "VAT_TOTAL": "Total including VAT"
+        },
+        "CHOOSE_A_PACK": "Choose your pack of sms",
+        "PAYMENT": {
+            "PAYMENT_ACCEPTED": "Payment accepted",
+            "PAYMENT_ACCEPTED_DESC": "You have just <strong> credit </strong> your account. <br /> Your <strong> SMS </strong> credit will appear on Quorum in a few hours. <br /> You will receive an email once your account is funded. <strong> Good mobilization! </strong>",
+            "PAYMENT_ACCEPT_CGS": "By checking this box, I agree to Quorum's <a href=\"https://www.quorum.co/cgs\" target=\"_blank\"> General Conditions of Services </a>.",
+            "PAYMENT_BANK_CARD": "Bank card",
+            "PAYMENT_BY_BANK_CARD": "Pay by bank card",
+            "PAYMENT_BY_SEPA": "Pay by bank direct debit",
+            "PAYMENT_FULLNAME": "Fullname",
+            "PAYMENT_IBAN": "IBAN",
+            "PAYMENT_IBAN_MENTIONS": "By providing your IBAN and confirming this payment, you authorize Rocketship Inc. and Stripe, our payment service provider, to send instructions to your bank to debit your account and to your bank to debit your account in accordance with these instructions. You are entitled to a refund from your bank according to the terms and conditions of your contract with your bank. A refund must be requested within 8 weeks from the date your account was debited.",
+            "PAYMENT_METHOD": "Payment method",
+            "PAYMENT_SEPA": "Bank direct debit",
+            "PAYMENT_TRANSACTION_ERROR": "An error has occurred with your bank details. <br /> Please check the information provided.",
+            "PAYMENT_TRANSACTION_PENDING": "Verification of the transaction"
+        },
+        "QUOTE_NOT_VALID": "The quote is not valid.",
+        "RECAP": {
+            "PACK_PRICE": "Pack's price :",
+            "PACK_PRICE_DETAILS": "Pack's details :"
+        },
+        "SEND_SMS_FROM_QUORUM_DESC": "Give more impact to your cause with Quorum SMS.",
+        "SEND_SMS_FROM_QUORUM_TITLE": "Send sms from Quorum"
+    },
+    "_COMMON": {
+        "BACK_TO_QUORUM": "Back to Quorum",
+        "BACK_TO_WEBAPP": "Back to web platform",
+        "NEXT_BUTTON": "Next",
+        "PREVIOUS_BUTTON": "Previous"
+    }
+}
