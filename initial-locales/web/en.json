@@ -1085,12 +1085,6 @@
             "SURVEY": "Survey"
         }
     },
-    "SURVEY": {
-        "CREATION": "Création",
-        "DETAILED": "Détaillés",
-        "GENERAL": "Généraux",
-        "RESULTS": "Résultats"
-    },
     "HOME": {
         "APP": {
             "CONTENT": "Have a deeper impact by connecting your team members to HQ!",
@@ -1509,6 +1503,12 @@
         "NAVBAR": {
             "MEMBERS": "Members"
         }
+    },
+    "SURVEY": {
+        "CREATION": "Création",
+        "DETAILED": "Détaillés",
+        "GENERAL": "Généraux",
+        "RESULTS": "Résultats"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {

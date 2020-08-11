@@ -1087,12 +1087,6 @@
             "SURVEY": "Questionnaire"
         }
     },
-    "SURVEY": {
-        "CREATION": "Création",
-        "DETAILED": "Détaillés",
-        "GENERAL": "Généraux",
-        "RESULTS": "Résultats"
-    },
     "HOME": {
         "APP": {
             "CONTENT": "Connectez le QG de campagne avec les membres sur le terrain pour renforcer l'action",
@@ -1511,6 +1505,12 @@
         "NAVBAR": {
             "MEMBERS": "Membres"
         }
+    },
+    "SURVEY": {
+        "CREATION": "Création",
+        "DETAILED": "Détaillés",
+        "GENERAL": "Généraux",
+        "RESULTS": "Résultats"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
