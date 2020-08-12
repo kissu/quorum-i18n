@@ -1212,7 +1212,7 @@
                 "MAILCHIMP_WARNING": "Quorum ne transmet que l'email. Si vous avez configuré d'autres champs obligatoires, Mailchimp ne créera pas le contact. Vous pouvez vous rendre sur l'aide de Mailchimp pour <a href=\"https://help.mailchimp.com\" target=\"_blank\">en savoir plus.</a>",
                 "NATIONBUILDER": "Synchronisez Quorum avec votre espace NationBuilder",
                 "NATIONBUILDER_PLACEHOLDER": "Clé API NationBuilder",
-                "NATIONBUILDER_WARNING": "Quorum transmet à votre espace NationBuilder, sous forme de tag, les informations ajoutées sur vos contacts depuis la plateforme web et l'application mobile. <a href=\"https://nationbuilder.com/\" target=\"_blank\">En savoir plus.</a>"
+                "NATIONBUILDER_WARNING": "Quorum transmet à votre espace NationBuilder, sous forme de tag, les informations ajoutées sur vos contacts depuis la plateforme web et l'application mobile. <a href=\"https://intercom.help/quorumhq/fr/articles/3197283-comment-s-integre-nationbuilder-et-quorum\" target=\"_blank\">En savoir plus.</a>"
             },
             "VENDORS_TITLE": "Extensions",
             "VENDOR_HEAD": {
