@@ -1086,12 +1086,6 @@
             "SURVEY": "Survey"
         }
     },
-    "SURVEY": {
-        "CREATION": "Création",
-        "DETAILED": "Détaillés",
-        "GENERAL": "Généraux",
-        "RESULTS": "Résultats"
-    },
     "HOME": {
         "APP": {
             "CONTENT": "Have a deeper impact by connecting your team members to HQ!",
@@ -1217,7 +1211,7 @@
                 "MAILCHIMP_WARNING": "Quorum gives only the email address to Mailchimp! If you have configured any other required fields, Mailchimp may not create the contact. You can visit Mailchimp's help center <a href=\"https://help.mailchimp.com\" target=\"_blank\"> to know more.",
                 "NATIONBUILDER": "Synchronize Quorum with your NationBuilder space.",
                 "NATIONBUILDER_PLACEHOLDER": "NationBuilder API Key",
-                "NATIONBUILDER_WARNING": "Quorum transmits to your NationBuilder space, in a tagged form, the information added on your contacts from the web platform and the mobile application. Learn more about it. <a href=\"https://nationbuilder.com/\" target=\"_blank\">To know more.</a>"
+                "NATIONBUILDER_WARNING": "Quorum transmits to your NationBuilder space, in a tagged form, the information added on your contacts from the web platform and the mobile application. Learn more about it. <a href=\"https://intercom.help/quorumhq/en/articles/3197283-how-does-nationbuilder-and-quorum-integrate-together\" target=\"_blank\">To know more.</a>"
             },
             "VENDORS_TITLE": "Integrations",
             "VENDOR_HEAD": {
@@ -1510,6 +1504,12 @@
         "NAVBAR": {
             "MEMBERS": "Members"
         }
+    },
+    "SURVEY": {
+        "CREATION": "Création",
+        "DETAILED": "Détaillés",
+        "GENERAL": "Généraux",
+        "RESULTS": "Résultats"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
