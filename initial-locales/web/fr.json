@@ -545,6 +545,7 @@
                     "COMUNE": "Commune",
                     "DEPARTMENT": "Département",
                     "DISTRICT": "Circonscription",
+                    "CANTON": "Canton",
                     "IRIS": "IRIS",
                     "MUNICIPALITY": "Commune",
                     "POLLING_STATION": "Bureau de vote",
