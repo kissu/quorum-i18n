@@ -1506,10 +1506,12 @@
         }
     },
     "SURVEY": {
-        "CREATION": "Création",
-        "DETAILED": "Détaillés",
-        "GENERAL": "Généraux",
-        "RESULTS": "Résultats"
+        "CREATION": "Creation",
+        "DETAILED": "Detailed",
+        "GENERAL": "General",
+        "RESULTS": "Result",
+        "QUESTION": "Question",
+        "QUESTION_TYPE": "Question type"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {

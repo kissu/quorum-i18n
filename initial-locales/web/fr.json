@@ -1509,9 +1509,11 @@
     },
     "SURVEY": {
         "CREATION": "Création",
-        "DETAILED": "Détaillés",
-        "GENERAL": "Généraux",
-        "RESULTS": "Résultats"
+        "DETAILED": "Détaillé",
+        "GENERAL": "Général",
+        "RESULTS": "Résultat",
+        "QUESTION": "Question",
+        "QUESTION_TYPE": "Type de la question"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
