@@ -541,6 +541,7 @@
                 },
                 "LEVELS": {
                     "BOROUGH": "Borough",
+                    "CANTON": "Canton",
                     "CIRCONSCRIPTION": "Circonscription",
                     "COMUNE": "Commune",
                     "DEPARTMENT": "Département",
@@ -1087,12 +1088,6 @@
             "SURVEY": "Questionnaire"
         }
     },
-    "FORM-BIS": {
-        "CREATION": "Création",
-        "DETAILED": "Détaillés",
-        "GENERAL": "Généraux",
-        "RESULTS": "Résultats"
-    },
     "HOME": {
         "APP": {
             "CONTENT": "Connectez le QG de campagne avec les membres sur le terrain pour renforcer l'action",
@@ -1235,7 +1230,7 @@
                 "MAILCHIMP_WARNING": "Quorum ne transmet que l'email. Si vous avez configuré d'autres champs obligatoires, Mailchimp ne créera pas le contact. Vous pouvez vous rendre sur l'aide de Mailchimp pour <a href=\"https://help.mailchimp.com\" target=\"_blank\">en savoir plus.</a>",
                 "NATIONBUILDER": "Synchronisez Quorum avec votre espace NationBuilder",
                 "NATIONBUILDER_PLACEHOLDER": "Clé API NationBuilder",
-                "NATIONBUILDER_WARNING": "Quorum transmet à votre espace NationBuilder, sous forme de tag, les informations ajoutées sur vos contacts depuis la plateforme web et l'application mobile. <a href=\"https://nationbuilder.com/\" target=\"_blank\">En savoir plus.</a>"
+                "NATIONBUILDER_WARNING": "Quorum transmet à votre espace NationBuilder, sous forme de tag, les informations ajoutées sur vos contacts depuis la plateforme web et l'application mobile. <a href=\"https://intercom.help/quorumhq/fr/articles/3197283-comment-s-integre-nationbuilder-et-quorum\" target=\"_blank\">En savoir plus.</a>"
             },
             "VENDORS_TITLE": "Extensions",
             "VENDOR_HEAD": {
@@ -1528,6 +1523,14 @@
         "NAVBAR": {
             "MEMBERS": "Membres"
         }
+    },
+    "SURVEY": {
+        "CREATION": "Création",
+        "DETAILED": "Détaillé",
+        "GENERAL": "Général",
+        "QUESTION": "Question",
+        "QUESTION_TYPE": "Type de la question",
+        "RESULTS": "Résultat"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
