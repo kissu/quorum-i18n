@@ -1511,9 +1511,9 @@
         "CREATION": "Création",
         "DETAILED": "Détaillé",
         "GENERAL": "Général",
-        "RESULTS": "Résultat",
         "QUESTION": "Question",
-        "QUESTION_TYPE": "Type de la question"
+        "QUESTION_TYPE": "Type de la question",
+        "RESULTS": "Résultat"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {

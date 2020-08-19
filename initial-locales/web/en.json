@@ -1509,9 +1509,9 @@
         "CREATION": "Creation",
         "DETAILED": "Detailed",
         "GENERAL": "General",
-        "RESULTS": "Result",
         "QUESTION": "Question",
-        "QUESTION_TYPE": "Question type"
+        "QUESTION_TYPE": "Question type",
+        "RESULTS": "Result"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
