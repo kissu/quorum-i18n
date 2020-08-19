@@ -938,6 +938,23 @@
             "TITLE": "Document | Documents"
         }
     },
+    "DUPLICATES": {
+        "CONSENT": {
+            "EMAIL": "Le contacter par email",
+            "FORMS": "Utiliser les données fournies",
+            "MOBILE": "Le contacter par téléphone"
+        },
+        "MERGE_ATTRIBUTES": {
+            "CONTACT_ID": "Contact {id}",
+            "HELPER_SECTION_FORM": "La prochaine section répresente les réponses aux questionnaires soumis.",
+            "MASTER_RECORD": "Contact principal",
+            "PREVIEW_FINAL_CONTACT": "Aperçu du contact conservé"
+        },
+        "MERGE_DESC": "Choisissez le contact et les informations que vous souhaitez conserver.",
+        "MERGE_TITLE": "Commencez la fusion des contacts",
+        "PREVIEW_DESC": "Sélectionnez les contacts que vous souhaitez fusionner puis cliquer sur Suivant.",
+        "PREVIEW_TITLE": "Aperçu des doublons"
+    },
     "ERRORS": {
         "400": "Le mot de passe ou l'email que vous avez saisi est incorrect. Vérifiez les informations ou cliquez sur mot de passe oublié.",
         "401": "Erreur: vous n'avez pas les droits",
@@ -1096,23 +1113,6 @@
         "QUESTIONNAIRE": {
             "DISCOVER": "Découvrez le <br> questionnaire",
             "DISCOVER_CONTENT": "Créez et personnalisez le questionnaire transmis aux membres sur le terrain"
-        }
-    },
-    "DUPLICATES": {
-        "PREVIEW_TITLE": "Aperçu des doublons",
-        "PREVIEW_DESC": "Sélectionnez les contacts que vous souhaitez fusionner puis cliquer sur Suivant.",
-        "MERGE_TITLE": "Commencez la fusion des contacts",
-        "MERGE_DESC": "Choisissez le contact et les informations que vous souhaitez conserver.",
-        "MERGE_ATTRIBUTES": {
-            "MASTER_RECORD": "Contact principal",
-            "CONTACT_ID": "Contact {id}",
-            "PREVIEW_FINAL_CONTACT": "Aperçu du contact conservé",
-            "HELPER_SECTION_FORM": "La prochaine section répresente les réponses aux questionnaires soumis."
-        },
-        "CONSENT": {
-            "FORMS": "Utiliser les données fournies",
-            "MOBILE": "Le contacter par téléphone",
-            "EMAIL": "Le contacter par email"
         }
     },
     "MANAGEMENT": {
@@ -5352,13 +5352,13 @@
         "ADDRESS": "Adresse",
         "ADDRESS_DETAILS": {
             "BUILDING": "Bâtiment ",
-            "FLOOR": "Étage",
+            "CITY": "Ville",
+            "COUNTRY": "Pays",
             "DOOR": "Porte",
+            "FLOOR": "Étage",
             "HOUSENUMBER": "Numéro",
             "STREET": "Rue",
-            "ZIP": "Code postal",
-            "CITY": "Ville",
-            "COUNTRY": "Pays"
+            "ZIP": "Code postal"
         },
         "ADD_ACTION": "Créer une action",
         "AND": "et",
