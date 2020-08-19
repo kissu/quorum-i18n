@@ -541,8 +541,8 @@
                 },
                 "LEVELS": {
                     "BOROUGH": "Borough",
-                    "CIRCONSCRIPTION": "Circonscription",
                     "CANTON": "Canton",
+                    "CIRCONSCRIPTION": "Circonscription",
                     "COMUNE": "Comune",
                     "DEPARTMENT": "Department",
                     "DISTRICT": "District",
