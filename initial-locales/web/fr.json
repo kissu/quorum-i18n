@@ -938,6 +938,23 @@
             "TITLE": "Document | Documents"
         }
     },
+    "DUPLICATES": {
+        "CONSENT": {
+            "EMAIL": "Le contacter par email",
+            "FORMS": "Utiliser les données fournies",
+            "MOBILE": "Le contacter par téléphone"
+        },
+        "MERGE_ATTRIBUTES": {
+            "CONTACT_ID": "Contact {id}",
+            "HELPER_SECTION_FORM": "La prochaine section répresente les réponses aux questionnaires soumis.",
+            "MASTER_RECORD": "Contact principal",
+            "PREVIEW_FINAL_CONTACT": "Aperçu du contact conservé"
+        },
+        "MERGE_DESC": "Choisissez le contact et les informations que vous souhaitez conserver.",
+        "MERGE_TITLE": "Commencez la fusion des contacts",
+        "PREVIEW_DESC": "Sélectionnez les contacts que vous souhaitez fusionner puis cliquer sur Suivant.",
+        "PREVIEW_TITLE": "Aperçu des doublons"
+    },
     "ERRORS": {
         "400": "Le mot de passe ou l'email que vous avez saisi est incorrect. Vérifiez les informations ou cliquez sur mot de passe oublié.",
         "401": "Erreur: vous n'avez pas les droits",
@@ -1511,9 +1528,9 @@
         "CREATION": "Création",
         "DETAILED": "Détaillé",
         "GENERAL": "Général",
-        "RESULTS": "Résultat",
         "QUESTION": "Question",
-        "TWO_POINTS": " :"
+        "TWO_POINTS": " :",
+        "RESULTS": "Résultat"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
@@ -5333,6 +5350,16 @@
         },
         "ADD": "Ajouter",
         "ADDRESS": "Adresse",
+        "ADDRESS_DETAILS": {
+            "BUILDING": "Bâtiment ",
+            "CITY": "Ville",
+            "COUNTRY": "Pays",
+            "DOOR": "Porte",
+            "FLOOR": "Étage",
+            "HOUSENUMBER": "Numéro",
+            "STREET": "Rue",
+            "ZIP": "Code postal"
+        },
         "ADD_ACTION": "Créer une action",
         "AND": "et",
         "BACK": "Retour",
@@ -5365,6 +5392,7 @@
         },
         "EQUAL": "Égaux",
         "FEMALE": "Femme",
+        "FINISH": "Terminer",
         "FIRSTNAME": "Prénom",
         "GDPR": {
             "EMAIL_LABEL": "Le contact accepte de recevoir des emails (en rapport avec votre cause)",

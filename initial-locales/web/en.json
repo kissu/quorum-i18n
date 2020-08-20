@@ -1509,9 +1509,9 @@
         "CREATION": "Creation",
         "DETAILED": "Detailed",
         "GENERAL": "General",
-        "RESULTS": "Result",
         "QUESTION": "Question",
-        "TWO_POINTS": ":"
+        "TWO_POINTS": ":",
+        "RESULTS": "Result"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
