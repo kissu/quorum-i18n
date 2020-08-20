@@ -1511,7 +1511,7 @@
         "GENERAL": "General",
         "RESULTS": "Result",
         "QUESTION": "Question",
-        "QUESTION_TYPE": "Question type"
+        "TWO_POINTS": ":"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
