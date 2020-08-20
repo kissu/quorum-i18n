@@ -1529,8 +1529,8 @@
         "DETAILED": "Détaillé",
         "GENERAL": "Général",
         "QUESTION": "Question",
-        "TWO_POINTS": " :",
-        "RESULTS": "Résultat"
+        "RESULTS": "Résultat",
+        "TWO_POINTS": " :"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {

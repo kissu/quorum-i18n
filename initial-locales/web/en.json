@@ -1510,8 +1510,8 @@
         "DETAILED": "Detailed",
         "GENERAL": "General",
         "QUESTION": "Question",
-        "TWO_POINTS": ":",
-        "RESULTS": "Result"
+        "RESULTS": "Result",
+        "TWO_POINTS": ":"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
