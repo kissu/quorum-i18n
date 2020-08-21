@@ -1533,8 +1533,8 @@
         "DETAILED": "Detailed",
         "GENERAL": "General",
         "QUESTION": "Question",
-        "QUESTION_TYPE": "Question type",
-        "RESULTS": "Result"
+        "RESULTS": "Result",
+        "TWO_POINTS": ":"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
