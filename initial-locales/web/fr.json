@@ -1099,11 +1099,13 @@
         }
     },
     "DUPLICATES": {
+        "PREVIEW_SELECT_ALL": "Tous",
         "PREVIEW_TITLE": "Aperçu des doublons",
         "PREVIEW_DESC": "Sélectionnez les contacts que vous souhaitez fusionner puis cliquer sur Suivant.",
         "MERGE_TITLE": "Commencez la fusion des contacts",
         "MERGE_DESC": "Choisissez le contact et les informations que vous souhaitez conserver.",
         "MERGE_ATTRIBUTES": {
+            "LASTCHANGE": "Dernière mise à jour",
             "MASTER_RECORD": "Contact principal",
             "CONTACT_ID": "Contact {id}",
             "PREVIEW_FINAL_CONTACT": "Aperçu du contact conservé",
@@ -1113,7 +1115,8 @@
             "FORMS": "Utiliser les données fournies",
             "MOBILE": "Le contacter par téléphone",
             "EMAIL": "Le contacter par email"
-        }
+        },
+        "MERGE_FINISHED": "La fusion des contacts est terminée."
     },
     "MANAGEMENT": {
         "ISSUE_CENTER": {

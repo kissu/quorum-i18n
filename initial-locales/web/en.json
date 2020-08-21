@@ -683,6 +683,9 @@
             "DELETE_RANGE_VALUE": "Delete the value",
             "DELETE_TITLE": "Warning",
             "DOOR": "Door",
+            "DO_DUPLICATES_WORKFLOW_CTA": "Fix",
+            "DUPLICATES_CONTACTS": "Duplicate | Duplicates",
+            "DUPLICATES_CONTACTS_DESCRIPTION": "We did not find any duplicates. | We found a potential duplicate {number} for this contact. | We found {number} potential duplicates for this contact.",
             "EMAIL": "Email",
             "ERROR": "An error occurred, please try again",
             "ERROR_ADD": "Due to an error, we cannot create this contact",
@@ -1095,6 +1098,26 @@
             "DISCOVER": "Discover the <br> survey",
             "DISCOVER_CONTENT": "Create and customize the survey transmitted to members on the field"
         }
+    },
+    "DUPLICATES": {
+        "PREVIEW_SELECT_ALL": "All",
+        "PREVIEW_TITLE": "Preview of duplicates",
+        "PREVIEW_DESC": "Select the contacts you want to merge and then click Next.",
+        "MERGE_TITLE": "Start merging contacts",
+        "MERGE_DESC": "Choose the contact and the information you want to keep.",
+        "MERGE_ATTRIBUTES": {
+            "LASTCHANGE": "Last update",
+            "MASTER_RECORD": "Main contact",
+            "CONTACT_ID": "Contact {id}",
+            "PREVIEW_FINAL_CONTACT": "Preview of the retained contact",
+            "HELPER_SECTION_FORM": "The next section represents the responses to the surveys submitted."
+        },
+        "CONSENT": {
+            "FORMS": "Consented to processing of his or her personal data",
+            "MOBILE": "Contact him or her by phone",
+            "EMAIL": "Contact him or her by email"
+        },
+        "MERGE_FINISHED": "The merge is complete."
     },
     "MANAGEMENT": {
         "ISSUE_CENTER": {
@@ -5331,6 +5354,16 @@
         },
         "ADD": "Add",
         "ADDRESS": "Address",
+        "ADDRESS_DETAILS": {
+            "BUILDING": "Building ",
+            "FLOOR": "Floor",
+            "DOOR": "Door",
+            "HOUSENUMBER": "Housenumber",
+            "STREET": "Street",
+            "ZIP": "Postal code",
+            "CITY": "City",
+            "COUNTRY": "Country"
+        },
         "ADD_ACTION": "Create the action",
         "AND": "and",
         "BACK": "Back",
@@ -5363,6 +5396,7 @@
         },
         "EQUAL": "Equal",
         "FEMALE": "Female",
+        "FINISH": "Finish",
         "FIRSTNAME": "First name",
         "GDPR": {
             "EMAIL_LABEL": "The contact agrees to receive emails related to your action.",
