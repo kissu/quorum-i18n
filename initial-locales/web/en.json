@@ -941,9 +941,9 @@
     },
     "DUPLICATES": {
         "CONSENT": {
-            "EMAIL": "Contact him or her by email",
+            "EMAIL": "Contact by email",
             "FORMS": "Consented to processing of his or her personal data",
-            "MOBILE": "Contact him or her by phone"
+            "MOBILE": "Contact by phone"
         },
         "MERGE_ATTRIBUTES": {
             "CONTACT_ID": "Contact {id}",
