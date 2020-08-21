@@ -939,6 +939,26 @@
             "TITLE": "Document | Documents"
         }
     },
+    "DUPLICATES": {
+        "CONSENT": {
+            "EMAIL": "Contact him or her by email",
+            "FORMS": "Consented to processing of his or her personal data",
+            "MOBILE": "Contact him or her by phone"
+        },
+        "MERGE_ATTRIBUTES": {
+            "CONTACT_ID": "Contact {id}",
+            "HELPER_SECTION_FORM": "The next section represents the responses to the surveys submitted.",
+            "LASTCHANGE": "Last update",
+            "MASTER_RECORD": "Main contact",
+            "PREVIEW_FINAL_CONTACT": "Preview of the retained contact"
+        },
+        "MERGE_DESC": "Choose the contact and the information you want to keep.",
+        "MERGE_FINISHED": "The merge is complete.",
+        "MERGE_TITLE": "Start merging contacts",
+        "PREVIEW_DESC": "Select the contacts you want to merge and then click Next.",
+        "PREVIEW_SELECT_ALL": "All",
+        "PREVIEW_TITLE": "Preview of duplicates"
+    },
     "ERRORS": {
         "400": "The email or password you entered is incorrect. Please verify the information or click on forgot password.",
         "401": "Error: no permission!",
@@ -1098,26 +1118,6 @@
             "DISCOVER": "Discover the <br> survey",
             "DISCOVER_CONTENT": "Create and customize the survey transmitted to members on the field"
         }
-    },
-    "DUPLICATES": {
-        "PREVIEW_SELECT_ALL": "All",
-        "PREVIEW_TITLE": "Preview of duplicates",
-        "PREVIEW_DESC": "Select the contacts you want to merge and then click Next.",
-        "MERGE_TITLE": "Start merging contacts",
-        "MERGE_DESC": "Choose the contact and the information you want to keep.",
-        "MERGE_ATTRIBUTES": {
-            "LASTCHANGE": "Last update",
-            "MASTER_RECORD": "Main contact",
-            "CONTACT_ID": "Contact {id}",
-            "PREVIEW_FINAL_CONTACT": "Preview of the retained contact",
-            "HELPER_SECTION_FORM": "The next section represents the responses to the surveys submitted."
-        },
-        "CONSENT": {
-            "FORMS": "Consented to processing of his or her personal data",
-            "MOBILE": "Contact him or her by phone",
-            "EMAIL": "Contact him or her by email"
-        },
-        "MERGE_FINISHED": "The merge is complete."
     },
     "MANAGEMENT": {
         "ISSUE_CENTER": {
@@ -5356,13 +5356,13 @@
         "ADDRESS": "Address",
         "ADDRESS_DETAILS": {
             "BUILDING": "Building ",
-            "FLOOR": "Floor",
+            "CITY": "City",
+            "COUNTRY": "Country",
             "DOOR": "Door",
+            "FLOOR": "Floor",
             "HOUSENUMBER": "Housenumber",
             "STREET": "Street",
-            "ZIP": "Postal code",
-            "CITY": "City",
-            "COUNTRY": "Country"
+            "ZIP": "Postal code"
         },
         "ADD_ACTION": "Create the action",
         "AND": "and",
