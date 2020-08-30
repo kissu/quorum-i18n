@@ -947,12 +947,15 @@
         "MERGE_ATTRIBUTES": {
             "CONTACT_ID": "Contact {id}",
             "HELPER_SECTION_FORM": "La prochaine section répresente les réponses aux questionnaires soumis.",
+            "LASTCHANGE": "Dernière mise à jour",
             "MASTER_RECORD": "Contact principal",
             "PREVIEW_FINAL_CONTACT": "Aperçu du contact conservé"
         },
         "MERGE_DESC": "Choisissez le contact et les informations que vous souhaitez conserver.",
+        "MERGE_FINISHED": "La fusion des contacts est terminée.",
         "MERGE_TITLE": "Commencez la fusion des contacts",
         "PREVIEW_DESC": "Sélectionnez les contacts que vous souhaitez fusionner puis cliquer sur Suivant.",
+        "PREVIEW_SELECT_ALL": "Tous",
         "PREVIEW_TITLE": "Aperçu des doublons"
     },
     "ERRORS": {
@@ -1529,8 +1532,8 @@
         "DETAILED": "Détaillé",
         "GENERAL": "Général",
         "QUESTION": "Question",
-        "TWO_POINTS": " :",
-        "RESULTS": "Résultat"
+        "RESULTS": "Résultat",
+        "TWO_POINTS": " :"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
