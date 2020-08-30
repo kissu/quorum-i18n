@@ -3769,6 +3769,10 @@
             "high_education": {
                 "label": "Éducation supérieure"
             },
+            "evolution_elections": {
+                "gender": "f",
+                "label": "Évolution des résultats électoraux (depuis 2015)"
+            },
             "higher_education": {
                 "label": "Études supérieures"
             },

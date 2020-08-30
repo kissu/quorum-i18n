@@ -5006,6 +5006,10 @@
                 "gender": "m",
                 "label": "Single parents"
             },
+            "evolution_elections": {
+                "gender": "m",
+                "label": "Evolution of electoral results (since 2015)"
+            },
             "social_equipment_services": {
                 "gender": "m",
                 "label": "Social Equipment and Services"
