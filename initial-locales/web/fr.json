@@ -948,8 +948,8 @@
             "CONTACT_ID": "Contact {id}",
             "HELPER_SECTION_FORM": "La prochaine section répresente les réponses aux questionnaires soumis.",
             "LASTCHANGE": "Dernière mise à jour",
-            "MASTER_RECORD": "Contact principal",
-            "PREVIEW_FINAL_CONTACT": "Aperçu du contact conservé"
+            "MASTER_RECORD_INFO": "Coordonnées",
+            "PREVIEW_FINAL_CONTACT": "Aperçu du contact final"
         },
         "MERGE_DESC": "Choisissez le contact et les informations que vous souhaitez conserver.",
         "MERGE_FINISHED": "La fusion des contacts est terminée.",

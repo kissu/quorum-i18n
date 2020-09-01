@@ -949,8 +949,8 @@
             "CONTACT_ID": "Contact {id}",
             "HELPER_SECTION_FORM": "The next section represents the responses to the surveys submitted.",
             "LASTCHANGE": "Last update",
-            "MASTER_RECORD": "Main contact",
-            "PREVIEW_FINAL_CONTACT": "Preview of the retained contact"
+            "MASTER_RECORD_INFO": "Info",
+            "PREVIEW_FINAL_CONTACT": "Preview of the final contact"
         },
         "MERGE_DESC": "Choose the contact and the information you want to keep.",
         "MERGE_FINISHED": "The merge is complete.",
