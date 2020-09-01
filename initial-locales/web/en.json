@@ -1531,13 +1531,13 @@
     "SURVEY": {
         "CREATION": "Creation",
         "DETAILED": "Detailed",
+        "END": "Date de fin",
         "GENERAL": "General",
         "QUESTION": "Question",
         "RESULTS": "Result",
-        "TWO_POINTS": ":",
         "START": "Date de début",
-        "END": "Date de fin",
-        "TO": "à"
+        "TO": "à",
+        "TWO_POINTS": ":"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
