@@ -3383,6 +3383,10 @@
             "evol_2013-2016": {
                 "label": "Evolution per year (2013-2016)"
             },
+            "evolution_elections": {
+                "gender": "m",
+                "label": "Evolution of electoral results (since 2015)"
+            },
             "families": {
                 "label": "Families"
             },
