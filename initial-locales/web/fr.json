@@ -1533,7 +1533,10 @@
         "GENERAL": "Général",
         "QUESTION": "Question",
         "RESULTS": "Résultat",
-        "TWO_POINTS": " :"
+        "TWO_POINTS": " :",
+        "START": "Date de début",
+        "END": "Date de fin",
+        "TO": "à"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
