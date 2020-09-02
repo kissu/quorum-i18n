@@ -955,6 +955,7 @@
         "MERGE_BUTTON_CONTACTS_DISABLED": "Au moins 2 contacts doivent être sélectionnés pour commencer une fusion.",
         "MERGE_DESC": "Choisissez le contact et les informations que vous souhaitez conserver.",
         "MERGE_FINISHED": "La fusion des contacts est terminée.",
+        "FINISH_THE_MERGE_LABEL": "Terminer et fusionner",
         "MERGE_NOT_DUPLICATES_CONFIRMATION": "Demande de confirmation",
         "MERGE_NOT_DUPLICATES_DESC": "En cliquant sur confirmer, tous les contacts de ce tableau ne seront plus considérés comme des doublons entre eux.",
         "MERGE_NOT_DUPLICATES_FINISHED": "La mise à jour est terminée. Les doublons n'existent plus.",
