@@ -952,6 +952,12 @@
             "MASTER_RECORD_INFO": "Info",
             "PREVIEW_FINAL_CONTACT": "Preview of the final contact"
         },
+        "MERGE_BUTTON_CONTACTS": "Merge contacts | Merge contacts | Merge {count} contacts",
+        "MERGE_BUTTON_CONTACTS_DISABLED": "At least 2 contacts must be selected to start a merge.",
+        "MERGE_NOT_DUPLICATES_LABEL": "These are not duplicates",
+        "MERGE_NOT_DUPLICATES_CONFIRMATION": "Confirmation request",
+        "MERGE_NOT_DUPLICATES_DESC": "By clicking on confirm, all the contacts in this table will no longer be expected as duplicates between them.",
+        "MERGE_NOT_DUPLICATES_FINISHED": "The update is complete. The duplicates no longer exist.",
         "MERGE_DESC": "Choose the contact and the information you want to keep.",
         "MERGE_FINISHED": "The merge is complete.",
         "MERGE_TITLE": "Start merging contacts",
