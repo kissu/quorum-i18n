@@ -945,6 +945,7 @@
             "FORMS": "Consented to processing of his or her personal data",
             "MOBILE": "Contact by phone"
         },
+        "FINISH_THE_MERGE_LABEL": "Finish and merge",
         "MERGE_ATTRIBUTES": {
             "CONTACT_ID": "Contact {id}",
             "HELPER_SECTION_FORM": "Below are the responses to the submitted forms.",
@@ -957,7 +958,6 @@
         "MERGE_BUTTON_CONTACTS_DISABLED": "At least 2 contacts must be selected to start a merge.",
         "MERGE_DESC": "Select a contact then check the information you want to keep on the final contact.",
         "MERGE_FINISHED": "The merge is complete.",
-        "FINISH_THE_MERGE_LABEL": "Finish and merge",
         "GROUP_OF_DUPLICATES": "Duplicate's group - {number}",
         "MERGE_NOT_DUPLICATES_CONFIRMATION": "Confirmation request",
         "MERGE_NOT_DUPLICATES_MESSAGE": "Are you sure to declare that these contacts are not duplicates of one another?",

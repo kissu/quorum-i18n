@@ -944,6 +944,7 @@
             "FORMS": "Utiliser les données fournies",
             "MOBILE": "Le contacter par téléphone"
         },
+        "FINISH_THE_MERGE_LABEL": "Terminer et fusionner",
         "MERGE_ATTRIBUTES": {
             "CONTACT_ID": "Contact {id}",
             "HELPER_SECTION_FORM": "Ci-dessous les réponses aux formulaires soumis.",
@@ -956,7 +957,6 @@
         "MERGE_BUTTON_CONTACTS_DISABLED": "Au moins 2 contacts doivent être sélectionnés pour commencer une fusion.",
         "MERGE_DESC": "Sélectionnez un contact puis cochez les informations que vous souhaitez conserver sur le contact final.",
         "MERGE_FINISHED": "La fusion des contacts est terminée.",
-        "FINISH_THE_MERGE_LABEL": "Terminer et fusionner",
         "GROUP_OF_DUPLICATES": "Groupe de doublons - {number}",
         "MERGE_NOT_DUPLICATES_CONFIRMATION": "Demande de confirmation",
         "MERGE_NOT_DUPLICATES_DESC_MESSAGE": "Êtes-vous sûrs de déclarer que ces contacts ne sont pas des doublons entre eux ?",
