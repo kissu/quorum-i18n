@@ -1536,9 +1536,12 @@
     "SURVEY": {
         "CREATION": "Création",
         "DETAILED": "Détaillé",
+        "END": "Date de fin",
         "GENERAL": "Général",
         "QUESTION": "Question",
         "RESULTS": "Résultat",
+        "START": "Date de début",
+        "TO": "à",
         "TWO_POINTS": " :"
     },
     "USER_MANAGEMENT": {
