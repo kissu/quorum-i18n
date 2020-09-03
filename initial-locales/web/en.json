@@ -1529,6 +1529,7 @@
         }
     },
     "SURVEY": {
+        "DISABLED": "No survey has been published yet.",
         "CREATION": "Creation",
         "DETAILED": "Detailed",
         "GENERAL": "General",

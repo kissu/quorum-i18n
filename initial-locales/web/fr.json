@@ -1528,6 +1528,7 @@
         }
     },
     "SURVEY": {
+        "DISABLED": "Aucun questionnaire n'a été publié pour le moment.",
         "CREATION": "Création",
         "DETAILED": "Détaillé",
         "GENERAL": "Général",
