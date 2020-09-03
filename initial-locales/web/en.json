@@ -1539,14 +1539,14 @@
         }
     },
     "SURVEY": {
-        "LAST_WEEK": "Last week",
-        "LAST_MONTH": "Last month",
-        "LAST_3_MONTHS": "Last 3 months",
-        "DISABLED": "No survey has been published yet.",
         "CREATION": "Creation",
         "DETAILED": "Detailed",
+        "DISABLED": "No survey has been published yet.",
         "END": "Date de fin",
         "GENERAL": "General",
+        "LAST_3_MONTHS": "Last 3 months",
+        "LAST_MONTH": "Last month",
+        "LAST_WEEK": "Last week",
         "QUESTION": "Question",
         "RESULTS": "Result",
         "START": "Date de début",

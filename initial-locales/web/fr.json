@@ -1538,14 +1538,14 @@
         }
     },
     "SURVEY": {
-        "LAST_WEEK": "Semaine dernière",
-        "LAST_MONTH": "Mois dernier",
-        "LAST_3_MONTHS": "Trois derniers mois",
-        "DISABLED": "Aucun questionnaire n'a été publié pour le moment.",
         "CREATION": "Création",
         "DETAILED": "Détaillé",
+        "DISABLED": "Aucun questionnaire n'a été publié pour le moment.",
         "END": "Date de fin",
         "GENERAL": "Général",
+        "LAST_3_MONTHS": "Trois derniers mois",
+        "LAST_MONTH": "Mois dernier",
+        "LAST_WEEK": "Semaine dernière",
         "QUESTION": "Question",
         "RESULTS": "Résultat",
         "START": "Date de début",
