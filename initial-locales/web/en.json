@@ -1539,9 +1539,9 @@
         }
     },
     "SURVEY": {
-        "DISABLED": "No survey has been published yet.",
         "CREATION": "Creation",
         "DETAILED": "Detailed",
+        "DISABLED": "No survey has been published yet.",
         "END": "Date de fin",
         "GENERAL": "General",
         "QUESTION": "Question",
