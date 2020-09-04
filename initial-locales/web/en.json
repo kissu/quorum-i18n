@@ -685,7 +685,7 @@
             "DOOR": "Door",
             "DO_DUPLICATES_WORKFLOW_CTA": "Fix",
             "DUPLICATES_CONTACTS": "Duplicate | Duplicates",
-            "DUPLICATES_CONTACTS_DESCRIPTION": "We did not find any duplicates. | We have found {number} group of potential duplicates for this contact. | We found {number} potential duplicate groups for this contact.",
+            "DUPLICATES_CONTACTS_DESCRIPTION": "We did not find any duplicates. | We have found a potential duplicate for this contact. | We found {number} duplicates for this contact.",
             "EMAIL": "Email",
             "ERROR": "An error occurred, please try again",
             "ERROR_ADD": "Due to an error, we cannot create this contact",

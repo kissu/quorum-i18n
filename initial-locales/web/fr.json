@@ -684,7 +684,7 @@
             "DOOR": "Porte ",
             "DO_DUPLICATES_WORKFLOW_CTA": "Traîter",
             "DUPLICATES_CONTACTS": "Doublon | Doublons",
-            "DUPLICATES_CONTACTS_DESCRIPTION": "Nous n'avons pas trouvé de doublons. | Nous avons trouvé {number} groupe de doublons potentiels pour ce contact. | Nous avons trouvé {number} groupes de doublons potentiels pour ce contact.",
+            "DUPLICATES_CONTACTS_DESCRIPTION": "Nous n'avons pas trouvé de doublons. | Nous avons trouvé un doublon potentiel pour ce contact. | Nous avons trouvé {number} doublons potentiels pour ce contact.",
             "EMAIL": "Email",
             "ERROR": "Une erreur est survenue, veuillez réessayer",
             "ERROR_ADD": "Une erreur nous empêche de créer ce contact",
