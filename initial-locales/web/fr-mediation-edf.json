@@ -1,4 +1,51 @@
 {
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
-    "XXX_TRANSLATION_LANGUAGE_NAME": "Français"
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
+    "SETTINGS": {
+        "HEADER": {
+            "LEAD": "Alertes",
+            "ACTIONS": "Alertes"
+        },
+        "FORM_BUILDER": {
+            "TOOLTIP_ACTION": "Faire apparaître ce champ dans vos onglets de votre centre d'alertes.",
+            "TEMPLATE_ACTION": "Utiliser les alertes par défaut",
+            "NAMES": {
+                "ACTION": "Alertes"
+            },
+            "HOW_TO_USE_TUNNELS": "Comment paramétrer les statuts et les alertes ?"
+        }
+    },
+    "MENU": {
+        "ISSUE_CENTER": "AlertesComm",
+        "BRIEFS": "Documents",
+        "MOBILIZATION": "Mes actions",
+        "MEMBERS": "Équipes",
+        "LEAD": "Ma communauté",
+        "STRATEGY": "Mes analyses"
+    },
+    "CONTACT": {
+        "EDIT": {
+            "LEAD": "Alertes"
+        }
+    },
+    "CARTO": {
+        "CC": {
+            "CALL_TO_ACTION": {
+                "TABS": {
+                    "MOBILISATION": "Progression"
+                }
+            }
+        }
+    },
+    "ACTION": {
+        "CALL_TO_ACTION": {
+            "INFORMATIONS": {
+                "LINK_POPHOVER": "",
+                "LINK_CLICKABLE": "Cliquable par vos équipes",
+                "BRIEF_TITLE_CREATION": "Créer un brief pour vos équipes",
+                "AIM_PLACEHOLDER": "Soyez concis pour vos équipes !",
+                "AIM_HELPER": "Soyez bref pour vos équipes."
+            }
+        }
+    }
 }
