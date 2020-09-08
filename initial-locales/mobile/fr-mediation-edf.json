@@ -1,4 +1,11 @@
 {
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
-    "XXX_TRANSLATION_LANGUAGE_NAME": "Français"
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
+    "logged": {
+        "headQuarter": {
+            "quickActions": {
+                "welcome": "Bienvenue cher exploreur {{firstname}} 👋"
+            }
+        }
+    }
 }
