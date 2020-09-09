@@ -10,6 +10,13 @@
             }
         }
     },
+    "APP": {
+        "SETTINGS": {
+            "CAMPAIGN": {
+                "SETTINGS": "Paramètres de l'espace"
+            }
+        }
+    },
     "CARTO": {
         "CC": {
             "CALL_TO_ACTION": {
@@ -30,8 +37,8 @@
         "LEAD": "Ma communauté",
         "MEMBERS": "Équipes",
         "MOBILIZATION": "Mes actions",
-        "STRATEGY": "Mes analyses",
-        "PARAMETERS": "Paramètres de l'espace"
+        "PARAMETERS": "Paramètres de l'espace",
+        "STRATEGY": "Mes analyses"
     },
     "SETTINGS": {
         "FORM_BUILDER": {
@@ -48,46 +55,39 @@
         },
         "PROFILE": {
             "ROLES": {
-                "SUPERADMIN": "Administrateur",
-                "USER": "Exploreur",
+                "ADMIN": "Dialogueur coach",
                 "MANAGER": "Coordinateur",
-                "ADMIN": "Dialogueur coach"
+                "SUPERADMIN": "Administrateur",
+                "USER": "Exploreur"
             }
         }
     },
-    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
-    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "USER_MANAGEMENT": {
-        "KPI": {
-            "SUBTITLE": "Parlons énergies chez vous, à vos côtés, dans votre région",
-            "TITLE": "Votre région rassemble ",
-            "LEADERS": "administrateur | administrateurs",
-            "HELPERS": "exploreur | exploreurs",
-            "MANAGERS": "coordinateur | coordinateurs",
-            "ORGANIZERS": "dialogueur coach | dialogueurs coach"
-        },
         "DETAIL": {
             "ROLES": {
+                "ADMIN": {
+                    "TITLE": "Dialogueur coach"
+                },
+                "MANAGER": {
+                    "TITLE": "Coordinateur"
+                },
                 "SUPERADMIN": {
                     "TITLE": "Administrateur"
                 },
                 "USER": {
                     "TITLE": "Exploreur"
-                },
-                "MANAGER": {
-                    "TITLE": "Coordinateur"
-                },
-                "ADMIN": {
-                    "TITLE": "Dialogueur coach"
                 }
             }
+        },
+        "KPI": {
+            "HELPERS": "exploreur | exploreurs",
+            "LEADERS": "administrateur | administrateurs",
+            "MANAGERS": "coordinateur | coordinateurs",
+            "ORGANIZERS": "dialogueur coach | dialogueurs coach",
+            "SUBTITLE": "Parlons énergies chez vous, à vos côtés, dans votre région",
+            "TITLE": "Votre région rassemble "
         }
     },
-    "APP": {
-        "SETTINGS": {
-            "CAMPAIGN": {
-                "SETTINGS": "Paramètres de l'espace"
-            }
-        }
-    }
+    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français"
 }
