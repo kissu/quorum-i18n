@@ -4,8 +4,8 @@
     "logged": {
         "headQuarter": {
             "quickActions": {
-                "welcome": "Bienvenue cher exploreur {{firstname}} 👋",
-                "add": "Lancer un entretien"
+                "add": "Lancer un entretien",
+                "welcome": "Bienvenue cher exploreur {{firstname}} 👋"
             }
         }
     }
