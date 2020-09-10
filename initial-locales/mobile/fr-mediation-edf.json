@@ -4,8 +4,15 @@
     "logged": {
         "headQuarter": {
             "quickActions": {
-                "add": "Lancer un entretien",
+                "add": "Lancer un entretien spontané",
                 "welcome": "Bienvenue cher exploreur {{firstname}} 👋"
+            }
+        },
+        "profile": {
+            "public": {
+                "joinMouvement": {
+                    "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région."
+                }
             }
         }
     }
