@@ -23,11 +23,11 @@
     "CARTO": {
         "CC": {
             "CALL_TO_ACTION": {
+                "SEEN": "Rencontré",
+                "STATUS_VISITED": "Statuts et Rencontré(e)s",
                 "TABS": {
                     "MOBILISATION": "Progression"
-                },
-                "STATUS_VISITED": "Statuts et Rencontré(e)s",
-                "SEEN": "Rencontré"
+                }
             },
             "NAVIGATOR": {
                 "LAYERS": {
@@ -41,15 +41,15 @@
             "LEAD": "Alertes",
             "NOT_SEEN": "Pas encore rencontré"
         },
+        "HEADER": {
+            "FILTERS": {
+                "DATE": "Rencontré depuis le",
+                "VISIT": "Rencontre"
+            },
+            "NOT_VISITED": "Pas encore rencontré"
+        },
         "LIST": {
             "NOT_VISITED": "Jamais rencontré"
-        },
-        "HEADER": {
-            "NOT_VISITED": "Pas encore rencontré",
-            "FILTERS": {
-                "VISIT": "Rencontre",
-                "DATE": "Rencontré depuis le"
-            }
         }
     },
     "MENU": {
