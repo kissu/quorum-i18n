@@ -166,8 +166,8 @@
                 "SELECTED_STREETS_WITH_CONTACTS": "{count} rue sélectionnée avec contacts | {count} rue sélectionnée avec contacts | {count} rues sélectionnées avec contacts",
                 "SKIP": "Passer l'étape",
                 "SKIP_CREATE": "Créer une action sans citoyen",
-                "TAGS": "Tags",
-                "TAG_PLACEHOLDER": "Filtrer sur des tags",
+                "TAGS": "Mots-clés",
+                "TAG_PLACEHOLDER": "Filtrer sur des mots-clés",
                 "TERRITORY": "Les territoires",
                 "TERRITORY_PLACEHOLDER": "Filtrer sur un territoire",
                 "TIMEFORMAT": "JJ/MM/AAAA",
@@ -663,7 +663,7 @@
             "ADDRESS": "Adresse",
             "ADD_NOTE_BUTTON": "Ajouter une note",
             "ADD_NOTE_PLACEHOLDER": "Cliquer ici pour commencer à écrire une note.",
-            "ADD_TAG": "Ajouter un tag",
+            "ADD_TAG": "Ajouter un mot-clé",
             "ANSWER": "Réponse",
             "ANSWERS": "Questionnaire",
             "ASKING_TO_DELETE_CONTACT": "Êtes-vous bien sûr de vouloir supprimer ce contact ?",
@@ -672,7 +672,7 @@
             "BIRTHCOUNTRY": "Pays de naissance",
             "BIRTHDATE": "Age",
             "BUILDING": "Bâtiment",
-            "CHOOSE_OR_CREATE_TAG": "Choisir ou créer un",
+            "CHOOSE_OR_CREATE_TAG": "Choisir ou créer un mot clé",
             "CITY": "Ville",
             "COLLAPSE": "Réduire",
             "CONTACT_OWNER": "Propriétaire",
@@ -720,7 +720,7 @@
             "SUCCESS_ADD": "Le contact a bien été ajouté !",
             "SUCCESS_DELETE": "Le contact a bien été supprimé.",
             "SYNC_NATIONBUILDER": "Le contact est synchronisé avec NationBuilder",
-            "TAGS": "Tags",
+            "TAGS": "Mots-clés",
             "TERRITORY": "Territoire",
             "UNKNOWN": "Contact inconnu ({id})",
             "UNSAVED_CONTACT": "Vous avez modifié ce contact",
@@ -762,7 +762,7 @@
                 },
                 "PHONE": "Téléphone",
                 "STATUS": "Statut",
-                "TAGS": "Tags",
+                "TAGS": "Mots-clés",
                 "TERRITORIES": "Territoires",
                 "VISIT": "Visite"
             },
@@ -895,12 +895,12 @@
                 "ACTIONS": "Éditer",
                 "ERROR": "Une erreur est survenue à la mise à jour de {name}.",
                 "MODIFY_STATUS": "Modifier le statut",
-                "MODIFY_TAGS": "Modifier les tags",
+                "MODIFY_TAGS": "Modifier les mots-clés",
                 "MODIFY_TERRITORY": "Modifier le territoire",
                 "SUCCESS": "Mise à jour terminée !",
                 "TITLE": {
                     "STATUS": "Modifier le statut de {count} contacts",
-                    "TAGS": "Modifier les tags de {count} contacts",
+                    "TAGS": "Modifier les mots-clés de {count} contacts",
                     "TERRITORIES": "Modifier le territoire de {count} contacts"
                 },
                 "WARNING": "Attention vous allez appliquer cette modification à tous les contacts sélectionnés sur cette page."
@@ -925,7 +925,7 @@
                 "MARITAL_NAME": "Nom Marital",
                 "POSTALCODE": "Code postal",
                 "STATUS": "Statut",
-                "TAGS": "Tags",
+                "TAGS": "Mots-clés",
                 "TERRITORY": "Territoire"
             },
             "TABLE_TITLE": "Afficher / Masquer colonnes",
@@ -1401,7 +1401,7 @@
             "MAILAUTO": "Email automatique",
             "PROFILE": "Profil",
             "STATUS": "Statuts",
-            "TAGS": "Gestion des tags"
+            "TAGS": "Gestion des mots clés"
         },
         "MODE": {
             "ALPHA": "ALPHA",
@@ -5086,10 +5086,10 @@
                 "label": "Surface"
             },
             "tags": {
-                "label": "Tag"
+                "label": "Mot-clé"
             },
             "tags_seen": {
-                "label": "Tag"
+                "label": "Mot-clé"
             },
             "terraced_houses_perc": {
                 "label": "Taux de maisons mitoyennes - 2011"
@@ -5472,7 +5472,7 @@
         "STAY_ON_PAGE": "Rester sur la page",
         "STREET": "Rue",
         "SUMMARY": "Récapitulatif",
-        "TAGS": "Tags",
+        "TAGS": "Mots-clés",
         "TELEPHONE": "Téléphone",
         "TERRITORIES": "Territoire | Territoires",
         "TIME": {
