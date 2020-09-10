@@ -7,6 +7,9 @@
                 "BRIEF_TITLE_CREATION": "Créer un brief pour vos équipes",
                 "LINK_CLICKABLE": "Cliquable par vos équipes",
                 "LINK_POPHOVER": ""
+            },
+            "TARGET": {
+                "ABSENT_OR_NOT_VISITED": "Absent ou jamais rencontré"
             }
         }
     },
@@ -22,13 +25,31 @@
             "CALL_TO_ACTION": {
                 "TABS": {
                     "MOBILISATION": "Progression"
+                },
+                "STATUS_VISITED": "Statuts et Rencontré(e)s",
+                "SEEN": "Rencontré"
+            },
+            "NAVIGATOR": {
+                "LAYERS": {
+                    "SEEN": "Rencontré"
                 }
             }
         }
     },
     "CONTACT": {
         "EDIT": {
-            "LEAD": "Alertes"
+            "LEAD": "Alertes",
+            "NOT_SEEN": "Pas encore rencontré"
+        },
+        "LIST": {
+            "NOT_VISITED": "Jamais rencontré"
+        },
+        "HEADER": {
+            "NOT_VISITED": "Pas encore rencontré",
+            "FILTERS": {
+                "VISIT": "Rencontre",
+                "DATE": "Rencontré depuis le"
+            }
         }
     },
     "MENU": {
