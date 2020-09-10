@@ -810,6 +810,7 @@
             },
             "FORM": "Question :",
             "HAS_BEEN_SELECTED_IN_ACTION": "has been selected in the action : ",
+            "NO_ACTIVITY_FOUND": "No action has been taken on this contact for the moment 🙄",
             "NOTE_ADDED": "added a note",
             "NOTE_TITLE": "Note",
             "RECEIVED_AN_EMAIL": "Automatic Email",

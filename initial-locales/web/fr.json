@@ -809,6 +809,7 @@
             },
             "FORM": "Question :",
             "HAS_BEEN_SELECTED_IN_ACTION": "a été sélectionné dans l'action : ",
+            "NO_ACTIVITY_FOUND": "Aucune action n’a été menée sur ce contact pour le moment 🙄",
             "NOTE_ADDED": "a ajouté une note",
             "NOTE_TITLE": "Note",
             "RECEIVED_AN_EMAIL": "Email automatique",
