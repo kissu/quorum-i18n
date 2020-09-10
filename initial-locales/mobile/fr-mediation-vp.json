@@ -1,4 +1,22 @@
 {
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-vp",
-    "XXX_TRANSLATION_LANGUAGE_NAME": "Français"
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
+    "logged": {
+        "canvassing": {
+            "viewContact": {
+                "refusalLabel": "Cas non conforme",
+                "refusLabel": "Cas non conforme",
+                "metStatus": {
+                    "refus": "Cas non conforme"
+                },
+                "callSpecificStatus": {
+                    "refusalLabel": "Cas non conforme",
+                    "refusLabel": "Cas non conforme"
+                }
+            },
+            "listItem": {
+                "refusalLabel": "Cas non conforme"
+            }
+        }
+    }
 }
