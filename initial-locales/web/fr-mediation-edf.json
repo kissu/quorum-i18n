@@ -2,15 +2,32 @@
     "ACTION": {
         "CALL_TO_ACTION": {
             "INFORMATIONS": {
-                "AIM_HELPER": "Soyez bref pour vos équipes.",
-                "AIM_PLACEHOLDER": "Soyez concis pour vos équipes !",
-                "BRIEF_TITLE_CREATION": "Créer un brief pour vos équipes",
-                "LINK_CLICKABLE": "Cliquable par vos équipes",
+                "AIM_HELPER": "Soyez bref pour vos collaborateurs.",
+                "AIM_PLACEHOLDER": "Soyez concis pour vos collaborateurs !",
+                "BRIEF_TITLE_CREATION": "Créer un brief pour vos collaborateurs",
+                "LINK_CLICKABLE": "Cliquable par vos collaborateurs",
                 "LINK_POPHOVER": ""
             },
             "TARGET": {
-                "ABSENT_OR_NOT_VISITED": "Absent ou jamais rencontré"
+                "ABSENT_OR_NOT_VISITED": "Absent ou jamais rencontré",
+                "TAG_PLACEHOLDER": "Filter par mots-clés",
+                "TAGS": "Mots-clés"
+            },
+            "USER_LENGTH": "Collaborateurs sélectionnés | Collaborateurs sélectionnés au total | Collaborateurs sélectionné au total",
+            "USERS": "Collaborateurs",
+            "SEARCH": {
+                "USER": "Sélectionnez les membres et/ou les équipes qui feront l'action"
             }
+        },
+        "EDIT": {
+            "ALL_USERS_ALREADY_SELECTED": "Tous les collaborateurs ont été ajoutés",
+            "BRIEF": "Ajoutez un document"
+        },
+        "DETAIL": {
+            "NO_MEMBERS_INVITED": "Aucun collaborateur invité",
+            "MEMBERS": "Collaborateurs invités",
+            "ALL_MEMBERS_ADDED": "Tous les collaborateurs ont été sélectionnés",
+            "BRIEF": "Document"
         }
     },
     "APP": {
@@ -31,7 +48,8 @@
             },
             "NAVIGATOR": {
                 "LAYERS": {
-                    "SEEN": "Rencontré"
+                    "SEEN": "Rencontré",
+                    "ACTIONS": "Rencontres"
                 }
             }
         }
@@ -39,17 +57,29 @@
     "CONTACT": {
         "EDIT": {
             "LEAD": "Alertes",
-            "NOT_SEEN": "Pas encore rencontré"
+            "NOT_SEEN": "Pas encore rencontré",
+            "TAGS": "Mots-clés"
         },
         "HEADER": {
             "FILTERS": {
                 "DATE": "Rencontré depuis le",
-                "VISIT": "Rencontre"
+                "VISIT": "Rencontre",
+                "TAGS": "Mots-clés"
             },
             "NOT_VISITED": "Pas encore rencontré"
         },
         "LIST": {
-            "NOT_VISITED": "Jamais rencontré"
+            "NOT_VISITED": "Jamais rencontré",
+            "TABLE": {
+                "TAGS": "Mots-clés",
+                "CONTACT": "Rencontré par"
+            },
+            "MODAL": {
+                "TITLE": {
+                    "TAGS": "Modifier les mots-clés de {count} contacts"
+                },
+                "MODIFY_TAGS": "Modifier les mots-clés"
+            }
         }
     },
     "MENU": {
@@ -72,7 +102,8 @@
         },
         "HEADER": {
             "ACTIONS": "Alertes",
-            "LEAD": "Alertes"
+            "LEAD": "Alertes",
+            "TAGS": "Mots-clés"
         },
         "PROFILE": {
             "ROLES": {
@@ -110,5 +141,27 @@
         }
     },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
-    "XXX_TRANSLATION_LANGUAGE_NAME": "Français"
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
+    "STRUCTURE": {
+        "NAVBAR": {
+            "MEMBERS": "Collaborateurs"
+        }
+    },
+    "_COMMON": {
+        "TAGS": "Mots-clés"
+    },
+    "BRIEFS": {
+        "HEADER": {
+            "ADD_BRIEF": "Ajoutez un document",
+            "TITLE": "Document | Documents"
+        },
+        "LIST": {
+            "ADD_BRIEF": "Ajoutez votre premier document",
+            "INFORMATION_BRIEF": "This is where you can add <strong>documents<strong> for your team.</strong>. ",
+            "EMPTY_STATE": "Aucun document pour le moment."
+        },
+        "MODAL": {
+            "PLACEHOLDER_SELECT": "Choisissez un document"
+        }
+    }
 }
