@@ -99,7 +99,7 @@
     },
     "MENU": {
         "BRIEFS": "Documents",
-        "ISSUE_CENTER": "AlertesComm",
+        "ISSUE_CENTER": "Alertes",
         "LEAD": "Ma communauté",
         "MEMBERS": "Équipes",
         "MOBILIZATION": "Mes actions",
@@ -158,6 +158,9 @@
             "ORGANIZERS": "dialogueur coach | dialogueurs coach",
             "SUBTITLE": "Parlons énergies chez vous, à vos côtés, dans votre région",
             "TITLE": "Votre région rassemble "
+        },
+        "USER_LIST": {
+            "ADD_USER": "Invitez un collaborateur"
         }
     },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
