@@ -87,13 +87,13 @@
         },
         "joinCampaign": {
             "discover": "Discover",
-            "disposeCode": "If you have your organisation's secret nickname, enter it here",
+            "disposeCode": "If you have your organisation's invitation code, enter it here",
             "emoji": "✊🏻",
             "goButton": "Go!",
             "letsGo": "Let's go!",
-            "noCampaign": "No secret nickname? Please contact your organisation.",
+            "noCampaign": "No invitation code? Please contact your organisation.",
             "noCampaignWithThisCode": "This code isn't linked to a campaign.",
-            "placeholder": "Organisation's secret nickname"
+            "placeholder": "Organisation's invitation code"
         },
         "passwordForgot": {
             "errorMailNotFound": "No account is linked to ",
