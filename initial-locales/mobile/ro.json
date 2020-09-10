@@ -691,12 +691,12 @@
     "popup": {
         "consent": {
             "cancel": "Anulează",
-            "content": "Nu uita să informezi persoana despre scopul acțiunii și asigură-te că este clar ce organizație reprezinți!",
+            "content": "Vă cerem acordul pentru a colecta si procesa datele dumneavoastră cu caracter personal de către Alianța USR PLUS pentru a vă putea contacta pe viitor. Aveți oricând dreptul de a vă retrage consimțământul si ca datele dvs sa fie sterse. Datele dumneavoastră nu vor fi transmise către alte entități înafara partidelor Alianței USR PLUS",
             "gpdrOkEmailLabel": "Contactul a agreat să primească emailuri (în legătură cu această acțiune)",
-            "gpdrOkLabel": "Contactul mă autorizează să colectez și folosesc această informație în cadrul acțiunii.",
+            "gpdrOkLabel": "Sunt de acord ca datele mele de contact și răspunsurile la întrebări să fie colectate și procesate de către Alianța USR PLUS.",
             "gpdrOkSMSLabel": "Contactul a agreat să fie contactat telefonic (în legătură această acțiune)",
             "nextStep": "Continuă",
-            "title": "Consimțământ"
+            "title": "Acord"
         }
     },
     "splashScreen": {

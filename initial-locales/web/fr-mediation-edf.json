@@ -10,6 +10,13 @@
             }
         }
     },
+    "APP": {
+        "SETTINGS": {
+            "CAMPAIGN": {
+                "SETTINGS": "Paramètres de l'espace"
+            }
+        }
+    },
     "CARTO": {
         "CC": {
             "CALL_TO_ACTION": {
@@ -30,6 +37,7 @@
         "LEAD": "Ma communauté",
         "MEMBERS": "Équipes",
         "MOBILIZATION": "Mes actions",
+        "PARAMETERS": "Paramètres de l'espace",
         "STRATEGY": "Mes analyses"
     },
     "SETTINGS": {
@@ -44,6 +52,40 @@
         "HEADER": {
             "ACTIONS": "Alertes",
             "LEAD": "Alertes"
+        },
+        "PROFILE": {
+            "ROLES": {
+                "ADMIN": "Dialogueur coach",
+                "MANAGER": "Coordinateur",
+                "SUPERADMIN": "Administrateur",
+                "USER": "Exploreur"
+            }
+        }
+    },
+    "USER_MANAGEMENT": {
+        "DETAIL": {
+            "ROLES": {
+                "ADMIN": {
+                    "TITLE": "Dialogueur coach"
+                },
+                "MANAGER": {
+                    "TITLE": "Coordinateur"
+                },
+                "SUPERADMIN": {
+                    "TITLE": "Administrateur"
+                },
+                "USER": {
+                    "TITLE": "Exploreur"
+                }
+            }
+        },
+        "KPI": {
+            "HELPERS": "exploreur | exploreurs",
+            "LEADERS": "administrateur | administrateurs",
+            "MANAGERS": "coordinateur | coordinateurs",
+            "ORGANIZERS": "dialogueur coach | dialogueurs coach",
+            "SUBTITLE": "Parlons énergies chez vous, à vos côtés, dans votre région",
+            "TITLE": "Votre région rassemble "
         }
     },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
