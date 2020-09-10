@@ -1266,6 +1266,15 @@
             "ADDRESS_INFO_TITLE": "Informations importantes",
             "AGE": "Age",
             "AGE_CATEGORY": "Tranches d'âge",
+            "AGE_CATEGORY_VALUES": {
+                "0": "Âge non renseigné",
+                "1": "Moins de 18 ans",
+                "2": "18 - 25 ans",
+                "3": "25 - 35 ans ",
+                "4": "35 - 50 ans",
+                "5": "50 - 65 ans",
+                "6": "65 ans et plus"
+            },
             "BIRTHCITY": "Commune de naissance",
             "BIRTHCOUNTRY": "Pays de naissance",
             "BIRTHDATE": "Date de naissance",
@@ -5376,6 +5385,7 @@
         "ADD": "Ajouter",
         "ADDRESS": "Adresse",
         "ADDRESS_DETAILS": {
+            "POLLINGSTATION": "Territoire",
             "BUILDING": "Bâtiment ",
             "CITY": "Ville",
             "COUNTRY": "Pays",

@@ -5377,6 +5377,7 @@
         "ADD": "Add",
         "ADDRESS": "Address",
         "ADDRESS_DETAILS": {
+            "POLLINGSTATION": "Territory ",
             "BUILDING": "Building ",
             "CITY": "City",
             "COUNTRY": "Country",
