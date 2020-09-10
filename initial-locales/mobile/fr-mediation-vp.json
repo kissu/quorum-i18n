@@ -3,18 +3,18 @@
     "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "logged": {
         "canvassing": {
+            "listItem": {
+                "refusalLabel": "Cas non conforme"
+            },
             "viewContact": {
-                "refusalLabel": "Cas non conforme",
-                "refusLabel": "Cas non conforme",
+                "callSpecificStatus": {
+                    "refusLabel": "Cas non conforme",
+                    "refusalLabel": "Cas non conforme"
+                },
                 "metStatus": {
                     "refus": "Cas non conforme"
                 },
-                "callSpecificStatus": {
-                    "refusalLabel": "Cas non conforme",
-                    "refusLabel": "Cas non conforme"
-                }
-            },
-            "listItem": {
+                "refusLabel": "Cas non conforme",
                 "refusalLabel": "Cas non conforme"
             }
         }
