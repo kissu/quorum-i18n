@@ -21,7 +21,8 @@
         },
         "EDIT": {
             "ALL_USERS_ALREADY_SELECTED": "Tous les collaborateurs ont été ajoutés",
-            "BRIEF": "Ajoutez un document"
+            "BRIEF": "Ajoutez un document",
+            "MEMBERS": "Collaborateurs"
         },
         "DETAIL": {
             "NO_MEMBERS_INVITED": "Aucun collaborateur invité",
