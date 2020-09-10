@@ -5385,13 +5385,13 @@
         "ADD": "Ajouter",
         "ADDRESS": "Adresse",
         "ADDRESS_DETAILS": {
-            "POLLINGSTATION": "Territoire",
             "BUILDING": "Bâtiment ",
             "CITY": "Ville",
             "COUNTRY": "Pays",
             "DOOR": "Porte",
             "FLOOR": "Étage",
             "HOUSENUMBER": "Numéro",
+            "POLLINGSTATION": "Territoire",
             "STREET": "Rue",
             "ZIP": "Code postal"
         },

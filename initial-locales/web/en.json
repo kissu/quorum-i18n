@@ -5377,13 +5377,13 @@
         "ADD": "Add",
         "ADDRESS": "Address",
         "ADDRESS_DETAILS": {
-            "POLLINGSTATION": "Territory ",
             "BUILDING": "Building ",
             "CITY": "City",
             "COUNTRY": "Country",
             "DOOR": "Door",
             "FLOOR": "Floor",
             "HOUSENUMBER": "Housenumber",
+            "POLLINGSTATION": "Territory ",
             "STREET": "Street",
             "ZIP": "Postal code"
         },
