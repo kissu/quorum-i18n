@@ -465,7 +465,8 @@
                 "ADD": "Ajouter un brief",
                 "EDIT": "Modifier un brief",
                 "SEARCH": "Rechercher un brief",
-                "TITLE": "Brief | Briefs"
+                "TITLE": "Brief | Briefs",
+                "DELETE": " | Supprimer 1 brief | Supprimer {count} briefs"
             },
             "LIST": {
                 "ADD": "Ajoutez votre premier brief",
@@ -489,7 +490,8 @@
                 "ADD": "Ajouter un document",
                 "EDIT": "Modifier un document",
                 "SEARCH": "Rechercher un brief",
-                "TITLE": "Document | Documents"
+                "TITLE": "Document | Documents",
+                "DELETE": " | Supprimer 1 document | Supprimer {count} documents"
             },
             "LIST": {
                 "ADD": "Ajoutez votre premier document",
