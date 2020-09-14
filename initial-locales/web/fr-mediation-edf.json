@@ -1,0 +1,171 @@
+{
+    "ACTION": {
+        "CALL_TO_ACTION": {
+            "INFORMATIONS": {
+                "AIM_HELPER": "Soyez bref pour vos collaborateurs.",
+                "AIM_PLACEHOLDER": "Soyez concis pour vos collaborateurs !",
+                "BRIEF_TITLE_CREATION": "Créer un brief pour vos collaborateurs",
+                "LINK_CLICKABLE": "Cliquable par vos collaborateurs",
+                "LINK_POPHOVER": ""
+            },
+            "SEARCH": {
+                "USER": "Sélectionnez les membres et/ou les équipes qui feront l'action"
+            },
+            "TARGET": {
+                "ABSENT_OR_NOT_VISITED": "Absent ou jamais rencontré",
+                "TAGS": "Mots-clés",
+                "TAG_PLACEHOLDER": "Filter par mots-clés"
+            },
+            "USERS": "Collaborateurs",
+            "USER_LENGTH": "Collaborateurs sélectionnés | Collaborateurs sélectionnés au total | Collaborateurs sélectionné au total"
+        },
+        "DETAIL": {
+            "ALL_MEMBERS_ADDED": "Tous les collaborateurs ont été sélectionnés",
+            "BRIEF": "Document",
+            "MEMBERS": "Collaborateurs invités",
+            "NO_MEMBERS_INVITED": "Aucun collaborateur invité"
+        },
+        "EDIT": {
+            "ALL_USERS_ALREADY_SELECTED": "Tous les collaborateurs ont été ajoutés",
+            "BRIEF": "Ajoutez un document",
+            "MEMBERS": "Collaborateurs"
+        }
+    },
+    "APP": {
+        "SETTINGS": {
+            "CAMPAIGN": {
+                "SETTINGS": "Paramètres de l'espace"
+            }
+        }
+    },
+    "BRIEFS": {
+        "HEADER": {
+            "ADD_BRIEF": "Ajoutez un document",
+            "TITLE": "Document | Documents"
+        },
+        "LIST": {
+            "ADD_BRIEF": "Ajoutez votre premier document",
+            "EMPTY_STATE": "Aucun document pour le moment.",
+            "INFORMATION_BRIEF": "This is where you can add <strong>documents<strong> for your team.</strong>. "
+        },
+        "MODAL": {
+            "PLACEHOLDER_SELECT": "Choisissez un document"
+        }
+    },
+    "CARTO": {
+        "CC": {
+            "CALL_TO_ACTION": {
+                "SEEN": "Rencontré",
+                "STATUS_VISITED": "Statuts et Rencontré(e)s",
+                "TABS": {
+                    "MOBILISATION": "Progression"
+                }
+            },
+            "NAVIGATOR": {
+                "LAYERS": {
+                    "ACTIONS": "Rencontres",
+                    "SEEN": "Rencontré"
+                }
+            }
+        }
+    },
+    "CONTACT": {
+        "EDIT": {
+            "LEAD": "Alertes",
+            "NOT_SEEN": "Pas encore rencontré",
+            "TAGS": "Mots-clés"
+        },
+        "HEADER": {
+            "FILTERS": {
+                "DATE": "Rencontré depuis le",
+                "TAGS": "Mots-clés",
+                "VISIT": "Rencontre"
+            },
+            "NOT_VISITED": "Pas encore rencontré"
+        },
+        "LIST": {
+            "MODAL": {
+                "MODIFY_TAGS": "Modifier les mots-clés",
+                "TITLE": {
+                    "TAGS": "Modifier les mots-clés de {count} contacts"
+                }
+            },
+            "NOT_VISITED": "Jamais rencontré",
+            "TABLE": {
+                "CONTACT": "Rencontré par",
+                "TAGS": "Mots-clés"
+            }
+        }
+    },
+    "MENU": {
+        "BRIEFS": "Documents",
+        "ISSUE_CENTER": "Alertes",
+        "LEAD": "Ma communauté",
+        "MEMBERS": "Équipes",
+        "MOBILIZATION": "Mes actions",
+        "PARAMETERS": "Paramètres de l'espace",
+        "STRATEGY": "Mes analyses"
+    },
+    "SETTINGS": {
+        "FORM_BUILDER": {
+            "HOW_TO_USE_TUNNELS": "Comment paramétrer les statuts et les alertes ?",
+            "NAMES": {
+                "ACTION": "Alertes"
+            },
+            "TEMPLATE_ACTION": "Utiliser les alertes par défaut",
+            "TOOLTIP_ACTION": "Faire apparaître ce champ dans vos onglets de votre centre d'alertes."
+        },
+        "HEADER": {
+            "ACTIONS": "Alertes",
+            "LEAD": "Alertes",
+            "TAGS": "Mots-clés"
+        },
+        "PROFILE": {
+            "ROLES": {
+                "ADMIN": "Dialogueur coach",
+                "MANAGER": "Coordinateur",
+                "SUPERADMIN": "Administrateur",
+                "USER": "Exploreur"
+            }
+        }
+    },
+    "STRUCTURE": {
+        "NAVBAR": {
+            "MEMBERS": "Collaborateurs"
+        }
+    },
+    "USER_MANAGEMENT": {
+        "DETAIL": {
+            "ROLES": {
+                "ADMIN": {
+                    "TITLE": "Dialogueur coach"
+                },
+                "MANAGER": {
+                    "TITLE": "Coordinateur"
+                },
+                "SUPERADMIN": {
+                    "TITLE": "Administrateur"
+                },
+                "USER": {
+                    "TITLE": "Exploreur"
+                }
+            }
+        },
+        "KPI": {
+            "HELPERS": "exploreur | exploreurs",
+            "LEADERS": "administrateur | administrateurs",
+            "MANAGERS": "coordinateur | coordinateurs",
+            "ORGANIZERS": "dialogueur coach | dialogueurs coach",
+            "SUBTITLE": "Parlons énergies chez vous, à vos côtés, dans votre région",
+            "TITLE": "Votre région rassemble "
+        },
+        "USER_LIST": {
+            "ADD_USER": "Invitez un collaborateur"
+        }
+    },
+    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
+    "_COMMON": {
+        "TAGS": "Mots-clés"
+    }
+}

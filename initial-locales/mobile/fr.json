@@ -4,7 +4,7 @@
     "auth": {
         "chooseCampaign": {
             "emoji": "✊",
-            "joinYourCompaign": "Rejoignez votre campagne",
+            "joinYourCompaign": "Rejoignez votre espace",
             "letsGo": "Let's go!"
         },
         "createAccount": {
@@ -400,14 +400,14 @@
             "listFieldActions": {
                 "aroundMeLabel": "Autour de soi",
                 "campaignNotSet": {
-                    "campaignNotSetLabel": "Configuration de votre campagne en cours.",
+                    "campaignNotSetLabel": "Configuration de votre espace en cours",
                     "mailToContact": "support@quorum.co",
                     "moreInfoLabel": "Pour plus d'information, vous pouvez contacter le support : ",
-                    "subjectMailToContactSupport": "Campagne non configurée"
+                    "subjectMailToContactSupport": "Espace non configurée"
                 },
                 "citizensLabel": "citoyens",
                 "displayPastFieldActionsLabel": "Afficher les actions terminées",
-                "emptyPitch": "Il n'y a pas d'information supplémentaire. Vous pouvez contacter les organisteurs de la campagne",
+                "emptyPitch": "Il n'y a pas d'information supplémentaire. Vous pouvez contacter les responsables de l'espace.",
                 "finishAnActionLabel": "Terminée",
                 "foldUpTheCard": "- d'infos",
                 "hidePastFieldActionsLabel": "Masquer les actions terminées",

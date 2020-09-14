@@ -166,8 +166,8 @@
                 "SELECTED_STREETS_WITH_CONTACTS": "{count} rue sélectionnée avec contacts | {count} rue sélectionnée avec contacts | {count} rues sélectionnées avec contacts",
                 "SKIP": "Passer l'étape",
                 "SKIP_CREATE": "Créer une action sans citoyen",
-                "TAGS": "Tags",
-                "TAG_PLACEHOLDER": "Filtrer sur des tags",
+                "TAGS": "Mots-clés",
+                "TAG_PLACEHOLDER": "Filtrer sur des mots-clés",
                 "TERRITORY": "Les territoires",
                 "TERRITORY_PLACEHOLDER": "Filtrer sur un territoire",
                 "TIMEFORMAT": "JJ/MM/AAAA",
@@ -713,7 +713,7 @@
             "ADDRESS": "Adresse",
             "ADD_NOTE_BUTTON": "Ajouter une note",
             "ADD_NOTE_PLACEHOLDER": "Cliquer ici pour commencer à écrire une note.",
-            "ADD_TAG": "Ajouter un tag",
+            "ADD_TAG": "Ajouter un mot-clé",
             "ANSWER": "Réponse",
             "ANSWERS": "Questionnaire",
             "ASKING_TO_DELETE_CONTACT": "Êtes-vous bien sûr de vouloir supprimer ce contact ?",
@@ -722,7 +722,7 @@
             "BIRTHCOUNTRY": "Pays de naissance",
             "BIRTHDATE": "Age",
             "BUILDING": "Bâtiment",
-            "CHOOSE_OR_CREATE_TAG": "Choisir ou créer un",
+            "CHOOSE_OR_CREATE_TAG": "Choisir ou créer un mot clé",
             "CITY": "Ville",
             "COLLAPSE": "Réduire",
             "CONTACT_OWNER": "Propriétaire",
@@ -734,7 +734,7 @@
             "DOOR": "Porte ",
             "DO_DUPLICATES_WORKFLOW_CTA": "Traîter",
             "DUPLICATES_CONTACTS": "Doublon | Doublons",
-            "DUPLICATES_CONTACTS_DESCRIPTION": "Nous n'avons pas trouvé de doublons. | Nous avons trouvé {number} groupe de doublons potentiels pour ce contact. | Nous avons trouvé {number} groupes de doublons potentiels pour ce contact.",
+            "DUPLICATES_CONTACTS_DESCRIPTION": "Nous n'avons pas trouvé de doublons. | Nous avons trouvé un doublon potentiel pour ce contact. | Nous avons trouvé {number} doublons potentiels pour ce contact.",
             "EMAIL": "Email",
             "ERROR": "Une erreur est survenue, veuillez réessayer",
             "ERROR_ADD": "Une erreur nous empêche de créer ce contact",
@@ -770,7 +770,7 @@
             "SUCCESS_ADD": "Le contact a bien été ajouté !",
             "SUCCESS_DELETE": "Le contact a bien été supprimé.",
             "SYNC_NATIONBUILDER": "Le contact est synchronisé avec NationBuilder",
-            "TAGS": "Tags",
+            "TAGS": "Mots-clés",
             "TERRITORY": "Territoire",
             "UNKNOWN": "Contact inconnu ({id})",
             "UNSAVED_CONTACT": "Vous avez modifié ce contact",
@@ -812,7 +812,7 @@
                 },
                 "PHONE": "Téléphone",
                 "STATUS": "Statut",
-                "TAGS": "Tags",
+                "TAGS": "Mots-clés",
                 "TERRITORIES": "Territoires",
                 "VISIT": "Visite"
             },
@@ -861,6 +861,7 @@
             "HAS_BEEN_SELECTED_IN_ACTION": "a été sélectionné dans l'action : ",
             "NOTE_ADDED": "a ajouté une note",
             "NOTE_TITLE": "Note",
+            "NO_ACTIVITY_FOUND": "Aucune action n’a été menée sur ce contact pour le moment 🙄",
             "RECEIVED_AN_EMAIL": "Email automatique",
             "RECEIVED_AN_EMAIL_DESC": "Le contact a reçu un email automatique (via Quorum).",
             "RECEIVED_AN_SMS": "SMS",
@@ -944,12 +945,12 @@
                 "ACTIONS": "Éditer",
                 "ERROR": "Une erreur est survenue à la mise à jour de {name}.",
                 "MODIFY_STATUS": "Modifier le statut",
-                "MODIFY_TAGS": "Modifier les tags",
+                "MODIFY_TAGS": "Modifier les mots-clés",
                 "MODIFY_TERRITORY": "Modifier le territoire",
                 "SUCCESS": "Mise à jour terminée !",
                 "TITLE": {
                     "STATUS": "Modifier le statut de {count} contacts",
-                    "TAGS": "Modifier les tags de {count} contacts",
+                    "TAGS": "Modifier les mots-clés de {count} contacts",
                     "TERRITORIES": "Modifier le territoire de {count} contacts"
                 },
                 "WARNING": "Attention vous allez appliquer cette modification à tous les contacts sélectionnés sur cette page."
@@ -974,7 +975,7 @@
                 "MARITAL_NAME": "Nom Marital",
                 "POSTALCODE": "Code postal",
                 "STATUS": "Statut",
-                "TAGS": "Tags",
+                "TAGS": "Mots-clés",
                 "TERRITORY": "Territoire"
             },
             "TABLE_TITLE": "Afficher / Masquer colonnes",
@@ -1316,6 +1317,15 @@
             "ADDRESS_INFO_TITLE": "Informations importantes",
             "AGE": "Age",
             "AGE_CATEGORY": "Tranches d'âge",
+            "AGE_CATEGORY_VALUES": {
+                "0": "Âge non renseigné",
+                "1": "Moins de 18 ans",
+                "2": "18 - 25 ans",
+                "3": "25 - 35 ans ",
+                "4": "35 - 50 ans",
+                "5": "50 - 65 ans",
+                "6": "65 ans et plus"
+            },
             "BIRTHCITY": "Commune de naissance",
             "BIRTHCOUNTRY": "Pays de naissance",
             "BIRTHDATE": "Date de naissance",
@@ -1442,7 +1452,7 @@
             "MAILAUTO": "Email automatique",
             "PROFILE": "Profil",
             "STATUS": "Statuts",
-            "TAGS": "Gestion des tags"
+            "TAGS": "Gestion des mots clés"
         },
         "MODE": {
             "ALPHA": "ALPHA",
@@ -1589,14 +1599,14 @@
         }
     },
     "SURVEY": {
-        "LAST_WEEK": "Semaine dernière",
-        "LAST_MONTH": "Mois dernier",
-        "LAST_3_MONTHS": "Trois derniers mois",
-        "DISABLED": "Aucun questionnaire n'a été publié pour le moment.",
         "CREATION": "Création",
         "DETAILED": "Détaillé",
+        "DISABLED": "Aucun questionnaire n'a été publié pour le moment.",
         "END": "Date de fin",
         "GENERAL": "Général",
+        "LAST_3_MONTHS": "Trois derniers mois",
+        "LAST_MONTH": "Mois dernier",
+        "LAST_WEEK": "Semaine dernière",
         "QUESTION": "Question",
         "RESULTS": "Résultat",
         "START": "Date de début",
@@ -5127,10 +5137,10 @@
                 "label": "Surface"
             },
             "tags": {
-                "label": "Tag"
+                "label": "Mot-clé"
             },
             "tags_seen": {
-                "label": "Tag"
+                "label": "Mot-clé"
             },
             "terraced_houses_perc": {
                 "label": "Taux de maisons mitoyennes - 2011"
@@ -5432,6 +5442,7 @@
             "DOOR": "Porte",
             "FLOOR": "Étage",
             "HOUSENUMBER": "Numéro",
+            "POLLINGSTATION": "Territoire",
             "STREET": "Rue",
             "ZIP": "Code postal"
         },
@@ -5512,7 +5523,7 @@
         "STAY_ON_PAGE": "Rester sur la page",
         "STREET": "Rue",
         "SUMMARY": "Récapitulatif",
-        "TAGS": "Tags",
+        "TAGS": "Mots-clés",
         "TELEPHONE": "Téléphone",
         "TERRITORIES": "Territoire | Territoires",
         "TIME": {
