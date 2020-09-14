@@ -459,58 +459,6 @@
             }
         }
     },
-    "SHARING": {
-        "BRIEFS": {
-            "HEADER": {
-                "ADD": "Ajouter un brief",
-                "EDIT": "Modifier un brief",
-                "SEARCH": "Rechercher un brief",
-                "TITLE": "Brief | Briefs",
-                "DELETE": " | Supprimer 1 brief | Supprimer {count} briefs"
-            },
-            "LIST": {
-                "ADD": "Ajoutez votre premier brief",
-                "NOT_FOUND": "Aucun brief ne correspond à votre recherche.",
-                "EMPTY_STATE": "Aucun brief pour le moment !",
-                "INFORMATION": "C’est ici que vous pouvez créer des <strong>éléments de language</strong> et des <strong>scripts.</strong> Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles <strong>informés et outillés.</strong>"
-            },
-            "MODAL": {
-                "NAME": "Nom du brief",
-                "PLACEHOLDER": "Contenu du brief : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
-                "PLACEHOLDER_SELECT": "Choisir un brief",
-                "SUCCESS": {
-                    "ADD": "Brief ajouté ! 👍",
-                    "DELETE": "Brief supprimé",
-                    "EDIT": "Brief sauvegardé ! 👍"
-                }
-            }
-        },
-        "DOCS": {
-            "HEADER": {
-                "ADD": "Ajouter un document",
-                "EDIT": "Modifier un document",
-                "SEARCH": "Rechercher un brief",
-                "TITLE": "Document | Documents",
-                "DELETE": " | Supprimer 1 document | Supprimer {count} documents"
-            },
-            "LIST": {
-                "ADD": "Ajoutez votre premier document",
-                "NOT_FOUND": "Aucun document ne correspond à votre recherche.",
-                "EMPTY_STATE": "Aucun document pour le moment !",
-                "INFORMATION": "C’est ici que vous pouvez créer des <strong>éléments de language</strong> et des <strong>scripts.</strong> Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles <strong>informés et outillés.</strong>"
-            },
-            "MODAL": {
-                "NAME": "Nom du document",
-                "PLACEHOLDER": "Contenu du document : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
-                "PLACEHOLDER_SELECT": "Choisir un document",
-                "SUCCESS": {
-                    "ADD": "Document ajouté ! 👍",
-                    "DELETE": "Document supprimé",
-                    "EDIT": "Document sauvegardé ! 👍"
-                }
-            }
-        }
-    },
     "CARTO": {
         "CAPTION": {
             "FROM": "entre",
@@ -1503,6 +1451,58 @@
         },
         "TAGS": {
             "CONTACTS": "0 contact | un contact | {count} contacts"
+        }
+    },
+    "SHARING": {
+        "BRIEFS": {
+            "HEADER": {
+                "ADD": "Ajouter un brief",
+                "DELETE": " | Supprimer 1 brief | Supprimer {count} briefs",
+                "EDIT": "Modifier un brief",
+                "SEARCH": "Rechercher un brief",
+                "TITLE": "Brief | Briefs"
+            },
+            "LIST": {
+                "ADD": "Ajoutez votre premier brief",
+                "EMPTY_STATE": "Aucun brief pour le moment !",
+                "INFORMATION": "C’est ici que vous pouvez créer des <strong>éléments de language</strong> et des <strong>scripts.</strong> Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles <strong>informés et outillés.</strong>",
+                "NOT_FOUND": "Aucun brief ne correspond à votre recherche."
+            },
+            "MODAL": {
+                "NAME": "Nom du brief",
+                "PLACEHOLDER": "Contenu du brief : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
+                "PLACEHOLDER_SELECT": "Choisir un brief",
+                "SUCCESS": {
+                    "ADD": "Brief ajouté ! 👍",
+                    "DELETE": "Brief supprimé",
+                    "EDIT": "Brief sauvegardé ! 👍"
+                }
+            }
+        },
+        "DOCS": {
+            "HEADER": {
+                "ADD": "Ajouter un document",
+                "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
+                "EDIT": "Modifier un document",
+                "SEARCH": "Rechercher un brief",
+                "TITLE": "Document | Documents"
+            },
+            "LIST": {
+                "ADD": "Ajoutez votre premier document",
+                "EMPTY_STATE": "Aucun document pour le moment !",
+                "INFORMATION": "C’est ici que vous pouvez créer des <strong>éléments de language</strong> et des <strong>scripts.</strong> Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles <strong>informés et outillés.</strong>",
+                "NOT_FOUND": "Aucun document ne correspond à votre recherche."
+            },
+            "MODAL": {
+                "NAME": "Nom du document",
+                "PLACEHOLDER": "Contenu du document : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
+                "PLACEHOLDER_SELECT": "Choisir un document",
+                "SUCCESS": {
+                    "ADD": "Document ajouté ! 👍",
+                    "DELETE": "Document supprimé",
+                    "EDIT": "Document sauvegardé ! 👍"
+                }
+            }
         }
     },
     "SMS": {
