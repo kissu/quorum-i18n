@@ -459,56 +459,6 @@
             }
         }
     },
-    "SHARING": {
-        "BRIEFS": {
-            "HEADER": {
-                "ADD": "Add a talking point",
-                "EDIT": "Edit the note",
-                "SEARCH": "Search for a note",
-                "TITLE": "Talking Point | Talking Points"
-            },
-            "LIST": {
-                "ADD": "Add your first talking point",
-                "NOT_FOUND": "No notes matches your search.",
-                "EMPTY_STATE": "No talking point at the moment! Go write your first!",
-                "INFORMATION": "This is where you can create <strong>talking points<strong> and <strong>notes for your team.</strong> All you have to do is link a talking point to an action to keep your team  <strong>informed</strong> and turn anyone into a spokesperson. "
-            },
-            "MODAL": {
-                "NAME": "Name of the note",
-                "PLACEHOLDER": "Create here notes and talking points for your team!",
-                "PLACEHOLDER_SELECT": "Choose a talking point",
-                "SUCCESS": {
-                    "ADD": "Note added! 👍",
-                    "DELETE": "Note deleted",
-                    "EDIT": "Note edited! 👍"
-                }
-            }
-        },
-        "DOCS": {
-            "HEADER": {
-                "ADD": "Add a document",
-                "EDIT": "Edit the document",
-                "SEARCH": "Search for a document",
-                "TITLE": "Document | Documents"
-            },
-            "LIST": {
-                "ADD": "Add your first document",
-                "NOT_FOUND": "No documents matches your search.",
-                "EMPTY_STATE": "No document at the moment! Go write your first!",
-                "INFORMATION": "This is where you can create <strong>documents<strong> and <strong>documents for your team.</strong> All you have to do is link a document to an action to keep your team  <strong>informed</strong> and turn anyone into a spokesperson. "
-            },
-            "MODAL": {
-                "NAME": "Name of the document",
-                "PLACEHOLDER": "Create here documents and documents for your team!",
-                "PLACEHOLDER_SELECT": "Choose a document",
-                "SUCCESS": {
-                    "ADD": "Document added! 👍",
-                    "DELETE": "Document deleted",
-                    "EDIT": "Document edited! 👍"
-                }
-            }
-        }
-    },
     "CARTO": {
         "CAPTION": {
             "FROM": "from",
@@ -1213,7 +1163,6 @@
         "ACTIONS": "Actions",
         "ANALYSIS": "Analytics",
         "BRIEFS": "Talking Points",
-        "SHARING": "Files ### A changer ###",
         "CAMPAIGN_MAILCHIMP": "Mailchimp campaigns",
         "CHAT": "Chat with support",
         "CITIZENS": "People",
@@ -1237,6 +1186,7 @@
         "PRIO": "Targeting",
         "QUORUM": "Quorum",
         "QUORUM_HAND": "Quorum at your fingertips",
+        "SHARING": "Files ### A changer ###",
         "STRATEGY": "STRATEGY",
         "SUGGESTIONS": "Send Suggestions",
         "SUPERVISOR_VIEW": "Vue superviseur",
@@ -1493,6 +1443,56 @@
         },
         "TAGS": {
             "CONTACTS": "nobody | one people | {count} people"
+        }
+    },
+    "SHARING": {
+        "BRIEFS": {
+            "HEADER": {
+                "ADD": "Add a talking point",
+                "EDIT": "Edit the note",
+                "SEARCH": "Search for a note",
+                "TITLE": "Talking Point | Talking Points"
+            },
+            "LIST": {
+                "ADD": "Add your first talking point",
+                "EMPTY_STATE": "No talking point at the moment! Go write your first!",
+                "INFORMATION": "This is where you can create <strong>talking points<strong> and <strong>notes for your team.</strong> All you have to do is link a talking point to an action to keep your team  <strong>informed</strong> and turn anyone into a spokesperson. ",
+                "NOT_FOUND": "No notes matches your search."
+            },
+            "MODAL": {
+                "NAME": "Name of the note",
+                "PLACEHOLDER": "Create here notes and talking points for your team!",
+                "PLACEHOLDER_SELECT": "Choose a talking point",
+                "SUCCESS": {
+                    "ADD": "Note added! 👍",
+                    "DELETE": "Note deleted",
+                    "EDIT": "Note edited! 👍"
+                }
+            }
+        },
+        "DOCS": {
+            "HEADER": {
+                "ADD": "Add a document",
+                "EDIT": "Edit the document",
+                "SEARCH": "Search for a document",
+                "TITLE": "Document | Documents"
+            },
+            "LIST": {
+                "ADD": "Add your first document",
+                "EMPTY_STATE": "No document at the moment! Go write your first!",
+                "INFORMATION": "This is where you can create <strong>documents<strong> and <strong>documents for your team.</strong> All you have to do is link a document to an action to keep your team  <strong>informed</strong> and turn anyone into a spokesperson. ",
+                "NOT_FOUND": "No documents matches your search."
+            },
+            "MODAL": {
+                "NAME": "Name of the document",
+                "PLACEHOLDER": "Create here documents and documents for your team!",
+                "PLACEHOLDER_SELECT": "Choose a document",
+                "SUCCESS": {
+                    "ADD": "Document added! 👍",
+                    "DELETE": "Document deleted",
+                    "EDIT": "Document edited! 👍"
+                }
+            }
         }
     },
     "SMS": {
