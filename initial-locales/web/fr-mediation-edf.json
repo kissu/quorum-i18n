@@ -10,8 +10,8 @@
             },
             "SEARCH": {
                 "USER": "Sélectionnez les collaborateurs et/ou les équipes qui feront l'action",
-                "USER_HELP_CTA": "ou invitez un nouveau collaborateur",
-                "USER_EMPTY": "Aucun collaborateur ne correspond à ces critères !"
+                "USER_EMPTY": "Aucun collaborateur ne correspond à ces critères !",
+                "USER_HELP_CTA": "ou invitez un nouveau collaborateur"
             },
             "TARGET": {
                 "ABSENT_OR_NOT_VISITED": "Absent ou jamais rencontré",
@@ -88,6 +88,10 @@
             "NOT_VISITED": "Pas encore rencontré"
         },
         "LIST": {
+            "CSV_HEADER": {
+                "user_firstname": "Prénom du collaborateur",
+                "user_surname": "Nom du collaborateur"
+            },
             "MODAL": {
                 "MODIFY_TAGS": "Modifier les mots-clés",
                 "TITLE": {
@@ -98,10 +102,6 @@
             "TABLE": {
                 "CONTACT": "Rencontré par",
                 "TAGS": "Mots-clés"
-            },
-            "CSV_HEADER": {
-                "user_surname": "Nom du collaborateur",
-                "user_firstname": "Prénom du collaborateur"
             }
         }
     },
@@ -159,6 +159,10 @@
                 }
             }
         },
+        "INVITE": {
+            "ADD_MORE": "Ajouter un collaborateur supplémentaire ",
+            "HELPER$1": "Renseignez l'email du collaborateur que vous souhaitez inviter à rejoindre votre espace"
+        },
         "KPI": {
             "HELPERS": "exploreur | exploreurs",
             "LEADERS": "équipe projet | équipes projet",
@@ -169,10 +173,6 @@
         },
         "USER_LIST": {
             "ADD_USER": "Invitez un collaborateur"
-        },
-        "INVITE": {
-            "HELPER$1": "Renseignez l'email du collaborateur que vous souhaitez inviter à rejoindre votre espace",
-            "ADD_MORE": "Ajouter un collaborateur supplémentaire "
         }
     },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
