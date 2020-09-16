@@ -4,20 +4,20 @@
             "INFORMATIONS": {
                 "AIM_HELPER": "Soyez bref pour vos collaborateurs.",
                 "AIM_PLACEHOLDER": "Soyez concis pour vos collaborateurs !",
+                "BRIEF_CHOOSE_ONE": "Sélectionnez un brief",
                 "BRIEF_TITLE_CREATION": "Créer un brief pour vos collaborateurs",
+                "CREATE_BRIEF": "Créer un nouveau brief",
                 "LINK_CLICKABLE": "Cliquable par vos collaborateurs",
                 "LINK_POPHOVER": "",
                 "TYPES": {
-                    "STATIC": "Rencontre",
-                    "CALL": "Appel"
-                },
-                "CREATE_BRIEF": "Créer un nouveau brief",
-                "BRIEF_CHOOSE_ONE": "Sélectionnez un brief"
+                    "CALL": "Appel",
+                    "STATIC": "Rencontre"
+                }
             },
             "SEARCH": {
                 "USER": "Sélectionnez les collaborateurs et/ou les équipes qui feront l'action",
-                "USER_HELP_CTA": "ou invitez un nouveau collaborateur",
-                "USER_EMPTY": "Aucun collaborateur ne correspond à ces critères !"
+                "USER_EMPTY": "Aucun collaborateur ne correspond à ces critères !",
+                "USER_HELP_CTA": "ou invitez un nouveau collaborateur"
             },
             "TARGET": {
                 "ABSENT_OR_NOT_VISITED": "Absent ou jamais rencontré",
@@ -43,6 +43,11 @@
             "START_ACTION": "Une fois invité, vos collaborateurs seront notifiés."
         }
     },
+    "ANALYTICS": {
+        "GENERATION": {
+            "MEMBERS": "Collaborateurs"
+        }
+    },
     "APP": {
         "SETTINGS": {
             "CAMPAIGN": {
@@ -53,14 +58,14 @@
     "BRIEFS": {
         "HEADER": {
             "ADD_BRIEF": "Ajoutez un brief",
-            "TITLE": "Brief | Briefs",
-            "SEARCH": "Rechercher un brief"
+            "SEARCH": "Rechercher un brief",
+            "TITLE": "Brief | Briefs"
         },
         "LIST": {
             "ADD_BRIEF": "Ajoutez votre premier brief",
+            "BRIEF_NOT_FOUND": "Aucun brief ne correspond à votre recherche.",
             "EMPTY_STATE": "Aucun brief pour le moment.",
-            "INFORMATION_BRIEF": "C'est ici que vous pouvez créer des briefs. Ils seront essentiels pour les actions de vos collaborateurs. ",
-            "BRIEF_NOT_FOUND": "Aucun brief ne correspond à votre recherche."
+            "INFORMATION_BRIEF": "C'est ici que vous pouvez créer des briefs. Ils seront essentiels pour les actions de vos collaborateurs. "
         },
         "MODAL": {
             "PLACEHOLDER_SELECT": "Choisissez un brief"
@@ -69,13 +74,13 @@
     "CARTO": {
         "CC": {
             "CALL_TO_ACTION": {
+                "MEMBERS": "Collaborateurs",
+                "MEMBERS_HERE": "Aucun collaborateurs dans cette zone | Un collaborateur dans cette zone | {count} collaborateurs dans cette zone",
                 "SEEN": "Rencontré",
                 "STATUS_VISITED": "Statuts et Rencontré(e)s",
                 "TABS": {
                     "MOBILISATION": "Progression"
-                },
-                "MEMBERS": "Collaborateurs",
-                "MEMBERS_HERE": "Aucun collaborateurs dans cette zone | Un collaborateur dans cette zone | {count} collaborateurs dans cette zone"
+                }
             },
             "NAVIGATOR": {
                 "LAYERS": {
@@ -101,6 +106,10 @@
             "NOT_VISITED": "Pas encore rencontré"
         },
         "LIST": {
+            "CSV_HEADER": {
+                "user_firstname": "Prénom du collaborateur",
+                "user_surname": "Nom du collaborateur"
+            },
             "MODAL": {
                 "MODIFY_TAGS": "Modifier les mots-clés",
                 "TITLE": {
@@ -111,10 +120,6 @@
             "TABLE": {
                 "CONTACT": "Rencontré par",
                 "TAGS": "Mots-clés"
-            },
-            "CSV_HEADER": {
-                "user_surname": "Nom du collaborateur",
-                "user_firstname": "Prénom du collaborateur"
             }
         }
     },
@@ -172,58 +177,53 @@
                 }
             }
         },
+        "INVITE": {
+            "ADD_MORE": "Ajouter un collaborateur supplémentaire ",
+            "HELPER$1": "Renseignez l'email du collaborateur que vous souhaitez inviter à rejoindre votre espace",
+            "HELPER$3": "Les collaborateurs seront visibles dans la liste de votre équipe une fois leur profil complété.",
+            "HELPER$4": "• Un collaborateur invité se voit automatiquement attribuer le rôle de \"Exploreur\". Vous pouvez modifier ensuite son rôle sur sa fiche si vous souhaitez lui attribuer un rôle supérieur.",
+            "SUCCESS": "0 collaborateur invité | Félicitations ! Un nouveau collaborateur a été invité | Félicitations ! {count} nouveaux collaborateurs ont été invités !"
+        },
         "KPI": {
             "HELPERS": "exploreur | exploreurs",
             "LEADERS": "équipe projet | équipes projet",
             "MANAGERS": "coordinateur | coordinateurs",
+            "MEMBERS": "collaborateur et | collaborateurs et ",
             "ORGANIZERS": "dialogueur coach | dialogueurs coach",
             "SUBTITLE": "Parlons énergies chez vous, à vos côtés, dans votre région",
-            "TITLE": "Votre région rassemble ",
-            "MEMBERS": "collaborateur et | collaborateurs et "
+            "TITLE": "Votre région rassemble "
         },
         "USER_LIST": {
             "ADD_USER": "Invitez un collaborateur",
-            "SEARCHUSER": "Rechercher un collaborateur",
-            "GDPR_TEXT": "En donnant à vos collaborateurs l'accès au Quorum, ils peuvent être exposés à des informations et données personnelles potentiellement sensibles, selon le \"rôle\" que vous leur attribuez. Il est important de sensibiliser vos équipes à l'utilisation des données personnelles !",
             "EDITION": {
                 "SAVE_USER_SUCCESS": "Les informations du collaborateur ont été mises à jour"
             },
-            "USERS": {
-                "EMPTY_STATES": {
-                    "LABEL": "Invitez vos collaborateurs à télécharger l'application !",
-                    "TITLE": "Ajoutez des collaborateurs ! ✊"
-                },
-                "DELETE_SUCCESS": "Le collaborateur a bien été supprimé",
-                "DELETE_BODY": "Voulez-vous supprimer ce collaborateur ? Toute suppression est irreversible"
-            },
-            "TEAMS": {
-                "MEMBERS": "0 collaborateurs | 1 collaborateur | %{count} collaborateurs",
-                "EDIT": {
-                    "USERS_PLACEHOLDER": "Ajouter un collaborateur",
-                    "MEMBERS": "Collaborateurs"
-                }
-            },
+            "GDPR_TEXT": "En donnant à vos collaborateurs l'accès au Quorum, ils peuvent être exposés à des informations et données personnelles potentiellement sensibles, selon le \"rôle\" que vous leur attribuez. Il est important de sensibiliser vos équipes à l'utilisation des données personnelles !",
+            "SEARCHUSER": "Rechercher un collaborateur",
             "TABS": {
                 "MEMBERS": "Exploreur | Exploreur | Exploreurs"
             },
+            "TEAMS": {
+                "EDIT": {
+                    "MEMBERS": "Collaborateurs",
+                    "USERS_PLACEHOLDER": "Ajouter un collaborateur"
+                },
+                "MEMBERS": "0 collaborateurs | 1 collaborateur | %{count} collaborateurs"
+            },
+            "USERS": {
+                "DELETE_BODY": "Voulez-vous supprimer ce collaborateur ? Toute suppression est irreversible",
+                "DELETE_SUCCESS": "Le collaborateur a bien été supprimé",
+                "EMPTY_STATES": {
+                    "LABEL": "Invitez vos collaborateurs à télécharger l'application !",
+                    "TITLE": "Ajoutez des collaborateurs ! ✊"
+                }
+            },
             "USER_SELECTED": "Aucun collaborateur sélectionnés| 1 collaborateur sélectionné | {count} collaborateur sélectionné"
-        },
-        "INVITE": {
-            "HELPER$1": "Renseignez l'email du collaborateur que vous souhaitez inviter à rejoindre votre espace",
-            "ADD_MORE": "Ajouter un collaborateur supplémentaire ",
-            "SUCCESS": "0 collaborateur invité | Félicitations ! Un nouveau collaborateur a été invité | Félicitations ! {count} nouveaux collaborateurs ont été invités !",
-            "HELPER$4": "• Un collaborateur invité se voit automatiquement attribuer le rôle de \"Exploreur\". Vous pouvez modifier ensuite son rôle sur sa fiche si vous souhaitez lui attribuer un rôle supérieur.",
-            "HELPER$3": "Les collaborateurs seront visibles dans la liste de votre équipe une fois leur profil complété."
         }
     },
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
     "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "_COMMON": {
         "TAGS": "Mots-clés"
-    },
-    "ANALYTICS": {
-        "GENERATION": {
-            "MEMBERS": "Collaborateurs"
-        }
     }
 }
