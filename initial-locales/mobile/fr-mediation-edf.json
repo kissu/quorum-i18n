@@ -2,11 +2,6 @@
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
     "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "logged": {
-        "form": {
-            "endForm": {
-                "rateTheForm": "Qualifier l'échange"
-            }
-        },
         "headQuarter": {
             "quickActions": {
                 "add": "Lancer un entretien spontané",
@@ -17,6 +12,20 @@
             "public": {
                 "joinMouvement": {
                     "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région."
+                }
+            }
+        },
+        "form": {
+            "endForm": {
+                "rateTheForm": "Qualifier l'échange"
+            },
+            "rateContact": {
+                "howTheDiscussionHasGoing": "Une étape post-entretien ?"
+            },
+            "answers": {
+                "support": {
+                    "titleWhatIsTheNextStep": "Une étape post-entretien ?",
+                    "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?"
                 }
             }
         }
