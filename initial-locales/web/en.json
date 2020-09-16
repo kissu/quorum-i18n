@@ -1467,10 +1467,10 @@
                 "NOT_FOUND": "No notes matches your search."
             },
             "MODAL": {
+                "ERROR": "An error occurred, please try again",
                 "NAME": "Name of the note",
                 "PLACEHOLDER": "Create here notes and talking points for your team!",
                 "PLACEHOLDER_SELECT": "Choose a talking point",
-                "ERROR": "An error occurred, please try again",
                 "SUCCESS": {
                     "ADD": "Note added! 👍",
                     "DELETE": "Note deleted! 👍",
@@ -1500,10 +1500,10 @@
                 "NOT_FOUND": "No documents matches your search."
             },
             "MODAL": {
+                "ERROR": "An error occurred, please try again",
                 "NAME": "Name of the document",
                 "PLACEHOLDER": "Create here documents and documents for your team!",
                 "PLACEHOLDER_SELECT": "Choose a document",
-                "ERROR": "An error occurred, please try again",
                 "SUCCESS": {
                     "ADD": "Document added! 👍",
                     "DELETE": "Document deleted! 👍",
