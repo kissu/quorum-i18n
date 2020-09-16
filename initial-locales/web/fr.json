@@ -1478,6 +1478,7 @@
                 "NAME": "Nom du brief",
                 "PLACEHOLDER": "Contenu du brief : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
                 "PLACEHOLDER_SELECT": "Choisir un brief",
+                "ERROR": "Une erreur est survenue, veuillez réessayer",
                 "SUCCESS": {
                     "ADD": "Brief ajouté ! 👍",
                     "DELETE": "Brief supprimé",
@@ -1509,6 +1510,7 @@
                 "NAME": "Nom du document",
                 "PLACEHOLDER": "Contenu du document : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
                 "PLACEHOLDER_SELECT": "Choisir un document",
+                "ERROR": "Une erreur est survenue, veuillez réessayer",
                 "SUCCESS": {
                     "ADD": "Document ajouté ! 👍",
                     "DELETE": "Document supprimé",
