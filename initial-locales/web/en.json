@@ -1473,8 +1473,9 @@
                 "ERROR": "An error occurred, please try again",
                 "SUCCESS": {
                     "ADD": "Note added! 👍",
-                    "DELETE": "Note deleted",
-                    "EDIT": "Note edited! 👍"
+                    "DELETE": "Note deleted! 👍",
+                    "EDIT": "Note edited! 👍",
+                    "UPDATE": "Note updated! 👍"
                 }
             }
         },
@@ -1505,8 +1506,9 @@
                 "ERROR": "An error occurred, please try again",
                 "SUCCESS": {
                     "ADD": "Document added! 👍",
-                    "DELETE": "Document deleted",
-                    "EDIT": "Document edited! 👍"
+                    "DELETE": "Document deleted! 👍",
+                    "EDIT": "Document edited! 👍",
+                    "UPDATE": "Document updated! 👍"
                 }
             }
         }

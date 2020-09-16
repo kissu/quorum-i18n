@@ -1481,8 +1481,9 @@
                 "ERROR": "Une erreur est survenue, veuillez réessayer",
                 "SUCCESS": {
                     "ADD": "Brief ajouté ! 👍",
-                    "DELETE": "Brief supprimé",
-                    "EDIT": "Brief sauvegardé ! 👍"
+                    "DELETE": "Brief supprimé 👍",
+                    "EDIT": "Brief sauvegardé ! 👍",
+                    "UPDATE": "Brief mis à jour ! 👍"
                 }
             }
         },
@@ -1513,8 +1514,9 @@
                 "ERROR": "Une erreur est survenue, veuillez réessayer",
                 "SUCCESS": {
                     "ADD": "Document ajouté ! 👍",
-                    "DELETE": "Document supprimé",
-                    "EDIT": "Document sauvegardé ! 👍"
+                    "DELETE": "Document supprimé ! 👍",
+                    "EDIT": "Document sauvegardé ! 👍",
+                    "UPDATE": "Document mis à jour ! 👍"
                 }
             }
         }
