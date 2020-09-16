@@ -466,7 +466,13 @@
                 "EDIT": "Edit the note",
                 "SEARCH": "Search for a note",
                 "TITLE": "Talking Point | Talking Points",
-                "DELETE": " | Delete 1 talking point | Delete {count} talking points"
+                "DELETE": " | Delete 1 talking point | Delete {count} talking points",
+                "CONFIRM": {
+                    "TITLE": "Warning",
+                    "CANCEL": "Cancel",
+                    "CONFIRM": "Confirm",
+                    "DELETE": " | Are you sure you want to delete this talking point? | Are you sure you want to delete these {count} talking points?"
+                }
             },
             "LIST": {
                 "ADD": "Add your first talking point",
@@ -491,7 +497,13 @@
                 "EDIT": "Edit the document",
                 "SEARCH": "Search for a document",
                 "TITLE": "Document | Documents",
-                "DELETE": " | Delete 1 document | Delete {count} documents"
+                "DELETE": " | Delete 1 document | Delete {count} documents",
+                "CONFIRM": {
+                    "TITLE": "Warning",
+                    "CANCEL": "Cancel",
+                    "CONFIRM": "Confirm",
+                    "DELETE": " | Are you sure you want to delete this document? | Are you sure you want to delete these {count} documents?"
+                }
             },
             "LIST": {
                 "ADD": "Add your first document",
@@ -5423,6 +5435,7 @@
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "en",
     "XXX_TRANSLATION_LANGUAGE_NAME": "English",
     "_COMMON": {
+        "DOWNLOAD": "Download",
         "ACTION": {
             "ENTITY_SUCCESSFULLY_UPDATED": "{entity} succesfully updated !",
             "ENTITY_UPDATE_FAILED": "An error happened while updating the action."

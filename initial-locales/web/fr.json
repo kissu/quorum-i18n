@@ -466,7 +466,13 @@
                 "EDIT": "Modifier un brief",
                 "SEARCH": "Rechercher un brief",
                 "TITLE": "Brief | Briefs",
-                "DELETE": " | Supprimer 1 brief | Supprimer {count} briefs"
+                "DELETE": " | Supprimer 1 brief | Supprimer {count} briefs",
+                "CONFIRM": {
+                    "TITLE": "Attention",
+                    "CANCEL": "Annuler",
+                    "CONFIRM": "Confirmer",
+                    "DELETE": " | Êtes-vous sûr de vouloir supprimer ce brief ? | Êtes-vous sûr de vouloir supprimer ces {count} briefs ?"
+                }
             },
             "LIST": {
                 "ADD": "Ajoutez votre premier brief",
@@ -491,7 +497,13 @@
                 "EDIT": "Modifier un document",
                 "SEARCH": "Rechercher un brief",
                 "TITLE": "Document | Documents",
-                "DELETE": " | Supprimer 1 document | Supprimer {count} documents"
+                "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
+                "CONFIRM": {
+                    "TITLE": "Attention",
+                    "CANCEL": "Annuler",
+                    "CONFIRM": "Confirmer",
+                    "DELETE": " | Êtes-vous sûr de vouloir supprimer ce document ? | Êtes-vous sûr de vouloir supprimer ces {count} documents ?"
+                }
             },
             "LIST": {
                 "ADD": "Ajoutez votre premier document",
@@ -5431,6 +5443,7 @@
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr",
     "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "_COMMON": {
+        "DOWNLOAD": "Télécharger",
         "ACTION": {
             "ENTITY_SUCCESSFULLY_UPDATED": "{entity} mis à jour avec succès !",
             "ENTITY_UPDATE_FAILED": "Erreur lors de la mise à jour de l'action."
