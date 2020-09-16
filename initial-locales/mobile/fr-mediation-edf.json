@@ -2,6 +2,11 @@
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
     "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "logged": {
+        "form": {
+            "endForm": {
+                "rateTheForm": "Qualifier l'échange"
+            }
+        },
         "headQuarter": {
             "quickActions": {
                 "add": "Lancer un entretien spontané",

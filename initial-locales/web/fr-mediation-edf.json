@@ -9,7 +9,9 @@
                 "LINK_POPHOVER": ""
             },
             "SEARCH": {
-                "USER": "Sélectionnez les membres et/ou les équipes qui feront l'action"
+                "USER": "Sélectionnez les collaborateurs et/ou les équipes qui feront l'action",
+                "USER_EMPTY": "Aucun collaborateur ne correspond à ces critères !",
+                "USER_HELP_CTA": "ou invitez un nouveau collaborateur"
             },
             "TARGET": {
                 "ABSENT_OR_NOT_VISITED": "Absent ou jamais rencontré",
@@ -28,7 +30,8 @@
         "EDIT": {
             "ALL_USERS_ALREADY_SELECTED": "Tous les collaborateurs ont été ajoutés",
             "BRIEF": "Ajoutez un document",
-            "MEMBERS": "Collaborateurs"
+            "MEMBERS": "Collaborateurs",
+            "SELECT_ONE_AT_LEAST": "Sélectionnez au moins un collaborateur ou un équipe"
         }
     },
     "APP": {
@@ -64,7 +67,8 @@
             "NAVIGATOR": {
                 "LAYERS": {
                     "ACTIONS": "Rencontres",
-                    "SEEN": "Rencontré"
+                    "SEEN": "Rencontré",
+                    "USERS": "Collaborateurs"
                 }
             }
         }
@@ -84,6 +88,10 @@
             "NOT_VISITED": "Pas encore rencontré"
         },
         "LIST": {
+            "CSV_HEADER": {
+                "user_firstname": "Prénom du collaborateur",
+                "user_surname": "Nom du collaborateur"
+            },
             "MODAL": {
                 "MODIFY_TAGS": "Modifier les mots-clés",
                 "TITLE": {
@@ -124,7 +132,7 @@
             "ROLES": {
                 "ADMIN": "Dialogueur coach",
                 "MANAGER": "Coordinateur",
-                "SUPERADMIN": "Administrateur",
+                "SUPERADMIN": "Équipe projet",
                 "USER": "Exploreur"
             }
         }
@@ -144,16 +152,20 @@
                     "TITLE": "Coordinateur"
                 },
                 "SUPERADMIN": {
-                    "TITLE": "Administrateur"
+                    "TITLE": "Équipe projet"
                 },
                 "USER": {
                     "TITLE": "Exploreur"
                 }
             }
         },
+        "INVITE": {
+            "ADD_MORE": "Ajouter un collaborateur supplémentaire ",
+            "HELPER$1": "Renseignez l'email du collaborateur que vous souhaitez inviter à rejoindre votre espace"
+        },
         "KPI": {
             "HELPERS": "exploreur | exploreurs",
-            "LEADERS": "administrateur | administrateurs",
+            "LEADERS": "équipe projet | équipes projet",
             "MANAGERS": "coordinateur | coordinateurs",
             "ORGANIZERS": "dialogueur coach | dialogueurs coach",
             "SUBTITLE": "Parlons énergies chez vous, à vos côtés, dans votre région",
