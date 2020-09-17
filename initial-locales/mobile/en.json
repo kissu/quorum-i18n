@@ -376,9 +376,9 @@
             "title": "Documents",
             "types": {
                 "image": "Image",
-                "video": "Video",
+                "other": "Other",
                 "pdf": "PDF",
-                "other": "Other"
+                "video": "Video"
             }
         },
         "fieldActions": {
