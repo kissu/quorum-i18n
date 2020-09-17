@@ -10,7 +10,8 @@
                 }
             },
             "endForm": {
-                "rateTheForm": "Qualifier l'échange"
+                "rateTheForm": "Qualifier l'échange",
+                "addAnotherCitizen": "Ajouter un nouveau contact !"
             },
             "rateContact": {
                 "howTheDiscussionHasGoing": "Une étape post-entretien ?"
@@ -19,7 +20,8 @@
         "headQuarter": {
             "quickActions": {
                 "add": "Lancer un entretien spontané",
-                "welcome": "Bienvenue cher exploreur {{firstname}} 👋"
+                "welcome": "Bienvenue cher exploreur {{firstname}} 👋",
+                "addSupport": "Ajouter un contact\n"
             }
         },
         "profile": {
@@ -28,6 +30,15 @@
                     "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région."
                 }
             }
+        },
+        "canvassing": {
+            "addCitizenCTA": "Ajouter un entretien"
         }
+    },
+    "errors": {
+        "backToHeadQuarter": "Retour à l'accueil"
+    },
+    "navigator": {
+        "QG": "Accueil"
     }
 }
