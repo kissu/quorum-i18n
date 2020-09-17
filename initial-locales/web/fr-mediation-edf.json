@@ -93,7 +93,7 @@
     },
     "CONTACT": {
         "EDIT": {
-            "LEAD": "Alertes",
+            "LEAD": "Feedbacks",
             "NOT_SEEN": "Pas encore rencontré",
             "TAGS": "Mots-clés"
         },
@@ -125,7 +125,7 @@
     },
     "MENU": {
         "BRIEFS": "Documents",
-        "ISSUE_CENTER": "Alertes",
+        "ISSUE_CENTER": "Feedbacks",
         "LEAD": "Ma communauté",
         "MEMBERS": "Équipes",
         "MOBILIZATION": "Mes actions",
@@ -134,16 +134,16 @@
     },
     "SETTINGS": {
         "FORM_BUILDER": {
-            "HOW_TO_USE_TUNNELS": "Comment paramétrer les statuts et les alertes ?",
+            "HOW_TO_USE_TUNNELS": "Comment paramétrer les statuts et les feedbacks ?",
             "NAMES": {
-                "ACTION": "Alertes"
+                "ACTION": "Feedbacks"
             },
-            "TEMPLATE_ACTION": "Utiliser les alertes par défaut",
-            "TOOLTIP_ACTION": "Faire apparaître ce champ dans vos onglets de votre centre d'alertes."
+            "TEMPLATE_ACTION": "Utiliser les feedbacks par défaut",
+            "TOOLTIP_ACTION": "Faire apparaître ce champ dans vos onglets de votre centre de feedbacks."
         },
         "HEADER": {
-            "ACTIONS": "Alertes",
-            "LEAD": "Alertes",
+            "ACTIONS": "Feedbacks",
+            "LEAD": "Feedbacks",
             "TAGS": "Mots-clés"
         },
         "PROFILE": {
