@@ -125,13 +125,13 @@
     },
     "MENU": {
         "BRIEFS": "Documents",
+        "CITIZENS": "Contacts",
         "ISSUE_CENTER": "Feedbacks",
         "LEAD": "Ma communauté",
         "MEMBERS": "Équipes",
         "MOBILIZATION": "Mes actions",
         "PARAMETERS": "Paramètres de l'espace",
-        "STRATEGY": "Mes analyses",
-        "CITIZENS": "Contacts"
+        "STRATEGY": "Mes analyses"
     },
     "SETTINGS": {
         "FORM_BUILDER": {
