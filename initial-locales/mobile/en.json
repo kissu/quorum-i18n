@@ -373,6 +373,7 @@
             }
         },
         "documents": {
+            "emptyDocuments": "No documents have been shared with you yet.",
             "title": "Documents",
             "types": {
                 "image": "Image",
