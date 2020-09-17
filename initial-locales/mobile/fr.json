@@ -372,6 +372,15 @@
                 "unnamedLabel": "Individu"
             }
         },
+        "documents": {
+            "title": "Documents",
+            "types": {
+                "image": "Image",
+                "video": "Vidéo",
+                "pdf": "PDF",
+                "other": "Autre"
+            }
+        },
         "fieldActions": {
             "advancedLayout": {
                 "actionBrief": "Brief de l'action",
