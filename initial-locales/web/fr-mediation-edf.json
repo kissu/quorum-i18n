@@ -12,6 +12,9 @@
                 "TYPES": {
                     "CALL": "Appel",
                     "STATIC": "Rencontre"
+                },
+                "TYPES_INFO": {
+                    "STATIC": "Communiquez un point de rencontre à vos équipes.<br /><br />• Définissez une date et un lieu de rendez-vous.<br />• Envoyez des notifications à vos membres.<br />• Vos équipes sur le terrain pourront ajouter les contacts rencontrés directement depuis l'application mobile."
                 }
             },
             "SEARCH": {
@@ -120,7 +123,8 @@
             "TABLE": {
                 "CONTACT": "Rencontré par",
                 "TAGS": "Mots-clés"
-            }
+            },
+            "ADD_CITIZEN": "Ajouter un contact"
         }
     },
     "MENU": {
