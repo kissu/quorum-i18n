@@ -1,7 +1,13 @@
 {
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
     "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
+    "errors": {
+        "backToHeadQuarter": "Retour à l'accueil"
+    },
     "logged": {
+        "canvassing": {
+            "addCitizenCTA": "Ajouter un entretien"
+        },
         "form": {
             "answers": {
                 "support": {
@@ -10,8 +16,8 @@
                 }
             },
             "endForm": {
-                "rateTheForm": "Qualifier l'échange",
-                "addAnotherCitizen": "Ajouter un nouveau contact !"
+                "addAnotherCitizen": "Ajouter un nouveau contact !",
+                "rateTheForm": "Qualifier l'échange"
             },
             "rateContact": {
                 "howTheDiscussionHasGoing": "Une étape post-entretien ?"
@@ -20,8 +26,8 @@
         "headQuarter": {
             "quickActions": {
                 "add": "Lancer un entretien spontané",
-                "welcome": "Bienvenue cher exploreur {{firstname}} 👋",
-                "addSupport": "Ajouter un contact\n"
+                "addSupport": "Ajouter un contact\n",
+                "welcome": "Bienvenue cher exploreur {{firstname}} 👋"
             }
         },
         "profile": {
@@ -30,13 +36,7 @@
                     "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région."
                 }
             }
-        },
-        "canvassing": {
-            "addCitizenCTA": "Ajouter un entretien"
         }
-    },
-    "errors": {
-        "backToHeadQuarter": "Retour à l'accueil"
     },
     "navigator": {
         "QG": "Accueil"

@@ -109,6 +109,7 @@
             "NOT_VISITED": "Pas encore rencontré"
         },
         "LIST": {
+            "ADD_CITIZEN": "Ajouter un contact",
             "CSV_HEADER": {
                 "user_firstname": "Prénom du collaborateur",
                 "user_surname": "Nom du collaborateur"
@@ -123,8 +124,7 @@
             "TABLE": {
                 "CONTACT": "Rencontré par",
                 "TAGS": "Mots-clés"
-            },
-            "ADD_CITIZEN": "Ajouter un contact"
+            }
         }
     },
     "MENU": {
