@@ -130,7 +130,8 @@
         "MEMBERS": "Équipes",
         "MOBILIZATION": "Mes actions",
         "PARAMETERS": "Paramètres de l'espace",
-        "STRATEGY": "Mes analyses"
+        "STRATEGY": "Mes analyses",
+        "CITIZENS": "Contacts"
     },
     "SETTINGS": {
         "FORM_BUILDER": {
@@ -201,7 +202,7 @@
             "GDPR_TEXT": "En donnant à vos collaborateurs l'accès au Quorum, ils peuvent être exposés à des informations et données personnelles potentiellement sensibles, selon le \"rôle\" que vous leur attribuez. Il est important de sensibiliser vos équipes à l'utilisation des données personnelles !",
             "SEARCHUSER": "Rechercher un collaborateur",
             "TABS": {
-                "MEMBERS": "Exploreur | Exploreur | Exploreurs"
+                "MEMBERS": "Collaborateur | Collaborateur | Collaborateurs"
             },
             "TEAMS": {
                 "EDIT": {
