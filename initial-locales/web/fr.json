@@ -1185,7 +1185,7 @@
         "PRIO": "Priorisation",
         "QUORUM": "Quorum",
         "QUORUM_HAND": "Quorum à portée de main",
-        "SHARING": "Fichiers ### A changer ###",
+        "SHARING": "Documents",
         "STRATEGY": "STRATÉGIE",
         "SUGGESTIONS": "Suggestions",
         "SUPERVISOR_VIEW": "Supervisor view",
@@ -1498,7 +1498,7 @@
                 },
                 "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
                 "EDIT": "Modifier un document",
-                "SEARCH": "Rechercher un brief",
+                "SEARCH": "Rechercher un document",
                 "TITLE": "Document | Documents"
             },
             "LIST": {
