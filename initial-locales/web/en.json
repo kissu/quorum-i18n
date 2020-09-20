@@ -1489,7 +1489,7 @@
                     "TITLE": "Warning"
                 },
                 "DELETE": " | Delete 1 document | Delete {count} documents",
-                "EDIT": "Edit the document",
+                "EDIT": "Rename the document",
                 "SEARCH": "Search for a document",
                 "TITLE": "Document | Documents"
             },

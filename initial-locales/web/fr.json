@@ -1497,7 +1497,7 @@
                     "TITLE": "Attention"
                 },
                 "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
-                "EDIT": "Modifier un document",
+                "EDIT": "Renommer un document",
                 "SEARCH": "Rechercher un document",
                 "TITLE": "Document | Documents"
             },
