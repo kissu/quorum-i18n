@@ -372,6 +372,16 @@
                 "unnamedLabel": "Individu"
             }
         },
+        "documents": {
+            "emptyDocuments": "Aucun document ne vous a été partagé pour le moment.",
+            "title": "Documents",
+            "types": {
+                "image": "Image",
+                "other": "Autre",
+                "pdf": "PDF",
+                "video": "Vidéo"
+            }
+        },
         "fieldActions": {
             "advancedLayout": {
                 "actionBrief": "Brief de l'action",

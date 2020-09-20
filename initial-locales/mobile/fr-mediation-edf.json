@@ -1,7 +1,13 @@
 {
     "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-edf",
     "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
+    "errors": {
+        "backToHeadQuarter": "Retour à l'accueil"
+    },
     "logged": {
+        "canvassing": {
+            "addCitizenCTA": "Ajouter un entretien"
+        },
         "form": {
             "answers": {
                 "support": {
@@ -10,6 +16,7 @@
                 }
             },
             "endForm": {
+                "addAnotherCitizen": "Ajouter un nouveau contact !",
                 "rateTheForm": "Qualifier l'échange"
             },
             "rateContact": {
@@ -19,6 +26,7 @@
         "headQuarter": {
             "quickActions": {
                 "add": "Lancer un entretien spontané",
+                "addSupport": "Ajouter un contact\n",
                 "welcome": "Bienvenue cher exploreur {{firstname}} 👋"
             }
         },
@@ -29,5 +37,8 @@
                 }
             }
         }
+    },
+    "navigator": {
+        "QG": "Accueil"
     }
 }

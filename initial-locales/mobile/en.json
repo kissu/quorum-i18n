@@ -372,6 +372,16 @@
                 "unnamedLabel": "Individual"
             }
         },
+        "documents": {
+            "emptyDocuments": "No documents have been shared with you yet.",
+            "title": "Documents",
+            "types": {
+                "image": "Image",
+                "other": "Other",
+                "pdf": "PDF",
+                "video": "Video"
+            }
+        },
         "fieldActions": {
             "advancedLayout": {
                 "actionBrief": "Action's notes",
