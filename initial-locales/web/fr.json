@@ -1475,8 +1475,8 @@
                 "NOT_FOUND": "Aucun brief ne correspond à votre recherche."
             },
             "MODAL": {
-                "ERROR_TOO_LARGE": "Fichier trop volumineux",
                 "ERROR": "Une erreur est survenue, veuillez réessayer",
+                "ERROR_TOO_LARGE": "Fichier trop volumineux",
                 "NAME": "Nom du brief",
                 "PLACEHOLDER": "Contenu du brief : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
                 "PLACEHOLDER_SELECT": "Choisir un brief",
@@ -1509,8 +1509,8 @@
                 "NOT_FOUND": "Aucun document ne correspond à votre recherche."
             },
             "MODAL": {
-                "ERROR_TOO_LARGE": "Fichier trop volumineux",
                 "ERROR": "Une erreur est survenue, veuillez réessayer",
+                "ERROR_TOO_LARGE": "Fichier trop volumineux",
                 "NAME": "Nom du document",
                 "PLACEHOLDER": "Contenu du document : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
                 "PLACEHOLDER_SELECT": "Choisir un document",
