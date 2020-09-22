@@ -98,7 +98,8 @@
         "EDIT": {
             "LEAD": "Feedbacks",
             "NOT_SEEN": "Pas encore rencontré",
-            "TAGS": "Mots-clés"
+            "TAGS": "Mots-clés",
+            "ROUTE_OPPORTUNITIES": "Feedbacks"
         },
         "HEADER": {
             "FILTERS": {
