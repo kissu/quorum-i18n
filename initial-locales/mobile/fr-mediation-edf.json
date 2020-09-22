@@ -11,7 +11,7 @@
         "form": {
             "answers": {
                 "support": {
-                    "titleWhatIsTheNextStep": "Une étape post-entretien ?",
+                    "titleWhatIsTheNextStep": "Comment s'est passé cet entretien ?",
                     "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?"
                 }
             },
@@ -20,7 +20,7 @@
                 "rateTheForm": "Qualifier l'échange"
             },
             "rateContact": {
-                "howTheDiscussionHasGoing": "Une étape post-entretien ?"
+                "howTheDiscussionHasGoing": "Comment s'est passé cet entretien ?"
             }
         },
         "headQuarter": {
