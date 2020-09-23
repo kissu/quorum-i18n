@@ -1469,8 +1469,8 @@
                 "NOT_FOUND": "No notes matches your search."
             },
             "MODAL": {
-                "ERROR_TOO_LARGE": "File too large",
                 "ERROR": "An error occurred, please try again",
+                "ERROR_TOO_LARGE": "File too large",
                 "NAME": "Name of the note",
                 "PLACEHOLDER": "Create here notes and talking points for your team!",
                 "PLACEHOLDER_SELECT": "Choose a talking point",
@@ -1503,8 +1503,8 @@
                 "NOT_FOUND": "No documents matches your search."
             },
             "MODAL": {
-                "ERROR_TOO_LARGE": "File too large",
                 "ERROR": "An error occurred, please try again",
+                "ERROR_TOO_LARGE": "File too large",
                 "NAME": "Name of the document",
                 "PLACEHOLDER": "Create here documents and documents for your team!",
                 "PLACEHOLDER_SELECT": "Choose a document",

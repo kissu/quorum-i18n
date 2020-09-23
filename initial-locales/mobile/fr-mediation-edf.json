@@ -11,16 +11,18 @@
         "form": {
             "answers": {
                 "support": {
-                    "titleWhatIsTheNextStep": "Une étape post-entretien ?",
+                    "titleAddSupport": "Ajouter un contact 🙂",
+                    "titleWhatIsTheNextStep": "Comment s'est passé cet entretien ?",
                     "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?"
                 }
             },
             "endForm": {
                 "addAnotherCitizen": "Ajouter un nouveau contact !",
+                "backToHeadQuarter": "Retour à l'accueil",
                 "rateTheForm": "Qualifier l'échange"
             },
             "rateContact": {
-                "howTheDiscussionHasGoing": "Une étape post-entretien ?"
+                "howTheDiscussionHasGoing": "Comment s'est passé cet entretien ?"
             }
         },
         "headQuarter": {
