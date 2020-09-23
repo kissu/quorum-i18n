@@ -12,12 +12,14 @@
             "answers": {
                 "support": {
                     "titleWhatIsTheNextStep": "Comment s'est passé cet entretien ?",
-                    "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?"
+                    "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?",
+                    "titleAddSupport": "Ajouter un contact 🙂"
                 }
             },
             "endForm": {
                 "addAnotherCitizen": "Ajouter un nouveau contact !",
-                "rateTheForm": "Qualifier l'échange"
+                "rateTheForm": "Qualifier l'échange",
+                "backToHeadQuarter": "Retour à l'accueil"
             },
             "rateContact": {
                 "howTheDiscussionHasGoing": "Comment s'est passé cet entretien ?"
