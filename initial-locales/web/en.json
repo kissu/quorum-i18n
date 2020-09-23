@@ -662,6 +662,8 @@
         "EDIT": {
             "ACTIONS": "Actions",
             "ADDRESS": "Address",
+            "ADD_CONTACT": "Create the contact",
+            "ADD_CONTACT_CONFIRMED": "The contact has been created",
             "ADD_NOTE_BUTTON": "Add a note",
             "ADD_NOTE_PLACEHOLDER": "Click here to start writing a note.",
             "ADD_TAG": "Add a tag",
@@ -727,8 +729,6 @@
             "UNSAVED_CONTACT": "You have modified this contact",
             "UPDATED_CONTACT_CONFIRMED": "The contact has been updated.",
             "UPDATE_CONTACT": "Save",
-            "ADD_CONTACT_CONFIRMED": "The contact has been created",
-            "ADD_CONTACT": "Create the contact",
             "VALIDATE": "Submit",
             "ZIP": "Postcode"
         },
