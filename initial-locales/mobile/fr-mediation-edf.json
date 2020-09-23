@@ -11,15 +11,15 @@
         "form": {
             "answers": {
                 "support": {
+                    "titleAddSupport": "Ajouter un contact 🙂",
                     "titleWhatIsTheNextStep": "Comment s'est passé cet entretien ?",
-                    "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?",
-                    "titleAddSupport": "Ajouter un contact 🙂"
+                    "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?"
                 }
             },
             "endForm": {
                 "addAnotherCitizen": "Ajouter un nouveau contact !",
-                "rateTheForm": "Qualifier l'échange",
-                "backToHeadQuarter": "Retour à l'accueil"
+                "backToHeadQuarter": "Retour à l'accueil",
+                "rateTheForm": "Qualifier l'échange"
             },
             "rateContact": {
                 "howTheDiscussionHasGoing": "Comment s'est passé cet entretien ?"
