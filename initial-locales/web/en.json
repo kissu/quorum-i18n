@@ -727,6 +727,8 @@
             "UNSAVED_CONTACT": "You have modified this contact",
             "UPDATED_CONTACT_CONFIRMED": "The contact has been updated.",
             "UPDATE_CONTACT": "Save",
+            "ADD_CONTACT_CONFIRMED": "The contact has been created",
+            "ADD_CONTACT": "Create the contact",
             "VALIDATE": "Submit",
             "ZIP": "Postcode"
         },

@@ -726,6 +726,8 @@
             "UNSAVED_CONTACT": "Vous avez modifié ce contact",
             "UPDATED_CONTACT_CONFIRMED": "Le contact a été mis à jour.",
             "UPDATE_CONTACT": "Sauvegarder",
+            "ADD_CONTACT": "Créer le contact",
+            "ADD_CONTACT_CONFIRMED": "Le contact a été créé",
             "VALIDATE": "Valider",
             "ZIP": "Code postal"
         },
