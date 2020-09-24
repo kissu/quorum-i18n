@@ -936,11 +936,11 @@
     },
     "DOCUMENTS": {
         "HEADER": {
-            "VISUALIZE": "Aperçu du document",
-            "NO_VISUALIZATION": "Impossible d'afficher le document",
             "ADD_DOC": "Ajouter un document",
+            "NO_VISUALIZATION": "Impossible d'afficher le document",
             "SEARCH": "Rechercher un document",
-            "TITLE": "Document | Documents"
+            "TITLE": "Document | Documents",
+            "VISUALIZE": "Aperçu du document"
         }
     },
     "DUPLICATES": {

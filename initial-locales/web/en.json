@@ -937,11 +937,11 @@
     },
     "DOCUMENTS": {
         "HEADER": {
-            "VISUALIZE": "Document preview",
-            "NO_VISUALIZATION": "No visualization possible",
             "ADD_DOC": "Add a document",
+            "NO_VISUALIZATION": "No visualization possible",
             "SEARCH": "Search a document by title",
-            "TITLE": "Document | Documents"
+            "TITLE": "Document | Documents",
+            "VISUALIZE": "Document preview"
         }
     },
     "DUPLICATES": {
