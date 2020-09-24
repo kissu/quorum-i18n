@@ -1494,8 +1494,6 @@
         },
         "DOCS": {
             "HEADER": {
-                "NO_VISUALIZATION": "Impossible d'afficher le document",
-                "RENAME": "Renommer",
                 "ADD": "Ajouter un document",
                 "CONFIRM": {
                     "CANCEL": "Annuler",
@@ -1505,6 +1503,8 @@
                 },
                 "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
                 "EDIT": "Renommer un document",
+                "NO_VISUALIZATION": "Impossible d'afficher le document",
+                "RENAME": "Renommer",
                 "SEARCH": "Rechercher un document",
                 "TITLE": "Document | Documents"
             },

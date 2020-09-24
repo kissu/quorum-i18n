@@ -1486,8 +1486,6 @@
         },
         "DOCS": {
             "HEADER": {
-                "NO_VISUALIZATION": "No visualization possible",
-                "RENAME": "Rename",
                 "ADD": "Add a document",
                 "CONFIRM": {
                     "CANCEL": "Cancel",
@@ -1497,6 +1495,8 @@
                 },
                 "DELETE": " | Delete 1 document | Delete {count} documents",
                 "EDIT": "Rename the document",
+                "NO_VISUALIZATION": "No visualization possible",
+                "RENAME": "Rename",
                 "SEARCH": "Search for a document",
                 "TITLE": "Document | Documents"
             },
