@@ -453,8 +453,8 @@
             "PLACEHOLDER": "Create here notes and talking points for your team!",
             "PLACEHOLDER_SELECT": "Choose a talking point",
             "SUCCESS": {
-                "ADD": "Note added! 👍",
-                "DELETE": "Note deleted",
+                "ADD": " | Note added! 👍 | {count} notes added! 👍",
+                "DELETE": " | Note deleted! 👍 | {count} notes deleted! 👍",
                 "EDIT": "Note edited! 👍"
             }
         }
