@@ -5476,6 +5476,7 @@
         "DOWNLOAD": "Download",
         "DUPLICATE": "Duplicate",
         "EDIT": "Edit",
+        "RENAME": "Rename",
         "EMAIL": "Email",
         "EMPTY_STATES": {
             "DEFAULT": {
