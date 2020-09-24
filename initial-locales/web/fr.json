@@ -936,6 +936,8 @@
     },
     "DOCUMENTS": {
         "HEADER": {
+            "VISUALIZE": "Aperçu du document",
+            "NO_VISUALIZATION": "Impossible d'afficher le document",
             "ADD_DOC": "Ajouter un document",
             "SEARCH": "Rechercher un document",
             "TITLE": "Document | Documents"

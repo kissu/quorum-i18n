@@ -937,6 +937,8 @@
     },
     "DOCUMENTS": {
         "HEADER": {
+            "VISUALIZE": "Document preview",
+            "NO_VISUALIZATION": "No visualization possible",
             "ADD_DOC": "Add a document",
             "SEARCH": "Search a document by title",
             "TITLE": "Document | Documents"
