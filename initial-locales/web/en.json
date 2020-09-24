@@ -5476,7 +5476,6 @@
         "DOWNLOAD": "Download",
         "DUPLICATE": "Duplicate",
         "EDIT": "Edit",
-        "RENAME": "Rename",
         "EMAIL": "Email",
         "EMPTY_STATES": {
             "DEFAULT": {
@@ -5530,6 +5529,7 @@
         "PASSWORDS": "Passwords",
         "POSTAL_CODE": "Postcode/Zipcode",
         "PREVIOUS": "Previous",
+        "RENAME": "Rename",
         "RGPD": "By saving this information, I confirm that I have obtained lawfully and with consent the data transmitted.",
         "SAVE": "Save",
         "SEARCH": "Search...",
