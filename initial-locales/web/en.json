@@ -1513,8 +1513,8 @@
                 "PLACEHOLDER": "Create here documents and documents for your team!",
                 "PLACEHOLDER_SELECT": "Choose a document",
                 "SUCCESS": {
-                    "ADD": "Document added! 👍",
-                    "DELETE": "Document deleted! 👍",
+                    "ADD": " | Document added! 👍 | {count} documents added! 👍",
+                    "DELETE": " | Document deleted! 👍 | {count} documents deleted! 👍",
                     "EDIT": "Document edited! 👍",
                     "UPDATE": "Document updated! 👍"
                 }

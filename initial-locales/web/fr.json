@@ -1521,8 +1521,8 @@
                 "PLACEHOLDER": "Contenu du document : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
                 "PLACEHOLDER_SELECT": "Choisir un document",
                 "SUCCESS": {
-                    "ADD": "Document ajouté ! 👍",
-                    "DELETE": "Document supprimé ! 👍",
+                    "ADD": " | Document ajouté ! 👍 | {count} documents ajoutés ! 👍",
+                    "DELETE": " | Document supprimé ! 👍 | {count} documents supprimés ! 👍",
                     "EDIT": "Document sauvegardé ! 👍",
                     "UPDATE": "Document mis à jour ! 👍"
                 }
