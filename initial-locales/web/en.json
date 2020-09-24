@@ -1486,6 +1486,8 @@
         },
         "DOCS": {
             "HEADER": {
+                "NO_VISUALIZATION": "No visualization possible",
+                "RENAME": "Rename",
                 "ADD": "Add a document",
                 "CONFIRM": {
                     "CANCEL": "Cancel",

@@ -1494,6 +1494,8 @@
         },
         "DOCS": {
             "HEADER": {
+                "NO_VISUALIZATION": "Impossible d'afficher le document",
+                "RENAME": "Renommer",
                 "ADD": "Ajouter un document",
                 "CONFIRM": {
                     "CANCEL": "Annuler",
