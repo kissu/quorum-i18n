@@ -1472,7 +1472,7 @@
             },
             "MODAL": {
                 "ERROR": "An error occurred, please try again",
-                "ERROR_TOO_LARGE": "File too large",
+                "ERROR_TOO_LARGE": "The file's size cannot exceed 30MB",
                 "NAME": "Name of the note",
                 "PLACEHOLDER": "Create here notes and talking points for your team!",
                 "PLACEHOLDER_SELECT": "Choose a talking point",

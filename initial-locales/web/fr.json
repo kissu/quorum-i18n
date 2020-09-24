@@ -1480,7 +1480,7 @@
             },
             "MODAL": {
                 "ERROR": "Une erreur est survenue, veuillez réessayer",
-                "ERROR_TOO_LARGE": "Fichier trop volumineux",
+                "ERROR_TOO_LARGE": "La taille du fichier doit être inférieure à 30 MB",
                 "NAME": "Nom du brief",
                 "PLACEHOLDER": "Contenu du brief : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
                 "PLACEHOLDER_SELECT": "Choisir un brief",
