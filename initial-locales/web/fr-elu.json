@@ -2,7 +2,7 @@
     "ACTION": {
         "CALL_TO_ACTION": {
             "FORM_FILTER": {
-                "LOOKING_FOR": "Contacts cabinet",
+                "LOOKING_FOR": "Contacts",
                 "TYPES": {
                     "ANSWERED": "responded...."
                 }
@@ -11,13 +11,13 @@
                 "AIM": "📣 Quel est le nom de votre consultation ?",
                 "AIM_HELPER": "Faites simple pour vos agents.",
                 "AIM_NEEDED": "Votre consultation doit avoir un titre.",
-                "BRIEF": "📃 Voulez-vous ajouter un guide d'agents ?",
-                "BRIEF_CHOOSE_ONE": "Sélectionner un guide d'agents",
+                "BRIEF": "📃 Voulez-vous ajouter un guide ?",
+                "BRIEF_CHOOSE_ONE": "Sélectionner un guide",
                 "BRIEF_CREATED_PLACEHOLDER": "Texte de votre guide",
                 "BRIEF_TITLE": "Titre de votre guide",
                 "BRIEF_TITLE_CREATION": "Créer un guide pour vos agents",
                 "COMMENT_PLACEHOLDER": "Comment se déroulera votre consultation ?",
-                "CREATE_BRIEF": "Créer un nouveau guide d'agents",
+                "CREATE_BRIEF": "Créer un nouveau guide",
                 "DATE": "📅 Quelle est la date de votre consultation ?",
                 "LINK_CLICKABLE": "Cliquable par vos agents",
                 "PRECISION": {
@@ -40,14 +40,14 @@
         },
         "DETAIL": {
             "ACTION_NAME": "Nom de la consultation",
-            "BRIEF": "Guide d'agents",
+            "BRIEF": "Guide",
             "PLACEHOLDERS": {
-                "BRIEF": "Choisir un guide d'agents"
+                "BRIEF": "Choisir un guide"
             },
             "PROGRESS": "Progression de la consultation"
         },
         "EDIT": {
-            "BRIEF": "Guide d'agents"
+            "BRIEF": "Guide"
         },
         "LIST": {
             "ACTIONS_SELECTED": "Aucune consultation sélectionnée | {count} consultation sélectionnée | {count} consultation sélectionnées",
@@ -76,24 +76,24 @@
     },
     "BRIEFS": {
         "HEADER": {
-            "ADD_BRIEF": "Ajouter un guide d'agents",
+            "ADD_BRIEF": "Ajouter un guide",
             "EDIT_BRIEF": "Éditer le guide",
             "SEARCH": "Rechercher un guide",
-            "TITLE": "Guide d'agents | Guides d'agents"
+            "TITLE": "Guide | Guides"
         },
         "LIST": {
-            "ADD_BRIEF": "Créer votre premier guide d'agents",
+            "ADD_BRIEF": "Créer votre premier guide",
             "BRIEF_NOT_FOUND": "Aucun guide ne correspond à votre recherche.",
-            "EMPTY_STATE": "Aucun guide d'agents pour le moment !",
+            "EMPTY_STATE": "Aucun guide pour le moment !",
             "INFORMATION_BRIEF": "C’est ici que vous pouvez créer des éléments de language et des scripts. Il vous suffira de les lier à vos consultations pour que vos équipes deviennent des porte-paroles informés et outillés. "
         },
         "MODAL": {
             "NAME": "Nom du guide",
             "PLACEHOLDER": "Créer ici des guides pour vos agents !",
-            "PLACEHOLDER_SELECT": "Choisir un guide d'agents",
+            "PLACEHOLDER_SELECT": "Choisir un guide",
             "SUCCESS": {
-                "ADD": "Guide ajouté ! 👍",
-                "DELETE": "Guide supprimé",
+                "ADD": " Guide ajouté ! 👍",
+                "DELETE": " Guide supprimé",
                 "EDIT": "Guide modifié ! 👍"
             }
         }
@@ -118,8 +118,8 @@
     },
     "CONTACT": {
         "EDIT": {
-            "LEAD": "Tâches",
-            "ROUTE_OPPORTUNITIES": "Tâches"
+            "LEAD": "Demandes",
+            "ROUTE_OPPORTUNITIES": "Demande"
         },
         "HEADER": {
             "CREATE_ACTION": "Créer une consultation",
@@ -128,33 +128,33 @@
     },
     "MANAGEMENT": {
         "ISSUE_CENTER": {
-            "ACTIONS": "Catégories de tâches"
+            "ACTIONS": "Catégories de demandes"
         }
     },
     "MENU": {
         "ACTIONS": "Consultations",
-        "BRIEFS": "Guide d'agents",
-        "CITIZENS": "Contacts cabinet",
+        "BRIEFS": "Guides et documents",
+        "CITIZENS": "Contacts",
         "COMMUNICATIONS": "Communications externes",
-        "ISSUE_CENTER": "Tâches",
-        "LEAD": "CABINET",
-        "MAPS": "Carte ville",
+        "ISSUE_CENTER": "Demande",
+        "LEAD": "CONTACTS",
+        "MAPS": "Données ville",
         "MEMBERS": "Équipes",
-        "MOBILIZATION": "Concertation",
+        "MOBILIZATION": "ACTION",
         "PARAMETERS": "Paramètres de l'espace",
         "STRATEGY": "ANALYSES"
     },
     "SETTINGS": {
         "FORM_BUILDER": {
-            "HOW_TO_USE_TUNNELS": "Comment personnaliser les status et les tâches ?",
+            "HOW_TO_USE_TUNNELS": "Comment personnaliser les status et les demandes ?",
             "NAMES": {
-                "ACTION": "Tâches"
+                "ACTION": "Demandes"
             },
-            "TOOLTIP_ACTION": "Faire apparaître ce champ dans les onglets de votre centre de tâches."
+            "TOOLTIP_ACTION": "Faire apparaître ce champ dans les onglets de votre centre de demandes."
         },
         "HEADER": {
-            "ACTIONS": "Gestion des tâches",
-            "LEAD": "Tâches"
+            "ACTIONS": "Gestion des demandes",
+            "LEAD": "Demandes"
         }
     },
     "SMS": {
