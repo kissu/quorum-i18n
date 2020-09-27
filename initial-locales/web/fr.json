@@ -727,6 +727,7 @@
             "UNKNOWN": "Contact inconnu ({id})",
             "UNSAVED_CONTACT": "Vous avez modifié ce contact",
             "UPDATED_CONTACT_CONFIRMED": "Le contact a été mis à jour.",
+            "CREATED_CONTACT_CONFIRMED": "Le contact a été créé.",
             "UPDATE_CONTACT": "Sauvegarder",
             "VALIDATE": "Valider",
             "ZIP": "Code postal"

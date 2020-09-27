@@ -728,6 +728,7 @@
             "UNKNOWN": "Unnamed contact ({id})",
             "UNSAVED_CONTACT": "You have modified this contact",
             "UPDATED_CONTACT_CONFIRMED": "The contact has been updated.",
+            "CREATED_CONTACT_CONFIRMED": "The contact has been created.",
             "UPDATE_CONTACT": "Save",
             "VALIDATE": "Submit",
             "ZIP": "Postcode"
