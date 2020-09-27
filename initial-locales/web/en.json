@@ -1508,7 +1508,7 @@
             },
             "MODAL": {
                 "ERROR": "An error occurred, please try again",
-                "ERROR_TOO_LARGE": "File too large",
+                "ERROR_TOO_LARGE": "File too large - Should be smaller than 30MB",
                 "NAME": "Name of the document",
                 "PLACEHOLDER": "Create here documents and documents for your team!",
                 "PLACEHOLDER_SELECT": "Choose a document",
