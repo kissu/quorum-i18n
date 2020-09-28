@@ -115,8 +115,7 @@
             "errorWrongPassword": "Wrong username/password combination. Show password to make sure it's correct.",
             "passwordForgotten": "Forgot password?",
             "passwordLabel": "Password",
-            "seePassword": "Show",
-            "supportAsking": "A problem with the app? Contact us."
+            "seePassword": "Show"
         },
         "wantAConnexion": "Log in",
         "wantToCreateAnAccount": "Create an account"
