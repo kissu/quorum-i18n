@@ -1476,7 +1476,7 @@
             "LIST": {
                 "ADD": "Ajoutez votre premier brief",
                 "EMPTY_STATE": "Aucun brief pour le moment !",
-                "INFORMATION": "C’est ici que vous pouvez créer des <strong>éléments de language</strong> et des <strong>scripts.</strong> Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles <strong>informés et outillés.</strong>",
+                "INFORMATION": "C’est ici que vous pouvez créer des éléments de language et des scripts. Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles informés et outillés.",
                 "NOT_FOUND": "Aucun brief ne correspond à votre recherche."
             },
             "MODAL": {
@@ -1512,7 +1512,7 @@
             "LIST": {
                 "ADD": "Ajoutez votre premier document",
                 "EMPTY_STATE": "Aucun document pour le moment !",
-                "INFORMATION": "C’est ici que vous pouvez ajouter des <strong>documents</strong> à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
+                "INFORMATION": "C’est ici que vous pouvez ajouter des documents à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
                 "NOT_FOUND": "Aucun document ne correspond à votre recherche."
             },
             "MESSAGE": {

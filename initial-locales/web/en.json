@@ -1468,7 +1468,7 @@
             "LIST": {
                 "ADD": "Add your first talking point",
                 "EMPTY_STATE": "No talking point at the moment! Go write your first!",
-                "INFORMATION": "This is where you can add <strong>documents</strong> to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
+                "INFORMATION": "This is where you can create talking points and notes for your team. All you have to do is link a talking point to an action to keep your team informed and turn anyone into a spokesperson.",
                 "NOT_FOUND": "No notes matches your search."
             },
             "MODAL": {
@@ -1486,6 +1486,15 @@
             }
         },
         "DOCS": {
+            "MESSAGE": {
+                "LISTS": "The types of documents you can share with your teams are :",
+                "IMAGE": "Image: .jpg, .png, .gif",
+                "VIDEO": "Video : .avi, .mov, .mp4",
+                "OTHER": "Other : .docx, .xlsx, .csv",
+                "PDF": "PDF",
+                "LINK": "How to share documents with your teams?",
+                "HREF": "https://help.quorum.co/en/articles/4460050-how-do-you-share-documents-with-your-teams"
+            },
             "HEADER": {
                 "ADD": "Add a document",
                 "CONFIRM": {
@@ -1504,17 +1513,8 @@
             "LIST": {
                 "ADD": "Add your first document",
                 "EMPTY_STATE": "No document at the moment! Go write your first!",
-                "INFORMATION": "This is where you can create <strong>documents<strong> and <strong>documents for your team.</strong> All you have to do is link a document to an action to keep your team  <strong>informed</strong> and turn anyone into a spokesperson. ",
+                "INFORMATION": "This is where you can add documents to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
                 "NOT_FOUND": "No documents matches your search."
-            },
-            "MESSAGE": {
-                "HREF": "https://help.quorum.co/en/articles/4460050-how-do-you-share-documents-with-your-teams",
-                "IMAGE": "Image: .jpg, .png, .gif",
-                "LINK": "How to share documents with your teams?",
-                "LISTS": "The types of documents you can share with your teams are :",
-                "OTHER": "Other : .docx, .xlsx, .csv",
-                "PDF": "PDF",
-                "VIDEO": "Video : .avi, .mov, .mp4"
             },
             "MODAL": {
                 "ERROR": "An error occurred, please try again",
