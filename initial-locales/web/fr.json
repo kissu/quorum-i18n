@@ -1494,7 +1494,15 @@
             }
         },
         "DOCS": {
-            "MESSAGE": "C’est ici que vous pouvez ajouter des documents à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
+            "MESSAGE": {
+                "LISTS": "Les types de documents que vous pouvez partager à vos équipes sont les suivants :",
+                "IMAGE": "Image : .jpg, .png, .gif",
+                "VIDEO": "Video : .avi, .mov, .mp4",
+                "OTHER": "Autre : .docx, .xlsx, .csv",
+                "PDF": "PDF",
+                "LINK": "Comment partager des documents à ses équipes ?",
+                "HREF": "https://intercom.help/quorumhq/fr/articles/4460050-comment-partager-des-documents-a-ses-equipes"
+            },
             "HEADER": {
                 "ADD": "Ajouter un document",
                 "CONFIRM": {
