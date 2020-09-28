@@ -1494,7 +1494,6 @@
             }
         },
         "DOCS": {
-            "MESSAGE": "C’est ici que vous pouvez ajouter des documents à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
             "HEADER": {
                 "ADD": "Ajouter un document",
                 "CONFIRM": {
@@ -1516,6 +1515,7 @@
                 "INFORMATION": "C’est ici que vous pouvez créer des <strong>éléments de language</strong> et des <strong>scripts.</strong> Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles <strong>informés et outillés.</strong>",
                 "NOT_FOUND": "Aucun document ne correspond à votre recherche."
             },
+            "MESSAGE": "C’est ici que vous pouvez ajouter des documents à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
             "MODAL": {
                 "ERROR": "Une erreur est survenue, veuillez réessayer",
                 "ERROR_TOO_LARGE": "Fichier trop volumineux - Doit être inférieur à 30 MB",

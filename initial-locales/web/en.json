@@ -1486,7 +1486,6 @@
             }
         },
         "DOCS": {
-            "MESSAGE": "This is where you can add documents to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
             "HEADER": {
                 "ADD": "Add a document",
                 "CONFIRM": {
@@ -1508,6 +1507,7 @@
                 "INFORMATION": "This is where you can create <strong>documents<strong> and <strong>documents for your team.</strong> All you have to do is link a document to an action to keep your team  <strong>informed</strong> and turn anyone into a spokesperson. ",
                 "NOT_FOUND": "No documents matches your search."
             },
+            "MESSAGE": "This is where you can add documents to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
             "MODAL": {
                 "ERROR": "An error occurred, please try again",
                 "ERROR_TOO_LARGE": "File too large - Should be smaller than 30MB",
