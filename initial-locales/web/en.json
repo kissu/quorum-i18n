@@ -1468,7 +1468,7 @@
             "LIST": {
                 "ADD": "Add your first talking point",
                 "EMPTY_STATE": "No talking point at the moment! Go write your first!",
-                "INFORMATION": "This is where you can create <strong>talking points<strong> and <strong>notes for your team.</strong> All you have to do is link a talking point to an action to keep your team  <strong>informed</strong> and turn anyone into a spokesperson. ",
+                "INFORMATION": "This is where you can add <strong>documents</strong> to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
                 "NOT_FOUND": "No notes matches your search."
             },
             "MODAL": {
