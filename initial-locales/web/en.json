@@ -1486,6 +1486,7 @@
             }
         },
         "DOCS": {
+            "MESSAGE": "This is where you can add documents to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
             "HEADER": {
                 "ADD": "Add a document",
                 "CONFIRM": {

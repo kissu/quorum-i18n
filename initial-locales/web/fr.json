@@ -1494,6 +1494,7 @@
             }
         },
         "DOCS": {
+            "MESSAGE": "C’est ici que vous pouvez ajouter des documents à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
             "HEADER": {
                 "ADD": "Ajouter un document",
                 "CONFIRM": {
