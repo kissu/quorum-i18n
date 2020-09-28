@@ -1486,15 +1486,6 @@
             }
         },
         "DOCS": {
-            "MESSAGE": {
-                "LISTS": "The types of documents you can share with your teams are :",
-                "IMAGE": "Image: .jpg, .png, .gif",
-                "VIDEO": "Video : .avi, .mov, .mp4",
-                "OTHER": "Other : .docx, .xlsx, .csv",
-                "PDF": "PDF",
-                "LINK": "How to share documents with your teams?",
-                "HREF": "https://help.quorum.co/en/articles/4460050-how-do-you-share-documents-with-your-teams"
-            },
             "HEADER": {
                 "ADD": "Add a document",
                 "CONFIRM": {
@@ -1515,6 +1506,15 @@
                 "EMPTY_STATE": "No document at the moment! Go write your first!",
                 "INFORMATION": "This is where you can add documents to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
                 "NOT_FOUND": "No documents matches your search."
+            },
+            "MESSAGE": {
+                "HREF": "https://help.quorum.co/en/articles/4460050-how-do-you-share-documents-with-your-teams",
+                "IMAGE": "Image: .jpg, .png, .gif",
+                "LINK": "How to share documents with your teams?",
+                "LISTS": "The types of documents you can share with your teams are :",
+                "OTHER": "Other : .docx, .xlsx, .csv",
+                "PDF": "PDF",
+                "VIDEO": "Video : .avi, .mov, .mp4"
             },
             "MODAL": {
                 "ERROR": "An error occurred, please try again",
