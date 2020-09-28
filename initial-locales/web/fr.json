@@ -1494,15 +1494,6 @@
             }
         },
         "DOCS": {
-            "MESSAGE": {
-                "LISTS": "Les types de documents que vous pouvez partager à vos équipes sont les suivants :",
-                "IMAGE": "Image : .jpg, .png, .gif",
-                "VIDEO": "Video : .avi, .mov, .mp4",
-                "OTHER": "Autre : .docx, .xlsx, .csv",
-                "PDF": "PDF",
-                "LINK": "Comment partager des documents à ses équipes ?",
-                "HREF": "https://intercom.help/quorumhq/fr/articles/4460050-comment-partager-des-documents-a-ses-equipes"
-            },
             "HEADER": {
                 "ADD": "Ajouter un document",
                 "CONFIRM": {
@@ -1523,6 +1514,15 @@
                 "EMPTY_STATE": "Aucun document pour le moment !",
                 "INFORMATION": "C’est ici que vous pouvez créer des <strong>éléments de language</strong> et des <strong>scripts.</strong> Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles <strong>informés et outillés.</strong>",
                 "NOT_FOUND": "Aucun document ne correspond à votre recherche."
+            },
+            "MESSAGE": {
+                "HREF": "https://intercom.help/quorumhq/fr/articles/4460050-comment-partager-des-documents-a-ses-equipes",
+                "IMAGE": "Image : .jpg, .png, .gif",
+                "LINK": "Comment partager des documents à ses équipes ?",
+                "LISTS": "Les types de documents que vous pouvez partager à vos équipes sont les suivants :",
+                "OTHER": "Autre : .docx, .xlsx, .csv",
+                "PDF": "PDF",
+                "VIDEO": "Video : .avi, .mov, .mp4"
             },
             "MODAL": {
                 "ERROR": "Une erreur est survenue, veuillez réessayer",
