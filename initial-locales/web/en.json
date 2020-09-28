@@ -680,6 +680,7 @@
             "COLLAPSE": "Collapse",
             "CONTACT_OWNER": "Owner",
             "CONTACT_UNKNOW": "Contact : {id}",
+            "CREATED_CONTACT_CONFIRMED": "The contact has been created.",
             "DELETED_CONTACT_CONFIRMED": "The contact has been deleted.",
             "DELETE_MESSAGE": "Are you sure you want to delete this contact? This action cannot be reversed!",
             "DELETE_RANGE_VALUE": "Delete the value",
@@ -728,7 +729,6 @@
             "UNKNOWN": "Unnamed contact ({id})",
             "UNSAVED_CONTACT": "You have modified this contact",
             "UPDATED_CONTACT_CONFIRMED": "The contact has been updated.",
-            "CREATED_CONTACT_CONFIRMED": "The contact has been created.",
             "UPDATE_CONTACT": "Save",
             "VALIDATE": "Submit",
             "ZIP": "Postcode"
