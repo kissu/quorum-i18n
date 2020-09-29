@@ -115,7 +115,7 @@
             "errorWrongPassword": "Votre couple identifiant mot de passe est incorrect. Vous pouvez afficher votre mot de passe pour corriger l'erreur.",
             "passwordForgotten": "Mot de passe oublié ?",
             "passwordLabel": "Mot de passe",
-            "seePassword": "voir",
+            "seePassword": "voir"
         },
         "wantAConnexion": "Se connecter",
         "wantToCreateAnAccount": "Créer un compte"
