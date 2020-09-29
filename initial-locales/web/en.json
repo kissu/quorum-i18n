@@ -1273,6 +1273,15 @@
             "ADDRESS_INFO_TITLE": "Important informations",
             "AGE": "Age",
             "AGE_CATEGORY": "Age category",
+            "AGE_CATEGORY_VALUES": {
+                "0": "Âge non renseigné",
+                "1": "Moins de 18 ans",
+                "2": "18 - 25 ans",
+                "3": "25 - 35 ans ",
+                "4": "35 - 50 ans",
+                "5": "50 - 65 ans",
+                "6": "65 ans et plus"
+            },
             "BIRTHCITY": "Place of birth",
             "BIRTHCOUNTRY": "Country of birth",
             "BIRTHDATE": "Date of birth",
