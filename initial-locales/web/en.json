@@ -445,7 +445,7 @@
         "LIST": {
             "ADD_BRIEF": "Add your first talking point",
             "BRIEF_NOT_FOUND": "No notes matches your search.",
-            "EMPTY_STATE": "No talking point at the moment! Go write your first!",
+            "EMPTY_STATE": "No talking point at the moment!",
             "INFORMATION_BRIEF": "This is where you can create <strong>talking points<strong> and <strong>notes for your team.</strong> All you have to do is link a talking point to an action to keep your team  <strong>informed</strong> and turn anyone into a spokesperson. "
         },
         "MODAL": {
@@ -1467,7 +1467,7 @@
             },
             "LIST": {
                 "ADD": "Add your first talking point",
-                "EMPTY_STATE": "No talking point at the moment! Go write your first!",
+                "EMPTY_STATE": "No talking point at the moment!",
                 "INFORMATION": "This is where you can create talking points and notes for your team. All you have to do is link a talking point to an action to keep your team informed and turn anyone into a spokesperson.",
                 "NOT_FOUND": "No notes matches your search."
             },
@@ -1503,7 +1503,7 @@
             },
             "LIST": {
                 "ADD": "Add your first document",
-                "EMPTY_STATE": "No document at the moment! Go write your first!",
+                "EMPTY_STATE": "No document at the moment!",
                 "INFORMATION": "This is where you can add documents to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
                 "NOT_FOUND": "No documents matches your search."
             },

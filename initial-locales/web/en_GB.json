@@ -445,7 +445,7 @@
         "LIST": {
             "ADD_BRIEF": "Add your first talking point",
             "BRIEF_NOT_FOUND": "No notes matches your search.",
-            "EMPTY_STATE": "No talking point at the moment! Go write your first!",
+            "EMPTY_STATE": "No talking point at the moment!",
             "INFORMATION_BRIEF": "This is where you can create <strong>talking points<strong> and <strong>notes for your team.</strong> All you have to do is link a talking point to an action to keep your team  <strong>informed</strong> and turn anyone into a spokesperson. "
         },
         "MODAL": {
