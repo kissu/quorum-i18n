@@ -391,6 +391,7 @@
                 "descJoinAction": "Attending 🚀",
                 "editYourAttendStatus": "Edit your coming",
                 "information": "Info",
+                "m2wSharingNotAvailable": "Download the app to share the message",
                 "peopleGoal": "contacts to meet",
                 "presentLabel": "Attend",
                 "readLess": "Less",
@@ -404,7 +405,7 @@
                 "youAreNotAnAttendee": "Not attending",
                 "youAttend": "Going",
                 "youDoNotWantToAttend": "Not going",
-                "youWantToAttend": "Attend"
+                "youWantToAttend": "Attend",
             },
             "listFieldActions": {
                 "aroundMeLabel": "Around me...",
