@@ -405,7 +405,7 @@
                 "youAreNotAnAttendee": "Not attending",
                 "youAttend": "Going",
                 "youDoNotWantToAttend": "Not going",
-                "youWantToAttend": "Attend",
+                "youWantToAttend": "Attend"
             },
             "listFieldActions": {
                 "aroundMeLabel": "Around me...",
