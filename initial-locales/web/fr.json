@@ -1519,7 +1519,7 @@
                 "HREF": "https://intercom.help/quorumhq/fr/articles/4460050-comment-partager-des-documents-a-ses-equipes",
                 "IMAGE": "Image : .jpg, .png, .gif",
                 "LINK": "Comment partager des documents à ses équipes ?",
-                "LISTS": "Les types de documents que vous pouvez partager sont :",
+                "LISTS": "Les types de documents que vous pouvez partager (avec une taille maximum de 30 MB) sont :",
                 "OTHER": "Autre : .docx, .xlsx, .csv",
                 "PDF": "PDF",
                 "VIDEO": "Video : .avi, .mov, .mp4"
