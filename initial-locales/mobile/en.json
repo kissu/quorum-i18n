@@ -391,6 +391,7 @@
                 "descJoinAction": "Attending 🚀",
                 "editYourAttendStatus": "Edit your coming",
                 "information": "Info",
+                "m2wSharingNotAvailable": "Download the app to share the message",
                 "peopleGoal": "contacts to meet",
                 "presentLabel": "Attend",
                 "readLess": "Less",
@@ -759,6 +760,7 @@
     },
     "urls": {
         "cgu": "https://www.quorum.co/mobile-tos/",
-        "dataProtection": "https://www.quorum.co/privacy/"
+        "dataProtection": "https://www.quorum.co/privacy/",
+        "downloadMobileAppFromWeb": "https://www.quorum.co/download-quorum/"
     }
 }

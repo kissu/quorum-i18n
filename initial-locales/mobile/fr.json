@@ -391,6 +391,7 @@
                 "descJoinAction": "Vous participez 🚀",
                 "editYourAttendStatus": "Modifier votre venue",
                 "information": "Informations",
+                "m2wSharingNotAvailable": "Télécharger l’application pour pouvoir partager ce message",
                 "peopleGoal": "contacts à rencontrer",
                 "presentLabel": "Participe",
                 "readLess": "Moins",
@@ -758,6 +759,7 @@
     },
     "urls": {
         "cgu": "https://www.quorum.co/fr/cgu-mobile/",
-        "dataProtection": "https://www.quorum.co/fr/protection-des-donnees/"
+        "dataProtection": "https://www.quorum.co/fr/protection-des-donnees/",
+        "downloadMobileAppFromWeb": "https://www.quorum.co/fr/telecharger-lapplication-quorum/"
     }
 }
