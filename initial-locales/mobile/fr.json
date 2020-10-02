@@ -482,6 +482,8 @@
                 "locale": "fr",
                 "maleLabel": "Homme",
                 "mandatory": "Obligatoire",
+                "mandatoryTitleMissing": "Champ(s) obligatoire(s)",
+                "mandatoryTextMissing": "Certains champs n'ont pas été renseigné.",
                 "moreInfo": "+ Informations complémentaires",
                 "placeholder": "Réponse",
                 "postalcodePlaceholder": "Code Postal",

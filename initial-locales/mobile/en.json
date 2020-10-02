@@ -482,6 +482,8 @@
                 "locale": "en",
                 "maleLabel": "Male",
                 "mandatory": "Required",
+                "mandatoryTitleMissing": "Field(s) required",
+                "mandatoryTextMissing": "Some fields are not completed.",
                 "moreInfo": "+ More info",
                 "placeholder": "Response",
                 "postalcodePlaceholder": "Postcode",
