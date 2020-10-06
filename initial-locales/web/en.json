@@ -1286,6 +1286,7 @@
             "BIRTHCOUNTRY": "Country of birth",
             "BIRTHDATE": "Date of birth",
             "CITY": "City",
+            "COMMUNICATION_TOOLTIP": "Your members will need the contact's consent for collecting and using his/her email address and phone numbers relating to your organization.",
             "CONTACT": "Communication",
             "DEFAULT": "Display default contact card",
             "EXPLANATIONS": "Choose the properties of your contact card",

@@ -1285,6 +1285,7 @@
             "BIRTHCOUNTRY": "Pays de naissance",
             "BIRTHDATE": "Date de naissance",
             "CITY": "Ville",
+            "COMMUNICATION_TOOLTIP": "Vos membres devront avoir le consentement du contact pour que vous puissiez collecter et utiliser son adresse email et ses numéros de téléphone en rapport avec votre organisation.",
             "CONTACT": "Communication",
             "DEFAULT": "Afficher la fiche contact par défaut",
             "EXPLANATIONS": "Paramétrer ici le contenu de la fiche contact de votre application Quorum",
