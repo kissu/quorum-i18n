@@ -30,8 +30,8 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Bump package.json
-        uses: phips28/gh-action-bump-version@v7.1.0
+      # - name: Bump package.json
+      #   uses: phips28/gh-action-bump-version@v7.1.0
       - name: Publish to NPM
         if: github.ref == 'refs/heads/master'
         uses: mikeal/merge-release@master
