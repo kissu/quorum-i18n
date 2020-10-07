@@ -32,12 +32,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Bump package.json
         uses: phips28/gh-action-bump-version@v7.1.0
-      # - name: Publish to NPM
-      #   if: github.ref == 'refs/heads/master'
-      #   uses: mikeal/merge-release@master
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+      - name: Publish to NPM
+        if: github.ref == 'refs/heads/master'
+        uses: mikeal/merge-release@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Trigger Slack Webhook
         uses: 8398a7/action-slack@v3
         with:
