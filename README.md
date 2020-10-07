@@ -1,4 +1,4 @@
-# This repository is synced with the Quorum Weblate
+# This repository is synced with the Quorum Weblate - Quorum team
 
 This repository actually drives the translations for the quorum apps.
 
