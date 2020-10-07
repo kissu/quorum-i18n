@@ -1796,6 +1796,9 @@
     },
     "VENDORS": {
         "ARCHITECTURE": {
+            "elections_evolution": {
+                "label": "Election results evolution (past 5 years)"
+            },
             "0-14": {
                 "label": "0 - 14 years"
             },
