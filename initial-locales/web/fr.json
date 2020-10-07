@@ -522,6 +522,9 @@
             "CAPTION": "Légende",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Analyse personnalisée",
+                "ADDITIONAL_TOOLTIP": {
+                    "OVER_5_YEARS": "<b>Sur 5 ans</b>"
+                },
                 "ADDRESS": "Adresse : ",
                 "CHANGE_PRIO": "Modifier ma priorisation",
                 "CUSTOM_ANALYSIS": "Analyse croisée",
@@ -538,9 +541,6 @@
                     "SEEN": "Rencontré(e)s",
                     "SUPPORTS": "Soutiens",
                     "USERS": "Membres"
-                },
-                "ADDITIONAL_TOOLTIP": {
-                    "OVER_5_YEARS": "<b>Sur 5 ans</b>"
                 },
                 "LEVELS": {
                     "BOROUGH": "Borough",

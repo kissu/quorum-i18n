@@ -522,6 +522,9 @@
             "CAPTION": "Caption",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Crossed analysis",
+                "ADDITIONAL_TOOLTIP": {
+                    "OVER_5_YEARS": "<b>Over 5 years</b>"
+                },
                 "ADDRESS": "Address: ",
                 "CHANGE_PRIO": "Change my priority zone parameters",
                 "CUSTOM_ANALYSIS": "Crossed analysis",
@@ -538,9 +541,6 @@
                     "SEEN": "Visited",
                     "SUPPORTS": "Supporters",
                     "USERS": "Members"
-                },
-                "ADDITIONAL_TOOLTIP": {
-                    "OVER_5_YEARS": "<b>Over 5 years</b>"
                 },
                 "LEVELS": {
                     "BOROUGH": "Borough",
