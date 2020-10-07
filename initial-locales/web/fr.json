@@ -522,6 +522,9 @@
             "CAPTION": "Légende",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Analyse personnalisée",
+                "ADDITIONAL_TOOLTIP": {
+                    "OVER_5_YEARS": "<b>Sur 5 ans</b>"
+                },
                 "ADDRESS": "Adresse : ",
                 "CHANGE_PRIO": "Modifier ma priorisation",
                 "CUSTOM_ANALYSIS": "Analyse croisée",
@@ -3460,6 +3463,9 @@
             },
             "elections-regional-2015-turn-2": {
                 "label": "Élections régionales 2015 tour 2"
+            },
+            "elections_evolution": {
+                "label": "Évolution des résultats électoraux (5 dernières années)"
             },
             "employed-16-64": {
                 "label": "Employés (16-64) - 2011"

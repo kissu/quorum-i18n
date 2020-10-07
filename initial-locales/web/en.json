@@ -522,6 +522,9 @@
             "CAPTION": "Caption",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Crossed analysis",
+                "ADDITIONAL_TOOLTIP": {
+                    "OVER_5_YEARS": "<b>Over 5 years</b>"
+                },
                 "ADDRESS": "Address: ",
                 "CHANGE_PRIO": "Change my priority zone parameters",
                 "CUSTOM_ANALYSIS": "Crossed analysis",
@@ -3461,6 +3464,9 @@
             },
             "elections-regional-2015-turn-2": {
                 "label": "Regional Elections 2015 turn 2"
+            },
+            "elections_evolution": {
+                "label": "Election results evolution (past 5 years)"
             },
             "employed-16-64": {
                 "label": "In employment (16-64) - 2011"
