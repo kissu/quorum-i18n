@@ -1796,9 +1796,6 @@
     },
     "VENDORS": {
         "ARCHITECTURE": {
-            "elections_evolution": {
-                "label": "Election results evolution (past 5 years)"
-            },
             "0-14": {
                 "label": "0 - 14 years"
             },
@@ -3461,6 +3458,9 @@
             },
             "elections-regional-2015-turn-2": {
                 "label": "Regional Elections 2015 turn 2"
+            },
+            "elections_evolution": {
+                "label": "Election results evolution (past 5 years)"
             },
             "employed-16-64": {
                 "label": "In employment (16-64) - 2011"
