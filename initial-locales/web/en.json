@@ -539,6 +539,9 @@
                     "SUPPORTS": "Supporters",
                     "USERS": "Members"
                 },
+                "ADDITIONAL_TOOLTIP": {
+                    "OVER_5_YEARS": "<b>Over 5 years</b>"
+                },
                 "LEVELS": {
                     "BOROUGH": "Borough",
                     "CANTON": "Canton",
