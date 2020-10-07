@@ -666,6 +666,7 @@
             "ADDRESS": "Adresse",
             "ADD_CONTACT": "Créer le contact",
             "ADD_CONTACT_CONFIRMED": "Le contact a été créé",
+            "ADD_CONTACT_DESC": "Commencer par remplir ses informations 👇",
             "ADD_NOTE_BUTTON": "Ajouter une note",
             "ADD_NOTE_PLACEHOLDER": "Cliquer ici pour commencer à écrire une note.",
             "ADD_TAG": "Ajouter un mot-clé",

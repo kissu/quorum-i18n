@@ -667,6 +667,7 @@
             "ADDRESS": "Address",
             "ADD_CONTACT": "Create the contact",
             "ADD_CONTACT_CONFIRMED": "The contact has been created",
+            "ADD_CONTACT_DESC": "Start to fill his information 👇",
             "ADD_NOTE_BUTTON": "Add a note",
             "ADD_NOTE_PLACEHOLDER": "Click here to start writing a note.",
             "ADD_TAG": "Add a tag",
