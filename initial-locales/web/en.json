@@ -1277,6 +1277,16 @@
         },
         "CONTACT": {
             "ADDRESS": "Address",
+            "ADDRESS_LABELS": {
+                "BUILDING": "Building",
+                "FLOOR": "Floor",
+                "DOOR": "Door",
+                "HOUSENUMBER": "Housenumber",
+                "STREET": "Street",
+                "POSTALCODE": "Postal code",
+                "COUNTRY": "Country",
+                "POLLINGSTATION": "Pollingstation"
+            },
             "AGE": "Age",
             "AGE_CATEGORY": "Age category",
             "AGE_CATEGORY_VALUES": {
@@ -1294,6 +1304,7 @@
             "CITY": "City",
             "COMMUNICATION_TOOLTIP": "Your members will need the contact's consent for collecting and using his/her email address and phone numbers relating to your organization.",
             "CONTACT": "Communication",
+            "COUNTRY": "Country",
             "DEFAULT": "Display default contact card",
             "EXPLANATIONS": "Choose the properties of your contact card",
             "FIRSTNAME": "First Name",

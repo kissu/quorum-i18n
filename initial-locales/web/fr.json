@@ -1276,6 +1276,16 @@
         },
         "CONTACT": {
             "ADDRESS": "Adresse",
+            "ADDRESS_LABELS": {
+                "BUILDING": "Bâtiment",
+                "FLOOR": "Étage",
+                "DOOR": "Porte",
+                "HOUSENUMBER": "Numéro",
+                "STREET": "Rue / Voie",
+                "POSTALCODE": "Code postal",
+                "COUNTRY": "Pays",
+                "POLLINGSTATION": "Territoire"
+            },
             "AGE": "Age",
             "AGE_CATEGORY": "Tranches d'âge",
             "AGE_CATEGORY_VALUES": {
@@ -1293,6 +1303,7 @@
             "CITY": "Ville",
             "COMMUNICATION_TOOLTIP": "Vos membres devront avoir le consentement du contact pour que vous puissiez collecter et utiliser son adresse email et ses numéros de téléphone en rapport avec votre organisation.",
             "CONTACT": "Communication",
+            "COUNTRY": "Pays",
             "DEFAULT": "Afficher la fiche contact par défaut",
             "EXPLANATIONS": "Paramétrer ici le contenu de la fiche contact de votre application Quorum",
             "FIRSTNAME": "Prénom",
