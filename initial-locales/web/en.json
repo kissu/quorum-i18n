@@ -1277,10 +1277,6 @@
         },
         "CONTACT": {
             "ADDRESS": "Address",
-            "ADDRESS_INFO": "<span>Address contains:<ul><li>Door,</li><li>Floor,</li><li>Building,</li><li>House number,</li><li>Street,</li><li>Postal Code</li></ul></span>",
-            "ADDRESS_INFO_CAVANSSING": "Contacts added without an address won't appear in \"Canvassing\" actions",
-            "ADDRESS_INFO_CITY": "If the address field is enabled, the city field is required.",
-            "ADDRESS_INFO_TITLE": "Important informations",
             "AGE": "Age",
             "AGE_CATEGORY": "Age category",
             "AGE_CATEGORY_VALUES": {

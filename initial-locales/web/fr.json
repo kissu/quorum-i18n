@@ -1276,10 +1276,6 @@
         },
         "CONTACT": {
             "ADDRESS": "Adresse",
-            "ADDRESS_INFO": "<span>Le champ adresse contient en réalité les champs :<ul><li>Porte,</li><li>Étage,</li><li>Bâtiment,</li><li>Numéro de voie,</li><li>Voie,</li><li>Code postal</li></ul></span>",
-            "ADDRESS_INFO_CAVANSSING": " Les contacts ajoutés sans adresse ni ville  n'apparaîtront pas dans les actions de type \"Porte à porte\"",
-            "ADDRESS_INFO_CITY": "Si le champ adresse est choisi, le champ ville est obligatoire.",
-            "ADDRESS_INFO_TITLE": "Informations importantes",
             "AGE": "Age",
             "AGE_CATEGORY": "Tranches d'âge",
             "AGE_CATEGORY_VALUES": {
