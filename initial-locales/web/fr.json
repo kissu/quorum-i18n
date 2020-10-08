@@ -1278,13 +1278,13 @@
             "ADDRESS": "Adresse",
             "ADDRESS_LABELS": {
                 "BUILDING": "Bâtiment",
-                "FLOOR": "Étage",
-                "DOOR": "Porte",
-                "HOUSENUMBER": "Numéro",
-                "STREET": "Rue / Voie",
-                "POSTALCODE": "Code postal",
                 "COUNTRY": "Pays",
-                "POLLINGSTATION": "Territoire"
+                "DOOR": "Porte",
+                "FLOOR": "Étage",
+                "HOUSENUMBER": "Numéro",
+                "POLLINGSTATION": "Territoire",
+                "POSTALCODE": "Code postal",
+                "STREET": "Rue / Voie"
             },
             "AGE": "Age",
             "AGE_CATEGORY": "Tranches d'âge",
