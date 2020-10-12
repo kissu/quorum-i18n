@@ -1279,6 +1279,7 @@
             "ADDRESS_LABELS": {
                 "ADDITION": "Compléments d'adresse",
                 "BUILDING": "Bâtiment",
+                "CITY": "Ville",
                 "COUNTRY": "Pays",
                 "DOOR": "Porte",
                 "FLOOR": "Étage",
