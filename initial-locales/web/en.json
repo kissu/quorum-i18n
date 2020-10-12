@@ -1279,14 +1279,14 @@
             "ADDRESS": "Address",
             "ADDRESS_LABELS": {
                 "BUILDING": "Building",
-                "FLOOR": "Floor",
-                "DOOR": "Door",
-                "HOUSENUMBER": "Housenumber",
-                "STREET": "Street",
-                "ADDITION": "Address line 2",
-                "POSTALCODE": "Postal code",
                 "COUNTRY": "Country",
-                "POLLINGSTATION": "Pollingstation"
+                "DOOR": "Door",
+                "FLOOR": "Floor",
+                "HOUSENUMBER": "Housenumber",
+                "ADDITION": "Address line 2",
+                "POLLINGSTATION": "Pollingstation",
+                "POSTALCODE": "Postal code",
+                "STREET": "Street"
             },
             "AGE": "Age",
             "AGE_CATEGORY": "Age category",
