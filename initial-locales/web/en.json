@@ -1283,6 +1283,7 @@
                 "DOOR": "Door",
                 "HOUSENUMBER": "Housenumber",
                 "STREET": "Street",
+                "ADDITION": "Address line 2",
                 "POSTALCODE": "Postal code",
                 "COUNTRY": "Country",
                 "POLLINGSTATION": "Pollingstation"

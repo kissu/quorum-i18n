@@ -1282,6 +1282,7 @@
                 "DOOR": "Porte",
                 "HOUSENUMBER": "Numéro",
                 "STREET": "Rue / Voie",
+                "ADDITION": "Compléments d'adresse",
                 "POSTALCODE": "Code postal",
                 "COUNTRY": "Pays",
                 "POLLINGSTATION": "Territoire"
