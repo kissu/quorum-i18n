@@ -1277,12 +1277,12 @@
         "CONTACT": {
             "ADDRESS": "Adresse",
             "ADDRESS_LABELS": {
+                "ADDITION": "Compléments d'adresse",
                 "BUILDING": "Bâtiment",
                 "COUNTRY": "Pays",
                 "DOOR": "Porte",
                 "FLOOR": "Étage",
                 "HOUSENUMBER": "Numéro",
-                "ADDITION": "Compléments d'adresse",
                 "POLLINGSTATION": "Territoire",
                 "POSTALCODE": "Code postal",
                 "STREET": "Rue / Voie"

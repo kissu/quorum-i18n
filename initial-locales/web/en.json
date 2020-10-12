@@ -1278,12 +1278,12 @@
         "CONTACT": {
             "ADDRESS": "Address",
             "ADDRESS_LABELS": {
+                "ADDITION": "Address line 2",
                 "BUILDING": "Building",
                 "COUNTRY": "Country",
                 "DOOR": "Door",
                 "FLOOR": "Floor",
                 "HOUSENUMBER": "Housenumber",
-                "ADDITION": "Address line 2",
                 "POLLINGSTATION": "Pollingstation",
                 "POSTALCODE": "Postal code",
                 "STREET": "Street"
