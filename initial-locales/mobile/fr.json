@@ -500,7 +500,8 @@
                     "valid": "Valider",
                     "whoDoWeMeet": "Quel intérêt le citoyen rencontré porte-t-il à votre action ?"
                 },
-                "territories": "Territoires"
+                "territories": "Territoires",
+                "notSelected": "Aucun"
             },
             "becauseYouAnswered": "Car vous avez répondu :",
             "editAContactTitle": "Édition des coordonnées d'un contact",

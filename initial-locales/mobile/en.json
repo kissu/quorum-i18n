@@ -500,7 +500,8 @@
                     "valid": "Submit",
                     "whoDoWeMeet": "What best describes the person you're meeting?"
                 },
-                "territories": "Areas"
+                "territories": "Areas",
+                "notSelected": "Not selected"
             },
             "becauseYouAnswered": "Because your replied:",
             "editAContactTitle": "Edit contact info",
