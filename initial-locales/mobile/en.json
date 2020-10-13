@@ -485,6 +485,7 @@
                 "mandatoryTextMissing": "Some fields are not completed.",
                 "mandatoryTitleMissing": "Field(s) required",
                 "moreInfo": "+ More info",
+                "notSelected": "Not selected",
                 "placeholder": "Response",
                 "postalcodePlaceholder": "Postcode",
                 "streetPlaceholder": "Street",
@@ -500,8 +501,7 @@
                     "valid": "Submit",
                     "whoDoWeMeet": "What best describes the person you're meeting?"
                 },
-                "territories": "Areas",
-                "notSelected": "Not selected"
+                "territories": "Areas"
             },
             "becauseYouAnswered": "Because your replied:",
             "editAContactTitle": "Edit contact info",
