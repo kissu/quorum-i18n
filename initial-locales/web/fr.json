@@ -523,7 +523,7 @@
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Analyse personnalisée",
                 "ADDITIONAL_TOOLTIP": {
-                    "OVER_5_YEARS": "<b>Sur 5 ans</b>"
+                    "OVER_5_YEARS": "<br><b>Sur 5 ans</b>"
                 },
                 "ADDRESS": "Adresse : ",
                 "CHANGE_PRIO": "Modifier ma priorisation",
