@@ -488,6 +488,7 @@
                 "mandatoryTextMissing": "Certains champs n'ont pas été renseigné.",
                 "mandatoryTitleMissing": "Champ(s) obligatoire(s)",
                 "moreInfo": "+ Informations complémentaires",
+                "notSelected": "Aucun",
                 "placeholder": "Réponse",
                 "postalcodePlaceholder": "Code Postal",
                 "streetPlaceholder": "Rue",
@@ -503,8 +504,7 @@
                     "valid": "Valider",
                     "whoDoWeMeet": "Quel intérêt le citoyen rencontré porte-t-il à votre action ?"
                 },
-                "territories": "Territoires",
-                "notSelected": "Aucun"
+                "territories": "Territoires"
             },
             "becauseYouAnswered": "Car vous avez répondu :",
             "editAContactTitle": "Édition des coordonnées d'un contact",
