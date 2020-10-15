@@ -10,12 +10,17 @@
             "loadingStaticTitle": "Un peu de patience, nous rassemblons les informations."
         },
         "form": {
+            "allQuestions": "Voir toutes les questions",
+            "allQuestionsForm": {
+                "finishTheFormLabel": "Terminer l'entretien",
+                "theQuestionsLabel": "Le guide d'entretien"
+            },
             "answers": {
                 "support": {
+                    "leaveWithoutValidating": "Passer l'étape",
                     "titleAddSupport": "Ajouter un contact 🙂",
                     "titleWhatIsTheNextStep": "Comment s'est passé cet entretien ?",
-                    "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?",
-                    "leaveWithoutValidating": "Passer l'étape"
+                    "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?"
                 }
             },
             "endForm": {
@@ -26,12 +31,7 @@
             },
             "rateContact": {
                 "howTheDiscussionHasGoing": "Comment s'est passé cet entretien ?"
-            },
-            "allQuestionsForm": {
-                "theQuestionsLabel": "Le guide d'entretien",
-                "finishTheFormLabel": "Terminer l'entretien"
-            },
-            "allQuestions": "Voir toutes les questions"
+            }
         },
         "headQuarter": {
             "quickActions": {
@@ -41,17 +41,17 @@
             }
         },
         "profile": {
-            "public": {
-                "joinMouvement": {
-                    "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région."
-                }
-            },
             "edit": {
                 "status": {
                     "presetupLabel": {
-                        "withFamilyLabel": "Pas disponible",
-                        "pauseLabel": "Disponible au téléphone"
+                        "pauseLabel": "Disponible au téléphone",
+                        "withFamilyLabel": "Pas disponible"
                     }
+                }
+            },
+            "public": {
+                "joinMouvement": {
+                    "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région."
                 }
             }
         }
@@ -61,10 +61,10 @@
     },
     "popup": {
         "consent": {
-            "gpdrOkLabel": "Le contact m'autorise à utiliser ses réponses dans le cadre de l'opération Parlons Énergies Chez Vous.",
             "content": "N'oubliez pas de rappeler à votre interlocuteur dans quel cadre vous récoltez son avis.\nAucun lien ne sera fait entre ses réponses au questionnaire et ses informations personnelles.",
-            "gpdrOkSMSLabel": "Le contact accepte de recevoir des appels pour être informé de la suite du dispositif Parlons Énergies Chez Vous.",
-            "gpdrOkEmailLabel": "Le contact accepte de recevoir des mails pour être informé de la suite du dispositif Parlons Énergies Chez Vous."
+            "gpdrOkEmailLabel": "Le contact accepte de recevoir des mails pour être informé de la suite du dispositif Parlons Énergies Chez Vous.",
+            "gpdrOkLabel": "Le contact m'autorise à utiliser ses réponses dans le cadre de l'opération Parlons Énergies Chez Vous.",
+            "gpdrOkSMSLabel": "Le contact accepte de recevoir des appels pour être informé de la suite du dispositif Parlons Énergies Chez Vous."
         }
     }
 }
