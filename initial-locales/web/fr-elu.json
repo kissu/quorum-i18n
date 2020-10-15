@@ -8,7 +8,7 @@
                 }
             },
             "INFORMATIONS": {
-                "AIM": "📣 Quel est le nom de votre consultation ?",
+                "AIM": "📣  Quel est le nom de votre consultation ?",
                 "AIM_HELPER": "Faites simple pour vos agents.",
                 "AIM_NEEDED": "Votre consultation doit avoir un titre.",
                 "BRIEF": "📃 Voulez-vous ajouter un guide ?",
@@ -138,7 +138,7 @@
         "COMMUNICATIONS": "Communications externes",
         "ISSUE_CENTER": "Demande",
         "LEAD": "CONTACTS",
-        "MAPS": "Données ville",
+        "MAPS": "Données",
         "MEMBERS": "Équipes",
         "MOBILIZATION": "ACTION",
         "PARAMETERS": "Paramètres de l'espace",

@@ -6,28 +6,36 @@
     },
     "logged": {
         "canvassing": {
-            "addCitizenCTA": "Ajouter un entretien"
+            "addCitizenCTA": "Ajouter un entretien",
+            "loadingStaticTitle": "Un peu de patience, nous rassemblons les informations."
         },
         "form": {
             "answers": {
                 "support": {
                     "titleAddSupport": "Ajouter un contact 🙂",
                     "titleWhatIsTheNextStep": "Comment s'est passé cet entretien ?",
-                    "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?"
+                    "whoDoWeMeet": "Avec qui avez-vous échangé aujourd’hui ?",
+                    "leaveWithoutValidating": "Passer l'étape"
                 }
             },
             "endForm": {
                 "addAnotherCitizen": "Ajouter un nouveau contact !",
                 "backToHeadQuarter": "Retour à l'accueil",
-                "rateTheForm": "Qualifier l'échange"
+                "rateTheForm": "Qualifier l'échange",
+                "thanksYouLabel": "Merci et Bravo !"
             },
             "rateContact": {
                 "howTheDiscussionHasGoing": "Comment s'est passé cet entretien ?"
-            }
+            },
+            "allQuestionsForm": {
+                "theQuestionsLabel": "Le guide d'entretien",
+                "finishTheFormLabel": "Terminer l'entretien"
+            },
+            "allQuestions": "Voir toutes les questions"
         },
         "headQuarter": {
             "quickActions": {
-                "add": "Lancer un entretien spontané",
+                "add": "Lancer un entretien",
                 "addSupport": "Ajouter un contact\n",
                 "welcome": "Bienvenue cher exploreur {{firstname}} 👋"
             }
@@ -37,10 +45,26 @@
                 "joinMouvement": {
                     "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région."
                 }
+            },
+            "edit": {
+                "status": {
+                    "presetupLabel": {
+                        "withFamilyLabel": "Pas disponible",
+                        "pauseLabel": "Disponible au téléphone"
+                    }
+                }
             }
         }
     },
     "navigator": {
         "QG": "Accueil"
+    },
+    "popup": {
+        "consent": {
+            "gpdrOkLabel": "Le contact m'autorise à utiliser ses réponses dans le cadre de l'opération Parlons Énergies Chez Vous.",
+            "content": "N'oubliez pas de rappeler à votre interlocuteur dans quel cadre vous récoltez son avis.\nAucun lien ne sera fait entre ses réponses au questionnaire et ses informations personnelles.",
+            "gpdrOkSMSLabel": "Le contact accepte de recevoir des appels pour être informé de la suite du dispositif Parlons Énergies Chez Vous.",
+            "gpdrOkEmailLabel": "Le contact accepte de recevoir des mails pour être informé de la suite du dispositif Parlons Énergies Chez Vous."
+        }
     }
 }
