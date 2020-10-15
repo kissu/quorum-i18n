@@ -523,7 +523,7 @@
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Crossed analysis",
                 "ADDITIONAL_TOOLTIP": {
-                    "OVER_5_YEARS": "<b>Over 5 years</b>"
+                    "OVER_5_YEARS": "<hr><b>Over 5 years</b>"
                 },
                 "ADDRESS": "Address: ",
                 "CHANGE_PRIO": "Change my priority zone parameters",
