@@ -30,3 +30,8 @@ When you edit, if you use the `yarn dev` on this repo and you save a file, it wi
 When you finished the dev. You can stop the `yarn dev`, commit the changes and push on master. When you push, wait 3/4 minutes. A pipeline is exectuted on github. After that, Weblate is up-to-date and the repo too. You will receive a notification on the quorum slack #weblate. 
 
 After the notification you can add the final version to your project. So on the web app for example, you can use `yarn add quorum-i18n` to lock the project with your new changes pushed on npm/github.
+
+## Configuration
+
+.docker-compose.yml is used by @wouafff to create and administrate the server.
+Check the config to modify the properties.
