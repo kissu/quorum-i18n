@@ -1481,11 +1481,18 @@
     },
     "SHARING2": {
         "DOCS": {
-            "TYPE": "Type",
-            "NAME": "Name",
-            "TAG": "Category",
-            "CREATED": "Creation date",
-            "OWNER": "Uploaded by"
+            "COLUMNS": {
+                "TYPE": "Type",
+                "NAME": "Name",
+                "TAG": "Category",
+                "CREATED": "Creation date",
+                "OWNER": "Uploaded by"
+            },
+            "ACTIONS": {
+                "DOWNLOAD": "Download",
+                "RENAME": "Rename",
+                "DELETE": "Delete"
+            }
         }
     },
     "SHARING": {
