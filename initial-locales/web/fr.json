@@ -1478,15 +1478,6 @@
             "CONTACTS": "0 contact | un contact | {count} contacts"
         }
     },
-    "SHARING2": {
-        "DOCS": {
-            "TYPE": "Type",
-            "NAME": "Nom",
-            "TAG": "Catégorie",
-            "CREATED": "Date d'ajout",
-            "OWNER": "Importé par"
-        }
-    },
     "SHARING": {
         "BRIEFS": {
             "HEADER": {
@@ -1566,6 +1557,15 @@
                     "UPDATE": "Document mis à jour ! 👍"
                 }
             }
+        }
+    },
+    "SHARING2": {
+        "DOCS": {
+            "CREATED": "Date d'ajout",
+            "NAME": "Nom",
+            "OWNER": "Importé par",
+            "TAG": "Catégorie",
+            "TYPE": "Type"
         }
     },
     "SMS": {
