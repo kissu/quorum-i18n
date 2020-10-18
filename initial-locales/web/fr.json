@@ -1478,22 +1478,6 @@
             "CONTACTS": "0 contact | un contact | {count} contacts"
         }
     },
-    "SHARING2": {
-        "DOCS": {
-            "COLUMNS": {
-                "TYPE": "Type",
-                "NAME": "Nom",
-                "TAG": "Catégorie",
-                "CREATED": "Date d'ajout",
-                "OWNER": "Importé par"
-            },
-            "ACTIONS": {
-                "DOWNLOAD": "Télécharger",
-                "RENAME": "Renommer",
-                "DELETE": "Supprimer"
-            }
-        }
-    },
     "SHARING": {
         "BRIEFS": {
             "HEADER": {
@@ -1572,6 +1556,22 @@
                     "EDIT": "Document sauvegardé ! 👍",
                     "UPDATE": "Document mis à jour ! 👍"
                 }
+            }
+        }
+    },
+    "SHARING2": {
+        "DOCS": {
+            "ACTIONS": {
+                "DELETE": "Supprimer",
+                "DOWNLOAD": "Télécharger",
+                "RENAME": "Renommer"
+            },
+            "COLUMNS": {
+                "CREATED": "Date d'ajout",
+                "NAME": "Nom",
+                "OWNER": "Importé par",
+                "TAG": "Catégorie",
+                "TYPE": "Type"
             }
         }
     },
