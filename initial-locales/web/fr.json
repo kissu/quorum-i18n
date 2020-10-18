@@ -1478,6 +1478,15 @@
             "CONTACTS": "0 contact | un contact | {count} contacts"
         }
     },
+    "SHARING2": {
+        "DOCS": {
+            "TYPE": "Type",
+            "NAME": "Nom",
+            "TAG": "Catégorie",
+            "CREATED": "Date d'ajout",
+            "OWNER": "Importé par"
+        }
+    },
     "SHARING": {
         "BRIEFS": {
             "HEADER": {

@@ -1479,6 +1479,15 @@
             "CONTACTS": "nobody | one people | {count} people"
         }
     },
+    "SHARING2": {
+        "DOCS": {
+            "TYPE": "Type",
+            "NAME": "Name",
+            "TAG": "Category",
+            "CREATED": "Creation date",
+            "OWNER": "Uploaded by"
+        }
+    },
     "SHARING": {
         "BRIEFS": {
             "HEADER": {
