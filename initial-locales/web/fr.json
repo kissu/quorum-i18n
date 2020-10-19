@@ -1463,7 +1463,7 @@
                 "NEW_PASSWORD": "Nouveau mot de passe"
             },
             "ROLES": {
-                "ADMIN": "Animateur",
+                "ADMIN": "Superviseur",
                 "MANAGER": "Coordinateur",
                 "SUPERADMIN": "Administrateur",
                 "USER": "Membre"
@@ -1690,7 +1690,7 @@
             "ROLES": {
                 "ADMIN": {
                     "RIGHTS": "Accès <strong class=\"q-is-pink\">restreint</strong> aux applications web et mobile",
-                    "TITLE": "Animateur"
+                    "TITLE": "Superviseur"
                 },
                 "HELP_TOOLTIP": "Référez vous à <a target=\"_blank\" style=\"text-decoration: underline;\" class=\"q-is-blue\" href=\"https://intercom.help/quorumhq/fr/articles/3421779-les-roles-sur-quorum\">notre article sur les différents rôles</a><br /> pour plus de détails.",
                 "MANAGER": {
@@ -1726,7 +1726,7 @@
             "LEADERS": "administrateur | administrateurs",
             "MANAGERS": "coordinateur | coordinateurs",
             "MEMBERS": "membre et | membres et ",
-            "ORGANIZERS": "animateur | animateurs",
+            "ORGANIZERS": "superviseur | superviseurs",
             "SUBTITLE": "Ils mobilisent à vos côtés sur Quorum",
             "TEAMS": "équipe | équipes",
             "TITLE": "Votre mouvement rassemble sur Quorum"
