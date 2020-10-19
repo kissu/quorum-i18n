@@ -1567,10 +1567,10 @@
                 "RENAME": "Renommer"
             },
             "COLUMNS": {
+                "CATEGORY": "Catégorie",
                 "CREATED": "Date d'ajout",
                 "NAME": "Nom",
                 "OWNER": "Importé par",
-                "CATEGORY": "Catégorie",
                 "TYPE": "Type"
             },
             "MODAL": {
