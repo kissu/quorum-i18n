@@ -1570,8 +1570,13 @@
                 "CREATED": "Date d'ajout",
                 "NAME": "Nom",
                 "OWNER": "Importé par",
-                "TAG": "Catégorie",
+                "CATEGORY": "Catégorie",
                 "TYPE": "Type"
+            },
+            "MODAL": {
+                "DOWNLOAD": "Télécharger le document",
+                "DOWNLOAD_END": " pour l'avoir sur votre ordinateur.",
+                "NO_VISUALIZATION": "Ce document n'est pas visualisable sur votre espace Quorum."
             }
         }
     },

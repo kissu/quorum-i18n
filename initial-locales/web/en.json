@@ -1571,8 +1571,13 @@
                 "CREATED": "Creation date",
                 "NAME": "Name",
                 "OWNER": "Uploaded by",
-                "TAG": "Category",
+                "CATEGORY": "Category",
                 "TYPE": "Type"
+            },
+            "MODAL": {
+                "DOWNLOAD": "Download the document",
+                "DOWNLOAD_END": " to have it on your computer.",
+                "NO_VISUALIZATION": "This document isn't available for preview on your Quorum space."
             }
         }
     },
