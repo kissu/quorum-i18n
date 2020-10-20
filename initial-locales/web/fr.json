@@ -692,7 +692,7 @@
             "DELETE_RANGE_VALUE": "Supprimer la valeur",
             "DELETE_TITLE": "Attention",
             "DOOR": "Porte ",
-            "DO_DUPLICATES_WORKFLOW_CTA": "Traîter",
+            "DO_DUPLICATES_WORKFLOW_CTA": "Traiter",
             "DUPLICATES_CONTACTS": "Doublon | Doublons",
             "DUPLICATES_CONTACTS_DESCRIPTION": "Nous n'avons pas trouvé de doublons. | Nous avons trouvé un doublon potentiel pour ce contact. | Nous avons trouvé {number} doublons potentiels pour ce contact.",
             "EMAIL": "Email",
