@@ -99,7 +99,8 @@
             "LEAD": "Feedbacks",
             "NOT_SEEN": "Pas encore rencontré",
             "ROUTE_OPPORTUNITIES": "Feedbacks",
-            "TAGS": "Mots-clés"
+            "TAGS": "Mots-clés",
+            "DO_DUPLICATES_WORKFLOW_CTA": "Traiter"
         },
         "HEADER": {
             "FILTERS": {
