@@ -96,11 +96,11 @@
     },
     "CONTACT": {
         "EDIT": {
+            "DO_DUPLICATES_WORKFLOW_CTA": "Traiter",
             "LEAD": "Feedbacks",
             "NOT_SEEN": "Pas encore rencontré",
             "ROUTE_OPPORTUNITIES": "Feedbacks",
-            "TAGS": "Mots-clés",
-            "DO_DUPLICATES_WORKFLOW_CTA": "Traiter"
+            "TAGS": "Mots-clés"
         },
         "HEADER": {
             "FILTERS": {
