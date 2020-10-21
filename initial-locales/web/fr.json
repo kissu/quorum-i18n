@@ -594,10 +594,10 @@
                 },
                 "CURSORS": {
                     "INDIFFERENT": "Indifférent",
-                    "LESS_INTERESTING": "Peu d'influence",
+                    "LESS_INTERESTING": "Non prioritaire",
                     "TO_AVOID": "Faible",
                     "TO_PRIORITIZE": "Fort",
-                    "VERY_INTERESTING": "Beaucoup d'influence"
+                    "VERY_INTERESTING": "Prioritaire"
                 },
                 "ERROR": "Une erreur est apparue, essayez de changer d'échelle, ou contactez le support",
                 "GENERATE": "Générer",
