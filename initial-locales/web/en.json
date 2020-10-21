@@ -1574,14 +1574,14 @@
                 "OWNER": "Uploaded by",
                 "TYPE": "Type"
             },
+            "HEADER": {
+                "MY_DOCUMENTS": "My documents",
+                "SUBTITLE": "Lorem Ipsum"
+            },
             "MODAL": {
                 "DOWNLOAD": "Download the document",
                 "DOWNLOAD_END": " to have it on your computer.",
                 "NO_VISUALIZATION": "This document isn't available for preview on your Quorum space."
-            },
-            "HEADER": {
-                "MY_DOCUMENTS": "My documents",
-                "SUBTITLE": "Lorem Ipsum"
             }
         }
     },
