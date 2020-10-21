@@ -1568,10 +1568,10 @@
                 "RENAME": "Rename"
             },
             "COLUMNS": {
+                "CATEGORY": "Category",
                 "CREATED": "Creation date",
                 "NAME": "Name",
                 "OWNER": "Uploaded by",
-                "CATEGORY": "Category",
                 "TYPE": "Type"
             },
             "MODAL": {
