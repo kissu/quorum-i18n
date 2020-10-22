@@ -594,10 +594,10 @@
                 },
                 "CURSORS": {
                     "INDIFFERENT": "Indifférent",
-                    "LESS_INTERESTING": "Peu d'influence",
+                    "LESS_INTERESTING": "Non prioritaire",
                     "TO_AVOID": "Faible",
                     "TO_PRIORITIZE": "Fort",
-                    "VERY_INTERESTING": "Beaucoup d'influence"
+                    "VERY_INTERESTING": "Prioritaire"
                 },
                 "ERROR": "Une erreur est apparue, essayez de changer d'échelle, ou contactez le support",
                 "GENERATE": "Générer",
@@ -1562,30 +1562,9 @@
     "SHARING2": {
         "BRIEFS": {
             "ACTIONS": {
-                "DELETE": "Supprimer",
-                "EDIT": "Éditer",
-                "ADD": "Ajouter un brief"
-            },
-            "MODAL": {
-                "EDIT_TITLE": "Renommer un brief",
                 "ADD": "Ajouter un brief",
-                "NAME": "Nom du brief",
-                "PLACEHOLDER": "Contenu du brief : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
-                "CANCEL": "Annuler",
-                "SAVE": "Sauvegarder"
-            },
-            "HEADER": {
-                "TITLE": "Mes briefs",
-                "SUBTITLE": "Lorem Ipsum",
-                "DELETE": " | Supprimer 1 brief | Supprimer {count} briefs",
-                "SEARCH": "Rechercher un brief",
-                "ADD": "Ajouter un brief"
-            },
-            "SUCCESS": {
-                "ADD": " | Brief ajouté ! 👍 | {count} briefs ajoutés ! 👍",
-                "DELETE": " | Brief supprimé ! 👍 | {count} briefs supprimés ! 👍",
-                "EDIT": "Brief sauvegardé ! 👍",
-                "UPDATE": "Brief mis à jour ! 👍"
+                "DELETE": "Supprimer",
+                "EDIT": "Éditer"
             },
             "CONFIRM": {
                 "CANCEL": "Annuler",
@@ -1593,10 +1572,31 @@
                 "DELETE": " | Êtes-vous sûr de vouloir supprimer ce brief ? | Êtes-vous sûr de vouloir supprimer ces {count} briefs ?",
                 "TITLE": "Attention"
             },
-            "ERROR": "Une erreur est survenue, veuillez réessayer",
             "EMPTY_STATE": "Aucun brief pour le moment !",
+            "ERROR": "Une erreur est survenue, veuillez réessayer",
+            "HEADER": {
+                "ADD": "Ajouter un brief",
+                "DELETE": " | Supprimer 1 brief | Supprimer {count} briefs",
+                "SEARCH": "Rechercher un brief",
+                "SUBTITLE": "Lorem Ipsum",
+                "TITLE": "Mes briefs"
+            },
             "INFORMATION": "C’est ici que vous pouvez créer des éléments de language et des scripts. Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles informés et outillés.",
-            "NOT_FOUND": "Aucun brief ne correspond à votre recherche."
+            "MODAL": {
+                "ADD": "Ajouter un brief",
+                "CANCEL": "Annuler",
+                "EDIT_TITLE": "Renommer un brief",
+                "NAME": "Nom du brief",
+                "PLACEHOLDER": "Contenu du brief : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
+                "SAVE": "Sauvegarder"
+            },
+            "NOT_FOUND": "Aucun brief ne correspond à votre recherche.",
+            "SUCCESS": {
+                "ADD": " | Brief ajouté ! 👍 | {count} briefs ajoutés ! 👍",
+                "DELETE": " | Brief supprimé ! 👍 | {count} briefs supprimés ! 👍",
+                "EDIT": "Brief sauvegardé ! 👍",
+                "UPDATE": "Brief mis à jour ! 👍"
+            }
         },
         "DOCS": {
             "ACTIONS": {
@@ -1613,41 +1613,41 @@
                 "TYPE": "Type",
                 "SELECTED": " | 1 document sélectionné | {number} documents sélectionnés"
             },
-            "MODAL": {
-                "EDIT_TITLE": "Renommer un document",
-                "ADD": "Ajouter un document",
-                "NAME": "Nom du document",
-                "PLACEHOLDER": "Contenu du document : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
-                "CANCEL": "Annuler",
-                "SAVE": "Sauvegarder",
-                "DOWNLOAD": "Télécharger le document",
-                "DOWNLOAD_END": " pour l'avoir sur votre ordinateur.",
-                "NO_VISUALIZATION": "Ce document n'est pas visualisable sur votre espace Quorum."
-            },
-            "HEADER": {
-                "TITLE": "Mes documents",
-                "SUBTITLE": "Lorem Ipsum",
-                "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
-                "SEARCH": "Rechercher un document",
-                "ADD": "Ajouter un document"
-            },
-            "SUCCESS": {
-                "ADD": " | Document ajouté ! 👍 | {count} documents ajoutés ! 👍",
-                "DELETE": " | Document supprimé ! 👍 | {count} documents supprimés ! 👍",
-                "EDIT": "Document sauvegardé ! 👍",
-                "UPDATE": "Document mis à jour ! 👍"
-            },
             "CONFIRM": {
                 "CANCEL": "Annuler",
                 "CONFIRM": "Confirmer",
                 "DELETE": " | Êtes-vous sûr de vouloir supprimer ce document ? | Êtes-vous sûr de vouloir supprimer ces {count} documents ?",
                 "TITLE": "Attention"
             },
+            "EMPTY_STATE": "Aucun document pour le moment !",
             "ERROR": "Une erreur est survenue, veuillez réessayer",
             "ERROR_TOO_LARGE": "Fichier trop volumineux - Doit être inférieur à 30 MB",
-            "EMPTY_STATE": "Aucun document pour le moment !",
+            "HEADER": {
+                "ADD": "Ajouter un document",
+                "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
+                "SEARCH": "Rechercher un document",
+                "SUBTITLE": "Lorem Ipsum",
+                "TITLE": "Mes documents"
+            },
             "INFORMATION": "C’est ici que vous pouvez ajouter des documents à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
-            "NOT_FOUND": "Aucun document ne correspond à votre recherche."
+            "MODAL": {
+                "ADD": "Ajouter un document",
+                "CANCEL": "Annuler",
+                "DOWNLOAD": "Télécharger le document",
+                "DOWNLOAD_END": " pour l'avoir sur votre ordinateur.",
+                "EDIT_TITLE": "Renommer un document",
+                "NAME": "Nom du document",
+                "NO_VISUALIZATION": "Ce document n'est pas visualisable sur votre espace Quorum.",
+                "PLACEHOLDER": "Contenu du document : créez ici les éléments de langage, scripts pour vos équipes pour qu'ils deviennent des porte-paroles informés et outillés !",
+                "SAVE": "Sauvegarder"
+            },
+            "NOT_FOUND": "Aucun document ne correspond à votre recherche.",
+            "SUCCESS": {
+                "ADD": " | Document ajouté ! 👍 | {count} documents ajoutés ! 👍",
+                "DELETE": " | Document supprimé ! 👍 | {count} documents supprimés ! 👍",
+                "EDIT": "Document sauvegardé ! 👍",
+                "UPDATE": "Document mis à jour ! 👍"
+            }
         }
     },
     "SMS": {
