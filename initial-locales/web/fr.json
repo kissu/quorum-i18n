@@ -1610,7 +1610,8 @@
                 "CREATED": "Date d'ajout",
                 "NAME": "Nom",
                 "OWNER": "Importé par",
-                "TYPE": "Type"
+                "TYPE": "Type",
+                "SELECTED": " | 1 document sélectionné | {number} documents sélectionnés"
             },
             "MODAL": {
                 "EDIT_TITLE": "Renommer un document",
