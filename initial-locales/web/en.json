@@ -1561,27 +1561,92 @@
         }
     },
     "SHARING2": {
+        "BRIEFS": {
+            "ACTIONS": {
+                "ADD": "Add a talking point",
+                "DELETE": "Delete",
+                "EDIT": "Edit"
+            },
+            "CONFIRM": {
+                "CANCEL": "Cancel",
+                "CONFIRM": "Confirm",
+                "DELETE": " | Are you sure you want to delete this talking point? | Are you sure you want to delete these {count} talking points?",
+                "TITLE": "Warning"
+            },
+            "EMPTY_STATE": "No talking point at the moment!",
+            "ERROR": "An error occurred, please try again",
+            "HEADER": {
+                "ADD": "Add a talking point",
+                "DELETE": " | Delete 1 talking point | Delete {count} talking points",
+                "SEARCH": "Search for a note",
+                "SUBTITLE": "Lorem Ipsum",
+                "TITLE": "My talking points"
+            },
+            "INFORMATION": "This is where you can create talking points and notes for your team. All you have to do is link a talking point to an action to keep your team informed and turn anyone into a spokesperson.",
+            "MODAL": {
+                "ADD": "Add a talking point",
+                "CANCEL": "Cancel",
+                "EDIT_TITLE": "Rename a brief",
+                "NAME": "Name of the note",
+                "PLACEHOLDER": "Content of talking point: create here language elements, scripts for your teams to make them equipped and informed spokespersons!",
+                "SAVE": "Save"
+            },
+            "NOT_FOUND": "No note matches your search.",
+            "SUCCESS": {
+                "ADD": " | Note added! 👍 | {count} notes added! 👍",
+                "DELETE": " | Note deleted! 👍 | {count} notes deleted! 👍",
+                "EDIT": "Note edited! 👍",
+                "UPDATE": "Note updated! 👍"
+            }
+        },
         "DOCS": {
             "ACTIONS": {
+                "ADD": "Add a document",
                 "DELETE": "Delete",
                 "DOWNLOAD": "Download",
                 "RENAME": "Rename"
             },
             "COLUMNS": {
                 "CATEGORY": "Category",
-                "CREATED": "Creation date",
+                "CREATED": "Addition date",
                 "NAME": "Name",
                 "OWNER": "Uploaded by",
+                "SELECTED": " | 1 selected document | {count} selected documents",
                 "TYPE": "Type"
             },
-            "HEADER": {
-                "MY_DOCUMENTS": "My documents",
-                "SUBTITLE": "Lorem Ipsum"
+            "CONFIRM": {
+                "CANCEL": "Cancel",
+                "CONFIRM": "Confirm",
+                "DELETE": " | Are you sure you want to delete this document? | Are you sure you want to delete these {count} documents?",
+                "TITLE": "Warning"
             },
+            "EMPTY_STATE": "No document at the moment!",
+            "ERROR": "An error occurred, please try again",
+            "ERROR_TOO_LARGE": "File too large - Should be smaller than 30MB",
+            "HEADER": {
+                "ADD": "Add a document",
+                "DELETE": " | Delete 1 document | Delete {count} documents",
+                "SEARCH": "Search for a document",
+                "SUBTITLE": "Lorem Ipsum",
+                "TITLE": "My documents"
+            },
+            "INFORMATION": "This is where you can add documents to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
             "MODAL": {
+                "ADD": "Add a document",
+                "CANCEL": "Cancel",
                 "DOWNLOAD": "Download the document",
                 "DOWNLOAD_END": " to have it on your computer.",
-                "NO_VISUALIZATION": "This document isn't available for preview on your Quorum space."
+                "EDIT_TITLE": "Rename a document",
+                "NAME": "Name of the document",
+                "NO_VISUALIZATION": "This document cannot be visualized on your Quorum space",
+                "SAVE": "Save"
+            },
+            "NOT_FOUND": "No documents matches your search.",
+            "SUCCESS": {
+                "ADD": " | Document added! 👍 | {count} documents added! 👍",
+                "DELETE": " | Document deleted! 👍 | {count} documents deleted! 👍",
+                "EDIT": "Document edited! 👍",
+                "UPDATE": "Document updated! 👍"
             }
         }
     },
