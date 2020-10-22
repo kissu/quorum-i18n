@@ -1610,8 +1610,8 @@
                 "CREATED": "Date d'ajout",
                 "NAME": "Nom",
                 "OWNER": "Importé par",
-                "TYPE": "Type",
-                "SELECTED": " | 1 document sélectionné | {number} documents sélectionnés"
+                "SELECTED": " | 1 document sélectionné | {number} documents sélectionnés",
+                "TYPE": "Type"
             },
             "CONFIRM": {
                 "CANCEL": "Annuler",
