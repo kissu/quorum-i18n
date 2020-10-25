@@ -1607,8 +1607,8 @@
                 "RENAME": "Rename"
             },
             "CATEGORIES": {
-                "INTERNAL": "Internal document",
-                "EXTERNAL": "External document"
+                "EXTERNAL": "External document",
+                "INTERNAL": "Internal document"
             },
             "COLUMNS": {
                 "CATEGORY": "Category",
