@@ -1619,6 +1619,10 @@
                 "DELETE": " | Êtes-vous sûr de vouloir supprimer ce document ? | Êtes-vous sûr de vouloir supprimer ces {count} documents ?",
                 "TITLE": "Attention"
             },
+            "CATEGORIES": {
+                "INTERNAL": "Document interne",
+                "EXTERNAL": "Document externe"
+            },
             "EMPTY_STATE": "Aucun document pour le moment !",
             "ERROR": "Une erreur est survenue, veuillez réessayer",
             "ERROR_TOO_LARGE": "Fichier trop volumineux - Doit être inférieur à 30 MB",
