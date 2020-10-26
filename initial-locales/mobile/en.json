@@ -374,6 +374,7 @@
         "documents": {
             "emptyDocuments": "No documents have been shared with you yet.",
             "title": "Documents",
+            "withoutCategory": "Without category",
             "types": {
                 "image": "Image",
                 "other": "Other",
