@@ -1599,6 +1599,7 @@
             }
         },
         "DOCS": {
+            "PLACEHOLDER_CATEGORIES": "Filtrer par catégorie",
             "ACTIONS": {
                 "ADD": "Ajouter un document",
                 "DELETE": "Supprimer",

@@ -1600,6 +1600,7 @@
             }
         },
         "DOCS": {
+            "PLACEHOLDER_CATEGORIES": "Filter by category",
             "ACTIONS": {
                 "ADD": "Add a document",
                 "DELETE": "Delete",
