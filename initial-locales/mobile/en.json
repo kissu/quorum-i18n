@@ -374,13 +374,13 @@
         "documents": {
             "emptyDocuments": "No documents have been shared with you yet.",
             "title": "Documents",
-            "withoutCategory": "Without category",
             "types": {
                 "image": "Image",
                 "other": "Other",
                 "pdf": "PDF",
                 "video": "Video"
-            }
+            },
+            "withoutCategory": "Without category"
         },
         "fieldActions": {
             "advancedLayout": {
