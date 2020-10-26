@@ -1599,7 +1599,6 @@
             }
         },
         "DOCS": {
-            "PLACEHOLDER_CATEGORIES": "Filtrer par catégorie",
             "ACTIONS": {
                 "ADD": "Ajouter un document",
                 "DELETE": "Supprimer",
@@ -1647,6 +1646,7 @@
                 "SAVE": "Sauvegarder"
             },
             "NOT_FOUND": "Aucun document ne correspond à votre recherche.",
+            "PLACEHOLDER_CATEGORIES": "Filtrer par catégorie",
             "SUCCESS": {
                 "ADD": " | Document ajouté ! 👍 | {count} documents ajoutés ! 👍",
                 "DELETE": " | Document supprimé ! 👍 | {count} documents supprimés ! 👍",

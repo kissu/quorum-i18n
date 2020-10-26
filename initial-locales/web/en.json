@@ -1600,7 +1600,6 @@
             }
         },
         "DOCS": {
-            "PLACEHOLDER_CATEGORIES": "Filter by category",
             "ACTIONS": {
                 "ADD": "Add a document",
                 "DELETE": "Delete",
@@ -1647,6 +1646,7 @@
                 "SAVE": "Save"
             },
             "NOT_FOUND": "No documents matches your search.",
+            "PLACEHOLDER_CATEGORIES": "Filter by category",
             "SUCCESS": {
                 "ADD": " | Document added! 👍 | {count} documents added! 👍",
                 "DELETE": " | Document deleted! 👍 | {count} documents deleted! 👍",
