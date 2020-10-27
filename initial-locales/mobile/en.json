@@ -380,7 +380,12 @@
                 "pdf": "PDF",
                 "video": "Video"
             },
-            "withoutCategory": "Without category"
+            "category": {
+                "allDocuments": "Tous",
+                "empty": "Without category",
+                "internal": "Internal",
+                "external": "External"
+            }
         },
         "fieldActions": {
             "advancedLayout": {
