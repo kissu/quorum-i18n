@@ -372,6 +372,12 @@
             }
         },
         "documents": {
+            "category": {
+                "allDocuments": "Tous",
+                "empty": "Without category",
+                "external": "External",
+                "internal": "Internal"
+            },
             "emptyDocuments": "No documents have been shared with you yet.",
             "title": "Documents",
             "types": {
@@ -379,12 +385,6 @@
                 "other": "Other",
                 "pdf": "PDF",
                 "video": "Video"
-            },
-            "category": {
-                "allDocuments": "Tous",
-                "empty": "Without category",
-                "internal": "Internal",
-                "external": "External"
             }
         },
         "fieldActions": {
