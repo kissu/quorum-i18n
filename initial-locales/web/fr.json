@@ -1578,7 +1578,7 @@
                 "ADD": "Ajouter un brief",
                 "DELETE": " | Supprimer 1 brief | Supprimer {count} briefs",
                 "SEARCH": "Rechercher un brief",
-                "SUBTITLE": "Lorem Ipsum",
+                "SUBTITLE": "",
                 "TITLE": "Mes briefs"
             },
             "INFORMATION": "C’est ici que vous pouvez créer des éléments de language et des scripts. Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles informés et outillés.",
@@ -1632,7 +1632,7 @@
                 "ADD": "Ajouter un document",
                 "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
                 "SEARCH": "Rechercher un document",
-                "SUBTITLE": "Lorem Ipsum",
+                "SUBTITLE": "Une fois vos documents ajoutés, ils seront directement disponibles sur l’application mobile de vos équipes.",
                 "TITLE": "Mes documents"
             },
             "INFORMATION": "C’est ici que vous pouvez ajouter des documents à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
