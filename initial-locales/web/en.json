@@ -1608,8 +1608,10 @@
             },
             "CATEGORIES": {
                 "EXTERNAL": "External document",
-                "INTERNAL": "Internal document"
+                "INTERNAL": "Internal document",
+                "ALL": "All"
             },
+            "SELECT_CATEGORIES": "Categories",
             "COLUMNS": {
                 "CATEGORY": "Category",
                 "CREATED": "Addition date",
