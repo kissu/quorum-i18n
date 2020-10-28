@@ -7,7 +7,11 @@
     "logged": {
         "canvassing": {
             "addCitizenCTA": "Ajouter un entretien",
-            "loadingStaticTitle": "Un peu de patience, nous rassemblons les informations."
+            "loadingStaticTitle": "Un peu de patience, nous rassemblons les informations.",
+            "staticCanvassing": {
+                "addedContacts": "entretiens passés",
+                "addAContact": "Lancer un entretien"
+            }
         },
         "form": {
             "allQuestions": "Voir toutes les questions",
@@ -31,7 +35,8 @@
             },
             "rateContact": {
                 "howTheDiscussionHasGoing": "Comment s'est passé cet entretien ?"
-            }
+            },
+            "informationContact": "Informations complémentaires"
         },
         "headQuarter": {
             "quickActions": {
@@ -52,7 +57,8 @@
             "public": {
                 "joinMouvement": {
                     "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région."
-                }
+                },
+                "inALightning": "Merci pour votre participation à la mission “Parlons Énergies chez vous”."
             }
         }
     },
