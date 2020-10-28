@@ -1608,7 +1608,8 @@
             "CATEGORIES": {
                 "EXTERNAL": "Document externe",
                 "INTERNAL": "Document interne",
-                "ALL": "Toutes"
+                "ALL": "Toutes",
+                "NONE": "Aucune"
             },
             "SELECT_CATEGORIES": "Catégories",
             "COLUMNS": {
