@@ -9,8 +9,8 @@
             "addCitizenCTA": "Ajouter un entretien",
             "loadingStaticTitle": "Un peu de patience, nous rassemblons les informations.",
             "staticCanvassing": {
-                "addedContacts": "entretiens passés",
-                "addAContact": "Lancer un entretien"
+                "addAContact": "Lancer un entretien",
+                "addedContacts": "entretiens passés"
             }
         },
         "form": {
@@ -33,10 +33,10 @@
                 "rateTheForm": "Qualifier l'échange",
                 "thanksYouLabel": "Merci et Bravo !"
             },
+            "informationContact": "Informations complémentaires",
             "rateContact": {
                 "howTheDiscussionHasGoing": "Comment s'est passé cet entretien ?"
-            },
-            "informationContact": "Informations complémentaires"
+            }
         },
         "headQuarter": {
             "quickActions": {
@@ -55,10 +55,10 @@
                 }
             },
             "public": {
+                "inALightning": "Merci pour votre participation à la mission “Parlons Énergies chez vous”.",
                 "joinMouvement": {
                     "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région."
-                },
-                "inALightning": "Merci pour votre participation à la mission “Parlons Énergies chez vous”."
+                }
             }
         }
     },
