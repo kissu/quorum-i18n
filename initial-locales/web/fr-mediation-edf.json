@@ -232,5 +232,12 @@
     "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "_COMMON": {
         "TAGS": "Mots-clés"
+    },
+    "SHARING2": {
+        "DOCS": {
+            "CATEGORIES": {
+                "EXTERNAL": "Document citoyen"
+            }
+        }
     }
 }
