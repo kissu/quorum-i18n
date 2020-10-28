@@ -1607,12 +1607,11 @@
                 "RENAME": "Rename"
             },
             "CATEGORIES": {
+                "ALL": "All",
                 "EXTERNAL": "External document",
                 "INTERNAL": "Internal document",
-                "ALL": "All",
                 "NONE": "None"
             },
-            "SELECT_CATEGORIES": "Categories",
             "COLUMNS": {
                 "CATEGORY": "Category",
                 "CREATED": "Addition date",
@@ -1650,6 +1649,7 @@
             },
             "NOT_FOUND": "No documents matches your search.",
             "PLACEHOLDER_CATEGORIES": "Filter by category",
+            "SELECT_CATEGORIES": "Categories",
             "SUCCESS": {
                 "ADD": " | Document added! 👍 | {count} documents added! 👍",
                 "DELETE": " | Document deleted! 👍 | {count} documents deleted! 👍",
