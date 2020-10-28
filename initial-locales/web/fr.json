@@ -1606,11 +1606,10 @@
                 "RENAME": "Renommer"
             },
             "CATEGORIES": {
+                "ALL": "Toutes",
                 "EXTERNAL": "Document externe",
-                "INTERNAL": "Document interne",
-                "ALL": "Toutes"
+                "INTERNAL": "Document interne"
             },
-            "SELECT_CATEGORIES": "Catégories",
             "COLUMNS": {
                 "CATEGORY": "Catégorie",
                 "CREATED": "Date d'ajout",
@@ -1649,6 +1648,7 @@
             },
             "NOT_FOUND": "Aucun document ne correspond à votre recherche.",
             "PLACEHOLDER_CATEGORIES": "Filtrer par catégorie",
+            "SELECT_CATEGORIES": "Catégories",
             "SUCCESS": {
                 "ADD": " | Document ajouté ! 👍 | {count} documents ajoutés ! 👍",
                 "DELETE": " | Document supprimé ! 👍 | {count} documents supprimés ! 👍",
