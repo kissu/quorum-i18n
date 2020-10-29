@@ -57,7 +57,10 @@
             "public": {
                 "inALightning": "Merci pour votre participation à la mission “Parlons Énergies chez vous”.",
                 "joinMouvement": {
-                    "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région."
+                    "few": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région.",
+                    "one": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région.",
+                    "other": "Il y a {{count}} jours que vous avez rejoint Parlons Energies dans votre région.",
+                    "zero": "Vous avez rejoint Parlons Energies dans votre région."
                 }
             }
         }
