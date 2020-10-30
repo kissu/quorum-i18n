@@ -721,11 +721,11 @@
     "popup": {
         "consent": {
             "cancel": "Annuler",
-            "contentSurvey": "N'oubliez pas de rappeler à votre interlocuteur dans quel cadre vous récoltez son avis et son contact, puis de rappeler clairement l'identité de l'organisation que vous représentez !",
             "contentAddAContact": "N'oubliez pas de rappeler à votre interlocuteur dans quel cadre vous récoltez son avis et son contact, puis de rappeler clairement l'identité de l'organisation que vous représentez !",
+            "contentSurvey": "N'oubliez pas de rappeler à votre interlocuteur dans quel cadre vous récoltez son avis et son contact, puis de rappeler clairement l'identité de l'organisation que vous représentez !",
             "gpdrOkEmailLabel": "Le contact accepte de recevoir des emails (en rapport avec votre cause)",
-            "gpdrOkLabelSurvey": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de mon action.",
             "gpdrOkLabelAddAContact": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de mon action.",
+            "gpdrOkLabelSurvey": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de mon action.",
             "gpdrOkSMSLabel": "Le contact accepte d'être contacté par téléphone (en rapport avec votre cause)",
             "nextStep": "Continuer",
             "title": "Consentement"
