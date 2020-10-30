@@ -70,9 +70,11 @@
     },
     "popup": {
         "consent": {
-            "content": "N'oubliez pas de rappeler à votre interlocuteur dans quel cadre vous récoltez son avis.\nAucun lien ne sera fait entre ses réponses au questionnaire et ses informations personnelles.",
+            "contentSurvey": "N'oubliez pas de rappeler à votre interlocuteur dans quel cadre vous récoltez son avis.\nAucun lien ne sera fait entre ses réponses au questionnaire et ses informations personnelles.",
+            "contentAddAContact": "N’oubliez pas de rappeler à votre interlocuteur que vous récoltez son contact uniquement pour le tenir informé de la suite de l’opération Parlons Energies Chez Vous.\nAucun lien n’est fait entre ses coordonnées et les réponses au questionnaire.",
             "gpdrOkEmailLabel": "Le contact accepte de recevoir des mails pour être informé de la suite du dispositif Parlons Énergies Chez Vous.",
-            "gpdrOkLabel": "Le contact m'autorise à utiliser ses réponses dans le cadre de l'opération Parlons Énergies Chez Vous.",
+            "gpdrOkLabelSurvey": "Le contact m’autorise à utiliser ses réponses dans le cadre de l’opération Parlons Energies Chez Vous.",
+            "gpdrOkLabelAddAContact": "Le contact m’autorise à collecter ses coordonnées pour être informé de la suite de l’opération Parlons Energies Chez Vous.",
             "gpdrOkSMSLabel": "Le contact accepte de recevoir des appels pour être informé de la suite du dispositif Parlons Énergies Chez Vous."
         }
     }
