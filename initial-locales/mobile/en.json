@@ -729,11 +729,11 @@
     "popup": {
         "consent": {
             "cancel": "Cancel",
-            "contentSurvey": "Do not forget to inform the person of the context of the action you're taking and make your organisation's name clear!",
             "contentAddAContact": "Do not forget to inform the person of the context of the action you're taking and make your organisation's name clear!",
+            "contentSurvey": "Do not forget to inform the person of the context of the action you're taking and make your organisation's name clear!",
             "gpdrOkEmailLabel": "The contact agrees to receive emails (related to your action)",
-            "gpdrOkLabelSurvey": "The contact authorizes me to collect and use this information as part of my action.",
             "gpdrOkLabelAddAContact": "The contact authorizes me to collect and use this information as part of my action.",
+            "gpdrOkLabelSurvey": "The contact authorizes me to collect and use this information as part of my action.",
             "gpdrOkSMSLabel": "The contact agrees to be contacted by phone (related to your action)",
             "nextStep": "Continue",
             "title": "Consent"
