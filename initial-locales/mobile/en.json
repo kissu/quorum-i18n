@@ -387,11 +387,11 @@
                 "video": "Video"
             },
             "webPopupDocumentNewWindow": {
-                "title": "Document opening",
+                "cancel": "Cancel",
+                "continue": "Agree",
                 "description": "The document \"{title}\" will open in a new tab.",
                 "doNotShowMessageAgain": "Stop displaying this message",
-                "cancel": "Cancel",
-                "continue": "Agree"
+                "title": "Document opening"
             }
         },
         "fieldActions": {

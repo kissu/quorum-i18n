@@ -387,11 +387,11 @@
                 "video": "Vidéo"
             },
             "webPopupDocumentNewWindow": {
-                "title": "Ouverture du document",
+                "cancel": "Annuler",
+                "continue": "D'accord",
                 "description": "Le document \"{title}\" va s'ouvrir dans un nouvel onglet.",
                 "doNotShowMessageAgain": "Ne plus afficher ce message",
-                "cancel": "Annuler",
-                "continue": "D'accord"
+                "title": "Ouverture du document"
             }
         },
         "fieldActions": {
