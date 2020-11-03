@@ -389,7 +389,7 @@
             "webPopupDocumentNewWindow": {
                 "cancel": "Annuler",
                 "continue": "D'accord",
-                "description": "Le document \"{title}\" va s'ouvrir dans un nouvel onglet.",
+                "description": "Le document \"{{title}}\" va s'ouvrir dans un nouvel onglet.",
                 "doNotShowMessageAgain": "Ne plus afficher ce message",
                 "title": "Ouverture du document"
             }
