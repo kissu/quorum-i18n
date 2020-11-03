@@ -385,6 +385,13 @@
                 "other": "Other",
                 "pdf": "PDF",
                 "video": "Video"
+            },
+            "webPopupDocumentNewWindow": {
+                "title": "Document opening",
+                "description": "The document \"{title}\" will open in a new tab.",
+                "doNotShowMessageAgain": "Stop displaying this message",
+                "cancel": "Cancel",
+                "continue": "Agree"
             }
         },
         "fieldActions": {
