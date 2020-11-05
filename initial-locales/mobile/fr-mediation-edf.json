@@ -40,7 +40,7 @@
         },
         "headQuarter": {
             "quickActions": {
-                "add": "Lancer un entretien",
+                "add": "Lancer l'entretien",
                 "addSupport": "Ajouter un contact\n",
                 "welcome": "Bienvenue cher exploreur {{firstname}} 👋"
             }
