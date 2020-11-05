@@ -710,7 +710,7 @@
             "INFO": "More info",
             "LASTCHANGE": "Has been met the {lastchange} by {name}",
             "LASTCHANGE_DIRECT": "Has been met {lastchange} by {name}",
-            "LEAD": "Leads",
+            "LEAD": "Tasks",
             "MANDATORY": "Mandatory",
             "MANDATORY_FIELDS_NEEDED": "Mandatories fields are not completed.",
             "MET": "Met on {date}",
@@ -725,8 +725,8 @@
             "POLLINGSTATION": "Territory",
             "POSTALCODE": "Postal code",
             "ROUTE_FORMS": "Form",
-            "ROUTE_NOTES": "Notes",
-            "ROUTE_OPPORTUNITIES": "Opportunity",
+            "ROUTE_NOTES": "Note",
+            "ROUTE_OPPORTUNITIES": "Task",
             "SHOW_ALL": "Show all info",
             "STATUS": "Status",
             "STREET": "Street",
@@ -1147,7 +1147,7 @@
     },
     "MANAGEMENT": {
         "ISSUE_CENTER": {
-            "ACTIONS": "Lead categories",
+            "ACTIONS": "Tasks categories",
             "ALL_GOOD": "Everything is good here! 👍",
             "CALL": "Call: {phone}",
             "CALL_MEMBER": "Call member: {phone}",
@@ -1190,7 +1190,7 @@
         "HELP_MESSAGE": "Contact <a class=\"action\" href=\"mailto:jeandaniel@support.quorum.co\">jeandaniel@support.quorum.co</a>",
         "HELP_TITLE": "Need help?",
         "HQ": "HQ",
-        "ISSUE_CENTER": "Leads",
+        "ISSUE_CENTER": "Tasks",
         "LEAD": "Community",
         "MAPS": "Maps",
         "MEMBERS": "Members",
@@ -1339,7 +1339,7 @@
             "EMPTY_FORM": "Add your first section! ✊",
             "FIELD": "Property",
             "HOW_TO_USE_FORM_BUILDER": "How to use the survey?",
-            "HOW_TO_USE_TUNNELS": "How to set up status & lead channels?",
+            "HOW_TO_USE_TUNNELS": "How to set up status & tasks channels?",
             "INVITE": "Invite",
             "LEAD_WARNING": "Warning: modify at your own risks ! Some features may be severely impacted.",
             "LEAVE_THE_PAGE_MESSAGE": "If you leave the page now, all of the changes you have made will not published. Do you really want to continue ?",
@@ -1359,7 +1359,7 @@
             },
             "MUST_BE_NUMBER": "Numbers only!",
             "NAMES": {
-                "ACTION": "Lead channels",
+                "ACTION": "Tasks channels",
                 "STATUS": "Status"
             },
             "NATION_BUILDER_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your nation.",
@@ -1388,9 +1388,9 @@
             "TEMPLATE1": "Template: Engagement (In french)",
             "TEMPLATE2": "Template: Neighbourhood & daily life (In french)",
             "TEMPLATES": "Survey templates",
-            "TEMPLATE_ACTION": "Go back to default lead channels",
+            "TEMPLATE_ACTION": "Go back to default tasks channels",
             "TEMPLATE_STATUS": "Go back to default status",
-            "TOOLTIP_ACTION": "Make this channel appears in the tabs of your leads dashboard.",
+            "TOOLTIP_ACTION": "Make this channel appears in the tabs of your tasks dashboard.",
             "TOOLTIP_SUPPORT": "Make this status the default & pre-checked status",
             "TO_MEET": "To meet",
             "TYPE": "Types",
@@ -1419,12 +1419,12 @@
             "WARNING_MEANING_LABEL_SETTINGS": "Beware, you will <strong>edit</strong> your settings!<br/>If your changes change the <strong> meaning</strong> of your question / answer: <strong>delete it and try again.</strong>"
         },
         "HEADER": {
-            "ACTIONS": "Lead channels",
+            "ACTIONS": "Tasks channels",
             "ADVANCED": "Advanced settings",
             "CONTACT": "Contact card",
             "FORM": "Survey",
             "GENERAL": "General",
-            "LEAD": "Leads",
+            "LEAD": "Tasks",
             "MAILAUTO": "Automatic email",
             "PROFILE": "Profile",
             "STATUS": "Status",
@@ -1579,7 +1579,7 @@
                 "ADD": "Add a talking point",
                 "DELETE": " | Delete 1 talking point | Delete {count} talking points",
                 "SEARCH": "Search for a note",
-                "SUBTITLE": "",
+                "SUBTITLE": "Lorem Ipsum",
                 "TITLE": "My talking points"
             },
             "INFORMATION": "This is where you can create talking points and notes for your team. All you have to do is link a talking point to an action to keep your team informed and turn anyone into a spokesperson.",
@@ -1606,12 +1606,6 @@
                 "DOWNLOAD": "Download",
                 "RENAME": "Rename"
             },
-            "CATEGORIES": {
-                "ALL": "All",
-                "EXTERNAL": "External document",
-                "INTERNAL": "Internal document",
-                "NONE": "None"
-            },
             "COLUMNS": {
                 "CATEGORY": "Category",
                 "CREATED": "Addition date",
@@ -1633,7 +1627,7 @@
                 "ADD": "Add a document",
                 "DELETE": " | Delete 1 document | Delete {count} documents",
                 "SEARCH": "Search for a document",
-                "SUBTITLE": "Once your documents have been added, they will be directly available on your team’s mobile application.",
+                "SUBTITLE": "Lorem Ipsum",
                 "TITLE": "My documents"
             },
             "INFORMATION": "This is where you can add documents to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
@@ -1648,8 +1642,6 @@
                 "SAVE": "Save"
             },
             "NOT_FOUND": "No documents matches your search.",
-            "PLACEHOLDER_CATEGORIES": "Filter by category",
-            "SELECT_CATEGORIES": "Categories",
             "SUCCESS": {
                 "ADD": " | Document added! 👍 | {count} documents added! 👍",
                 "DELETE": " | Document deleted! 👍 | {count} documents deleted! 👍",

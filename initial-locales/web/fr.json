@@ -725,7 +725,7 @@
             "POSTALCODE": "Code postal",
             "ROUTE_FORMS": "Questionnaire",
             "ROUTE_NOTES": "Notes",
-            "ROUTE_OPPORTUNITIES": "Opportunité",
+            "ROUTE_OPPORTUNITIES": "Tâche",
             "SHOW_ALL": "Afficher toutes les coordonnées",
             "STATUS": "Statut",
             "STREET": "Voie",
@@ -1358,7 +1358,7 @@
             },
             "MUST_BE_NUMBER": "Ce n'est pas un numéro !",
             "NAMES": {
-                "ACTION": "Tunnel d'opportunités",
+                "ACTION": "Tunnel de tâches",
                 "STATUS": "Statuts"
             },
             "NATION_BUILDER_SWITCH_EXPLANATION": "Vous retrouverez (sous forme de tag) les réponses à cette question du contact au sein de votre nation.",
@@ -1387,9 +1387,9 @@
             "TEMPLATE1": "Modèle : Engagement",
             "TEMPLATE2": "Modèle : Quartier & quotidien",
             "TEMPLATES": "Modèles de questionnaires",
-            "TEMPLATE_ACTION": "Revenir au tunnel d'opportunité par défaut",
+            "TEMPLATE_ACTION": "Revenir au tunnel de tâches par défaut",
             "TEMPLATE_STATUS": "Revenir aux statuts par défaut",
-            "TOOLTIP_ACTION": "Faire apparaître ce champ dans vos onglets de votre centre d'opportunités.",
+            "TOOLTIP_ACTION": "Faire apparaître ce champ dans vos onglets de votre centre de tâches.",
             "TOOLTIP_SUPPORT": "Faire de ce status le status de soutien par défault",
             "TO_MEET": "À rencontrer",
             "TYPE": "Types",
@@ -1578,7 +1578,7 @@
                 "ADD": "Ajouter un brief",
                 "DELETE": " | Supprimer 1 brief | Supprimer {count} briefs",
                 "SEARCH": "Rechercher un brief",
-                "SUBTITLE": "",
+                "SUBTITLE": "Lorem Ipsum",
                 "TITLE": "Mes briefs"
             },
             "INFORMATION": "C’est ici que vous pouvez créer des éléments de language et des scripts. Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles informés et outillés.",
@@ -1605,12 +1605,6 @@
                 "DOWNLOAD": "Télécharger",
                 "RENAME": "Renommer"
             },
-            "CATEGORIES": {
-                "ALL": "Toutes",
-                "EXTERNAL": "Document externe",
-                "INTERNAL": "Document interne",
-                "NONE": "Aucune"
-            },
             "COLUMNS": {
                 "CATEGORY": "Catégorie",
                 "CREATED": "Date d'ajout",
@@ -1632,7 +1626,7 @@
                 "ADD": "Ajouter un document",
                 "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
                 "SEARCH": "Rechercher un document",
-                "SUBTITLE": "Une fois vos documents ajoutés, ils seront directement disponibles sur l’application mobile de vos équipes.",
+                "SUBTITLE": "Lorem Ipsum",
                 "TITLE": "Mes documents"
             },
             "INFORMATION": "C’est ici que vous pouvez ajouter des documents à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
@@ -1648,8 +1642,6 @@
                 "SAVE": "Sauvegarder"
             },
             "NOT_FOUND": "Aucun document ne correspond à votre recherche.",
-            "PLACEHOLDER_CATEGORIES": "Filtrer par catégorie",
-            "SELECT_CATEGORIES": "Catégories",
             "SUCCESS": {
                 "ADD": " | Document ajouté ! 👍 | {count} documents ajoutés ! 👍",
                 "DELETE": " | Document supprimé ! 👍 | {count} documents supprimés ! 👍",
