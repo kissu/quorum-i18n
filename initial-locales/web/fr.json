@@ -1605,6 +1605,12 @@
                 "DOWNLOAD": "Télécharger",
                 "RENAME": "Renommer"
             },
+            "CATEGORIES": {
+                "ALL": "Toutes",
+                "EXTERNAL": "Document externe",
+                "INTERNAL": "Document interne",
+                "NONE": "Aucune"
+            },
             "COLUMNS": {
                 "CATEGORY": "Catégorie",
                 "CREATED": "Date d'ajout",

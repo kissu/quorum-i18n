@@ -1606,6 +1606,12 @@
                 "DOWNLOAD": "Download",
                 "RENAME": "Rename"
             },
+            "CATEGORIES": {
+                "ALL": "All",
+                "EXTERNAL": "External document",
+                "INTERNAL": "Internal document",
+                "NONE": "None"
+            },
             "COLUMNS": {
                 "CATEGORY": "Category",
                 "CREATED": "Addition date",
