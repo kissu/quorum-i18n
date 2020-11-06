@@ -1648,6 +1648,8 @@
                 "SAVE": "Save"
             },
             "NOT_FOUND": "No documents matches your search.",
+            "PLACEHOLDER_CATEGORIES": "Filter by category",
+            "SELECT_CATEGORIES": "Categories",
             "SUCCESS": {
                 "ADD": " | Document added! 👍 | {count} documents added! 👍",
                 "DELETE": " | Document deleted! 👍 | {count} documents deleted! 👍",
