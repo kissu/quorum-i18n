@@ -373,7 +373,7 @@
         },
         "documents": {
             "category": {
-                "allDocuments": "Tous",
+                "allDocuments": "All",
                 "empty": "Without category",
                 "external": "External",
                 "internal": "Internal"
