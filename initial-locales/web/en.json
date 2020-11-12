@@ -1720,7 +1720,16 @@
             "BODY": "Your message...",
             "TITLE": "Your organisation's name"
         },
-        "REMAINING_CHARACTERS": "0 remaining character | 1 remaining character | {count} remaining characters",
+        "NB_CHARACTERS": "0 character | 1 character | {count} characters",
+        "YOU_WILL_USE": "You will use",
+        "SELECTED_CONTACTS": "Selected contacts",
+        "SMS_CREDITS": "SMS credit | {count} SMS credit | {count} SMS credits",
+        "SMS_CREDITS_REMAINING": "SMS credits remaining",
+        "CREDITS": "{count} credit | {count} credit | {count} credits",
+        "CONTACT": "contact",
+        "BALANCE_SMS_CREDITS": "Balance SMS credits",
+        "NB_SMS_CREDITS_USED": "Number of SMS credits used",
+        "BALANCE_SMS_CREDITS_AFTER_SENDING": "Balance SMS credits after sending",
         "SEND": "Send",
         "SEND_SMS": "Send SMS",
         "SEND_SMS_TO_X_CONTACT": "You will send an SMS to 0 contact | You will send an SMS to 1 contact | You will send an SMS to {count} contacts",
@@ -5695,6 +5704,7 @@
             "YEAR": "year | years"
         },
         "WOMEN": "Woman",
-        "YES": "Yes"
+        "YES": "Yes",
+        "LEARN_MORE": "Learn more"
     }
 }

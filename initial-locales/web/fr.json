@@ -1720,7 +1720,16 @@
             "BODY": "Votre message ...",
             "TITLE": "Nom de l'espace"
         },
-        "REMAINING_CHARACTERS": "0 caractére restant | 1 caractére restant | {count} caractères restants",
+        "NB_CHARACTERS": "0 caractère | 1 caractère | {count} caractères",
+        "YOU_WILL_USE": "Vous allez utiliser",
+        "SELECTED_CONTACTS": "Contacts sélectionnés",
+        "SMS_CREDITS": "crédit SMS | {count} crédit SMS | {count} crédits SMS",
+        "SMS_CREDITS_REMAINING": "Crédits SMS restants",
+        "CREDITS": "{count} crédit | {count} crédit | {count} crédits",
+        "CONTACT": "contact",
+        "BALANCE_SMS_CREDITS": "Solde crédits SMS",
+        "NB_SMS_CREDITS_USED": "Nombre de crédits SMS utilisés",
+        "BALANCE_SMS_CREDITS_AFTER_SENDING": "Solde crédits SMS après envoi",
         "SEND": "Envoyer",
         "SEND_SMS": "Envoyer un SMS",
         "SEND_SMS_TO_X_CONTACT": "Envoyer un SMS à 0 contact | Envoyer un SMS à 1 contact | Envoyer un SMS à {count} contacts",
@@ -5693,6 +5702,7 @@
             "WEEK": "semaine | semaines",
             "YEAR": "an | ans"
         },
+        "LEARN_MORE": "En savoir plus",
         "YES": "Oui"
     }
 }
