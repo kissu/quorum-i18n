@@ -34,7 +34,8 @@
     }
   },
   "dependencies": {
-    "fs-extra": "^9.0.1"
+    "fs-extra": "^9.0.1",
+    "quorum-i18n": "^1.84.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.0",

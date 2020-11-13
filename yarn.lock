@@ -5515,6 +5515,13 @@ quick-lru@^4.0.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-4.0.1.tgz#5b8878f113a58217848c6482026c73e1ba57727f"
   integrity sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==
 
+quorum-i18n@^1.84.1:
+  version "1.84.1"
+  resolved "https://registry.yarnpkg.com/quorum-i18n/-/quorum-i18n-1.84.1.tgz#86999c921a1a4179f1ffa134d6aba25eb3838dd4"
+  integrity sha512-TJNvypMt+Y0Bu6y+DRNWAxrEFeEemJ16PX7rrYexEJFDqlxLWAZAN4mjk4oD4Oh7xvbADUab4E6A9BVNIH2VLA==
+  dependencies:
+    fs-extra "^9.0.1"
+
 rc@^1.2.8:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
