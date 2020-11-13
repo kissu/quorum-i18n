@@ -414,6 +414,36 @@
                 "PASSWORD": "Entrez votre mot de passe"
             }
         },
+        "TAGS": {
+            "ADD_TAG": "Ajouter un mot-clé",
+            "ALREADY_EXISTS": "Ce mot-clé existe déjà",
+            "CANCEL": "Annuler",
+            "CONFIRM_DELETION_TAG": "Êtes-vous sûr de vouloir supprimer le mot-clé ",
+            "DELETE": "Supprimer",
+            "DELETION": "Suppression",
+            "ERROR": {
+                "ADD": "Une erreur est survenue lors de l'ajout",
+                "DELETE": "Une erreur est survenue lors de la suppression",
+                "DELETE_SEVERAL": "Une erreur est survenue lors de la suppression",
+                "GET": "Une erreur est survenue",
+                "RENAME": "Une erreur est survenue lors du renommage"
+            },
+            "IMPACTED_CONTACTS": "Aucun contact ne sera impacté | Il sera automatiquement enlevé à 1 contact qui a ce mot-clé. | Il sera automatiquement enlevé aux {count} contacts qui ont ce mot-clé.",
+            "NAME": "Nom du mot-clé",
+            "NUMBER": "Nombre de contacts",
+            "PLACEHOLDER": "Créez votre mot-clé",
+            "RENAME_TAG": "Renommer",
+            "SAVE": "Sauvegarder",
+            "SEARCH": "Chercher un mot-clé",
+            "SELECTED_DOCUMENTS": " | 1 sélectionné | {count} sélectionnés",
+            "SUCCESS": {
+                "ADD": "Mot-clé ajouté ! 👍",
+                "DELETE": "Mot-clé supprimé ! 👍",
+                "DELETE_SEVERAL": " | 1 mots-clé supprimé ! 👍 | {count} mots-clés supprimés ! 👍",
+                "RENAME": "Mot-clé renommé ! 👍"
+            },
+            "TAGS": "Mots-clés"
+        },
         "VALIDATION": {
             "MESSAGES": {
                 "ERROR": "Une erreur est survenue, veuillez réessayer",
