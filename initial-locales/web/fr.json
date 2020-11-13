@@ -726,6 +726,7 @@
             "ROUTE_FORMS": "Questionnaire",
             "ROUTE_NOTES": "Notes",
             "ROUTE_OPPORTUNITIES": "Tâche",
+            "ROUTE_STATUS": "Statut",
             "SHOW_ALL": "Afficher toutes les coordonnées",
             "STATUS": "Statut",
             "STREET": "Voie",

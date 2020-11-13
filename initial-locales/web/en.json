@@ -727,6 +727,7 @@
             "ROUTE_FORMS": "Form",
             "ROUTE_NOTES": "Note",
             "ROUTE_OPPORTUNITIES": "Task",
+            "ROUTE_STATUS": "Status",
             "SHOW_ALL": "Show all info",
             "STATUS": "Status",
             "STREET": "Street",
