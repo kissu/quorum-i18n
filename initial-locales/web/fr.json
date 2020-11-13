@@ -1787,7 +1787,8 @@
             },
             "TITLE": "Attention"
         },
-        "YOU_WILL_USE": "Vous allez utiliser"
+        "YOU_WILL_USE": "Vous allez utiliser",
+        "PER_CONTACT": "par contact."
     },
     "STRUCTURE": {
         "NAVBAR": {

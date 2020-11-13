@@ -1787,7 +1787,9 @@
             },
             "TITLE": "Warning"
         },
-        "YOU_WILL_USE": "You will use"
+        "YOU_WILL_USE": "You will use",
+        "PER_CONTACT": "per contact.",
+        "BALANCE_SMS": "Balance of your SMS"
     },
     "STRUCTURE": {
         "NAVBAR": {
