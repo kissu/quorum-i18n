@@ -1720,6 +1720,7 @@
             "SENDING_ANALYSE": "SMS analytics",
             "SENT": "Sent"
         },
+        "BALANCE_SMS": "Balance of your SMS",
         "BALANCE_SMS_CREDITS": "Balance SMS",
         "BALANCE_SMS_CREDITS_AFTER_SENDING": "Balance SMS after sending",
         "CANCEL": "Cancel",
@@ -1754,6 +1755,7 @@
             "PLEASE_WRITE_INITIAL": "Please edit this field",
             "TITLE": "Name of the sender, appears when receiving an SMS"
         },
+        "PER_CONTACT": "per contact.",
         "PLACEHOLDERS": {
             "BODY": "Your message...",
             "TITLE": "Your organisation's name"
@@ -1787,9 +1789,7 @@
             },
             "TITLE": "Warning"
         },
-        "YOU_WILL_USE": "You will use",
-        "PER_CONTACT": "per contact.",
-        "BALANCE_SMS": "Balance of your SMS"
+        "YOU_WILL_USE": "You will use"
     },
     "STRUCTURE": {
         "NAVBAR": {

@@ -1754,6 +1754,7 @@
             "PLEASE_WRITE_INITIAL": "Merci de d'éditer ce champ",
             "TITLE": "Nom de l'expéditeur, apparaît lors de la réception d'un SMS"
         },
+        "PER_CONTACT": "par contact.",
         "PLACEHOLDERS": {
             "BODY": "Votre message ...",
             "TITLE": "Nom de l'espace"
@@ -1787,8 +1788,7 @@
             },
             "TITLE": "Attention"
         },
-        "YOU_WILL_USE": "Vous allez utiliser",
-        "PER_CONTACT": "par contact."
+        "YOU_WILL_USE": "Vous allez utiliser"
     },
     "STRUCTURE": {
         "NAVBAR": {
