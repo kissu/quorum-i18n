@@ -1705,6 +1705,7 @@
             "PAYEMENT_URL": "https://onboarding.quorum.co/sms?campaignId={campaignId}&userId={userId}&userEmail={userEmail}&lang={lang}",
             "REMAINING_SMS": "You do not have any SMS 😒| You have one remaining SMS 🌱| You have {count} remaining SMS 🚀"
         },
+        "HELP_LINK_SMS_CREATION": "https://intercom.help/quorumhq/en/articles/3532252",
         "HELP_MESSAGE": "You will not be charged for unsent text messages or incorrect number.",
         "INFORMATION_MESSAGE": "The people you are contacting have explicitly agreed to be approached",
         "IS_SENDING": {

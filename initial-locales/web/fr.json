@@ -1705,6 +1705,7 @@
             "PAYEMENT_URL": "https://onboarding.quorum.co/sms?campaignId={campaignId}&userId={userId}&userEmail={userEmail}&lang={lang}",
             "REMAINING_SMS": "Vous n'avez pas encore de SMS sur votre compte 😒| Il vous reste un seul SMS 🌱| Il vous reste {count} SMS à envoyer 🚀"
         },
+        "HELP_LINK_SMS_CREATION": "https://intercom.help/quorumhq/fr/articles/3532252",
         "HELP_MESSAGE": "Les SMS non envoyés ou les erreurs de numéros ne vous seront pas facturés.",
         "INFORMATION_MESSAGE": "Retirer la mention de désincription \"Stop SMS\".  \nAttention, ne le faites que si vous êtes certains du consentement.",
         "IS_SENDING": {
