@@ -415,34 +415,34 @@
             }
         },
         "TAGS": {
-            "TAGS": "Tags",
             "ADD_TAG": "Add a tag",
-            "SEARCH": "Search for a tag",
-            "NAME": "Tag name",
-            "RENAME_TAG": "Rename",
+            "ALREADY_EXISTS": "This tag already exists",
+            "CANCEL": "Cancel",
+            "CONFIRM_DELETION_TAG": "Are you sure you want to delete the tag ",
             "DELETE": "Delete",
-            "NUMBER": "Contact number",
-            "SELECTED_DOCUMENTS": " | 1 selected | {count} selected",
+            "DELETION": "Deletion",
             "ERROR": {
-                "GET": "An error occured when getting tags",
                 "ADD": "An error occured when adding",
                 "DELETE": "An error occured when deleting",
                 "DELETE_SEVERAL": "An error occured when deleting",
+                "GET": "An error occured when getting tags",
                 "RENAME": "An error occured when renaming"
             },
+            "IMPACTED_CONTACTS": "No contact will be impacted | It will automatically be removed from 1 contact. | It will automatically be removed from {count} contacts.",
+            "NAME": "Tag name",
+            "NUMBER": "Contact number",
+            "PLACEHOLDER": "Create your tag",
+            "RENAME_TAG": "Rename",
+            "SAVE": "Save",
+            "SEARCH": "Search for a tag",
+            "SELECTED_DOCUMENTS": " | 1 selected | {count} selected",
             "SUCCESS": {
                 "ADD": "Tag added! 👍",
                 "DELETE": "Tag deleted! 👍",
-                "RENAME": "Tag renamed! 👍",
-                "DELETE_SEVERAL": " | 1 tag deleted! 👍 | {count} tags deleted! 👍"
+                "DELETE_SEVERAL": " | 1 tag deleted! 👍 | {count} tags deleted! 👍",
+                "RENAME": "Tag renamed! 👍"
             },
-            "SAVE": "Save",
-            "CANCEL": "Cancel",
-            "PLACEHOLDER": "Create your tag",
-            "ALREADY_EXISTS": "This tag already exists",
-            "DELETION": "Deletion",
-            "CONFIRM_DELETION_TAG": "Are you sure you want to delete the tag ",
-            "IMPACTED_CONTACTS": "No contact will be impacted | It will automatically be removed from 1 contact. | It will automatically be removed from {count} contacts."
+            "TAGS": "Tags"
         },
         "VALIDATION": {
             "MESSAGES": {
