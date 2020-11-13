@@ -1689,7 +1689,11 @@
             "SENDING_ANALYSE": "Analyse de vos envois",
             "SENT": "Envoyé"
         },
+        "BALANCE_SMS_CREDITS": "Solde SMS",
+        "BALANCE_SMS_CREDITS_AFTER_SENDING": "Solde SMS après envoi",
         "CANCEL": "Annuler",
+        "CONTACT": "contact",
+        "CREDITS": "{count} SMS | {count} SMS | {count} SMS",
         "EMPTY_BODY": "le contenu de votre message ici ...",
         "ERROR": "Erreur",
         "GENERAL": {
@@ -1709,6 +1713,8 @@
             "MESSAGE": "Message envoyé 🚀"
         },
         "MESSAGES": "messages",
+        "NB_CHARACTERS": "0 caractère | 1 caractère | {count} caractères",
+        "NB_SMS_CREDITS_USED": "Nombre de SMS utilisés",
         "NOW": "maintenant",
         "ORIGINATOR": {
             "ENTITY": "Le nom de l'expéditeur",
@@ -1720,19 +1726,12 @@
             "BODY": "Votre message ...",
             "TITLE": "Nom de l'espace"
         },
-        "NB_CHARACTERS": "0 caractère | 1 caractère | {count} caractères",
-        "YOU_WILL_USE": "Vous allez utiliser",
         "SELECTED_CONTACTS": "Contacts sélectionnés",
-        "SMS_CREDITS": "SMS | {count} SMS | {count} SMS",
-        "SMS_CREDITS_REMAINING": "SMS restants",
-        "CREDITS": "{count} SMS | {count} SMS | {count} SMS",
-        "CONTACT": "contact",
-        "BALANCE_SMS_CREDITS": "Solde SMS",
-        "NB_SMS_CREDITS_USED": "Nombre de SMS utilisés",
-        "BALANCE_SMS_CREDITS_AFTER_SENDING": "Solde SMS après envoi",
         "SEND": "Envoyer",
         "SEND_SMS": "Envoyer un SMS",
         "SEND_SMS_TO_X_CONTACT": "Envoyer un SMS à 0 contact | Envoyer un SMS à 1 contact | Envoyer un SMS à {count} contacts",
+        "SMS_CREDITS": "SMS | {count} SMS | {count} SMS",
+        "SMS_CREDITS_REMAINING": "SMS restants",
         "STOP_SMS": "STOP au 0757912019",
         "WARNING": {
             "ACTIVATION": {
@@ -1755,7 +1754,8 @@
                 "TITLE": ""
             },
             "TITLE": "Attention"
-        }
+        },
+        "YOU_WILL_USE": "Vous allez utiliser"
     },
     "STRUCTURE": {
         "NAVBAR": {
@@ -5664,6 +5664,7 @@
         "IDENTICAL": "Identiques",
         "I_UNDERSTAND": "J'ai compris",
         "LASTNAME": "Nom",
+        "LEARN_MORE": "En savoir plus",
         "LEAVE": "Quitter",
         "LOADING": "Chargement...",
         "MALE": "Homme",
@@ -5702,7 +5703,6 @@
             "WEEK": "semaine | semaines",
             "YEAR": "an | ans"
         },
-        "LEARN_MORE": "En savoir plus",
         "YES": "Oui"
     }
 }

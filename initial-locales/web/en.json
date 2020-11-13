@@ -1689,7 +1689,11 @@
             "SENDING_ANALYSE": "SMS analytics",
             "SENT": "Sent"
         },
+        "BALANCE_SMS_CREDITS": "Balance SMS",
+        "BALANCE_SMS_CREDITS_AFTER_SENDING": "Balance SMS after sending",
         "CANCEL": "Cancel",
+        "CONTACT": "contact",
+        "CREDITS": "{count} SMS | {count} SMS | {count} SMS",
         "EMPTY_BODY": "the content of your message here ...",
         "ERROR": "Error",
         "GENERAL": {
@@ -1709,6 +1713,8 @@
             "MESSAGE": "Your message has been sent 🚀"
         },
         "MESSAGES": "messages",
+        "NB_CHARACTERS": "0 character | 1 character | {count} characters",
+        "NB_SMS_CREDITS_USED": "Number of SMS used",
         "NOW": "now",
         "ORIGINATOR": {
             "ENTITY": "Sender name",
@@ -1720,19 +1726,12 @@
             "BODY": "Your message...",
             "TITLE": "Your organisation's name"
         },
-        "NB_CHARACTERS": "0 character | 1 character | {count} characters",
-        "YOU_WILL_USE": "You will use",
         "SELECTED_CONTACTS": "Selected contacts",
-        "SMS_CREDITS": "SMS | {count} SMS | {count} SMS",
-        "SMS_CREDITS_REMAINING": "SMS remaining",
-        "CREDITS": "{count} SMS | {count} SMS | {count} SMS",
-        "CONTACT": "contact",
-        "BALANCE_SMS_CREDITS": "Balance SMS",
-        "NB_SMS_CREDITS_USED": "Number of SMS used",
-        "BALANCE_SMS_CREDITS_AFTER_SENDING": "Balance SMS after sending",
         "SEND": "Send",
         "SEND_SMS": "Send SMS",
         "SEND_SMS_TO_X_CONTACT": "You will send an SMS to 0 contact | You will send an SMS to 1 contact | You will send an SMS to {count} contacts",
+        "SMS_CREDITS": "SMS | {count} SMS | {count} SMS",
+        "SMS_CREDITS_REMAINING": "SMS remaining",
         "STOP_SMS": "STOP to +33757912019",
         "WARNING": {
             "ACTIVATION": {
@@ -1755,7 +1754,8 @@
                 "TITLE": "Name of the sender"
             },
             "TITLE": "Warning"
-        }
+        },
+        "YOU_WILL_USE": "You will use"
     },
     "STRUCTURE": {
         "NAVBAR": {
@@ -5664,6 +5664,7 @@
         "IDENTICAL": "Identical",
         "I_UNDERSTAND": "I understand",
         "LASTNAME": "Last name\n",
+        "LEARN_MORE": "Learn more",
         "LEAVE": "Leave",
         "LOADING": "Loading...",
         "MALE": "Male",
@@ -5704,7 +5705,6 @@
             "YEAR": "year | years"
         },
         "WOMEN": "Woman",
-        "YES": "Yes",
-        "LEARN_MORE": "Learn more"
+        "YES": "Yes"
     }
 }
