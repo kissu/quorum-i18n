@@ -1721,6 +1721,7 @@
             "SENDING_ANALYSE": "Analyse de vos envois",
             "SENT": "Envoyé"
         },
+        "BALANCE_SMS": "Solde de vos SMS",
         "BALANCE_SMS_CREDITS": "Solde SMS",
         "BALANCE_SMS_CREDITS_AFTER_SENDING": "Solde SMS après envoi",
         "CANCEL": "Annuler",
@@ -1759,6 +1760,12 @@
         "PLACEHOLDERS": {
             "BODY": "Votre message ...",
             "TITLE": "Nom de l'espace"
+        },
+        "POPUP_LEAVING": {
+            "CANCEL_TEXT": "Continuer la création",
+            "CONFIRM_TEXT": "Quitter la création",
+            "MESSAGE": "Vous n'avez pas terminé la création de votre SMS. Voulez-vous quitter la page et perdre les informations renseignées ?",
+            "TITLE": "Quitter la création du SMS"
         },
         "SELECTED_CONTACTS": "Contacts sélectionnés",
         "SEND": "Envoyer",

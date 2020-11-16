@@ -1761,6 +1761,12 @@
             "BODY": "Your message...",
             "TITLE": "Your organisation's name"
         },
+        "POPUP_LEAVING": {
+            "CANCEL_TEXT": "Stay",
+            "CONFIRM_TEXT": "Leave",
+            "MESSAGE": "You haven't finished creating your SMS. The information will not be saved. Are you sure to leave ?",
+            "TITLE": "Leave the page"
+        },
         "SELECTED_CONTACTS": "Selected contacts",
         "SEND": "Send",
         "SEND_SMS": "Send SMS",
