@@ -418,7 +418,8 @@
             "ADD_TAG": "Ajouter un mot-clé",
             "ALREADY_EXISTS": "Ce mot-clé existe déjà",
             "CANCEL": "Annuler",
-            "CONFIRM_DELETION_TAG": "Êtes-vous sûr de vouloir supprimer le mot-clé ",
+            "CONFIRM_DELETION_TAG": " | Êtes-vous sûr de vouloir supprimer le mot-clé  | Êtes-vous sûr de vouloir supprimer les mots-clés ",
+            "INTERROGATION": " ?",
             "DELETE": "Supprimer",
             "DELETION": "Suppression",
             "ERROR": {

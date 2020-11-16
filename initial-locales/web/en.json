@@ -418,7 +418,8 @@
             "ADD_TAG": "Add a tag",
             "ALREADY_EXISTS": "This tag already exists",
             "CANCEL": "Cancel",
-            "CONFIRM_DELETION_TAG": "Are you sure you want to delete the tag ",
+            "CONFIRM_DELETION_TAG": " | Are you sure you want to delete the tag  | Are you sure you want to delete the tags ",
+            "INTERROGATION": "?",
             "DELETE": "Delete",
             "DELETION": "Deletion",
             "ERROR": {
