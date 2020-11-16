@@ -419,7 +419,6 @@
             "ALREADY_EXISTS": "This tag already exists",
             "CANCEL": "Cancel",
             "CONFIRM_DELETION_TAG": " | Are you sure you want to delete the tag  | Are you sure you want to delete the tags ",
-            "INTERROGATION": "?",
             "DELETE": "Delete",
             "DELETION": "Deletion",
             "ERROR": {
@@ -430,6 +429,7 @@
                 "RENAME": "An error occured when renaming"
             },
             "IMPACTED_CONTACTS": "No contact will be impacted | It will automatically be removed from 1 contact. | It will automatically be removed from {count} contacts.",
+            "INTERROGATION": "?",
             "NAME": "Tag name",
             "NUMBER": "Contact number",
             "PLACEHOLDER": "Create your tag",
