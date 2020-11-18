@@ -415,12 +415,14 @@
             }
         },
         "TAGS": {
+            "ADD_FIRST_TAG": "+ Ajoutez votre premier mot-clé",
             "ADD_TAG": "Ajouter un mot-clé",
             "ALREADY_EXISTS": "Ce mot-clé existe déjà",
             "CANCEL": "Annuler",
             "CONFIRM_DELETION_TAG": " | Êtes-vous sûr de vouloir supprimer le mot-clé  | Êtes-vous sûr de vouloir supprimer les mots-clés ",
             "DELETE": "Supprimer",
             "DELETION": "Suppression",
+            "EMPTY_STATE": "Aucun mot-clé pour le moment !",
             "ERROR": {
                 "ADD": "Une erreur est survenue lors de l'ajout",
                 "DELETE": "Une erreur est survenue lors de la suppression",
@@ -429,6 +431,7 @@
                 "RENAME": "Une erreur est survenue lors du renommage"
             },
             "IMPACTED_CONTACTS": "Aucun contact ne sera impacté | Il sera automatiquement enlevé à 1 contact qui a ce mot-clé. | Il sera automatiquement enlevé aux {count} contacts qui ont ce mot-clé.",
+            "INFORMATION_TAG": "C’est ici que vous pouvez créer et gérer les mot-clés de votre espace.",
             "INTERROGATION": " ?",
             "NAME": "Nom du mot-clé",
             "NUMBER": "Nombre de contacts",
@@ -444,9 +447,6 @@
                 "RENAME": "Mot-clé renommé ! 👍"
             },
             "TAGS": "Mots-clés",
-            "EMPTY_STATE": "Aucun mot-clé pour le moment !",
-            "INFORMATION_TAG": "C’est ici que vous pouvez créer et gérer les mot-clés de votre espace.",
-            "ADD_FIRST_TAG": "+ Ajoutez votre premier mot-clé",
             "TAG_NOT_FOUND": "Aucun mot-clé ne correspond à votre recherche"
         },
         "VALIDATION": {
