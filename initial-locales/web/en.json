@@ -415,10 +415,12 @@
             }
         },
         "TAGS": {
-            "ADD_TAG": "Add a tag",
+            "ADD_TAG_BUTTON": "+ Create a tag",
+            "ADD_TAG": "Create a tag",
             "ALREADY_EXISTS": "This tag already exists",
             "CANCEL": "Cancel",
             "CONFIRM_DELETION_TAG": " | Are you sure you want to delete the tag  | Are you sure you want to delete the tags ",
+            "CONFIRM_DELETION_TAG_COUNT": " | Are you sure you want to delete this tag  | Are you sure you want to delete the tags ",
             "DELETE": "Delete",
             "DELETION": "Deletion",
             "ERROR": {
@@ -435,6 +437,7 @@
             "PLACEHOLDER": "Create your tag",
             "RENAME_TAG": "Rename",
             "SAVE": "Save",
+            "CREATE": "Create",
             "SEARCH": "Search for a tag",
             "SELECTED_DOCUMENTS": " | 1 selected | {count} selected",
             "SUCCESS": {
@@ -443,7 +446,11 @@
                 "DELETE_SEVERAL": " | 1 tag deleted! 👍 | {count} tags deleted! 👍",
                 "RENAME": "Tag renamed! 👍"
             },
-            "TAGS": "Tags"
+            "TAGS": "Tags",
+            "EMPTY_STATE": "No tag at the moment!",
+            "INFORMATION_TAG": "This is where you can create and manage your tags",
+            "ADD_FIRST_TAG": "+ Add your first tag",
+            "TAG_NOT_FOUND": "No tag found"
         },
         "VALIDATION": {
             "MESSAGES": {
@@ -712,7 +719,7 @@
             "BIRTHCOUNTRY": "Country of birth",
             "BIRTHDATE": "Age",
             "BUILDING": "Building",
-            "CHOOSE_OR_CREATE_TAG": "Choose or create",
+            "CHOOSE_OR_CREATE_TAG": "Create a tag",
             "CITY": "City",
             "COLLAPSE": "Collapse",
             "CONTACT_INFORMATION": "Contact information",
