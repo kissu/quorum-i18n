@@ -935,8 +935,6 @@
             "EXPORT_LIMITATION": "You can only export 10 000 contacts at most. If you need a bigger export of your contact base, please reach to the support team ❤️",
             "E_TOO_MANY_EMAIL": "You cannot send emails to more than {count} people at once. Go to your settings to activate emailing integration with one of our partner app.",
             "IMPORT": "Import",
-            "IMPORT_MESSAGE": "Please send your file to support <a class=\"action\" href=\"mailto:support@quorum.co\">support@quorum.co</a>",
-            "IMPORT_TITLE": "Want to import a contact list?",
             "MODAL": {
                 "ACTIONS": "Edit",
                 "ERROR": "{name} could not be updated.",
@@ -1461,6 +1459,14 @@
             "PROFILE": "Profile",
             "STATUS": "Status",
             "TAGS": "Tags"
+        },
+        "IMPORT": {
+            "POPUP_LEAVING": {
+                "TITLE": "Leave the import process",
+                "MESSAGE": "You have not completed the import process.\nDo you want to exit the page and lose the information entered?",
+                "CANCEL": "Exit the process",
+                "CONTINUE": "Continue import"
+            }
         },
         "MODE": {
             "ALPHA": "ALPHA",
