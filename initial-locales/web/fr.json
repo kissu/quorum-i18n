@@ -415,12 +415,14 @@
             }
         },
         "TAGS": {
-            "ADD_TAG": "Ajouter un mot-clé",
+            "ADD_TAG_BUTTON": "+ Créer un mot-clé",
+            "ADD_TAG": "Créer un mot-clé",
             "ALREADY_EXISTS": "Ce mot-clé existe déjà",
             "CANCEL": "Annuler",
             "CONFIRM_DELETION_TAG": " | Êtes-vous sûr de vouloir supprimer le mot-clé  | Êtes-vous sûr de vouloir supprimer les mots-clés ",
+            "CONFIRM_DELETION_TAG_COUNT": " | Êtes-vous sûr de vouloir supprimer ce mot-clé ? | Êtes-vous sûr de vouloir supprimer ces {count} mots-clés ?",
             "DELETE": "Supprimer",
-            "DELETION": "Suppression",
+            "DELETION": "Suppression | Suppressions",
             "ERROR": {
                 "ADD": "Une erreur est survenue lors de l'ajout",
                 "DELETE": "Une erreur est survenue lors de la suppression",
@@ -434,6 +436,7 @@
             "NUMBER": "Nombre de contacts",
             "PLACEHOLDER": "Créez votre mot-clé",
             "RENAME_TAG": "Renommer",
+            "CREATE": "Créer",
             "SAVE": "Sauvegarder",
             "SEARCH": "Chercher un mot-clé",
             "SELECTED_DOCUMENTS": " | 1 sélectionné | {count} sélectionnés",
@@ -715,7 +718,7 @@
             "BIRTHCOUNTRY": "Pays de naissance",
             "BIRTHDATE": "Age",
             "BUILDING": "Bâtiment",
-            "CHOOSE_OR_CREATE_TAG": "Choisir ou créer un mot clé",
+            "CHOOSE_OR_CREATE_TAG": "Choisir un mot-clé",
             "CITY": "Ville",
             "COLLAPSE": "Réduire",
             "CONTACT_INFORMATION": "Informations du contact",
@@ -1463,7 +1466,7 @@
             "MAILAUTO": "Email automatique",
             "PROFILE": "Profil",
             "STATUS": "Statuts",
-            "TAGS": "Gestion des mots clés"
+            "TAGS": "Mots-clés"
         },
         "MODE": {
             "ALPHA": "ALPHA",
