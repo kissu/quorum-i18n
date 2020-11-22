@@ -941,8 +941,6 @@
             "EXPORT_LIMITATION": "Vous ne pouvez exporter que 10 000 contacts maximum. Si vous avez besoin d'un export complet de votre base de contacts, contactez le support.",
             "E_TOO_MANY_EMAIL": "Vous ne pouvez pas envoyez d'email à plus de {count} personnes d'un coup. Rendez-vous dans les paramètres pour activer une extension mail.",
             "IMPORT": "Importer",
-            "IMPORT_MESSAGE": "Veuillez envoyer le fichier que vous souhaitez importer à l'adresse <a class=\"action\" href=\"mailto:support@quorum.co\">support@quorum.co</a>",
-            "IMPORT_TITLE": "Vous souhaitez importer une liste de citoyens ?",
             "MODAL": {
                 "ACTIONS": "Éditer",
                 "ERROR": "Une erreur est survenue à la mise à jour de {name}.",
@@ -1471,6 +1469,14 @@
         "MODE": {
             "ALPHA": "ALPHA",
             "BETA": "BETA"
+        },
+        "IMPORT": {
+            "POPUP_LEAVING": {
+                "TITLE": "Quitter le processus d'import",
+                "MESSAGE": "Vous n'avez pas terminé le processus d'import.\nVoulez vous quitter la page et perdre les informations renseignées ?",
+                "CANCEL": "Quitter le processus",
+                "CONTINUE": "Continer l'import"
+            }
         },
         "MY_CAMPAIGNS": {
             "CAMPAIGN_CODE": "Code invitation",
