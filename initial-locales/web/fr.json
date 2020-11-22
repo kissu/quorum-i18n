@@ -432,7 +432,8 @@
                 "GET": "Une erreur est survenue",
                 "RENAME": "Une erreur est survenue lors du renommage"
             },
-            "IMPACTED_CONTACTS": "Aucun contact ne sera impacté | Il sera automatiquement enlevé à 1 contact qui a ce mot-clé. | Il sera automatiquement enlevé aux {count} contacts qui ont ce mot-clé.",
+            "IMPACTED_CONTACTS_FIRST": " |  Il sera enlevé | Ils seront enlevés",
+            "IMPACTED_CONTACTS_SECOND": "Aucun contact ne sera impacté |  à 1 contact qui a ce mot-clé. |  aux {count} contacts qui ont ce mot-clé.",
             "INFORMATION_TAG": "C’est ici que vous pouvez créer et gérer les mot-clés de votre espace.",
             "INTERROGATION": " ?",
             "NAME": "Nom du mot-clé",

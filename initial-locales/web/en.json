@@ -430,7 +430,8 @@
                 "GET": "An error occured when getting tags",
                 "RENAME": "An error occured when renaming"
             },
-            "IMPACTED_CONTACTS": "No contact will be impacted | It will automatically be removed from 1 contact. | It will automatically be removed from {count} contacts.",
+            "IMPACTED_CONTACTS_FIRST": " |  It will be removed | They will be removed",
+            "IMPACTED_CONTACTS_SECOND": "No contact will be impacted |  from 1 contact. |  from {count} contacts.",
             "INTERROGATION": "?",
             "NAME": "Tag name",
             "NUMBER": "Contact number",
