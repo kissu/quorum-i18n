@@ -415,13 +415,14 @@
             }
         },
         "TAGS": {
-            "ADD_TAG_BUTTON": "+ Créer un mot-clé",
-            "ADD_TAG": "Créer un mot-clé",
             "ADD_FIRST_TAG": "+ Ajoutez votre premier mot-clé",
+            "ADD_TAG": "Créer un mot-clé",
+            "ADD_TAG_BUTTON": "+ Créer un mot-clé",
             "ALREADY_EXISTS": "Ce mot-clé existe déjà",
             "CANCEL": "Annuler",
             "CONFIRM_DELETION_TAG": " | Êtes-vous sûr de vouloir supprimer le mot-clé  | Êtes-vous sûr de vouloir supprimer les mots-clés ",
             "CONFIRM_DELETION_TAG_COUNT": " | Êtes-vous sûr de vouloir supprimer ce mot-clé ? | Êtes-vous sûr de vouloir supprimer ces {count} mots-clés ?",
+            "CREATE": "Créer",
             "DELETE": "Supprimer",
             "DELETION": "Suppression | Suppressions",
             "EMPTY_STATE": "Aucun mot-clé pour le moment !",
@@ -440,7 +441,6 @@
             "NUMBER": "Nombre de contacts",
             "PLACEHOLDER": "Créez votre mot-clé",
             "RENAME_TAG": "Renommer",
-            "CREATE": "Créer",
             "SAVE": "Sauvegarder",
             "SEARCH": "Chercher un mot-clé",
             "SELECTED_DOCUMENTS": " | 1 sélectionné | {count} sélectionnés",
@@ -1467,17 +1467,17 @@
             "STATUS": "Statuts",
             "TAGS": "Mots-clés"
         },
+        "IMPORT": {
+            "POPUP_LEAVING": {
+                "CANCEL": "Quitter le processus",
+                "CONTINUE": "Continer l'import",
+                "MESSAGE": "Vous n'avez pas terminé le processus d'import.\nVoulez vous quitter la page et perdre les informations renseignées ?",
+                "TITLE": "Quitter le processus d'import"
+            }
+        },
         "MODE": {
             "ALPHA": "ALPHA",
             "BETA": "BETA"
-        },
-        "IMPORT": {
-            "POPUP_LEAVING": {
-                "TITLE": "Quitter le processus d'import",
-                "MESSAGE": "Vous n'avez pas terminé le processus d'import.\nVoulez vous quitter la page et perdre les informations renseignées ?",
-                "CANCEL": "Quitter le processus",
-                "CONTINUE": "Continer l'import"
-            }
         },
         "MY_CAMPAIGNS": {
             "CAMPAIGN_CODE": "Code invitation",
