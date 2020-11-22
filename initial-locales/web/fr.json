@@ -415,24 +415,16 @@
             }
         },
         "TAGS": {
-<<<<<<< HEAD
             "ADD_TAG_BUTTON": "+ Créer un mot-clé",
             "ADD_TAG": "Créer un mot-clé",
-=======
             "ADD_FIRST_TAG": "+ Ajoutez votre premier mot-clé",
-            "ADD_TAG": "Ajouter un mot-clé",
->>>>>>> 4f12ac14ba492e497b86930aa67726f5b2615107
             "ALREADY_EXISTS": "Ce mot-clé existe déjà",
             "CANCEL": "Annuler",
             "CONFIRM_DELETION_TAG": " | Êtes-vous sûr de vouloir supprimer le mot-clé  | Êtes-vous sûr de vouloir supprimer les mots-clés ",
             "CONFIRM_DELETION_TAG_COUNT": " | Êtes-vous sûr de vouloir supprimer ce mot-clé ? | Êtes-vous sûr de vouloir supprimer ces {count} mots-clés ?",
             "DELETE": "Supprimer",
-<<<<<<< HEAD
             "DELETION": "Suppression | Suppressions",
-=======
-            "DELETION": "Suppression",
             "EMPTY_STATE": "Aucun mot-clé pour le moment !",
->>>>>>> 4f12ac14ba492e497b86930aa67726f5b2615107
             "ERROR": {
                 "ADD": "Une erreur est survenue lors de l'ajout",
                 "DELETE": "Une erreur est survenue lors de la suppression",
