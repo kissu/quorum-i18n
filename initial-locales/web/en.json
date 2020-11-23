@@ -434,7 +434,8 @@
                 "RENAME": "An error occured when renaming"
             },
             "IMPACTED_CONTACTS_FIRST": " |  It will be removed | They will be removed",
-            "IMPACTED_CONTACTS_SECOND": "No contact will be impacted |  from 1 contact. |  from {count} contacts.",
+            "IMPACTED_CONTACTS_SECOND": "No contact will be impacted |  from 1 contact |  from {count} contacts",
+            "IMPACTED_CONTACTS_THIRD": " |  that have this tag. |  that have these tags.",
             "INFORMATION_TAG": "This is where you can create and manage your tags",
             "INTERROGATION": "?",
             "NAME": "Tag name",
