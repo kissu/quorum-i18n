@@ -563,7 +563,7 @@
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Analyse personnalisée",
                 "ADDITIONAL_TOOLTIP": {
-                    "OVER_5_YEARS": "<hr><b>Sur 5 ans</b>"
+                    "OVER_5_YEARS": "<hr><b>Évolution sur 5 ans</b>"
                 },
                 "ADDRESS": "Adresse : ",
                 "CHANGE_PRIO": "Modifier ma priorisation",
