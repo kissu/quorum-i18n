@@ -1738,7 +1738,7 @@
         },
         "BALANCE_SMS": "Solde de vos SMS",
         "BALANCE_SMS_CREDITS": "Solde SMS",
-        "BALANCE_SMS_CREDITS_AFTER_SENDING": "Solde SMS après envoi",
+        "BALANCE_SMS_CREDITS_AFTER_SENDING": "Solde SMS estimé après envoi",
         "CANCEL": "Annuler",
         "CONTACT": "contact",
         "CREDITS": "{count} SMS | {count} SMS | {count} SMS",
@@ -1771,7 +1771,7 @@
             "PLEASE_WRITE_INITIAL": "Merci de d'éditer ce champ",
             "TITLE": "Nom de l'expéditeur, apparaît lors de la réception d'un SMS"
         },
-        "PER_CONTACT": "par contact.",
+        "PER_CONTACT": "par contact car votre message fait plus de {count} caractères.",
         "PLACEHOLDERS": {
             "BODY": "Votre message ...",
             "TITLE": "Nom de l'espace"
