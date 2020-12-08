@@ -1374,6 +1374,7 @@
             "ADD_SECTION": "Add a section",
             "ADD_SUBFIELD": "Add a subfield",
             "ANSWER": "Response...",
+            "CITIPO_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your Citipo space.",
             "CITIPO_TO_ENABLE": "Enable Citipo sync",
             "DATE_PLACEHOLDER": "Pick a date",
             "DEFAULT_PARAM": "Default settings",
@@ -1407,7 +1408,6 @@
                 "STATUS": "Status"
             },
             "NATIONBUILDER_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your nation.",
-            "CITIPO_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your Citipo space.",
             "NATIONBUILDER_TO_ENABLE": "Enable NationBuilder sync",
             "NEXT_QUESTION": "Next question",
             "ONLY_IF": "Only if answered \"{answer}\"",
