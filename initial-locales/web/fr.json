@@ -1406,7 +1406,7 @@
             },
             "NATIONBUILDER_SWITCH_EXPLANATION": "Vous retrouverez (sous forme de tag) les réponses à cette question du contact au sein de votre nation.",
             "NATIONBUILDER_TO_ENABLE": "Activer la syncro NationBuilder",
-            "CITIPO_SWITCH_EXPLANATION": "Vous retrouverez (sous forme de tag) les réponses à cette question du contact au sein de votre nation.",
+            "CITIPO_SWITCH_EXPLANATION": "Vous retrouverez (sous forme de tag) les réponses à cette question du contact au sein de votre espace Citipo.",
             "CITIPO_TO_ENABLE": "Activer la syncro Citipo",
             "NEXT_QUESTION": "Question suivante",
             "ONLY_IF": "Seulement si a répondu \"{answer}\"",

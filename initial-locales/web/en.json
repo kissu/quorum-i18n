@@ -1406,7 +1406,7 @@
                 "STATUS": "Status"
             },
             "NATIONBUILDER_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your nation.",
-            "CITIPO_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your nation.",
+            "CITIPO_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your Citipo space.",
             "NATIONBUILDER_TO_ENABLE": "Enable NationBuilder sync",
             "CITIPO_TO_ENABLE": "Enable Citipo sync",
             "NEXT_QUESTION": "Next question",
