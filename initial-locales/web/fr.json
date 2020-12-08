@@ -774,6 +774,7 @@
             "SUCCESS_ADD": "Le contact a bien été ajouté !",
             "SUCCESS_DELETE": "Le contact a bien été supprimé.",
             "SYNC_NATIONBUILDER": "Le contact est synchronisé avec NationBuilder",
+            "SYNC_CITIPO": "Le contact est synchronisé avec Citipo",
             "TAGS": "Mots-clés",
             "TERRITORY": "Territoire",
             "UNKNOWN": "Contact inconnu ({id})",
@@ -1299,7 +1300,10 @@
                 "MAILCHIMP_WARNING": "Quorum ne transmet que l'email. Si vous avez configuré d'autres champs obligatoires, Mailchimp ne créera pas le contact. Vous pouvez vous rendre sur l'aide de Mailchimp pour <a href=\"https://help.mailchimp.com\" target=\"_blank\">en savoir plus.</a>",
                 "NATIONBUILDER": "Synchronisez Quorum avec votre espace NationBuilder",
                 "NATIONBUILDER_PLACEHOLDER": "Clé API NationBuilder",
-                "NATIONBUILDER_WARNING": "Quorum transmet à votre espace NationBuilder, sous forme de tag, les informations ajoutées sur vos contacts depuis la plateforme web et l'application mobile. <a href=\"https://intercom.help/quorumhq/fr/articles/3197283-comment-s-integre-nationbuilder-et-quorum\" target=\"_blank\">En savoir plus.</a>"
+                "NATIONBUILDER_WARNING": "Quorum transmet à votre espace NationBuilder, sous forme de tag, les informations ajoutées sur vos contacts depuis la plateforme web et l'application mobile. <a href=\"https://intercom.help/quorumhq/fr/articles/3197283-comment-s-integre-nationbuilder-et-quorum\" target=\"_blank\">En savoir plus.</a>",
+                "CITIPO": "Synchronisez Quorum avec votre espace Citipo",
+                "CITIPO_PLACEHOLDER": "Clé API Citipo",
+                "CITIPO_WARNING": "Quorum transmet à votre espace Citipo, sous forme de tag, les informations ajoutées sur vos contacts depuis la plateforme web et l'application mobile."
             },
             "VENDORS_TITLE": "Extensions",
             "VENDOR_HEAD": {
@@ -1400,8 +1404,10 @@
                 "ACTION": "Tunnel de tâches",
                 "STATUS": "Statuts"
             },
-            "NATION_BUILDER_SWITCH_EXPLANATION": "Vous retrouverez (sous forme de tag) les réponses à cette question du contact au sein de votre nation.",
-            "NATION_BUILDER_TO_ENABLE": "Activer la syncro NationBuilder",
+            "NATIONBUILDER_SWITCH_EXPLANATION": "Vous retrouverez (sous forme de tag) les réponses à cette question du contact au sein de votre nation.",
+            "NATIONBUILDER_TO_ENABLE": "Activer la syncro NationBuilder",
+            "CITIPO_SWITCH_EXPLANATION": "Vous retrouverez (sous forme de tag) les réponses à cette question du contact au sein de votre nation.",
+            "CITIPO_TO_ENABLE": "Activer la syncro Citipo",
             "NEXT_QUESTION": "Question suivante",
             "ONLY_IF": "Seulement si a répondu \"{answer}\"",
             "PRINT": "Imprimer le formulaire",
@@ -5760,5 +5766,9 @@
             "YEAR": "an | ans"
         },
         "YES": "Oui"
+    },
+    "SYNC": {
+        "NATIONBUILDER": "Nation Builder",
+        "CITIPO": "Citipo"
     }
 }
