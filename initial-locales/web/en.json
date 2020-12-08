@@ -774,8 +774,8 @@
             "SUCCESS": "Info updated!",
             "SUCCESS_ADD": "Contact successfully added!\n",
             "SUCCESS_DELETE": "Contact successfully deleted.",
-            "SYNC_NATIONBUILDER": "This contact is synchronized with NationBuilder",
             "SYNC_CITIPO": "This contact is synchronized with Citipo",
+            "SYNC_NATIONBUILDER": "This contact is synchronized with NationBuilder",
             "TAGS": "Tags",
             "TERRITORY": "Territory",
             "UNKNOWN": "Unnamed contact ({id})",
@@ -1296,15 +1296,15 @@
             "SETTINGS": "Settings",
             "UPDATE_SUCCESSFUL": "Your info was successfully updated! 👍",
             "VENDORS": {
+                "CITIPO": "Synchronize Quorum with your Citipo space.",
+                "CITIPO_PLACEHOLDER": "Citipo API Key",
+                "CITIPO_WARNING": "Quorum transmits to your Citipo space, in a tagged form, the information added on your contacts from the web platform and the mobile application.",
                 "MAILCHIMP": "Sync your Mailchimp campaigns with Quorum!",
                 "MAILCHIMP_PLACEHOLDER": "Mailchimp API key",
                 "MAILCHIMP_WARNING": "Quorum gives only the email address to Mailchimp! If you have configured any other required fields, Mailchimp may not create the contact. You can visit Mailchimp's help center <a href=\"https://help.mailchimp.com\" target=\"_blank\"> to know more.",
                 "NATIONBUILDER": "Synchronize Quorum with your NationBuilder space.",
-                "CITIPO": "Synchronize Quorum with your Citipo space.",
                 "NATIONBUILDER_PLACEHOLDER": "NationBuilder API Key",
-                "CITIPO_PLACEHOLDER": "Citipo API Key",
-                "NATIONBUILDER_WARNING": "Quorum transmits to your NationBuilder space, in a tagged form, the information added on your contacts from the web platform and the mobile application. Learn more about it. <a href=\"https://intercom.help/quorumhq/en/articles/3197283-how-does-nationbuilder-and-quorum-integrate-together\" target=\"_blank\">To know more.</a>",
-                "CITIPO_WARNING": "Quorum transmits to your Citipo space, in a tagged form, the information added on your contacts from the web platform and the mobile application."
+                "NATIONBUILDER_WARNING": "Quorum transmits to your NationBuilder space, in a tagged form, the information added on your contacts from the web platform and the mobile application. Learn more about it. <a href=\"https://intercom.help/quorumhq/en/articles/3197283-how-does-nationbuilder-and-quorum-integrate-together\" target=\"_blank\">To know more.</a>"
             },
             "VENDORS_TITLE": "Integrations",
             "VENDOR_HEAD": {
@@ -1374,6 +1374,7 @@
             "ADD_SECTION": "Add a section",
             "ADD_SUBFIELD": "Add a subfield",
             "ANSWER": "Response...",
+            "CITIPO_TO_ENABLE": "Enable Citipo sync",
             "DATE_PLACEHOLDER": "Pick a date",
             "DEFAULT_PARAM": "Default settings",
             "DELETE_ANSWER": "Delete an answer",
@@ -1408,7 +1409,6 @@
             "NATIONBUILDER_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your nation.",
             "CITIPO_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your Citipo space.",
             "NATIONBUILDER_TO_ENABLE": "Enable NationBuilder sync",
-            "CITIPO_TO_ENABLE": "Enable Citipo sync",
             "NEXT_QUESTION": "Next question",
             "ONLY_IF": "Only if answered \"{answer}\"",
             "PRINT": "Print survey",
@@ -1838,6 +1838,10 @@
         "START": "Date de début",
         "TO": "à",
         "TWO_POINTS": ":"
+    },
+    "SYNC": {
+        "CITIPO": "Citipo",
+        "NATIONBUILDER": "Nation Builder"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
@@ -5768,9 +5772,5 @@
         },
         "WOMEN": "Woman",
         "YES": "Yes"
-    },
-    "SYNC": {
-        "NATIONBUILDER": "Nation Builder",
-        "CITIPO": "Citipo"
     }
 }
