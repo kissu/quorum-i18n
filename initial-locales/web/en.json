@@ -794,8 +794,6 @@
             "DATE_PLACEHOLDER": "Pick a date",
             "EXPORT_SELECTION": "Export selection",
             "FILTERS": {
-                "DOUBLONS": "Potential duplicates",
-                "DISPLAY_DOUBLONS": "Display potential duplicates",
                 "AGE": "Age",
                 "AGE_SPAN": {
                     "1825": "18 - 25 years ",
@@ -808,6 +806,8 @@
                 },
                 "AREA51": "Location",
                 "DATE": "Visited since",
+                "DISPLAY_DOUBLONS": "Display potential duplicates",
+                "DOUBLONS": "Potential duplicates",
                 "GENDER": "Gender",
                 "IN_AREA51": "Unknown address",
                 "MAIL": "Email",

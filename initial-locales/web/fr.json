@@ -793,8 +793,6 @@
             "DATE_PLACEHOLDER": "Choisir une date",
             "EXPORT_SELECTION": "Exporter la selection",
             "FILTERS": {
-                "DOUBLONS": "Doublons potentiels",
-                "DISPLAY_DOUBLONS": "Afficher les doublons potentiels",
                 "AGE": "Age",
                 "AGE_SPAN": {
                     "1825": "18 - 25 ans",
@@ -807,6 +805,8 @@
                 },
                 "AREA51": "Localisation",
                 "DATE": "Visités depuis le",
+                "DISPLAY_DOUBLONS": "Afficher les doublons potentiels",
+                "DOUBLONS": "Doublons potentiels",
                 "GENDER": "Genre",
                 "IN_AREA51": "Adresse inconnue",
                 "MAIL": "Email",
