@@ -794,8 +794,8 @@
             "DATE_PLACEHOLDER": "Pick a date",
             "EXPORT_SELECTION": "Export selection",
             "FILTERS": {
-                "DOUBLONS": "Potential duplicates",
-                "DISPLAY_DOUBLONS": "Display potential duplicates",
+                "DUPLICATES": "Potential duplicates",
+                "DISPLAY_DUPLICATES": "Display potential duplicates",
                 "AGE": "Age",
                 "AGE_SPAN": {
                     "1825": "18 - 25 years ",
