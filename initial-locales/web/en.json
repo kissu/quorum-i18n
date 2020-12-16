@@ -774,6 +774,7 @@
             "SUCCESS": "Info updated!",
             "SUCCESS_ADD": "Contact successfully added!\n",
             "SUCCESS_DELETE": "Contact successfully deleted.",
+            "SYNC_CITIPO": "This contact is synchronized with Citipo",
             "SYNC_NATIONBUILDER": "This contact is synchronized with NationBuilder",
             "TAGS": "Tags",
             "TERRITORY": "Territory",
@@ -805,6 +806,8 @@
                 },
                 "AREA51": "Location",
                 "DATE": "Visited since",
+                "DISPLAY_DUPLICATES": "Display potential duplicates",
+                "DUPLICATES": "Potential duplicates",
                 "GENDER": "Gender",
                 "IN_AREA51": "Unknown address",
                 "MAIL": "Email",
@@ -1295,6 +1298,9 @@
             "SETTINGS": "Settings",
             "UPDATE_SUCCESSFUL": "Your info was successfully updated! 👍",
             "VENDORS": {
+                "CITIPO": "Synchronize Quorum with your Citipo space.",
+                "CITIPO_PLACEHOLDER": "Citipo API Key",
+                "CITIPO_WARNING": "Quorum transmits to your Citipo space, in a tagged form, the information added on your contacts from the web platform and the mobile application.",
                 "MAILCHIMP": "Sync your Mailchimp campaigns with Quorum!",
                 "MAILCHIMP_PLACEHOLDER": "Mailchimp API key",
                 "MAILCHIMP_WARNING": "Quorum gives only the email address to Mailchimp! If you have configured any other required fields, Mailchimp may not create the contact. You can visit Mailchimp's help center <a href=\"https://help.mailchimp.com\" target=\"_blank\"> to know more.",
@@ -1370,6 +1376,8 @@
             "ADD_SECTION": "Add a section",
             "ADD_SUBFIELD": "Add a subfield",
             "ANSWER": "Response...",
+            "CITIPO_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your Citipo space.",
+            "CITIPO_TO_ENABLE": "Enable Citipo sync",
             "DATE_PLACEHOLDER": "Pick a date",
             "DEFAULT_PARAM": "Default settings",
             "DELETE_ANSWER": "Delete an answer",
@@ -1401,8 +1409,8 @@
                 "ACTION": "Tasks channels",
                 "STATUS": "Status"
             },
-            "NATION_BUILDER_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your nation.",
-            "NATION_BUILDER_TO_ENABLE": "Enable NationBuilder sync",
+            "NATIONBUILDER_SWITCH_EXPLANATION": "You will find (in tagged form) the answers to this question of contact within your nation.",
+            "NATIONBUILDER_TO_ENABLE": "Enable NationBuilder sync",
             "NEXT_QUESTION": "Next question",
             "ONLY_IF": "Only if answered \"{answer}\"",
             "PRINT": "Print survey",
@@ -1832,6 +1840,10 @@
         "START": "Date de début",
         "TO": "à",
         "TWO_POINTS": ":"
+    },
+    "SYNC": {
+        "CITIPO": "Citipo",
+        "NATIONBUILDER": "Nation Builder"
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
