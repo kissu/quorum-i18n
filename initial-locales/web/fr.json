@@ -391,97 +391,97 @@
             },
             "EDIT": "Modifier",
             "IMPORT": {
-                "MAIN_CTA": "Importer",
                 "AN_IMPORT": {
                     "DATE_LABEL": "Date d'import",
-                    "IMPORTED_FILE_LABEL": "Fichier importé",
-                    "IMPORTED_BY_LABEL": "Importé par",
-                    "IMPORTED_CONTACTS_NBS_LABEL": "Contacts importés",
-                    "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les contacts importés",
-                    "DUPLICATES_LABEL": "Doublons",
-                    "DUPLICATES_MAYBE_LABEL": "Doublons potentiels",
-                    "DUPLICATES_MAYBE_CONTACTS_LABEL": "{count} contact | {count} contact | { count } contacts",
-                    "DUPLICATES_MAYBE_CONTACTS_DESC_LABEL": "que vous souhaitez importer sont des doublons potentiels de vos contacts actuels.",
-                    "DUPLICATES_TAB_MERGE_TITLE": "Fusionner",
-                    "DUPLICATES_TAB_MERGE_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et et fermentum ornare nunc in urna euismod a. Tellus vitae amet arcu pharetra cursus lobortis id curabitur.",
-                    "DUPLICATES_TAB_IMPORT_TITLE": "Importer",
-                    "DUPLICATES_TAB_IMPORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et et fermentum ornare nunc in urna euismod a. Tellus vitae amet arcu pharetra cursus lobortis id curabitur.",
-                    "DUPLICATES_TAB_CANCEL_TITLE": "Ne pas traiter",
-                    "DUPLICATES_TAB_CANCEL_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et et fermentum ornare nunc in urna euismod a. Tellus vitae amet arcu pharetra cursus lobortis id curabitur.",
                     "DUPLICATES_CANCEL_BUTTON": "Annuler",
-                    "DUPLICATES_SURELY_LABEL": "Doublons exacts",
+                    "DUPLICATES_LABEL": "Doublons",
+                    "DUPLICATES_MAYBE_CONTACTS_DESC_LABEL": "que vous souhaitez importer sont des doublons potentiels de vos contacts actuels.",
+                    "DUPLICATES_MAYBE_CONTACTS_LABEL": "{count} contact | {count} contact | { count } contacts",
+                    "DUPLICATES_MAYBE_LABEL": "Doublons potentiels",
                     "DUPLICATES_SURELY_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et et fermentum ornare nunc in urna euismod a. Tellus vitae amet arcu pharetra cursus lobortis id curabitur.",
-                    "MANAGE_LABEL": "Traiter",
+                    "DUPLICATES_SURELY_LABEL": "Doublons exacts",
+                    "DUPLICATES_TAB_CANCEL_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et et fermentum ornare nunc in urna euismod a. Tellus vitae amet arcu pharetra cursus lobortis id curabitur.",
+                    "DUPLICATES_TAB_CANCEL_TITLE": "Ne pas traiter",
+                    "DUPLICATES_TAB_IMPORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et et fermentum ornare nunc in urna euismod a. Tellus vitae amet arcu pharetra cursus lobortis id curabitur.",
+                    "DUPLICATES_TAB_IMPORT_TITLE": "Importer",
+                    "DUPLICATES_TAB_MERGE_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et et fermentum ornare nunc in urna euismod a. Tellus vitae amet arcu pharetra cursus lobortis id curabitur.",
+                    "DUPLICATES_TAB_MERGE_TITLE": "Fusionner",
+                    "ERROR_LINES_DESC": "Ces lignes n'ont pas été importées et ne pourront pas être traitées dans cet import.",
+                    "ERROR_LINES_DOWNLOAD_BUTTON": "Télécharger le CSV",
                     "ERROR_LINES_TITLE": "Erreurs de lignes",
                     "ERROR_LINES_TITLE_DETECTED_LABEL": "Des erreurs de lignes ont été détectés.",
-                    "ERROR_LINES_DESC": "Ces lignes n'ont pas été importées et ne pourront pas être traitées dans cet import.",
-                    "ERROR_LINES_DOWNLOAD_BUTTON": "Télécharger le CSV"
+                    "IMPORTED_BY_LABEL": "Importé par",
+                    "IMPORTED_CONTACTS_NBS_LABEL": "Contacts importés",
+                    "IMPORTED_FILE_LABEL": "Fichier importé",
+                    "MANAGE_LABEL": "Traiter",
+                    "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les contacts importés"
                 },
                 "LIST_IMPORT": {
-                    "TITLE": "Mes imports",
-                    "IMPORT_A_FILE": "+ Importer un fichier",
-                    "NAME_LABEL": "Nom",
                     "DATE_LABEL": "Date d'import",
-                    "IMPORTED_BY_LABEL": "Importé par",
-                    "IMPORTED_CONTACTS_LABEL": "Importés",
-                    "STATUS_IMPORT_LABEL": "État de l'import",
                     "DUPLICATES_LABEL": "Doublons",
                     "ERRORS_LABEL": "Erreurs",
-                    "NO_IMPORT_CREATED_YET_LABEL": "Aucun fichier n'a été importé pour le moment."
+                    "IMPORTED_BY_LABEL": "Importé par",
+                    "IMPORTED_CONTACTS_LABEL": "Importés",
+                    "IMPORT_A_FILE": "+ Importer un fichier",
+                    "NAME_LABEL": "Nom",
+                    "NO_IMPORT_CREATED_YET_LABEL": "Aucun fichier n'a été importé pour le moment.",
+                    "STATUS_IMPORT_LABEL": "État de l'import",
+                    "TITLE": "Mes imports"
                 },
+                "MAIN_CTA": "Importer",
                 "STATUS_IMPORT_LIST": {
                     "CONFIG_REQUIRED": "Configuration requise",
-                    "IN_PROCESSING": "En cours",
-                    "FINISHED": "Terminé"
-                },
-                "STEP_FILE": {
-                    "TITLE": "Télécharger le fichier que vous souhaitez importer",
-                    "ACCEPT_UPLOAD": "J'accepte que Quorum puisse stocker les informations de ce fichier pour importer mes données sur mon espace Quorum.",
-                    "UPLOAD_ZONE_TEXT": "Glisser et déposer votre fichier ou cliquer ici.",
-                    "UPLOAD_ZONE_TEXT_FINISHED": "Téléchargement du fichier terminé ✅",
-                    "CLICK_TO_RETRY": "Cliquez ici pour recommencer",
-                    "INFO_UPLOAD_LIMIT": "Le fichier .csv ne doit pas être supérieur à 100 mo.",
-                    "ERROR_WITH_SERVER": "Une erreur avec le server s'est produite. Veuillez recommencer."
+                    "FINISHED": "Terminé",
+                    "IN_PROCESSING": "En cours"
                 },
                 "STEP_CONFIG_FILE": {
-                    "TITLE": "Quelle est la configuration de votre fichier ?",
+                    "BUTTON_LABEL": "Continuer",
                     "DESC": "Comment est configurer votre fichier ? Choisissez les paramètres lié à votre fichier.",
-                    "WHICH_SEPARATOR": "Quel est votre séparateur ?",
                     "FIRST_LINE_COLUMNS": "Avez-vous un entête de colonne ?",
                     "PREVIEW_FILE_MANAGEMENT": "Aperçu du traitement de votre fichier",
-                    "BUTTON_LABEL": "Continuer"
+                    "TITLE": "Quelle est la configuration de votre fichier ?",
+                    "WHICH_SEPARATOR": "Quel est votre séparateur ?"
                 },
-                "STEP_MAPPING_FILE": {
-                    "TITLE": "Choisissez les colonnes que vous voulez associer avec Quorum",
-                    "DESC": "Associez les données de votre CSV avec les propriétés Quorum. Prenez votre temps.",
-                    "COLUMN_STATUS": "Statut",
-                    "COLUMN_FILE": "Colonnes de votre fichier",
-                    "COLUMN_PREVIEW_INFOS": "Aperçu des informations",
-                    "COLUMN_PROPERTIES": "Propriétés Quorum",
-                    "SEARCH_A_PROPERTY": "Chercher une propriété",
-                    "CHOOSE_TO_NOT_IMPORT": "Ne pas importer",
-                    "CHOOSE_TO_NOT_IMPORT_THIS_LINE": "Ne pas importer cette ligne",
-                    "CHOOSE_TO_NOT_IMPORT_DESC": "Cette colonne ne sera pas importée.",
-                    "SAVE_AND_CONTINUE_BUTTON_LABEL": "Sauvegarder et continuer",
-                    "MODIFY": "Modifier"
-                },
-                "STEP_SUMMARY": {
-                    "TITLE": "Observez le résultat pour quelques contacts",
-                    "BUTTON_LABEL": "Contact suivant",
-                    "NEXT_CONTACT": "Contact suivant",
-                    "PREVIOUS_CONTACT": "Contact précédent"
-                },
-                "STEP_NAME": {
-                    "TITLE": "Dernière étape",
-                    "BUTTON_LABEL": "Démarrer l'import",
-                    "WHICH_NAME_IMPORT": "Quel nom souhaitez-vous donner à votre import ?"
+                "STEP_FILE": {
+                    "ACCEPT_UPLOAD": "J'accepte que Quorum puisse stocker les informations de ce fichier pour importer mes données sur mon espace Quorum.",
+                    "CLICK_TO_RETRY": "Cliquez ici pour recommencer",
+                    "ERROR_WITH_SERVER": "Une erreur avec le server s'est produite. Veuillez recommencer.",
+                    "INFO_UPLOAD_LIMIT": "Le fichier .csv ne doit pas être supérieur à 100 mo.",
+                    "TITLE": "Télécharger le fichier que vous souhaitez importer",
+                    "UPLOAD_ZONE_TEXT": "Glisser et déposer votre fichier ou cliquer ici.",
+                    "UPLOAD_ZONE_TEXT_FINISHED": "Téléchargement du fichier terminé ✅"
                 },
                 "STEP_FINAL": {
                     "ET_VOILA": "Et voilà !",
-                    "IMPORT_PROCESSING_TITLE": "Votre import est en cours de traitement 👍",
-                    "IMPORT_PROCESSING_DESC_EMAIL": "Votre recevrez un email une fois que l'import est prêt et disponible sur votre espace.",
                     "GO_BACK_TO_CONTACTS_LIST": "Retourner sur le base de contacts",
-                    "GO_BACK_TO_IMPORTS": "Voir mes imports"
+                    "GO_BACK_TO_IMPORTS": "Voir mes imports",
+                    "IMPORT_PROCESSING_DESC_EMAIL": "Votre recevrez un email une fois que l'import est prêt et disponible sur votre espace.",
+                    "IMPORT_PROCESSING_TITLE": "Votre import est en cours de traitement 👍"
+                },
+                "STEP_MAPPING_FILE": {
+                    "CHOOSE_TO_NOT_IMPORT": "Ne pas importer",
+                    "CHOOSE_TO_NOT_IMPORT_DESC": "Cette colonne ne sera pas importée.",
+                    "CHOOSE_TO_NOT_IMPORT_THIS_LINE": "Ne pas importer cette ligne",
+                    "COLUMN_FILE": "Colonnes de votre fichier",
+                    "COLUMN_PREVIEW_INFOS": "Aperçu des informations",
+                    "COLUMN_PROPERTIES": "Propriétés Quorum",
+                    "COLUMN_STATUS": "Statut",
+                    "DESC": "Associez les données de votre CSV avec les propriétés Quorum. Prenez votre temps.",
+                    "MODIFY": "Modifier",
+                    "SAVE_AND_CONTINUE_BUTTON_LABEL": "Sauvegarder et continuer",
+                    "SEARCH_A_PROPERTY": "Chercher une propriété",
+                    "TITLE": "Choisissez les colonnes que vous voulez associer avec Quorum"
+                },
+                "STEP_NAME": {
+                    "BUTTON_LABEL": "Démarrer l'import",
+                    "TITLE": "Dernière étape",
+                    "WHICH_NAME_IMPORT": "Quel nom souhaitez-vous donner à votre import ?"
+                },
+                "STEP_SUMMARY": {
+                    "BUTTON_LABEL": "Contact suivant",
+                    "NEXT_CONTACT": "Contact suivant",
+                    "PREVIOUS_CONTACT": "Contact précédent",
+                    "TITLE": "Observez le résultat pour quelques contacts"
                 }
             },
             "PATTERN": "au moins 8 caractères (minuscules) et 1 chiffre.",
