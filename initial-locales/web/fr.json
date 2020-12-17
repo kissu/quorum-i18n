@@ -390,111 +390,6 @@
                 "SETTINGS": "Paramètres de l'espace"
             },
             "EDIT": "Modifier",
-            "IMPORT": {
-                "AN_IMPORT": {
-                    "HELPER_CONTACTS": {
-                        "TITLE": "Détail des contacts importés",
-                        "NEW_CONTACTS": "Nouveaux contacts importés : ",
-                        "DUPLICATES_SURELY_CONTACTS": "Contacts existants importés (mis à jour si besoin) : ",
-                        "DUPLICATES_MAYBE_CONTACTS": "Contacts doublons importés : ",
-                        "LINK_KNOW_MORE": "https://help.quorum.co"
-                    },
-                    "DATE_LABEL": "Date d'import",
-                    "IMPORTED_FILE_LABEL": "Fichier importé",
-                    "IMPORTED_BY_LABEL": "Importé par",
-                    "IMPORTED_CONTACTS_NBS_LABEL": "Contacts importés",
-                    "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les contacts importés",
-                    "NO_DUPLICATES_FOUND_DESC": "Aucun doublon n’a été créé lors de cet import 👍",
-                    "DUPLICATES_LABEL": "Doublons",
-                    "DUPLICATES_LABEL_IMPORTED": "Importés",
-                    "DUPLICATES_LABEL_NOT_IMPORTED": "Ne pas importer",
-                    "DUPLICATES_DESC_DUPLICATES_IMPORTED": "Vous avez choisi <strong class=\"bold\">d'importer</strong> ce <strong class=\"bold\">{count} contact</strong>.<br/>Il va créer un doublon à vos contacts Quorum.<br/><br/>Vous pouvez le traiter à tout moment sur votre espace. | Vous avez choisi <strong class=\"bold\">d'importer</strong> ce <strong class=\"bold\">{count} contact</strong>.<br/>Il va créer un doublon à vos contacts Quorum.<br/><br/>Vous pouvez le traiter à tout moment sur votre espace. | Vous avez choisi <strong class=\"bold\">d'importer</strong> ces <strong class=\"bold\">{count} contacts</strong>.<br/>Ils ont crées des doublons à vos contacts Quorum.<br/><br/>Vous pouvez les traiter à tout moment sur votre espace.",
-                    "DUPLICATES_DESC_DUPLICATES_NOT_IMPORTED": "Vous avez choisi <strong class=\"bold\">de ne pas importer</strong> ce <strong class=\"bold\">{count} contact</strong>. | Vous avez choisi <strong class=\"bold\">de ne pas importer</strong> ce <strong class=\"bold\">{count} contact</strong>. | Vous avez choisi <strong class=\"bold\">de ne pas importer</strong> ces <strong class=\"bold\">{count} contacts</strong>.",
-                    "DUPLICATES_MAYBE_LABEL": "Doublons potentiels",
-                    "DUPLICATES_MAYBE_CONTACTS_DESC_LABEL": "<span class=\"bold underline\">{count} contact</span> que vous souhaitez importer est un doublon de vos contacts actuels. | <span class=\"bold underline\">{count} contact</span> que vous souhaitez importer est un doublon de vos contacts actuels. | <span class=\"bold underline\">{count} contacts</span> que vous souhaitez importer sont des doublons de vos contacts actuels.",
-                    "DUPLICATES_TAB_IMPORT_TITLE": "Importer",
-                    "DUPLICATES_TAB_IMPORT_DESC": "<span class=\"bold\">Le contact</span> sera importé mais créera un <span class=\"bold\">doublon</span> à vos contacts Quorum.<br/><br/>Vous pourrez le fusionner plus tard sur votre espace. | <span class=\"bold\">Le contact</span> sera importé mais créera un <span class=\"bold\">doublon</span> à vos contacts Quorum..<br/><br/>Vous pourrez le fusionner plus tard sur votre espace. | Les <span class=\"bold\">{count} contacts</span> seront importés mais créeront des <span class=\"bold\">doublons</span> à vos contacts Quorum..<br/><br/>Vous pourrez les fusionner plus tard sur votre espace.",
-                    "DUPLICATES_TAB_CANCEL_TITLE": "Ne pas importer",
-                    "DUPLICATES_TAB_CANCEL_DESC": "Le contact <span class=\"bold\">ne sera pas importé</span> sur votre espace. | Le contact <span class=\"bold\">ne sera pas importé</span> sur votre espace. | Les <span class=\"bold\">{count} contacts</span> ne seront pas importés sur votre espace.",
-                    "DUPLICATES_CANCEL_BUTTON": "Annuler",
-                    "DUPLICATES_SURELY_LABEL": "Doublons exacts",
-                    "DUPLICATES_SURELY_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et et fermentum ornare nunc in urna euismod a. Tellus vitae amet arcu pharetra cursus lobortis id curabitur.",
-                    "MANAGE_LABEL": "Traiter",
-                    "NO_ERROR_LINES_FOUND_DESC": "Votre fichier csv n’avait aucune erreur 💪",
-                    "ERROR_LINES_LINK_HELPER": "https://help.quorum.co",
-                    "ERROR_LINES_TITLE": "Erreurs sur votre fichier",
-                    "ERROR_LINES_TITLE_DETECTED_LABEL": "Lignes invalides",
-                    "ERROR_LINES_DESC": "Certaines lignes de votre fichier csv n’ont pas pu être importés. <br/>Vous pouvez télécharger le fichier joint afin d’identifier et de résoudre ces erreurs.",
-                    "ERROR_LINES_DOWNLOAD_BUTTON": "Télécharger le fichier d'erreurs"
-                },
-                "LIST_IMPORT": {
-                    "DATE_LABEL": "Date d'import",
-                    "DUPLICATES_LABEL": "Doublons",
-                    "ERRORS_LABEL": "Erreurs",
-                    "IMPORTED_BY_LABEL": "Importé par",
-                    "IMPORTED_CONTACTS_LABEL": "Importés",
-                    "IMPORT_A_FILE": "+ Importer un fichier",
-                    "NAME_LABEL": "Nom",
-                    "NO_IMPORT_CREATED_YET_LABEL": "Aucun fichier n'a été importé pour le moment.",
-                    "STATUS_IMPORT_LABEL": "État de l'import",
-                    "TITLE": "Mes imports"
-                },
-                "MAIN_CTA": "Importer",
-                "STATUS_IMPORT_LIST": {
-                    "CONFIG_REQUIRED": "Configuration requise",
-                    "FINISHED": "Terminé",
-                    "IN_PROCESSING": "En cours"
-                },
-                "STEP_CONFIG_FILE": {
-                    "BUTTON_LABEL": "Continuer",
-                    "DESC": "Comment est configurer votre fichier ? Choisissez les paramètres lié à votre fichier.",
-                    "FIRST_LINE_COLUMNS": "Avez-vous un entête de colonne ?",
-                    "PREVIEW_FILE_MANAGEMENT": "Aperçu du traitement de votre fichier",
-                    "TITLE": "Quelle est la configuration de votre fichier ?",
-                    "WHICH_SEPARATOR": "Quel est votre séparateur ?"
-                },
-                "STEP_FILE": {
-                    "ACCEPT_UPLOAD": "J'accepte que Quorum puisse stocker les informations de ce fichier pour importer mes données sur mon espace Quorum.",
-                    "CLICK_TO_RETRY": "Cliquez ici pour recommencer",
-                    "ERROR_WITH_SERVER": "Une erreur avec le server s'est produite. Veuillez recommencer.",
-                    "INFO_UPLOAD_LIMIT": "Le fichier .csv ne doit pas être supérieur à 100 mo.",
-                    "TITLE": "Télécharger le fichier que vous souhaitez importer",
-                    "UPLOAD_ZONE_TEXT": "Glisser et déposer votre fichier ou cliquer ici.",
-                    "UPLOAD_ZONE_TEXT_FINISHED": "Téléchargement du fichier terminé ✅"
-                },
-                "STEP_FINAL": {
-                    "ET_VOILA": "Et voilà !",
-                    "GO_BACK_TO_CONTACTS_LIST": "Retourner sur le base de contacts",
-                    "GO_BACK_TO_IMPORTS": "Voir mes imports",
-                    "IMPORT_PROCESSING_DESC_EMAIL": "Votre recevrez un email une fois que l'import est prêt et disponible sur votre espace.",
-                    "IMPORT_PROCESSING_TITLE": "Votre import est en cours de traitement 👍"
-                },
-                "STEP_MAPPING_FILE": {
-                    "CHOOSE_TO_NOT_IMPORT": "Ne pas importer",
-                    "CHOOSE_TO_NOT_IMPORT_DESC": "Cette colonne ne sera pas importée.",
-                    "CHOOSE_TO_NOT_IMPORT_THIS_LINE": "Ne pas importer cette ligne",
-                    "COLUMN_FILE": "Colonnes de votre fichier",
-                    "COLUMN_PREVIEW_INFOS": "Aperçu des informations",
-                    "COLUMN_PROPERTIES": "Propriétés Quorum",
-                    "COLUMN_STATUS": "Statut",
-                    "DESC": "Associez les données de votre CSV avec les propriétés Quorum. Prenez votre temps.",
-                    "MODIFY": "Modifier",
-                    "SAVE_AND_CONTINUE_BUTTON_LABEL": "Sauvegarder et continuer",
-                    "SEARCH_A_PROPERTY": "Chercher une propriété",
-                    "TITLE": "Choisissez les colonnes que vous voulez associer avec Quorum"
-                },
-                "STEP_NAME": {
-                    "BUTTON_LABEL": "Démarrer l'import",
-                    "TITLE": "Dernière étape",
-                    "WHICH_NAME_IMPORT": "Quel nom souhaitez-vous donner à votre import ?"
-                },
-                "STEP_SUMMARY": {
-                    "BUTTON_LABEL": "Contact suivant",
-                    "NEXT_CONTACT": "Contact suivant",
-                    "PREVIOUS_CONTACT": "Contact précédent",
-                    "TITLE": "Observez le résultat pour quelques contacts"
-                }
-            },
             "PATTERN": "au moins 8 caractères (minuscules) et 1 chiffre.",
             "PROFILE_SETTINGS": "Paramèrtes de Profil",
             "SAVE": "Enregistrer",
@@ -1587,6 +1482,125 @@
                 "CONTINUE": "Continer l'import",
                 "MESSAGE": "Vous n'avez pas terminé le processus d'import.\nVoulez vous quitter la page et perdre les informations renseignées ?",
                 "TITLE": "Quitter le processus d'import"
+            },
+            "AN_IMPORT": {
+                "HELPER_CONTACTS": {
+                    "TITLE": "Détail des contacts importés",
+                    "NEW_CONTACTS": "Nouveaux contacts importés : ",
+                    "DUPLICATES_SURELY_CONTACTS": "Contacts existants importés (mis à jour si besoin) : ",
+                    "DUPLICATES_MAYBE_CONTACTS": "Contacts doublons importés : ",
+                    "LINK_KNOW_MORE": "https://help.quorum.co"
+                },
+                "DATE_LABEL": "Date d'import",
+                "IMPORTED_FILE_LABEL": "Fichier importé",
+                "IMPORTED_BY_LABEL": "Importé par",
+                "IMPORTED_CONTACTS_NBS_LABEL": "Contacts importés",
+                "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les contacts importés",
+                "NO_DUPLICATES_FOUND_DESC": "Aucun doublon n’a été créé lors de cet import 👍",
+                "DUPLICATES_LABEL": "Doublons",
+                "DUPLICATES_LABEL_IMPORTED": "Importés",
+                "DUPLICATES_LABEL_NOT_IMPORTED": "Ne pas importer",
+                "DUPLICATES_DESC_DUPLICATES_IMPORTED": "Vous avez choisi <strong class=\"bold\">d'importer</strong> ce <strong class=\"bold\">{count} contact</strong>.<br/>Il va créer un doublon à vos contacts Quorum.<br/><br/>Vous pouvez le traiter à tout moment sur votre espace. | Vous avez choisi <strong class=\"bold\">d'importer</strong> ce <strong class=\"bold\">{count} contact</strong>.<br/>Il va créer un doublon à vos contacts Quorum.<br/><br/>Vous pouvez le traiter à tout moment sur votre espace. | Vous avez choisi <strong class=\"bold\">d'importer</strong> ces <strong class=\"bold\">{count} contacts</strong>.<br/>Ils ont crées des doublons à vos contacts Quorum.<br/><br/>Vous pouvez les traiter à tout moment sur votre espace.",
+                "DUPLICATES_DESC_DUPLICATES_NOT_IMPORTED": "Vous avez choisi <strong class=\"bold\">de ne pas importer</strong> ce <strong class=\"bold\">{count} contact</strong>. | Vous avez choisi <strong class=\"bold\">de ne pas importer</strong> ce <strong class=\"bold\">{count} contact</strong>. | Vous avez choisi <strong class=\"bold\">de ne pas importer</strong> ces <strong class=\"bold\">{count} contacts</strong>.",
+                "DUPLICATES_MAYBE_LABEL": "Doublons potentiels",
+                "DUPLICATES_MAYBE_CONTACTS_DESC_LABEL": "<span class=\"bold underline\">{count} contact</span> que vous souhaitez importer est un doublon de vos contacts actuels. | <span class=\"bold underline\">{count} contact</span> que vous souhaitez importer est un doublon de vos contacts actuels. | <span class=\"bold underline\">{count} contacts</span> que vous souhaitez importer sont des doublons de vos contacts actuels.",
+                "DUPLICATES_TAB_IMPORT_TITLE": "Importer",
+                "DUPLICATES_TAB_IMPORT_DESC": "<span class=\"bold\">Le contact</span> sera importé mais créera un <span class=\"bold\">doublon</span> à vos contacts Quorum.<br/><br/>Vous pourrez le fusionner plus tard sur votre espace. | <span class=\"bold\">Le contact</span> sera importé mais créera un <span class=\"bold\">doublon</span> à vos contacts Quorum..<br/><br/>Vous pourrez le fusionner plus tard sur votre espace. | Les <span class=\"bold\">{count} contacts</span> seront importés mais créeront des <span class=\"bold\">doublons</span> à vos contacts Quorum..<br/><br/>Vous pourrez les fusionner plus tard sur votre espace.",
+                "DUPLICATES_TAB_CANCEL_TITLE": "Ne pas importer",
+                "DUPLICATES_TAB_CANCEL_DESC": "Le contact <span class=\"bold\">ne sera pas importé</span> sur votre espace. | Le contact <span class=\"bold\">ne sera pas importé</span> sur votre espace. | Les <span class=\"bold\">{count} contacts</span> ne seront pas importés sur votre espace.",
+                "DUPLICATES_CANCEL_BUTTON": "Annuler",
+                "DUPLICATES_SURELY_LABEL": "Doublons exacts",
+                "DUPLICATES_SURELY_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et et fermentum ornare nunc in urna euismod a. Tellus vitae amet arcu pharetra cursus lobortis id curabitur.",
+                "MANAGE_LABEL": "Traiter",
+                "NO_ERROR_LINES_FOUND_DESC": "Votre fichier csv n’avait aucune erreur 💪",
+                "ERROR_LINES_LINK_HELPER": "https://help.quorum.co",
+                "ERROR_LINES_TITLE": "Erreurs sur votre fichier",
+                "ERROR_LINES_TITLE_DETECTED_LABEL": "Lignes invalides",
+                "ERROR_LINES_DESC": "Certaines lignes de votre fichier csv n’ont pas pu être importés. <br/>Vous pouvez télécharger le fichier joint afin d’identifier et de résoudre ces erreurs.",
+                "ERROR_LINES_DOWNLOAD_BUTTON": "Télécharger le fichier d'erreurs"
+            },
+            "LIST_IMPORT": {
+                "DATE_LABEL": "Date d'import",
+                "DUPLICATES_LABEL": "Doublons",
+                "ERRORS_LABEL": "Erreurs",
+                "IMPORTED_BY_LABEL": "Importé par",
+                "IMPORTED_CONTACTS_LABEL": "Importés",
+                "IMPORT_A_FILE": "+ Importer un fichier",
+                "NAME_LABEL": "Nom",
+                "NO_IMPORT_CREATED_YET_LABEL": "Aucun fichier n'a été importé pour le moment.",
+                "STATUS_IMPORT_LABEL": "État de l'import",
+                "TITLE": "Mes imports"
+            },
+            "MAIN_CTA": "Importer",
+            "MAPPING_PROPERTIES": {
+                "first_name": "Prénom",
+                "last_name": "Nom de famille",
+                "birthdate": "Date de naissance",
+                "house_number": "Numéro de rue",
+                "street": "Rue",
+                "city": "Ville",
+                "email": "Email",
+                "gender": "Genre",
+                "married_name": "Nom marital",
+                "mobile": "Téléphone mobile",
+                "phone": "Téléphone fixe"
+            },
+            "STATUS_IMPORT_LIST": {
+                "CONFIG_REQUIRED": "Configuration requise",
+                "FINISHED": "Terminé",
+                "IN_PROCESSING": "En cours"
+            },
+            "STEP_CONFIG_FILE": {
+                "BUTTON_LABEL": "Continuer",
+                "DESC": "Comment est configurer votre fichier ? Choisissez les paramètres lié à votre fichier.",
+                "FIRST_LINE_COLUMNS": "Avez-vous un entête de colonne ?",
+                "PREVIEW_FILE_MANAGEMENT": "Aperçu du traitement de votre fichier",
+                "TITLE": "Quelle est la configuration de votre fichier ?",
+                "WHICH_SEPARATOR": "Quel est votre séparateur ?"
+            },
+            "STEP_FILE": {
+                "ACCEPT_UPLOAD": "J'accepte que Quorum puisse stocker les informations de ce fichier pour importer mes données sur mon espace Quorum.",
+                "CLICK_TO_RETRY": "Cliquez ici pour recommencer",
+                "ERROR_WITH_SERVER": "Une erreur avec le server s'est produite. Veuillez recommencer.",
+                "INFO_UPLOAD_LIMIT": "Le fichier .csv ne doit pas être supérieur à 100 mo.",
+                "TITLE": "Télécharger le fichier que vous souhaitez importer",
+                "UPLOAD_ZONE_TEXT": "Glisser et déposer votre fichier ou cliquer ici.",
+                "UPLOAD_ZONE_TEXT_FINISHED": "Téléchargement du fichier terminé ✅"
+            },
+            "STEP_FINAL": {
+                "ET_VOILA": "Et voilà !",
+                "GO_BACK_TO_CONTACTS_LIST": "Retourner sur le base de contacts",
+                "GO_BACK_TO_IMPORTS": "Voir mes imports",
+                "IMPORT_PROCESSING_DESC_EMAIL": "Votre recevrez un email une fois que l'import est prêt et disponible sur votre espace.",
+                "IMPORT_PROCESSING_TITLE": "Votre import est en cours de traitement 👍"
+            },
+            "STEP_MAPPING_FILE": {
+                "CHOOSE_TO_NOT_IMPORT": "Ne pas importer",
+                "CHOOSE_TO_NOT_IMPORT_DESC": "Cette colonne ne sera pas importée.",
+                "CHOOSE_TO_NOT_IMPORT_THIS_LINE": "Ne pas importer cette ligne",
+                "COLUMN_FILE": "Colonnes de votre fichier",
+                "COLUMN_PREVIEW_INFOS": "Aperçu des informations",
+                "COLUMN_PROPERTIES": "Propriétés Quorum",
+                "COLUMN_STATUS": "Statut",
+                "DESC": "Associez les données de votre CSV avec les propriétés Quorum. Prenez votre temps.",
+                "MODIFY": "Modifier",
+                "SAVE_AND_CONTINUE_BUTTON_LABEL": "Sauvegarder et continuer",
+                "SEARCH_A_PROPERTY": "Chercher une propriété",
+                "TITLE": "Choisissez les colonnes que vous voulez associer avec Quorum",
+                "COLUMNS_NOT_MAPPED_WARNING": "{count} colonne de votre fichier n'a pas été configurée. Veuillez choisir une propriété Quorum ou ne pas l'importer. | {count} colonne de votre fichier n'a pas été configurée. Veuillez choisir une propriété Quorum ou ne pas l'importer. | {count} colonnes de votre fichier n'ont pas été configurées. Veuillez choisir des propriétés Quorum ou ne pas les importer.",
+                "AT_LEAST_ONE_COLUMN_MAPPED": "Au moins une colonne de votre fichier doit être importée pour pouvoir continuer l'import",
+                "ALL_COLUMNS_NEED_TO_BE_MAPPED": "Toutes les colonnes de votre fichier doivent avoir été sélectionnées avec une propriété Quorum ou marquées comme \"Non importée\" afin de passer à l'étape suivante."
+            },
+            "STEP_NAME": {
+                "BUTTON_LABEL": "Démarrer l'import",
+                "TITLE": "Dernière étape",
+                "WHICH_NAME_IMPORT": "Quel nom souhaitez-vous donner à votre import ?"
+            },
+            "STEP_SUMMARY": {
+                "BUTTON_LABEL": "Contact suivant",
+                "NEXT_CONTACT": "Contact suivant",
+                "PREVIOUS_CONTACT": "Contact précédent",
+                "TITLE": "Observez le résultat pour quelques contacts"
             }
         },
         "MODE": {
