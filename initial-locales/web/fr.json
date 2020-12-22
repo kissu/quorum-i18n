@@ -1527,10 +1527,10 @@
             },
             "MAIN_CTA": "Importer",
             "MAPPING_PROPERTIES": {
-                "addition": "Complément d'adresse",
-                "birthcity": "Commune de naissance",
-                "birthcountry": "Pays de naissance",
-                "birthdate": "Date de naissance",
+                "additional_address_fields": "Complément d'adresse",
+                "birth_city": "Commune de naissance",
+                "birth_country": "Pays de naissance",
+                "birth_date": "Date de naissance",
                 "building": "Bâtiment",
                 "city": "Ville",
                 "country": "Pays",
@@ -1544,7 +1544,7 @@
                 "married_name": "Nom marital",
                 "mobile": "Téléphone mobile",
                 "phone": "Téléphone fixe",
-                "pollingstation": "Territoire",
+                "polling_station": "Territoire",
                 "postal_code": "Code postal",
                 "street": "Rue"
             },
