@@ -1478,6 +1478,7 @@
         },
         "IMPORT": {
             "AN_IMPORT": {
+                "CONTACT_SUPPORT": "Contactez le support",
                 "DATE_LABEL": "Date d'import",
                 "DUPLICATES_CANCEL_BUTTON": "Annuler",
                 "DUPLICATES_DESC_DUPLICATES_IMPORTED": "Vous avez choisi <strong class=\"bold\">d'importer</strong> ce <strong class=\"bold\">{count} contact</strong>.<br/>Il va créer un doublon à vos contacts Quorum.<br/><br/>Vous pouvez le traiter à tout moment sur votre espace. | Vous avez choisi <strong class=\"bold\">d'importer</strong> ce <strong class=\"bold\">{count} contact</strong>.<br/>Il va créer un doublon à vos contacts Quorum.<br/><br/>Vous pouvez le traiter à tout moment sur votre espace. | Vous avez choisi <strong class=\"bold\">d'importer</strong> ces <strong class=\"bold\">{count} contacts</strong>.<br/>Ils ont crées des doublons à vos contacts Quorum.<br/><br/>Vous pouvez les traiter à tout moment sur votre espace.",
@@ -1508,13 +1509,12 @@
                 "IMPORTED_BY_LABEL": "Importé par",
                 "IMPORTED_CONTACTS_NBS_LABEL": "Contacts importés",
                 "IMPORTED_FILE_LABEL": "Fichier importé",
+                "LINK_TOO_MUCH_DUPLICATES_HELPER": "Nombre de doublons trop important",
                 "MANAGE_LABEL": "Traiter",
                 "NO_DUPLICATES_FOUND_DESC": "Aucun doublon n’a été créé lors de cet import 👍",
                 "NO_ERROR_LINES_FOUND_DESC": "Votre fichier csv n’avait aucune erreur 💪",
                 "TITLE_TOO_MUCH_DUPLICATES": "Nombre de doublons trop important",
-                "LINK_TOO_MUCH_DUPLICATES_HELPER": "Nombre de doublons trop important",
                 "TOO_MUCH_DUPLICATES": "Nous avons interrompu cet import car trop de contacts que vous souhaitez importer vont créer des <span class=\"bold\">doublons</span> à vos contacts Quorum.<br/><br/>N’hésitez pas à <span class=\"bold\">contacter le support</span> pour que nous puissions vous aider.",
-                "CONTACT_SUPPORT": "Contactez le support",
                 "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les contacts importés"
             },
             "LIST_IMPORT": {
@@ -1560,9 +1560,9 @@
             },
             "STATUS_IMPORT_LIST": {
                 "CONFIG_REQUIRED": "Configuration requise",
+                "ERROR": "Erreur",
                 "FINISHED": "Terminé",
                 "IN_PROCESSING": "En cours",
-                "ERROR": "Erreur",
                 "REJECTED": "Interrompu"
             },
             "STEP_CONFIG_FILE": {
