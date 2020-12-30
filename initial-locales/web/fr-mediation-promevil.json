@@ -2,216 +2,453 @@
     "ACTION": {
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
-                "MESSAGE": "Vous n'avez pas terminé la création de votre journée. Voulez-vous quitter la page et perdre les informations renseignées ?"
+                "MESSAGE": "Vous n'avez pas terminé la création de votre journée. Voulez-vous quitter la page et perdre les informations renseignées ?",
+                "TITLE": "Quitter la création de la journée"
             },
-            "CREATE": "Créer votre journée",
+            "CREATE": "Créer la journée",
             "HEADER": {
                 "TITLE": "Nouvelle journée"
             },
             "INFORMATIONS": {
-                "AIM": "Quel est le nom de votre feuille de route ?",
-                "COMMENT_PLACEHOLDER": "Comment se déroulera cette journée ? Qui sera sur place ?",
-                "COUNT_CONTACTS_SELECTED_FROM_DATABASE": "Aucun intervention sélectionnée | {count} intervention sélectionné | {count} interventions sélectionnés",
-                "DATE": "Quelle est la date de votre feuille de route ?",
+                "AIM": "📣 Quel est le nom de votre journée ?",
+                "AIM_NEEDED": "Votre journée doit comporter un titre.",
+                "COMMENT_PLACEHOLDER": "Comment se déroule la journée ? Qui sera sur place ? Qui est le coordinateur ?",
+                "COUNT_CONTACTS_SELECTED_FROM_DATABASE": "Aucune intervention sélectionnée | {count} intervention sélectionnée | {count} intervention sélectionnées",
+                "DATE": "📅 Quelle est la date de votre journée?",
                 "PRECISION": {
-                    "TITLE": "Vous voulez faire cette journée sur ?"
+                    "TITLE": "Vous voulez faire votre journée sur ?"
                 },
+                "TYPE": "✊ Quel type de journée souhaitez-vous lancer ?",
                 "TYPES": {
-                    "CANVASSING": "Feuille de route"
+                    "CANVASSING": "Feuille de route",
+                    "STATIC": "Déambulation"
                 },
                 "TYPES_INFO": {
-                    "CANVASSING": "Organisez vos journée avec une feuille de route !<br /><br />• Donnez à vos équipes une liste de rues.<br />• Ajoutez des éléments de langages et des informations supplémentaires pour vos médiateurs.<br />• Retrouvez, en temps réel, les remontées d'informations de cette journée.<br />• Visualiser les adresses où des interventions ont été faites."
+                    "CANVASSING": "Organisez votre journée avec une feuille de route !<br \/><br \/>• Donnez à vos équipes une liste de rues et d'adresses à visiter.<br \/>• Ajoutez des éléments de langages pour vos médiateurs.<br \/>• Retrouvez, en temps réel, les remontées d'informations de cette journée.<br \/>• Suivez la progression des interventions faites",
+                    "MAIL": "Boîtez efficacement avec une feuille de route !<br \/><br \/>• Donnez à vos équipes une liste de rues à boîter.<br \/>• Ils pourront déclarer avoir fait des rues en un seul clic.<br \/>• Suivez la progression des rues \"faites\" et \"à faire\".<br \/><br \/>Ne passez plus à côté d'aucune rue.<br \/><br \/><a class=\"q-link\" href=\"https:\/\/intercom.help\/quorumhq\/fr\/articles\/3690066-comment-organiser-un-boitage-efficace-avec-quorum\" target=\"_blank\">Comment organiser un boîtage efficace avec Quorum ?<\/a>",
+                    "OTHER": "Vous êtes plein d'imaginiation !<br \/>Créer une journée personnalisée.",
+                    "POSTER": "Cette journée vous permet d’organiser une opération de distribution de tracts sur un lieu précis",
+                    "SHARING": "Faites jouer l'effet de réseaux !<br\/><br\/>• Communiquez un message à vos équipes.<br\/>• Ils pourront alors simplement le re-partager à leurs contacts par sms ou sur leurs réseaux sociaux."
                 }
             },
             "PRECISION": {
-                "ZONE_POLYGON_WITH_EMPTY_STREETS_AND_CONTACTS_DESC": "Cette option permettra aux médiateurs sur le terrain d'avoir la liste de toutes les rues du quartier que vous avez sélectionné. <br /><br />Ils n'auront qu'a sélectionner la rue dans laquelle ils se trouvent pour pouvoir y ajouter une intervention. 👍"
+                "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une journée vide",
+                "ZONE_POLYGON_EMPTY_STREETS_ONLY_DESC": "Vos équipes sur le terrain auront la liste des rues dans cette zone où vous n’avez pas de contacts.<br \/><br \/>Cette option vous permet de couvrir tout votre quartier et d’ajouter des citoyens à votre base de contacts. ✊",
+                "ZONE_WITH_CONTACTS_ONLY_EMPTY": "Créer une journée vide"
             },
             "SEARCH": {
-                "USER": "Sélectionnez les médiateurs qui réaliseront cette journée"
+                "COUNT_CONTACT_ADDRESSES": "{count} intervention | {count} intervention | {count} interventions",
+                "USER": "Sélectionnez les membres et\/ou les équipes qui réaliseront la journée"
             },
-            "SELECT_MEMBERS_TITLE": "🏆 Qui participera à cette feuille de route ?",
-            "SUCCESS": "Feuille de route créée !",
+            "SELECT_MEMBERS_TITLE": "🏆 Qui réalisera cette journée ?",
+            "SUBMIT_INFO": "Votre journée est en cours de création. Veuillez patienter.",
+            "SUCCESS": "Nouvelle journée crée !",
             "TARGET": {
-                "GEO_SECTION": "🗺Où souhaitez-vous faire votre journée ?"
+                "ALL": "Toutes les interventions",
+                "ANSWER_SECTION": "Réponses au fait",
+                "CHOOSE_PLACE": "🗺 Choisissez le lieu de votre journée",
+                "CITIZENS": "Aucune intervention | intervention sélectionnée | interventions sélectionnées",
+                "CONTACT_LINK": "votre base d'interventions",
+                "GEO_SECTION": "🗺 Où souhaitez-vous mener votre journée ?",
+                "SKIP_CREATE": "Créer une journée sans citoyen",
+                "TERRITORY": "Les quartiers",
+                "TERRITORY_PLACEHOLDER": "Filtrer sur un quartier",
+                "UPPER_BOUND_REACHED_WARN": "Une journée ne peut excéder {count} citoyens. Veuillez modifier les critères pour continuer."
             },
             "VALIDATE": {
-                "TITLE": "Votre feuille de route doit avoir un nom",
-                "VOLONTEERS": "Vous devez assigner cette journée à au moins une personne"
+                "TITLE": "Le nom de la journée est obligatoire",
+                "TYPE": "Le type de la journée est obligatoire",
+                "VOLONTEERS": "La journée doit être assignée à au moins une personne"
             }
         },
         "DETAIL": {
-            "NO_MEMBER": "Aucun médiateur pour cette action",
-            "NO_PITCH": "Aucun script pour cette journée",
-            "NO_TEAM": "Aucune équipe pour cette journée"
+            "ACTION_NAME": "Nom de la journée",
+            "MODAL_ACTION": "{action} la journée",
+            "NO_MEMBER": "Aucun membre dans cette journée",
+            "NO_PITCH": "Pas de note dans cette journée",
+            "NO_TEAM": "Aucune équipe dans cette journée",
+            "PROGRESS": "Avancée de la journée"
         },
         "EDIT": {
-            "MEMBERS": "Médiateurs",
-            "NO_EMPTY_NAME": "Le nom de la feuille de route est obligatoire",
-            "SUCCESS": "La feuille de route à bien été mise à jour"
+            "NO_EMPTY_NAME": "Le nom de la journée est obligatoire",
+            "SUCCESS": "La journée a bien été mise à jour",
+            "TERRITORY": "Quartiers"
         },
         "LIST": {
-            "ACTIONS_SELECTED": "Aucune feuille de route sélectionnée",
-            "ACTION_IS_OVER": "La date de cette feuille de route est dépassée",
-            "ADD_ACTION_POLY": "Créer une feuille de route ici",
-            "DELETE_SUCCESS": "La feuille de route \"{name}\" a été supprimée",
-            "EDIT_ACTION": "Modifier la feuille de route",
-            "FINISHED": "Journée terminée",
-            "NO_DATA": "Aucune feuille de route pour le moment",
-            "REOPEN": "Relancer la journée",
-            "RUNNING": "Feuille de route en cours",
-            "SEARCH": "Rechercher une feuille de route",
+            "ACTIONS_SELECTED": "Aucune journée sélectionnée | {count} journée sélectionnée | {count} journées sélectionnées",
+            "ACTION_IS_OVER": "La date de la journée est dépassée.",
+            "ACTION_NOW": "Votre journée est maintenant {status} !",
+            "ADD_ACTION_POLY": "Créer une journée sur la zone",
+            "CONFIRMATION_OPEN_CLOSE": "Êtes-vous sûr de vouloir {action} la journée ?",
+            "DELETE_SUCCESS": "La journée \"{name}\" a bien été supprimée",
+            "DELETION": {
+                "CONFIRMATION": "Vous êtes sur le point de supprimer cette journée",
+                "TITLE": "Suppression d'une journée"
+            },
+            "EDIT_ACTION": "Éditer la journée",
+            "ERROR_HAPPENED": {
+                "TOGGLE": "Une erreur est survenue lors de la suppression de votre journée."
+            },
+            "FINISH": "Terminer la journée | Terminer {count} journées",
+            "FINISHED": "Journée terminée | Journée terminée | Journées terminées",
+            "NO_DATA": "Aucune journée pour l’heure ! Il est temps de préparer le terrain ✨ !",
+            "REOPEN": "Relancer la journée | Relancer {count} journées",
+            "RUNNING": "Journée en cours | Journées en cours | Journées en cours",
+            "SEARCH": "Rechercher une journée",
             "SELECTORS": {
-                "ACTIONS_TYPES": "Type d'interventions"
+                "ACTIONS_TYPES": "Types de journée",
+                "TERRITORY": "Quartiers"
             },
             "TYPE": {
-                "CANVASSING": "Feuille de route"
-            }
+                "CANVASSING": "Feuille de route",
+                "STATIC": "Déambulation"
+            },
+            "UPDATE_ERROR": "Erreur : la journée \"{name}\" n'a pas été mise à jour",
+            "UPDATE_SUCCESS": "La journée \"{name}\" a bien été mise à jour"
         },
         "SIDEBAR": {
             "KPI": {
-                "ACTIONS_SELECTED": "Aucune journée | 1 journée | {count} journées"
+                "ACTIONS_SELECTED": "Pas de journée | 1 journée | {count} journées"
             }
         }
     },
     "ANALYTICS": {
         "GENERATION": {
-            "ACTION_NUMBER": "Feuille de route n°{number}",
-            "CREATE_ACTION": "Créer une feuille de route",
-            "MEMBERS": "Médiateurs"
+            "ACTION_NUMBER": "Journée n°{number}",
+            "CREATE_ACTION": "Créer cette journée",
+            "NO_DATA": "Retrouvez ici des journées optimisées pour vos utilisateurs ! <br> Contacter nous pour activer cette vue"
+        },
+        "HEADER": {
+            "ANSWERS": "Réponses au fait"
+        }
+    },
+    "APP": {
+        "SETTINGS": {
+            "IMPORT": {
+                "AN_IMPORT": {
+                    "IMPORTED_CONTACTS_NBS_LABEL": "Interventions importées",
+                    "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les interventions importées",
+                    "DUPLICATES_MAYBE_CONTACTS_LABEL": "{count} intervention | {count} intervention | { count } interventions",
+                    "DUPLICATES_MAYBE_CONTACTS_DESC_LABEL": "que vous souhaitez importer sont des doublons potentiels de vos interventions actuelles."
+                },
+                "STEP_SUMMARY": {
+                    "TITLE": "Observez le résultat pour quelques interventions",
+                    "BUTTON_LABEL": "Intervention suivante",
+                    "NEXT_CONTACT": "Intervention suivante",
+                    "PREVIOUS_CONTACT": "Intervention précédente"
+                },
+                "STEP_FINAL": {
+                    "GO_BACK_TO_CONTACTS_LIST": "Retourner sur votre base d'interventions"
+                }
+            }
+        },
+        "TAGS": {
+            "IMPACTED_CONTACTS_SECOND": "Aucune intervention ne sera impactée |  à l'intervention qui a |  aux {count} interventions qui ont",
+            "NUMBER": "Nombre d'interventions"
+        }
+    },
+    "BRIEFS": {
+        "LIST": {
+            "INFORMATION_BRIEF": "C’est ici que vous pouvez créer des <strong>éléments de language<\/strong> et des <strong>scripts.<\/strong> Il vous suffira de les lier à vos journées pour que vos équipes deviennent des porte-paroles <strong>informés et outillés.<\/strong>"
         }
     },
     "CARTO": {
         "CC": {
             "CALL_TO_ACTION": {
-                "ACTIONS": "Feuille de route en cours",
-                "ADD_ACTION": "Créer une journée",
-                "ADD_ACTION_HERE": "Créer une journée ici",
-                "CONTACTS_HERE": "Pas d'intervention dans cette zone | Une intervention dans cette zone | {count}  interventions dans cette zone",
-                "DONE_ACTIONS": "Feuille de route terminée",
-                "MEMBERS": "Médiateurs",
-                "POLLING_STATION": "Quartier police #{pollingStation}",
-                "TABS": {
-                    "MOBILISATION": "Faits"
-                }
+                "ACTIONS": "Journée en cours  | Journées en cours",
+                "ADD_ACTION": "Lancer une journée",
+                "ADD_ACTION_FIRST_STEP": {
+                    "COMBINE_CONTACTS_UNKNOW_STREETS": "Vos intervention et toutes les rues de cette zone",
+                    "ERROR_CANNOT_CREATE_ACTION_TOO_LARGE": "Vous ne pouvez pas créer de journée sur une zone aussi grande.",
+                    "NEED_HELP_FIRST_SENTENCE": "Besoin d'aide pour créer une journée ? ",
+                    "ONLY_CONTACTS": "Vos intervention dans cette zone uniquement",
+                    "TITLE": "Vous voulez créer une journée sur :"
+                },
+                "ADD_ACTION_HERE": "Lancer une journée ici",
+                "CONTACTS": "Interventions",
+                "CONTACTS_HERE": "Aucune intervention dans la zone | 1 intervention dans la zone | {count} interventions dans la zone",
+                "DONE_ACTIONS": "Journée terminée | Journées terminées",
+                "SEEN_HERE": "Aucune intervention faite dans la zone | 1 intervention faite dans la zone | {count} interventions faites dans la zone"
             },
             "NAVIGATOR": {
+                "DEFAULT_ANALYSIS": "Quartiers prioritaires",
+                "DONE": "Fait",
                 "LAYERS": {
                     "ACTIONS": "Journées",
                     "CONTACTS": "Interventions"
                 },
                 "LEVELS": {
-                    "POLLING_STATION": "Quartier police"
-                }
+                    "POLLING_STATION": "Découpage Quartier"
+                },
+                "PRIO": {
+                    "$1": "Priorité 1 - Quartier à visiter",
+                    "$5": "Priorité 5 - Quartier non prioritaire"
+                },
+                "PRIORISATION": "Analyses et quartiers prioritaires"
             },
             "PRIO": {
-                "ADD_ACTION": "Créer une  journée"
+                "ADD_ACTION": "Créer une journée",
+                "HOME": {
+                    "PRESENTATION": "L'analyse croisée peut vous permettre de connaître plus <span class=\"q-is-primary\">précisemment<\/span> votre quartier, et <span class=\"q-is-primary\">d'organiser<\/span> le déroulement de vos journées en fonction de la priorité des quartier."
+                }
             }
         }
     },
     "CONTACT": {
         "EDIT": {
             "ACTIONS": "Journées",
-            "ANSWERS": "Faits",
-            "ASKING_TO_DELETE_CONTACT": "Êtes-vous sûr de vouloir supprimer cette intervention ?",
+            "ADD_CONTACT": "Créer l'intervention",
+            "ADD_CONTACT_CONFIRMED": "L'intervention a été créée",
+            "ASKING_TO_DELETE_CONTACT": "Êtes-vous bien sûr de vouloir supprimer cette intervention ?",
+            "ASKING_TO_DELETE_CONTACT_CREATION": "Êtes-vous sûr de vouloir abandonner la création de cette intervention ?",
+            "CONTACT_INFORMATION": "Informations de l'intervention",
             "CONTACT_UNKNOW": "Intervention : {id}",
+            "CREATED_CONTACT_CONFIRMED": "L'intervention a été créée.",
             "DELETED_CONTACT_CONFIRMED": "L'intervention a bien été supprimée.",
-            "DELETE_MESSAGE": "Êtes-vous sûr de vouloir supprimer cette intervention ? Cette action est irréversible",
-            "LASTCHANGE_DIRECT": "A été créée {lastchange} par {name}",
-            "LEAD": "Tâches",
-            "MET": "Créée le {date}"
+            "DELETE_MESSAGE": "Êtes vous sûr(e) de vouloir supprimer cette intervention ? Cette action est irrémédiable !",
+            "DUPLICATES_CONTACTS_DESCRIPTION": "Nous n'avons pas trouvé de doublons. | Nous avons trouvé un doublon potentiel pour cette intervention. | Nous avons trouvé {number} doublons potentiels pour cette intervention.",
+            "ERROR_ADD": "Une erreur nous empêche de créer cette intervention",
+            "ERROR_DELETE": "Une erreur nous empêche de supprimer cette intervention",
+            "LEAD": "Alertes",
+            "NOTES_AND_FORMS": "Notes & fait",
+            "NOT_LASTCHANGE": "L'intervention n'a pas encore été faite",
+            "NO_NOTE_FOUND": "Aucune note n'a été ajoutée pour cette intervention.",
+            "POLLINGSTATION": "Quartier",
+            "ROUTE_OPPORTUNITIES": "Alerte",
+            "SUCCESS_ADD": "L'intervention a bien été ajoutée !",
+            "SUCCESS_DELETE": "L'intervention a bien été supprimée.",
+            "TERRITORY": "Quartier",
+            "UNKNOWN": "Intervention inconnue ({id})",
+            "UNSAVED_CONTACT": "Vous avez modifié cette intervention",
+            "UPDATED_CONTACT_CONFIRMED": "L'intervention a été mise à jour."
         },
         "HEADER": {
-            "CONTACTS_SELECTED": " 0 intervention | 1 intervention sélectionnée | {number} interventions sélectionnées",
+            "ALL": "Toutes les intervention",
+            "CONTACTS_SELECTED": "0 intervention sélectionnée | 1 intervention sélectionnée | {number} intervention sélectionnées",
             "CREATE_ACTION": "Créer une journée",
+            "FILTERS": {
+                "MISSING": "Sans quartier",
+                "MOBILE": {
+                    "UNFILTERED": "Toutes les interventions"
+                },
+                "TERRITORIES": "Quartiers"
+            },
+            "LIMIT_BOUND_TOTAL_HIT": "Vous ne pouvez pas créer une action sur plus de {number} interventions.",
+            "MANAGE_ACTION": "Action sur 0 intervention | Action sur cette intervention | Action sur {count} interventions",
             "MANAGE_ACTIONS_AVAILABLES": "Journées",
+            "SEARCH_PLACEHOLDER": "Rechercher des interventions",
             "TITLE": "Interventions"
         },
+        "HISTORY": {
+            "ACTION_TITLE": "Journée",
+            "ANSWERED_ACTION": "Alertes",
+            "ANSWERED_ACTION_DESC": "Des alertes ont été ajoutées à cette intervention.",
+            "ANSWERED_ACTION_DESC_CHANGED": "Modification des alertes sur cette intervention.",
+            "ANSWERED_CONSENT_YES": "Collecter et utiliser ses informations dans le cadre de votre journée.",
+            "ANSWERED_FORM": "Faits",
+            "ANSWERED_FORM_DESC": "Détail de l'intervention",
+            "ANSWERED_FORM_DESC_CHANGED": "Modifications des réponses au fait.",
+            "ANSWERED_STATUS_DESC": "Un statut a été ajouté à l'intervention.",
+            "ANSWERED_STATUS_DESC_CHANGED": "Le statut de l'intervention a été modifié.",
+            "NO_ACTIVITY_FOUND": "Aucune action n’a été menée sur cette intervention pour le moment 🙄",
+            "THE_CONTACT": "L'intervention"
+        },
         "KPI": {
-            "CONTACTS": "Aucune intervention",
-            "OVERLAY": "Voir intervention"
+            "CONTACTS": "Aucune intervention | 1 intervention | {number} interventions",
+            "OVERLAY": "Afficher les interventions"
         },
         "LIST": {
-            "CONTACTS_SELECTED": "0 sélectionné | 1 sélectionné | {count} selected",
+            "ADD_CITIZEN": "Ajouter une intervention",
             "CSV_HEADER": {
                 "address": {
-                    "pollingstation": "Quartier police"
+                    "pollingstation": "Quartier"
                 }
             },
-            "ERROR_DELETE": "Suite à une erreur, cette intervention ne peut pas être supprimée.",
-            "EXPORT_LIMITATION": "Vous ne pouvez pas exporter plus de 10 000 interventions. Si vous avez besoin d'un export plus grand, contactez l'équipe support.",
+            "DELETE_MESSAGE": "Êtes vous sûr(e) de vouloir supprimer {count} intervention(s) ? Cette action est irrémédiable !",
+            "EMPTY": "<bold>Aucune intervention 😲<\/bold><p class=\"center\">Importez-en <a class=\"action q-is-info\" target=\"_blank\" href=\"https:\/\/airtable.com\/shrQpD9Zzb1WnPYqh\">en nous envoyant vos données<\/a>,<br> ou créez votre première intervention en cliquant sur \"+ Ajouter une intervention\" !<\/p>",
+            "ERROR_DELETE": "Une erreur nous empêche de supprimer cette intervention",
+            "EXPORT_LIMITATION": "Vous ne pouvez exporter que 10 000 interventions maximum. Si vous avez besoin d'un export complet de votre base de d'interventions, contactez le support.",
             "MODAL": {
+                "MODIFY_TERRITORY": "Modifier le quartier",
                 "TITLE": {
-                    "STATUS": "Modifier le statut de {count} intervention(s)",
-                    "TAGS": "Modifier le tag de {count} intervention(s)",
-                    "TERRITORIES": "Modifier le territoire de {count} interventions"
+                    "STATUS": "Modifier le statut de {count} interventions",
+                    "TAGS": "Modifier les mots-clés de {count} interventions",
+                    "TERRITORIES": "Modifier le quartier de {count} interventions"
                 },
-                "WARNING": "Attention : vous allez faire des modifications sur toutes les interventions sélectionnées sur cette page"
+                "WARNING": "Attention vous allez appliquer cette modification à toutes les interventions sélectionnées sur cette page."
             },
-            "SUCCESS_DELETE": "Intervention supprimée",
+            "NONE_SELECTED": "Aucune intervention sélectionnée !",
+            "NO_CONTACT": "Aucune intervention trouvée",
+            "SUCCESS_DELETE": "L'intervention a bien été supprimée",
             "TABLE": {
                 "ACTIONS": "Journées",
-                "CONTACT": "Créée par",
-                "LASTSEEN": "Crée"
+                "TERRITORY": "Quartier"
             }
         }
     },
+    "DUPLICATES": {
+        "MERGE_ATTRIBUTES": {
+            "CONTACT_ID": "intervention {id}",
+            "PREVIEW_FINAL_CONTACT": "Aperçu de l'intervention finale"
+        },
+        "MERGE_BUTTON_CONTACTS": "Fusionner les interventions | Fusionner les interventions | Fusionner les {count} interventions",
+        "MERGE_BUTTON_CONTACTS_DISABLED": "Au moins 2 interventions doivent être sélectionnés pour commencer une fusion.",
+        "MERGE_DESC": "Sélectionnez une intervention puis cochez les informations que vous souhaitez conserver sur l'intervention finale.",
+        "MERGE_FINISHED": "La fusion des interventions est terminée.",
+        "MERGE_NOT_DUPLICATES_DESC": "Toutes les interventions de ce tableau ne seront plus considérés comme des doublons entre eux.",
+        "MERGE_NOT_DUPLICATES_DESC_MESSAGE": "Êtes-vous sûrs de déclarer que ces interventions ne sont pas des doublons entre eux ?",
+        "MERGE_TITLE": "Commencez la fusion des interventions",
+        "PREVIEW_DESC": "Sélectionnez les interventions que vous souhaitez fusionner puis cliquer sur Suivant."
+    },
     "FORM": {
+        "AUTO_SEND": {
+            "HELP": {
+                "CONTENT1": "Lorsque vous créez votre fait, vous pouvez activer pour chaque réponse potentielle, un email automatique."
+            }
+        },
         "BUILDER": {
-            "EDIT": "Modifier les faits",
-            "PUBLISH": "Enregistrer les faits",
-            "PUBLISH_SUCCESS": "Les faits ont bien été enregistrées sur l'application mobile.",
-            "WARN1": ""
+            "EDIT": "Éditer le fait",
+            "PRINT": "Imprimer le fait",
+            "PUBLISH": "Publier le fait",
+            "PUBLISH_SUCCESS": "Le fait a été publié avec succès sur l’application mobile et tablette. Au travail !",
+            "WARN1": "Si vous éditez ou modifiez le fait, vous perdez toutes les données enregistrées dans le passé liées à celui-ci. L'action est irréversible.",
+            "WARN2": "Pour modifier le fait, vous devez prendre contact avec un membre de l'équipe support."
+        },
+        "EDITOR": {
+            "EMPTY_STATE": {
+                "ADD": "Créer mon fait",
+                "TITLE": "Vous n’avez pas encore créé de fait !"
+            }
         },
         "SIDEBAR": {
-            "SURVEY": "Faits"
+            "EDIT_FORM": {
+                "TITLE": "Je veux modifier mon fait"
+            },
+            "GOOD_PRACTICE": {
+                "CONTENT1": "En cliquant sur templates prédéfinis vous trouverez des exemples de fait. Une fois le template sélectionné vous pouvez le modifier. ",
+                "CONTENT4": "Envisager le fait comme une conversation. N’hésitez pas à le réciter à haute voix"
+            },
+            "NO_DIGITAL_TEAM": {
+                "CONTENT": "No stress. En cliquant sur l’icône “imprimer”, le fait se formate automatiquement en gabarit papier, près pour le terrain. Vous n’avez plus qu’au retour à saisir les résultats sur tablette \/ mobile ou l’application web. Nous offrons également des services de reconnaissance automatique des questionnaires papier. Pour plus d’information nous contacter.  "
+            },
+            "ORGANIZATION": {
+                "CONTENT": "Le fait est organisé par sections et par questions. Les sections sont comme des moments dans la conversation, des thèmes. Les questions peuvent être de différentes formes : Réponse courte, Case à cocher, Choix multiple, Date, et Gamme. "
+            },
+            "README": {
+                "CONTENT1": "Attention. Une fois le fait publié, nous vous déconseillons de le modifier  fréquemment. Pourquoi ? Une grande partie des statistiques sont générées à partir de ce fait. En modifiant le fait, vous pouvez corrompre les données. Pour tout modification, nous vous conseillons de contacter le support. Par ailleurs avant de vous lancer, vous disposez de modèles à consulter. Si vous n’êtes pas sûr de vous, nous disposons de spécialistes qui peuvent en fonction de vos besoin réaliser vos faits. Contacter nous pour en savoir plus "
+            },
+            "SUB_HEADER2": "Le fait est votre enquête ou moyen de sensibilisation\/mobilisation pour le terrain.  Vous pouvez le paramétrer ici et le publier instantanément sur les applications mobile et tablette de toute votre organisation.  Vous pouvez également économiser des heures de travail et améliorer votre impact en paramétrant l’envoi automatique d’email ! yes !  ",
+            "SURVEY": "Fait"
+        }
+    },
+    "HOME": {
+        "APP": {
+            "CONTENT": "Connectez le QG de campagne avec les membres sur le terrain pour renforcer vos journées"
+        },
+        "QUESTIONNAIRE": {
+            "DISCOVER": "Découvrez le <br> fait",
+            "DISCOVER_CONTENT": "Créez et personnalisez le fait transmis aux membres sur le terrain"
         }
     },
     "MANAGEMENT": {
         "ISSUE_CENTER": {
+            "ACTIONS": "Tunnel d'alertes",
+            "ALL_GOOD": "Tout est bon, pas de journée à mener pour le moment ! 👍",
+            "CANCEL": "Supprimer la journée",
             "DROPDOWN": "Journées",
-            "MET_BY": "Créée {date} par {user}"
+            "NO_ACTION": "Il n'y pas d'intervention à mener, pour le moment tout est calme !",
+            "SEE_DETAILS": "Modifier les informations de cette intervention",
+            "SELECT_SUPPORT_WITH_MAIL": "Sélectionner les interventions avec une adresse mail"
         }
     },
     "MENU": {
         "ACTIONS": "Journées",
         "CITIZENS": "Interventions",
-        "FORM": "Faits",
-        "ISSUE_CENTER": "Tâches",
-        "MOBILIZATION": "Faits"
+        "FORM": "Fait",
+        "ISSUE_CENTER": "Alertes"
     },
     "SETTINGS": {
         "AUTOSEND_CONF": {
-            "SURVEY": "Faits"
+            "ASSOCIATED_MESSAGES_TOOLTIP": "Associer des éléments de réponses en fonction des réponses au fait depuis l’onglet {action}.",
+            "DESC": "Créer le contenu des emails qui seront envoyés aux personnes ayant répondu à votre fait.",
+            "SURVEY": "Fait"
         },
         "CAMPAIGN": {
+            "ALLOW_FORM_ON_REFUSAL": "Afficher le fait, même en cas de refus",
             "VENDOR_HEAD": {
                 "ACTION": "Journée"
             }
         },
-        "FORM_BUILDER": {
-            "NAMES": {
-                "ACTION": "Tâches"
+        "CONTACT": {
+            "ADDRESS_LABELS": {
+                "POLLINGSTATION": "Quartier"
             },
-            "SUCCESS": "Les faits ont bien été enregistrés"
+            "DEFAULT": "Afficher la fiche d'intervention par défaut",
+            "EXPLANATIONS": "Paramétrer ici le contenu de la fiche d'intervention de votre application Quorum",
+            "SUCCESS": "La fiche d'intervention a bien été mis à jour !",
+            "TITLE": "Paramétrer la fiche d'intervention",
+            "UPDATE_CONTACT": "Mettre à jour l'intervention"
+        },
+        "FORM_BUILDER": {
+            "DELETE_ANSWER_INFO_PART": "Les données liées à cette réponse seront <strong>définitivement supprimées<\/strong> une fois le fait publié.",
+            "HOW_TO_USE_FORM_BUILDER": "Comment utiliser le fait ?",
+            "HOW_TO_USE_TUNNELS": "Comment personnaliser les statuts et les alertes ?",
+            "LEAD_WARNING": "Attention ! Modifiez ces paramètres uniquement si vous êtes sûr de vous ! Cela pourrait impacter vos journées sur le terrain",
+            "LEAVE_THE_PAGE_TITLE": "Quitter le fait",
+            "NAMES": {
+                "ACTION": "Tunnel d'alertes"
+            },
+            "SUCCESS": "Le fait a bien été sauvegardé !",
+            "TEMPLATES": "Modèles de faits",
+            "TEMPLATE_ACTION": "Revenir au tunnel d'alertes par défaut",
+            "TOOLTIP_ACTION": "Faire apparaître ce champ dans vos onglets de votre centre d'alertes.",
+            "TYPES": {
+                "TASKS": {
+                    "RECONTACT": "Intervention"
+                }
+            },
+            "USE_DEFAULT_FORM_TITLE": "Utiliser un fait par défaut",
+            "USE_DEFAULT_FORM_WARNING": "Vous allez utiliser un modèle par défaut de faits. Si vous décidez de le <strong>publier<\/strong>, les données existantes seront <strong>écrasées.<strong>",
+            "WARNING_MEANING_LABEL": "Attention, vous allez <strong>éditer<\/strong> vos faits ! <br\/>Si vos modifications changent le <strong>sens<\/strong> de votre question\/reponse : <strong>supprimez et recommencez la.<\/strong>"
         },
         "HEADER": {
-            "ACTIONS": "Tâches",
-            "FORM": "Faits",
-            "LEAD": "Tâches"
+            "ACTIONS": "Tunnel d'alertes",
+            "CONTACT": "Fiche d'intervention",
+            "FORM": "Fait",
+            "LEAD": "Alertes"
+        },
+        "MY_CAMPAIGNS": {
+            "TERRITORY": "Quartier"
         },
         "PROFILE": {
             "ROLES": {
                 "ADMIN": "Chef d'équipe",
-                "MANAGER": "Référent ville",
+                "MANAGER": "Coordinateur",
                 "SUPERADMIN": "QG Promévil",
                 "USER": "Médiateur"
             }
+        },
+        "TAGS": {
+            "CONTACTS": "0 intervention | une intervention | {count} interventions"
+        }
+    },
+    "SHARING": {
+        "BRIEFS": {
+            "LIST": {
+                "INFORMATION": "C’est ici que vous pouvez créer des éléments de language et des scripts. Il vous suffira de les lier à vos journées pour que vos équipes deviennent des porte-paroles informés et outillés."
+            }
+        }
+    },
+    "SHARING2": {
+        "BRIEFS": {
+            "INFORMATION": "C’est ici que vous pouvez créer des éléments de language et des scripts. Il vous suffira de les lier à vos journées pour que vos équipes deviennent des porte-paroles informés et outillés."
         }
     },
     "SMS": {
-        "ANALYTICS": {
-            "CONTACTS_SELECTED": "Interventions sélectionnées"
-        }
+        "SELECTED_CONTACTS": "Interventions sélectionnées"
+    },
+    "SURVEY": {
+        "DISABLED": "Aucun fait n'a été publié pour le moment."
     },
     "USER_MANAGEMENT": {
         "DETAIL": {
@@ -220,7 +457,7 @@
                     "TITLE": "Chef d'équipe"
                 },
                 "MANAGER": {
-                    "TITLE": "Référent ville"
+                    "TITLE": "Coordinateur"
                 },
                 "SUPERADMIN": {
                     "TITLE": "QG Promévil"
@@ -233,25 +470,43 @@
         "KPI": {
             "HELPERS": "médiateur | médiateurs",
             "LEADERS": "QG Promévil | QG Promévil",
-            "MANAGERS": "chef d'équipe | chef d'équipe",
-            "ORGANIZERS": "chef d'équipe | chefs d'équipe"
+            "MANAGERS": "coordinateur | coordinateurs",
+            "ORGANIZERS": "chef d'équipe | chefs d'équipes"
         },
         "USER_LIST": {
             "TEAMS": {
-                "CREATE_ACTION": "Créer une journée"
+                "ACTIONS": "Cette équipe n'a pas de journée en cours | 1 journée | %{count} journées",
+                "CREATE_ACTION": "Créer une journée",
+                "EMPTY_STATES": {
+                    "DEFAULT": {
+                        "LABEL": "Créez une équipe pour organiser vos journées facilement"
+                    }
+                }
             }
         }
     },
     "VENDORS": {
         "ARCHITECTURE": {
             "per_all": {
-                "label": "D'intervention dans la zone"
+                "label": "Des interventions de la zone"
+            },
+            "per_seen": {
+                "label": "Des interventions faites dans la zone"
             }
         }
     },
-    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-promevil",
-    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "_COMMON": {
-        "ADD_ACTION": "Créer une journée"
+        "ACTION": {
+            "ENTITY_UPDATE_FAILED": "Erreur lors de la mise à jour de la journée."
+        },
+        "ADDRESS_DETAILS": {
+            "POLLINGSTATION": "Quartier"
+        },
+        "ADD_ACTION": "Créer une journée",
+        "CONTACT": "Intervention",
+        "GDPR": {
+            "OK_LABEL": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de mon intervention."
+        },
+        "TERRITORIES": "Quartier | Quartiers"
     }
 }

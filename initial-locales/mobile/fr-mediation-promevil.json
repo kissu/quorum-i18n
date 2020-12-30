@@ -3,106 +3,134 @@
     "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "auth": {
         "chooseCampaign": {
-            "emoji": "✊",
             "joinYourCompaign": "Rejoindre",
-            "letsGo": "C'est parti !"
-        },
-        "joinCampaign": {
-            "emoji": "✊",
-            "goButton": "Go !",
             "letsGo": "C'est parti !"
         }
     },
     "errors": {
-        "noFieldActionsAvailable": "Aucune journée pour le moment."
+        "noFieldActionsAvailable": "Pas de journées prévues.\nUtilisez les actions rapides pour mobiliser."
     },
     "logged": {
         "canvassing": {
             "addAMissingItem": {
                 "aCitizen": "une intervention",
-                "citizensWithoutAddressesWithoutNonFind": "Intervention"
+                "citizensWithoutAddressesWithoutNonFind": "Interventions"
             },
-            "addCitizenCTA": "Ajouter une intervention dans cette zone",
-            "advicesCanvassingInformation": {
-                "aCitizenAdd": "Appuyez sur + pour ajouter une intervention.",
-                "aCityAdd": "Vous ne voyez aucun adresse ? Cliquer sur + pour en ajouter une.",
-                "findCitizen": "Vous cherchez une rue en particulier ?\nUtilisez la barre de recherche.",
-                "findCity": "Vous cherchez une ville en particulier ?\nUtilisez la barre de recherche.",
-                "findHouseNumber": "Vous cherchez une rue en particulier ?\nUtilisez la barre de recherche.",
-                "findStreet": "Vous cherchez une rue en particulier ?\nUtilisez la barre de recherche."
-            },
-            "labelAllTheContacts": "Intervention",
-            "listItem": {
-                "addMissCitizen": "Ajouter une interention",
-                "individual": "Interventions",
-                "toHitLeftPlural": "Interventions",
-                "toHitLeftSingular": "Intervention"
-            },
-            "popUpLeaveCanvassing": {
-                "handouMailTitleLabel": "Avez-vous fini cette journée ?",
-                "staticTitleLabel": "Avez-vous fini cette journée ?",
-                "titleLabel": "Avez-vous fini cette journée ?"
-            },
-            "staticCanvassing": {
-                "addAContact": "Ajouter une nouvelle intervention",
-                "addFirstContact": "Ajouter votre première intervention",
-                "addedContacts": "interventions créées",
-                "searchDisabledPlaceholder": "Aucune intervention"
-            },
-            "viewContact": {
-                "newContactLabel": "Nouvelle intervention",
-                "unnamedLabel": "Intervention"
+            "addCitizenCTA": "Créer une intervention dans la zone"
+        },
+        "advicesCanvassingInformation": {
+            "aCitizen": "une intervention",
+            "aCitizenAdd": "Appuyer sur le + pour ajouter une intervention",
+            "aCityAdd": "Appuyer sur le + pour ajouter une intervention",
+            "aHouseNumberAdd": "Appuyer sur le + pour ajouter une intervention",
+            "aStreetAdd": "Appuyer sur le + pour ajouter une intervention",
+            "citizenInfo": "• Vérifiez si le citoyen a été rencontré\nlors d'une journée précédente.",
+            "findCitizen": "Vous cherchez une rue en particulier ?\nUtilisez la barre de recherche."
+        },
+        "labelAllTheContacts": "Interventions",
+        "listItem": {
+            "addMissCitizen": "Créer une intervention",
+            "citizens": "interventions",
+        },
+        "loadingStaticTitle": "Un peu de patience. \nNous rassemblons les interventions.",
+        "noCitizensFound": "Appuyer sur le + pour ajouter une intervention",
+        "noCitizensFoundWithStaticSearch": "Aucun résultat trouvé dans cette liste d'interventions.",
+        "popUpLeaveCanvassing": {
+            "staticTitleLabel": "Voulez-vous quitter la déambulation"
+        },
+        "staticCanvassing": {
+            "addAContact": "Créer une nouvelle intervention",
+            "addFirstContact": "Créer la première intervention",
+            "addedContacts": "interventions ajoutées",
+            "searchDisabledPlaceholder": "Aucune intervention"
+        },
+        "viewContact": {
+            "newContactLabel": "Nouvelle intervention",
+            "seeAnswers": "Voir le détail du fait"
+        }
+    },
+    "fieldActions": {
+        "advancedLayout": {
+            "actionBrief": "Brief de la journée",
+            "startTheAction": "Démarrer la journée"
+        },
+        "listFieldActions": {
+            "citizensLabel": "interventions",
+            "displayPastFieldActionsLabel": "Afficher les journées terminées",
+            "hidePastFieldActionsLabel": "Masquer les journées terminées"
+        },
+        "popUpFinishFieldActions": {
+            "titleLabel": "Voulez-vous vraiment terminer la journée ?"
+        },
+        "titleScreenLabel": "Journées",
+        "typeOfActions": {
+            "canvassing": "Feuille de route",
+            "static": "Déambulation"
+        }
+    },
+    "form": {
+        "allQuestions": "Voir le détail",
+        "allQuestionsForm": {
+            "finishTheFormLabel": "Terminer le fait",
+            "theQuestionsLabel": "Le détail"
+        },
+        "answers": {
+            "support": {
+                "doAForm": "Créer un fait",
+                "titleAddSupport": "Ajouter une intervention 🙂",
+                "titleUpdateSupport": "Mettre à jour l'intervention",
+                "titleWhatIsTheNextStep": "L’intervention nécessite-t-elle de prévenir quelqu’un ?",
+                "whoDoWeMeet": "Quel type d’intervention venez-vous de mener ?"
             }
         },
-        "fieldActions": {
-            "advancedLayout": {
-                "actionBrief": "Notes de la feuille de route",
-                "startCanvassing": "Commencer la journée !",
-                "startTheAction": "Commencer la journée"
-            },
-            "listFieldActions": {
-                "citizensLabel": "Intervention"
-            },
-            "titleScreenLabel": "Feuilles de route"
+        "endForm": {
+            "addAnotherCitizen": "Ajouter une nouvelle intervention",
+            "finishTheMeeting": "Retour aux interventions",
+            "oneMoreLabel": "une intervention de plus !",
+            "rateTheForm": "Informations complémentaires"
         },
-        "form": {
-            "answers": {
-                "support": {
-                    "titleUpdateSupport": "Mettre à jour les informations de l'intervention"
-                }
-            },
-            "editAContactTitle": "Modifier les informations de l'interventions",
-            "endForm": {
-                "addAnotherCitizen": "Ajouter une nouvelle intervention !",
-                "oneMoreLabel": "une intervention de plus !",
-                "rateTheForm": "Informations complémentaires"
-            },
-            "switchContactAddress": {
-                "contactLabel": "Intervention"
-            },
-            "updateTheContactLabel": "Mettre à jour l'intervention"
+        "nextQuestion": "Suivant",
+        "popUpLeaveForm": {
+            "titleLabel": "Voulez-vous quitter le fait ?\nIl ne sera pas sauvegardé."
         },
-        "headQuarter": {
-            "newActions": {
-                "newActionLabel": {
-                    "one": "Votre feuille de route",
-                    "other": "Vos feuilles de route"
-                }
-            },
-            "quickActions": {
-                "add": "Créer une intervention",
-                "addSupport": "Ajouter une intervention\n",
-                "welcome": "Bienvenue sur Promévil {{firstname}}"
+        "rateContact": {
+            "howTheDiscussionHasGoing": "L’intervention nécessite-t-elle de prévenir quelqu’un ?"
+        },
+        "switchContactAddress": {
+            "contactLabel": "Intervention"
+        },
+        "updateTheContactLabel": "Mettre à jour l'intervention"
+    },
+    "headQuarter": {
+        "newActions": {
+            "emptyStateText": "Pas de journée prévue pour le moment.\nDémarrez une action rapide.",
+            "newActionLabel": {
+                "one": "Votre journée",
+                "other": "Vos journées"
             }
         },
-        "profile": {
-            "public": {
-                "actions": "feuilles de route",
-                "actionsFinished": "Feuilles de route terminées"
-            }
+        "quickActions": {
+            "add": "Créer\nune intervention",
+            "addSupport": "Ajouter\nune intervention\n",
+            "welcome": "Bienvenue sur Promévil {{firstname}}👋"
+        }
+    },
+    "profile": {
+        "public": {
+            "actions": "journées",
+            "actionsFinished": "Nombre de journées travaillées",
+            "anActionFinished": "Journées déjà réalisée",
+            "noCitizenMeet": "Aucune intervention faite, consultez vos journées.",
+            "peopleMeet": "Interventions menées"
         }
     },
     "navigator": {
-        "actions": "Feuilles de route"
+        "actions": "Journées"
+    },
+    "popup": {
+        "consent": {
+            "gpdrOkLabelAddAContact": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de ma journée.",
+            "gpdrOkLabelSurvey": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de ma journée"
+        }
     }
 }
