@@ -126,10 +126,10 @@
         },
         "profile": {
             "joinMouvement": {
-                "few": "",
-                "one": "",
-                "other": "",
-                "zero": ""
+                "few": " ",
+                "one": " ",
+                "other": " ",
+                "zero": " "
             },
             "public": {
                 "actions": "journées",
