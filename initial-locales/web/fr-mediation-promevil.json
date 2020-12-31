@@ -1,6 +1,4 @@
 {
-    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-promevil",
-    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "ACTION": {
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
@@ -26,21 +24,21 @@
                     "STATIC": "Déambulation"
                 },
                 "TYPES_INFO": {
-                    "CANVASSING": "Organisez votre journée avec une feuille de route !<br \/><br \/>• Donnez à vos équipes une liste de rues et d'adresses à visiter.<br \/>• Ajoutez des éléments de langages pour vos médiateurs.<br \/>• Retrouvez, en temps réel, les remontées d'informations de cette journée.<br \/>• Suivez la progression des interventions faites",
-                    "MAIL": "Boîtez efficacement avec une feuille de route !<br \/><br \/>• Donnez à vos équipes une liste de rues à boîter.<br \/>• Ils pourront déclarer avoir fait des rues en un seul clic.<br \/>• Suivez la progression des rues \"faites\" et \"à faire\".<br \/><br \/>Ne passez plus à côté d'aucune rue.<br \/><br \/><a class=\"q-link\" href=\"https:\/\/intercom.help\/quorumhq\/fr\/articles\/3690066-comment-organiser-un-boitage-efficace-avec-quorum\" target=\"_blank\">Comment organiser un boîtage efficace avec Quorum ?<\/a>",
-                    "OTHER": "Vous êtes plein d'imaginiation !<br \/>Créer une journée personnalisée.",
+                    "CANVASSING": "Organisez votre journée avec une feuille de route !<br /><br />• Donnez à vos équipes une liste de rues et d'adresses à visiter.<br />• Ajoutez des éléments de langages pour vos médiateurs.<br />• Retrouvez, en temps réel, les remontées d'informations de cette journée.<br />• Suivez la progression des interventions faites",
+                    "MAIL": "Boîtez efficacement avec une feuille de route !<br /><br />• Donnez à vos équipes une liste de rues à boîter.<br />• Ils pourront déclarer avoir fait des rues en un seul clic.<br />• Suivez la progression des rues \"faites\" et \"à faire\".<br /><br />Ne passez plus à côté d'aucune rue.<br /><br /><a class=\"q-link\" href=\"https://intercom.help/quorumhq/fr/articles/3690066-comment-organiser-un-boitage-efficace-avec-quorum\" target=\"_blank\">Comment organiser un boîtage efficace avec Quorum ?</a>",
+                    "OTHER": "Vous êtes plein d'imaginiation !<br />Créer une journée personnalisée.",
                     "POSTER": "Cette journée vous permet d’organiser une opération de distribution de tracts sur un lieu précis",
-                    "SHARING": "Faites jouer l'effet de réseaux !<br\/><br\/>• Communiquez un message à vos équipes.<br\/>• Ils pourront alors simplement le re-partager à leurs contacts par sms ou sur leurs réseaux sociaux."
+                    "SHARING": "Faites jouer l'effet de réseaux !<br/><br/>• Communiquez un message à vos équipes.<br/>• Ils pourront alors simplement le re-partager à leurs contacts par sms ou sur leurs réseaux sociaux."
                 }
             },
             "PRECISION": {
                 "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une journée vide",
-                "ZONE_POLYGON_EMPTY_STREETS_ONLY_DESC": "Vos équipes sur le terrain auront la liste des rues dans cette zone où vous n’avez pas de contacts.<br \/><br \/>Cette option vous permet de couvrir tout votre quartier et d’ajouter des citoyens à votre base de contacts. ✊",
+                "ZONE_POLYGON_EMPTY_STREETS_ONLY_DESC": "Vos équipes sur le terrain auront la liste des rues dans cette zone où vous n’avez pas de contacts.<br /><br />Cette option vous permet de couvrir tout votre quartier et d’ajouter des citoyens à votre base de contacts. ✊",
                 "ZONE_WITH_CONTACTS_ONLY_EMPTY": "Créer une journée vide"
             },
             "SEARCH": {
                 "COUNT_CONTACT_ADDRESSES": "{count} intervention | {count} intervention | {count} interventions",
-                "USER": "Sélectionnez les membres et\/ou les équipes qui réaliseront la journée"
+                "USER": "Sélectionnez les membres et/ou les équipes qui réaliseront la journée"
             },
             "SELECT_MEMBERS_TITLE": "🏆 Qui réalisera cette journée ?",
             "SUBMIT_INFO": "Votre journée est en cours de création. Veuillez patienter.",
@@ -128,19 +126,19 @@
         "SETTINGS": {
             "IMPORT": {
                 "AN_IMPORT": {
-                    "IMPORTED_CONTACTS_NBS_LABEL": "Interventions importées",
-                    "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les interventions importées",
+                    "DUPLICATES_MAYBE_CONTACTS_DESC_LABEL": "que vous souhaitez importer sont des doublons potentiels de vos interventions actuelles.",
                     "DUPLICATES_MAYBE_CONTACTS_LABEL": "{count} intervention | {count} intervention | { count } interventions",
-                    "DUPLICATES_MAYBE_CONTACTS_DESC_LABEL": "que vous souhaitez importer sont des doublons potentiels de vos interventions actuelles."
-                },
-                "STEP_SUMMARY": {
-                    "TITLE": "Observez le résultat pour quelques interventions",
-                    "BUTTON_LABEL": "Intervention suivante",
-                    "NEXT_CONTACT": "Intervention suivante",
-                    "PREVIOUS_CONTACT": "Intervention précédente"
+                    "IMPORTED_CONTACTS_NBS_LABEL": "Interventions importées",
+                    "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les interventions importées"
                 },
                 "STEP_FINAL": {
                     "GO_BACK_TO_CONTACTS_LIST": "Retourner sur votre base d'interventions"
+                },
+                "STEP_SUMMARY": {
+                    "BUTTON_LABEL": "Intervention suivante",
+                    "NEXT_CONTACT": "Intervention suivante",
+                    "PREVIOUS_CONTACT": "Intervention précédente",
+                    "TITLE": "Observez le résultat pour quelques interventions"
                 }
             }
         },
@@ -151,7 +149,7 @@
     },
     "BRIEFS": {
         "LIST": {
-            "INFORMATION_BRIEF": "C’est ici que vous pouvez créer des <strong>éléments de language<\/strong> et des <strong>scripts.<\/strong> Il vous suffira de les lier à vos journées pour que vos équipes deviennent des porte-paroles <strong>informés et outillés.<\/strong>"
+            "INFORMATION_BRIEF": "C’est ici que vous pouvez créer des <strong>éléments de language</strong> et des <strong>scripts.</strong> Il vous suffira de les lier à vos journées pour que vos équipes deviennent des porte-paroles <strong>informés et outillés.</strong>"
         }
     },
     "CARTO": {
@@ -191,7 +189,7 @@
             "PRIO": {
                 "ADD_ACTION": "Créer une journée",
                 "HOME": {
-                    "PRESENTATION": "L'analyse croisée peut vous permettre de connaître plus <span class=\"q-is-primary\">précisemment<\/span> votre quartier, et <span class=\"q-is-primary\">d'organiser<\/span> le déroulement de vos journées en fonction de la priorité des quartier."
+                    "PRESENTATION": "L'analyse croisée peut vous permettre de connaître plus <span class=\"q-is-primary\">précisemment</span> votre quartier, et <span class=\"q-is-primary\">d'organiser</span> le déroulement de vos journées en fonction de la priorité des quartier."
                 }
             }
         }
@@ -267,7 +265,7 @@
                 }
             },
             "DELETE_MESSAGE": "Êtes vous sûr(e) de vouloir supprimer {count} intervention(s) ? Cette action est irrémédiable !",
-            "EMPTY": "<bold>Aucune intervention 😲<\/bold><p class=\"center\">Importez-en <a class=\"action q-is-info\" target=\"_blank\" href=\"https:\/\/airtable.com\/shrQpD9Zzb1WnPYqh\">en nous envoyant vos données<\/a>,<br> ou créez votre première intervention en cliquant sur \"+ Ajouter une intervention\" !<\/p>",
+            "EMPTY": "<bold>Aucune intervention 😲</bold><p class=\"center\">Importez-en <a class=\"action q-is-info\" target=\"_blank\" href=\"https://airtable.com/shrQpD9Zzb1WnPYqh\">en nous envoyant vos données</a>,<br> ou créez votre première intervention en cliquant sur \"+ Ajouter une intervention\" !</p>",
             "ERROR_DELETE": "Une erreur nous empêche de supprimer cette intervention",
             "EXPORT_LIMITATION": "Vous ne pouvez exporter que 10 000 interventions maximum. Si vous avez besoin d'un export complet de votre base de d'interventions, contactez le support.",
             "MODAL": {
@@ -331,7 +329,7 @@
                 "CONTENT4": "Envisager le fait comme une conversation. N’hésitez pas à le réciter à haute voix"
             },
             "NO_DIGITAL_TEAM": {
-                "CONTENT": "No stress. En cliquant sur l’icône “imprimer”, le fait se formate automatiquement en gabarit papier, près pour le terrain. Vous n’avez plus qu’au retour à saisir les résultats sur tablette \/ mobile ou l’application web. Nous offrons également des services de reconnaissance automatique des questionnaires papier. Pour plus d’information nous contacter.  "
+                "CONTENT": "No stress. En cliquant sur l’icône “imprimer”, le fait se formate automatiquement en gabarit papier, près pour le terrain. Vous n’avez plus qu’au retour à saisir les résultats sur tablette / mobile ou l’application web. Nous offrons également des services de reconnaissance automatique des questionnaires papier. Pour plus d’information nous contacter.  "
             },
             "ORGANIZATION": {
                 "CONTENT": "Le fait est organisé par sections et par questions. Les sections sont comme des moments dans la conversation, des thèmes. Les questions peuvent être de différentes formes : Réponse courte, Case à cocher, Choix multiple, Date, et Gamme. "
@@ -339,7 +337,7 @@
             "README": {
                 "CONTENT1": "Attention. Une fois le fait publié, nous vous déconseillons de le modifier  fréquemment. Pourquoi ? Une grande partie des statistiques sont générées à partir de ce fait. En modifiant le fait, vous pouvez corrompre les données. Pour tout modification, nous vous conseillons de contacter le support. Par ailleurs avant de vous lancer, vous disposez de modèles à consulter. Si vous n’êtes pas sûr de vous, nous disposons de spécialistes qui peuvent en fonction de vos besoin réaliser vos faits. Contacter nous pour en savoir plus "
             },
-            "SUB_HEADER2": "Le fait est votre enquête ou moyen de sensibilisation\/mobilisation pour le terrain.  Vous pouvez le paramétrer ici et le publier instantanément sur les applications mobile et tablette de toute votre organisation.  Vous pouvez également économiser des heures de travail et améliorer votre impact en paramétrant l’envoi automatique d’email ! yes !  ",
+            "SUB_HEADER2": "Le fait est votre enquête ou moyen de sensibilisation/mobilisation pour le terrain.  Vous pouvez le paramétrer ici et le publier instantanément sur les applications mobile et tablette de toute votre organisation.  Vous pouvez également économiser des heures de travail et améliorer votre impact en paramétrant l’envoi automatique d’email ! yes !  ",
             "SURVEY": "Fait"
         }
     },
@@ -392,7 +390,7 @@
             "UPDATE_CONTACT": "Mettre à jour l'intervention"
         },
         "FORM_BUILDER": {
-            "DELETE_ANSWER_INFO_PART": "Les données liées à cette réponse seront <strong>définitivement supprimées<\/strong> une fois le fait publié.",
+            "DELETE_ANSWER_INFO_PART": "Les données liées à cette réponse seront <strong>définitivement supprimées</strong> une fois le fait publié.",
             "HOW_TO_USE_FORM_BUILDER": "Comment utiliser le fait ?",
             "HOW_TO_USE_TUNNELS": "Comment personnaliser les statuts et les alertes ?",
             "LEAD_WARNING": "Attention ! Modifiez ces paramètres uniquement si vous êtes sûr de vous ! Cela pourrait impacter vos journées sur le terrain",
@@ -410,8 +408,8 @@
                 }
             },
             "USE_DEFAULT_FORM_TITLE": "Utiliser un fait par défaut",
-            "USE_DEFAULT_FORM_WARNING": "Vous allez utiliser un modèle par défaut de faits. Si vous décidez de le <strong>publier<\/strong>, les données existantes seront <strong>écrasées.<strong>",
-            "WARNING_MEANING_LABEL": "Attention, vous allez <strong>éditer<\/strong> vos faits ! <br\/>Si vos modifications changent le <strong>sens<\/strong> de votre question\/reponse : <strong>supprimez et recommencez la.<\/strong>"
+            "USE_DEFAULT_FORM_WARNING": "Vous allez utiliser un modèle par défaut de faits. Si vous décidez de le <strong>publier</strong>, les données existantes seront <strong>écrasées.<strong>",
+            "WARNING_MEANING_LABEL": "Attention, vous allez <strong>éditer</strong> vos faits ! <br/>Si vos modifications changent le <strong>sens</strong> de votre question/reponse : <strong>supprimez et recommencez la.</strong>"
         },
         "HEADER": {
             "ACTIONS": "Tunnel d'alertes",
@@ -497,6 +495,8 @@
             }
         }
     },
+    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-promevil",
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "_COMMON": {
         "ACTION": {
             "ENTITY_UPDATE_FAILED": "Erreur lors de la mise à jour de la journée."
