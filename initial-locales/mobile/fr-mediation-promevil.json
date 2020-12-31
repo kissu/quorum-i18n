@@ -30,7 +30,7 @@
         "labelAllTheContacts": "Interventions",
         "listItem": {
             "addMissCitizen": "Créer une intervention",
-            "citizens": "interventions",
+            "citizens": "interventions"
         },
         "loadingStaticTitle": "Un peu de patience. \nNous rassemblons les interventions.",
         "noCitizensFound": "Appuyer sur le + pour ajouter une intervention",
