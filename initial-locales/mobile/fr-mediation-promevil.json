@@ -26,28 +26,28 @@
                 "citizensWithoutAddressesWithoutNonFind": "Interventions"
             },
             "addCitizenCTA": "Créer une intervention dans la zone",
-            "popUpLeaveCanvassing": {
-                "staticTitleLabel": "Voulez vous quitter la déambulation ?",
-                "titleLabel": "Voulez vous quitter la feuille de route ?"
-            },
+            "labelAllTheContacts": "Interventions",
             "listItem": {
                 "addMissCitizen": "Créer une intervention",
                 "citizens": "interventions"
             },
-            "viewContact": {
-                "newContactLabel": "Nouvelle intervention",
-                "seeAnswers": "Voir le détail du fait"
-            },
             "loadingStaticTitle": "Un peu de patience. \nNous rassemblons les interventions.",
+            "noCitizensFound": "Appuyer sur le + pour ajouter une intervention",
+            "noCitizensFoundWithStaticSearch": "Aucun résultat trouvé dans cette liste d'interventions.",
+            "popUpLeaveCanvassing": {
+                "staticTitleLabel": "Voulez vous quitter la déambulation ?",
+                "titleLabel": "Voulez vous quitter la feuille de route ?"
+            },
             "staticCanvassing": {
                 "addAContact": "Créer une nouvelle intervention",
                 "addFirstContact": "Créer la première intervention",
                 "addedContacts": "interventions ajoutées",
                 "searchDisabledPlaceholder": "Aucune intervention"
             },
-            "labelAllTheContacts": "Interventions",
-            "noCitizensFound": "Appuyer sur le + pour ajouter une intervention",
-            "noCitizensFoundWithStaticSearch": "Aucun résultat trouvé dans cette liste d'interventions."
+            "viewContact": {
+                "newContactLabel": "Nouvelle intervention",
+                "seeAnswers": "Voir le détail du fait"
+            }
         },
         "fieldActions": {
             "advancedLayout": {
