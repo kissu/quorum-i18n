@@ -47,90 +47,90 @@
         "viewContact": {
             "newContactLabel": "Nouvelle intervention",
             "seeAnswers": "Voir le détail du fait"
-        }
-    },
-    "fieldActions": {
-        "advancedLayout": {
-            "actionBrief": "Brief de la journée",
-            "startTheAction": "Démarrer la journée"
         },
-        "listFieldActions": {
-            "citizensLabel": "interventions",
-            "displayPastFieldActionsLabel": "Afficher les journées terminées",
-            "hidePastFieldActionsLabel": "Masquer les journées terminées"
-        },
-        "popUpFinishFieldActions": {
-            "titleLabel": "Voulez-vous vraiment terminer la journée ?"
-        },
-        "titleScreenLabel": "Journées",
-        "typeOfActions": {
-            "canvassing": "Feuille de route",
-            "static": "Déambulation"
-        }
-    },
-    "form": {
-        "allQuestions": "Voir le détail",
-        "allQuestionsForm": {
-            "finishTheFormLabel": "Terminer le fait",
-            "theQuestionsLabel": "Le détail"
-        },
-        "answers": {
-            "support": {
-                "doAForm": "Créer un fait",
-                "titleAddSupport": "Ajouter une intervention 🙂",
-                "titleUpdateSupport": "Mettre à jour l'intervention",
-                "titleWhatIsTheNextStep": "L’intervention nécessite-t-elle de prévenir quelqu’un ?",
-                "whoDoWeMeet": "Quel type d’intervention venez-vous de mener ?"
+        "fieldActions": {
+            "advancedLayout": {
+                "actionBrief": "Brief de la journée",
+                "startTheAction": "Démarrer la journée"
+            },
+            "listFieldActions": {
+                "citizensLabel": "interventions",
+                "displayPastFieldActionsLabel": "Afficher les journées terminées",
+                "hidePastFieldActionsLabel": "Masquer les journées terminées"
+            },
+            "popUpFinishFieldActions": {
+                "titleLabel": "Voulez-vous vraiment terminer la journée ?"
+            },
+            "titleScreenLabel": "Journées",
+            "typeOfActions": {
+                "canvassing": "Feuille de route",
+                "static": "Déambulation"
+            },
+            "form": {
+                "allQuestions": "Voir le détail",
+                "allQuestionsForm": {
+                    "finishTheFormLabel": "Terminer le fait",
+                    "theQuestionsLabel": "Le détail"
+                },
+                "answers": {
+                    "support": {
+                        "doAForm": "Créer un fait",
+                        "titleAddSupport": "Ajouter une intervention 🙂",
+                        "titleUpdateSupport": "Mettre à jour l'intervention",
+                        "titleWhatIsTheNextStep": "L’intervention nécessite-t-elle de prévenir quelqu’un ?",
+                        "whoDoWeMeet": "Quel type d’intervention venez-vous de mener ?"
+                    }
+                },
+                "endForm": {
+                    "addAnotherCitizen": "Ajouter une nouvelle intervention",
+                    "finishTheMeeting": "Retour aux interventions",
+                    "oneMoreLabel": "une intervention de plus !",
+                    "rateTheForm": "Informations complémentaires"
+                },
+                "nextQuestion": "Suivant",
+                "popUpLeaveForm": {
+                    "titleLabel": "Voulez-vous quitter le fait ?\nIl ne sera pas sauvegardé."
+                },
+                "rateContact": {
+                    "howTheDiscussionHasGoing": "L’intervention nécessite-t-elle de prévenir quelqu’un ?"
+                },
+                "switchContactAddress": {
+                    "contactLabel": "Intervention"
+                },
+                "updateTheContactLabel": "Mettre à jour l'intervention"
+            },
+            "headQuarter": {
+                "newActions": {
+                    "emptyStateText": "Pas de journée prévue pour le moment.\nDémarrez une action rapide.",
+                    "newActionLabel": {
+                        "one": "Votre journée",
+                        "other": "Vos journées"
+                    }
+                },
+                "quickActions": {
+                    "add": "Créer\nune intervention",
+                    "addSupport": "Ajouter\nune intervention\n",
+                    "welcome": "Bienvenue sur Promévil {{firstname}}👋"
+                }
+            },
+            "profile": {
+                "public": {
+                    "actions": "journées",
+                    "actionsFinished": "Nombre de journées travaillées",
+                    "anActionFinished": "Journées déjà réalisée",
+                    "noCitizenMeet": "Aucune intervention faite, consultez vos journées.",
+                    "peopleMeet": "Interventions menées"
+                }
             }
         },
-        "endForm": {
-            "addAnotherCitizen": "Ajouter une nouvelle intervention",
-            "finishTheMeeting": "Retour aux interventions",
-            "oneMoreLabel": "une intervention de plus !",
-            "rateTheForm": "Informations complémentaires"
+        "navigator": {
+            "actions": "Journées"
         },
-        "nextQuestion": "Suivant",
-        "popUpLeaveForm": {
-            "titleLabel": "Voulez-vous quitter le fait ?\nIl ne sera pas sauvegardé."
-        },
-        "rateContact": {
-            "howTheDiscussionHasGoing": "L’intervention nécessite-t-elle de prévenir quelqu’un ?"
-        },
-        "switchContactAddress": {
-            "contactLabel": "Intervention"
-        },
-        "updateTheContactLabel": "Mettre à jour l'intervention"
-    },
-    "headQuarter": {
-        "newActions": {
-            "emptyStateText": "Pas de journée prévue pour le moment.\nDémarrez une action rapide.",
-            "newActionLabel": {
-                "one": "Votre journée",
-                "other": "Vos journées"
+        "popup": {
+            "consent": {
+                "gpdrOkLabelAddAContact": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de ma journée.",
+                "gpdrOkLabelSurvey": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de ma journée"
             }
-        },
-        "quickActions": {
-            "add": "Créer\nune intervention",
-            "addSupport": "Ajouter\nune intervention\n",
-            "welcome": "Bienvenue sur Promévil {{firstname}}👋"
-        }
-    },
-    "profile": {
-        "public": {
-            "actions": "journées",
-            "actionsFinished": "Nombre de journées travaillées",
-            "anActionFinished": "Journées déjà réalisée",
-            "noCitizenMeet": "Aucune intervention faite, consultez vos journées.",
-            "peopleMeet": "Interventions menées"
-        }
-    },
-    "navigator": {
-        "actions": "Journées"
-    },
-    "popup": {
-        "consent": {
-            "gpdrOkLabelAddAContact": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de ma journée.",
-            "gpdrOkLabelSurvey": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de ma journée"
         }
     }
 }
