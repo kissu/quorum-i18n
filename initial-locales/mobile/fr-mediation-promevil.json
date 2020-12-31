@@ -87,20 +87,6 @@
                 },
                 "updateTheContactLabel": "Mettre à jour l'intervention"
             },
-            "headQuarter": {
-                "newActions": {
-                    "emptyStateText": "Pas de journée prévue pour le moment.\nDémarrez une action rapide.",
-                    "newActionLabel": {
-                        "one": "Votre journée",
-                        "other": "Vos journées"
-                    }
-                },
-                "quickActions": {
-                    "add": "Créer\nune intervention",
-                    "addSupport": "Ajouter\nune intervention\n",
-                    "welcome": "Bienvenue sur Promévil {{firstname}}👋"
-                }
-            },
             "listFieldActions": {
                 "citizensLabel": "interventions",
                 "displayPastFieldActionsLabel": "Afficher les journées terminées",
@@ -113,6 +99,20 @@
             "typeOfActions": {
                 "canvassing": "Feuille de route",
                 "static": "Déambulation"
+            }
+        },
+        "headQuarter": {
+            "newActions": {
+                "emptyStateText": "Pas de journée prévue pour le moment.\nDémarrez une action rapide.",
+                "newActionLabel": {
+                    "one": "Votre journée",
+                    "other": "Vos journées"
+                }
+            },
+            "quickActions": {
+                "add": "Créer\nune intervention",
+                "addSupport": "Ajouter\nune intervention\n",
+                "welcome": "Bienvenue sur Promévil {{firstname}}👋"
             }
         },
         "navigator": {
@@ -131,6 +131,12 @@
                 "anActionFinished": "Journées déjà réalisée",
                 "noCitizenMeet": "Aucune intervention faite, consultez vos journées.",
                 "peopleMeet": "Interventions menées"
+            },
+            "joinMouvement": {
+                "few": "",
+                "one": "",
+                "other": "",
+                "zero": ""
             }
         }
     }
