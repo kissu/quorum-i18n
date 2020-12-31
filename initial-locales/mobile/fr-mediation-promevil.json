@@ -25,7 +25,29 @@
                 "aCitizen": "une intervention",
                 "citizensWithoutAddressesWithoutNonFind": "Interventions"
             },
-            "addCitizenCTA": "Créer une intervention dans la zone"
+            "addCitizenCTA": "Créer une intervention dans la zone",
+            "popUpLeaveCanvassing": {
+                "staticTitleLabel": "Voulez vous quitter la déambulation ?",
+                "titleLabel": "Voulez vous quitter la feuille de route ?"
+            },
+            "listItem": {
+                "addMissCitizen": "Créer une intervention",
+                "citizens": "interventions"
+            },
+            "viewContact": {
+                "newContactLabel": "Nouvelle intervention",
+                "seeAnswers": "Voir le détail du fait"
+            },
+            "loadingStaticTitle": "Un peu de patience. \nNous rassemblons les interventions.",
+            "staticCanvassing": {
+                "addAContact": "Créer une nouvelle intervention",
+                "addFirstContact": "Créer la première intervention",
+                "addedContacts": "interventions ajoutées",
+                "searchDisabledPlaceholder": "Aucune intervention"
+            },
+            "labelAllTheContacts": "Interventions",
+            "noCitizensFound": "Appuyer sur le + pour ajouter une intervention",
+            "noCitizensFoundWithStaticSearch": "Aucun résultat trouvé dans cette liste d'interventions."
         },
         "fieldActions": {
             "advancedLayout": {
@@ -87,34 +109,14 @@
             "popUpFinishFieldActions": {
                 "titleLabel": "Voulez-vous vraiment terminer la journée ?"
             },
-            "profile": {
-                "public": {
-                    "actions": "journées",
-                    "actionsFinished": "Nombre de journées travaillées",
-                    "anActionFinished": "Journées déjà réalisée",
-                    "noCitizenMeet": "Aucune intervention faite, consultez vos journées.",
-                    "peopleMeet": "Interventions menées"
-                }
-            },
             "titleScreenLabel": "Journées",
             "typeOfActions": {
                 "canvassing": "Feuille de route",
                 "static": "Déambulation"
             }
         },
-        "labelAllTheContacts": "Interventions",
-        "listItem": {
-            "addMissCitizen": "Créer une intervention",
-            "citizens": "interventions"
-        },
-        "loadingStaticTitle": "Un peu de patience. \nNous rassemblons les interventions.",
         "navigator": {
             "actions": "Journées"
-        },
-        "noCitizensFound": "Appuyer sur le + pour ajouter une intervention",
-        "noCitizensFoundWithStaticSearch": "Aucun résultat trouvé dans cette liste d'interventions.",
-        "popUpLeaveCanvassing": {
-            "staticTitleLabel": "Voulez-vous quitter la déambulation"
         },
         "popup": {
             "consent": {
@@ -122,15 +124,14 @@
                 "gpdrOkLabelSurvey": "Le contact m'autorise à collecter et utiliser ces informations dans le cadre de ma journée"
             }
         },
-        "staticCanvassing": {
-            "addAContact": "Créer une nouvelle intervention",
-            "addFirstContact": "Créer la première intervention",
-            "addedContacts": "interventions ajoutées",
-            "searchDisabledPlaceholder": "Aucune intervention"
-        },
-        "viewContact": {
-            "newContactLabel": "Nouvelle intervention",
-            "seeAnswers": "Voir le détail du fait"
+        "profile": {
+            "public": {
+                "actions": "journées",
+                "actionsFinished": "Nombre de journées travaillées",
+                "anActionFinished": "Journées déjà réalisée",
+                "noCitizenMeet": "Aucune intervention faite, consultez vos journées.",
+                "peopleMeet": "Interventions menées"
+            }
         }
     }
 }
