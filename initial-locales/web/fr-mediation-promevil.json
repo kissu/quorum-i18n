@@ -1,4 +1,6 @@
 {
+    "XXX_DO_NOT_TOUCH_ME_USED_BY_JEST": "fr-mediation-promevil",
+    "XXX_TRANSLATION_LANGUAGE_NAME": "Français",
     "ACTION": {
         "CALL_TO_ACTION": {
             "CONFIRM_CLOSE": {
