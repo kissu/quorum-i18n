@@ -125,18 +125,18 @@
             }
         },
         "profile": {
+            "joinMouvement": {
+                "few": "",
+                "one": "",
+                "other": "",
+                "zero": ""
+            },
             "public": {
                 "actions": "journées",
                 "actionsFinished": "Nombre de journées travaillées",
                 "anActionFinished": "Journées déjà réalisée",
                 "noCitizenMeet": "Aucune intervention faite, consultez vos journées.",
                 "peopleMeet": "Interventions menées"
-            },
-            "joinMouvement": {
-                "few": "",
-                "one": "",
-                "other": "",
-                "zero": ""
             }
         }
     }
