@@ -54,39 +54,6 @@
                 "actionBrief": "Brief de la journée",
                 "startTheAction": "Démarrer la journée"
             },
-            "form": {
-                "allQuestions": "Voir le détail",
-                "allQuestionsForm": {
-                    "finishTheFormLabel": "Terminer le fait",
-                    "theQuestionsLabel": "Le détail"
-                },
-                "answers": {
-                    "support": {
-                        "doAForm": "Créer un fait",
-                        "titleAddSupport": "Ajouter une intervention 🙂",
-                        "titleUpdateSupport": "Mettre à jour l'intervention",
-                        "titleWhatIsTheNextStep": "L’intervention nécessite-t-elle de prévenir quelqu’un ?",
-                        "whoDoWeMeet": "Quel type d’intervention venez-vous de mener ?"
-                    }
-                },
-                "endForm": {
-                    "addAnotherCitizen": "Ajouter une nouvelle intervention",
-                    "finishTheMeeting": "Retour aux interventions",
-                    "oneMoreLabel": "une intervention de plus !",
-                    "rateTheForm": "Informations complémentaires"
-                },
-                "nextQuestion": "Suivant",
-                "popUpLeaveForm": {
-                    "titleLabel": "Voulez-vous quitter le fait ?\nIl ne sera pas sauvegardé."
-                },
-                "rateContact": {
-                    "howTheDiscussionHasGoing": "L’intervention nécessite-t-elle de prévenir quelqu’un ?"
-                },
-                "switchContactAddress": {
-                    "contactLabel": "Intervention"
-                },
-                "updateTheContactLabel": "Mettre à jour l'intervention"
-            },
             "listFieldActions": {
                 "citizensLabel": "interventions",
                 "displayPastFieldActionsLabel": "Afficher les journées terminées",
@@ -100,6 +67,39 @@
                 "canvassing": "Feuille de route",
                 "static": "Déambulation"
             }
+        },
+        "form": {
+            "allQuestions": "Voir le détail",
+            "allQuestionsForm": {
+                "finishTheFormLabel": "Terminer le fait",
+                "theQuestionsLabel": "Le détail"
+            },
+            "answers": {
+                "support": {
+                    "doAForm": "Créer un fait",
+                    "titleAddSupport": "Ajouter une intervention 🙂",
+                    "titleUpdateSupport": "Mettre à jour l'intervention",
+                    "titleWhatIsTheNextStep": "L’intervention nécessite-t-elle de prévenir quelqu’un ?",
+                    "whoDoWeMeet": "Quel type d’intervention venez-vous de mener ?"
+                }
+            },
+            "endForm": {
+                "addAnotherCitizen": "Ajouter une nouvelle intervention",
+                "finishTheMeeting": "Retour aux interventions",
+                "oneMoreLabel": "une intervention de plus !",
+                "rateTheForm": "Informations complémentaires"
+            },
+            "nextQuestion": "Suivant",
+            "popUpLeaveForm": {
+                "titleLabel": "Voulez-vous quitter le fait ?\nIl ne sera pas sauvegardé."
+            },
+            "rateContact": {
+                "howTheDiscussionHasGoing": "L’intervention nécessite-t-elle de prévenir quelqu’un ?"
+            },
+            "switchContactAddress": {
+                "contactLabel": "Intervention"
+            },
+            "updateTheContactLabel": "Mettre à jour l'intervention"
         },
         "headQuarter": {
             "newActions": {
