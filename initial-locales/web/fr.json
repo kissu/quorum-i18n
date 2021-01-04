@@ -1485,8 +1485,8 @@
                 "DUPLICATES_DESC_DUPLICATES_NOT_IMPORTED": "Vous avez choisi <strong class=\"bold\">de ne pas importer</strong> ce <strong class=\"bold\">contact</strong>. | Vous avez choisi <strong class=\"bold\">de ne pas importer</strong> ce <strong class=\"bold\">contact</strong>. | Vous avez choisi <strong class=\"bold\">de ne pas importer</strong> ces <strong class=\"bold\">{count} contacts</strong>.",
                 "DUPLICATES_LABEL": "Doublons",
                 "DUPLICATES_LABEL_IMPORTED": "Importés",
-                "DUPLICATES_LABEL_IMPORTED_WAITING_TITLE": "Vous avez choisi d'importer les contacts restants ⚙️",
                 "DUPLICATES_LABEL_IMPORTED_WAITING_DESC": "Dès que vos contacts restants auront été importés, vous recevrez un email.",
+                "DUPLICATES_LABEL_IMPORTED_WAITING_TITLE": "Vous avez choisi d'importer les contacts restants ⚙️",
                 "DUPLICATES_LABEL_NOT_IMPORTED": "Ne pas importer",
                 "DUPLICATES_MAYBE_CONTACTS_DESC_LABEL": "<span class=\"bold\">{count} contact</span> que vous souhaitez importer est un doublon de vos contacts actuels. | <span class=\"bold\">{count} contact</span> que vous souhaitez importer est un doublon de vos contacts actuels. | <span class=\"bold\">{count} contacts</span> que vous souhaitez importer sont des doublons de vos contacts actuels.",
                 "DUPLICATES_MAYBE_LABEL": "Doublons potentiels",
@@ -1566,8 +1566,8 @@
                 "FINISHED": "Terminé",
                 "FINISHED_WARNING": "⚠️ Terminé",
                 "IN_PROCESSING": "En cours",
-                "REJECTED": "Interrompu",
-                "NEED_INTERVENTION": "Certains contacts n'ont pas été importés (potentiels doublons). Vous pouvez résoudre le conflit."
+                "NEED_INTERVENTION": "Certains contacts n'ont pas été importés (potentiels doublons). Vous pouvez résoudre le conflit.",
+                "REJECTED": "Interrompu"
             },
             "STEP_CONFIG_FILE": {
                 "BUTTON_LABEL": "Continuer",
