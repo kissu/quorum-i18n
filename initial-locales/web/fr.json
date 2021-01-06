@@ -1570,7 +1570,7 @@
                 "REJECTED": "Interrompu"
             },
             "STEP_CONFIG_FILE": {
-                "BUTTON_LABEL": "Continuer",
+                "BUTTON_LABEL": "Suivant",
                 "DESC": "Cette étape vous permet, avec l'aide de l'aperçu, de définir les paramètres de votre fichier CSV et d'assurer le bon déroulement de l'import.<br/>Besoin d'aide ?",
                 "FIRST_LINE_COLUMNS": "Avez-vous un entête de colonne ?",
                 "HELPER_BUTTON_LABEL": "Consulter cet article",
