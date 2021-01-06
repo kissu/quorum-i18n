@@ -1556,7 +1556,7 @@
             },
             "POPUP_LEAVING": {
                 "CANCEL": "Quitter le processus",
-                "CONTINUE": "Continer l'import",
+                "CONTINUE": "Continuer l'import",
                 "MESSAGE": "Vous n'avez pas terminé le processus d'import.\nVoulez vous quitter la page et perdre les informations renseignées ?",
                 "TITLE": "Quitter le processus d'import"
             },
@@ -1601,7 +1601,7 @@
                 "IMPORT_PROCESSING_TITLE": "Votre import est en cours de traitement 👍"
             },
             "STEP_MAPPING_FILE": {
-                "ALL_COLUMNS_NEED_TO_BE_MAPPED": "Toutes les colonnes de votre fichier doivent avoir été sélectionnées avec une propriété Quorum ou marquées comme \"Non importée\" afin de passer à l'étape suivante.",
+                "ALL_COLUMNS_NEED_TO_BE_MAPPED": "Toutes les colonnes de votre fichier doivent correspondre à une propriété Quorum ou être marquée comme \"Ne pas importer\" pour passer à l'étape suivante.",
                 "AT_LEAST_ONE_COLUMN_MAPPED": "Au moins une colonne de votre fichier doit être importée pour pouvoir continuer l'import.",
                 "CHOOSE_TO_NOT_IMPORT": "Ne pas importer",
                 "CHOOSE_TO_NOT_IMPORT_DESC": "Cette colonne ne sera pas importée.",
@@ -1615,7 +1615,7 @@
                 "HELPER_BUTTON_LABEL": "Consulter cet article",
                 "HELPER_BUTTON_LINK": "",
                 "MODIFY": "Modifier",
-                "SAVE_AND_CONTINUE_BUTTON_LABEL": "Sauvegarder et continuer",
+                "SAVE_AND_CONTINUE_BUTTON_LABEL": "Suivant",
                 "SEARCH_A_PROPERTY": "Chercher une propriété",
                 "TITLE": "Faites correspondre les colonnes de votre fichier avec les propriétés des contacts Quorum"
             },
