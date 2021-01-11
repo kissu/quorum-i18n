@@ -503,6 +503,13 @@
                 "moreInfo": "+ Informations complémentaires",
                 "notSelected": "Aucun",
                 "notSpecified": "Non renseigné",
+                "pictureFeature": {
+                    "cancelLabel": "Annuler",
+                    "chooseAPictureLabel": "Mes photos",
+                    "descriptionOfThePopUp": "Choisissez parmi les options suivantes.",
+                    "takeAPictureLabel": "Prendre une photo",
+                    "titlePopUp": "Photo demandée"
+                },
                 "placeholder": "Réponse",
                 "postalcodePlaceholder": "Code Postal",
                 "streetPlaceholder": "Rue",

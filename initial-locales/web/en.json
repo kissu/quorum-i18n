@@ -1421,7 +1421,8 @@
                 "DATE": "Date",
                 "RADIO": "Single response",
                 "RANGE": "Range",
-                "TEXT": "Short Answer"
+                "TEXT": "Short Answer",
+                "PHOTO": "Photo"
             },
             "RECONTACT": "To recontact",
             "REPORT": "Report",

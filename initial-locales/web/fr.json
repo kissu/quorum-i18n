@@ -1420,7 +1420,8 @@
                 "DATE": "Date",
                 "RADIO": "Réponse unique",
                 "RANGE": "Intervalle numérique",
-                "TEXT": "Réponse courte"
+                "TEXT": "Réponse courte",
+                "PHOTO": "Photo"
             },
             "RECONTACT": "Recontacter",
             "REPORT": "Report",

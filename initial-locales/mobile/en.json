@@ -503,6 +503,13 @@
                 "moreInfo": "+ More info",
                 "notSelected": "Not selected",
                 "notSpecified": "Not specified",
+                "pictureFeature": {
+                    "cancelLabel": "Cancel",
+                    "chooseAPictureLabel": "My photos",
+                    "descriptionOfThePopUp": "Choose from the following options.",
+                    "takeAPictureLabel": "Take a photo",
+                    "titlePopUp": "Asked photo"
+                },
                 "placeholder": "Response",
                 "postalcodePlaceholder": "Postcode",
                 "streetPlaceholder": "Street",
