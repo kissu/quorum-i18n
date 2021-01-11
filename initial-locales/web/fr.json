@@ -1418,10 +1418,10 @@
             "QUESTIONS_TYPE": {
                 "CHECKBOX": "Choix multiples",
                 "DATE": "Date",
+                "PHOTO": "Photo",
                 "RADIO": "Réponse unique",
                 "RANGE": "Intervalle numérique",
-                "TEXT": "Réponse courte",
-                "PHOTO": "Photo"
+                "TEXT": "Réponse courte"
             },
             "RECONTACT": "Recontacter",
             "REPORT": "Report",

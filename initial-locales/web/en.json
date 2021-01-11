@@ -1419,10 +1419,10 @@
             "QUESTIONS_TYPE": {
                 "CHECKBOX": "Checkbox",
                 "DATE": "Date",
+                "PHOTO": "Photo",
                 "RADIO": "Single response",
                 "RANGE": "Range",
-                "TEXT": "Short Answer",
-                "PHOTO": "Photo"
+                "TEXT": "Short Answer"
             },
             "RECONTACT": "To recontact",
             "REPORT": "Report",
