@@ -1118,6 +1118,7 @@
                 "MARRIED_NAME": "Nom matrimonial",
                 "MOBILE": "Mobile",
                 "PHONE": "Téléphone",
+                "PHOTOS": "Photos",
                 "RADIO": "Case à cocher",
                 "RANGE": "Intervalle numérique",
                 "SURNAME": "Nom",
@@ -1418,7 +1419,7 @@
             "QUESTIONS_TYPE": {
                 "CHECKBOX": "Choix multiples",
                 "DATE": "Date",
-                "PHOTO": "Photo",
+                "PHOTOS": "Photos",
                 "RADIO": "Réponse unique",
                 "RANGE": "Intervalle numérique",
                 "TEXT": "Réponse courte"

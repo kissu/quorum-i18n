@@ -470,6 +470,8 @@
             },
             "answers": {
                 "additionPlaceholder": "Other address info",
+                "addAPhoto": "Add a photo",
+                "addAPhotoError": "An error occured with the server. Please try again.",
                 "ageSelection": {
                     "0": "No age given",
                     "1": "Under 18",

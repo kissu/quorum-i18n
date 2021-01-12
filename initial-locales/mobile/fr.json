@@ -470,6 +470,8 @@
             },
             "answers": {
                 "additionPlaceholder": "Compléments d'adresse",
+                "addAPhoto": "Ajouter une photo",
+                "addAPhotoError": "Une erreur est survenue lors de l'envoie de votre photo. Réessayez.",
                 "ageSelection": {
                     "0": "Âge non renseigné",
                     "1": "Moins de 18 ans",

@@ -1119,6 +1119,7 @@
                 "MARRIED_NAME": "Married name",
                 "MOBILE": "Mobile Phone",
                 "PHONE": "Home Phone",
+                "PHOTOS": "Photos",
                 "RADIO": "Checkbox",
                 "RANGE": "Numeric range",
                 "SURNAME": "Last name",
@@ -1419,7 +1420,7 @@
             "QUESTIONS_TYPE": {
                 "CHECKBOX": "Checkbox",
                 "DATE": "Date",
-                "PHOTO": "Photo",
+                "PHOTOS": "Photos",
                 "RADIO": "Single response",
                 "RANGE": "Range",
                 "TEXT": "Short Answer"
