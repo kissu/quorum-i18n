@@ -1414,6 +1414,8 @@
             "NATIONBUILDER_TO_ENABLE": "Enable NationBuilder sync",
             "NEXT_QUESTION": "Next question",
             "ONLY_IF": "Only if answered \"{answer}\"",
+            "PHOTOS_TYPE_ADD_NEW_PHOTO": "Add photo",
+            "PHOTOS_TYPE_REMOVE_PHOTO": "Remove",
             "PRINT": "Print survey",
             "PUBLISH": "Publish",
             "QUESTION": "Question",
