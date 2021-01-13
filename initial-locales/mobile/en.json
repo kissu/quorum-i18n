@@ -514,6 +514,11 @@
                 },
                 "placeholder": "Response",
                 "postalcodePlaceholder": "Postcode",
+                "range": {
+                    "noAnswer": "No answer",
+                    "answer": "Answer :",
+                    "removeAnswer": "Clear"
+                },
                 "streetPlaceholder": "Street",
                 "support": {
                     "doAForm": "Survey this person",

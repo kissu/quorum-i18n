@@ -514,6 +514,11 @@
                 },
                 "placeholder": "Réponse",
                 "postalcodePlaceholder": "Code Postal",
+                "range": {
+                    "noAnswer": "Aucune réponse",
+                    "answer": "Réponse :",
+                    "removeAnswer": "Effacer"
+                },
                 "streetPlaceholder": "Rue",
                 "support": {
                     "doAForm": "Faire passer un questionnaire",
