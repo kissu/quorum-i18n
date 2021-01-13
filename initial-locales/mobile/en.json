@@ -515,8 +515,8 @@
                 "placeholder": "Response",
                 "postalcodePlaceholder": "Postcode",
                 "range": {
-                    "noAnswer": "No answer",
                     "answer": "Answer :",
+                    "noAnswer": "No answer",
                     "removeAnswer": "Clear"
                 },
                 "streetPlaceholder": "Street",
