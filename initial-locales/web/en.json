@@ -942,7 +942,7 @@
             "DELETE": "Delete",
             "DELETE_MESSAGE": "Are you sure you want to delete {count} contact(s)? This action cannot be reversed!",
             "DELETE_TITLE": "Warning!",
-            "EMPTY": "<bold>No contact 😲</bold><p class=\"center\">Import contacts by <a class=\"action q-is-info\" target=\"_blank\" href=\"https://airtable.com/shrQpD9Zzb1WnPYqh\">sending us your data</a>,<br> or create your first contact by clicking \"+ Add people\"!</p>",
+            "EMPTY": "<bold>No contact 😕</bold><p class=\"center\">You can <a class=\"action q-is-info\" href=\"/settings/import/create\">create an import</a> or add a new contact <br/>to your database on the \"+ Add a contact\" !</p>",
             "ERROR_DELETE": "Due to an error, this contact cannot be deleted.",
             "ERROR_EXPORT": "An error occurred, please try again or contact support",
             "EXPORT": "Export",

@@ -941,7 +941,7 @@
             "DELETE": "Supprimer",
             "DELETE_MESSAGE": "Êtes vous sûr(e) de vouloir supprimer {count} contact(s) ? Cette action est irrémédiable !",
             "DELETE_TITLE": "Attention",
-            "EMPTY": "<bold>Aucun contact 😲</bold><p class=\"center\">Importez-en <a class=\"action q-is-info\" target=\"_blank\" href=\"https://airtable.com/shrQpD9Zzb1WnPYqh\">en nous envoyant vos données</a>,<br> ou créez votre premier contact en cliquant sur \"+ Ajouter un citoyen\" !</p>",
+            "EMPTY": "<bold>Aucun contact 😕</bold><p class=\"center\">Vous pouvez en <a class=\"action q-is-info\" href=\"/settings/import/create\">importer</a> ou créez votre premier contact<br/>en cliquant sur \"+ Ajouter un contact\" !</p>",
             "ERROR_DELETE": "Une erreur nous empêche de supprimer ce contact",
             "ERROR_EXPORT": "Une erreur est survenue. Réessayez ou contactez votre support",
             "EXPORT": "Exporter",
