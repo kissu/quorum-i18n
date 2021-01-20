@@ -1591,7 +1591,7 @@
                 "ERROR_WITH_SERVER": "Une erreur avec le server s'est produite. Veuillez recommencer.",
                 "HELPER_BUTTON_LABEL": "Consulter cet article",
                 "HELPER_BUTTON_LINK": "https://help.quorum.co/fr/articles/4799107",
-                "INFO_UPLOAD_LIMIT": "Le fichier .csv ne doit pas être supérieur à 100 mo.",
+                "INFO_UPLOAD_LIMIT": "Le fichier .csv ne doit pas être supérieur à 200 mo.",
                 "PLEASE_DEPOSITE_A_FILE_BEFORE_START": "Déposez d'abord un fichier valide pour continuer.",
                 "START_IMPORT_CTA": "Commencer l'import",
                 "TITLE": "Sélectionnez le fichier que vous souhaitez importer",
