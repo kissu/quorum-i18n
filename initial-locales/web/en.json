@@ -1593,6 +1593,7 @@
                 "HELPER_BUTTON_LABEL": "Read this article",
                 "HELPER_BUTTON_LINK": "https://help.quorum.co/en/articles/4799107",
                 "INFO_UPLOAD_LIMIT": "The .csv file should not be larger than 100MB.",
+                "INFO_UPLOAD_LIMIT_ERROR": "Your file is too large. Try to reduce the size.",
                 "PLEASE_DEPOSITE_A_FILE_BEFORE_START": "First, drop a valid file to continue.",
                 "START_IMPORT_CTA": "Start importing",
                 "TITLE": "Select the file to import",
