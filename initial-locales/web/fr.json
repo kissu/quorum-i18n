@@ -67,13 +67,12 @@
                 "GOAL": "🎯 Voulez-vous ajouter un objectif chiffré ?",
                 "GOAL_HELPER": "C'est un indicateur de performance que vous vous attribuez pour voir si vous atteignez vos objectifs.",
                 "GOAL_PLACEHOLDER": "Entrer un objectif chiffré",
-                "WHERE_ACTION_TAKE_PLACE": "Où se déroulera votre action ?",
-                "ONLINE_LINK_ACCESS": "En ligne (accès via un lien)",
-                "OFFLINE_ADDRESS": "Une adresse précise",
                 "LINK": "🔗 Voulez-vous ajouter un lien ?",
                 "LINK_CLICKABLE": "Il pourra être cliquable par vos membres.",
                 "LINK_PLACEHOLDER": "Lien vers WhatsApp, Telegram, Signal, ...",
                 "LINK_POPHOVER": "Ce lien pourra être utilisé par vos membres<br /> pour rejoindre un espace de discussion<br />(Telegram, WhatsApp, Signal, ...).<br /><br />Si vous utilisez ces outils, pensez à bien partager le lien<br /> de la conversation à vos membres pour qu’ils puissent la rejoindre.",
+                "OFFLINE_ADDRESS": "Une adresse précise",
+                "ONLINE_LINK_ACCESS": "En ligne (accès via un lien)",
                 "OPTIONNAL": "optionnel",
                 "PRECISION": {
                     "CONTACT_DATABASE": "À partir de votre liste de contacts",
@@ -109,7 +108,8 @@
                     "POSTER": "Cette action vous permet d’organiser une opération de distribution de tracts sur un lieu précis",
                     "SHARING": "Faites jouer l'effet de réseaux !<br/><br/>• Communiquez un message à vos équipes.<br/>• Ils pourront alors simplement le re-partager à leurs contacts par sms ou sur leurs réseaux sociaux.",
                     "STATIC": "Communiquez un point de rencontre à vos équipes.<br /><br />• Définissez une date et un lieu de rendez-vous.<br />• Envoyez des notifications à vos membres.<br />• Vos équipes sur le terrain pourront ajouter les citoyens rencontrés directement depuis l'application mobile."
-                }
+                },
+                "WHERE_ACTION_TAKE_PLACE": "Où se déroulera votre action ?"
             },
             "PRECISION": {
                 "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Créer une action vide",

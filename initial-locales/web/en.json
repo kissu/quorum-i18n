@@ -67,13 +67,12 @@
                 "GOAL": "🎯 Would you like to add a numerical target?",
                 "GOAL_HELPER": "Example: a number of people to meet",
                 "GOAL_PLACEHOLDER": "Enter your numeral goal",
-                "WHERE_ACTION_TAKE_PLACE": "Where will your action take place?",
-                "ONLINE_LINK_ACCESS": "Online (access via a link)",
-                "OFFLINE_ADDRESS": "A specific address",
                 "LINK": "🔗 Would you like to add a link?",
                 "LINK_CLICKABLE": "Clickable by your members",
                 "LINK_PLACEHOLDER": "Links to WhatsApp, Telegram, webpage etc.",
                 "LINK_POPHOVER": "Your members will be able to use this link<br /> to enter a chat room <br />(Telegram, WhatsApp, Signal, …).<br /> or to visit a webpage.",
+                "OFFLINE_ADDRESS": "A specific address",
+                "ONLINE_LINK_ACCESS": "Online (access via a link)",
                 "OPTIONNAL": "optional",
                 "PRECISION": {
                     "CONTACT_DATABASE": "From your contact's list in database",
@@ -109,7 +108,8 @@
                     "POSTER": "This action allows you to plan a leaflet distribution operation in a precise area.",
                     "SHARING": "Use the network effect!<br/><br/>• Share a message with your teams.<br/>• They will then be able to forward it to their contacts via text messages or social media.",
                     "STATIC": "Share a meeting point with your teams.<br /><br />• Pick a meeting date and location.<br />• Send notifications to your members.<br />• Your teams on the field will be able to add citizens directly on the mobile app."
-                }
+                },
+                "WHERE_ACTION_TAKE_PLACE": "Where will your action take place?"
             },
             "PRECISION": {
                 "ZONE_POLYGON_EMPTY_CREATE_EMPTY_ACTION": "Create an empty action",
