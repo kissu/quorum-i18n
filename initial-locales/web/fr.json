@@ -1572,6 +1572,7 @@
             "STATUS_IMPORT_LIST": {
                 "CONFIG_REQUIRED": "Configuration requise",
                 "ERROR": "Erreur",
+                "ERROR_PARSING": "Fichier invalide",
                 "FINISHED": "Terminé",
                 "FINISHED_WARNING": "⚠️ Terminé",
                 "IN_PROCESSING": "En cours",
