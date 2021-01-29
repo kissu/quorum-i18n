@@ -1520,6 +1520,7 @@
                 "IMPORTED_BY_LABEL": "Imported by",
                 "IMPORTED_CONTACTS_NBS_LABEL": "Imported contacts",
                 "IMPORTED_FILE_LABEL": "Imported file",
+                "LINES_PROCESSED": "Lines processed",
                 "LINK_TOO_MUCH_DUPLICATES_HELPER": "Too many duplicates",
                 "MANAGE_LABEL": "Process",
                 "NO_DUPLICATES_FOUND_DESC": "No duplicate was created during this import 👍",

@@ -1519,6 +1519,7 @@
                 "IMPORTED_BY_LABEL": "Importé par",
                 "IMPORTED_CONTACTS_NBS_LABEL": "Contacts importés",
                 "IMPORTED_FILE_LABEL": "Fichier importé",
+                "LINES_PROCESSED": "Lignes traitées",
                 "LINK_TOO_MUCH_DUPLICATES_HELPER": "Nombre de doublons trop important",
                 "MANAGE_LABEL": "Traiter",
                 "NO_DUPLICATES_FOUND_DESC": "Aucun doublon n’a été créé lors de cet import 👍",
