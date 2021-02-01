@@ -1641,6 +1641,9 @@
                 "NEXT_CONTACT": "Next contacts",
                 "PREVIOUS_CONTACT": "Previous contacts",
                 "TITLE": "This is a preview of some contacts that will be imported."
+            },
+            "HELPER": {
+                "HEADER_LINK": "https://help.quorum.co/en/articles/4745069-how-do-i-import-contacts-from-a-csv-file-into-quorum"
             }
         },
         "MODE": {
