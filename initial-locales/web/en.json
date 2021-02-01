@@ -1529,6 +1529,9 @@
                 "TOO_MUCH_DUPLICATES": "We have interrupted this import because too many contacts that you want to import will create <span class=\"bold\">duplicates</span> to your Quorum contacts.<br/><br/>Do not hesitate to <span class=\"bold\">contact the support</span> so that we can help you.",
                 "VISUALIZE_IMPORTED_CONTACTS_LABEL": "View imported contacts"
             },
+            "HELPER": {
+                "HEADER_LINK": "https://help.quorum.co/en/articles/4745069-how-do-i-import-contacts-from-a-csv-file-into-quorum"
+            },
             "LIST_IMPORT": {
                 "DATE_LABEL": "Import date",
                 "DUPLICATES_LABEL": "Duplicates",
@@ -1641,9 +1644,6 @@
                 "NEXT_CONTACT": "Next contacts",
                 "PREVIOUS_CONTACT": "Previous contacts",
                 "TITLE": "This is a preview of some contacts that will be imported."
-            },
-            "HELPER": {
-                "HEADER_LINK": "https://help.quorum.co/en/articles/4745069-how-do-i-import-contacts-from-a-csv-file-into-quorum"
             }
         },
         "MODE": {
