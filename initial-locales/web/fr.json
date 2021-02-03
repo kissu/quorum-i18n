@@ -593,6 +593,8 @@
                     "DEPARTMENT": "Département",
                     "DISTRICT": "Circonscription",
                     "IRIS": "IRIS",
+                    "ARRONDISSEMENT": "Arrondissement",
+                    "COMMUNE_ARRONDISSEMENT": "Commune d'arrondissement",
                     "MUNICIPALITY": "Commune",
                     "POLLING_STATION": "Bureau de vote",
                     "PROVINCE": "Province",

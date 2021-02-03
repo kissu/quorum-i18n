@@ -595,6 +595,8 @@
                     "IRIS": "Zone",
                     "JUDET": "Județ",
                     "MUNICIPALITY": "City",
+                    "ARRONDISSEMENT": "District",
+                    "COMMUNE_ARRONDISSEMENT": "Municipality of district",
                     "POLLING_STATION": "Polling Station",
                     "PROVINCE": "",
                     "PROVINCIA": "Province",
