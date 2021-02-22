@@ -586,9 +586,11 @@
                     "USERS": "Membres"
                 },
                 "LEVELS": {
+                    "ARRONDISSEMENT": "Arrondissement",
                     "BOROUGH": "Borough",
                     "CANTON": "Canton",
                     "CIRCONSCRIPTION": "Circonscription",
+                    "COMMUNE_ARRONDISSEMENT": "Commune d'arrondissement",
                     "COMUNE": "Commune",
                     "DEPARTMENT": "Département",
                     "DISTRICT": "Circonscription",
@@ -1528,6 +1530,9 @@
                 "TOO_MUCH_DUPLICATES": "Nous avons interrompu cet import car trop de contacts que vous souhaitez importer vont créer des <span class=\"bold\">doublons</span> à vos contacts Quorum.<br/><br/>N’hésitez pas à <span class=\"bold\">contacter le support</span> pour que nous puissions vous aider.",
                 "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les contacts importés"
             },
+            "HELPER": {
+                "HEADER_LINK": "https://help.quorum.co/fr/articles/4745069-comment-importer-des-contacts-depuis-un-fichier-csv-sur-quorum"
+            },
             "LIST_IMPORT": {
                 "DATE_LABEL": "Date d'import",
                 "DUPLICATES_LABEL": "Doublons",
@@ -1640,9 +1645,6 @@
                 "NEXT_CONTACT": "Contacts suivant",
                 "PREVIOUS_CONTACT": "Contacts précédent",
                 "TITLE": "Voici un aperçu de quelques contacts que vous allez importer"
-            },
-            "HELPER": {
-                "HEADER_LINK": "https://help.quorum.co/fr/articles/4745069-comment-importer-des-contacts-depuis-un-fichier-csv-sur-quorum"
             }
         },
         "MODE": {
