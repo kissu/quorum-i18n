@@ -8,7 +8,7 @@
         "activityBarBadge.background": "#cfcfcf",
         "activityBarBadge.foreground": "#15202b",
         "statusBar.background": "#313131",
-        "statusBar.border": "#ffffff",
+        "statusBar.border": "#ffffff"
     },
     "peacock.color": "#eb5424",
     "editor.tabSize": 2,
