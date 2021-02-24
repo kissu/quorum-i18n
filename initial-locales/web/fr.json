@@ -791,6 +791,41 @@
             "VALIDATE": "Valider",
             "ZIP": "Code postal"
         },
+        "FILTERS": {
+            "OPERATORS": {
+                "OR": "ou",
+                "AND": "et",
+                "EQL": "égale à",
+                "NOT_EQL": "n'est pas égale à",
+                "EQL/TEXT": "contient ",
+                "NOT_EQL/TEXT": "ne contient pas",
+                "LTE": "avant",
+                "GTE": "après",
+                "RANGE": "entre"
+            },
+            "TYPOLOGY_DATA": {
+                "ATTR": "Contacts",
+                "FORMS": "Questions",
+                "STATUS": "Statuts",
+                "ACTIONS": "Tâches",
+                "MET": "Rencontré (date)"
+            },
+            "HELPERS": {
+                "TITLE": "Recherche avancée",
+                "FILTER": "Filtre",
+                "DATE_START": "Date de début",
+                "DATE_END": "Date de fin",
+                "VALUE_FROM_START": "Valeur de début",
+                "VALUE_TO_END": "Valeur de fin",
+                "DATA_TYPE": "Type de données",
+                "PROPERTIES": "Propriétés",
+                "OPERATOR": "opérateur",
+                "AT_LEAST_ONE": "Au moins un filtre | Au moins un filtre de ce groupe | Au moins un filtre de ce groupe",
+                "ALL": "Tous les filtres | Tous les filtres de ce groupe | Tous les filtres de ce groupe",
+                "AT_LEAST_ONE_DESC": "doit pouvoir être possible",
+                "ALL_DESC": "indiqués devront"
+            }
+        },
         "HEADER": {
             "ABSENT": "Absents",
             "ACTIVE_QUESTIONS": " aucune question | une question active | {number} questions actives",
@@ -1366,6 +1401,11 @@
             "GENDER": "Genre",
             "IDENTITY": "Personnel",
             "MAIL": "Email",
+            "TAGS": {
+                "NAME": "Mots-clés"
+            },
+            "MET": "Rencontré le",
+            "LASTCHANGE": "Rencontré le",
             "MARRIED_NAME": "Nom marital",
             "MOBILE": "Téléphone mobile",
             "PHONE": "Téléphone fixe",

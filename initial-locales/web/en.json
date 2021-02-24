@@ -792,6 +792,41 @@
             "VALIDATE": "Submit",
             "ZIP": "Postcode"
         },
+        "FILTERS": {
+            "OPERATORS": {
+                "OR": "or",
+                "AND": "and",
+                "EQL": "equal to",
+                "NOT_EQL": "not equal to",
+                "EQL/TEXT": "contains ",
+                "NOT_EQL/TEXT": "do not contains",
+                "LTE": "before",
+                "GTE": "after",
+                "RANGE": "between"
+            },
+            "TYPOLOGY_DATA": {
+                "ATTR": "Contacts",
+                "FORMS": "Forms",
+                "STATUS": "Status",
+                "ACTIONS": "Tasks",
+                "MET": "Met (date)"
+            },
+            "HELPERS": {
+                "TITLE": "Advanced search",
+                "FILTER": "Filter",
+                "DATE_START": "Start date",
+                "DATE_END": "End date",
+                "VALUE_FROM_START": "Start value",
+                "VALUE_TO_END": "End value",
+                "DATA_TYPE": "Data type",
+                "PROPERTIES": "Properties",
+                "OPERATOR": "operator",
+                "AT_LEAST_ONE": "At least one filter | At least one filter from this group | At least one filter from this group",
+                "ALL": "All filters | All filters in this group | All filters in this group",
+                "AT_LEAST_ONE_DESC": "of the following conditions match",
+                "ALL_DESC": "of the following conditions match"
+            }
+        },
         "HEADER": {
             "ABSENT": "Absents",
             "ACTIVE_QUESTIONS": " no question | 1 active question | {number} active questions",
@@ -1367,6 +1402,11 @@
             "GENDER": "Gender",
             "IDENTITY": "Contact",
             "MAIL": "E-mail",
+            "TAGS": {
+                "NAME": "Tags"
+            },
+            "MET": "Met the",
+            "LASTCHANGE": "Met the",
             "MARRIED_NAME": "Married name",
             "MOBILE": "Mobile Phone",
             "PHONE": "Home Phone",
