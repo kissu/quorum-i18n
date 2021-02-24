@@ -792,38 +792,38 @@
             "ZIP": "Code postal"
         },
         "FILTERS": {
+            "HELPERS": {
+                "ALL": "Tous les filtres | Tous les filtres de ce groupe | Tous les filtres de ce groupe",
+                "ALL_DESC": "indiqués devront",
+                "AT_LEAST_ONE": "Au moins un filtre | Au moins un filtre de ce groupe | Au moins un filtre de ce groupe",
+                "AT_LEAST_ONE_DESC": "doit pouvoir être possible",
+                "DATA_TYPE": "Type de données",
+                "DATE_END": "Date de fin",
+                "DATE_START": "Date de début",
+                "FILTER": "Filtre",
+                "OPERATOR": "opérateur",
+                "PROPERTIES": "Propriétés",
+                "TITLE": "Recherche avancée",
+                "VALUE_FROM_START": "Valeur de début",
+                "VALUE_TO_END": "Valeur de fin"
+            },
             "OPERATORS": {
-                "OR": "ou",
                 "AND": "et",
                 "EQL": "égale à",
-                "NOT_EQL": "n'est pas égale à",
                 "EQL/TEXT": "contient ",
-                "NOT_EQL/TEXT": "ne contient pas",
-                "LTE": "avant",
                 "GTE": "après",
+                "LTE": "avant",
+                "NOT_EQL": "n'est pas égale à",
+                "NOT_EQL/TEXT": "ne contient pas",
+                "OR": "ou",
                 "RANGE": "entre"
             },
             "TYPOLOGY_DATA": {
+                "ACTIONS": "Tâches",
                 "ATTR": "Contacts",
                 "FORMS": "Questions",
-                "STATUS": "Statuts",
-                "ACTIONS": "Tâches",
-                "MET": "Rencontré (date)"
-            },
-            "HELPERS": {
-                "TITLE": "Recherche avancée",
-                "FILTER": "Filtre",
-                "DATE_START": "Date de début",
-                "DATE_END": "Date de fin",
-                "VALUE_FROM_START": "Valeur de début",
-                "VALUE_TO_END": "Valeur de fin",
-                "DATA_TYPE": "Type de données",
-                "PROPERTIES": "Propriétés",
-                "OPERATOR": "opérateur",
-                "AT_LEAST_ONE": "Au moins un filtre | Au moins un filtre de ce groupe | Au moins un filtre de ce groupe",
-                "ALL": "Tous les filtres | Tous les filtres de ce groupe | Tous les filtres de ce groupe",
-                "AT_LEAST_ONE_DESC": "doit pouvoir être possible",
-                "ALL_DESC": "indiqués devront"
+                "MET": "Rencontré (date)",
+                "STATUS": "Statuts"
             }
         },
         "HEADER": {
@@ -1400,13 +1400,10 @@
             "FIRSTNAME": "Prénom",
             "GENDER": "Genre",
             "IDENTITY": "Personnel",
-            "MAIL": "Email",
-            "TAGS": {
-                "NAME": "Mots-clés"
-            },
-            "MET": "Rencontré le",
             "LASTCHANGE": "Rencontré le",
+            "MAIL": "Email",
             "MARRIED_NAME": "Nom marital",
+            "MET": "Rencontré le",
             "MOBILE": "Téléphone mobile",
             "PHONE": "Téléphone fixe",
             "QUESTION": "Label",
@@ -1414,6 +1411,9 @@
             "REORDER": "Glisser déposer pour réordonner la liste !",
             "SUCCESS": "La fiche contact a bien été publiée !",
             "SURNAME": "Nom",
+            "TAGS": {
+                "NAME": "Mots-clés"
+            },
             "TITLE": "Paramétrer la fiche contact",
             "UPDATE_CONTACT": "Mettre à jour le contact"
         },

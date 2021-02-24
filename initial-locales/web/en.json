@@ -793,38 +793,38 @@
             "ZIP": "Postcode"
         },
         "FILTERS": {
+            "HELPERS": {
+                "ALL": "All filters | All filters in this group | All filters in this group",
+                "ALL_DESC": "of the following conditions match",
+                "AT_LEAST_ONE": "At least one filter | At least one filter from this group | At least one filter from this group",
+                "AT_LEAST_ONE_DESC": "of the following conditions match",
+                "DATA_TYPE": "Data type",
+                "DATE_END": "End date",
+                "DATE_START": "Start date",
+                "FILTER": "Filter",
+                "OPERATOR": "operator",
+                "PROPERTIES": "Properties",
+                "TITLE": "Advanced search",
+                "VALUE_FROM_START": "Start value",
+                "VALUE_TO_END": "End value"
+            },
             "OPERATORS": {
-                "OR": "or",
                 "AND": "and",
                 "EQL": "equal to",
-                "NOT_EQL": "not equal to",
                 "EQL/TEXT": "contains ",
-                "NOT_EQL/TEXT": "do not contains",
-                "LTE": "before",
                 "GTE": "after",
+                "LTE": "before",
+                "NOT_EQL": "not equal to",
+                "NOT_EQL/TEXT": "do not contains",
+                "OR": "or",
                 "RANGE": "between"
             },
             "TYPOLOGY_DATA": {
+                "ACTIONS": "Tasks",
                 "ATTR": "Contacts",
                 "FORMS": "Forms",
-                "STATUS": "Status",
-                "ACTIONS": "Tasks",
-                "MET": "Met (date)"
-            },
-            "HELPERS": {
-                "TITLE": "Advanced search",
-                "FILTER": "Filter",
-                "DATE_START": "Start date",
-                "DATE_END": "End date",
-                "VALUE_FROM_START": "Start value",
-                "VALUE_TO_END": "End value",
-                "DATA_TYPE": "Data type",
-                "PROPERTIES": "Properties",
-                "OPERATOR": "operator",
-                "AT_LEAST_ONE": "At least one filter | At least one filter from this group | At least one filter from this group",
-                "ALL": "All filters | All filters in this group | All filters in this group",
-                "AT_LEAST_ONE_DESC": "of the following conditions match",
-                "ALL_DESC": "of the following conditions match"
+                "MET": "Met (date)",
+                "STATUS": "Status"
             }
         },
         "HEADER": {
@@ -1401,13 +1401,10 @@
             "FIRSTNAME": "First Name",
             "GENDER": "Gender",
             "IDENTITY": "Contact",
-            "MAIL": "E-mail",
-            "TAGS": {
-                "NAME": "Tags"
-            },
-            "MET": "Met the",
             "LASTCHANGE": "Met the",
+            "MAIL": "E-mail",
             "MARRIED_NAME": "Married name",
+            "MET": "Met the",
             "MOBILE": "Mobile Phone",
             "PHONE": "Home Phone",
             "QUESTION": "Label",
@@ -1415,6 +1412,9 @@
             "REORDER": "Drag and drop to reorganise the list!",
             "SUCCESS": "Contact card was successfully released!",
             "SURNAME": "Last Name",
+            "TAGS": {
+                "NAME": "Tags"
+            },
             "TITLE": "Set up contact card",
             "UPDATE_CONTACT": "Update Contact"
         },
