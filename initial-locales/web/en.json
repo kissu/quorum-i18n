@@ -796,10 +796,10 @@
             "OPERATORS": {
                 "OR": "or",
                 "AND": "and",
-                "EQL": "equal to",
-                "NOT_EQL": "not equal to",
-                "EQL/TEXT": "contains ",
-                "NOT_EQL/TEXT": "do not contains",
+                "MATCH": "contains",
+                "NOT_MATCH": "does not contain",
+                "STRICTDATA/TEXT": "equal to ",
+                "NOT_EQL/TEXT": "not equal to",
                 "LTE": "before",
                 "GTE": "after",
                 "RANGE": "between"

@@ -795,10 +795,10 @@
             "OPERATORS": {
                 "OR": "ou",
                 "AND": "et",
-                "EQL": "égale à",
+                "MATCH": "contient",
+                "NOT_MATCH": "ne contient pas",
+                "STRICTDATA": "égale à",
                 "NOT_EQL": "n'est pas égale à",
-                "EQL/TEXT": "contient ",
-                "NOT_EQL/TEXT": "ne contient pas",
                 "LTE": "avant",
                 "GTE": "après",
                 "RANGE": "entre"
