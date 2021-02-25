@@ -1632,7 +1632,9 @@
                 "HELPER_BUTTON_LINK": "https://help.quorum.co/fr/articles/4745069",
                 "PREVIEW_FILE_MANAGEMENT": "Aperçu de votre fichier",
                 "TITLE": "Configurez les paramètres de votre fichier CSV",
-                "WHICH_SEPARATOR": "Quel est votre séparateur ?"
+                "WHICH_SEPARATOR": "Quel est votre séparateur ?",
+                "ONLY_100_COLUMNS_DISPLAYED": "⚠️ Seulement 100 colonnes sont affichées",
+                "DETECTED_COLUMNS": "détectées"
             },
             "STEP_FILE": {
                 "ACCEPT_UPLOAD": "Je confirme que les données que je suis sur le point d'importer sont obtenues licitement et conforment au Règlement Général Pour la Protection des Données (RGPD).",
