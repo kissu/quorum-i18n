@@ -1628,14 +1628,14 @@
             "STEP_CONFIG_FILE": {
                 "BUTTON_LABEL": "Next",
                 "DESC": "This step allows you, with the help of the preview, to define the parameters of your CSV file and ensures a correct import process.<br/>Need help ?",
+                "DETECTED_COLUMNS": "detected",
                 "FIRST_LINE_COLUMNS": "Do you have a column header?",
                 "HELPER_BUTTON_LABEL": "Read this article",
                 "HELPER_BUTTON_LINK": "https://help.quorum.co/en/articles/4745069",
+                "ONLY_100_COLUMNS_DISPLAYED": "⚠️ Only 100 columns are displayed",
                 "PREVIEW_FILE_MANAGEMENT": "Preview your file",
                 "TITLE": "Configure your CSV file settings",
-                "WHICH_SEPARATOR": "What is your separator ?",
-                "ONLY_100_COLUMNS_DISPLAYED": "⚠️ Only 100 columns are displayed",
-                "DETECTED_COLUMNS": "detected"
+                "WHICH_SEPARATOR": "What is your separator ?"
             },
             "STEP_FILE": {
                 "ACCEPT_UPLOAD": "I confirm that the data I am about to import was obtained lawfully, and complies with the General Data Protection Regulations (GDPR).",

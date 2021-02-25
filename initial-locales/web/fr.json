@@ -1627,14 +1627,14 @@
             "STEP_CONFIG_FILE": {
                 "BUTTON_LABEL": "Suivant",
                 "DESC": "Cette étape vous permet, avec l'aide de l'aperçu, de définir les paramètres de votre fichier CSV et d'assurer le bon déroulement de l'import.<br/>Besoin d'aide ?",
+                "DETECTED_COLUMNS": "détectées",
                 "FIRST_LINE_COLUMNS": "Avez-vous un entête de colonne ?",
                 "HELPER_BUTTON_LABEL": "Consulter cet article",
                 "HELPER_BUTTON_LINK": "https://help.quorum.co/fr/articles/4745069",
+                "ONLY_100_COLUMNS_DISPLAYED": "⚠️ Seulement 100 colonnes sont affichées",
                 "PREVIEW_FILE_MANAGEMENT": "Aperçu de votre fichier",
                 "TITLE": "Configurez les paramètres de votre fichier CSV",
-                "WHICH_SEPARATOR": "Quel est votre séparateur ?",
-                "ONLY_100_COLUMNS_DISPLAYED": "⚠️ Seulement 100 colonnes sont affichées",
-                "DETECTED_COLUMNS": "détectées"
+                "WHICH_SEPARATOR": "Quel est votre séparateur ?"
             },
             "STEP_FILE": {
                 "ACCEPT_UPLOAD": "Je confirme que les données que je suis sur le point d'importer sont obtenues licitement et conforment au Règlement Général Pour la Protection des Données (RGPD).",
