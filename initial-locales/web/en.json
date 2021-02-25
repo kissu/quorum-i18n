@@ -810,14 +810,14 @@
             },
             "OPERATORS": {
                 "AND": "and",
-                "MATCH": "contains",
-                "NOT_MATCH": "does not contain",
-                "STRICTDATA/TEXT": "equal to ",
                 "GTE": "after",
                 "LTE": "before",
+                "MATCH": "contains",
                 "NOT_EQL": "not equal to",
+                "NOT_MATCH": "does not contain",
                 "OR": "or",
-                "RANGE": "between"
+                "RANGE": "between",
+                "STRICTDATA/TEXT": "equal to "
             },
             "TYPOLOGY_DATA": {
                 "ACTIONS": "Tasks",
