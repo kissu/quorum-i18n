@@ -1571,7 +1571,7 @@
                 "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les contacts importés"
             },
             "HELPER": {
-                "HEADER_LINK": "https://help.quorum.co/fr/articles/4745069-comment-importer-des-contacts-depuis-un-fichier-csv-sur-quorum"
+                "HEADER_LINK": "http://help.quorum.co/fr/articles/4745069"
             },
             "LIST_IMPORT": {
                 "DATE_LABEL": "Date d'import",
@@ -1640,7 +1640,7 @@
                 "DESC": "Avant de commencer votre import, vérifiez bien que votre fichier csv est prêt à être importé.<br/>Besoin d'aide ?",
                 "ERROR_WITH_SERVER": "Une erreur avec le server s'est produite. Veuillez recommencer.",
                 "HELPER_BUTTON_LABEL": "Consulter cet article",
-                "HELPER_BUTTON_LINK": "https://help.quorum.co/fr/articles/4799107",
+                "HELPER_BUTTON_LINK": "https://help.quorum.co/fr/articles/4745069",
                 "INFO_UPLOAD_LIMIT": "Le fichier .csv ne doit pas être supérieur à 100 mo.",
                 "INFO_UPLOAD_LIMIT_ERROR": "Votre fichier est trop volumineux. Essayez d'en réduire la taille.",
                 "PLEASE_DEPOSITE_A_FILE_BEFORE_START": "Déposez d'abord un fichier valide pour continuer.",

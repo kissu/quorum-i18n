@@ -1641,7 +1641,7 @@
                 "DESC": "Before starting your import, make sure that your csv file is ready to be imported.<br/>Need help ?",
                 "ERROR_WITH_SERVER": "An error with the server occured. Please try again.",
                 "HELPER_BUTTON_LABEL": "Read this article",
-                "HELPER_BUTTON_LINK": "https://help.quorum.co/en/articles/4799107",
+                "HELPER_BUTTON_LINK": "https://help.quorum.co/en/articles/4745069",
                 "INFO_UPLOAD_LIMIT": "The .csv file should not be larger than 100MB.",
                 "INFO_UPLOAD_LIMIT_ERROR": "Your file is too large. Try to reduce the size.",
                 "PLEASE_DEPOSITE_A_FILE_BEFORE_START": "First, drop a valid file to continue.",
