@@ -810,11 +810,11 @@
             },
             "OPERATORS": {
                 "AND": "and",
-                "GTE": "after",
-                "LTE": "before",
                 "EQL": "contains",
                 "EQL:STRICTDATA": "equal to",
                 "EXT": "exists",
+                "GTE": "after",
+                "LTE": "before",
                 "NOT_EQL": "does not contain",
                 "NOT_EQL:STRICTDATA": "not equal to",
                 "NOT_EXT": "not exists",

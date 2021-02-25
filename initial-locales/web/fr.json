@@ -809,11 +809,11 @@
             },
             "OPERATORS": {
                 "AND": "et",
-                "GTE": "après",
-                "LTE": "avant",
                 "EQL": "contient",
                 "EQL:STRICTDATA": "est égale à",
                 "EXT": "est renseigné",
+                "GTE": "après",
+                "LTE": "avant",
                 "NOT_EQL": "ne contient pas",
                 "NOT_EQL:STRICTDATA": "n'est pas égale à",
                 "NOT_EXT": "n'est pas renseigné",
