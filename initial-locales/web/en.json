@@ -812,12 +812,14 @@
                 "AND": "and",
                 "GTE": "after",
                 "LTE": "before",
-                "MATCH": "contains",
-                "NOT_EQL": "not equal to",
-                "NOT_MATCH": "does not contain",
+                "EQL": "contains",
+                "EQL:STRICTDATA": "equal to",
+                "EXT": "exists",
+                "NOT_EQL": "does not contain",
+                "NOT_EQL:STRICTDATA": "not equal to",
+                "NOT_EXT": "not exists",
                 "OR": "or",
-                "RANGE": "between",
-                "STRICTDATA/TEXT": "equal to "
+                "RANGE": "between"
             },
             "TYPOLOGY_DATA": {
                 "ACTIONS": "Tasks",
