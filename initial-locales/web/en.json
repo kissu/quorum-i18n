@@ -794,10 +794,8 @@
         },
         "FILTERS": {
             "HELPERS": {
-                "ALL": "All filters | All filters in this group | All filters in this group",
-                "ALL_DESC": "of the following conditions match",
-                "AT_LEAST_ONE": "At least one filter | At least one filter from this group | At least one filter from this group",
-                "AT_LEAST_ONE_DESC": "of the following conditions match",
+                "ADD_CONDITION": "Add a condition",
+                "ADD_GROUP": "Add a group",
                 "DATA_TYPE": "Data type",
                 "DATE_END": "End date",
                 "DATE_START": "Start date",
@@ -805,6 +803,9 @@
                 "OPERATOR": "operator",
                 "PROPERTIES": "Properties",
                 "TITLE": "Advanced search",
+                "TOOLTIP_DELETE_CONDITION": "Delete the condition",
+                "TOOLTIP_INVERT_OPERATORS": "Invert AND/OR",
+                "VALUE": "value",
                 "VALUE_FROM_START": "Start value",
                 "VALUE_TO_END": "End value"
             },

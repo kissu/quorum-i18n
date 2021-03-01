@@ -793,10 +793,8 @@
         },
         "FILTERS": {
             "HELPERS": {
-                "ALL": "Tous les filtres | Tous les filtres de ce groupe | Tous les filtres de ce groupe",
-                "ALL_DESC": "indiqués devront",
-                "AT_LEAST_ONE": "Au moins un filtre | Au moins un filtre de ce groupe | Au moins un filtre de ce groupe",
-                "AT_LEAST_ONE_DESC": "doit pouvoir être possible",
+                "ADD_CONDITION": "Ajouter une condition",
+                "ADD_GROUP": "Ajouter un groupe",
                 "DATA_TYPE": "Type de données",
                 "DATE_END": "Date de fin",
                 "DATE_START": "Date de début",
@@ -804,6 +802,9 @@
                 "OPERATOR": "opérateur",
                 "PROPERTIES": "Propriétés",
                 "TITLE": "Recherche avancée",
+                "TOOLTIP_DELETE_CONDITION": "Supprimer la condition",
+                "TOOLTIP_INVERT_OPERATORS": "Intervertir ET/OU",
+                "VALUE": "valeur",
                 "VALUE_FROM_START": "Valeur de début",
                 "VALUE_TO_END": "Valeur de fin"
             },
