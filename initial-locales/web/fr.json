@@ -801,6 +801,7 @@
                 "FILTERS": "Filtres",
                 "OPERATOR": "opérateur",
                 "PROPERTIES": "Propriétés",
+                "SEARCH": "Rechercher",
                 "TITLE": "Recherche avancée",
                 "TOOLTIP_DELETE_CONDITION": "Supprimer la condition",
                 "TOOLTIP_INVERT_OPERATORS": "Intervertir ET/OU",
