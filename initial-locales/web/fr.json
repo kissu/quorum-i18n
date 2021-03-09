@@ -565,6 +565,8 @@
             "CAPTION": "Légende",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Analyse personnalisée",
+                "EXTRAPOLATION": "Attention - Extrapolation des données",
+                "CHANGE_TO": "Pour avoir des données exactes, passer à l'échelle",
                 "ADDITIONAL_TOOLTIP": {
                     "OVER_5_YEARS": "<hr><b>Évolution sur 5 ans</b>"
                 },

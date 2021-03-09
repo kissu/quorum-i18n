@@ -565,6 +565,8 @@
             "CAPTION": "Caption",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Crossed analysis",
+                "EXTRAPOLATION": "Warning - Data extrapolation",
+                "CHANGE_TO": "To see exact values, switch to the view",
                 "ADDITIONAL_TOOLTIP": {
                     "OVER_5_YEARS": "<hr><b>Evolution over 5 years</b>"
                 },
