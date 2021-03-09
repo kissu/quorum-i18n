@@ -99,7 +99,7 @@
                 },
                 "TYPES_INFO": {
                     "CALL": "Provide your teams with lists of people to call.<br /><br />• Add a script.<br />• Your teams will call these people directly form the mobile app.<br />• They will also be able to qualify their calls during the talk.<br /><br />",
-                    "CANVASSING": "Organize canvassing thanks to a roadmap!<br /><br />• Provide your teams with a list of streets and addresses to visit.<br /> • Add communication tools for your members.<br />• Track live, the information brought by this canvassing.<br />• Follow the progress of \"completed\" streets and streets yet \"to do\".<br /><br />TESTkos2",
+                    "CANVASSING": "Organize canvassing thanks to a roadmap!<br /><br />• Provide your teams with a list of streets and addresses to visit.<br /> • Add communication tools for your members.<br />• Track live, the information brought by this canvassing.<br />• Follow the progress of \"completed\" streets and streets yet \"to do\".<br /><br />",
                     "CHALLENGE": "Challenge your teams !<br /><br />• Create a quantified target.<br />• Add a deadline.<br />• The team that meets the most people wins the challenge.",
                     "EVENT": "Plan an event from your Quorum space.<br /><br />• Send push notifications to members you wish to invite.<br />• You will know which members are participating.",
                     "LEAFLET": "",
@@ -586,17 +586,17 @@
                     "USERS": "Members"
                 },
                 "LEVELS": {
+                    "ARRONDISSEMENT": "District",
                     "BOROUGH": "Borough",
                     "CANTON": "Canton",
                     "CIRCONSCRIPTION": "Circonscription",
+                    "COMMUNE_ARRONDISSEMENT": "Municipality of district",
                     "COMUNE": "Comune",
                     "DEPARTMENT": "Department",
                     "DISTRICT": "District",
                     "IRIS": "Zone",
                     "JUDET": "Județ",
                     "MUNICIPALITY": "City",
-                    "ARRONDISSEMENT": "District",
-                    "COMMUNE_ARRONDISSEMENT": "Municipality of district",
                     "POLLING_STATION": "Polling Station",
                     "PROVINCE": "",
                     "PROVINCIA": "Province",
@@ -791,6 +791,46 @@
             "UPDATE_CONTACT": "Save",
             "VALIDATE": "Submit",
             "ZIP": "Postcode"
+        },
+        "FILTERS": {
+            "HELPERS": {
+                "ADD_CONDITION": "Add a filter",
+                "ADD_GROUP": "Add a group of filters",
+                "DATA_TYPE": "Data type",
+                "DATE_END": "End date",
+                "DATE_START": "Start date",
+                "FILTERS": "Filters",
+                "LINK_HELP": "https://help.quorum.co/en/articles/4971656",
+                "OPERATOR": "operator",
+                "PROPERTIES": "Properties",
+                "SEARCH": "Research",
+                "TITLE": "Advanced filters",
+                "TOOLTIP_DELETE_CONDITION": "Delete the condition",
+                "TOOLTIP_INVERT_OPERATORS": "Invert AND/OR",
+                "VALUE": "value",
+                "VALUE_FROM_START": "Start value",
+                "VALUE_TO_END": "End value"
+            },
+            "OPERATORS": {
+                "AND": "and",
+                "EQL": "match",
+                "EQL:STRICTDATA": "equal to",
+                "EXT": "exists",
+                "GTE": "after",
+                "LTE": "before",
+                "NOT_EQL": "does not match",
+                "NOT_EQL:STRICTDATA": "not equal to",
+                "NOT_EXT": "not exists",
+                "OR": "or",
+                "RANGE": "between"
+            },
+            "TYPOLOGY_DATA": {
+                "ACTIONS": "Tasks",
+                "ATTR": "Contacts",
+                "FORMS": "Forms",
+                "MET": "Met (date)",
+                "STATUS": "Status"
+            }
         },
         "HEADER": {
             "ABSENT": "Absents",
@@ -1366,8 +1406,10 @@
             "FIRSTNAME": "First Name",
             "GENDER": "Gender",
             "IDENTITY": "Contact",
+            "LASTCHANGE": "Met the",
             "MAIL": "E-mail",
             "MARRIED_NAME": "Married name",
+            "MET": "Met the",
             "MOBILE": "Mobile Phone",
             "PHONE": "Home Phone",
             "QUESTION": "Label",
@@ -1375,6 +1417,9 @@
             "REORDER": "Drag and drop to reorganise the list!",
             "SUCCESS": "Contact card was successfully released!",
             "SURNAME": "Last Name",
+            "TAGS": {
+                "NAME": "Tags"
+            },
             "TITLE": "Set up contact card",
             "UPDATE_CONTACT": "Update Contact"
         },
@@ -1588,9 +1633,11 @@
             "STEP_CONFIG_FILE": {
                 "BUTTON_LABEL": "Next",
                 "DESC": "This step allows you, with the help of the preview, to define the parameters of your CSV file and ensures a correct import process.<br/>Need help ?",
+                "DETECTED_COLUMNS": "detected",
                 "FIRST_LINE_COLUMNS": "Do you have a column header?",
                 "HELPER_BUTTON_LABEL": "Read this article",
                 "HELPER_BUTTON_LINK": "https://help.quorum.co/en/articles/4745069",
+                "ONLY_100_COLUMNS_DISPLAYED": "⚠️ Only 100 columns are displayed",
                 "PREVIEW_FILE_MANAGEMENT": "Preview your file",
                 "TITLE": "Configure your CSV file settings",
                 "WHICH_SEPARATOR": "What is your separator ?"
@@ -1601,7 +1648,7 @@
                 "DESC": "Before starting your import, make sure that your csv file is ready to be imported.<br/>Need help ?",
                 "ERROR_WITH_SERVER": "An error with the server occured. Please try again.",
                 "HELPER_BUTTON_LABEL": "Read this article",
-                "HELPER_BUTTON_LINK": "https://help.quorum.co/en/articles/4799107",
+                "HELPER_BUTTON_LINK": "https://help.quorum.co/en/articles/4745069",
                 "INFO_UPLOAD_LIMIT": "The .csv file should not be larger than 100MB.",
                 "INFO_UPLOAD_LIMIT_ERROR": "Your file is too large. Try to reduce the size.",
                 "PLEASE_DEPOSITE_A_FILE_BEFORE_START": "First, drop a valid file to continue.",

@@ -586,15 +586,15 @@
                     "USERS": "Membres"
                 },
                 "LEVELS": {
+                    "ARRONDISSEMENT": "Arrondissement",
                     "BOROUGH": "Borough",
                     "CANTON": "Canton",
                     "CIRCONSCRIPTION": "Circonscription",
+                    "COMMUNE_ARRONDISSEMENT": "Commune d'arrondissement",
                     "COMUNE": "Commune",
                     "DEPARTMENT": "Département",
                     "DISTRICT": "Circonscription",
                     "IRIS": "IRIS",
-                    "ARRONDISSEMENT": "Arrondissement",
-                    "COMMUNE_ARRONDISSEMENT": "Commune d'arrondissement",
                     "MUNICIPALITY": "Commune",
                     "POLLING_STATION": "Bureau de vote",
                     "PROVINCE": "Province",
@@ -790,6 +790,46 @@
             "UPDATE_CONTACT": "Sauvegarder",
             "VALIDATE": "Valider",
             "ZIP": "Code postal"
+        },
+        "FILTERS": {
+            "HELPERS": {
+                "ADD_CONDITION": "Ajouter un filtre",
+                "ADD_GROUP": "Ajouter un groupe de filtres",
+                "DATA_TYPE": "Type de données",
+                "DATE_END": "Date de fin",
+                "DATE_START": "Date de début",
+                "FILTERS": "Filtres",
+                "LINK_HELP": "https://help.quorum.co/fr/articles/4971656",
+                "OPERATOR": "opérateur",
+                "PROPERTIES": "Propriétés",
+                "SEARCH": "Rechercher",
+                "TITLE": "Filtres avancés",
+                "TOOLTIP_DELETE_CONDITION": "Supprimer la condition",
+                "TOOLTIP_INVERT_OPERATORS": "Intervertir ET/OU",
+                "VALUE": "valeur",
+                "VALUE_FROM_START": "Valeur de début",
+                "VALUE_TO_END": "Valeur de fin"
+            },
+            "OPERATORS": {
+                "AND": "et",
+                "EQL": "correspond à",
+                "EQL:STRICTDATA": "est égale à",
+                "EXT": "est renseigné",
+                "GTE": "après",
+                "LTE": "avant",
+                "NOT_EQL": "ne correspond pas à",
+                "NOT_EQL:STRICTDATA": "n'est pas égale à",
+                "NOT_EXT": "n'est pas renseigné",
+                "OR": "ou",
+                "RANGE": "entre"
+            },
+            "TYPOLOGY_DATA": {
+                "ACTIONS": "Tâches",
+                "ATTR": "Contacts",
+                "FORMS": "Questions",
+                "MET": "Rencontré (date)",
+                "STATUS": "Statuts"
+            }
         },
         "HEADER": {
             "ABSENT": "Absents",
@@ -1365,8 +1405,10 @@
             "FIRSTNAME": "Prénom",
             "GENDER": "Genre",
             "IDENTITY": "Personnel",
+            "LASTCHANGE": "Rencontré le",
             "MAIL": "Email",
             "MARRIED_NAME": "Nom marital",
+            "MET": "Rencontré le",
             "MOBILE": "Téléphone mobile",
             "PHONE": "Téléphone fixe",
             "QUESTION": "Label",
@@ -1374,6 +1416,9 @@
             "REORDER": "Glisser déposer pour réordonner la liste !",
             "SUCCESS": "La fiche contact a bien été publiée !",
             "SURNAME": "Nom",
+            "TAGS": {
+                "NAME": "Mots-clés"
+            },
             "TITLE": "Paramétrer la fiche contact",
             "UPDATE_CONTACT": "Mettre à jour le contact"
         },
@@ -1531,7 +1576,7 @@
                 "VISUALIZE_IMPORTED_CONTACTS_LABEL": "Visualiser les contacts importés"
             },
             "HELPER": {
-                "HEADER_LINK": "https://help.quorum.co/fr/articles/4745069-comment-importer-des-contacts-depuis-un-fichier-csv-sur-quorum"
+                "HEADER_LINK": "http://help.quorum.co/fr/articles/4745069"
             },
             "LIST_IMPORT": {
                 "DATE_LABEL": "Date d'import",
@@ -1587,9 +1632,11 @@
             "STEP_CONFIG_FILE": {
                 "BUTTON_LABEL": "Suivant",
                 "DESC": "Cette étape vous permet, avec l'aide de l'aperçu, de définir les paramètres de votre fichier CSV et d'assurer le bon déroulement de l'import.<br/>Besoin d'aide ?",
+                "DETECTED_COLUMNS": "détectées",
                 "FIRST_LINE_COLUMNS": "Avez-vous un entête de colonne ?",
                 "HELPER_BUTTON_LABEL": "Consulter cet article",
                 "HELPER_BUTTON_LINK": "https://help.quorum.co/fr/articles/4745069",
+                "ONLY_100_COLUMNS_DISPLAYED": "⚠️ Seulement 100 colonnes sont affichées",
                 "PREVIEW_FILE_MANAGEMENT": "Aperçu de votre fichier",
                 "TITLE": "Configurez les paramètres de votre fichier CSV",
                 "WHICH_SEPARATOR": "Quel est votre séparateur ?"
@@ -1600,7 +1647,7 @@
                 "DESC": "Avant de commencer votre import, vérifiez bien que votre fichier csv est prêt à être importé.<br/>Besoin d'aide ?",
                 "ERROR_WITH_SERVER": "Une erreur avec le server s'est produite. Veuillez recommencer.",
                 "HELPER_BUTTON_LABEL": "Consulter cet article",
-                "HELPER_BUTTON_LINK": "https://help.quorum.co/fr/articles/4799107",
+                "HELPER_BUTTON_LINK": "https://help.quorum.co/fr/articles/4745069",
                 "INFO_UPLOAD_LIMIT": "Le fichier .csv ne doit pas être supérieur à 100 mo.",
                 "INFO_UPLOAD_LIMIT_ERROR": "Votre fichier est trop volumineux. Essayez d'en réduire la taille.",
                 "PLEASE_DEPOSITE_A_FILE_BEFORE_START": "Déposez d'abord un fichier valide pour continuer.",
