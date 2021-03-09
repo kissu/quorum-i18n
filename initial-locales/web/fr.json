@@ -2590,16 +2590,16 @@
                 "label": "Femmes sans diplôme - évolution"
             },
             "FNSCOL15P_SUP": {
-                "label": "Femmes avec un dpliôme de l'enseignement supérieur"
+                "label": "Femmes avec un diplôme de l'enseignement supérieur"
             },
             "FNSCOL15P_SUP_EVOL_RAW": {
-                "label": "Femmes avec un dpliôme de l'enseignement supérieur - évolution"
+                "label": "Femmes avec un diplôme de l'enseignement supérieur - évolution"
             },
             "FNSCOL15P_SUP_PER_FNSCOL15P": {
-                "label": "Femmes avec un dpliôme de l'enseignement supérieur"
+                "label": "Femmes avec un diplôme de l'enseignement supérieur"
             },
             "FNSCOL15P_SUP_PER_FNSCOL15P_EVOL_RAW": {
-                "label": "Femmes avec un dpliôme de l'enseignement supérieur - évolution"
+                "label": "Femmes avec un diplôme de l'enseignement supérieur - évolution"
             },
             "GCSE_average": {
                 "label": "Taux de GCSE - 2014"
