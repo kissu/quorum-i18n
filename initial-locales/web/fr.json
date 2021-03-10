@@ -565,14 +565,13 @@
             "CAPTION": "Légende",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Analyse personnalisée",
-                "EXTRAPOLATION": "Attention - Extrapolation des données",
-                "CHANGE_TO": "Pour avoir des données exactes, passer à l'échelle",
                 "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "ADDITIONAL_TOOLTIP": {
                     "OVER_5_YEARS": "<hr><b>Évolution sur 5 ans</b>"
                 },
                 "ADDRESS": "Adresse : ",
                 "CHANGE_PRIO": "Modifier ma priorisation",
+                "CHANGE_TO": "Pour avoir des données exactes, passer à l'échelle",
                 "CUSTOM_ANALYSIS": "Analyse croisée",
                 "DARK_MODE": "Mode nuit",
                 "DATA_UNAVAILABLE": "Ces données ne sont pas disponibles pour votre espace. Contactez le support pour plus d'informations.",
@@ -580,6 +579,7 @@
                 "DETAIL_LEVEL": "Contours ",
                 "DONE": "Fait",
                 "EMPTY_DATA": "Affichage sans donnée",
+                "EXTRAPOLATION": "Attention - Extrapolation des données",
                 "HOW_IS_PRIO_MADE": "Comment est construite ma priorisation ?",
                 "LAYERS": {
                     "ACTIONS": "Actions",
