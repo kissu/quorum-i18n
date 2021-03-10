@@ -565,7 +565,6 @@
             "CAPTION": "Caption",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Crossed analysis",
-                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "ADDITIONAL_TOOLTIP": {
                     "OVER_5_YEARS": "<hr><b>Evolution over 5 years</b>"
                 },
@@ -580,6 +579,7 @@
                 "DONE": "Done",
                 "EMPTY_DATA": "Display without data",
                 "EXTRAPOLATION": "Warning - Data extrapolation",
+                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "HOW_IS_PRIO_MADE": "How are high priority zones determined?",
                 "LAYERS": {
                     "ACTIONS": "Actions",

@@ -565,7 +565,6 @@
             "CAPTION": "Légende",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Analyse personnalisée",
-                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "ADDITIONAL_TOOLTIP": {
                     "OVER_5_YEARS": "<hr><b>Évolution sur 5 ans</b>"
                 },
@@ -580,6 +579,7 @@
                 "DONE": "Fait",
                 "EMPTY_DATA": "Affichage sans donnée",
                 "EXTRAPOLATION": "Attention - Extrapolation des données",
+                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "HOW_IS_PRIO_MADE": "Comment est construite ma priorisation ?",
                 "LAYERS": {
                     "ACTIONS": "Actions",
