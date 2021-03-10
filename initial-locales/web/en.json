@@ -567,6 +567,7 @@
                 "ACTIVATE_PRIORISATION": "Crossed analysis",
                 "EXTRAPOLATION": "Warning - Data extrapolation",
                 "CHANGE_TO": "To see exact values, switch to the view",
+                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "ADDITIONAL_TOOLTIP": {
                     "OVER_5_YEARS": "<hr><b>Evolution over 5 years</b>"
                 },
