@@ -570,6 +570,7 @@
                 },
                 "ADDRESS": "Adresse : ",
                 "CHANGE_PRIO": "Modifier ma priorisation",
+                "CHANGE_TO": "Pour avoir des données exactes, passer à l'échelle",
                 "CUSTOM_ANALYSIS": "Analyse croisée",
                 "DARK_MODE": "Mode nuit",
                 "DATA_UNAVAILABLE": "Ces données ne sont pas disponibles pour votre espace. Contactez le support pour plus d'informations.",
@@ -577,6 +578,8 @@
                 "DETAIL_LEVEL": "Contours ",
                 "DONE": "Fait",
                 "EMPTY_DATA": "Affichage sans donnée",
+                "EXTRAPOLATION": "Attention - Extrapolation des données",
+                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "HOW_IS_PRIO_MADE": "Comment est construite ma priorisation ?",
                 "LAYERS": {
                     "ACTIONS": "Actions",
@@ -2637,16 +2640,16 @@
                 "label": "Femmes sans diplôme - évolution"
             },
             "FNSCOL15P_SUP": {
-                "label": "Femmes avec un dpliôme de l'enseignement supérieur"
+                "label": "Femmes avec un diplôme de l'enseignement supérieur"
             },
             "FNSCOL15P_SUP_EVOL_RAW": {
-                "label": "Femmes avec un dpliôme de l'enseignement supérieur - évolution"
+                "label": "Femmes avec un diplôme de l'enseignement supérieur - évolution"
             },
             "FNSCOL15P_SUP_PER_FNSCOL15P": {
-                "label": "Femmes avec un dpliôme de l'enseignement supérieur"
+                "label": "Femmes avec un diplôme de l'enseignement supérieur"
             },
             "FNSCOL15P_SUP_PER_FNSCOL15P_EVOL_RAW": {
-                "label": "Femmes avec un dpliôme de l'enseignement supérieur - évolution"
+                "label": "Femmes avec un diplôme de l'enseignement supérieur - évolution"
             },
             "GCSE_average": {
                 "label": "Taux de GCSE - 2014"

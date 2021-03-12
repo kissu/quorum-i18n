@@ -570,6 +570,7 @@
                 },
                 "ADDRESS": "Address: ",
                 "CHANGE_PRIO": "Change my priority zone parameters",
+                "CHANGE_TO": "To see exact values, switch to the view",
                 "CUSTOM_ANALYSIS": "Crossed analysis",
                 "DARK_MODE": "Dark mode",
                 "DATA_UNAVAILABLE": "These data are not available for your organisation. Contact support for more information.",
@@ -577,6 +578,8 @@
                 "DETAIL_LEVEL": "Detail level",
                 "DONE": "Done",
                 "EMPTY_DATA": "Display without data",
+                "EXTRAPOLATION": "Warning - Data extrapolation",
+                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "HOW_IS_PRIO_MADE": "How are high priority zones determined?",
                 "LAYERS": {
                     "ACTIONS": "Actions",
