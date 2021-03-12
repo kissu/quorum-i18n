@@ -5958,6 +5958,10 @@
         "NO_INFORMATION": "Non renseigné",
         "OK": "OK",
         "OPTIONNAL": "facultatif",
+        "PACKS": {
+            "FEATURE_LOCKED": "Cette fonctionnalité est désactivé pour votre offre",
+            "FEATURE_LOCKED_CONTACT_TEAM": "Contactez le support si vous avez besoin d’informations complémentaires."
+        },
         "PASSWORDS": "Les mots de passe",
         "POSTAL_CODE": "Code postal",
         "PREVIOUS": "Précédent",

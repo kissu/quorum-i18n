@@ -5959,6 +5959,10 @@
         "NO_INFORMATION": "No information",
         "OK": "OK",
         "OPTIONNAL": "optional",
+        "PACKS": {
+            "FEATURE_LOCKED": "This feature is disabled for your offer.",
+            "FEATURE_LOCKED_CONTACT_TEAM": "Contact support if you need more information."
+        },
         "PASSWORDS": "Passwords",
         "POSTAL_CODE": "Postcode/Zipcode",
         "PREVIOUS": "Previous",
