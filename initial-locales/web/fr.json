@@ -828,11 +828,23 @@
                 "RANGE": "entre"
             },
             "TYPOLOGY_DATA": {
-                "ACTIONS": "Tâches",
-                "ATTR": "Contacts",
-                "FORMS": "Questions",
-                "MET": "Rencontré (date)",
-                "STATUS": "Statuts"
+                "FORMDATAS:ACTION": {
+                    "LABEL": "Tâches",
+                    "PLACEHOLDER": "Tâches"
+                },
+                "FORMDATAS:FORMS": {
+                    "LABEL": "Questionnaire",
+                    "PLACEHOLDER": "Choisir une question"
+                },
+                "FORMDATAS:STATUS": {
+                    "LABEL": "Statuts",
+                    "PLACEHOLDER": "Statuts"
+                },
+                "STATIC": {
+                    "LABEL": "Contact",
+                    "PLACEHOLDER": "Propriétés"
+                },
+                "MET": "Rencontré (date)"
             }
         },
         "HEADER": {
@@ -1387,6 +1399,7 @@
                 "STREET": "Rue / Voie"
             },
             "AGE": "Age",
+            "AGE_CAT": "Tranches d'âge",
             "AGE_CATEGORY": "Tranches d'âge",
             "AGE_CATEGORY_VALUES": {
                 "0": "Âge non renseigné",

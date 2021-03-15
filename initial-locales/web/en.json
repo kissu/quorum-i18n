@@ -829,11 +829,23 @@
                 "RANGE": "between"
             },
             "TYPOLOGY_DATA": {
-                "ACTIONS": "Tasks",
-                "ATTR": "Contacts",
-                "FORMS": "Forms",
-                "MET": "Met (date)",
-                "STATUS": "Status"
+                "FORMDATAS:ACTION": {
+                    "LABEL": "Tasks",
+                    "PLACEHOLDER": "Tasks"
+                },
+                "FORMDATAS:FORMS": {
+                    "LABEL": "Survey",
+                    "PLACEHOLDER": "Choose a question"
+                },
+                "FORMDATAS:STATUS": {
+                    "LABEL": "Status",
+                    "PLACEHOLDER": "Status"
+                },
+                "STATIC": {
+                    "LABEL": "Contacts",
+                    "PLACEHOLDER": "Properties"
+                },
+                "MET": "Met (date)"
             }
         },
         "HEADER": {
@@ -1388,6 +1400,7 @@
                 "STREET": "Street"
             },
             "AGE": "Age",
+            "AGE_CAT": "Age category",
             "AGE_CATEGORY": "Age category",
             "AGE_CATEGORY_VALUES": {
                 "0": "Âge non renseigné",
