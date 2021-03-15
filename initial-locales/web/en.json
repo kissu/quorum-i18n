@@ -817,6 +817,7 @@
             "OPERATORS": {
                 "AND": "and",
                 "CONTAINS": "contains",
+                "NOT_CONTAINS": "does not contain",
                 "EQL": "match",
                 "EQL:STRICTDATA": "equal to",
                 "EXT": "exists",
@@ -829,7 +830,7 @@
                 "RANGE": "between"
             },
             "TYPOLOGY_DATA": {
-                "FORMDATAS:ACTION": {
+                "FORMDATAS:ACTIONS": {
                     "LABEL": "Tasks",
                     "PLACEHOLDER": "Tasks"
                 },

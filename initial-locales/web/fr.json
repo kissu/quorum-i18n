@@ -816,6 +816,7 @@
             "OPERATORS": {
                 "AND": "et",
                 "CONTAINS": "contient",
+                "NOT_CONTAINS": "ne contient pas",
                 "EQL": "correspond à",
                 "EQL:STRICTDATA": "est égale à",
                 "EXT": "est renseigné",
@@ -828,7 +829,7 @@
                 "RANGE": "entre"
             },
             "TYPOLOGY_DATA": {
-                "FORMDATAS:ACTION": {
+                "FORMDATAS:ACTIONS": {
                     "LABEL": "Tâches",
                     "PLACEHOLDER": "Tâches"
                 },
