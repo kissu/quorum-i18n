@@ -816,6 +816,7 @@
             },
             "OPERATORS": {
                 "AND": "and",
+                "CONTAINS": "contains",
                 "EQL": "match",
                 "EQL:STRICTDATA": "equal to",
                 "EXT": "exists",

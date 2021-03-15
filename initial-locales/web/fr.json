@@ -815,6 +815,7 @@
             },
             "OPERATORS": {
                 "AND": "et",
+                "CONTAINS": "contient",
                 "EQL": "correspond à",
                 "EQL:STRICTDATA": "est égale à",
                 "EXT": "est renseigné",
