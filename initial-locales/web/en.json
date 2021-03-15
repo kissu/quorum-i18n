@@ -817,12 +817,12 @@
             "OPERATORS": {
                 "AND": "and",
                 "CONTAINS": "contains",
-                "NOT_CONTAINS": "does not contain",
                 "EQL": "match",
                 "EQL:STRICTDATA": "equal to",
                 "EXT": "exists",
                 "GTE": "after",
                 "LTE": "before",
+                "NOT_CONTAINS": "does not contain",
                 "NOT_EQL": "does not match",
                 "NOT_EQL:STRICTDATA": "not equal to",
                 "NOT_EXT": "not exists",
