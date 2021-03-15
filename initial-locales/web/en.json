@@ -841,11 +841,11 @@
                     "LABEL": "Status",
                     "PLACEHOLDER": "Status"
                 },
+                "MET": "Met (date)",
                 "STATIC": {
                     "LABEL": "Contacts",
                     "PLACEHOLDER": "Properties"
-                },
-                "MET": "Met (date)"
+                }
             }
         },
         "HEADER": {

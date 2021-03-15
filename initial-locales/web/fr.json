@@ -840,11 +840,11 @@
                     "LABEL": "Statuts",
                     "PLACEHOLDER": "Statuts"
                 },
+                "MET": "Rencontré (date)",
                 "STATIC": {
                     "LABEL": "Contact",
                     "PLACEHOLDER": "Propriétés"
-                },
-                "MET": "Rencontré (date)"
+                }
             }
         },
         "HEADER": {
