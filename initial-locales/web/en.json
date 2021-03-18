@@ -3864,12 +3864,6 @@
             "elections": {
                 "label": "Elections"
             },
-            "elections_2016": {
-                "label": "US Presidential elections 2016"
-            },
-            "elections_2020": {
-                "label": "US Presidential elections 2020"
-            },
             "elections-legislative-2017-turn-1": {
                 "label": "Legislative Elections 2017 turn 1"
             },
@@ -3887,6 +3881,12 @@
             },
             "elections-regional-2015-turn-2": {
                 "label": "Regional Elections 2015 turn 2"
+            },
+            "elections_2016": {
+                "label": "US Presidential elections 2016"
+            },
+            "elections_2020": {
+                "label": "US Presidential elections 2020"
             },
             "elections_evolution": {
                 "label": "Election results evolution"
