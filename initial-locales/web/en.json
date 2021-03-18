@@ -4948,6 +4948,12 @@
             "municipality_2016": {
                 "label": ""
             },
+            "elections-2016": {
+                "label": "Presidential elections 2016"
+            },
+            "elections-2020": {
+                "label": "Presidential elections 2020"
+            },
             "municipality_label": {
                 "label": "Municipality Label"
             },

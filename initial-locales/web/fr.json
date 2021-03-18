@@ -4309,6 +4309,12 @@
                 "gender": "m",
                 "label": "Situation du ménage"
             },
+            "elections-2016": {
+                "label": "Élections présidentielles 2016"
+            },
+            "elections-2020": {
+                "label": "Élections présidentielles 2020"
+            },
             "households": {
                 "label": "Ménages et familles"
             },
