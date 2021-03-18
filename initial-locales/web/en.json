@@ -399,6 +399,9 @@
             "SETTINGS": "Settings"
         },
         "SIGNUP": {
+            "CGS": "By validating, you accept the <a target=\"_blank\" href=\"https://www.quorum.co/data-processing-agreement/\"> general conditions of use and service with us </a> and our <a href=\"https://www.quorum.co/privacy/\" target=\"_blank\"> data privacy policy.</a>",
+            "CREATE_YOUR_ACCOUNT_QUORUM": "Create your Quorum account 🚀",
+            "CTA_CREATE_ACCOUNT": "Create your account",
             "CONFIRM": "Confirm",
             "CONFIRM_PASSWORD": "Confirm password",
             "HEADLINE": "Enter new email and password.",
