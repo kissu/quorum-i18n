@@ -399,8 +399,11 @@
             "SETTINGS": "Paramètres"
         },
         "SIGNUP": {
+            "CGS": "En validant, vous acceptez les <a target=\"_blank\" href=\"https://www.quorum.co/data-processing-agreement/\">conditions générales d\"utilisation et de service chez nous</a> et notre <a href=\"https://www.quorum.co/privacy/\" target=\"_blank\">politique de confidentialité des données.</a>",
             "CONFIRM": "Confirmer la demande",
-            "CONFIRM_PASSWORD": "Confirmer  votre mot de passe",
+            "CONFIRM_PASSWORD": "Confirmer votre mot de passe",
+            "CREATE_YOUR_ACCOUNT_QUORUM": "Créez votre compte Quorum 🚀",
+            "CTA_CREATE_ACCOUNT": "Créer votre compte",
             "HEADLINE": "Entrez votre adresse email ainsi que votre nouveau mot de passe.",
             "MESSAGES": {
                 "FILL_ALL": "Merci de renseigner tous les champs",
@@ -565,7 +568,6 @@
             "CAPTION": "Légende",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Analyse personnalisée",
-                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "ADDITIONAL_TOOLTIP": {
                     "OVER_5_YEARS": "<hr><b>Évolution sur 5 ans</b>"
                 },
@@ -580,6 +582,7 @@
                 "DONE": "Fait",
                 "EMPTY_DATA": "Affichage sans donnée",
                 "EXTRAPOLATION": "Attention - Extrapolation des données",
+                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "HOW_IS_PRIO_MADE": "Comment est construite ma priorisation ?",
                 "LAYERS": {
                     "ACTIONS": "Actions",
@@ -815,11 +818,13 @@
             },
             "OPERATORS": {
                 "AND": "et",
+                "CONTAINS": "contient",
                 "EQL": "correspond à",
                 "EQL:STRICTDATA": "est égale à",
                 "EXT": "est renseigné",
                 "GTE": "après",
                 "LTE": "avant",
+                "NOT_CONTAINS": "ne contient pas",
                 "NOT_EQL": "ne correspond pas à",
                 "NOT_EQL:STRICTDATA": "n'est pas égale à",
                 "NOT_EXT": "n'est pas renseigné",
@@ -827,11 +832,24 @@
                 "RANGE": "entre"
             },
             "TYPOLOGY_DATA": {
-                "ACTIONS": "Tâches",
                 "ATTR": "Contacts",
-                "FORMS": "Questions",
+                "FORMDATAS:ACTIONS": {
+                    "LABEL": "Tâches",
+                    "PLACEHOLDER": "Tâches"
+                },
+                "FORMDATAS:FORMS": {
+                    "LABEL": "Questionnaire",
+                    "PLACEHOLDER": "Choisir une question"
+                },
+                "FORMDATAS:STATUS": {
+                    "LABEL": "Statuts",
+                    "PLACEHOLDER": "Statuts"
+                },
                 "MET": "Rencontré (date)",
-                "STATUS": "Statuts"
+                "STATIC": {
+                    "LABEL": "Contacts",
+                    "PLACEHOLDER": "Propriétés"
+                }
             }
         },
         "HEADER": {
@@ -1386,6 +1404,7 @@
                 "STREET": "Rue / Voie"
             },
             "AGE": "Age",
+            "AGE_CAT": "Tranches d'âge",
             "AGE_CATEGORY": "Tranches d'âge",
             "AGE_CATEGORY_VALUES": {
                 "0": "Âge non renseigné",
@@ -5967,6 +5986,10 @@
         "NO_INFORMATION": "Non renseigné",
         "OK": "OK",
         "OPTIONNAL": "facultatif",
+        "PACKS": {
+            "FEATURE_LOCKED": "Cette fonctionnalité est désactivée pour votre offre.",
+            "FEATURE_LOCKED_CONTACT_TEAM": "Contactez le support si vous avez besoin d’informations complémentaires."
+        },
         "PASSWORDS": "Les mots de passe",
         "POSTAL_CODE": "Code postal",
         "PREVIOUS": "Précédent",

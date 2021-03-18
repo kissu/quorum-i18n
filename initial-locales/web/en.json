@@ -399,8 +399,11 @@
             "SETTINGS": "Settings"
         },
         "SIGNUP": {
+            "CGS": "By validating, you accept the <a target=\"_blank\" href=\"https://www.quorum.co/data-processing-agreement/\"> general conditions of use and service with us </a> and our <a href=\"https://www.quorum.co/privacy/\" target=\"_blank\"> data privacy policy.</a>",
             "CONFIRM": "Confirm",
             "CONFIRM_PASSWORD": "Confirm password",
+            "CREATE_YOUR_ACCOUNT_QUORUM": "Create your Quorum account 🚀",
+            "CTA_CREATE_ACCOUNT": "Create your account",
             "HEADLINE": "Enter new email and password.",
             "MESSAGES": {
                 "FILL_ALL": "Please complete all fields",
@@ -565,7 +568,6 @@
             "CAPTION": "Caption",
             "NAVIGATOR": {
                 "ACTIVATE_PRIORISATION": "Crossed analysis",
-                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "ADDITIONAL_TOOLTIP": {
                     "OVER_5_YEARS": "<hr><b>Evolution over 5 years</b>"
                 },
@@ -580,6 +582,7 @@
                 "DONE": "Done",
                 "EMPTY_DATA": "Display without data",
                 "EXTRAPOLATION": "Warning - Data extrapolation",
+                "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "HOW_IS_PRIO_MADE": "How are high priority zones determined?",
                 "LAYERS": {
                     "ACTIONS": "Actions",
@@ -816,11 +819,13 @@
             },
             "OPERATORS": {
                 "AND": "and",
+                "CONTAINS": "contains",
                 "EQL": "match",
                 "EQL:STRICTDATA": "equal to",
                 "EXT": "exists",
                 "GTE": "after",
                 "LTE": "before",
+                "NOT_CONTAINS": "does not contain",
                 "NOT_EQL": "does not match",
                 "NOT_EQL:STRICTDATA": "not equal to",
                 "NOT_EXT": "not exists",
@@ -828,11 +833,24 @@
                 "RANGE": "between"
             },
             "TYPOLOGY_DATA": {
-                "ACTIONS": "Tasks",
                 "ATTR": "Contacts",
-                "FORMS": "Forms",
+                "FORMDATAS:ACTIONS": {
+                    "LABEL": "Tasks",
+                    "PLACEHOLDER": "Tasks"
+                },
+                "FORMDATAS:FORMS": {
+                    "LABEL": "Survey",
+                    "PLACEHOLDER": "Choose a question"
+                },
+                "FORMDATAS:STATUS": {
+                    "LABEL": "Status",
+                    "PLACEHOLDER": "Status"
+                },
                 "MET": "Met (date)",
-                "STATUS": "Status"
+                "STATIC": {
+                    "LABEL": "Contacts",
+                    "PLACEHOLDER": "Properties"
+                }
             }
         },
         "HEADER": {
@@ -1387,6 +1405,7 @@
                 "STREET": "Street"
             },
             "AGE": "Age",
+            "AGE_CAT": "Age category",
             "AGE_CATEGORY": "Age category",
             "AGE_CATEGORY_VALUES": {
                 "0": "Âge non renseigné",
@@ -5968,6 +5987,10 @@
         "NO_INFORMATION": "No information",
         "OK": "OK",
         "OPTIONNAL": "optional",
+        "PACKS": {
+            "FEATURE_LOCKED": "This feature is disabled for your offer.",
+            "FEATURE_LOCKED_CONTACT_TEAM": "Contact support if you need more information."
+        },
         "PASSWORDS": "Passwords",
         "POSTAL_CODE": "Postcode/Zipcode",
         "PREVIOUS": "Previous",
