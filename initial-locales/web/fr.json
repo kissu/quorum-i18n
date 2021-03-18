@@ -832,6 +832,7 @@
                 "RANGE": "entre"
             },
             "TYPOLOGY_DATA": {
+                "ATTR": "Contacts",
                 "FORMDATAS:ACTIONS": {
                     "LABEL": "Tâches",
                     "PLACEHOLDER": "Tâches"
@@ -846,7 +847,7 @@
                 },
                 "MET": "Rencontré (date)",
                 "STATIC": {
-                    "LABEL": "Contact",
+                    "LABEL": "Contacts",
                     "PLACEHOLDER": "Propriétés"
                 }
             }

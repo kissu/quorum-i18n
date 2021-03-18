@@ -833,6 +833,7 @@
                 "RANGE": "between"
             },
             "TYPOLOGY_DATA": {
+                "ATTR": "Contacts",
                 "FORMDATAS:ACTIONS": {
                     "LABEL": "Tasks",
                     "PLACEHOLDER": "Tasks"
