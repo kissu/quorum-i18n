@@ -3864,6 +3864,12 @@
             "elections": {
                 "label": "Élections"
             },
+            "elections-2016": {
+                "label": "Élections présidentielles 2016"
+            },
+            "elections-2020": {
+                "label": "Élections présidentielles 2020"
+            },
             "elections-legislative-2017-turn-1": {
                 "label": "Élections législatives 2017 tour 1"
             },
@@ -4327,12 +4333,6 @@
             "household_status": {
                 "gender": "m",
                 "label": "Situation du ménage"
-            },
-            "elections-2016": {
-                "label": "Élections présidentielles 2016"
-            },
-            "elections-2020": {
-                "label": "Élections présidentielles 2020"
             },
             "households": {
                 "label": "Ménages et familles"

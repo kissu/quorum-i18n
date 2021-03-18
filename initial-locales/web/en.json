@@ -3864,6 +3864,12 @@
             "elections": {
                 "label": "Elections"
             },
+            "elections-2016": {
+                "label": "Presidential elections 2016"
+            },
+            "elections-2020": {
+                "label": "Presidential elections 2020"
+            },
             "elections-legislative-2017-turn-1": {
                 "label": "Legislative Elections 2017 turn 1"
             },
@@ -4966,12 +4972,6 @@
             },
             "municipality_2016": {
                 "label": ""
-            },
-            "elections-2016": {
-                "label": "Presidential elections 2016"
-            },
-            "elections-2020": {
-                "label": "Presidential elections 2020"
             },
             "municipality_label": {
                 "label": "Municipality Label"
