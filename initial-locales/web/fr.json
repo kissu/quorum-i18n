@@ -824,6 +824,7 @@
                 "EXT": "est renseigné",
                 "GTE": "après",
                 "LTE": "avant",
+                "NOT_CONTAINS": "ne contient pas",
                 "NOT_EQL": "ne correspond pas à",
                 "NOT_EQL:STRICTDATA": "n'est pas égale à",
                 "NOT_EXT": "n'est pas renseigné",
@@ -831,11 +832,23 @@
                 "RANGE": "entre"
             },
             "TYPOLOGY_DATA": {
-                "ACTIONS": "Tâches",
-                "ATTR": "Contacts",
-                "FORMS": "Questions",
+                "FORMDATAS:ACTIONS": {
+                    "LABEL": "Tâches",
+                    "PLACEHOLDER": "Tâches"
+                },
+                "FORMDATAS:FORMS": {
+                    "LABEL": "Questionnaire",
+                    "PLACEHOLDER": "Choisir une question"
+                },
+                "FORMDATAS:STATUS": {
+                    "LABEL": "Statuts",
+                    "PLACEHOLDER": "Statuts"
+                },
                 "MET": "Rencontré (date)",
-                "STATUS": "Statuts"
+                "STATIC": {
+                    "LABEL": "Contact",
+                    "PLACEHOLDER": "Propriétés"
+                }
             }
         },
         "HEADER": {
@@ -1390,6 +1403,7 @@
                 "STREET": "Rue / Voie"
             },
             "AGE": "Age",
+            "AGE_CAT": "Tranches d'âge",
             "AGE_CATEGORY": "Tranches d'âge",
             "AGE_CATEGORY_VALUES": {
                 "0": "Âge non renseigné",

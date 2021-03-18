@@ -825,6 +825,7 @@
                 "EXT": "exists",
                 "GTE": "after",
                 "LTE": "before",
+                "NOT_CONTAINS": "does not contain",
                 "NOT_EQL": "does not match",
                 "NOT_EQL:STRICTDATA": "not equal to",
                 "NOT_EXT": "not exists",
@@ -832,11 +833,23 @@
                 "RANGE": "between"
             },
             "TYPOLOGY_DATA": {
-                "ACTIONS": "Tasks",
-                "ATTR": "Contacts",
-                "FORMS": "Forms",
+                "FORMDATAS:ACTIONS": {
+                    "LABEL": "Tasks",
+                    "PLACEHOLDER": "Tasks"
+                },
+                "FORMDATAS:FORMS": {
+                    "LABEL": "Survey",
+                    "PLACEHOLDER": "Choose a question"
+                },
+                "FORMDATAS:STATUS": {
+                    "LABEL": "Status",
+                    "PLACEHOLDER": "Status"
+                },
                 "MET": "Met (date)",
-                "STATUS": "Status"
+                "STATIC": {
+                    "LABEL": "Contacts",
+                    "PLACEHOLDER": "Properties"
+                }
             }
         },
         "HEADER": {
@@ -1391,6 +1404,7 @@
                 "STREET": "Street"
             },
             "AGE": "Age",
+            "AGE_CAT": "Age category",
             "AGE_CATEGORY": "Age category",
             "AGE_CATEGORY_VALUES": {
                 "0": "Âge non renseigné",
