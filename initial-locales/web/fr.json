@@ -400,10 +400,10 @@
         },
         "SIGNUP": {
             "CGS": "En validant, vous acceptez les <a target=\"_blank\" href=\"https://www.quorum.co/data-processing-agreement/\">conditions générales d\"utilisation et de service chez nous</a> et notre <a href=\"https://www.quorum.co/privacy/\" target=\"_blank\">politique de confidentialité des données.</a>",
-            "CREATE_YOUR_ACCOUNT_QUORUM": "Créez votre compte Quorum 🚀",
-            "CTA_CREATE_ACCOUNT": "Créer votre compte",
             "CONFIRM": "Confirmer la demande",
             "CONFIRM_PASSWORD": "Confirmer votre mot de passe",
+            "CREATE_YOUR_ACCOUNT_QUORUM": "Créez votre compte Quorum 🚀",
+            "CTA_CREATE_ACCOUNT": "Créer votre compte",
             "HEADLINE": "Entrez votre adresse email ainsi que votre nouveau mot de passe.",
             "MESSAGES": {
                 "FILL_ALL": "Merci de renseigner tous les champs",
