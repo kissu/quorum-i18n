@@ -1634,7 +1634,8 @@
                 "phone": "Home phone",
                 "polling_station": "Territory",
                 "postal_code": "Postal code",
-                "street": "Street"
+                "street": "Street",
+                "tags": "Tags"
             },
             "POPUP_LEAVING": {
                 "CANCEL": "Exit the process",

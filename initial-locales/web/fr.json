@@ -1633,7 +1633,8 @@
                 "phone": "Téléphone fixe",
                 "polling_station": "Territoire",
                 "postal_code": "Code postal",
-                "street": "Rue / Voie"
+                "street": "Rue / Voie",
+                "tags": "Mots-clés"
             },
             "POPUP_LEAVING": {
                 "CANCEL": "Quitter le processus",
