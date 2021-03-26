@@ -779,7 +779,6 @@
             "ROUTE_FORMS": "Questionnaire",
             "ROUTE_NOTES": "Notes",
             "ROUTE_OPPORTUNITIES": "Tâche",
-            "ROUTE_STATUS": "Statut",
             "SHOW_ALL": "Afficher toutes les coordonnées",
             "STATUS": "Statut",
             "STREET": "Voie",
@@ -1633,7 +1632,8 @@
                 "phone": "Téléphone fixe",
                 "polling_station": "Territoire",
                 "postal_code": "Code postal",
-                "street": "Rue / Voie"
+                "street": "Rue / Voie",
+                "tags": "Mots-clés"
             },
             "POPUP_LEAVING": {
                 "CANCEL": "Quitter le processus",
@@ -1865,7 +1865,7 @@
                 "ADD": "Ajouter un brief",
                 "DELETE": " | Supprimer 1 brief | Supprimer {count} briefs",
                 "SEARCH": "Rechercher un brief",
-                "SUBTITLE": "",
+                "SUBTITLE": "Une fois vos briefs crées, ils pourront être ajoutés à vos actions et disponibles sur l'application mobile",
                 "TITLE": "Mes briefs"
             },
             "INFORMATION": "C’est ici que vous pouvez créer des éléments de language et des scripts. Il vous suffira de les lier à vos actions pour que vos équipes deviennent des porte-paroles informés et outillés.",
@@ -1919,7 +1919,7 @@
                 "ADD": "Ajouter un document",
                 "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
                 "SEARCH": "Rechercher un document",
-                "SUBTITLE": "Une fois vos documents ajoutés, ils seront directement disponibles sur l’application mobile de vos équipes.",
+                "SUBTITLE": "Une fois vos documents ajoutés, ils seront directement disponibles sur l’application mobile de vos équipes",
                 "TITLE": "Mes documents"
             },
             "INFORMATION": "C’est ici que vous pouvez ajouter des documents à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
@@ -3864,12 +3864,6 @@
             "elections": {
                 "label": "Élections"
             },
-            "elections_2016": {
-                "label": "Élections présidentielles américaines 2016"
-            },
-            "elections_2020": {
-                "label": "Élections présidentielles américaines 2020"
-            },
             "elections-legislative-2017-turn-1": {
                 "label": "Élections législatives 2017 tour 1"
             },
@@ -4097,6 +4091,12 @@
             },
             "elections-regional-2015-turn-2": {
                 "label": "Élections régionales 2015 tour 2"
+            },
+            "elections_2016": {
+                "label": "Élections présidentielles américaines 2016"
+            },
+            "elections_2020": {
+                "label": "Élections présidentielles américaines 2020"
             },
             "elections_evolution": {
                 "label": "Évolution des résultats électoraux"
