@@ -3879,6 +3879,216 @@
             "elections-presidential-2017-turn-1": {
                 "label": "Élections présidentielles 2017 tour 1"
             },
+            "diploma_degrees": {
+                "label": "Diploma and degrees"
+            },
+            "no_certificate_diploma_degree_per_population_perc": {
+                "label": "No Certificate, Diploma or Degree"
+            },
+            "high_school_diploma_equivalent_per_population_perc": {
+                "label": "High School Diploma or Equivalent"
+            },
+            "trades_certificate_per_population_perc": {
+                "label": "Trades Certificate"
+            },
+            "apprenticeship_certificate_per_population_perc": {
+                "label": "Registered Apprenticeship Certificate"
+            },
+            "college_certificate_per_population_perc": {
+                "label": "College Certificate or Diploma"
+            },
+            "university_certificate_below_bachelor_per_population_perc": {
+                "label": "University Certificate Below Bachelor's Level"
+            },
+            "bachelor_degree_per_population_perc": {
+                "label": "Bachelor's Degree"
+            },
+            "university_certificate_above_bachelor_per_population_perc": {
+                "label": "University Certificate or Diploma above Bachelor Level"
+            },
+            "medical_degree_per_population_perc": {
+                "label": "Medical Degree"
+            },
+            "masters_degree_per_population_perc": {
+                "label": "Master's Degree"
+            },
+            "doctorate_per_population_perc": {
+                "label": "Earned Doctorate"
+            },
+            "no_response_per_population_perc": {
+                "label": "No Response"
+            },
+            "occupation": {
+                "label": "Occupation"
+            },
+            "preschool_per_population_perc": {
+                "label": "Preschool"
+            },
+            "kindergarten_per_population_perc": {
+                "label": "Kindergarten - Gr.6"
+            },
+            "gr7-gr9_per_population_perc": {
+                "label": "Gr.7 - Gr.9"
+            },
+            "gr10-gr12_per_population_perc": {
+                "label": "Gr.10 - Gr.12"
+            },
+            "post_secondary_student_per_population_perc": {
+                "label": "Post Secondary Student"
+            },
+            "homemaker_per_population_perc": {
+                "label": "Homemaker"
+            },
+            "employed_0-30h_per_population_perc": {
+                "label": "Employed 0-30 Hours"
+            },
+            "employed_30-h_per_population_perc": {
+                "label": "Employed 30+ Hours"
+            },
+            "unemployed_per_population_perc": {
+                "label": "Unemployed"
+            },
+            "retired_per_population_perc": {
+                "label": "Retired"
+            },
+            "unable_to_work_per_population_perc": {
+                "label": "Permanently Unable to Work"
+            },
+            "0-4_per_population_perc": {
+                "label": "0 - 4"
+            },
+            "5-9_per_population_perc": {
+                "label": "5 - 9"
+            },
+            "10-14_per_population_perc": {
+                "label": "10 - 14"
+            },
+            "15-19_per_population_perc": {
+                "label": "15 - 19"
+            },
+            "20-24_per_population_perc": {
+                "label": "20 - 24"
+            },
+            "25-29_per_population_perc": {
+                "label": "25 - 29"
+            },
+            "30-34_per_population_perc": {
+                "label": "30 - 34"
+            },
+            "35-39_per_population_perc": {
+                "label": "35 - 39"
+            },
+            "40-44_per_population_perc": {
+                "label": "40 - 44"
+            },
+            "45-49_per_population_perc": {
+                "label": "45 - 49"
+            },
+            "50-54_per_population_perc": {
+                "label": "50 - 54"
+            },
+            "55-59_per_population_perc": {
+                "label": "55 - 59"
+            },
+            "60-64_per_population_perc": {
+                "label": "60 - 64"
+            },
+            "65-69_per_population_perc": {
+                "label": "65 - 69"
+            },
+            "70-74_per_population_perc": {
+                "label": "70 - 74"
+            },
+            "75-79_per_population_perc": {
+                "label": "75 - 79"
+            },
+            "80-84_per_population_perc": {
+                "label": "80 - 84"
+            },
+            "85-_per_population_perc": {
+                "label": "85+"
+            },
+            "languages": {
+                "label": "Spoken languages"
+            },
+            "english_per_population_perc": {
+                "label": "English Only"
+            },
+            "arabic_per_population_perc": {
+                "label": "Arabic"
+            },
+            "cantonese_per_population_perc": {
+                "label": "Cantonese"
+            },
+            "french_per_population_perc": {
+                "label": "French"
+            },
+            "german_per_population_perc": {
+                "label": "German"
+            },
+            "mandarin_per_population_perc": {
+                "label": "Mandarin"
+            },
+            "indigenous_per_population_perc": {
+                "label": "North American Indigenous"
+            },
+            "punjabi_per_population_perc": {
+                "label": "Punjabi"
+            },
+            "spanish_per_population_perc": {
+                "label": "Spanish"
+            },
+            "tagalog_per_population_perc": {
+                "label": "Tagalog (Pilipino, Filipino)"
+            },
+            "ukrainian_per_population_perc": {
+                "label": "Ukrainian"
+            },
+            "other_language_per_population_perc": {
+                "label": "Other"
+            },
+            "driver_per_population_perc": {
+                "label": "Car/Truck/Van (as Driver)"
+            },
+            "passenger_per_population_perc": {
+                "label": "Car/Truck/Van (as Passenger)"
+            },
+            "public_transport_per_population_perc": {
+                "label": "Public Transit"
+            },
+            "walk_per_population_perc": {
+                "label": "Walk"
+            },
+            "bicycle_per_population_perc": {
+                "label": "Bicycle"
+            },
+            "revenue": {
+                "label": "Revenue"
+            },
+            "-30000_per_population_perc": {
+                "label": "Less than $30,000"
+            },
+            "30000-60000_per_population_perc": {
+                "label": "$30,000 to less than $60,000"
+            },
+            "60000-100000_per_population_perc": {
+                "label": "$60,000 to less than $100,000"
+            },
+            "100000-125000_per_population_perc": {
+                "label": "$100,000 to less than $125,000"
+            },
+            "125000-150000_per_population_perc": {
+                "label": "$125,000 to less than $150,000"
+            },
+            "150000-200000_per_population_perc": {
+                "label": "$150,000 to less than $200,000"
+            },
+            "200000-250000_per_population_perc": {
+                "label": "$200,000 to less than $250,000"
+            },
+            "250000-_per_population_perc": {
+                "label": "$250,000 or more"
+            },
             "elections-presidential-2017-turn-2": {
                 "label": "Élections présidentielles 2017 tour 2"
             },
