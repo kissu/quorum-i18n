@@ -1867,7 +1867,7 @@
                 "ADD": "Add a talking point",
                 "DELETE": " | Delete 1 talking point | Delete {count} talking points",
                 "SEARCH": "Search for a note",
-                "SUBTITLE": "",
+                "SUBTITLE": "Once your briefs have been created, they can be added to your actions and made available on the mobile app",
                 "TITLE": "My talking points"
             },
             "INFORMATION": "This is where you can create talking points and notes for your team. All you have to do is link a talking point to an action to keep your team informed and turn anyone into a spokesperson.",
@@ -1921,7 +1921,11 @@
                 "ADD": "Add a document",
                 "DELETE": " | Delete 1 document | Delete {count} documents",
                 "SEARCH": "Search for a document",
+<<<<<<< HEAD
                 "SUBTITLE": "Once your documents have been added, they will be directly available on your team’s mobile application.",
+=======
+                "SUBTITLE": "Once your documents have been added, they will be directly available on your team’s mobile application",
+>>>>>>> web/master
                 "TITLE": "My documents"
             },
             "INFORMATION": "This is where you can add documents to your space. Once uploaded they will be automatically available on the mobile application of your teams.",
