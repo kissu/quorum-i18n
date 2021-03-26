@@ -1920,11 +1920,7 @@
                 "ADD": "Ajouter un document",
                 "DELETE": " | Supprimer 1 document | Supprimer {count} documents",
                 "SEARCH": "Rechercher un document",
-<<<<<<< HEAD
-                "SUBTITLE": "Une fois vos documents ajoutés, ils seront directement disponibles sur l’application mobile de vos équipes.",
-=======
                 "SUBTITLE": "Une fois vos documents ajoutés, ils seront directement disponibles sur l’application mobile de vos équipes",
->>>>>>> web/master
                 "TITLE": "Mes documents"
             },
             "INFORMATION": "C’est ici que vous pouvez ajouter des documents à votre espace. Une fois téléchargés ils seront directement disponibles sur l’application mobile de vos équipes.",
