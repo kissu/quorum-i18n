@@ -36,11 +36,12 @@
             "informationContact": "Informations complémentaires",
             "rateContact": {
                 "howTheDiscussionHasGoing": "Comment s'est passé cet entretien ?"
-            }
+            },
+            "informationContact": "Informations complémentaires"
         },
         "headQuarter": {
             "quickActions": {
-                "add": "Lancer un entretien",
+                "add": "Lancer l'entretien",
                 "addSupport": "Ajouter un contact\n",
                 "welcome": "Bienvenue cher exploreur {{firstname}} 👋"
             }
