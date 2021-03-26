@@ -2220,23 +2220,41 @@
     },
     "VENDORS": {
         "ARCHITECTURE": {
+            "-30000_per_population_perc": {
+                "label": "Less than $30,000"
+            },
             "0-14": {
                 "label": "0 - 14 years"
             },
             "0-4": {
                 "label": "0 - 4 years"
             },
+            "0-4_per_population_perc": {
+                "label": "0 - 4"
+            },
             "10-14": {
                 "label": "10 - 14 years"
             },
+            "10-14_per_population_perc": {
+                "label": "10 - 14"
+            },
+            "100000-125000_per_population_perc": {
+                "label": "$100,000 to less than $125,000"
+            },
             "11-14": {
                 "label": "11 - 14 years"
+            },
+            "125000-150000_per_population_perc": {
+                "label": "$125,000 to less than $150,000"
             },
             "15-17": {
                 "label": "15 - 17 years"
             },
             "15-19": {
                 "label": "15 - 19 years"
+            },
+            "15-19_per_population_perc": {
+                "label": "15 - 19"
             },
             "15-24": {
                 "label": "15 - 24 years"
@@ -2247,6 +2265,9 @@
             },
             "15-29": {
                 "label": "15 - 29 years"
+            },
+            "150000-200000_per_population_perc": {
+                "label": "$150,000 to less than $200,000"
             },
             "18-24": {
                 "label": "18 - 24 years"
@@ -2262,11 +2283,20 @@
             "2-5": {
                 "label": "2 - 5 years"
             },
+            "20-24_per_population_perc": {
+                "label": "20 - 24"
+            },
             "20-29": {
                 "label": "20 - 29 years"
             },
+            "200000-250000_per_population_perc": {
+                "label": "$200,000 to less than $250,000"
+            },
             "25-29": {
                 "label": "25 - 29 years"
+            },
+            "25-29_per_population_perc": {
+                "label": "25 - 29"
             },
             "25-44_ERIS_per_population_25-44_perc": {
                 "gender": "m",
@@ -2279,8 +2309,14 @@
             "25-54": {
                 "label": "25 - 54 years"
             },
+            "250000-_per_population_perc": {
+                "label": "$250,000 or more"
+            },
             "30-": {
                 "label": "30 years and above"
+            },
+            "30-34_per_population_perc": {
+                "label": "30 - 34"
             },
             "30-39": {
                 "label": "30 - 39 years"
@@ -2288,8 +2324,20 @@
             "30-44": {
                 "label": "30 - 44 years"
             },
+            "30000-60000_per_population_perc": {
+                "label": "$30,000 to less than $60,000"
+            },
+            "35-39_per_population_perc": {
+                "label": "35 - 39"
+            },
+            "40-44_per_population_perc": {
+                "label": "40 - 44"
+            },
             "40-49": {
                 "label": "40 - 49 years"
+            },
+            "45-49_per_population_perc": {
+                "label": "45 - 49"
             },
             "45-59": {
                 "label": "45 - 59 years"
@@ -2301,12 +2349,21 @@
             "5-9": {
                 "label": "5 - 9 years"
             },
+            "5-9_per_population_perc": {
+                "label": "5 - 9"
+            },
+            "50-54_per_population_perc": {
+                "label": "50 - 54"
+            },
             "50-59": {
                 "label": "50 - 59 years"
             },
             "50-64_agency_seasonal_temporary_workers_per_employees_50-64_perc": {
                 "gender": "m",
                 "label": "Agency workers among employees 50-64 y/o"
+            },
+            "55-59_per_population_perc": {
+                "label": "55 - 59"
             },
             "55-64": {
                 "label": "55 - 64 years"
@@ -2317,11 +2374,32 @@
             "60-": {
                 "label": "60 years and above"
             },
+            "60-64_per_population_perc": {
+                "label": "60 - 64"
+            },
             "60-74": {
                 "label": "60 - 74 years"
             },
+            "60000-100000_per_population_perc": {
+                "label": "$60,000 to less than $100,000"
+            },
+            "65-69_per_population_perc": {
+                "label": "65 - 69"
+            },
+            "70-74_per_population_perc": {
+                "label": "70 - 74"
+            },
             "75-": {
                 "label": "75 years and above"
+            },
+            "75-79_per_population_perc": {
+                "label": "75 - 79"
+            },
+            "80-84_per_population_perc": {
+                "label": "80 - 84"
+            },
+            "85-_per_population_perc": {
+                "label": "85+"
             },
             "A-level_score_per_entry": {
                 "label": "A-Level Average Point Score Per Entry - Period 2013 - 2014"
@@ -3660,6 +3738,12 @@
             "ambulance_incidents_per_population1000": {
                 "label": "Rate of All Ambulance Incidents per 1,000 population - 2014"
             },
+            "apprenticeship_certificate_per_population_perc": {
+                "label": "Registered Apprenticeship Certificate"
+            },
+            "arabic_per_population_perc": {
+                "label": "Arabic"
+            },
             "autres_etablissements_pour_adultes_et_familles_en_difficulte": {
                 "gender": "m",
                 "label": "Other facilities for adults and families in difficulty"
@@ -3678,6 +3762,9 @@
             "average_income": {
                 "gender": "m",
                 "label": "Average income"
+            },
+            "bachelor_degree_per_population_perc": {
+                "label": "Bachelor's Degree"
             },
             "bame_per_population_perc": {
                 "label": "% BAME (Black, Asian and Minority Ethnic) - 2011"
@@ -3739,12 +3826,18 @@
             "benefits": {
                 "label": "Social Assistance"
             },
+            "bicycle_per_population_perc": {
+                "label": "Bicycle"
+            },
             "bicycle_to_work_perc": {
                 "label": "% travel by bicycle to work - 2011"
             },
             "bru": {
                 "gender": "m",
                 "label": "Data Brussels"
+            },
+            "cantonese_per_population_perc": {
+                "label": "Cantonese"
             },
             "cars_per_household": {
                 "label": "Cars per household - 2011"
@@ -3779,6 +3872,9 @@
             "chrs_centre_d_hebergement_et_de_readaptation_sociale": {
                 "gender": "m",
                 "label": "Housing and social rehabilitation centers"
+            },
+            "college_certificate_per_population_perc": {
+                "label": "College Certificate or Diploma"
             },
             "council_2018": {
                 "label": "Council Elections 2018"
@@ -3850,6 +3946,15 @@
             "detail": {
                 "label": "Detail"
             },
+            "diploma_degrees": {
+                "label": "Diploma and degrees"
+            },
+            "doctorate_per_population_perc": {
+                "label": "Earned Doctorate"
+            },
+            "driver_per_population_perc": {
+                "label": "Car/Truck/Van (as Driver)"
+            },
             "dwelling_council_tax_bands_A-B_perc": {
                 "label": "% dwellings in council tax bands A or B - 2015"
             },
@@ -3864,216 +3969,6 @@
             },
             "elections": {
                 "label": "Elections"
-            },
-            "diploma_degrees": {
-                "label": "Diploma and degrees"
-            },
-            "no_certificate_diploma_degree_per_population_perc": {
-                "label": "No Certificate, Diploma or Degree"
-            },
-            "high_school_diploma_equivalent_per_population_perc": {
-                "label": "High School Diploma or Equivalent"
-            },
-            "trades_certificate_per_population_perc": {
-                "label": "Trades Certificate"
-            },
-            "apprenticeship_certificate_per_population_perc": {
-                "label": "Registered Apprenticeship Certificate"
-            },
-            "college_certificate_per_population_perc": {
-                "label": "College Certificate or Diploma"
-            },
-            "university_certificate_below_bachelor_per_population_perc": {
-                "label": "University Certificate Below Bachelor's Level"
-            },
-            "bachelor_degree_per_population_perc": {
-                "label": "Bachelor's Degree"
-            },
-            "university_certificate_above_bachelor_per_population_perc": {
-                "label": "University Certificate or Diploma above Bachelor Level"
-            },
-            "medical_degree_per_population_perc": {
-                "label": "Medical Degree"
-            },
-            "masters_degree_per_population_perc": {
-                "label": "Master's Degree"
-            },
-            "doctorate_per_population_perc": {
-                "label": "Earned Doctorate"
-            },
-            "no_response_per_population_perc": {
-                "label": "No Response"
-            },
-            "occupation": {
-                "label": "Occupation"
-            },
-            "preschool_per_population_perc": {
-                "label": "Preschool"
-            },
-            "kindergarten_per_population_perc": {
-                "label": "Kindergarten - Gr.6"
-            },
-            "gr7-gr9_per_population_perc": {
-                "label": "Gr.7 - Gr.9"
-            },
-            "gr10-gr12_per_population_perc": {
-                "label": "Gr.10 - Gr.12"
-            },
-            "post_secondary_student_per_population_perc": {
-                "label": "Post Secondary Student"
-            },
-            "homemaker_per_population_perc": {
-                "label": "Homemaker"
-            },
-            "employed_0-30h_per_population_perc": {
-                "label": "Employed 0-30 Hours"
-            },
-            "employed_30-h_per_population_perc": {
-                "label": "Employed 30+ Hours"
-            },
-            "unemployed_per_population_perc": {
-                "label": "Unemployed"
-            },
-            "retired_per_population_perc": {
-                "label": "Retired"
-            },
-            "unable_to_work_per_population_perc": {
-                "label": "Permanently Unable to Work"
-            },
-            "0-4_per_population_perc": {
-                "label": "0 - 4"
-            },
-            "5-9_per_population_perc": {
-                "label": "5 - 9"
-            },
-            "10-14_per_population_perc": {
-                "label": "10 - 14"
-            },
-            "15-19_per_population_perc": {
-                "label": "15 - 19"
-            },
-            "20-24_per_population_perc": {
-                "label": "20 - 24"
-            },
-            "25-29_per_population_perc": {
-                "label": "25 - 29"
-            },
-            "30-34_per_population_perc": {
-                "label": "30 - 34"
-            },
-            "35-39_per_population_perc": {
-                "label": "35 - 39"
-            },
-            "40-44_per_population_perc": {
-                "label": "40 - 44"
-            },
-            "45-49_per_population_perc": {
-                "label": "45 - 49"
-            },
-            "50-54_per_population_perc": {
-                "label": "50 - 54"
-            },
-            "55-59_per_population_perc": {
-                "label": "55 - 59"
-            },
-            "60-64_per_population_perc": {
-                "label": "60 - 64"
-            },
-            "65-69_per_population_perc": {
-                "label": "65 - 69"
-            },
-            "70-74_per_population_perc": {
-                "label": "70 - 74"
-            },
-            "75-79_per_population_perc": {
-                "label": "75 - 79"
-            },
-            "80-84_per_population_perc": {
-                "label": "80 - 84"
-            },
-            "85-_per_population_perc": {
-                "label": "85+"
-            },
-            "languages": {
-                "label": "Spoken languages"
-            },
-            "english_per_population_perc": {
-                "label": "English Only"
-            },
-            "arabic_per_population_perc": {
-                "label": "Arabic"
-            },
-            "cantonese_per_population_perc": {
-                "label": "Cantonese"
-            },
-            "french_per_population_perc": {
-                "label": "French"
-            },
-            "german_per_population_perc": {
-                "label": "German"
-            },
-            "mandarin_per_population_perc": {
-                "label": "Mandarin"
-            },
-            "indigenous_per_population_perc": {
-                "label": "North American Indigenous"
-            },
-            "punjabi_per_population_perc": {
-                "label": "Punjabi"
-            },
-            "spanish_per_population_perc": {
-                "label": "Spanish"
-            },
-            "tagalog_per_population_perc": {
-                "label": "Tagalog (Pilipino, Filipino)"
-            },
-            "ukrainian_per_population_perc": {
-                "label": "Ukrainian"
-            },
-            "other_language_per_population_perc": {
-                "label": "Other"
-            },
-            "driver_per_population_perc": {
-                "label": "Car/Truck/Van (as Driver)"
-            },
-            "passenger_per_population_perc": {
-                "label": "Car/Truck/Van (as Passenger)"
-            },
-            "public_transport_per_population_perc": {
-                "label": "Public Transit"
-            },
-            "walk_per_population_perc": {
-                "label": "Walk"
-            },
-            "bicycle_per_population_perc": {
-                "label": "Bicycle"
-            },
-            "revenue": {
-                "label": "Revenue"
-            },
-            "-30000_per_population_perc": {
-                "label": "Less than $30,000"
-            },
-            "30000-60000_per_population_perc": {
-                "label": "$30,000 to less than $60,000"
-            },
-            "60000-100000_per_population_perc": {
-                "label": "$60,000 to less than $100,000"
-            },
-            "100000-125000_per_population_perc": {
-                "label": "$100,000 to less than $125,000"
-            },
-            "125000-150000_per_population_perc": {
-                "label": "$125,000 to less than $150,000"
-            },
-            "150000-200000_per_population_perc": {
-                "label": "$150,000 to less than $200,000"
-            },
-            "200000-250000_per_population_perc": {
-                "label": "$200,000 to less than $250,000"
-            },
-            "250000-_per_population_perc": {
-                "label": "$250,000 or more"
             },
             "elections-legislative-2017-turn-1": {
                 "label": "Legislative Elections 2017 turn 1"
@@ -4105,6 +4000,12 @@
             "employed-16-64": {
                 "label": "In employment (16-64) - 2011"
             },
+            "employed_0-30h_per_population_perc": {
+                "label": "Employed 0-30 Hours"
+            },
+            "employed_30-h_per_population_perc": {
+                "label": "Employed 30+ Hours"
+            },
             "employment": {
                 "label": "Employment"
             },
@@ -4128,6 +4029,9 @@
             "enfants_handicapes_services_a_domicile_ou_ambulatoires": {
                 "gender": "m",
                 "label": "Ambulatory and home help services"
+            },
+            "english_per_population_perc": {
+                "label": "English Only"
             },
             "ethnic_foreign": {
                 "label": "Origins"
@@ -4518,6 +4422,9 @@
                 "gender": "m",
                 "label": "Foreigners"
             },
+            "french_per_population_perc": {
+                "label": "French"
+            },
             "garde_d_enfant_d_age_prescolaire": {
                 "gender": "m",
                 "label": "Preschools"
@@ -4525,8 +4432,17 @@
             "general_fertility_rate": {
                 "label": "General Fertility Rate - 2013"
             },
+            "german_per_population_perc": {
+                "label": "German"
+            },
             "global": {
                 "label": "Global"
+            },
+            "gr10-gr12_per_population_perc": {
+                "label": "Gr.10 - Gr.12"
+            },
+            "gr7-gr9_per_population_perc": {
+                "label": "Gr.7 - Gr.9"
             },
             "graduation": {
                 "label": "Bachelor's degree"
@@ -4538,8 +4454,14 @@
             "high_education": {
                 "label": "Higher education"
             },
+            "high_school_diploma_equivalent_per_population_perc": {
+                "label": "High School Diploma or Equivalent"
+            },
             "higher_education": {
                 "label": "Graduate studies"
+            },
+            "homemaker_per_population_perc": {
+                "label": "Homemaker"
             },
             "household_status": {
                 "gender": "m",
@@ -4618,6 +4540,9 @@
             "indice_of_depravation": {
                 "label": "Rank of average score (within London) - 2010"
             },
+            "indigenous_per_population_perc": {
+                "label": "North American Indigenous"
+            },
             "iris_id": {
                 "label": "New code"
             },
@@ -4639,6 +4564,12 @@
             },
             "killed_injured_road": {
                 "label": "Number Killed or Seriously Injured on the roads - 2014"
+            },
+            "kindergarten_per_population_perc": {
+                "label": "Kindergarten - Gr.6"
+            },
+            "languages": {
+                "label": "Spoken languages"
             },
             "legislative": {
                 "label": "Legislative"
@@ -5151,6 +5082,12 @@
                 "gender": "m",
                 "label": "Unemployment rate Men (15 - 64 years)"
             },
+            "mandarin_per_population_perc": {
+                "label": "Mandarin"
+            },
+            "masters_degree_per_population_perc": {
+                "label": "Master's Degree"
+            },
             "median_age": {
                 "label": "Median Age - 2013"
             },
@@ -5159,6 +5096,9 @@
             },
             "median_household_income": {
                 "label": "Median Household income estimate - Period 2012 - 2013"
+            },
+            "medical_degree_per_population_perc": {
+                "label": "Medical Degree"
             },
             "municipal": {
                 "label": "Municipal"
@@ -5187,6 +5127,9 @@
             "municipality_label": {
                 "label": "Municipality Label"
             },
+            "no_certificate_diploma_degree_per_population_perc": {
+                "label": "No Certificate, Diploma or Degree"
+            },
             "no_education": {
                 "label": "No education"
             },
@@ -5195,6 +5138,9 @@
             },
             "no_qualifications_perc": {
                 "label": "% with no qualifications - 2011"
+            },
+            "no_response_per_population_perc": {
+                "label": "No Response"
             },
             "none": {
                 "label": "Without diploma"
@@ -5208,6 +5154,9 @@
             "obese_per_children_reception_year": {
                 "label": "% children in reception year who are obese - Period 2011 - 2014"
             },
+            "occupation": {
+                "label": "Occupation"
+            },
             "open_space_area_perc": {
                 "label": "% area that is open space - 2014"
             },
@@ -5218,6 +5167,9 @@
                 "gender": "m",
                 "label": "Other types of housholds per households"
             },
+            "other_language_per_population_perc": {
+                "label": "Other"
+            },
             "out-of-work_benefits_claimant_rate": {
                 "label": "Claimant rate of key out-of-work benefits (working age client group) (2014)"
             },
@@ -5226,6 +5178,9 @@
             },
             "owner_tenant": {
                 "label": "Owner / Tenant"
+            },
+            "passenger_per_population_perc": {
+                "label": "Car/Truck/Van (as Passenger)"
             },
             "per_all": {
                 "label": "Of contacts in zone"
@@ -5737,11 +5692,17 @@
                 "gender": "m",
                 "label": "Share of the working population which walks to work"
             },
+            "post_secondary_student_per_population_perc": {
+                "label": "Post Secondary Student"
+            },
             "poverty": {
                 "label": "Poverty"
             },
             "preschool": {
                 "gender": "m",
+                "label": "Preschool"
+            },
+            "preschool_per_population_perc": {
                 "label": "Preschool"
             },
             "presidential": {
@@ -5759,6 +5720,12 @@
             "properties_sold": {
                 "label": "Number of properties sold - 2014"
             },
+            "public_transport_per_population_perc": {
+                "label": "Public Transit"
+            },
+            "punjabi_per_population_perc": {
+                "label": "Punjabi"
+            },
             "region": {
                 "label": "Region"
             },
@@ -5770,6 +5737,12 @@
             },
             "registration_migrant_workers_rate": {
                 "label": "Rate of new registrations of migrant workers - Period 2011 - 2012"
+            },
+            "retired_per_population_perc": {
+                "label": "Retired"
+            },
+            "revenue": {
+                "label": "Revenue"
             },
             "rooms": {
                 "label": "Number of rooms"
@@ -5808,6 +5781,9 @@
             "socio-eco": {
                 "label": "Socio-economic variables"
             },
+            "spanish_per_population_perc": {
+                "label": "Spanish"
+            },
             "status": {
                 "label": "Status"
             },
@@ -5820,6 +5796,9 @@
             "surface": {
                 "label": "Surface"
             },
+            "tagalog_per_population_perc": {
+                "label": "Tagalog (Pilipino, Filipino)"
+            },
             "tags": {
                 "label": "Tag"
             },
@@ -5828,6 +5807,9 @@
             },
             "terraced_houses_perc": {
                 "label": "% terraced houses - 2011"
+            },
+            "trades_certificate_per_population_perc": {
+                "label": "Trades Certificate"
             },
             "training_formation": {
                 "label": "Education and training"
@@ -5849,6 +5831,12 @@
             },
             "type": {
                 "label": "Type of studies"
+            },
+            "ukrainian_per_population_perc": {
+                "label": "Ukrainian"
+            },
+            "unable_to_work_per_population_perc": {
+                "label": "Permanently Unable to Work"
             },
             "unauthorised_absence_perc": {
                 "label": "Unauthorised Absence in All Schools (%) - 2013"
@@ -5884,6 +5872,9 @@
             "unemployed_55-64_per_workforce_55-64": {
                 "gender": "m",
                 "label": "Unemployment rate 55-64 years"
+            },
+            "unemployed_per_population_perc": {
+                "label": "Unemployed"
             },
             "unemployment": {
                 "gender": "m",
@@ -5921,6 +5912,12 @@
                 "gender": "m",
                 "label": "Unemployment rate 60 years and more"
             },
+            "university_certificate_above_bachelor_per_population_perc": {
+                "label": "University Certificate or Diploma above Bachelor Level"
+            },
+            "university_certificate_below_bachelor_per_population_perc": {
+                "label": "University Certificate Below Bachelor's Level"
+            },
             "violence_against_person_rate": {
                 "label": "Violence against the person rate - Period 2014 - 2015"
             },
@@ -5945,6 +5942,9 @@
             "wal_and_bru": {
                 "gender": "m",
                 "label": "Data Wallonia and Brussels"
+            },
+            "walk_per_population_perc": {
+                "label": "Walk"
             }
         },
         "ELEMENT_UI": {
