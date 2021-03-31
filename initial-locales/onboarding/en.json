@@ -34,7 +34,11 @@
             "PACK_PRICE_DETAILS": "Pack's details :"
         },
         "SEND_SMS_FROM_QUORUM_DESC": "Give more impact to your cause with Quorum SMS.",
-        "SEND_SMS_FROM_QUORUM_TITLE": "Send sms from Quorum"
+        "SEND_SMS_FROM_QUORUM_TITLE": "Send sms from Quorum",
+        "SETUP_VAT_NOT_COMPLETE": {
+            "DESC": "To activate the purchase of an SMS pack on your campaign, contact our support.",
+            "CTA_SUPPORT": "Request"
+        }
     },
     "_COMMON": {
         "BACK_TO_QUORUM": "Back to Quorum",
