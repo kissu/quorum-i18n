@@ -36,8 +36,8 @@
         "SEND_SMS_FROM_QUORUM_DESC": "Donner encore plus d'impact à votre cause en activant la fonctionnalité d'envoi SMS",
         "SEND_SMS_FROM_QUORUM_TITLE": "Envoyer des SMS depuis Quorum",
         "SETUP_VAT_NOT_COMPLETE": {
-            "DESC": "Pour activer l'achat de pack SMS sur votre campagne, contactez notre support.",
-            "CTA_SUPPORT": "Demander"
+            "CTA_SUPPORT": "Demander",
+            "DESC": "Pour activer l'achat de pack SMS sur votre campagne, contactez notre support."
         }
     },
     "_COMMON": {
