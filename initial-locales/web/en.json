@@ -580,7 +580,7 @@
                 "DEFAULT_ANALYSIS": "Priority zones",
                 "DETAIL_LEVEL": "Detail level",
                 "DONE": "Done",
-                "EMPTY_DATA": "Display without data",
+                "EMPTY_DATA": "Display by default",
                 "EXTRAPOLATION": "Warning - Data extrapolation",
                 "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "HOW_IS_PRIO_MADE": "How are high priority zones determined?",
@@ -6062,8 +6062,8 @@
             }
         },
         "GROUPS": {
-            "data": "Socio-economic data",
-            "prio": "Profile and custom analysis"
+            "data": "Raw data",
+            "prio": "Mobilisation"
         },
         "LEAFLET": {
             "DRAW": {

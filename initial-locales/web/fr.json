@@ -580,7 +580,7 @@
                 "DEFAULT_ANALYSIS": "Territoires prioritaires",
                 "DETAIL_LEVEL": "Contours ",
                 "DONE": "Fait",
-                "EMPTY_DATA": "Affichage sans donnée",
+                "EMPTY_DATA": "Affichage par défaut",
                 "EXTRAPOLATION": "Attention - Extrapolation des données",
                 "EXTRAPOLATION_ARTICLE": "http://help.quorum.co/fr/articles/5016834-comment-marche-l-extrapolation-des-donnees",
                 "HOW_IS_PRIO_MADE": "Comment est construite ma priorisation ?",
@@ -6061,8 +6061,8 @@
             }
         },
         "GROUPS": {
-            "data": "Données socio-économiques",
-            "prio": "Profils et analyses personnalisées"
+            "data": "Données brutes",
+            "prio": "Mobilisation"
         },
         "LEAFLET": {
             "DRAW": {
