@@ -695,6 +695,7 @@
                 "WARNING": "Warning, you need to select at least one variable per category !"
             },
             "TREE": {
+                "AVAILABLE_SOON": "Available soon",
                 "NO_MORE_VALUE": "No additional choices",
                 "SELECT_DATA": "Pick a data category"
             }

@@ -694,6 +694,7 @@
                 "WARNING": "Attention, vous devez selectionner au moins une variable par catégorie !"
             },
             "TREE": {
+                "AVAILABLE_SOON": "Prochainement disponible",
                 "NO_MORE_VALUE": "Pas de choix supplémentaires",
                 "SELECT_DATA": "Choisir une donnée"
             }
